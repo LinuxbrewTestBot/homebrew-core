@@ -10,6 +10,7 @@ class SphinxDoc < Formula
     sha256 "6f3a3ab0c4106d1e2ef3248ae95550234b285f4339bed73e7c4445dd8473cd5a" => :el_capitan
     sha256 "981eef30ad42a1bfb04ddc2aec53dfbbfb7e4acc6797b0371e0a25c89e56eec5" => :yosemite
     sha256 "96f89a5d05cb08afeb9f847be349f05d706b4484bf94bd5693bc9319f4fd9352" => :mavericks
+    sha256 "889feba8bf0b4af342026da67678214af28599a3b863bdfbb1722f9f2a13f83a" => :x86_64_linux
   end
 
   keg_only <<-EOS.undent
