@@ -13,6 +13,7 @@ class Gdbm < Formula
     sha256 "1ad0aacc00881d05f8f894d8d117e4e0b8b5f5afc15a37a3f7c735c040ef0c5a" => :yosemite
     sha256 "440dc9069280d474af52847f18dbcdbb10813a237522f650fcbe6c63dae784dc" => :mavericks
     sha256 "bf77827fb3e51ed8691ed357014343f72587cbd2dd7248922ac8f70117e4c5e8" => :mountain_lion
+    sha256 "6519eea64193f5d03d70efda0f24c8184ed7559dae1e753d5306942d502399bd" => :x86_64_linux
   end
 
   option :universal
