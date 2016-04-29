@@ -15,6 +15,7 @@ class Imagemagick < Formula
     sha256 "69bb41b7508782d9872dacbce53d8d9788a52ab74573c5e5e23a9004879c275a" => :el_capitan
     sha256 "c6849cde7067a0a11dcbb6ff44bac17f659ff67f75597836246fc6ef621a099a" => :yosemite
     sha256 "0a5367b1ffbda4793a7d86ccbe06fc36395769b468f54a4c2316aa25ec44e8ee" => :mavericks
+    sha256 "c244594af8a72f37db3dd7fb3a2e627533d168c802f5447f3aca5d9b93fb4e3a" => :x86_64_linux
   end
 
   deprecated_option "enable-hdri" => "with-hdri"
