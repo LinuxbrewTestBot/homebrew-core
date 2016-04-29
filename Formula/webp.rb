@@ -6,10 +6,11 @@ class Webp < Formula
   sha256 "5cd3bb7b623aff1f4e70bd611dc8dbabbf7688fd5eb225b32e02e09e37dfb274"
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "529d1728871778a8c9f1a698077d074d264aedce93bf6e7e0c7d197a931e46aa" => :el_capitan
     sha256 "d2df3e42efcb574601a4ced6f9a4174014aa20696a453a4ce76b2877d5a74594" => :yosemite
     sha256 "1ace7ca51265fcb6c3490ded7e209678b3648eb87d06473533b6435a8b71f543" => :mavericks
+    sha256 "db574d7798c4566e4603850a0c4b987ee2763e98dee5d5d3d959dc70cf9d15ba" => :x86_64_linux
   end
 
   head do
