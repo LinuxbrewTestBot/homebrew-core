@@ -8,6 +8,7 @@ class Flex < Formula
     sha256 "5ff47ed93df4c58a708c88d5638180dc989e17f1ac0ef2caf13bba20d32e646a" => :el_capitan
     sha256 "a66259c848d0afb9b825b8f3cf9a303c33e815d5ba419a1c5401342d1ff43a9f" => :yosemite
     sha256 "b2aeeaaa2b4de481c5b4fad5e3250b5e3e878bb7dd321b5234575d2b184a86be" => :mavericks
+    sha256 "06ff9fb7095634d2ca0993b5085e36816619c3c3fd20dd7d9f6f09110b21ebc2" => :x86_64_linux
   end
 
   keg_only :provided_by_osx, "Some formulae require a newer version of flex."
