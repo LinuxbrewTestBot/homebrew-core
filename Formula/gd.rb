@@ -7,10 +7,11 @@ class Gd < Formula
   revision 2
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "07dcaf06b6f4b55fa209f1ad8a03ef549abfc789b820c7fc77762037337557df" => :el_capitan
     sha256 "acb0d79ec9ae9cbe1c114d0a772821036926dc8b2d5d09a9945037a49db21719" => :yosemite
     sha256 "7f96680ac98c529395492865f7a7ffe056e130a99c1006978682620dfa0da365" => :mavericks
+    sha256 "a99501934c63ea44048186a2da02f3cbe05107de8b36fd87fa35d08d9bdbdbb7" => :x86_64_linux
   end
 
   head do
