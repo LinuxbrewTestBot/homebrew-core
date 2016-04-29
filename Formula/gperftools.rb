@@ -10,6 +10,7 @@ class Gperftools < Formula
     sha256 "b53926eaf6db1fa5ff0e9c3412628db838a070ce57d16581f9d596a9728b47ca" => :el_capitan
     sha256 "9ce10dbc6d575ce7004ac8fa5e97d188bbd0d5dbb76e1058e5c5069e9a8e4c11" => :yosemite
     sha256 "6036aafcbbce98242174d9481b14112ec947598452f493878b1394d08e6ca275" => :mavericks
+    sha256 "ae9592f5356a51f0637a3fe1d7db02fc561bed7dcbf9da650cee7a422033053a" => :x86_64_linux
   end
 
   fails_with :llvm do
