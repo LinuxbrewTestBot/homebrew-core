@@ -13,6 +13,7 @@ class Libffi < Formula
     sha256 "aa60d56351d36a45f2e7f16114fc17f9bd8fe805931f36d744c6ccb5fa5df238" => :mavericks
     sha256 "fad1fe049554d37471408fe451ef2e46628177c94eaafb23a3af56336603baad" => :mountain_lion
     sha256 "dc4718ebb77ff384386e0ef1782d8418c821637044b5dff7c08f21c401d0668d" => :lion
+    sha256 "318910b584301480336972ed21161aae751697c9564fc9fcf2c5f7ebfa73edc1" => :x86_64_linux
   end
 
   head do
