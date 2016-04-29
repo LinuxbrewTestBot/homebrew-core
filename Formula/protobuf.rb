@@ -17,6 +17,7 @@ class Protobuf < Formula
     sha256 "b1a6c4508ec66e706929e3e34a5b57b3c881c5ac1e3d0fc7c4b3598f97902c7f" => :el_capitan
     sha256 "5c21d50d1d3ca2dc2906bba174bfb4ec0d55c0f16bac5541abf3180e68f885c2" => :yosemite
     sha256 "6f6a30044450bb3e2d420fea3435d0c84594b197ea0d3a54bca473e3b4c855b5" => :mavericks
+    sha256 "c3ae93e1631ae213c2a1db05265860dc447ebda4ce149efba257aa3fbd71d5eb" => :x86_64_linux
   end
 
   devel do
