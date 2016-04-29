@@ -8,13 +8,13 @@ class Readline < Formula
   revision 1 if OS.linux?
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "9d38481c935cef21ead25c294285b78a9e8fa556fd15ede9126926c055c40d37" => :el_capitan
     sha256 "d0cdb3e162c05e21c7184e86629f04685d4be98e38cbf024373142bf8764500e" => :yosemite
     sha256 "adcc6352d3fb271a1e9ce034d80996405a5c46afbd1bab1507d3ff5e89e02bc1" => :mavericks
     sha256 "6b1d7e806e169e2b778371d74e7cc62106c348ea9f5c80fd658b763b94dc748e" => :mountain_lion
     sha256 "c129333634dd00ab2267ae9c531fca1f5cc50dd519ed3399918289fdfdf2663b" => :lion
-    sha256 "0cf8e6ac481b5b99139f92783019b756a74756cd4720d60c5ae10e24d963d1d6" => :x86_64_linux
+    sha256 "216fe1849c0438c2ad1c9ad11a09a41820d6eee8eb87d724b627826ce592da1f" => :x86_64_linux
   end
 
   keg_only :shadowed_by_osx, <<-EOS.undent
