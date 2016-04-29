@@ -11,10 +11,11 @@ class Freetype < Formula
   # See https://github.com/Homebrew/homebrew/pull/44587
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "03d81469f42b34176ad9b7a382a2ab613445541a57e3db02e80121508cc43309" => :el_capitan
     sha256 "ff8df778e420e76ac823fb5d31b3bfd1d89be87aa664bb1140bb44508f4d5e23" => :yosemite
     sha256 "ecfb1b9f4dcce361d4c40367dc205842411cbcbb6628238da571aff84caf05c3" => :mavericks
+    sha256 "1f3f292fddcb18fd590394a1ded65a08a1ca5cd1885cf6419ca2ce9af3ac2feb" => :x86_64_linux
   end
 
   keg_only :provided_pre_mountain_lion
