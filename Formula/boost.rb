@@ -8,11 +8,12 @@ class Boost < Formula
   head "https://github.com/boostorg/boost.git"
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     revision 1
     sha256 "932c8ad1cbf1acef67e8ff18ff6eddd8eb995c2670ba89f1d9525c41517e132b" => :el_capitan
     sha256 "677e37a021fc677f9e6f15c1511ea2ac33f247ec25ea85ac90e5fa11419386db" => :yosemite
     sha256 "fa6ee8ea6a5975fb94235db3d3c18681011289b4d1588ff675259b2088aaff21" => :mavericks
+    sha256 "b3755eba807836168e626d7aceeeb2bc98176703901d0a41632f184c52b7aa14" => :x86_64_linux
   end
 
   # Handle compile failure with boost/graph/adjacency_matrix.hpp
