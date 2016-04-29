@@ -6,10 +6,11 @@ class Zeromq < Formula
   sha256 "e99f44fde25c2e4cb84ce440f87ca7d3fe3271c2b8cfbc67d55e4de25e6fe378"
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "a0875f5b8256eafaf86e311046a2321edcb7af829db59cc6bb8c2ef6a3d26886" => :el_capitan
     sha256 "0bf4140e81b230f09ce7e2f4cffc54c8343c0ef99526770f782336d2225567ab" => :yosemite
     sha256 "b3fdd2f17ea70e3f9ea2d3363d141b0b7eb73fe65f480dd24400bdf0ddbd8ccd" => :mavericks
+    sha256 "2d2b1f7d8db3a62aa5efad1f04f57a555b1acbc7ea667cc8d888027875ad57dd" => :x86_64_linux
   end
 
   head do
