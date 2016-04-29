@@ -10,6 +10,7 @@ class Premake < Formula
     sha256 "02f55d278bd04f5e1ebf779e9a45921ea476fdb48e56ac52f0a71cbef541bc39" => :el_capitan
     sha256 "71c9f710b6c595054a2bc27c484b2ec684a9a14ffe5771112891e2a5226b4cbf" => :yosemite
     sha256 "b67d28d0978c30da8d3988b289772e2f0f6dd0b5ea21bd8bce4049cfca095b46" => :mavericks
+    sha256 "c374b3aaced55f55fc80219edf2183b22fa5fd1102306b3b7492e992cc9157e9" => :x86_64_linux
   end
 
   devel do
