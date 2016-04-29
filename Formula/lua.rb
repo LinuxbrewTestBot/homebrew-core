@@ -10,6 +10,7 @@ class Lua < Formula
     sha256 "5e52670b9b9c2554018545afcc13a08efde638aab521d39740c273992fc65922" => :el_capitan
     sha256 "3a1f5bfe0fd490c96e933b0726d327079b6a1cd6b9e881440173351ff9a349ad" => :yosemite
     sha256 "a84d3ebd9afa4a61b0120471e5a0dfcc670d294701a64edebd25fcc815fe76f8" => :mavericks
+    sha256 "dbd6ee6e2dda9676b3b94de7cb862cb48aa1b7a8f35bc323a3fd9f9024f72a79" => :x86_64_linux
   end
 
   pour_bottle? do
