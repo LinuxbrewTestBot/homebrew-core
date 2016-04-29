@@ -9,6 +9,7 @@ class Python3 < Formula
     sha256 "a15feed8e9ff551e8f8ec5d56298223dce898a832c446a34a0aa773b000e968c" => :el_capitan
     sha256 "dbb3625c9cd6b31e496f78e776821d3c3e8f30a7db39f7dea1801a5b19187b64" => :yosemite
     sha256 "228380b8fb1ed6f496c6b071443ecdf98b1130aa840a4e2bd9ccae3dc7bb2713" => :mavericks
+    sha256 "66115737b10adaca071fd803ccf02ebe0d9f1678eec8cac09f95aeb7049b7b76" => :x86_64_linux
   end
 
   head "https://hg.python.org/cpython", :using => :hg
