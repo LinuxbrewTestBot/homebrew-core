@@ -6,11 +6,12 @@ class Libvorbis < Formula
   sha256 "54f94a9527ff0a88477be0a71c0bab09a4c3febe0ed878b24824906cd4b0e1d1"
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "e0bf33971c2a59b9503b8f39f68a1aa44e25dd292d610d77508015638170e274" => :el_capitan
     sha256 "cf396496dc6daea304bb81e9e099831c97bf6756ac91954c26993cbb39bc97c2" => :yosemite
     sha256 "9e042bea299b9fb2dcc7bac8140ae3544d1bbe74a8ce3b6204836d2704f641bf" => :mavericks
     sha256 "0f9ad569a98c521e28447cd85ecc18e7a4a61585564d86251d3225b0099f84aa" => :mountain_lion
+    sha256 "02d462530deb0317e5ee59768152b03f3a3a71bbbb933c8f1c0d4063a79f3e54" => :x86_64_linux
   end
 
   head do
