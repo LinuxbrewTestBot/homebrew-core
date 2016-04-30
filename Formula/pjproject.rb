@@ -5,10 +5,11 @@ class Pjproject < Formula
   sha256 "086f5e70dcaee312b66ddc24dac6ef85e6f1fec4eed00ff2915cebe0ee3cdd8d"
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "38f3a930783d7236623b0d90d1be5ab8334c126a49cde9b49dd12cbe1e601b7c" => :el_capitan
     sha256 "5c4ace5e1cf0aebf00f6a02967a09164659c4adbe24221f54bc4c2d8e6777db5" => :yosemite
     sha256 "3fb7e329490962df23a0d89574d3469abb2a9dbc9cd279133f4eff79cc1744f6" => :mavericks
+    sha256 "95d9d53df88a5ee522c4a5a5586b3d9042a51679bcca760e62077dec377416bb" => :x86_64_linux
   end
 
   depends_on "openssl"
