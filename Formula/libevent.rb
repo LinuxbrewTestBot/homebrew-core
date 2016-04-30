@@ -6,11 +6,12 @@ class Libevent < Formula
   sha256 "71c2c49f0adadacfdbe6332a372c38cf9c8b7895bb73dabeaa53cdcc1d4e1fa3"
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "968c69226279617bd8abc9641c602706e184ad8fab99275675070cf65a99d3eb" => :el_capitan
     sha256 "a7d3b12f1159fdb17ad77cf323a83fd7a0b961f6ec90f56129aa70e067d24557" => :yosemite
     sha256 "fe2eac7bcc675e5fddc5df9a9ff1428ec666d1aac495b363410a28c8dd2fe86f" => :mavericks
     sha256 "2dfd0517ff3a0065bc07d742ae2fe44075cb99a33bffa4cb88a5bff886d630d3" => :mountain_lion
+    sha256 "ba17924de3786c7c983be820bf115790c195848ec8a768c034a3f4aef84f1aff" => :x86_64_linux
   end
 
   head do
