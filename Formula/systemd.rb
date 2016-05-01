@@ -4,6 +4,10 @@ class Systemd < Formula
   homepage "https://wiki.freedesktop.org/www/Software/systemd/"
   url "http://www.freedesktop.org/software/systemd/systemd-221.tar.xz"
   sha256 "085e088650afbfc688ccb13459aedb1fbc7c8810358605b076301f472d51cc4f"
+  bottle do
+    sha256 "b24ff69678f718005768a023d1c264c2486cc69027be407107341c5f648d0fcd" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   depends_on "homebrew/dupes/gperf" => :build
