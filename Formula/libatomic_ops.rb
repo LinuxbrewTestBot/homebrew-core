@@ -11,6 +11,7 @@ class LibatomicOps < Formula
     sha256 "cbb473e519b1a3ca0652a994b27d0e1e79be1a620e0a633f81a613127fb6ed44" => :el_capitan
     sha256 "9a149cc8ba1978bd27eeac295ba0b68026d32b4f732f61937534435cbf3e5558" => :yosemite
     sha256 "74f72421aaf164af27890dc4d53d87fd1e06ca175c611d474b782afd967cd399" => :mavericks
+    sha256 "32a6237ecb85237fbf3b1e564b03f0a90cd0433d1e87acee59dc20c9e7a8e917" => :x86_64_linux
     sha256 "b9d20bfe742eb48b6bc491459ee20f69acde47e757b03817544e79c5be80ec61" => :mountain_lion
   end
 
