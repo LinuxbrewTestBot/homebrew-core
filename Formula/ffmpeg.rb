@@ -9,6 +9,7 @@ class Ffmpeg < Formula
     sha256 "754cd2da64d2dda3aab3bca329757e102c781678ee9289e3ed238f5a639229cf" => :el_capitan
     sha256 "b9a08881ea2053b739b92cb7dfdef4ce704ffef1776c68173e5e08c996c94004" => :yosemite
     sha256 "1ce859c211f6759e1eac392ca85f91f99d89e464520312edd9f96618e97626b3" => :mavericks
+    sha256 "2e940f8d61c74b1f4c38b127766adf05264b1d05b07657473bc6dd6f669c0ee6" => :x86_64_linux
   end
 
   option "without-x264", "Disable H.264 encoder"
