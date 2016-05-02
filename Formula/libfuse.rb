@@ -5,6 +5,10 @@ class Libfuse < Formula
   url "https://github.com/libfuse/libfuse/archive/fuse_2_9_5.tar.gz"
   sha256 "ccea9c00f7572385e9064bc55b2bfefd8d34de487ba16d9eb09672202b5440ec"
   head "https://github.com/libfuse/libfuse.git"
+  bottle do
+    sha256 "1c29503e1008d72d58bc2d6efc4ac38500116b3f5794f4aaf16b81afb25827d9" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   depends_on "autoconf" => :build
