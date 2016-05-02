@@ -4,6 +4,10 @@ class Elfutils < Formula
   homepage "https://fedorahosted.org/elfutils/"
   url "https://fedorahosted.org/releases/e/l/elfutils/0.163/elfutils-0.163.tar.bz2"
   sha256 "7c774f1eef329309f3b05e730bdac50013155d437518a2ec0e24871d312f2e23"
+  bottle do
+    sha256 "99c141bcce532d5f70a3754028faf3c6c93ed3e6c6861ad633173ad334afef5e" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   depends_on "xz"
