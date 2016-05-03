@@ -9,6 +9,7 @@ class Nickle < Formula
     sha256 "8800a7c9508372d13a9d72e75c0db9d5aade8b1cb919b369da65574831b7f086" => :el_capitan
     sha256 "bd50768f3a76f35e0343eb44ece0e7c756782dbecfc408a7519ee8202a396907" => :yosemite
     sha256 "d153d5db01c1b232a472958310d0529ad1e845b1bbfc785f025523e21a5bffa9" => :mavericks
+    sha256 "c3f671f3808910bccb1af6485c4464153f591cacc11a2d6ad33fdba032d16849" => :x86_64_linux
   end
 
   depends_on "readline"
