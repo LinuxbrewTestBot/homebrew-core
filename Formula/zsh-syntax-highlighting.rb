@@ -11,6 +11,7 @@ class ZshSyntaxHighlighting < Formula
     sha256 "96a78e71b1863e90d393aa4e5d4f4c9632a9fccd5502026c8a5d38692804305a" => :el_capitan
     sha256 "51d52d71796737c9386386cd614830bb4b786316413fdba6ee21425bc1e15f74" => :yosemite
     sha256 "2c7a792630e51a3283f9dc4f5785f1d8a812cfa0bd78a3d26c4e0ac473391302" => :mavericks
+    sha256 "b1c27d0287f70ef0d862da4069aa90ee4945d88eb34180dc8909b82ec904c7d2" => :x86_64_linux
   end
 
   def install
