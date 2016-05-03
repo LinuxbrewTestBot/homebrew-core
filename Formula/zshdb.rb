@@ -11,6 +11,7 @@ class Zshdb < Formula
     sha256 "4542047a09ea1d1d19cc4a5aecd29b8a56216bbb0c0fb1b5f18d4e469281edfa" => :el_capitan
     sha256 "7f327123ad69da56e966c329311f94aeb46725bdd69513eb819a81681ee22ec0" => :yosemite
     sha256 "3ad6c3dcefdf709effcc367353982383a1743d07a525970e3b36e0882bfbe645" => :mavericks
+    sha256 "43b89a6be027bea1039e19d5496887f82aec322c48e0e6d3238a926a385b3b69" => :x86_64_linux
   end
 
   head do
