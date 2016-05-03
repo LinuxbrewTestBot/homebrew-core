@@ -11,6 +11,7 @@ class Mksh < Formula
     sha256 "e0535cfd7418370c6292a2dc0d26afce8008c6cd2c2915798d1bfd7e96df9087" => :el_capitan
     sha256 "1ec672da1a859bdb7138b11e2cbf71a24272e2bc673f11d783401bbb35feea2e" => :yosemite
     sha256 "5d0a11d6cefb9dc4c54a88adc7b5dd204449d8aadaa716c170a41cd4dc3dbbe9" => :mavericks
+    sha256 "df5c0231844d1b2270dcf6bdb1ca50668c117b2bc87ae56ef62e4111e62e9219" => :x86_64_linux
   end
 
   def install
