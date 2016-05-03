@@ -11,6 +11,7 @@ class Emacs < Formula
     sha256 "2442a949678d9b3cbe99e9b504917a641de57258d2a40dc85e8a70efae82bb38" => :el_capitan
     sha256 "751b8b481b30870273243eae77ea08eb2b0b5a2fbcbc62453b7cf7632ac69445" => :yosemite
     sha256 "3889a7cbda704f604b3a6187c8683ea1e6e4e600e1e7a0b8b59f33533e8f3023" => :mavericks
+    sha256 "72cc0d70966ecc6b6cf0e74c501d0c3c7e9adc116b5c667f8cf323b6b021cdc2" => :x86_64_linux
   end
 
   devel do
