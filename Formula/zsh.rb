@@ -11,6 +11,7 @@ class Zsh < Formula
     sha256 "9280222796df420ebd732dae9b7a3b31db131c094ba57da97d10c8c77761ef98" => :el_capitan
     sha256 "dc37a7a9b7b5ea54b94efb127f1c72262665ed1886054f32bb7770ee98f43d2a" => :yosemite
     sha256 "4fc05803a2894bf578be48e5c2451ffa1fc0531a0e9fd202821166a51db0a248" => :mavericks
+    sha256 "b4abe56ef784debf0d78a3285cd56296838367f1aa0b4489b464115364c6ea3b" => :x86_64_linux
   end
 
   head do
