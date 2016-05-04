@@ -10,6 +10,7 @@ class Dash < Formula
     sha256 "1d08e01233adc37f077c6d27bfc78851846ebeca0ec7e01ec92d67c9eac3d229" => :el_capitan
     sha256 "247132088e1b1e3b3b63ef2c063e9e90eff4830cc5d0bb136f9ee8ae7e5713a0" => :yosemite
     sha256 "06cf9f55f34065fce33b245dfb5166f642325ae52dc94005c2565e991b81c0d9" => :mavericks
+    sha256 "dc14875909cae5b2b06b9d3fe056055fa4a11c6e0c16577e1fd92aaf569fede8" => :x86_64_linux
     sha256 "34a644c17e05c1506e5ae7d77c60a522c6f7eaf677dd3dd4c00c1b4a769bfda0" => :mountain_lion
   end
 
