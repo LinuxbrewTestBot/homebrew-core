@@ -6,10 +6,11 @@ class Gmime < Formula
   sha256 "e0a170fb264c2ae4cecd852f4e7aaddb8d58e8f3f0b569ce2d2a4704f55bdf65"
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "848440f6eaec305993135ee8708b81ad5ae2cfa9cfb5f7e6fcc8f4d077e9eda0" => :el_capitan
     sha256 "445348c5634172858befc936961626d1bc45ee6e6119f11b764032efc1b96687" => :yosemite
     sha256 "be33acb8e9285f2d17a0895fb7c85b0938c517708e81ea3de34a86065f0c49cd" => :mavericks
+    sha256 "2b8ba27fe034d972ed741dcd1aab101fa682dc7c1f1ec4c5d3784ef258733ccf" => :x86_64_linux
     sha256 "89e935d9ed23f2c5c426e2f19a112a682e71e805ac89f7faf91f102e24676691" => :mountain_lion
   end
 
