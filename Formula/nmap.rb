@@ -10,6 +10,7 @@ class Nmap < Formula
     sha256 "1225505f7b77cafa55d300adffc2e1c5945d090a20cb18c417bead62a2eb0409" => :el_capitan
     sha256 "a57b65e0c14e232b332b332bbaa5e3ab9b07b4b07e9e3f36dc1cc6afbb4d42f9" => :yosemite
     sha256 "be7ba56789fa1aa900396955d2a99c1929907ca8df1a9ccd37081d5178c440de" => :mavericks
+    sha256 "33447c9e6f4d85a2df3e5943e7e52bede9e543e363624d5fdb0d7bc4f84a5c10" => :x86_64_linux
   end
 
   depends_on "openssl"
