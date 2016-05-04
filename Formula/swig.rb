@@ -9,6 +9,7 @@ class Swig < Formula
     sha256 "ebea71737c8e0a1a3f67dd437b621da7478497b85273b6f44c403a141d27fdf7" => :el_capitan
     sha256 "ad4937f34d6319e772a83a45b2b880e2739803a064b17e4ccd64bfb87e1e7e7f" => :yosemite
     sha256 "dea7956f540af23ad9347fdfc9c6834bf448fb308ee572e0d72f18598b878349" => :mavericks
+    sha256 "9ef263b9a5d6022f905968d380372dce54c3941b53a113df40be7a1f1fa3517f" => :x86_64_linux
   end
 
   option :universal
