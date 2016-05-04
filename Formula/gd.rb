@@ -19,10 +19,11 @@ class Gd < Formula
   end
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "f5163a6627242fa27c334428ddc58105003526bd496a2b4f0d1afcc1ef32294b" => :el_capitan
     sha256 "3acbc1f243e98a831c045c0e0a14aa73bff979d8514124c994eb9bf15271434c" => :yosemite
     sha256 "d26ee8c7197eec3b71d0837934d5975e2cbd2588c5548dce400825810ebb4f73" => :mavericks
+    sha256 "232c8a5f527cbd9730c6e121f14ce883394bb30fe0faffc7abab3f0fc763150e" => :x86_64_linux
   end
 
   head do
