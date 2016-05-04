@@ -7,10 +7,11 @@ class Nvi < Formula
   revision 1
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "c4f15ed7ef7d6ca867cccf614823d03a0ffebfd1c303ae2625f64645b4b36b62" => :el_capitan
     sha256 "2b6a728e143b8dbd0584d403e5c7b5138130a09177bd658ba3dc95f999420ddd" => :yosemite
     sha256 "b86a3fc268f0b698e8218505bc257256d36c79f215e19fbaa72c8970995c402e" => :mavericks
+    sha256 "443ac43b0a3703a014666b30cd108d64b0a1300acb710ee28e778bbf65f8c15b" => :x86_64_linux
   end
 
   depends_on "xz" => :build # Homebrew bug. Shouldn't need declaring explicitly.
