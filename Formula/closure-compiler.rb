@@ -7,10 +7,12 @@ class ClosureCompiler < Formula
   head "https://github.com/google/closure-compiler.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "70bf10b5959bb354c9418ea4331f609cb7dd2358af66c308e249cacb53868d4f" => :el_capitan
     sha256 "b8f3eeff7682828bb4c1c428aa91ead7f778334f1069856d433332bac4a83c0c" => :yosemite
     sha256 "23e7ec7c81ba1e787137c0b2b94e02b6410f99dc7b460cf26a6111ae4e173f00" => :mavericks
+    sha256 "f7e7c787940a89f5de7a17a057cbd1015bbc3081b3ec5dc3adcd15bf84ed04bf" => :x86_64_linux
   end
 
   depends_on :ant => :build
