@@ -6,10 +6,12 @@ class Talloc < Formula
   sha256 "230d78a3fca75a15ab0f5d76d7bbaeadd3c1e695adcbb085932d227f5c31838d"
 
   bottle do
-    cellar :any
+    root_url "https://linuxbrew.bintray.com/bottles"
+    cellar :any_skip_relocation
     sha256 "ffc598494174e6ce3cd1a8bc5e1a54cc6232120d732a4be793b6440765450116" => :el_capitan
     sha256 "09562c643230ee89b534b0db792cb2e3285d2b09a24a3a3e66076bcd073d4ad9" => :yosemite
     sha256 "394a7de53648e3a0a31af88618aa28390639dfc1422b4263c707dc0f5d273533" => :mavericks
+    sha256 "834c45b1f2b56a7d15755d7a9d1abbf19e0f0e084063a808a25bdd76c4ca91d3" => :x86_64_linux
     sha256 "9f40baa58c9df7ef375e8451ac021cba5cced8e686a5093d5f786b39674f2a9d" => :mountain_lion
   end
 
