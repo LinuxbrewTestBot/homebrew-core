@@ -10,6 +10,7 @@ class Notmuch < Formula
     sha256 "0caa82ec8a459275d5386585bdf944a6892b0fe499b2cb7b96243fed91c09b3a" => :el_capitan
     sha256 "1f7ac589626fd82ce3de8a399f6cd832982ee756c6d4fa618a62de461d200ca1" => :yosemite
     sha256 "6e5950e4159217dc865277576e3c75875269a286fb26a8e3a3e52987e651717f" => :mavericks
+    sha256 "c0040e57d9e558fedc0033fe119dc14e5f72502c644455709305e27cbc53bd72" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
