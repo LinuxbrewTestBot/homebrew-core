@@ -11,6 +11,7 @@ class Eigen < Formula
     sha256 "28e7161064b8d297df044d27b4677348d039ce45d3b4ea9a08bb856dc7c687ba" => :el_capitan
     sha256 "727c2ee0d0c4db05699a69b7df364441944361fdad5b74f885a0ac50935c7d9d" => :yosemite
     sha256 "d4b39c9f304c4f75e7b9a9b02bd69849f4e4400a9b7cc10df7d3f61b4777ab32" => :mavericks
+    sha256 "8c8a15408d045ec6ca53b0f607c9c95dd943bc46220209cfe055e53f20761ea2" => :x86_64_linux
   end
 
   option :universal
