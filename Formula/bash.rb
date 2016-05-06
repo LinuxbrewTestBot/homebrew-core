@@ -80,6 +80,7 @@ class Bash < Formula
     sha256 "d049592d79b9793d2c04709d9aa2c3a6156374f8d009ca1cba1117e457238a9a" => :el_capitan
     sha256 "f3fcc6293765dbd1cc5d2fe5a1160db4fbf36b4cd620bab7171fc2fd942fa529" => :yosemite
     sha256 "53d723b1e1b273e815e5211e56b5c325147b94f3cbdda09e3a23d1c452f8942a" => :mavericks
+    sha256 "878425f81e72ecf40817c29ea11d7e32b18f3f06184cb49ab511bf460382d6e7" => :x86_64_linux
   end
 
   devel do
