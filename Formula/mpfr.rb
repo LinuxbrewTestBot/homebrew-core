@@ -12,6 +12,7 @@ class Mpfr < Formula
     sha256 "06b1521d06eeec85bf2052fd416f19f7624901641596617e39b8c433540d990f" => :el_capitan
     sha256 "2695bf9b6090c817144b0650a9eb332fdc22efa37265fefd7ea2c55d4f62732b" => :yosemite
     sha256 "47dc6d25a9ba43dd2e710849d7d2dbfffc6de3ded02554ea973cd26797a2b31d" => :mavericks
+    sha256 "11df9a2ced120b21852181271ba252febab1c613ee0b4c9c8b43123364c099c6" => :x86_64_linux
   end
 
   # http://www.mpfr.org/mpfr-current/allpatches
