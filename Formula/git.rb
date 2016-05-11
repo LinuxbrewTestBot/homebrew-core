@@ -12,6 +12,7 @@ class Git < Formula
     sha256 "5d3586ec7834418aec22526a508b0e4af77ef353072a13e46ff4324b55f18c1e" => :el_capitan
     sha256 "769118df0709a5e0eb3e00b16f98f558b4e627b38efa51f63a9ca9aa6e3d19a6" => :yosemite
     sha256 "6f8c793e71d2bd28855a270e3bf8e06310a113c638e32ddd6dedc8206cc9ad4c" => :mavericks
+    sha256 "a409aa2a71da1b044ed950b856376988cdf7ff6f052a49944709b50f230d268f" => :x86_64_linux
   end
 
   option "with-blk-sha1", "Compile with the block-optimized SHA1 implementation"
