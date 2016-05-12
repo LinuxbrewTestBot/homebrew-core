@@ -12,6 +12,7 @@ class Dbus < Formula
     sha256 "c09c506b0f1681a7a02181907125757dcd17f4bf90f552cc9b87092efd101a6c" => :el_capitan
     sha256 "716e6c3cfed5e66321d639761f0303c84b504fa32793a4611daa302829c9598f" => :yosemite
     sha256 "5547ab566d1f4d75cafa8757157e31af1153a178dc3a57a0652a47b820cf1fee" => :mavericks
+    sha256 "5cf8f56149b284b43fdf554fa8d11ff9abad64b99dcfadf92002aca9972e713b" => :x86_64_linux
   end
 
   # Patch applies the config templating fixed in https://bugs.freedesktop.org/show_bug.cgi?id=94494
