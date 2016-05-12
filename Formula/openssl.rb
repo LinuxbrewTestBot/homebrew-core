@@ -11,6 +11,7 @@ class Openssl < Formula
     sha256 "28320f60a208f1aba5420957148458d59b00bcac62fcb550ba88e737c07c27b4" => :el_capitan
     sha256 "8c21504d03f0ff40a2acc232028b4b03df28ded12c0014cd57dc4602a7f93245" => :yosemite
     sha256 "fef69163e044fbf71c1878de4bdd416afbbbf7cb7265ee0c6fedb4ba7c861525" => :mavericks
+    sha256 "dea9f40990c3c3787737211a3e63345d20e05fd52c437e205e88e434c997b20a" => :x86_64_linux
   end
 
   resource "cacert" do
