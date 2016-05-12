@@ -10,6 +10,7 @@ class Tippecanoe < Formula
     sha256 "213d2e989ab50309f1f9049c10d88910c3df8ea5c01146a608414a64862ff0a5" => :el_capitan
     sha256 "89a1f6c00f883da3deb103abf9f9a33299fc0584e12e1e49689543e6d9a13a07" => :yosemite
     sha256 "8b9127308d3e6b4474372353976125259de1a3a6530a282bc8962ae083f2f042" => :mavericks
+    sha256 "0048305b805a8e2d2296824849f6f2f17cb8b29f1281dad6b33fe73289455b35" => :x86_64_linux
   end
 
   depends_on "sqlite" unless OS.mac?
