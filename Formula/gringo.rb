@@ -10,6 +10,7 @@ class Gringo < Formula
     sha256 "7413d94e07e8eec626478ce76b447ddf831d1f2df4ae4b91d70dc82c3b433025" => :el_capitan
     sha256 "c71569ae85dac1aea9e0570ef43401063f66dc9a855bc9a4fa804bf381bc5ad3" => :yosemite
     sha256 "68d7c04b3a00fc02b87f4db25d39fbfe53b340f28fae1dfc38566d37aa7b5d89" => :mavericks
+    sha256 "6726f137724a83da8aee9fcb4516d5f6bf9d21f1f2c3c9d086cabb5dd791eb37" => :x86_64_linux
   end
 
   depends_on "re2c" => :build
