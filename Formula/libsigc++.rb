@@ -10,6 +10,7 @@ class Libsigcxx < Formula
     sha256 "424a330a087707c8928b5f4cf9d0b3dfddf08de756f97ec1c3a7804deeb8f821" => :el_capitan
     sha256 "0e96ca0e92accf72c268ef1c01f34a00d85e3e4f30b37af92605556a8ec932bf" => :yosemite
     sha256 "d040deee02f6c61ace3fc8ec372bf2280e1c350fbc56c328aca133ae8d16ab82" => :mavericks
+    sha256 "76fa910b19f60a08cd2e8f04cdedfc9aa6b7c822e773cda70e36d2b4dd396513" => :x86_64_linux
   end
 
   needs :cxx11
