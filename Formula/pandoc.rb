@@ -15,6 +15,7 @@ class Pandoc < Formula
     sha256 "a41e10d0080667ba6777473be848ffcf16d39ec258832a3d95b6d4b9cd1e4386" => :el_capitan
     sha256 "d70667981bff53646d462614c4132bfbb12ef6dcfd4b44d55b39122d19e2e28a" => :yosemite
     sha256 "0a353ef662cfc105533a9834b90e701fa8d22fe1853c1a2f51cdae2b03afb9e2" => :mavericks
+    sha256 "80b42820f3464c20e9539027f63d49bae2b3ad4702fab121d1cf2a775ad20e10" => :x86_64_linux
   end
 
   depends_on "ghc" => :build
