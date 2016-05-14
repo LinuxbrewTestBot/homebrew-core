@@ -9,6 +9,7 @@ class Fish < Formula
     sha256 "7bbc7e9901d1d3f8b15e6515de0dc3d7557e7e85a44ae0195172bd3c17120734" => :el_capitan
     sha256 "bf5af0e1a9179e8d5fcd9e945ce3fbfd44fa4ed86933375bc8ac2f0775074351" => :yosemite
     sha256 "39b820ee1cf8bffac46add0da2bdedd0a73ac5ce06c6f9a7e6d609aebef28dd2" => :mavericks
+    sha256 "460cf9287d6588a9a287467dc8cbaf46f983f885251dd316143c1a310d8d8a99" => :x86_64_linux
   end
 
   depends_on "homebrew/dupes/ncurses" unless OS.mac?
