@@ -12,6 +12,7 @@ class Libxslt < Formula
     sha256 "c362e947b994dc21c3f6a8802a1d783996504c4e6a1ec9e957a7b282543badac" => :el_capitan
     sha256 "8ee39c4e7fe3868b175185632db62d0b2e63e7d76df589492d9e11a720c569d7" => :yosemite
     sha256 "39820c2f81926fc1aee8854553d3c390c644db068847ceae77c805d65e2303a2" => :mavericks
+    sha256 "eaceee35d800c675ab7b9e4b039c48c84cee5c08ed9f7b6b20129cfe5ece8c29" => :x86_64_linux
   end
 
   keg_only :provided_by_osx
