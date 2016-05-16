@@ -11,6 +11,7 @@ class Tinyxml2 < Formula
     sha256 "4853a6b2bb984f58e10cc3b45a3102cec30bb93c43d752b85c43f6c4ad4a729c" => :el_capitan
     sha256 "b79adb5c96cd74936064056b697a241e5fe2d2adc82a67b7bff65d36221e9aec" => :yosemite
     sha256 "2ff2104bbdee6870a91603ca22848095a21f939a0d0fc9454bc2a0a553b3c498" => :mavericks
+    sha256 "2ee44883b3b5471dbad1307150910a0887468a8b55d0f1ad5b8ff98b42ed0aae" => :x86_64_linux
     sha256 "4181968c3b03f0bfb7fe9ae4fe044b4a8c9bafb32b9b5730a57da3e5592d3ed9" => :mountain_lion
   end
 
