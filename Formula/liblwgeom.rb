@@ -22,6 +22,7 @@ class Liblwgeom < Formula
     sha256 "a12e1bb07f3b6288118f52b7e711aa0cb54c4edab8be537de26762d1b617471e" => :el_capitan
     sha256 "b902de2302683c968a3a375d16cd87814570c233e055a69de37e2842bbbcc5ab" => :yosemite
     sha256 "4b53028a2954665d46d15dc6d77e4a535c74d6ee446f95539e856e7c573ad4e2" => :mavericks
+    sha256 "b9ca51110413cbcbfacc0af47b7dd2b3950d579b2c474e1ae737f7da2344aa85" => :x86_64_linux
   end
 
   head do
