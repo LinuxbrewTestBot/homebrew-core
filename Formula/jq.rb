@@ -11,6 +11,7 @@ class Jq < Formula
     sha256 "4df3ac073164d99ecc20e6d0cdc363204ba992851fdd1f4a6d92eca3aae4671c" => :el_capitan
     sha256 "c09bf921664a2d9fe9a9c1dc19b739a1b8e92ffc67e5a833c95db6687a02c200" => :yosemite
     sha256 "6dc80e1c8032777ab107ec8ea650328cb3a9960d489877aa966924f533fee29f" => :mavericks
+    sha256 "83c5d35f161e332aa67c08c19ac7646d661dacedd24c1ea7b28cd0f61015b815" => :x86_64_linux
   end
 
   head do
