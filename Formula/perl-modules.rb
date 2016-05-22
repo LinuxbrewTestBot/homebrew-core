@@ -4,6 +4,10 @@ class PerlModules < Formula
   sha256 "8a9a2585ff0cce52744269b65ecf69698ea66d9614a40923d82fc6cd02bdc8b8"
   desc "Modules provided by OS X"
   version "0.1"
+  bottle do
+    sha256 "7e302d19304bf851ad74edc01c358c8cdeff0cdcb71bf7cecfc5f6c2a303887b" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   depends_on "perl"
