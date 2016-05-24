@@ -11,6 +11,7 @@ class Libsamplerate < Formula
     sha256 "7cdb2a6ae9047052461037e2a48742ca8a0caf72c5bce3eca856bbf24eeffd11" => :el_capitan
     sha256 "e50d3c4c47d61b844db05e1a37d299dbcaeec4236ebdff53ebd8e4dbedb32c29" => :yosemite
     sha256 "02bf6dca011543e5f49c42109462a5a94d02e2803f3258c0e38033f2205dcf1a" => :mavericks
+    sha256 "a03f2bcac5041586587deb86a4549ef27a41a6288cdce4d9a31f8f52dee7802f" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
