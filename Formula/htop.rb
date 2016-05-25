@@ -10,6 +10,7 @@ class Htop < Formula
     sha256 "17e7e101576e5a6ab21c9cb466abb06c9aa9f41bf48a8bafab7b35724be10a22" => :el_capitan
     sha256 "ae6da1461494e36c71e5ccf77f3b84d89b83eb5edc50b25e170c6021de8d3978" => :yosemite
     sha256 "0105446a79d2a2d8e559f1e815597dc735efe50cf51d9de27c545f0a1a881d1f" => :mavericks
+    sha256 "65aa4035329f76026696e8951dac3b803c72f8397049f1a6ca302851939545b6" => :x86_64_linux
   end
 
   head do
