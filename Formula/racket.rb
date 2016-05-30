@@ -9,6 +9,7 @@ class Racket < Formula
     sha256 "d6ab6c4c623dd00a78a3ce158c836241b3478df747215f5d5364c6333f3fd213" => :el_capitan
     sha256 "c9fd1a5445576238a6dc0d5a486b211562a6206a2872397a9218aca115c8f111" => :yosemite
     sha256 "d7a76bd531b6f02e0beecc96bb3bf6ff48b30d8e19928ab3f78fd3abacd9206a" => :mavericks
+    sha256 "b9539e25b96aa5643d243be526865e550c6db55d7ace4bda1f69d13fefc32ffd" => :x86_64_linux
   end
 
   depends_on "libffi" unless OS.mac?
