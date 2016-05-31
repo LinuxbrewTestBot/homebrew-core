@@ -12,6 +12,7 @@ class Taglib < Formula
     sha256 "083ede2ae70eabf409a82e4999aa78f027ecb8c0b71065008eee90d4a4ccc59d" => :el_capitan
     sha256 "60a0e999802c0a3b4aced2375cbe0cb94744329bd9773beb18bbefb99b5692c4" => :yosemite
     sha256 "7f673f94a4263441327b83691f47c56605b8f4d20e7129c5d2883b8f603dcc15" => :mavericks
+    sha256 "9b4f6d94e34e643c92baff3db82d68dfa7b4a4867b2e4fc37da53e0d466ae25f" => :x86_64_linux
   end
 
   option :cxx11
