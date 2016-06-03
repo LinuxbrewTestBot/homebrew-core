@@ -9,6 +9,7 @@ class Rlwrap < Formula
     sha256 "b76aed0e35f4c22e3085da3d9132ff1771d5ea044ad9f51d586d990b5592a9c4" => :el_capitan
     sha256 "d340e6e7c9c56c25f2bb9904213c0161697135423e4479562cb54bfed6fa6718" => :yosemite
     sha256 "036303739cbfd4ee484244dd57d7a383b8e75898f4a9b58cc29d90bc172a3800" => :mavericks
+    sha256 "94d87a55b8a700f3da9a6b0da115b166b723e967ffee5caa06c1b499c69189af" => :x86_64_linux
     sha256 "7eb3a13529d70e7229546b346d364af496f53c7f6985f81a1bd8298ed92fd0dc" => :mountain_lion
   end
 
