@@ -11,6 +11,7 @@ class Ilmbase < Formula
     sha256 "1d4bcd7e058e1b629bcd608d063d64266253e2e671084c2f54df69061b1bd439" => :el_capitan
     sha256 "c660a7b84cf84a03a17c3bf5cd1b86dd1e0357cb9e2d854665f4d538786c8014" => :yosemite
     sha256 "db95cf0582acc259b987fe194eb50cc760b25d733b9ff195c25448e21e21e039" => :mavericks
+    sha256 "2bbca5d074949e46e32260aed4b50952518ab0e52818a0c12e94a3bace58c0c7" => :x86_64_linux
   end
 
   option :universal
