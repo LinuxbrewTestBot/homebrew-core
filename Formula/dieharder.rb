@@ -10,6 +10,7 @@ class Dieharder < Formula
     sha256 "b06434ba9c16830513f332e8b4253bbbcc601bfaa30e94e0f4ead5dbff6906c6" => :el_capitan
     sha256 "eedc7b04f6ddc096cc23c6b6ce26ae8a5db9cd9ae45502531ecc8cbc250c5c41" => :yosemite
     sha256 "03d42010b8b85a99d40805a36a82e2f686ea5ceb967b3928f0d0ce3bff5b0f49" => :mavericks
+    sha256 "b5cb70e88b868110cbecd9cc8487a639d6f71dab18dbf83a3cbe5ce21cd596fd" => :x86_64_linux
     sha256 "0bc0056b317b8acb54157625ddfa60a4338a342a4af1a945f19cccbeb7d67c74" => :mountain_lion
   end
 
