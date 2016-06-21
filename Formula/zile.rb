@@ -10,6 +10,7 @@ class Zile < Formula
     sha256 "bedcc322bf58b7699ff03d88b6d203e493ed30fd14ac9309ed4e4d0c7416cedc" => :el_capitan
     sha256 "94b919340c46ed2f2be1604fc955c519818e2424927b12d8f13bb8a8140fd8af" => :yosemite
     sha256 "8230e74d3104b830c1b100dd5050f548b79dc3a51631349293812826a047d14b" => :mavericks
+    sha256 "9dac936db53096237d39d56e32ab1faff9c559b20b14e0b92e56cacf3d4c79ad" => :x86_64_linux
   end
 
   # https://github.com/mistydemeo/tigerbrew/issues/215
