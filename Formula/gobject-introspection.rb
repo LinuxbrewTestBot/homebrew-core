@@ -11,6 +11,7 @@ class GobjectIntrospection < Formula
     sha256 "f74299d5504653f479d86f29239def40bcc790bfcf9a3df4ecd4ab95e2a13aab" => :el_capitan
     sha256 "e1d5345ae31ba57ccffdfb12e8499e3cfe3c69e29387c4d0765c9872f1117baa" => :yosemite
     sha256 "e3468554dddb9d16af1a15741f2734ce0aa9d87e7c81cd6a1c7161b6ef57d93c" => :mavericks
+    sha256 "8eeb3472a0879df4352cd99e51e8e0558b01a7ae9aaf10662f9c3f25672c0312" => :x86_64_linux
   end
 
   option :universal
