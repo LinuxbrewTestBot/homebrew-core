@@ -8,7 +8,7 @@ class Libunwind < Formula
 
   # dummy bottle block
   bottle do
-    sha256 "5" => :x86_64_linux
+    sha256 "caabeb18f79a24a02caf5c3f706c144173310410bddd470160909b3eda391a41" => :x86_64_linux
   end
 
   def install
