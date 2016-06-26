@@ -10,6 +10,7 @@ class Advancecomp < Formula
     sha256 "b920a8b98b6b79b0531d03b72180e6dde7664da504f4943bcb237703347de1bd" => :el_capitan
     sha256 "4c53c032983006823c7e119fd3f7516a9a9321bdd9d165a7ef0abaabc5b669cb" => :yosemite
     sha256 "119316cdf32ce8129a09e786a31bd6c21d3b153eadd6cd55e098f78b6f1ed884" => :mavericks
+    sha256 "a64cee9d785883b7d33a8b0349c85a246ad2189c24f2f8fdb6e0c661b443c488" => :x86_64_linux
   end
 
   depends_on "bzip2" unless OS.mac?
