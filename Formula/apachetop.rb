@@ -11,6 +11,7 @@ class Apachetop < Formula
     sha256 "f1dd6f8ac7cb973228227b4cb678ef0bb61f618c482dc8d7d3144acccfebcf5b" => :el_capitan
     sha256 "1cfb399a8548e1ac48d7cb61374e23273aa1eb289e49ba452aa2c55641fe5bae" => :yosemite
     sha256 "78aa56c9141cfc658120edfb27e795cf178067d54f66c79fc752536d8e0335ea" => :mavericks
+    sha256 "7043e60ceb96fd7b4dc659bf36ac7b773c2195dc4544df529f406c480de01c41" => :x86_64_linux
     sha256 "d2383e14241b9af39c197462339393463ae6f8161dae508f49b0753dff846287" => :mountain_lion
   end
 
