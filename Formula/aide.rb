@@ -9,6 +9,7 @@ class Aide < Formula
     sha256 "ed398a49873201175ca83f9bb467b975e6ae5ce114c644689a6372f5cd9d37fb" => :el_capitan
     sha256 "e4a9afb7f03a1a66d29fb3fde36082745922e3b7de9718a90bfea7a259518caa" => :yosemite
     sha256 "d723494937ba8af946f24bd1c03501d6787655b06173fabbbfba2fbddf2026a3" => :mavericks
+    sha256 "6a046f1795a9c8a93874e7d276adf47d23f112f2eb62c10ff487ab0ab1a57e36" => :x86_64_linux
   end
 
   devel do
