@@ -7,9 +7,7 @@ class Atk < Formula
   revision 1
 
   bottle do
-    sha256 "fe1c92ea4289e68e062a861b7b150ccf69beba70e95d38f7f028b52ca2f6314d" => :el_capitan
-    sha256 "7cd7097c3dd7a00e9a16bd22740e1dc242ca7a6e8e7d78d35204ecfa345e8c44" => :yosemite
-    sha256 "2b108c87daaaf48d7628f8e4187533533c726331c55d0182327551366525829b" => :mavericks
+    sha256 "8ed9e313c339f2be5818b163e04d5635140bf6c3e8203f5e4d66d984af283845" => :x86_64_linux
   end
 
   option :universal
