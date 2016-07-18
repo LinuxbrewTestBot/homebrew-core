@@ -60,9 +60,7 @@ class Llvm < Formula
   bottle do
     cellar :any
     revision 2
-    sha256 "3b4b2c50e018125c0fa7aa9a14e8066b301afa6ebe2c36a198962e4c9af318a7" => :el_capitan
-    sha256 "382eb51bb69c52fb3800c0498d1c6799b9046af8413be15217fc58effc9963b3" => :yosemite
-    sha256 "57f2bb04233429051ff77deeaf74612c2d56be5d6bc13d1c6f8457cd057bc9e7" => :mavericks
+    sha256 "5a9216687a1910b5728622834ff131b00d5683858996764addd1df3bfc7ca13e" => :x86_64_linux
   end
 
   head do
