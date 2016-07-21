@@ -7,9 +7,7 @@ class OpenMpi < Formula
   revision 1
 
   bottle do
-    sha256 "9b815d259c57b232084c2c340bf94d249b2c8cd04ea44e49daa220c83519563d" => :el_capitan
-    sha256 "30a575dbb5d9e0984dd3d830acd21ef27f21a3287a8379fb42fb7917d70e9a00" => :yosemite
-    sha256 "47e51682109dedc1ea793174385a12489a3ca4aeec94fb86c71d6b9ecb75c891" => :mavericks
+    sha256 "9b64b76494eba38c329b509726fd7b94be11266a9340e8a31f90134a70708405" => :x86_64_linux
   end
 
   head do
