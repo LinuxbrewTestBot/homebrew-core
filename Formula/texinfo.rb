@@ -7,9 +7,7 @@ class Texinfo < Formula
   sha256 "ac68394ce21b2420ba7ed7cec65d84aacf308cc88e9bf4716fcfff88286883d2"
 
   bottle do
-    sha256 "f2494484ec7313c1d30156d6b4939daa4848e271030875de3d59def35db03e50" => :el_capitan
-    sha256 "b9f97a38fd4ce96c0e08bb7415c1d2c5f1e6af8e83f600a3aeff7457cbde9da6" => :yosemite
-    sha256 "9d95f0a35e4b245925f2b2a430a28b261c1b49659468d59a544ad28947fe34ad" => :mavericks
+    sha256 "f8befc873f972803f5738fdb10298d800a519a28aeb94c8653ae26274657543f" => :x86_64_linux
   end
 
   keg_only :provided_by_osx, <<-EOS.undent
