@@ -7,9 +7,7 @@ class Python < Formula
   head "https://hg.python.org/cpython", :using => :hg, :branch => "2.7"
 
   bottle do
-    sha256 "b4779ada60f6809a6f12369a407e366a8ffc4660a29446525e23108fd5da91a9" => :el_capitan
-    sha256 "b222252c54e4407258b6c53a3402aac61b8901447414f1f5ffe0d79f568c7014" => :yosemite
-    sha256 "1ce2d4130a8924254c41e4ad5a31a549ac574d1a77593a5f7a1b3ecdbb18552b" => :mavericks
+    sha256 "8fb2577832374f632024436af6f3f010d8c438062cd00a01a5b23c3b632d2e8a" => :x86_64_linux
   end
 
   # Homebrew doesn't accept a wide/ucs4 option because narrow build is the de facto standard
