@@ -7,9 +7,7 @@ class Gawk < Formula
   revision 1
 
   bottle do
-    sha256 "008ea93aab404959ba414514fc77aaecf627aee2f6d70ccdfd5281dee60d73a8" => :el_capitan
-    sha256 "2bee2d5abfdbff06063bf07fb314ce3313d0b1eb797cfe921e08dc56e72a7e7f" => :yosemite
-    sha256 "a6e562c18ebb1c9f82df368ca14ff720869956784f304e7a548be9e28343cc3c" => :mavericks
+    sha256 "f673e369416dc251c6fca58f8204616a8702896e5de9d1e8be86d73313f396ad" => :x86_64_linux
   end
 
   fails_with :llvm do
