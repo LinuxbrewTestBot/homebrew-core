@@ -9,9 +9,7 @@ class Gperftools < Formula
   bottle do
     cellar :any
     revision 1
-    sha256 "35a478cc1f30e79b07099318b24d82fbdcbb53bc52cdd09688c55ba3f8e12d72" => :el_capitan
-    sha256 "86f429aa714330a0b550397e306f691340e4beaa5dd3def7d62a3cb42b5200de" => :yosemite
-    sha256 "8b50e2171af61bf38094d6173d5c39d34c42559440c94ca27fae750e8012cb17" => :mavericks
+    sha256 "582b56330932b33d5ef2a20f51b0a3db062169779451fcd8dd18c323685bf291" => :x86_64_linux
   end
 
   # Needed for stable due to the patch; otherwise, just head
