@@ -7,9 +7,7 @@ class AbiComplianceChecker < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "1b6be53767663eaf2ee6b938e485ff6fcbd03069abf4a64a7fe2e67076faa479" => :el_capitan
-    sha256 "74d3ef1fff52a93936a8ae81d3dc9a6a2497cbcd5babf735d803b734d1d749fc" => :yosemite
-    sha256 "418e0920e1e2e90efe573a3e617a4a6b4aa90c27e7e6843ae178a262b9f858de" => :mavericks
+    sha256 "c519b5b42aa70951f98141615d5c3270b8081494be5b12a93eeda5f2e1010b06" => :x86_64_linux
   end
 
   depends_on "ctags"
