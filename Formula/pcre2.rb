@@ -17,9 +17,7 @@ class Pcre2 < Formula
 
   bottle do
     cellar :any
-    sha256 "866b103f6047a6787c59a3db68cae15f527ca84879ce066a018ca58f3d7dbafe" => :el_capitan
-    sha256 "c7dee4d41d2a6ab1cfb080d0a6d6989ec921f83c99ea287fba32d77d71903968" => :yosemite
-    sha256 "96c2bf0c4e5b4fcd7c193e72fa5e1f7e2a08c102b98a68c614d4cb30d9ec9135" => :mavericks
+    sha256 "74f83bfff45dec73ef08d65b297668c4ac9d498cf81cdbcbb8d72d01e9604ea3" => :x86_64_linux
   end
 
   option :universal
