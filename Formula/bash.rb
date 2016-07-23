@@ -80,9 +80,7 @@ class Bash < Formula
   end
 
   bottle do
-    sha256 "d2b6fc817178545e78be78a4eadf69a9d40b559b5246f4d850de0f69a0f3c79e" => :el_capitan
-    sha256 "2cbb5cf87a3da713347934fd1c64ad33a4c4bf293e72bec482ec32ffed73f52e" => :yosemite
-    sha256 "d8e78e912e10db0bf717c5958da825e5f01b2c80a80a41cb8cd2dbc14c0a2242" => :mavericks
+    sha256 "cacc1481c0c574a3292c64c9e82f6e8c03ce831459a113cab2d3c720410a624c" => :x86_64_linux
   end
 
   devel do
