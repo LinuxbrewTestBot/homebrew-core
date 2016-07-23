@@ -7,9 +7,7 @@ class GnuTar < Formula
   sha256 "cae466e6e58c7292355e7080248f244db3a4cf755f33f4fa25ca7f9a7ed09af0"
 
   bottle do
-    sha256 "edf7148e819d8ba45806411b9a2d893b809bb61de90675dc81aad99f788c73a7" => :el_capitan
-    sha256 "3042c3b538b323aca4b235328186d5e895a1d3a68ccc26dbf5a02550b49eeff9" => :yosemite
-    sha256 "a78e67c9ff6ba6e00001ac0359aeb2517c1288f3e2486581675faa978084c88f" => :mavericks
+    sha256 "9156a50deb702e2550a6ed19a6db8e59bfbb5d7fcf5c5b6168a7eabd5e5d5e50" => :x86_64_linux
   end
 
   option "with-default-names", "Do not prepend 'g' to the binary"
