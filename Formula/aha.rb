@@ -8,9 +8,7 @@ class Aha < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "9f72f7009a073e6aa06ff9ea24535ab0e3230142b7d76a55c7dee633e9d2ddbf" => :el_capitan
-    sha256 "88c6950fd5667f3f4df808dd77aa85aa8af353594ab051c50345a31bf33340ca" => :yosemite
-    sha256 "07a3cdeb8869ec4aecef71b83ccca863e626a05cf3ed9cb614acb1a007c1a365" => :mavericks
+    sha256 "f7fddc4ed6a1a278485bebc5eef0e28f6900896d002d0470f27001017b548f88" => :x86_64_linux
   end
 
   def install
