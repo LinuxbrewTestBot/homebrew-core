@@ -8,9 +8,7 @@ class Fish < Formula
   sha256 "328acad35d131c94118c1e187ff3689300ba757c4469c8cc1eaa994789b98664"
 
   bottle do
-    sha256 "99462c8b9fc844882b8877f2b016823ce7c9e54dd89d532e13ce9e3af90558d4" => :el_capitan
-    sha256 "30254c4c5bd3f2c6df4da5f805d8023f867b3ac0b5e3ed6557d864db102ff6f7" => :yosemite
-    sha256 "c91612a4f4e6e99bb81a0e699adce007c48a175e73dde5af239ae7ee41f3af90" => :mavericks
+    sha256 "a254df0acaa75665386f6009ba9e5ba379c8de115b478c06713c7a601d04b2d6" => :x86_64_linux
   end
 
   head do
