@@ -6,10 +6,7 @@ class Vpcs < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "b0f62e8959cb98038b817174eec35dd657a8107241f58fc1421a57adcb1eedea" => :el_capitan
-    sha256 "d905fc7dd6ca0dd07a0bafb6d8e71bebd0d2c3c516c0c00f6adb87aebf6d7057" => :yosemite
-    sha256 "a6a5285281f81b0f035b024f0f8e81211ac71f69390c5c6d03820ce7eccdc116" => :mavericks
-    sha256 "713bc04995e9cbe4cafc759643035b0b34431c5c3e559ff60ede0e674cfe4538" => :mountain_lion
+    sha256 "6efe35440add61e88bceedca795380160c267740f9ea056d015147698020ed7d" => :x86_64_linux
   end
 
   def install
