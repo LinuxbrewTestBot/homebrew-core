@@ -13,9 +13,7 @@ class Qt < Formula
   end
 
   bottle do
-    sha256 "f6dc9df6f78e1d8c12ebf961c8a9196885a1ee732eed098b2cbe8320f2d9a7a8" => :el_capitan
-    sha256 "323bcba88bd3600a4a5dc26d43602e57a71609f1d9a620b9d42b63426569e191" => :yosemite
-    sha256 "157a2338190f124a7c9446ecafa6669f503ca4e0221fece620096832a767f852" => :mavericks
+    sha256 "e4a1eccaeabec05b09b714d2c654daece574861fcd28a41a1457c7136b05b8f0" => :x86_64_linux
   end
 
   # Backport of Qt5 commit to fix the fatal build error with Xcode 7, SDK 10.11.
