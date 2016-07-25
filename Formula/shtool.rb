@@ -8,10 +8,7 @@ class Shtool < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "17dcf1289dd178b75b670d8061d54e4b2004feeb7de0d9e1ea43ffb46220e4fd" => :el_capitan
-    sha256 "de69e23a1e88799c78891298045bd8f79ef67ee48b7609fa065c7acdc1ddbde4" => :yosemite
-    sha256 "14b7ea00fce6bf6df8e684f1f4db589ad4f6bc7051a4a29f34d51fb6d287d0a9" => :mavericks
-    sha256 "6e46064ddebb9f3510fb8f8e3b5f48b7f931004334cffba5a3b65cc49588e3a2" => :mountain_lion
+    sha256 "9ff3004ffa49fb1f5343e0378aef09f5fdd042383d1960f2c30384c647e251b2" => :x86_64_linux
   end
 
   def install
