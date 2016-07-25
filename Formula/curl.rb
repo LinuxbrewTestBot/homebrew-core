@@ -6,10 +6,7 @@ class Curl < Formula
   sha256 "608dfe2db77f48db792c387e7791aca55a25f0b42385707ad927164199ecfa9a"
 
   bottle do
-    cellar :any if OS.mac? # not relocatable --with-openssl
-    sha256 "b06a6800c4909c0dc47785fed451b88819d8faa5f926eb08516711938bb4721b" => :el_capitan
-    sha256 "f1368590ff0c6f6f74a45bdf948e7c467efec8d97dfe8edceb1d9bf65dbb1c57" => :yosemite
-    sha256 "34f7b67ae4a188b722b46cea0acfe3f88028a78f692ca3f4db138597f6838d44" => :mavericks
+    sha256 "efb6a2f2fab53d1718f8f9c58c6e48e74e19b4334d6082656db34804668dc8e7" => :x86_64_linux
   end
 
   keg_only :provided_by_osx
