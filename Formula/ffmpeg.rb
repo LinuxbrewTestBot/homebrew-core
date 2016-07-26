@@ -8,9 +8,7 @@ class Ffmpeg < Formula
 
   bottle do
     revision 1
-    sha256 "d9c62b83a65367759a8885acab27553e104fad73d3b16c4e763f43cb9a2bb65b" => :el_capitan
-    sha256 "242c3f30bb3992784c373c163f41168ead5630e8a370aa97d24ddca13ed134a7" => :yosemite
-    sha256 "b0c090350f3628ee5c70c16fecddeea19332a89a4a047787333ac23b1788fa16" => :mavericks
+    sha256 "53546b7e7af72484eb1c3628c3fc0b245e7d265a7e7144f192ca38c1e8d51496" => :x86_64_linux
   end
 
   option "without-x264", "Disable H.264 encoder"
