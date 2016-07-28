@@ -6,9 +6,7 @@ class Flex < Formula
   sha256 "2c7a412c1640e094cb058d9b2fe39d450186e09574bebb7aa28f783e3799103f"
 
   bottle do
-    sha256 "05b6edc15c30f5ec903a45e08de56e9e2750fe3e2fa172157ff046b078980ad5" => :el_capitan
-    sha256 "b8e264ed3b801e267d32722b156ba581f087ea9c9db6c09fb420220862669481" => :yosemite
-    sha256 "ef0c36af7a14abf0386ec9ec36150857f69b7fd6ffcccafaa4f40ddd157cc35c" => :mavericks
+    sha256 "99a56a96dba155ca50e63a5604b2bbac570c39b22cd72c0e70639776fc5034ea" => :x86_64_linux
   end
 
   keg_only :provided_by_osx, "Some formulae require a newer version of flex."
