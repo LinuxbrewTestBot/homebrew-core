@@ -18,9 +18,7 @@ class Zpaq < Formula
 
   bottle do
     cellar :any
-    sha256 "701471e90f187469973d3c4d66ef017f92b5fe4026a98dddaca9503b3ac39cf2" => :el_capitan
-    sha256 "646a3f4e3638da5983cf62f7ee1f8ff3146a033de749cbb8cc44f5860e155d91" => :yosemite
-    sha256 "78084452d764be87e2d4e526cc9fee26a56af44318d454e233bd8d29bef3f537" => :mavericks
+    sha256 "a9243b42fcc2b9d53f2293ecb508ff6c003a5a057044a035ff0d1942523c7772" => :x86_64_linux
   end
 
   devel do
