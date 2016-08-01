@@ -27,9 +27,7 @@ class CrystalLang < Formula
 
   bottle do
     revision 1
-    sha256 "028bd7385022809bec0d460a52bb5d8feff75f9af676e4998a05b330eeaec411" => :el_capitan
-    sha256 "93b1afac57598838fa579573ac5802b860c3598968d52bff156bdc6ca6680189" => :yosemite
-    sha256 "9c145e38700920fced5e775013e88150d1cc78a650b3a2c0a0166ac0b5a78404" => :mavericks
+    sha256 "76fd2c09774b22358a516a6f1dc806b0853eceb192324beaf4665fe01651262b" => :x86_64_linux
   end
 
   option "without-release", "Do not build the compiler in release mode"
