@@ -12,9 +12,7 @@ class Python3 < Formula
   end
 
   bottle do
-    sha256 "4ef705dcdb2d9ebb7b6e5bc7801aac392eafd183d8ee169b0a810b0a52c6cd43" => :el_capitan
-    sha256 "133985061a1e9865d0d8e017eb0db8fd206b2ad861d3d2d14e28cdd83295835c" => :yosemite
-    sha256 "a00c55006f496abe35eb1cc17384fd1a304724776c4dc85d18e4d6b4006654a4" => :mavericks
+    sha256 "64e70760ea89d3a0bd59bdb1013c78deb5754e5b1f59877befaad3a88be2999d" => :x86_64_linux
   end
 
   devel do
