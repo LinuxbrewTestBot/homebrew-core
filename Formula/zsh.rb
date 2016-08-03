@@ -16,9 +16,7 @@ class Zsh < Formula
 
   bottle do
     revision 2
-    sha256 "d2a5534eb4d0fb4d25893346e927477041311a8ba0c31cecd80d26a3d67f6369" => :el_capitan
-    sha256 "15b7426bd8e6dc59ff31109504d8fbbd4fffb7bcdd9182fa63de76dcf369b7f4" => :yosemite
-    sha256 "1f13f3fa8948cb99b9b91763b1343c41f6b3bcf01c9a7e0b77c4cac2af9ea466" => :mavericks
+    sha256 "1a60f346ce55fac068a5b78218e45c35f167e23b1c8c1af773a5a65bcb729a29" => :x86_64_linux
   end
 
   head do
