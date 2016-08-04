@@ -8,9 +8,7 @@ class Sbcl < Formula
   head "git://sbcl.git.sourceforge.net/gitroot/sbcl/sbcl.git"
 
   bottle do
-    sha256 "d5c4329a4119c6498ca262f6394f2e4b294454e7cf2ed6f6af56fda7c9ab16ea" => :el_capitan
-    sha256 "bf854bacc8c591798e283ade498c82ff7353e4c7d8cfb88f30727b5477ace451" => :yosemite
-    sha256 "deda3ce78a2fd58267a1f02a728450611c09e4663f7b30baee258f9e5db8c2a1" => :mavericks
+    sha256 "55712d0d3b642024fc8425ef391bf5bddd93a2eee5513a5a1e73616ec8395550" => :x86_64_linux
   end
 
   fails_with :llvm do
