@@ -8,7 +8,7 @@ class UtilLinux < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "e2a6b0ec0f81341af1033eaf6756e102c4bd39f31cce374c61d18272240c14a8" => :x86_64_linux
+    sha256 "16565956c474e00e86352566788e02ee2d2f4716117e45d209aedb39d20b42bb" => :x86_64_linux
   end
 
   def install
