@@ -7,7 +7,7 @@ class Bsdmainutils < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "6a86b57b37b08fb3a3797a6e3eef2a9f444fb6748fbffb051d5a501a343a1705" => :x86_64_linux
+    sha256 "ff3cb69eb9b673119098d5448c75185169a4334a3ccf402560d912251ecb8c97" => :x86_64_linux
   end
 
   depends_on "homebrew/dupes/ncurses" unless OS.mac?
