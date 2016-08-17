@@ -21,9 +21,7 @@ class Python3 < Formula
 
   bottle do
     revision 1
-    sha256 "e0e96cd514640e006a4c42689dc144972a3aeff55fb269b7e4e79e7df2ce9432" => :el_capitan
-    sha256 "5c1e133c5a731b4e1ef6c3d0b7fb3c5c120945549d5901e8e6e4fe81c1670333" => :yosemite
-    sha256 "a74bac7701fbabf89449607d01dff8c0f22b0008bb4d7571e7ee0ddc86f69923" => :mavericks
+    sha256 "d652266b8e0848ea0c830df2f7faa128e5f18edbec5c72b21ad2fcb8bcc4f3f3" => :x86_64_linux
   end
 
   devel do
