@@ -8,9 +8,7 @@ class Global < Formula
 
   bottle do
     revision 2
-    sha256 "b3210dcfc79345c62594110cca80ec252285ab149aa95214ca79000490d3b179" => :el_capitan
-    sha256 "a747a41990ed2455483658672c971465a55bbfb99f3b1b6dfa24282cf6497e41" => :yosemite
-    sha256 "776433a65c48183e5a1161ed57c375f9e150b7c6d8c4e8c2ad811dd71253ff69" => :mavericks
+    sha256 "db92dfcc7565d23f473def59fa720b3df3fac43f1fd4bcc69f472d0583220a31" => :x86_64_linux
   end
 
   head do
