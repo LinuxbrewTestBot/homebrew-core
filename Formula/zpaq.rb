@@ -9,9 +9,7 @@ class Zpaq < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "3cea014c39c41c7208a17b80b9d7676a5e44757053916ea13a0cf65ea8166dc7" => :el_capitan
-    sha256 "58823b3daa759acc9ccb2193382ccaf5c312201d9a20592c12bde9843b4b5341" => :yosemite
-    sha256 "8a89183c78862909d2db2a68ece4b4a12e89167c460735d99f8afdd6b90af9ab" => :mavericks
+    sha256 "cc10b51ceb839909c722c6541a163d7c80423090e8e6b09c358609f130851bf1" => :x86_64_linux
   end
 
   resource "test" do
