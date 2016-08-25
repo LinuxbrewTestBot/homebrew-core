@@ -8,9 +8,7 @@ class Tbb < Formula
 
   bottle do
     cellar :any
-    sha256 "f7d9871559c12347cade68f06a7bb4e3493a843fd916d732fec37af4591577ac" => :el_capitan
-    sha256 "60691d873f8357334352bea9b41e93c0dc335c77edd20f755b9f2431e9398a87" => :yosemite
-    sha256 "5d51073b2075a47093fca70a17e472fc24836a3cfbabf0f47832c056eb632094" => :mavericks
+    sha256 "01806cf8e90aef08c7b3dca89bc9749907fe23955fd725665fde7da0e36046c8" => :x86_64_linux
   end
 
   option :cxx11
