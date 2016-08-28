@@ -9,9 +9,7 @@ class Deheader < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "9e778a60a99a3d5e87639e9ad48180288fd005e5c76859f62eb9efe04135892f" => :el_capitan
-    sha256 "aef1aba1409357470bda97772407f1c3cf0221384aaa573a232fd31cf9d321bd" => :yosemite
-    sha256 "041b73d0dc1f097d3cb5f43f5af4a647d8a926a28e331d9271341e59e5bb8d96" => :mavericks
+    sha256 "479b3fd6f2a192e883ac3f6a5b924bbc2b44a894e49220db32445adb1b86ff96" => :x86_64_linux
   end
 
   depends_on "xmlto" => :build
