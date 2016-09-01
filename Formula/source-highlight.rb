@@ -12,6 +12,7 @@ class SourceHighlight < Formula
     sha256 "d169803dc299be059cff022094d6a2a247f37f11d4c3b94ac12b191036192f13" => :el_capitan
     sha256 "285729a72e96e827367ae8746d6f56a8fdbcbd09d10118cab5f607ac4f947b80" => :yosemite
     sha256 "ddd81b0888585673246ca764061a8a712da48858144953e76f9a94486a8e2058" => :mavericks
+    sha256 "e9197dae9329e3d19f4ce9b873f6562c3fb1be46c7a5406bf212ea78486febd8" => :x86_64_linux
   end
 
   depends_on "boost"
