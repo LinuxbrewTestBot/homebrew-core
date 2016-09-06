@@ -30,10 +30,11 @@ class Wxmac < Formula
 
   bottle do
     cellar :any
-    revision 1
+    rebuild 1
     sha256 "691fc5fb4d8f10db48d228f3f0de7d08f052c12e4203922ba074b980579d0a07" => :el_capitan
     sha256 "67a471dec8505518ace699c10956cceba6a29c30681450cdc0361aec8d781f77" => :yosemite
     sha256 "acc2217884d9ea5a6ce25e95dfee0b1bb93f3d1baa55adbde20f20f93ac9e5d6" => :mavericks
+    sha256 "77ba746215b079d7e13ccff3fa48c4649a16214b10634478c2ec91112c6bc603" => :x86_64_linux
   end
 
   devel do
