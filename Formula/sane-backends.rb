@@ -24,6 +24,7 @@ class SaneBackends < Formula
     sha256 "69f378b3f6de3b875e1a1faa732f1ed42a7c76e79f47f0e4b642691f3a166140" => :el_capitan
     sha256 "3eb8383ea5af581ae71a5179432c0d654f2001922f7cbd747d2e5e15165eaf2f" => :yosemite
     sha256 "37f8e076bdddbdc868076456c308d21fbbef40ab647297f69bf5ca4b88a07688" => :mavericks
+    sha256 "1e962cc381ecf55c37e11ec719c5a2ccc07cafa87b7e910fafc6f7db23209376" => :x86_64_linux
   end
 
   option :universal
