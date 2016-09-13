@@ -9,6 +9,7 @@ class OpenMpi < Formula
     sha256 "ae42aeebda77ce68836d690f6859f662da0a325236f539c6fb433475bfd56e8e" => :el_capitan
     sha256 "b3bdf8a6540d8ac08a105babdd84ef74837856c265ac81f0be43cd84cbc1e849" => :yosemite
     sha256 "df6db5f23211a489b27a5c834bf59cf3f0aa10688871bdfed588e94d87ada5a3" => :mavericks
+    sha256 "fcf416c108b74b04331ff544595f3c5e96c092b2956b3e79db0e487b9a52f1b4" => :x86_64_linux
   end
 
   head do
