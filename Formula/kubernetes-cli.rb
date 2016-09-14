@@ -11,6 +11,7 @@ class KubernetesCli < Formula
     sha256 "be187031e42e63be7426f7e407bfabeec89c86cbbb452086130696529e6b9486" => :el_capitan
     sha256 "c718526ed5978f14c6fb7c0a5928f8eed73823545830d3e0457100a1ec84b4cb" => :yosemite
     sha256 "5ac3302edc31a3dae7e05fea8d75d911e99f40c4651621b00b48282f7b62c221" => :mavericks
+    sha256 "a7deab0776db1bb98b31de199cdd07f1d65823010205a1da426b84624a32b350" => :x86_64_linux
   end
 
   devel do
