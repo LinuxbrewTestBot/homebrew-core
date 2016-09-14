@@ -22,6 +22,7 @@ class Go < Formula
     sha256 "fdeadb70a2a12bb5fb98e8c7ebe9b9bc9fa8eb7b7ffb0282094e47d3018da4fc" => :el_capitan
     sha256 "b172524cb48d5649cb125c34b50b780593f9a9527d714918ccd433a0bb17dc89" => :yosemite
     sha256 "e43d9abf5a88d17647497ebfc3b728c52fc92926879d9f15b726338b0c01e745" => :mavericks
+    sha256 "03abcd5569621c2df67ac2cb2ca25d1b1bcad8b1c5f983bff8482aba4dcd339a" => :x86_64_linux
   end
 
   head do
