@@ -10,6 +10,7 @@ class Depqbf < Formula
     sha256 "7c0b8ef336f9d2bac14e11f0ca838620428376ba4b1f29b6ac3614d3a5f61774" => :el_capitan
     sha256 "d10617714d882cce0a4a8754c03fe7f9df7adf01de8b0016cceafe092e98c163" => :yosemite
     sha256 "92ef32e3fff775db370d3c83ee1b09c0d3c7debab448be37f30465094b17f028" => :mavericks
+    sha256 "cc339acae9c477f4ebead71e79b2f59d9f9a3bf4ac2afada0092ed440899448a" => :x86_64_linux
   end
 
   def install
