@@ -11,6 +11,7 @@ class Watchman < Formula
     sha256 "543ee937e060a61028041ce3f8ea490602fab29b1427bed40152d47e7baa523c" => :el_capitan
     sha256 "c9ab24b2585ec3cce5641e4a31610916dd5e1a101a0c0e7695516ff32b4e5e9d" => :yosemite
     sha256 "ee4ec6d737f55204f2b33a3701c494b66353550532a0ec600ee81668be8d6c54" => :mavericks
+    sha256 "1daa279eadd0377a3cd69a967c4c7138356988fc57e9c80c17ae30af3a7e1645" => :x86_64_linux
   end
 
   depends_on :python if MacOS.version <= :snow_leopard
