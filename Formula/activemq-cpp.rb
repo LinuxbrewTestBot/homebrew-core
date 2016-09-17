@@ -9,6 +9,7 @@ class ActivemqCpp < Formula
     sha256 "ba85affa7a01c8ae45beb27545c841bc4f57f0c2841e4533dc537d6abe3a6486" => :el_capitan
     sha256 "be16c11110621a32d65a7843f05813cfc7c6861ea589a076699e5f66bf6b2a02" => :yosemite
     sha256 "0180da693b7e8a478538393e8746c0ffb1dc0904e24cceb4be591230c7004bf2" => :mavericks
+    sha256 "76b9eedcf38410a43b150471f1fb7f559df32117a45e1fbb0523c65278c6dc8d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
