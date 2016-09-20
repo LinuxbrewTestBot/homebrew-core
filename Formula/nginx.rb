@@ -14,6 +14,7 @@ class Nginx < Formula
     sha256 "2b67c86454cc67bdeb2a637d9872ae471a810d8a2dae40b6a0c1dad7b253d30d" => :el_capitan
     sha256 "6ac0a3e07cad5efb31185998f6cd6754de6d799396ffd872814593ba3430fdb3" => :yosemite
     sha256 "c2f67c6b720a2f2c790338e0d30103acf36c757c068bbed8cc4c79734fd3779e" => :mavericks
+    sha256 "4e03d4ec48785400c8f01db1d66e3693fc8fb9b6e7fdcdeec7ba003c1cc44741" => :x86_64_linux
   end
 
   devel do
