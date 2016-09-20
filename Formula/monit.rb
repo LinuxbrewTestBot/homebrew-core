@@ -10,6 +10,7 @@ class Monit < Formula
     sha256 "5a146e27154d2434cfb44dbd61ae55b7ed8fa01bd105cf0bc5828bf90a7252b7" => :el_capitan
     sha256 "924ec6e8d44fa5168442431f5ba61724243196929e7a18d1a936f4b9a99035c1" => :yosemite
     sha256 "25be7ac4a24e829b081d562c0249e2c4a48d77a49e9f5c3f49a609023d702fc5" => :mavericks
+    sha256 "00659c36a4854db9101996ca178cb7b975b38eaa62fab3e5e2b0536137e4d3fd" => :x86_64_linux
   end
   
   option "without-pam", "Compile without support for PAM module"
