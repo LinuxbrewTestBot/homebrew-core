@@ -11,6 +11,7 @@ class Gawk < Formula
     sha256 "02651beb7f8ac06f197e69f8508fb97c90c82980172d35da023c5d34fb9b0ff6" => :el_capitan
     sha256 "2ef527c9f399a504de1c72706dc0123c47d8ce91892840346928a739d81cd93f" => :yosemite
     sha256 "73bf29a5c50d0a9a2062f7d80a24c0a097f74f9fd8c139b26e4c1f8004e33603" => :mavericks
+    sha256 "44ffb48839e942fc36ae634a8e3d691defea0e21c151e98fdb0756e074771aa1" => :x86_64_linux
   end
 
   fails_with :llvm do
