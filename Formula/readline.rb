@@ -11,6 +11,7 @@ class Readline < Formula
     sha256 "9bc3671fa05a042e8de11d5fd7769e45f5bfa674d4cb48c52720c7a3e7a521c6" => :sierra
     sha256 "35451200004c16ac49b5a990f9c0ed88a29eea8627c26db4ddf48020c9a73ec2" => :el_capitan
     sha256 "492648ce1c152c73c32c625926cc7ea6c9c56333a2dfa1f2e235d83ca3d9ee10" => :yosemite
+    sha256 "e0abef48ee22b240528c5fc16e1455ba8c1d85a87482cc0f7eadee24ff204964" => :x86_64_linux
   end
 
   keg_only :shadowed_by_osx, <<-EOS.undent
