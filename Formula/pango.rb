@@ -10,6 +10,7 @@ class Pango < Formula
     sha256 "3139d621454aaaaedd9ed42dd7fc1b40124152d7db750873448aeb839ca6d59d" => :el_capitan
     sha256 "380fff999d7a0e3931aa3c08f365071b90acb55a2d85f998aa5c9fa38cfacdfc" => :yosemite
     sha256 "0a914c5cd46cdcf2c2b52ce1f4eda1a6820c77fbb333f5e789b26582356902a9" => :mavericks
+    sha256 "6622011cbf8e83d31b676ef437435f568e48e1835189af292a367ffe3cada4a9" => :x86_64_linux
   end
 
   head do
