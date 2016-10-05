@@ -17,6 +17,7 @@ class Bash < Formula
     sha256 "a2f73335f36d0a35970b1ee2b41e4a6b939ffd9df2a3ee9e9ebb942765d10002" => :sierra
     sha256 "9f11130718619dd0523760d714c8ac349fd62cc0b11dc70671ff132e7fc94ef5" => :el_capitan
     sha256 "af85e62012466dbb9ec9e08fe59acb03aff35f2d41844d2871c80bbd5a9e6ac3" => :yosemite
+    sha256 "3ac9de490b36a00a5f696181e1f75c1fff6112a4b58d3e4affb348ba69b39544" => :x86_64_linux
   end
 
   depends_on "readline"
