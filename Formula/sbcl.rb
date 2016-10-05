@@ -11,6 +11,7 @@ class Sbcl < Formula
     sha256 "f9274daa67bb1c19304bce8df14224d3f929bdcf6a7d75f003fc2c8e57f8de6b" => :sierra
     sha256 "5a7df978f6113a563bfb919e4334cc18fd919b209bb14de62358313d205c1528" => :el_capitan
     sha256 "3859a8ac5b062a1b39a35e725f13b91225ab0a2f99896aad1cbdd9a1a0b13ff2" => :yosemite
+    sha256 "0e86ce869f49e82d6820b45323cd65c7f2327560a128c064d0881680db44f75f" => :x86_64_linux
   end
 
   fails_with :llvm do
