@@ -11,6 +11,7 @@ class Hh < Formula
     sha256 "19610c8ddce3e6f00bd274dd668f6e026b8449c72be593b5e1b59f5250b35c42" => :sierra
     sha256 "ec9c8e76d52b0293efe225d3ac9312e2edec14e7c9c84c6b8140fec8300f806b" => :el_capitan
     sha256 "ee3ece1e2ce9794d6e68f5f2a5749753e1fe4f4512de50b0397e4865ccbe81d1" => :yosemite
+    sha256 "d289f04aa0b2b8d297e3b440939f74abb80588c8aa89aa1c1d4884d2a34b94af" => :x86_64_linux
   end
 
   head do
