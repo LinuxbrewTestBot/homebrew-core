@@ -12,6 +12,7 @@ class Asciinema2gif < Formula
     sha256 "b839220fb7c238038d2e95e783aeddd3008d8fadff6cb10962ecb630600491b2" => :el_capitan
     sha256 "dd6a1126773aa72d9e7697d5df1790ef8abe5fcd8d6e4e122db9a9239725710f" => :yosemite
     sha256 "44fe778a63cbd91a70e0fd2b81b4af8cd3189f4f417ec6d9aa210d9149543a7d" => :mavericks
+    sha256 "50c7bf87630bbefcd3456fbb31a468bb91e92c4a26017840b9a4e2fab17ab3e4" => :x86_64_linux
   end
 
   depends_on "gifsicle"
