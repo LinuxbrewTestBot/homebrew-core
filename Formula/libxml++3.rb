@@ -11,6 +11,7 @@ class Libxmlxx3 < Formula
     sha256 "1eee12f428fea153679ce88eaf7f334f00ceb64aea6cf139346b535c5a664554" => :el_capitan
     sha256 "e068fff70a7513e0225288bc6092f37a016b4269d3a76c3997be1ba5a964c4e9" => :yosemite
     sha256 "8987284c0005cd2b8b80d91b81f13783e4e7d1ebff1f794b4686891381614b1a" => :mavericks
+    sha256 "790211d15308d7865c6a440737b48c63f5609207b82c50848282dd687aa008bd" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
