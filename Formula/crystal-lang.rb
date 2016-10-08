@@ -10,6 +10,7 @@ class CrystalLang < Formula
     sha256 "2a437557a13707eeea1d603e520c74837373257df139b80a90728a59c0beee12" => :sierra
     sha256 "20fd7f187a7e91c16231e11dea2826d0d55359a58c96b618e4d357c712e8c9fb" => :el_capitan
     sha256 "cf70696dc50064875dc140090cf5e3d0b2b33d7eedb23ef3e4578c086d2089f2" => :yosemite
+    sha256 "30088ebcb6acb9cfcca1658b6bdf0a4a9a98e5d530a7355b7e07a0863062e38e" => :x86_64_linux
   end
 
   option "without-release", "Do not build the compiler in release mode"
