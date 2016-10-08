@@ -9,6 +9,7 @@ class Mono < Formula
     sha256 "b721a3c65b8378ed0503e2915186e74aedbec995dc5f4447d30111d234f61509" => :sierra
     sha256 "df749326648af9a34ad442354cacd8c6d3f9cea276b60ab34b0a081802513079" => :el_capitan
     sha256 "96f73f36738ee077aaa566bc9e7d0d9bad818f8431d312ffd5c09eb7d9304459" => :yosemite
+    sha256 "4984633d29758732680df1846ae464b52e8cf2df7f1f9fc2884db621616a9928" => :x86_64_linux
   end
 
   # xbuild requires the .exe files inside the runtime directories to
