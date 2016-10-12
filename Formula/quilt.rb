@@ -12,6 +12,7 @@ class Quilt < Formula
     sha256 "34ec3c012f01a9ae624b327abea3f73132c409be577adcf1a0b4cc9ef1f149f0" => :sierra
     sha256 "a7d57c231898a6ca038db9789e8059dc2d4498da2a75eebb7d66837dbdd4bb96" => :el_capitan
     sha256 "a7d57c231898a6ca038db9789e8059dc2d4498da2a75eebb7d66837dbdd4bb96" => :yosemite
+    sha256 "bbc8b924f34a7eb778df5281c2adeee24690cf534c2599ee036ad420591c2405" => :x86_64_linux
   end
 
   depends_on "gnu-sed"
