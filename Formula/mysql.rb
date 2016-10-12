@@ -9,6 +9,7 @@ class Mysql < Formula
     sha256 "378bf7d07c791ee5144a958f1395fdb8838f29b2358ee927f9bc0e3f0673f66d" => :el_capitan
     sha256 "03df7e5ebba4674d75c6ec8c5ae68f0ea6df339595c3a5434740ce545296ccbe" => :yosemite
     sha256 "cf205231fd0bd4177bf3a94761d4dcc6985d1eb7597592f8e4947e826acf7fd2" => :mavericks
+    sha256 "8d327b0875d48be7d767e1859af20a436fee72b0983857d9f9f8d8a747dab04f" => :x86_64_linux
   end
 
   option "with-test", "Build with unit tests"
