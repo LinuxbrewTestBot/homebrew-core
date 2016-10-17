@@ -23,6 +23,7 @@ class Python3 < Formula
     sha256 "4a43600ceb2875c13200ace82fea1a9a119973b831f5503fa57cf8db44fbb155" => :sierra
     sha256 "301854e1a52fd577f84015eb5ef07e0e369c794b8894fb6850ae84d9391f740e" => :el_capitan
     sha256 "075f5e63188dfcd5a13ef1f9658b26aa2d8d943fbc5c5c50e05fc973bc38f7c1" => :yosemite
+    sha256 "ab6dda249829e28bf4611f9bb4624834ed38be13074232104f99cb745145af7c" => :x86_64_linux
   end
 
   devel do
