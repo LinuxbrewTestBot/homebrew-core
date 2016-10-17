@@ -11,6 +11,7 @@ class Boost < Formula
     sha256 "22763fd3647255018dc31832f2513c03f36a56c3461c03e03cf5e8866cc64ce5" => :sierra
     sha256 "5c639c9f61b56ed1d99a5b8b25d149c366543330b654c429fe939e57fae9541b" => :el_capitan
     sha256 "527fdbeaa9f685e3de45938bf897e145292471250c6e47ea50ff1635f121b67a" => :yosemite
+    sha256 "2963be19764c742c58e6adb5a313bd09eab9bff50a0d7a8562b578bfdb6095e3" => :x86_64_linux
   end
 
   env :userpaths
