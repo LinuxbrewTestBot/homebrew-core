@@ -30,6 +30,7 @@ class Valgrind < Formula
     sha256 "135876549d56520b45c659ba10016da512ce2e64e133484e9d3f65d63af596a0" => :el_capitan
     sha256 "59ed8706211ac8a82b4025e5ea489061822503e8cae3ec37390fc59fa8990e38" => :yosemite
     sha256 "13b4586d3781bc50bcc2cd14ed05d19333ef85b91ef4b2b21b4c1438dba163b5" => :mavericks
+    sha256 "74123f76662976d0511f8874fbbe31593d0fd809304053e8a464733f6081d137" => :x86_64_linux
   end
 
   # These should normally be head-only deps, but we're patching stable's
