@@ -23,6 +23,7 @@ class Qt5 < Formula
     sha256 "3e18f74f18c81bc2d27c64edbf266b6aee90b29de7204de726801a7d65bc30bc" => :sierra
     sha256 "db805c12e877aa51970ba710705cbd462e01ea163634c6cc6d6febac292047ee" => :el_capitan
     sha256 "c2829138042fb9dcf07732682fbe69ab141da5a91451a3b25b8146117b330c13" => :yosemite
+    sha256 "c88d90099df4321a741675f2d9e6416bc1d1bfd326b3b239c0d4cedefb109205" => :x86_64_linux
   end
 
   keg_only "Qt 5 conflicts Qt 4"
