@@ -11,6 +11,7 @@ class Ttfautohint < Formula
     sha256 "18fe5769eed8332423805f93571e8b7dbdc26a7b51d1912aec2b3d76d40f59b5" => :el_capitan
     sha256 "ae60250c59eb3751cc7e2c76ab319c5bef81d916bf4a81fb2428b7547177513f" => :yosemite
     sha256 "8184c3cbfbae95edd6ff56edeb0a76f2ddc3eeef38093fb9a83a39a944307359" => :mavericks
+    sha256 "20cd567e40c5623ed5c70524abae25c253cad9ca1c325c508c870658f3b1a5a0" => :x86_64_linux
   end
 
   head do
