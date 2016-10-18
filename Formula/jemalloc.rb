@@ -12,6 +12,7 @@ class Jemalloc < Formula
     sha256 "21ffd1b497cef703562aaddaacd02542904dfac565cb451914cea2f34e8f5264" => :sierra
     sha256 "849f114cf2ce8914d0366643b454856182f8b1abf31f38701a0bbf36fee3cf92" => :el_capitan
     sha256 "90886fb8e88457061e03693c2955163a790f223a8365584f836c924c3b92ae1f" => :yosemite
+    sha256 "4f93231e51f8b59ebbb7d4d17f223dd00198cb97de37c0872f03454760bf39cc" => :x86_64_linux
   end
 
   # https://github.com/jemalloc/jemalloc/issues/420
