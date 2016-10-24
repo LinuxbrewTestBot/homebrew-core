@@ -12,6 +12,7 @@ class V8 < Formula
     sha256 "487f2ca72096ee27d13533a6dad2d472a92ba40ef518a45226f19e94d4a79242" => :el_capitan
     sha256 "dc9af3e08eda8a4acd1ff3c6b47a4c5170a92dbab7d2d79958a14d8aa42eefac" => :yosemite
     sha256 "7bcd1bbd66c11305eeea0c36ca472de8a639f511abe0909c8815b1208dbce7b6" => :mavericks
+    sha256 "4bc27cab8a430fb18a2ce201c44e48321becb0c9058590aea399c19755675f6a" => :x86_64_linux
   end
 
   option "with-readline", "Use readline instead of libedit"
