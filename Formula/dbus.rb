@@ -11,6 +11,7 @@ class Dbus < Formula
     sha256 "8848b7e368750df3a9526f4c5d47a0649359e9e89cd9d94cb45e706402bdb66c" => :sierra
     sha256 "153735bc649bf2b7c8e995a5fdf44947d9f1c1a0091f1e351283a9621f281298" => :el_capitan
     sha256 "93fba26972dd5930cc211f9d76b4d16c93a120ce7b3c19c2f2be2aedbceac09c" => :yosemite
+    sha256 "a85f86c8f580e8c5e9e0808233dcd0549ae5e64685842b1b975f537cef91b5f8" => :x86_64_linux
   end
 
   devel do
