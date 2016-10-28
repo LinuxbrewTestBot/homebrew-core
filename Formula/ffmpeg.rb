@@ -27,6 +27,7 @@ class Ffmpeg < Formula
     sha256 "201c11c27d3c4d2c65593d1f95ecbc93194da5c3d0d88193313df1d81db6d69d" => :sierra
     sha256 "5edd5871efff922e64319534ae9f3a9e82353d19c9dce3e9a28a33fb5c92c7c4" => :el_capitan
     sha256 "4b4e684b3a89fdbc9d9c6858814da26f67004fdd06ec4a19268d1034ea9b87d0" => :yosemite
+    sha256 "98feadd898afa4fbb8f879e907940eb3be21b6470acd411da8f75ba6e8e790cb" => :x86_64_linux
   end
 
   head do
