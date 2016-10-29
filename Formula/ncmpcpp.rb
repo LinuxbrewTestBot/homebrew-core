@@ -10,6 +10,7 @@ class Ncmpcpp < Formula
     sha256 "12aab5a3aa5bdac55bc8244c8544a9cb406dd6c97ab6507652b0826fadbbde5f" => :sierra
     sha256 "ab12f9e658feb9fd1392c244c65725a45ee72821e0f8b03df7b1264e5b7dc56e" => :el_capitan
     sha256 "541e10777a7c2387b431b02968e22e92a0d5cb4723a4e6b27f1836cc2a2b390a" => :yosemite
+    sha256 "17226b33578ee6dd6479b4c8b541f65b5f31b9aedff6e42f6648fff8cd3591b9" => :x86_64_linux
   end
 
   head do
