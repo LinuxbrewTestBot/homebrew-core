@@ -9,6 +9,7 @@ class Unbound < Formula
     sha256 "96e9154693efc3cdcad0e80c9236448218c0fe6b4b958c9e8111c24a4277c94d" => :sierra
     sha256 "da31692ef5cf6a8fd3910e90b4eae50e4bfb261d8abfea0893bc0b921ed72637" => :el_capitan
     sha256 "f873d5c0fac865009e8e49cd216ff0920c398327718cf47a1c667ae46f2cdb12" => :yosemite
+    sha256 "be6ee19b72145a60520a9ea0f15efc303f9600484fee48365f18dec281867f14" => :x86_64_linux
   end
 
   depends_on "openssl"
