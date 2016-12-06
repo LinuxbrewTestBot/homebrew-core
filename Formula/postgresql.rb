@@ -11,6 +11,7 @@ class Postgresql < Formula
     sha256 "0da8bf2c15d5991feb11df68680b85d29fb56cca7cf51262cd467ad688b2130c" => :sierra
     sha256 "f885679f2fe9999551fab47618529287097345a8226da5b969baaa26a60333b4" => :el_capitan
     sha256 "6f535922dca6457f0b16a5a22be5d35ec9138dc2334acc60a660dbb7594c1d41" => :yosemite
+    sha256 "556098fd3ddf1c28ff2fa2f5a942b24ab61d5bec180e23ba14dd267237695ab3" => :x86_64_linux
   end
 
   option "32-bit"
