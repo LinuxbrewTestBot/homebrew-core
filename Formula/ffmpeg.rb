@@ -10,6 +10,7 @@ class Ffmpeg < Formula
     sha256 "38e27c9accdaef41f904d59a9a4df6ac0557c3319001bb5a8a547babb8016c5b" => :sierra
     sha256 "861c6e39a949a6d30a65e83d1626a676905a46924ca061af4f55b41ce1212696" => :el_capitan
     sha256 "c12f5e6f11749485985fb99f2081f0e543b6151f369a2a3ce63e1b925509a2bf" => :yosemite
+    sha256 "04fd4caf0076ca53a5da653fb03355070f2a14eb4386533702aca24f1aec1c75" => :x86_64_linux
   end
 
   option "with-fdk-aac", "Enable the Fraunhofer FDK AAC library"
