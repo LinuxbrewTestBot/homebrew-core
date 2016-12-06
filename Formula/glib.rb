@@ -9,6 +9,7 @@ class Glib < Formula
     sha256 "99ae316b13b93f38b08c02e2ad18c54364ffad71ed1cde413ebb6f024c9c88dc" => :sierra
     sha256 "b9f6e4cd0ff6a54e0dbb49c4016f31c30886fe9d253883ba84db5a936235c513" => :el_capitan
     sha256 "1f9f8b9faf2b1d50b9de58a35b7692fbc709077f70528bdfc5db9ae9bbcc1518" => :yosemite
+    sha256 "590eeb66817f615df0789418196b28b55a063aaede25f21e578659d58c4738f1" => :x86_64_linux
   end
 
   option :universal
