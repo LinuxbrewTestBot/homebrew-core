@@ -12,6 +12,7 @@ class X264 < Formula
     sha256 "a795934302fb05c99877f3964fda26c5eab209151f07fe71db9f2240af2ece32" => :sierra
     sha256 "996b9403ec3fd21d483b83a092433529f986838b1af3c010888ce2f4c5bb1f94" => :el_capitan
     sha256 "b9271495a8f01a534b123e1cc3061480ac9c5125489d701248b964ce5614da0a" => :yosemite
+    sha256 "c61dd1b9efccabf76af1adc1829162860a4d75d18bc49c8c456c780500bb23b3" => :x86_64_linux
   end
 
   devel do
