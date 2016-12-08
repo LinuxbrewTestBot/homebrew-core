@@ -10,6 +10,7 @@ class Libsvm < Formula
     sha256 "0fce8de31135d07cd0fdb3641ebad2dfa974cc764ebaf6687f37a3a69a745c3a" => :el_capitan
     sha256 "bdbaaa0c8be35d3424ace7a9fc4ff03158116c76151cbd2baa5361bd34db7b67" => :yosemite
     sha256 "dca4ebe29389222258e146be192f3d40d147c355751a9581b873d30b8f1a0f91" => :mavericks
+    sha256 "dfc7c6015460c4ff7796725243644a7675eea48c870121e5e715c307cb3f3f66" => :x86_64_linux
   end
 
   def install
