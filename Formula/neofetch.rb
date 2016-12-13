@@ -12,6 +12,7 @@ class Neofetch < Formula
     sha256 "d71c70e67a1d0085b3c41f0e0ef996de97f7ed53eed754a942da7ab888ea3591" => :sierra
     sha256 "34db4e4e0cfe5a096a76e84730b7c1d0f2d0b07e1279a747f79a172af9a0bef7" => :el_capitan
     sha256 "d71c70e67a1d0085b3c41f0e0ef996de97f7ed53eed754a942da7ab888ea3591" => :yosemite
+    sha256 "b00226bdff7a8d111009333842c3d4fbb59a5ff80cb27223a73a329d450be02c" => :x86_64_linux
   end
 
   patch do
