@@ -14,6 +14,7 @@ class PandocCrossref < Formula
     sha256 "da222315b8f7b9e0cc68a7215a54eaf2377f428d0db69a3b72e4c98027c789e9" => :sierra
     sha256 "f5ced83ebce430a8870a6106f1947480124a49891bad0af5cdebc1143c49c8d4" => :el_capitan
     sha256 "0ff5b3b70750f81d8ad96dd3d0d8de5c4afbab60b54a6c38bd1cf0c428c42a89" => :yosemite
+    sha256 "4b786e24490471fc89ed20fe74724abb43685a38acd7d2544094dc6f1bef8297" => :x86_64_linux
   end
 
   depends_on "ghc" => :build
