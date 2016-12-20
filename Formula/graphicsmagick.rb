@@ -12,6 +12,7 @@ class Graphicsmagick < Formula
     sha256 "e0e72ba85c6cc4d5acb13d093f2b3c59f02f0d81414bb797775d161e17ae2ed1" => :el_capitan
     sha256 "36c0f4a292253bfeb4184b8b8033c98a767891fd97d3cd53060a8be3432f71bb" => :yosemite
     sha256 "6846286eb57e624fab71cc5d5b1066c16636dae781d821caf55c9f181f73c425" => :mavericks
+    sha256 "03e78560e17cd65d50733d3f59a47a389c9b8014b583321a20f3bef97b581ac5" => :x86_64_linux
   end
 
   option "with-quantum-depth-8", "Compile with a quantum depth of 8 bit"
