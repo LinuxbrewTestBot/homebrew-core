@@ -11,6 +11,7 @@ class DejaGnu < Formula
     sha256 "099657338971c6b84bf135f2935559a4753b2137edd807d777c999edaf0fb8d6" => :el_capitan
     sha256 "0d589e4ec11e3d8de7f00abcbb4a62b50e578e15e6d8fafd42371ca9550b04c8" => :yosemite
     sha256 "575e2565feb8d2d60c3163a1a8d38c4ba719fd5a523fc147a7812aed7f26fb88" => :mavericks
+    sha256 "1b15ab0a82cb6ea1382bfc8218b1b25d17b21d311ad99cbf49be2d2e0c6b5ada" => :x86_64_linux
   end
 
   head do
