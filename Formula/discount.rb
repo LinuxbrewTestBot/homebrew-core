@@ -10,6 +10,7 @@ class Discount < Formula
     sha256 "a20f4d6f1b8f548432100c6cb6eb18eec06e5fcba34e0622a243a1332559e64e" => :sierra
     sha256 "4e249da5268aafc6481a20e843dcb8bfb4ea467acf78596a23c70e8fd9ff07ed" => :el_capitan
     sha256 "b750ab251006f3ac79144586643c035e6fe36e5e6ef8c80c1a912c685c4ab28b" => :yosemite
+    sha256 "bf105b864dc4774945eb774870ef55dca65d16e8638490364827d737be3c1bc8" => :x86_64_linux
   end
 
   option "with-fenced-code", "Enable Pandoc-style fenced code blocks."
