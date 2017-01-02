@@ -14,6 +14,7 @@ class Icu4c < Formula
     sha256 "779eda1c03f44b54300b5e70143f6bd4866b6f5f582e4216124649539164b029" => :sierra
     sha256 "f8267df67e76db7412baf967dd9ef6e8c625cd207707960a6a2a860e0c07f92b" => :el_capitan
     sha256 "7ce8fa8fba5ba285bfb0278d2e73c01e8d2ff3115a5ad762255cacde6ffeecfb" => :yosemite
+    sha256 "897111f158925c1aa98f4fa6f621e1d30c27453fb2b6702ffa32b5f86bb2ee4f" => :x86_64_linux
   end
 
   keg_only :provided_by_osx, "macOS provides libicucore.dylib (but nothing else)."
