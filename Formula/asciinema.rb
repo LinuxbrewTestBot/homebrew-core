@@ -12,6 +12,7 @@ class Asciinema < Formula
     sha256 "20800a64e58bb2c662007fb6dcd8ed9eeb503a7b0ffc1aab8c7b8f917696679b" => :sierra
     sha256 "20401e81d70e056156dc8ef6c0ccc650971185b2ba21c253f047939db6942c99" => :el_capitan
     sha256 "20401e81d70e056156dc8ef6c0ccc650971185b2ba21c253f047939db6942c99" => :yosemite
+    sha256 "98e7a2141e1a7534e3ca666b257cbe647b328df6b4f4b2e2c0908b4cec069578" => :x86_64_linux
   end
 
   depends_on :python3
