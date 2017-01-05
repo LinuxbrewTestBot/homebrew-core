@@ -10,6 +10,7 @@ class Global < Formula
     sha256 "af4fa80ef9e85cb7cae59aa640d6cd03af96f8f47e9ead463bf711fcc5c589dd" => :sierra
     sha256 "07b350e0d629047c3fd4b106c1ce3f747b6ebf99b545634ef1071a30e25e748b" => :el_capitan
     sha256 "2d51a1dabfa1eb5738f54f05cc10446741c37d44df95b07121759255f333efe6" => :yosemite
+    sha256 "5e933d869f93d75b49daf56f9f06385328e862b3dfa096d7a421b13616fdf973" => :x86_64_linux
   end
 
   head do
