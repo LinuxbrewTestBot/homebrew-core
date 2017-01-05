@@ -10,6 +10,7 @@ class Tcsh < Formula
     sha256 "3a59ccfdab60133b8854d528465882a3a8aaaa874f70ef1e4a0deee2f06802c6" => :sierra
     sha256 "d43bbcefe883ba5bd0dc998e5c4e6e9afcd35bacc780864fdcfe5a560002d7d1" => :el_capitan
     sha256 "ecbd811718e22c579434568185a8ea87d78d420c251913f84da8093f61d1b408" => :yosemite
+    sha256 "684ef51fe5d799063d791dfc797957160317346dc6a09e053dc96d92154932c8" => :x86_64_linux
   end
 
   depends_on "homebrew/dupes/ncurses" unless OS.mac?
