@@ -10,6 +10,7 @@ class Hunspell < Formula
     sha256 "78d7165c49fe18af2702228176b66aacd86b938df24fd7af17c911e3ec6ed801" => :sierra
     sha256 "ca24830c14fab329a09e57be6568eb7fee6fdacaef7821efb4bc503f3a299469" => :el_capitan
     sha256 "913f5a6bd8dc3e1e4c1c711a95929534430df79aa79a72248abfb5291952b30e" => :yosemite
+    sha256 "e410d35ec962d8480f9ef45313fc59679118e584e3043d99e177bc00ee44823b" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
