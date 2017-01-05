@@ -12,6 +12,7 @@ class Ranger < Formula
     sha256 "134b13f0873516b6e3b04c757a19cddd0f2daf5291b6094b608d7a72e146af64" => :sierra
     sha256 "b03b18490965e67475c1bbe1c1423427772bff7760fb6213ae60aec55af9008f" => :el_capitan
     sha256 "b03b18490965e67475c1bbe1c1423427772bff7760fb6213ae60aec55af9008f" => :yosemite
+    sha256 "5dd940f0a1aec6dff1a5380cb9d30cfc95babec5ff74c38c3ee2d7dc5655e088" => :x86_64_linux
   end
 
   # requires 2.6 or newer; Leopard comes with 2.5
