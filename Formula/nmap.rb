@@ -10,6 +10,7 @@ class Nmap < Formula
     sha256 "a8a43b57a4ed84ba718e7ab64015d118d8a9f4b99309ab114edcb8587c2f1693" => :sierra
     sha256 "bf50768abbdcab2554e06925be69321cc6f8d36ed6125bacb6cd25b1af78356f" => :el_capitan
     sha256 "713767f307d9cc28e40cacfe1663c175ec96fa5db483121df996aad1490773a6" => :yosemite
+    sha256 "6eda47ba44fed08a0234d852d9c3d4a4c00c71aca84f56ac59b16063f83c7f68" => :x86_64_linux
   end
 
   option "with-pygtk", "Build Zenmap GUI"
