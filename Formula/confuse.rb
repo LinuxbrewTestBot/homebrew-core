@@ -11,6 +11,7 @@ class Confuse < Formula
     sha256 "bccc3cbebb15df2eddeb4167924e691d02ebdf8c92e91f18d11bcd3aa2d6fed8" => :el_capitan
     sha256 "1e354b584efd29bed60120d9979fd796ff7f0070881f8c38683b940480150f7c" => :yosemite
     sha256 "25662250293bb36d1c3fb99bca9a4b3ece7f9857e5ffdfa59dad5e627fcf15c4" => :mavericks
+    sha256 "faa8d7b0cb67b7dd9415cc9f74a86987af0b60cdce076a46c8b225c1e39302fb" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
