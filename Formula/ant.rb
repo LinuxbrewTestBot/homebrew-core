@@ -11,6 +11,7 @@ class Ant < Formula
     sha256 "8f4d965e345f128f5ed9871467f37ab46495bac7590c0d51827ed7398a61c42d" => :sierra
     sha256 "66ecee3d85ab96e761df300f6b6128f7e3f806ab2f3674d880107be0b886e73a" => :el_capitan
     sha256 "66ecee3d85ab96e761df300f6b6128f7e3f806ab2f3674d880107be0b886e73a" => :yosemite
+    sha256 "b5a82127c8d4ae77d18a1d4eecd64c8595bd75677dfa9fb4cc72a21fa5ea7edb" => :x86_64_linux
   end
 
   keg_only :provided_by_osx if MacOS.version < :mavericks
