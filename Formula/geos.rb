@@ -10,6 +10,7 @@ class Geos < Formula
     sha256 "02aa28dcfd38747e924fa486b1607c90ddf5e18c7a400510e3d7f12ef6b90d86" => :sierra
     sha256 "b4f3fd82b0f39f109ff3da7d5027471c8c2bc8f39bc24198af145df9d3576a71" => :el_capitan
     sha256 "5b20acb4dfa59515be97f9f731f497c59d11deee2547ca61191b0da4eb8cf735" => :yosemite
+    sha256 "ea877cd02823318398b58d9a4e67e717fee757705cb7e848b57cc710f4f4c7d4" => :x86_64_linux
   end
 
   option :universal
