@@ -14,6 +14,7 @@ class Gnupg2 < Formula
     sha256 "9289e192f19a2ed16b4910af8f7892fd8b93963805997d26192883803639b8ec" => :sierra
     sha256 "ed3349ae0102f8fdc95d8feabe5bc34f74d2f66f1ccacec834a62ab8b931192a" => :el_capitan
     sha256 "94c15342895e54b7692df595c2f2fc1d83f8e90f51d7831987542133e8a850c5" => :yosemite
+    sha256 "2495bdcfc6ada1d3379fb704314168facd8ed8e76a900ef135014f01157b5698" => :x86_64_linux
   end
 
   depends_on "libgpg-error"
