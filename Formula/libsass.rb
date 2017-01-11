@@ -10,6 +10,7 @@ class Libsass < Formula
     sha256 "1bf8fdd91e81a6ae71c0b285bf9bda4892d2d5fa152ed9cd9eb99c8a0588bcf6" => :sierra
     sha256 "d6818e9a5872d39f02be581e6d31cc8942c158abfc428d8e662454248ae97c87" => :el_capitan
     sha256 "030c6b49661b482562fb1ce2d2e2ca383dada5124a78439a4b7afa2eb7e6312d" => :yosemite
+    sha256 "70be1671a64b68a9a5f2b438d504b2b1b37664e14156e58e04bd6c0924e72f78" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
