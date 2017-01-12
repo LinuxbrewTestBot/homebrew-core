@@ -25,6 +25,7 @@ class Ldc < Formula
     sha256 "5d4e2c20dd74909113448f9d80032b9eea9776061c2aabde9b58d33b36503588" => :sierra
     sha256 "4837cf9fdb9b9c030fb26674254a844610459203a79847b1ff3cf0d85770fc33" => :el_capitan
     sha256 "8d827625dea278303befcbb997d3e1713b7d85e257705a30da72ce1519eab147" => :yosemite
+    sha256 "c2d5b20f8f7626b1424fba8921cccfa321f724be926aef90b1fb308f2758e9b9" => :x86_64_linux
   end
 
   head do
