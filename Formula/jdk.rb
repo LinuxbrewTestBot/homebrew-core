@@ -6,6 +6,11 @@ end
 
 class Jdk < Formula
   homepage "http://www.oracle.com/technetwork/java/javase/downloads/index.html"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "6c98492fd5e0c8195b2e573245cce13942ee31fcb8b811a1d27509662759ef2c" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   version "1.8.0-112"
