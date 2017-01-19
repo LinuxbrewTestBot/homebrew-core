@@ -10,6 +10,7 @@ class Clasp < Formula
     sha256 "fd9ad8525cfbb0692dd94cedbd76849edbc222fae644b27fe1e106679e39c64d" => :sierra
     sha256 "66882d87c5b4aead5af374d54438cbac8877c493e0aaf56798e8c629581d7186" => :el_capitan
     sha256 "a7770d88cfb59b6678f297ceaa8a38e305eb11a28df6a887205a36c90728c973" => :yosemite
+    sha256 "32c198ea53bdd066478cc3854fc05486a4916517858e9ad54f8fe8a86ba93f07" => :x86_64_linux
   end
 
   option "with-tbb", "Enable multi-thread support"
