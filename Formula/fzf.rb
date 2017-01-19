@@ -12,6 +12,7 @@ class Fzf < Formula
     sha256 "6522e26e982f91cadb5b35cffc0e8a7b50f44404ff09f11170ca988ac8c3b573" => :sierra
     sha256 "a75f5ff839206c4c3c3986657f31245821e17d3955014a38187f7867cc8bb3d4" => :el_capitan
     sha256 "337ba7152491e08358fd12d475f7b328c24a36348bff7275fdb59ad5032240e1" => :yosemite
+    sha256 "f543713c1e2cc1345810ade5ca6a4ba60ec67b3d45436e23e53edeb04d00c9f2" => :x86_64_linux
   end
 
   depends_on "go" => :build
