@@ -15,6 +15,7 @@ class Astyle < Formula
     sha256 "00b19ebc8e22131555090f45a62fe8e47bc147cbb6bd20b46126f64ececff0ba" => :sierra
     sha256 "7e80942d28e0b8767f65e4f90c0b783ffaebb5ed31ffc26278ebaf3c50563ca8" => :el_capitan
     sha256 "a3b000b925c1585ef9a5770da73f99a12e650d820a29a482afbe79838f599309" => :yosemite
+    sha256 "cf7468ff706254bf74edc9caab71a63850d49f45c18422b301dcdb9179565168" => :x86_64_linux
   end
 
   def install
