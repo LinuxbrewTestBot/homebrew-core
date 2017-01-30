@@ -11,6 +11,7 @@ class N < Formula
     sha256 "422b6ff8b2ee55b39a286fcbda99fd7a8e36eb48bedefda7fb875eea5de5ae19" => :sierra
     sha256 "422b6ff8b2ee55b39a286fcbda99fd7a8e36eb48bedefda7fb875eea5de5ae19" => :el_capitan
     sha256 "422b6ff8b2ee55b39a286fcbda99fd7a8e36eb48bedefda7fb875eea5de5ae19" => :yosemite
+    sha256 "bc7411aeec35d7f1332ba58b86fd568e4a4a12a211ec61c5eb5bf230883086f3" => :x86_64_linux
   end
 
   def install
