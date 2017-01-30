@@ -12,6 +12,7 @@ class Neofetch < Formula
     sha256 "d76acad31a6c94dc33602133fda65a1968b8403b5a42cb2cff96927137008b9d" => :sierra
     sha256 "d76acad31a6c94dc33602133fda65a1968b8403b5a42cb2cff96927137008b9d" => :el_capitan
     sha256 "d76acad31a6c94dc33602133fda65a1968b8403b5a42cb2cff96927137008b9d" => :yosemite
+    sha256 "b923058d30fd560282317b649aac773586d62bd487f679f383366e20ed3fe14d" => :x86_64_linux
   end
 
   # Fixes config file detection now that neofetch stores the config in /usr/local/etc
