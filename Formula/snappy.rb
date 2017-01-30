@@ -9,6 +9,7 @@ class Snappy < Formula
     cellar :any
     sha256 "c0db3b0eb4ca734ce33c312e28a736d8a3ba642a022267060892141e3f6f2bcb" => :sierra
     sha256 "171e6724d109bed4cc95b6a843c2637fa0f5ed301dda5063a89b1353c1282488" => :yosemite
+    sha256 "e5e0567e4e588ad934f806dee847b9838b0b24caebaca012a2f2cfa2e35e2d55" => :x86_64_linux
   end
 
   head do
