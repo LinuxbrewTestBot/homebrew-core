@@ -11,6 +11,7 @@ class Fftw < Formula
     sha256 "fd1efca44c0a587c8743aedc05190864c12a56acf5a23aaf2b628bd80c832415" => :sierra
     sha256 "d52d2f1479813ff7b2b11459195d1034236bda52925ffd0705b1a83b9b8830a7" => :el_capitan
     sha256 "b2fd9cf818a8d76caee42d1c979765ac1acc48243be45457e75f3eb5463f41b9" => :yosemite
+    sha256 "8e22e09cf4319936a449d68b9dcacfbf1ea37f8bb70a20a3c97ff4418bb5ef62" => :x86_64_linux
   end
 
   option "with-fortran", "Enable Fortran bindings"
