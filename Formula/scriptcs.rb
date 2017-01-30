@@ -10,6 +10,7 @@ class Scriptcs < Formula
     sha256 "0d37ffc1b70e089876f26fa6682a5d4a90bb4e148f0be4ccc824abca8575546c" => :el_capitan
     sha256 "910ba1adb86a5529cfa18f666b7e2498c1cfb7b73af1497e190ee34301ef5546" => :yosemite
     sha256 "9526293747a6e8c1cd5162390cb3a5d67047b8a7372adad452eafa0c954aea10" => :mavericks
+    sha256 "52d8f973dacc3c7917e3ce034a2aa30661dc3c267ac3e0aaf856c2d0b1d6894c" => :x86_64_linux
   end
 
   depends_on "mono" => :recommended
