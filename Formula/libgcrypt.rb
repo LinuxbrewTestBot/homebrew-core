@@ -11,6 +11,7 @@ class Libgcrypt < Formula
     sha256 "80363bc060150813df38493638551e24b48e8c9bf106e06e22c98b51cad65687" => :sierra
     sha256 "360f008a45b2c32de7963f307ff80da0b53cf2d257c87412dc2465984a3797ec" => :el_capitan
     sha256 "461822c0429c16e33c2c5f8be173fedc3228cea786683e463ae628789ea6c1e1" => :yosemite
+    sha256 "8615138d8bf2e964103c90a713a10d9e05c59fb0da61a5ba3d78a2dd9efe61df" => :x86_64_linux
   end
 
   option :universal
