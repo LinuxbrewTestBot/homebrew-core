@@ -10,6 +10,7 @@ class Socat < Formula
     sha256 "63cba17ba8512ae70e018d6e918b67e4d3646bbd44b6aa77d7e4c92833f4a79c" => :sierra
     sha256 "65e0fd67dbb8f8615110beb7a10710aa73ec8cd4dcfb19408558a56d368728e2" => :el_capitan
     sha256 "8bbbe3d993e937ee42499de4efdf02c168c97b30bb75077e5489c4b165829e1f" => :yosemite
+    sha256 "d5c1e8000bd981a01cf5e6c8de0c20eac94af438e7fd159b1282ae859f66ca82" => :x86_64_linux
   end
 
   devel do
