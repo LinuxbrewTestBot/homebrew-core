@@ -12,6 +12,7 @@ class OpensslAT11 < Formula
     sha256 "9237bb28e7c9d8fd18b5a90401d54139b1dd9d0988b9a83b7607ae7fb86c72de" => :sierra
     sha256 "53da6f83eb00af8b8747a29a697e0eac6ca70ef509590af3e2651cd4c35e2852" => :el_capitan
     sha256 "29deee7a495f1d898a7f1bdbb85a6a2f947ad32a27f43a7400ba897038819738" => :yosemite
+    sha256 "7c682ee1eb07777cbd487afedb033790c457824b832e9a8b8b34473dc59a9e60" => :x86_64_linux
   end
 
   resource "cacert" do
