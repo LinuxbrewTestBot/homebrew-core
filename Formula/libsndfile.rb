@@ -10,6 +10,7 @@ class Libsndfile < Formula
     sha256 "d62e838578eef2bd9ec76a8cc2ee48016c20b83bd4edce89b61892a640d666fa" => :sierra
     sha256 "31bdf218e00a1df4e659e098b4abb73a75f69e3a3372a9116f57a2714d27fe35" => :el_capitan
     sha256 "4b6e891dc0dde551f1ee73ea508553ebb1c84c08fbdc5ae0e874e30ab0367ffb" => :yosemite
+    sha256 "e6d551c7a7652b6f712537c28800f66a3a60a4e63eaa27a538ea04f3602ef3de" => :x86_64_linux
   end
 
   option :universal
