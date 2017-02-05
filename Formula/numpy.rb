@@ -10,6 +10,7 @@ class Numpy < Formula
     sha256 "8952c7dcb2461a4b1cc47ec2f20caadc48c179627dcc44e5909110d62f94a315" => :sierra
     sha256 "44652cf8ebf75c35c27ee50940536c2c0a7c4450056e08c3b5003a146b763745" => :el_capitan
     sha256 "aa17213442ba40d95ae0aee3d258f70222d6f4795deddf7b016330391901735e" => :yosemite
+    sha256 "a7438ff79fd01d81dfaee15a6bd4aaf989317b063c037d341e6d7ffffbd5e819" => :x86_64_linux
   end
 
   head do
