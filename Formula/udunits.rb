@@ -9,6 +9,7 @@ class Udunits < Formula
     sha256 "c6fa4a694e7abbf431d52a76f24bba3035cfb3c0e6a2eadea7dd54d9612e9f82" => :sierra
     sha256 "1cb69fbe3d62af625c6289bd8759c41e349764cd33a60a4c867b8c02a9be8c38" => :el_capitan
     sha256 "40a4532a90e265dcbe85bfda55c6d797581cd7f02e91a660e1c14e03a5642ef2" => :yosemite
+    sha256 "77ad999eea6b6a006e988865878ba504f44841d87a951896f06d61f671e40cbb" => :x86_64_linux
   end
 
   option "with-html-docs", "Installs html documentation"
