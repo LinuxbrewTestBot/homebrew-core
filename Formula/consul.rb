@@ -14,6 +14,7 @@ class Consul < Formula
     sha256 "fdc85bfa116f1cd50fae6acbd5791600eb6cd7482ff555cd4d9ca9d21a37760c" => :sierra
     sha256 "d184621b553335440eef5c5b3b1fdb42b326c0e06c8c4f782a6fadcdc0fc0936" => :el_capitan
     sha256 "f361cdb14e178c431e93cdbd073cdafe586559e338c56e1ba0b6993f71cf4942" => :yosemite
+    sha256 "3a93fb9a298461fb14dcc53c0c5710e3b54a2c02142c6a5f3adf4501c5f29d95" => :x86_64_linux
   end
 
   option "with-web-ui", "Installs the consul web ui"
