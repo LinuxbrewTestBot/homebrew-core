@@ -15,6 +15,7 @@ class Netpbm < Formula
     sha256 "6fbf190d0c7876dd811872d273d780fe1404672abb85aec666f44bcf3f643581" => :sierra
     sha256 "e3551086519cfe08637b239c3e3939f3a9cfb416c7795f8d08ef1357551f922b" => :el_capitan
     sha256 "fb5df9f31a1202bf9a25cabb48a3d67a35dabbaa645875e558c4a359da784fa9" => :yosemite
+    sha256 "e52905b4bdaaf22d2507e5957d6d0b195627394fe5a0942b7741d5408c5cb549" => :x86_64_linux
   end
 
   option :universal
