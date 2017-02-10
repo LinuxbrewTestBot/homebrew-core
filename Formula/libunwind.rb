@@ -10,7 +10,8 @@ class Libunwind < Formula
   depends_on "xz" => :optional
 
   bottle do
-    sha256 "caabeb18f79a24a02caf5c3f706c144173310410bddd470160909b3eda391a41" => :x86_64_linux
+    cellar :any_skip_relocation
+    sha256 "f275f0fb6e8e54c6d66460477400d554548177c9db2e19aa7e095c837f46cecb" => :x86_64_linux
   end
 
   def install
