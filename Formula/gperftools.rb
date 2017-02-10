@@ -21,6 +21,7 @@ class Gperftools < Formula
     sha256 "f007d19e148f697e681ba71f9c3721ec1f9640b7a48bd0a55c129085ba1a3a89" => :sierra
     sha256 "f29fe0e250ee9cc6cba00dc839bf0097db992ba4ec11aff4ab9dbd69e7dd10e8" => :el_capitan
     sha256 "e6af4a9899529cf2aa1ab0c7c6a667cf1a1df9a207a51c0dbb64128d1e1f1d05" => :yosemite
+    sha256 "81379d202516ca4b2a0a968101fc1671d2eb8322b5455560bcc9267735ddc8b1" => :x86_64_linux
   end
 
   # Needed for stable due to the patch; otherwise, just head
