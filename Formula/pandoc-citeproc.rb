@@ -14,6 +14,7 @@ class PandocCiteproc < Formula
     sha256 "1c99018d79ad1cf922690bb7934a0177a6deccc7b7e914ecd548ca29d2ebe21c" => :sierra
     sha256 "2bfd7a376de2152032cff391f78ccbff0b846638cd2d0546aa54da7ee135fc1c" => :el_capitan
     sha256 "b330b05b9f456418a9a66311271d5135cf6a5e85eddc02c7ba94b368c3f5674e" => :yosemite
+    sha256 "ebb23b931b71e2c023176dc70700d3e6d1b26657781e619b5f0c3e237349bde4" => :x86_64_linux
   end
 
   depends_on "ghc" => :build
