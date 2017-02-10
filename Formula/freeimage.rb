@@ -21,6 +21,7 @@ class Freeimage < Formula
     sha256 "3b9bf4ed62d4d0d88daa301cf5c183d16474d1a0957a14fffc2ead3d0d88ecb8" => :yosemite
     sha256 "d7d197266815f5f3d732c9afd66055e7abf49362d7449bfea21e3aa358e5a4a1" => :mavericks
     sha256 "9d1e914ae20deb7066caf5f1cf52c3d48c0c04ccd36b791170c7e1fcb3528a36" => :mountain_lion
+    sha256 "4f156dbe17f0e312196ff9b696b0712663092cb6e060d2af0872a7eb217bd254" => :x86_64_linux
   end
 
   option :universal
