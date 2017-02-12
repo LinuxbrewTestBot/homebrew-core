@@ -21,6 +21,7 @@ class Valgrind < Formula
   bottle do
     sha256 "ab3ef2be621bc6b0619d2a87a263d8d7a99056101305b3f4116d4c98049bd782" => :el_capitan
     sha256 "641cd92b8fa21863db3fadc5be6054477933eba9d2fcee6b54ed797ae5b01f63" => :yosemite
+    sha256 "ae37ba91e085fc86d889f85c1951624983ddb186babbed8a9933265220decf42" => :x86_64_linux
   end
 
   head do
