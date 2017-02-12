@@ -10,6 +10,7 @@ class Libepoxy < Formula
     sha256 "a3cab4d43a9fa2fd109c8e47d90985770fbcc09cbebe1913cd4bf3fdc89c6fa8" => :sierra
     sha256 "2435fa039229e575b6491299548b0cc4507cfac13e62c0b5213f862902514fb2" => :el_capitan
     sha256 "f95aff4f5d3aed6991335ea6f67e3377a8a99200a554ca2cb0026c5e20630523" => :yosemite
+    sha256 "218d2823d04d4566494186f974da99e3c64d4755bfd242ea695a30933d3ac106" => :x86_64_linux
   end
 
   option :universal
