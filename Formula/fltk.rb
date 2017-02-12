@@ -8,6 +8,7 @@ class Fltk < Formula
     sha256 "145440139990f28366947502ac96c89ecea165dd6e328b30495291ea55b0bd17" => :sierra
     sha256 "8fc20e6d86ac3c9866b614365b25942cba95855ae748f284848224df9de7c90d" => :el_capitan
     sha256 "b30e0f6d843720c277f5e2c393abb2505d2fe69c8335c152f645ce87cc91d735" => :yosemite
+    sha256 "e93feba5b2a3c5482393592f6c0533558dcf9be6ad2b23c1ebaf800c9b101d47" => :x86_64_linux
   end
 
   depends_on "libpng"
