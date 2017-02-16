@@ -10,6 +10,7 @@ class Msgpack < Formula
     sha256 "432e9e555988a235985920c29bc83120c51dc21e8d4b8ced23733ddf75a36167" => :sierra
     sha256 "566c6a890a685e8ff003d0587dac3fa0f96b529ef1b1a2866cc4b925ae8c4363" => :el_capitan
     sha256 "aaf2e98f329731911441142a79e29d09168761689bd2a7e1058177a878e63bad" => :yosemite
+    sha256 "999285118d87567d9a203731124b40cc3f5afcdfa86ba34a96a46e54aeb7b504" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
