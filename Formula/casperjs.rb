@@ -11,6 +11,7 @@ class Casperjs < Formula
     sha256 "2169e087db1920067eed5cd4c02742d5fc28934224960f34fca01ef7f0cd44cd" => :sierra
     sha256 "2169e087db1920067eed5cd4c02742d5fc28934224960f34fca01ef7f0cd44cd" => :el_capitan
     sha256 "2169e087db1920067eed5cd4c02742d5fc28934224960f34fca01ef7f0cd44cd" => :yosemite
+    sha256 "96aff91f358fa08c7cad07874875012a308ec39e0fda9c64549987f54c8ab64f" => :x86_64_linux
   end
 
   # For embedded Phantomjs
