@@ -11,6 +11,7 @@ class Lnav < Formula
     sha256 "6a837ec2864ded4184dbbc107ff1ae662ac3c15653612e40d7525e807f6924ee" => :sierra
     sha256 "7cebdd35ef7af9955d419831fd9a4ad3dc01a4936f2793c4b089cb4fa82060bf" => :el_capitan
     sha256 "c01ab02b88fbd581c4f956a8ca7a7190a0a31b6d3ac75977bd7cd8bbbdc491c2" => :yosemite
+    sha256 "c281c7a455bcdb6735e18e922d0240a0b5a0ad0004ff8663c4a26c02673070d4" => :x86_64_linux
   end
 
   head do
