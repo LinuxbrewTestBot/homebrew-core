@@ -12,6 +12,7 @@ class X265 < Formula
     sha256 "9ff35598401ce827ea176b7f311bb5cf2260f51007f02915fb78e86c6f9e2176" => :sierra
     sha256 "ffaef9f463769872cbdaf57fd0323d416fa344c5e4f54f36d08bb4f5885a064e" => :el_capitan
     sha256 "ac714ad740db69cff490c81efe5b7f46f293f0f9339280cec1b5a77bbfa255cd" => :yosemite
+    sha256 "f5f86a65df4a4958afd5936a6e3c2cf1db5e10c6444f5e3a568d2b9f7c75d76c" => :x86_64_linux
   end
 
   option "with-16-bit", "Build a 16-bit x265 (default: 8-bit)"
