@@ -4,14 +4,14 @@ class Dpkg < Formula
   # Please always keep the Homebrew mirror as the primary URL as the
   # dpkg site removes tarballs regularly which means we get issues
   # unnecessarily and older versions of the formula are broken.
-  url "https://dl.bintray.com/homebrew/mirror/dpkg-1.18.18.tar.xz"
-  mirror "https://mirrors.ocf.berkeley.edu/debian/pool/main/d/dpkg/dpkg_1.18.18.tar.xz"
-  sha256 "c88b61e3d4660500753142689e8ddbeff1c731f29549f3338e6975f655936ff5"
+  url "https://dl.bintray.com/homebrew/mirror/dpkg-1.18.22.tar.xz"
+  mirror "https://mirrors.ocf.berkeley.edu/debian/pool/main/d/dpkg/dpkg_1.18.22.tar.xz"
+  sha256 "eaf2ae88eae71f164167f75e9229af87fa9451bc58966fdec40db265b146ad69"
 
   bottle do
-    sha256 "0cb724b24e6259a1b792d081fca589925809f841b271c57b3ca5bb9100299412" => :sierra
-    sha256 "a612146da7dffef7b2324726b07237e7af9ab67215f9b05ca4825adb4c5b6cb5" => :el_capitan
-    sha256 "990103f2fada3040e5056d492a331bb0ba4defb921d1f66abcd452851e3940ed" => :yosemite
+    sha256 "b1ca2bf93d53873bc6909b722c8fd2403048de19ab6540b8a27b39f408c264c7" => :sierra
+    sha256 "667d33dd4aedb5fa38f815d4ea44815ebe64efcfbcfca45e5040fcf81122ae99" => :el_capitan
+    sha256 "cf3e463a96cef6f3ee467a9aa6adf4d53cd191e01272198232c16cde119898e5" => :yosemite
   end
 
   depends_on "pkg-config" => :build
