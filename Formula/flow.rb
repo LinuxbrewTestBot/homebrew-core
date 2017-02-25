@@ -6,10 +6,10 @@ class Flow < Formula
   head "https://github.com/facebook/flow.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    prefix "/home/linuxbrew/.linuxbrew"
     cellar :any_skip_relocation
-    sha256 "a195bd1d682605d6099851e45af11bfe2a947fdc7c13915dcfebe8cd78725117" => :sierra
-    sha256 "be03a1141531008a5a574b48a3c2487d44bb4f2c638964f19be09a27a95b0b51" => :el_capitan
-    sha256 "a71e21534c9d52d54e0d3b921002f179e1ed76b91a25387a49844ca6167a6050" => :yosemite
+    sha256 "cffe521958aefa94366b04f1377a9a4d2d0ee6032aadafecbf176eb7d0589a8a" => :x86_64_linux
   end
 
   depends_on "ocaml" => :build
