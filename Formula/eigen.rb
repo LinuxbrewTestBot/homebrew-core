@@ -11,6 +11,7 @@ class Eigen < Formula
     sha256 "141c35bade90aea1f3fcca7652dd7a28850467986aef26aa887370f5a0bf28fa" => :sierra
     sha256 "26ef36ab67b11af368ac89fb1e6209136d3f9992bb825deec7399527fe75fa39" => :el_capitan
     sha256 "141c35bade90aea1f3fcca7652dd7a28850467986aef26aa887370f5a0bf28fa" => :yosemite
+    sha256 "e80822d0b40c98b6aba2e9924a90105ed3bba9bb4ad03daffef38ded99c1d3b2" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
