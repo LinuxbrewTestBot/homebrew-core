@@ -9,6 +9,7 @@ class Jasper < Formula
     sha256 "dbeca94ef311936f67bec39745d9d6b029f615ea64782cddeaf8601e5da00a28" => :sierra
     sha256 "02602107427e79a874c3b76bacd3fa420b2939d774a512923dc0d3ebf775a247" => :el_capitan
     sha256 "171e40a07a30f42f9a0b3b222bfeb68eaa8623891774c34b81a4fa3d1d143a66" => :yosemite
+    sha256 "74e4d24f5810130b023e8baf0f4b8fa595143fc7d2f4af0783df742c92ec54f1" => :x86_64_linux
   end
 
   option :universal
