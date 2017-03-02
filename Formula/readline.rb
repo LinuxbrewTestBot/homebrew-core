@@ -12,6 +12,7 @@ class Readline < Formula
     sha256 "deec35341dcf2641cc8a64f7f4d01b124c456ee1675a4d6618638f220bc01b26" => :sierra
     sha256 "eee9dd140f1a7f7266279e2f900a9da49909b46755cd8941c506962be2608d02" => :el_capitan
     sha256 "443c8429e82f5a32e070d81b584ceae1844e07277488ca1457eccee6fb1a7114" => :yosemite
+    sha256 "b749eca706576d1d1ba4df17160b4a286e718f7f70f8910eebc845dd4b7edd4b" => :x86_64_linux
   end
 
   %w[
