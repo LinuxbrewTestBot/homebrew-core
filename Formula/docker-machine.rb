@@ -12,6 +12,7 @@ class DockerMachine < Formula
     sha256 "64152e0236b62bb2ab47cc1729e6bc7ad30c33f4c19b9663d69ba9b8cb65e963" => :sierra
     sha256 "98567ae031dacdd7e5e9af7857d2f1af2cf3be5077b7c774229eeed6ee5d06bf" => :el_capitan
     sha256 "1d59168031b98f19865162a1a0ec2891809666f0084760ae46a3da6dda451304" => :yosemite
+    sha256 "5bea0e3ba705230f1ba56de5bf8be9d43fa9f44334e087f55640aed30b6f4474" => :x86_64_linux
   end
 
   depends_on "go" => :build
