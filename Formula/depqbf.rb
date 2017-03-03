@@ -11,6 +11,7 @@ class Depqbf < Formula
     sha256 "3b26eb6dfa10a2297904e3d0024f10f513e3df10fa6f27201c64b31c553893b9" => :sierra
     sha256 "5a4004f64cc0b9a3e4be0d99ddaa51fe06df333bbffea827f80dba70fe8dd28d" => :el_capitan
     sha256 "4019f3d5d76accf7dd6b04cb097b3972baf9de770cd9d0d0294e34360a9cf528" => :yosemite
+    sha256 "a9482b2f49310225575586ba5e296b18a3c68f47a5ab28a6ca7425a570ded382" => :x86_64_linux
   end
 
   resource "bloqqer" do
