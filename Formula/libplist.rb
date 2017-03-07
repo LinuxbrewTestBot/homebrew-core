@@ -12,6 +12,7 @@ class Libplist < Formula
     sha256 "c6f8dbc8fc0431d41e73c8f7da6a1292ec7d26358208540d99f775ad9af900ca" => :yosemite
     sha256 "5bfb26555e67a5a8b144ea187e32ba4b287901e4b7358e9b617aad2ddc82f9eb" => :mavericks
     sha256 "251e34405ba2111cb2f30e0857b81072b92563ebd9efa77e240214daf106560f" => :mountain_lion
+    sha256 "772743905ecd83257e62e53c4cb92d386dae678ea8cd75379945334fc601a7f3" => :x86_64_linux
   end
 
   head do
