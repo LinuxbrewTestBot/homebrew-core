@@ -9,6 +9,7 @@ class Libtermkey < Formula
     sha256 "e67485b331eeac167fcad54f504952fc1bcfb8a52aa22e6fd139839bb7d6585e" => :sierra
     sha256 "366ea267ec414f63966f3443b21f7479d888f999df1545eb97b8e76b0631afbb" => :el_capitan
     sha256 "d8bbe8d3e78821cd3785c7582ed7355ea74e966a3572abd92499db014907fefa" => :yosemite
+    sha256 "f93bb3b868317e4c5e07771a826421e2a0711910360cf15abc8b7680cfff941d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
