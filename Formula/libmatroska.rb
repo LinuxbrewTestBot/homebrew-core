@@ -12,6 +12,7 @@ class Libmatroska < Formula
     sha256 "1f5fae2fa53865b2604565422a8d2a2c05f2a3704f7ff89f1e2edf1a0ea98bff" => :el_capitan
     sha256 "0970585e51b2ce6918660216a1f3f86e097738705b1943c80b2b30e9bc90ca78" => :yosemite
     sha256 "c91f48f96377c6002da12767f4ddbec4cec71001137d378af1eb18f862088544" => :mavericks
+    sha256 "51276d8975c3dfcc23e8b71741ad7e6656083115c899c63e7cbdb78cb0926689" => :x86_64_linux
   end
 
   head do
