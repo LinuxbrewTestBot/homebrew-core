@@ -11,6 +11,7 @@ class Libuv < Formula
     sha256 "aa4195b32133c3bb4cbbb564f4742112ddffb7a2e894f4db19da740d33faff36" => :sierra
     sha256 "4cbae976a0154925d89e72fed2773c4a68b36500890de385d8b2029cfe8c2a31" => :el_capitan
     sha256 "767141dbd4cdbbe390ec292f0119135af5c9c6b5dc4804544f9dc3b9c2f2c65a" => :yosemite
+    sha256 "e78bb7c057e07045abef530bb3151592be05a8216c8327102ce5dae5bfada536" => :x86_64_linux
   end
 
   option "without-docs", "Don't build and install documentation"
