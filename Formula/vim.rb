@@ -10,6 +10,7 @@ class Vim < Formula
     sha256 "6b3d5261acf85bd0599c1e528ac21cde43d622e212ff90b209e225c25364332f" => :sierra
     sha256 "27c7216277f58c9df9d8c2eedc675771058ff18b23c31bdec6a9318564d21098" => :el_capitan
     sha256 "c571cbd3d502deb34e356211d7a8439d0e9e9b9477248e1cd9adf19264dcd65b" => :yosemite
+    sha256 "6e9a7544a84e5d51a63ec1dc1703f5cc1c3a9e17dc7253a4aca212925efa6df3" => :x86_64_linux
   end
 
   deprecated_option "disable-nls" => "without-nls"
