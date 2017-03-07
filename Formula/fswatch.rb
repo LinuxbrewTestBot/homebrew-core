@@ -11,6 +11,7 @@ class Fswatch < Formula
     sha256 "5ce97f3f7a50762c5c105f9eb554145fa18811cea4868087f78d52eeb1318011" => :el_capitan
     sha256 "bc873f329954ca845e42850d4bb89f98445eb20b91b6f4a28e6f9d891387b1e4" => :yosemite
     sha256 "2cf399f573a47f40efcff0c686f3b3b78381c7cb7da4aa82b9d61d018358ce67" => :mavericks
+    sha256 "42e2cf356cf6a7259395c8f650bf5536456f9b24cccc25a944fbec988477f572" => :x86_64_linux
   end
 
   needs :cxx11
