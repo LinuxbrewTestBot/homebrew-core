@@ -10,6 +10,7 @@ class Libass < Formula
     sha256 "21f04f3347abcb82c3d0710bbe47a8e1e61943f38d15f361d5165a92632fee93" => :sierra
     sha256 "cb6084560a8a866727c0957bd327ab575bf6e7ea906ccc0693946a2d18b5bca7" => :el_capitan
     sha256 "e5a92d4cbc9ff8ca1bfac7862dd0f7926417155a8afb9e3b2ff9376b96dce9e9" => :yosemite
+    sha256 "e182f9ef6f195ba1e6a1214cdc9efe6a202ae5475f7261761cd34ff3bc53a84c" => :x86_64_linux
   end
 
   head do
