@@ -12,6 +12,7 @@ class Mercurial < Formula
     sha256 "5527615a14972fa172a6c1b8bd7d45256fb257eec85c910fd3c1fffb7c7de1d9" => :sierra
     sha256 "f6ffda7603408c8f9f7bf59d8f2dfe8158d0e5fc69730f77de71192e9c5631b3" => :el_capitan
     sha256 "9106b86ebdbf92e27a08d7761398162471085861ab35fc3c4d802ab5de060c19" => :yosemite
+    sha256 "faac34cf1f210dbe6f0b772a838adb41e540af2c87a0d5980d36ba49e8daf892" => :x86_64_linux
   end
 
   option "with-custom-python", "Install against the python in PATH instead of Homebrew's python"
