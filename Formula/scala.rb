@@ -12,6 +12,7 @@ class Scala < Formula
     sha256 "db41ce1c81a4275a4995e63c21e5fe656d33f5373860cbe4417b771646355850" => :sierra
     sha256 "db41ce1c81a4275a4995e63c21e5fe656d33f5373860cbe4417b771646355850" => :el_capitan
     sha256 "db41ce1c81a4275a4995e63c21e5fe656d33f5373860cbe4417b771646355850" => :yosemite
+    sha256 "8f4ea3c5a53d40a8693d2a117f45e585b623d1ecc1a5b2bdb80ecb14587e36d7" => :x86_64_linux
   end
 
   option "with-docs", "Also install library documentation"
