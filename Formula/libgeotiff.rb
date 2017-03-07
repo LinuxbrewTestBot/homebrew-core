@@ -10,6 +10,7 @@ class Libgeotiff < Formula
     sha256 "e132dbc428f2ab5fb85099983b1558954f6bcf71e9acf2c65beb02b4c9cda198" => :sierra
     sha256 "56bef37d2a51e3af48a53c43d6610618c8f75040cb53e7716f3e02e8b15fceea" => :el_capitan
     sha256 "2b1d937bf755a56f048fdf7ea221485e5acd104e595433b8f02e90baf6db979a" => :yosemite
+    sha256 "8dc8a567272209527ed672db9dbbdcc57b35f32cfd2c25b8a2a62a8147991221" => :x86_64_linux
   end
 
   depends_on "libtiff"
