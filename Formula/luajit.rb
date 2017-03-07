@@ -13,6 +13,7 @@ class Luajit < Formula
     sha256 "38f869762b310ed4b62150517b7aac477230e3d86a2dbd4863859cb3f463bcbd" => :el_capitan
     sha256 "faa9c576ca33772c05060c680b6db988f8cde56b0a7c857b29bf4f0e53b23e14" => :yosemite
     sha256 "be43da3326342c34c0bb36b6f697154a13b9b86a854a320e7dc2f656f475e463" => :mavericks
+    sha256 "cf806326e1024a86affd7436c9e1b72b583b1065fe09799f7a47c86d7379d945" => :x86_64_linux
   end
 
   devel do
