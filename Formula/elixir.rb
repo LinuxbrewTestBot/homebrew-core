@@ -34,6 +34,7 @@ class Elixir < Formula
     sha256 "dbee59c2920e7a4aaa60cd93600758ce76d9379d90e927f3d945e80944d5fa56" => :sierra
     sha256 "df0f1857cc107cce9d3a15b6fc6ca60d534adcaa558849b2607bfab0a2d21495" => :el_capitan
     sha256 "cc1a8f3220148fd05d8f7210cb3cdab81905b96b88586d5347979072683b6a9f" => :yosemite
+    sha256 "88dca17662a973f913d812c351b921bec8e376a3408e0a978493c7d9e2fa6b24" => :x86_64_linux
   end
 
   depends_on Erlang18Requirement
