@@ -9,6 +9,7 @@ class Tig < Formula
     sha256 "36d1536868965daeb4ea5da6ae9c8a55bb51fd7600a76511e1314195ac712b35" => :sierra
     sha256 "cf7b1e6835270fbbf9ff54a2f38a019d56d0b0dfbc535e7edf96b64cad5551d6" => :el_capitan
     sha256 "345a5950fc9b3e34087fca3aeff94abc94a6ede44321523a26ab9a0a8a75ffce" => :yosemite
+    sha256 "1c6bdb3577945168907498f48e376c5b285c2c8e86fa82ab8d51d386961b5fcd" => :x86_64_linux
   end
 
   head do
