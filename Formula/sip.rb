@@ -10,6 +10,7 @@ class Sip < Formula
     sha256 "ce53b8b0bdd40a8b9098b72aaa21b1d9b7e0c26910af50c6bb8a3031a0b82ba2" => :sierra
     sha256 "cbc6a67d6e6d3bde3323b92dba982e73fd443354c6f5467f98d22e95a4138b18" => :el_capitan
     sha256 "5058e22711e17b4942eaf95b3e0bb85fd1ecb750d27813b8cbc200f5544a3dfd" => :yosemite
+    sha256 "35ea731d190ba2b50db6f5c3359273a27a8bc5c4d8fa512124bd24b8aa5ac995" => :x86_64_linux
   end
 
   option "without-python", "Build without python2 support"
