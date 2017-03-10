@@ -12,6 +12,7 @@ class Gti < Formula
     sha256 "2732ad123d6d1e211436eb7f931295ef11f5ec6f1803e0e067468cd813f82987" => :sierra
     sha256 "a75e3be5cf27be8fa25d03d1a906ca0156132db5b1f723400a33ddd217e86b0a" => :el_capitan
     sha256 "e9cc0e8d36c874763e989851f8ee859c04e6e0aee8f0a07421c61843a85d6e9b" => :yosemite
+    sha256 "510072f3c0919f54924cc86458d1646c0f50e2c1320a21437c0178f77279c3b9" => :x86_64_linux
   end
 
   def install
