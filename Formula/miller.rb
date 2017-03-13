@@ -10,6 +10,7 @@ class Miller < Formula
     sha256 "b9b419fe64059e0343a6e8c084c2c53b373eb9b5518aa9e9e5d03ead15893274" => :sierra
     sha256 "c225ca27bee443385dfced79cabaa4466a918544d1e5298425158517d46d0249" => :el_capitan
     sha256 "b3047b6e571a4f31c389211cb916ee0def2fcc1b1e3fc0ecbfaf979be102af23" => :yosemite
+    sha256 "1b6a4f6008519e11ed9e0148e40d1641fb9b423b8ea05a0e478920fedfa9afc7" => :x86_64_linux
   end
 
   head do
