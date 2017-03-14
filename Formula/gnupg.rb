@@ -12,6 +12,7 @@ class Gnupg < Formula
     sha256 "09ced5d5d38c4c517123e82f7c533ef55b1888498a0f355d70b24636dbe452e7" => :el_capitan
     sha256 "87b9e6e02558be92528772c762db0f7e2dc8b9d275dd23d7a498210535109bce" => :yosemite
     sha256 "f1521ac3df05904c32bdd52173f44d129e565edabdd935515519a087498575c4" => :mavericks
+    sha256 "027e7f5b9ce87b713f1499329d2a9a908b02b42b1f33c15e53456c128b595cad" => :x86_64_linux
   end
 
   depends_on "curl" if MacOS.version <= :mavericks
