@@ -11,6 +11,7 @@ class SdlMixer < Formula
     sha256 "568e373cf4e876779e63e36258be20c0e6acb6df81a81653ff09cb9b09deca99" => :sierra
     sha256 "e2398010d90664403b7f9c306b46876deec07e6d970371a47c7f7484ffa201f8" => :el_capitan
     sha256 "559377bb70595dc716d1f0c703e986ea4bc30666085812756230b00194b97d87" => :yosemite
+    sha256 "422b7837f6d03d5d591bb0690b9c6e7d823dd9b422cca9946c6877124071529b" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
