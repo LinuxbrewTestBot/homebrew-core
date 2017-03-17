@@ -13,6 +13,7 @@ class YoutubeDl < Formula
     sha256 "9a66b1a2f891146990a738a42929f94ae9319f10eba67df02b6c452e4a00b59c" => :sierra
     sha256 "9a66b1a2f891146990a738a42929f94ae9319f10eba67df02b6c452e4a00b59c" => :el_capitan
     sha256 "9a66b1a2f891146990a738a42929f94ae9319f10eba67df02b6c452e4a00b59c" => :yosemite
+    sha256 "6a71f5349b511147cedce6170734177abb835750eacf975243f7ec93b2f0adbb" => :x86_64_linux
   end
 
   head do
