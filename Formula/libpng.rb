@@ -11,6 +11,7 @@ class Libpng < Formula
     sha256 "d8b9466f0694deeb0844ca1740102028d097ffdd8bc2cfc953e4164e9f518bb0" => :sierra
     sha256 "c0aba9807326244cf239b75836b78f460d83659a6c9b799a90308f0b6cf4c5ae" => :el_capitan
     sha256 "51fa62d4cec2f9948b98b1fc0843a6d543c3dc2c2859c9fb8c49fe64ccfa18e9" => :yosemite
+    sha256 "ea8485371a8e7369df05e6a67edd84246cf958c9c8ca547960fe9d9483a63d9d" => :x86_64_linux
   end
 
   head do
