@@ -8,6 +8,7 @@ class GlibNetworking < Formula
     sha256 "f67d5db99ec583b6b5424cffc8a297735702fcfeecb0db80c81bd0bebb4d8cff" => :sierra
     sha256 "8abcb1f2b6ce564f5cee634b2dd709292fbf08bfd57c5c4703892ac83cc2d44f" => :el_capitan
     sha256 "b099f5acc9784e2512e3ba302e9eff7df8dbf8da457d15c74e50cbf15fd233fe" => :yosemite
+    sha256 "3942412bfc0fba3fce066c5cafdb1e36065a0fb7a5b1978f0392df182b94412d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
