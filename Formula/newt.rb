@@ -12,6 +12,7 @@ class Newt < Formula
     sha256 "87bfa0e43bd4bfecdedc8995fbd509bb7a7b4f94ea932f203ae95fd037a91eb3" => :el_capitan
     sha256 "9df1357a08367454f2588dbe414ebce74352cdd230262ee7d08ab4ec169b3019" => :yosemite
     sha256 "44f755d2e9f16c715366b80b2c1fe65b73c42b486453e71c45c2702e32e61e10" => :mavericks
+    sha256 "beb17f0ef074acaeaf759b3caa75b8c676d058defd6a57a83b8237d671fb6bbc" => :x86_64_linux
   end
 
   depends_on "gettext"
