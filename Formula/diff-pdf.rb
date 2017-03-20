@@ -11,6 +11,7 @@ class DiffPdf < Formula
     sha256 "8ffea2d120fde8f23b054323edefd6493d37ea53c8bb811101c30c942a597d89" => :sierra
     sha256 "c85d2c1e587a0a3a8aee88dce4e1e9d958abc877dda172d8809599b6f48aa2af" => :el_capitan
     sha256 "d306f1a134c0a222f7d406811a94dba3b218927441cc9d4f75cc81516c0c0c17" => :yosemite
+    sha256 "b4b3e3314f39a730fb55adf74f2eb069e3a599d3063b3bd69a51f021156374a1" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
