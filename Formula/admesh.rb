@@ -12,6 +12,7 @@ class Admesh < Formula
     sha256 "f081b675e54064716a089b2af95d7b4a6ecc7c38d2e5c3f064027dc247faa758" => :yosemite
     sha256 "3c073a473a28305ef75d0a8f32dfb0c79845f3d4ae5d277299e5ee309da62ace" => :mavericks
     sha256 "411599b23cc2285c382de174dbddfbb6f48b687ee9364de8d4a6af1596600cd6" => :mountain_lion
+    sha256 "622e981e814dfd21d4467bc94c5f027bfe71db3abd25aa8d4a98cb923c4ca347" => :x86_64_linux
   end
 
   def install
