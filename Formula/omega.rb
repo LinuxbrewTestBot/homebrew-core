@@ -9,6 +9,7 @@ class Omega < Formula
     sha256 "53f9899d6a964d8ae8b0de390dec626836aa24a1004d45352dd7746f53af7934" => :sierra
     sha256 "cdba43e3a877484ee608c3c9a55fc96ebf38b17fb78e1bf2f5b84881aed170b8" => :el_capitan
     sha256 "be5b012a19ea29890fac384b2a1ea3ffe96654da8fa65390c8345fa4d6c88900" => :yosemite
+    sha256 "b76ee14e6b46cf7029d51aa8e5f9f81ea0da236aa007bcb4078b063a78f0a0cb" => :x86_64_linux
   end
 
   depends_on "libmagic"
