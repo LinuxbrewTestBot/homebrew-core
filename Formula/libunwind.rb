@@ -4,6 +4,12 @@ class Libunwind < Formula
   url "https://download.savannah.gnu.org/releases/libunwind/libunwind-1.2.tar.gz"
   sha256 "1de38ffbdc88bd694d10081865871cd2bfbb02ad8ef9e1606aee18d65532b992"
   head "git://git.sv.gnu.org/libunwind.git"
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "1914b746f6788024b000c723b0102f30bf4b3402a5b509d7d62f1d1375ef8d2d" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   depends_on "xz"
