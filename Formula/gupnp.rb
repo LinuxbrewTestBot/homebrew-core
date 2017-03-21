@@ -8,6 +8,7 @@ class Gupnp < Formula
     sha256 "6f83d007931b5cf9e272d1338e3f1d054aa28cdba9de39464a6ccac88bff5927" => :sierra
     sha256 "372473313c01e897c81dd9d8d59d55ac1bc025c84e9df406343d60f4133a69c9" => :el_capitan
     sha256 "75e0f3e4997c7f3e98ab47112df8fe2afc6d57c77ca057a7e3eea3d3c7bfd64f" => :yosemite
+    sha256 "0d1e59360ea262a71f7c86a04ff71d1f43c6f7c77f6ca07b781d059c91352a14" => :x86_64_linux
   end
 
   head do
