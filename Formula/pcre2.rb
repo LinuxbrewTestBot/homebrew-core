@@ -12,6 +12,7 @@ class Pcre2 < Formula
     sha256 "713086fd17e6d5543cc0144e3055ee0382dc1b092eb9fafdbda73a7b2539c363" => :sierra
     sha256 "151ff71a40f5b960c7504b77e0d5c18d8873a201c725c6b6d357f559a50722dd" => :el_capitan
     sha256 "18f0559c760d65f0f2323499fcf306c04576b3630a46d61a3582a37fb103bf29" => :yosemite
+    sha256 "4c21f1122fcee8bf0e93aa8df8a3bb32a32d1effbf1a66e3956ec9b3613706cd" => :x86_64_linux
   end
 
   depends_on "bzip2" unless OS.mac?
