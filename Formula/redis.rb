@@ -12,6 +12,7 @@ class Redis < Formula
     sha256 "3166b2859236788d20d85dc65c64a103fda930ac3b9c32c8c768a8026a89dcba" => :sierra
     sha256 "6e65bc7cb9e10bcd43c42eaca4713e454e9159e29d82bfff6a2143ab14be1b30" => :el_capitan
     sha256 "101be1a5a2a5bb5842d5b8329d8988e68737e61b735310fd770db51810c6924b" => :yosemite
+    sha256 "d7c8ee83d8f93846186f06dae4ac7fe7cfb79457670861d048d0386f9115e7c0" => :x86_64_linux
   end
 
   devel do
