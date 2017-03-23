@@ -3,12 +3,12 @@ class AndroidPlatformTools < Formula
   homepage "https://developer.android.com/studio/releases/platform-tools.html"
   # the url is from:
   # https://dl.google.com/android/repository/repository-12.xml
-  version "25.0.3"
+  version "25.0.4"
   url "https://dl.google.com/android/repository/platform-tools_r#{version}-#{OS::NAME}.zip"
   if OS.mac?
-    sha256 "640ce3236ba5eddc91bcd098b7e0c051b7ee3860339a14a4fe2d3caf7f6729cf"
+    sha256 "02eb6ed288bd8f02c00266e5ba8adacf07cb56f2546c5fe4ccf27719aa732947"
   elsif OS.linux?
-    sha256 "0e14aeb696df691dead0dfd9e25249efaea3bfa548f782d9f7edd13a7bdcbe3f"
+    sha256 "79048c41f69e730800d4fb710f6128691b7b8dfcb3a280e6b4e112a6f9285cbf"
   end
 
   bottle :unneeded
