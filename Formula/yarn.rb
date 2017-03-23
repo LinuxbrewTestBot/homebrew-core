@@ -14,6 +14,7 @@ class Yarn < Formula
     sha256 "9858ac5a34367b65a20ee828cba84ded38ac1bd9920f6c11c28e5d3a896755cf" => :sierra
     sha256 "de303f2b4ab5fe273082118825b01c3ef64bb4e109fc62d36eeb37d23dfe7b81" => :el_capitan
     sha256 "9b0b0e12931a58f5ef2a29372a353f46a65d81de492cf919cb9ece34019cd999" => :yosemite
+    sha256 "e8cd6166c54c72fe5497b1e913a3c45d3b3a2f0070f4875dce340725ffb9fb70" => :x86_64_linux
   end
 
   depends_on "node"
