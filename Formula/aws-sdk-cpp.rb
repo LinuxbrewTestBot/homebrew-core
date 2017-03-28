@@ -10,6 +10,7 @@ class AwsSdkCpp < Formula
     sha256 "2f2366564f1ded7d77b0ffc3a0aa79a37e5dd0c1cd5aaf0d6c8ebbde49a42a0f" => :sierra
     sha256 "97e35c8ef73b86f96c1f6a88d5967c285c3d8b3feeba70ec9f456aa2f1ecb9ed" => :el_capitan
     sha256 "1ca49d9a3c7e71933cd42768b055855465fdd5c10a01508f3153de7bab733db9" => :yosemite
+    sha256 "7a19b9d12da1cdae7385695da1562e5fa8ad21874e96ff5d4ee969fd5a04f346" => :x86_64_linux
   end
 
   option "with-static", "Build with static linking"
