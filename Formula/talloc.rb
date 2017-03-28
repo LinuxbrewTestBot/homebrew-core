@@ -11,6 +11,7 @@ class Talloc < Formula
     sha256 "38c0f818816316884d35564a7230d5aaa2baaeedba74885ce8a4d2f599463228" => :sierra
     sha256 "31766b11cd3bcdcff83e0434ca89d3f4b80a0ab4797d29dd7f25050a63ef2506" => :el_capitan
     sha256 "1ee8d227d6d749743656665ddcfc8538ca9ab2d1b9ff7b46245cd82d622ae94c" => :yosemite
+    sha256 "c1a9e3285f3a9b60da53e833781cb5e40c0a163f8f821f8265b4fff52bfd06fe" => :x86_64_linux
   end
 
   def install
