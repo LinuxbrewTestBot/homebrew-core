@@ -10,6 +10,7 @@ class Gpgme < Formula
     sha256 "cfd3a2d3545b5eb6533f0328360c9fe0c00fe202ec671381f1cffdc4228d8985" => :sierra
     sha256 "20c4cfe446f6695f61b58ef0ded8e7e97f859ed085ae105dbb8bc6126674a361" => :el_capitan
     sha256 "a03901f80688be594dbf6943faaa1a72548634e2c52b5946fdd0cc12f846ab4f" => :yosemite
+    sha256 "8babecb48bb15d219a787f35c34eacc16ecdbdbeca62919a9f2da251240bfc08" => :x86_64_linux
   end
 
   depends_on "gnupg2"
