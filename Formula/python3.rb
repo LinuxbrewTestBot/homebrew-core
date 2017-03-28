@@ -10,6 +10,7 @@ class Python3 < Formula
     sha256 "23497e9d8b42213b97fd6d4a3fc4a081dc4ae95ff1fe036f6f0b7777b4ff3903" => :sierra
     sha256 "417acd394c737b79fabd87767d6fcd7fad67b08191e5ee41c10beb2b24d52461" => :el_capitan
     sha256 "ed333f6d95a0eead4f69a226cb5a0886e0837e56dfe11d8d05042fc2730ad5e5" => :yosemite
+    sha256 "e5a845305bc1a72ebdd323ca94481c0c225a144fb08e03443c0201bf103f64da" => :x86_64_linux
   end
 
   option "with-tcl-tk", "Use Homebrew's Tk instead of macOS Tk (has optional Cocoa and threads support)"
