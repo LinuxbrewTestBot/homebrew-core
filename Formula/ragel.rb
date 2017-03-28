@@ -9,6 +9,7 @@ class Ragel < Formula
     sha256 "69d6d65c2ef3da7b829e3391fd17b1ef088b92c2baf64979707033e2a7dd8c01" => :sierra
     sha256 "f4ea3a8c0476fd82000223fae69170ac9f266cd36334bd60d9d6cf4fab3273c1" => :el_capitan
     sha256 "dd8469ac3e08d5d8a257ce7fc7de05de398e8521abff83eceea0741099685b38" => :yosemite
+    sha256 "b6ce5480a6eea14336a4cffa17e311a679fb1d3a3c3fb1b139675700d2aa2d22" => :x86_64_linux
   end
 
   resource "pdf" do
