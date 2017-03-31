@@ -168,7 +168,7 @@ class Volatility < Formula
     res = resources.map(&:name).to_set - ["Pillow"]
 
     res.each do |r|
-      venv.pip_install resource(r)
+      venv.pip_install resource(r) unless r == "appnope"
     end
 
     venv.pip_install_and_link buildpath
