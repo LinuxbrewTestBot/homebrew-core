@@ -47,6 +47,7 @@ class Libdap < Formula
     # over to `dap-config` and from there the contamination will spread.
     if OS.mac?
       args << "--with-curl=/usr" if MacOS.version <= :snow_leopard
+    end
 
     system "autoreconf", "-fvi" if build.head?
     system "./configure", *args
