@@ -11,6 +11,7 @@ class CabalInstall < Formula
     sha256 "d26d08a85d812cf89fd64e69b8ab3e28910c2d302ac661a9f572f6782bb06e80" => :sierra
     sha256 "b537288f76b6d125eac1b2a1b0ef3b2140a60ca592fa5f5573bab1a9fcedef9a" => :el_capitan
     sha256 "f58112b5b74e0056013daf2ac47b0f20393904557ff4f994ef5361e0ce3db343" => :yosemite
+    sha256 "948fadfcefc4483f560bfddcc0e5aa3d234f4f06252300cc0201b5c97b328b66" => :x86_64_linux
   end
 
   depends_on "zlib" unless OS.mac?
