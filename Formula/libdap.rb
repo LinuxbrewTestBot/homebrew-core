@@ -24,9 +24,11 @@ class Libdap < Formula
   depends_on "bison" => :build
   depends_on "libxml2"
   depends_on "openssl"
-  depends_on "util-linux" unless OS.mac? # for libuuid
-  depends_on "curl" unless OS.mac?
-  depends_on "flex" => :build unless OS.mac?
+  unless OS.mac?
+    depends_on "curl"
+    depends_on "flex"
+    depends_on "util-linux" # for libuuid
+  end
 
   needs :cxx11 if MacOS.version < :mavericks
 
