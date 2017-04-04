@@ -26,6 +26,7 @@ class Libdap < Formula
   depends_on "openssl"
   depends_on "util-linux" unless OS.mac? # for libuuid
   depends_on "curl" unless OS.mac?
+  depends_on "flex" => :build unless OS.mac?
 
   needs :cxx11 if MacOS.version < :mavericks
 
