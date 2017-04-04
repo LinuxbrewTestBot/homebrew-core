@@ -46,9 +46,7 @@ class Libdap < Formula
     # and Snow Leopard, the libcurl.pc file that ships with the system
     # is seriously broken---too many arch flags. This will be carried
     # over to `dap-config` and from there the contamination will spread.
-    if OS.mac?
-      args << "--with-curl=/usr" if MacOS.version <= :snow_leopard
-    end
+    args << "--with-curl=/usr" if OS.mac? && MacOS.version <= :snow_leopard
 
     system "autoreconf", "-fvi" if build.head?
     system "./configure", *args
