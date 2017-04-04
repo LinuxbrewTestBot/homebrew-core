@@ -20,7 +20,7 @@ class Libdap < Formula
 
   option "without-test", "Skip build-time tests (Not recommended)"
  
-  fails_with :gcc => "4.8" unless OS.mac?
+  fails_with :gcc => "4.8" unless OS.mac? # error: ‘max_align_t’ has a previous declaration when using gcc 4.8
 
   depends_on "pkg-config" => :build
   depends_on "bison" => :build
