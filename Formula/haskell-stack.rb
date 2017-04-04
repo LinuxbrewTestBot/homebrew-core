@@ -15,6 +15,7 @@ class HaskellStack < Formula
     sha256 "624a68d132c3f89e9b4f5b089915b40aa612577097d13dd64ac9e2310a50050c" => :sierra
     sha256 "e71e0d344e7e23d407c4bba77289083d8328f9a1e93c733e1f1c1b88f3c37745" => :el_capitan
     sha256 "086d41db9d06a816a2b9ec44d2d580e2bba078abc5fc9863dfbc948ee263434a" => :yosemite
+    sha256 "2a3c6c651d029953e4afbe31d23e62511ff8d92d8e4edbfe2c19013a46dda7a8" => :x86_64_linux
   end
 
   option "without-bootstrap", "Don't bootstrap a stage 2 stack"
