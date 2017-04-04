@@ -19,7 +19,7 @@ class Libdap < Formula
   end
 
   option "without-test", "Skip build-time tests (Not recommended)"
-  
+ 
   fails_with :gcc => "4.8" unless OS.mac?
 
   depends_on "pkg-config" => :build
