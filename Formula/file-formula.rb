@@ -8,10 +8,10 @@ class FileFormula < Formula
   head "https://github.com/file/file.git"
 
   bottle do
-    cellar :any
     sha256 "d25feb12464d19f5f027a64b1cbbe3538d8e90be640a5fe8fd78f360ec923624" => :sierra
     sha256 "e0328c9e880affcd999a1bb6144f7b22aafc6612ae84c804428eef29386834c7" => :el_capitan
     sha256 "801403941a76af6895345d8387ef72dae628bca5773583c2bf91da32c813edc5" => :yosemite
+    sha256 "e8301a3b93cf08965750ecd3758d86613badc7b8df56a3acf10469c71ff7efdd" => :x86_64_linux
   end
 
   keg_only :provided_by_osx
