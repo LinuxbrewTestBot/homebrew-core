@@ -20,9 +20,12 @@ class Htop < Formula
     depends_on "libtool" => :build
   end
 
-  option "with-ncurses", "Build using homebrew ncurses (enables mouse scroll)" if OS.mac?
-
-  depends_on "homebrew/dupes/ncurses" => OS.mac? ? :optional : :recommended
+  if OS.mac?
+    option "with-ncurses", "Build using homebrew ncurses (enables mouse scroll)"
+    depends_on "ncurses" => :optional
+  else
+    depends_on "ncurses"
+  end
 
   conflicts_with "htop-osx", :because => "both install an `htop` binary"
 
