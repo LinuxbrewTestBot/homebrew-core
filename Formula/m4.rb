@@ -6,10 +6,10 @@ class M4 < Formula
   sha256 "f2c1e86ca0a404ff281631bdc8377638992744b175afb806e25871a24a934e07"
 
   bottle do
-    cellar :any_skip_relocation
     sha256 "b0fe54c5705842618e6446c4c804330df89a78ed09bd5b013b2c5fabf34b218f" => :sierra
     sha256 "7daa296cf49de573214b4f2c72e3b621bbbc1ef5bfebfbe00fb18a70ba8e3152" => :el_capitan
     sha256 "00d9327f2e8a59996228569bf4faff1c6550653eb3e20353e77f73a34063f3eb" => :yosemite
+    sha256 "5a2327087fb76145b4d0fb23acc244115adc3ced14ffc2a6231159a4f16c8a7f" => :x86_64_linux
   end
 
   keg_only :provided_by_osx
