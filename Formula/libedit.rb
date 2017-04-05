@@ -6,10 +6,10 @@ class Libedit < Formula
   sha256 "0ccbd2e7d46097f136fcb1aaa0d5bc24e23bb73f57d25bee5a852a683eaa7567"
 
   bottle do
-    cellar :any
     sha256 "7a3c159ac3c22df47788b27cb10260b27ed39a8e20a3e7c1fc1d4d843f3c08ca" => :sierra
     sha256 "620192dd5489c9521c68f5354679de3d19053724228784ec4837181026bf761e" => :el_capitan
     sha256 "b1ef895bf1565b8d4d3a63fcaf8ef930d2e3a60bbfc9cef21ecea672e0bd3217" => :yosemite
+    sha256 "60c60083d1873092e4b08de6ed304ff23026276fc3a64c94e3943b52461ef5dc" => :x86_64_linux
   end
 
   keg_only :provided_by_osx
