@@ -7,10 +7,10 @@ class Diffutils < Formula
   revision 1
 
   bottle do
-    cellar :any_skip_relocation
     sha256 "859f17793a93abdec6feeadfec6ea1775c7bca09c50a6fad88bfd93868820ab5" => :sierra
     sha256 "73ee52551558cb650c9af9667c83cf929244af2b39bd2285c950d73473c207fa" => :el_capitan
     sha256 "cc7870628c8e708863c3ab94f142d461e1a614a654d71a7dc325ebb1d4fe103b" => :yosemite
+    sha256 "d296ee220dae994820419287fb6779168b895d5acceb6dfa53ba2f419127edd3" => :x86_64_linux
   end
 
   def install
