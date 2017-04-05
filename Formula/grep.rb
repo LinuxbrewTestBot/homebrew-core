@@ -6,10 +6,11 @@ class Grep < Formula
   sha256 "e2c81db5056e3e8c5995f0bb5d0d0e1cad1f6f45c3b2fc77b6e81435aed48ab5"
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "d55c4d626559f62538f07f9a7fd5c29ab951e65f3f2f83159cbc141d8f1c9649" => :sierra
     sha256 "b2af64e183559b020fe2f744979af82ad073611f47998e2073aac855d92aaf1a" => :el_capitan
     sha256 "d6e3213787d5da9acd33277ab8b2de5c1268082c39be0c7668ab601f55b47037" => :yosemite
+    sha256 "70d2c06f4e0fa5205e3665559617745ba20df5d17f99f0e6c5b48b296d0b0f83" => :x86_64_linux
   end
 
   option "with-default-names", "Do not prepend 'g' to the binary"
