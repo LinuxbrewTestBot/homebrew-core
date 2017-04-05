@@ -8,6 +8,7 @@ class Libdap < Formula
     sha256 "4ec4781108986332b022cb81d238345f4e697e62ad5a3cc5cb66b77ee7d7ebe8" => :sierra
     sha256 "1e6bb8cf800083b6c5f6ae3f3efa1284bf436b16601ffaaa77214711aac0cccd" => :el_capitan
     sha256 "9ab1a73227319d216efd1c0f2737d2f1d43701f1fafbc375bb1963c631c047f2" => :yosemite
+    sha256 "07a193427d104d96ab254a055d6b80db1c7aead589d6407d020acbbb3e15418e" => :x86_64_linux
   end
 
   head do
