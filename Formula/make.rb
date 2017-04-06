@@ -9,6 +9,7 @@ class Make < Formula
     sha256 "d6a0f2bfd83a8299b6a7dfa4aa936ffcd03603da10c26cccad06137c668df894" => :sierra
     sha256 "08fce0ecb389bc90b3acc5ea32835da463dd791682e021e8f9bac6c3fabadc3d" => :el_capitan
     sha256 "2c4367b9f688209028b611bf22f2eab38885b7eaea91561a19d963ad72e4313e" => :yosemite
+    sha256 "2b9df0c4ba18184320bfc401ba6db3fd191492cfa2babaa7624aad75fc664b80" => :x86_64_linux
   end
 
   option "with-default-names", "Do not prepend 'g' to the binary"
