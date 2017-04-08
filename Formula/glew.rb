@@ -11,6 +11,7 @@ class Glew < Formula
     sha256 "200ab3d519d234bf9a34b223faa07c1ace46eeda197b9352e1b6dc0a67846b4b" => :el_capitan
     sha256 "6f2809e99ea25d6d33280921b5cd50e148800228450c34043d8ce11ac8f7e32c" => :yosemite
     sha256 "2b72bd7d59343ae64eaa87fd69f806759ac356a77300bb6b6a6ab40247384dc2" => :mavericks
+    sha256 "b0850262c917bb6eb1d1aad9d26cab2aff10db52febbc09559bb504c171623e6" => :x86_64_linux
   end
 
   depends_on "linuxbrew/xorg/freeglut" unless OS.mac?
