@@ -7,8 +7,7 @@ class Texlive < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any_skip_relocation
-    sha256 "9bcf9c7c88565af5349a880cf60724418e2c8e9d8439e2e0aa12c896e80406bf" => :x86_64_linux
+    sha256 "48354c9ee57bf3978e455327bf4a6396065da55a0204bc69ad27abda2938a02b" => :x86_64_linux
   end
 
   option "with-full", "install everything"
