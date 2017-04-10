@@ -47,6 +47,7 @@ class Libhttpseverywhere < Formula
     libgee = Formula["libgee"]
     libsoup = Formula["libsoup"]
     pcre = Formula["pcre"]
+    libxml2 = Formula["libxml2"]
     flags = (ENV.cflags || "").split + (ENV.cppflags || "").split + (ENV.ldflags || "").split
     flags += %W[
       -I#{gettext.opt_include}
@@ -58,6 +59,12 @@ class Libhttpseverywhere < Formula
       -I#{libgee.opt_include}/gee-0.8
       -I#{libsoup.opt_include}/libsoup-2.4
       -I#{pcre.opt_include}
+    ]
+    unless OS.mac?
+      flags << "-I#{libxml2.opt_include}/libxml2"
+      flags << "-L#{Formula["libhttpseverywhere"].lib}"
+    end
+    flags += %W[
       -D_REENTRANT
       -L#{gettext.opt_lib}
       -L#{glib.opt_lib}
@@ -72,11 +79,11 @@ class Libhttpseverywhere < Formula
       -lglib-2.0
       -lgobject-2.0
       -lhttpseverywhere-0.4
-      -lintl
       -ljson-glib-1.0
       -lsoup-2.4
       -lxml2
     ]
+    flags << "-lintl" if OS.mac?
     system ENV.cc, "test.c", "-o", "test", *flags
     system "./test"
   end
