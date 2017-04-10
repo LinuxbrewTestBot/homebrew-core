@@ -12,6 +12,7 @@ class KubernetesHelm < Formula
     sha256 "3e8e6b64c97d4c7c7cb059d59b676dd44c876e45a62519bbcc89c7b983495172" => :sierra
     sha256 "5d6326473bbae993cae7ea7aeb208a2d8bb8ab74e5c84ec43f172d370093d376" => :el_capitan
     sha256 "ead7afa6add6d550318bf6113147c50a8cdb47fda69dc93820e79331478532ae" => :yosemite
+    sha256 "16f36e5b5b78c17f85ae379e9f26e98aaf1fdca0ae4b87dc0b466fb7c58b74bf" => :x86_64_linux
   end
 
   depends_on :hg => :build
