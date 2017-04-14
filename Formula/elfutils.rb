@@ -6,7 +6,7 @@ class Elfutils < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "99c141bcce532d5f70a3754028faf3c6c93ed3e6c6861ad633173ad334afef5e" => :x86_64_linux
+    sha256 "669e97f7421f27c39bc82ebd0b10d80a9643f5aadf4a029f2ee3accb867431ba" => :x86_64_linux
   end
 
   option "with-valgrind", "Run tests with valgrind"
