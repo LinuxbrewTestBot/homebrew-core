@@ -24,6 +24,7 @@ class Gdb < Formula
     sha256 "810225f267677d661ded76c3f8548ed9f24a03feaaa3597d229694eab654b3fd" => :sierra
     sha256 "2032ce5c512f0885171e4826d0a8a9f1a2fae2f24cec4c851a284c26eceaa221" => :el_capitan
     sha256 "eaad3b6eb64408088da0760cf0ca92c39a121a5f58d1835bd74f4b745fb2697c" => :yosemite
+    sha256 "a330558b424f982ae6436a282bd06dce596e819cf4d75135703d1e0b05ff0994" => :x86_64_linux
   end
 
   deprecated_option "with-brewed-python" => "with-python"
