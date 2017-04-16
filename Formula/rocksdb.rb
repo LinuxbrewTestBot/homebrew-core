@@ -10,6 +10,7 @@ class Rocksdb < Formula
     sha256 "66cd5aa07d088048905eb802ea67aa2ad7012920839c3cd90bbbee838e0b3cff" => :sierra
     sha256 "2ea7d2ab11dbf12a92feb4906596f069e080acaabc0f0142325e33d7b8aae00e" => :el_capitan
     sha256 "33de2e60bd80074d861e60ae0c69d9f83c464e4e66d41da09919d289fd1e5c7e" => :yosemite
+    sha256 "392843b9f12706748e569937774b05ad833106247c6b93aaa28b6f75e9932c7d" => :x86_64_linux
   end
 
   needs :cxx11
