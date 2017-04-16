@@ -41,6 +41,8 @@ class Mapnik < Formula
     # Fails with GCC 5. See https://github.com/Linuxbrew/homebrew-core/issues/1195
     ENV.cxx11 if OS.mac?
 
+    ENV["MAKEFLAGS"] = "-j2" if ENV["CIRCLECI"]
+
     icu = Formula["icu4c"].opt_prefix
     boost = Formula["boost"].opt_prefix
     proj = Formula["proj"].opt_prefix
