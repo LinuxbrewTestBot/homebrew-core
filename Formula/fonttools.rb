@@ -13,6 +13,7 @@ class Fonttools < Formula
     sha256 "257540f8a8a20c637bcc1a9b58ca4cc238e9a5e5bcdb6c90469e86eb0cecc822" => :sierra
     sha256 "5e67db3593196cc727899b0864d60fb54c3fa499486146230443c9b714788114" => :el_capitan
     sha256 "4c381f702c44753b8765cf88d09663084da40acc6d5c64bb723da6b2c26e699c" => :yosemite
+    sha256 "772f3e4b02149ae1852e6700e89de327577ae4cbf10d78af7e4b392fb32b6e68" => :x86_64_linux
   end
 
   option "with-pygtk", "Build with pygtk support for pyftinspect"
