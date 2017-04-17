@@ -1,14 +1,14 @@
 class Nu < Formula
   desc "Object-oriented, Lisp-like programming language"
   homepage "http://programming.nu"
-  url "https://github.com/timburks/nu/archive/v2.2.0.tar.gz"
-  sha256 "c7489c9dad1e24ee6cf7e70e5c31f4c891aba0793e8a00c4fc7e6b23d96fccc4"
+  url "https://github.com/timburks/nu/archive/v2.2.1.tar.gz"
+  sha256 "0657f203a01906983480f5e599199afc6fe350c3da94376d594ef04b5faef2df"
 
   bottle do
     cellar :any
-    sha256 "f8ece82e0e6953a6146cff31a3758896119cc9984190d94a7a8e5e6eaa4f6062" => :sierra
-    sha256 "8dd2d00bb135201774ef6a1c8ca54711d77e835170368ac6a82d2f008ea9cbc5" => :el_capitan
-    sha256 "6582e9e393f82aa0936941602cd82f1a1546f6a602e57599330c5b5930296e39" => :yosemite
+    sha256 "87367b6358fb87348481108ad0192b9a9342274150cdfaec84701eca3031d222" => :sierra
+    sha256 "ed030bbe40655e3a44c4e3becd5775b5ab25d1d32070c2f0a85bfde3769ff44a" => :el_capitan
+    sha256 "c13703832378165f06c8d333b9c9272520e4412e6d8ee8598cbb3e4a01144ddd" => :yosemite
   end
 
   depends_on :macos => :lion
