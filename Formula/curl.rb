@@ -9,6 +9,7 @@ class Curl < Formula
     sha256 "e812e7a0fed04ca4333c56b9f7d740dfbda4aa8a28a8b79647f98e7ae5289bf1" => :sierra
     sha256 "bef5bbef95da0a4c7d619539dd5cf0646d9be59169c1666d3f2c548050caa2a7" => :el_capitan
     sha256 "de301f643ebc7bc5ebb9ac2cc204fb11ef7d2a920b7ac18d0ea737117cde9d2e" => :yosemite
+    sha256 "4b1dc596b15bff688449a28ef28b8150b277cc993ae1a5df0cc4e937eb3a5c6b" => :x86_64_linux
   end
 
   keg_only :provided_by_osx
