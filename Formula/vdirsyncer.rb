@@ -12,6 +12,7 @@ class Vdirsyncer < Formula
     sha256 "6114db2c17ab20ea51bda2792b5f750322e6d25a67f181146cfe54995b9edcad" => :sierra
     sha256 "dea2439460c1282fb9d4b775a8630027536a0788c75015e9a1a3c9dd82cf525c" => :el_capitan
     sha256 "2803ab046daf3611dbbde58676322d79c6bf55e637199631921d11919d0e72a8" => :yosemite
+    sha256 "f58ebb587a4a9f7a469bd97b4eb65b77299742d6f244b5dac28c22f1558d5c88" => :x86_64_linux
   end
 
   option "with-remotestorage", "Build with support for remote-storage"
