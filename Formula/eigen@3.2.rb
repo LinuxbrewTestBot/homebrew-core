@@ -12,7 +12,7 @@ class EigenAT32 < Formula
     sha256 "0f7249401234dccc8034c281f70c3fb36e4ec9931d4b1d7c478c684a0f41b346" => :x86_64_linux
   end
 
-  keg_only "Older version of eigen"
+  keg_only :versioned_formula
 
   depends_on "cmake" => :build
 
