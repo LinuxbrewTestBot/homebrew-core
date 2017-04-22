@@ -10,6 +10,7 @@ class Osh < Formula
     sha256 "c6980a4d8bdcafab037ac119aa2a476136ac6b470ea07543b704f6ecfa792db5" => :sierra
     sha256 "aacbe0d58afc432c0e717223da2835e8c2c9baac8aec426826612d37b777f80c" => :el_capitan
     sha256 "a2d8427887d4776b0168e1503da1c7b03b7393229c6ec3e70e9c0d4ff4ff3f21" => :yosemite
+    sha256 "87f6ad85851e03ec8ba755c7fde590654e7834897fa64509665b376b13a301a7" => :x86_64_linux
   end
 
   option "with-examples", "Build with shell examples"
