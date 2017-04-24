@@ -8,6 +8,7 @@ class AflFuzz < Formula
     sha256 "27b5caba2f6900fa2e4c34e2044d871da014e6885244efb1558a90ff7916432b" => :sierra
     sha256 "b12ec142936b9471b3727a6b149681b918dba0b4d1f8c74e39a2e9b3e4d73f47" => :el_capitan
     sha256 "c74d3911ee38596f0dce92f09359a497457aec038933dfaf677c87262e427e84" => :yosemite
+    sha256 "9c853d89c7a19b77f3a52b3fdb152a173298d9d14f83d10d52899160594a35fd" => :x86_64_linux
   end
 
   unless OS.mac?
