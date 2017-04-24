@@ -12,6 +12,7 @@ class Stdman < Formula
     sha256 "e331f279e0e88fc136531b0a0bdece2dfee271c6ab96f2047e51a34651f37ac1" => :sierra
     sha256 "8f40d671b1f63facc15c957ddb6eb1a58332bf13e68eef888175948017e79386" => :el_capitan
     sha256 "2b137b92e15bf5941697df2f6fab98a8e030024bbbb0ddc5864f2bbb076f6223" => :yosemite
+    sha256 "e9a8887a533338b30aa16cdeea8b1b50fbfba65a60dd18d1009326f74797847a" => :x86_64_linux
   end
 
   def install
