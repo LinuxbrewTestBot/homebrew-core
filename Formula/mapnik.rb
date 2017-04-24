@@ -41,7 +41,8 @@ class Mapnik < Formula
     # Fails with GCC 5. See https://github.com/Linuxbrew/homebrew-core/issues/1195
     ENV.cxx11 if OS.mac?
 
-    ENV["MAKEFLAGS"] = "-j2" if ENV["CIRCLECI"]
+    # Reduce memory usage below 4 GB for Circle CI.
+    ENV["HOMEBREW_MAKE_JOBS"] = "2" if ENV["CIRCLECI"]
 
     icu = Formula["icu4c"].opt_prefix
     boost = Formula["boost"].opt_prefix
