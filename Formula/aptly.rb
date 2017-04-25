@@ -11,6 +11,7 @@ class Aptly < Formula
     sha256 "39483b7e222a9d683b09963316a45542b1ec0feda960ba0fe2bc316c0df07f80" => :sierra
     sha256 "2d114bfb81310b2af4eca98373d3bcfbac529dc7beef44b18ca7bfe3e585811c" => :el_capitan
     sha256 "952bdf9c5dd8fb93e77ee2281425f11481d8633a1fb5a836e5cef5a188bdc42e" => :yosemite
+    sha256 "06fe61924b58e22adf847d698d10438086448227cddbf5ef0096ad0b57cfeb41" => :x86_64_linux
   end
 
   depends_on "go" => :build
