@@ -10,6 +10,7 @@ class AnsibleCmdb < Formula
     sha256 "20c2907fa46c4e89ae89eb1d63a4cb29a9d4f1cbfc40d7fdd8bc8c147a6ff1c0" => :sierra
     sha256 "20c2907fa46c4e89ae89eb1d63a4cb29a9d4f1cbfc40d7fdd8bc8c147a6ff1c0" => :el_capitan
     sha256 "20c2907fa46c4e89ae89eb1d63a4cb29a9d4f1cbfc40d7fdd8bc8c147a6ff1c0" => :yosemite
+    sha256 "d2edd556d2e1c633f08cb06cb4f25ffc47c5018718c94a0904c1f6e3ed3e05a3" => :x86_64_linux
   end
 
   depends_on :python if MacOS.version <= :snow_leopard
