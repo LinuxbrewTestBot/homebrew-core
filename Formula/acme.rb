@@ -14,6 +14,7 @@ class Acme < Formula
     sha256 "84f0ba7e45580d5a28a9a0dd9d7a25a6e67a9bdc7407c5b91cf64b8b9cf0a165" => :el_capitan
     sha256 "1e7c7805ac21061637cd1ce964f976c6f68b9259e892ffc77ee71f2aa280f879" => :yosemite
     sha256 "022ef1a9526002dda47023b47c2af6227ee40f33b33b0ed232ae105fcf982911" => :mavericks
+    sha256 "e53d911abdd8a7bcbabf99587cd0943884b5b4e3300876d319dffd2533b2a0d9" => :x86_64_linux
   end
 
   devel do
