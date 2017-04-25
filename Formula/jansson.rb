@@ -10,6 +10,7 @@ class Jansson < Formula
     sha256 "f71130560290bd3567370e16bd6da01c62b742262ba838785697148273b572a2" => :sierra
     sha256 "709661eacbb18126715fae9ba5f2b48d6e7d9e7660f601fce67b601f0d5333a8" => :el_capitan
     sha256 "03a6016b16023b314916147e7ece853c39450a249644fceb2dac3a0417b11fdc" => :yosemite
+    sha256 "e386323b3ad6e9d9d093ab4698c544eaf05853e7fac741765509308a2e4a87bf" => :x86_64_linux
   end
 
   def install
