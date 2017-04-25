@@ -12,6 +12,7 @@ class Ascii < Formula
     sha256 "b7b74752e577efa60d98732e688910980436e42fbbf1f77a041cb2af458789f5" => :yosemite
     sha256 "56cec53206fc55f1fcd63b09b69c1afe858f4097ac6a460b7c9c07fbdfeaa0ed" => :mavericks
     sha256 "1a25c357bde021b59904fc8184c45a5eb85ae6be507a1e100aa79d441ad07943" => :mountain_lion
+    sha256 "b7d305d242d00171d11a3ca2336433f6ff855ee3d349bc2929cfa590a8a2bbd4" => :x86_64_linux
   end
 
   head do
