@@ -10,6 +10,7 @@ class Sleuthkit < Formula
     sha256 "0b72a29c6fd822efd9a0185a9f5e144919b3e470e30fc7c8ce9313e7b7943e3f" => :sierra
     sha256 "d6c18c4e452c01c2cc451c4cbd7f2553ae338749448836913303bdf7cb1afff2" => :el_capitan
     sha256 "69843bf2119ca3851d07b79e5cde093eb9ac4ace1d3237a54e91c62212fdc680" => :yosemite
+    sha256 "3a1320d7d53785fc7a137332ca41f02f13bb237fca8fce4caa85ca54e32e5ed5" => :x86_64_linux
   end
 
   conflicts_with "irods", :because => "both install `ils`"
