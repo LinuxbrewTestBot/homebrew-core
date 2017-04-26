@@ -13,6 +13,7 @@ class Awslogs < Formula
     sha256 "7207ed6071d184468f94d03824b1f3d3b00ae69bf6c4b8f03279c1f22b616593" => :sierra
     sha256 "38847e1ea8b7524eb9a0a6f51b8c83c05340d6224f769fa205aa061ed564ee05" => :el_capitan
     sha256 "e9c8d6dbdba2ae32df6aaf54c194446bb6d0547810a26cfbffab1a83cbaf4ef2" => :yosemite
+    sha256 "089222fc11e7bd8dd8265b292342e66e0a15a9457380664ab986acfddf647bb6" => :x86_64_linux
   end
 
   unless OS.mac?
