@@ -1,15 +1,21 @@
 class Proj < Formula
-  desc "PROJ.4, a Cartographic Projections Library"
-  homepage "https://trac.osgeo.org/proj/"
+  desc "Cartographic Projections Library"
+  homepage "http://proj4.org"
   url "http://download.osgeo.org/proj/proj-4.9.3.tar.gz"
   sha256 "6984542fea333488de5c82eea58d699e4aff4b359200a9971537cd7e047185f7"
-  head "https://svn.osgeo.org/metacrs/proj/trunk/proj"
 
   bottle do
     sha256 "82ea2f4d18b24bf337bf10bbb42f3e7d98a24803db252c8ea0383873c1d944cc" => :sierra
     sha256 "4a18c02f82a4ee75c4cb61bb201bfe14d05fdf663781270ccaba6cad3cd3bc86" => :el_capitan
     sha256 "eecdee32c333c828b17c0246d2cdf0580f144029c43c278555f793c5e3fead02" => :yosemite
     sha256 "8146c9f330d22d7bdb79382ff1353f26bab5cc32dcf681346f15db4a91311357" => :x86_64_linux
+  end
+
+  head do
+    url "https://github.com/OSGeo/proj.4.git"
+    depends_on "autoconf" => :build
+    depends_on "automake" => :build
+    depends_on "libtool" => :build
   end
 
   option "with-vdatum", "Install vertical datum files (~380 MB)"
@@ -77,6 +83,7 @@ class Proj < Formula
       end
     end
 
+    system "./autogen.sh" if build.head?
     system "./configure", "--disable-dependency-tracking",
                           "--prefix=#{prefix}"
     system "make", "install"
