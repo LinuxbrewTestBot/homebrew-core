@@ -10,6 +10,7 @@ class Atkmm < Formula
     sha256 "70c5c9652b337efe41f26d61480dad331095a6ded8cae26bc8dc0066c06adfb5" => :el_capitan
     sha256 "a7ddfcacea2a645a939c0eb7b5d2c026d9f9af9ba3e579ee66df28fbe6339879" => :yosemite
     sha256 "a39942b931ea636033cd6018ddbe25d050dbcdda5ef80f0c9d9cc81a7d9636d4" => :mavericks
+    sha256 "d452164c169a65b0066154687b401fc5e61c49659524de80870f261ca42c1abe" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
