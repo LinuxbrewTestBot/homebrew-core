@@ -5,9 +5,10 @@ class MysqlAT55 < Formula
   sha256 "9af0a504e2603b0bc0c7c3a4a747df064fb51670a0022b1ad6114f9058b64171"
 
   bottle do
-    sha256 "8c6430a47464fbb617c8a53c906a1d522f6519e824fd68490ba41e8fe14c3c01" => :sierra
-    sha256 "631566f6eef4eb72a93461d5aa8e99e7724798fea41b9648641c829121f5e892" => :el_capitan
-    sha256 "7ebb9251c26e367375c3aae7288512cb044d37d313975a3c8dec8e9028785748" => :yosemite
+    rebuild 1
+    sha256 "865610c91fbce94d0a9f4d38acf7c687f53246ddcab9611c2db86ebd315ea030" => :sierra
+    sha256 "3bfe8b6497d37b2ef073e5b5b3a08a06df4dc41c5c8fd1471d0f6f0f2d059e79" => :el_capitan
+    sha256 "222b211d180173f0d81f5fa9de49967dd2119f3478787ae56bec6ae4e5aae718" => :yosemite
   end
 
   keg_only :versioned_formula
@@ -107,6 +108,15 @@ class MysqlAT55 < Formula
 
     libexec.install bin/"mysqlaccess"
     libexec.install bin/"mysqlaccess.conf"
+
+    # Install my.cnf that binds to 127.0.0.1 by default
+    (buildpath/"my.cnf").write <<-EOS.undent
+      # Default Homebrew MySQL server config
+      [mysqld]
+      # Only allow connections from localhost
+      bind-address = 127.0.0.1
+    EOS
+    etc.install "my.cnf"
   end
 
   def post_install
@@ -122,6 +132,8 @@ class MysqlAT55 < Formula
   def caveats; <<-EOS.undent
     A "/etc/my.cnf" from another install may interfere with a Homebrew-built
     server starting up correctly.
+
+    MySQL is configured to only allow connections from localhost by default
 
     To connect:
         #{opt_bin}/mysql -uroot
@@ -142,7 +154,6 @@ class MysqlAT55 < Formula
       <key>ProgramArguments</key>
       <array>
         <string>#{opt_bin}/mysqld_safe</string>
-        <string>--bind-address=127.0.0.1</string>
         <string>--datadir=#{datadir}</string>
       </array>
       <key>RunAtLoad</key>
@@ -162,7 +173,7 @@ class MysqlAT55 < Formula
       "--basedir=#{prefix}", "--datadir=#{dir}", "--tmpdir=#{dir}"
 
       pid = fork do
-        exec bin/"mysqld", "--bind-address=127.0.0.1", "--datadir=#{dir}"
+        exec bin/"mysqld", "--datadir=#{dir}"
       end
       sleep 2
 

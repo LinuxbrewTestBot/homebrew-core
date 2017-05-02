@@ -14,8 +14,8 @@ class Texinfo < Formula
   end
 
   keg_only :provided_by_osx, <<-EOS.undent
-    Software that uses TeX, such as lilypond and octave, require a newer version
-    of these files.
+    software that uses TeX, such as lilypond and octave, require a newer
+    version of these files
   EOS
 
   depends_on "ncurses" unless OS.mac?
@@ -37,6 +37,6 @@ class Texinfo < Formula
       @bye
     EOS
     system "#{bin}/makeinfo", "test.texinfo"
-    assert_match /Hello World!/, File.read("test.info")
+    assert_match "Hello World!", File.read("test.info")
   end
 end

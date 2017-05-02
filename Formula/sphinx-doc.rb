@@ -13,8 +13,8 @@ class SphinxDoc < Formula
   end
 
   keg_only <<-EOS.undent
-    This formula is mainly used internally by other formulae.
-    Users are advised to use `pip` to install sphinx-doc.
+    this formula is mainly used internally by other formulae.
+    Users are advised to use `pip` to install sphinx-doc
   EOS
 
   depends_on :python if OS.mac? && MacOS.version <= :snow_leopard

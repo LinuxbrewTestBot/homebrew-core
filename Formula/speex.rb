@@ -12,13 +12,21 @@ class Speex < Formula
     sha256 "5ffa186c67f07ab749421df3785bd6e778b19f5bc6ed3678029be4979206eca8" => :x86_64_linux
   end
 
+  option "with-sse", "Build with SSE support"
+
   depends_on "pkg-config" => :build
   depends_on "libogg" => :recommended
+  depends_on "speexdsp" => :optional
 
   def install
     ENV.deparallelize
-    system "./configure", "--disable-debug", "--disable-dependency-tracking",
-                          "--prefix=#{prefix}"
+    args = %W[
+      --prefix=#{prefix}
+      --disable-debug
+      --disable-dependency-tracking
+    ]
+    args << "--enable-sse" if build.with? "sse"
+    system "./configure", *args
     system "make", "install"
   end
 end

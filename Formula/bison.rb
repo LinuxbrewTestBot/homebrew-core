@@ -14,7 +14,7 @@ class Bison < Formula
     sha256 "9413372ce7a2baa1c773483a66eaa270093ffc122bb19e4ca8162bf189ca191d" => :x86_64_linux
   end
 
-  keg_only :provided_by_osx, "Some formulae require a newer version of bison."
+  keg_only :provided_by_osx, "some formulae require a newer version of bison"
 
   depends_on "m4" unless OS.mac?
 
