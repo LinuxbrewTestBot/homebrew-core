@@ -13,6 +13,7 @@ class Portaudio < Formula
     sha256 "4fb62387583b02607e013f376c02b4a1f6c2a2fa9b68ee43e79c9c04d12f9a45" => :sierra
     sha256 "96afa37e0de1723e4fa206360f189ed0486ecd74a5554dcab75eb47395be78db" => :el_capitan
     sha256 "64b21e55c28066264ee09918c045b77c0b1049a19f8df4636283ce17b1d84944" => :yosemite
+    sha256 "dab9cb46d9253c34d236233d28dc4d4fcc8d8aaf3b3e92c9f7835b178d1e0117" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
