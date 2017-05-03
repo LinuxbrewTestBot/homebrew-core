@@ -6,9 +6,7 @@ class Glibc < Formula
   # tag "linuxbrew"
 
   bottle do
-    prefix "/home/linuxbrew/.linuxbrew"
-    cellar "/home/linuxbrew/.linuxbrew/Cellar"
-    sha256 "c680445237c7df6c84cb1218d0bf2b76b1d43b92dc165ec6aa537b4c1c064336" => :x86_64_linux
+    sha256 "4e9a9423698cd8e307fff731203d124948939a3557374dff08d18f4ed744c36e" => :x86_64_linux
   end
 
   option "with-current-kernel", "Compile for compatibility with kernel not older than your current one"
