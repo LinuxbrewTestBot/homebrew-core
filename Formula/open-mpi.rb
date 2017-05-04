@@ -3,12 +3,12 @@ class OpenMpi < Formula
   homepage "https://www.open-mpi.org/"
   url "https://www.open-mpi.org/software/ompi/v2.1/downloads/openmpi-2.1.0.tar.bz2"
   sha256 "b169e15f5af81bf3572db764417670f508c0df37ce86ff50deb56bd3acb43957"
+  revision 1
 
   bottle do
-    sha256 "980dee19a68a35981cebdead7c7d7fa66df9b206481d8759c4738da884eb8952" => :sierra
-    sha256 "0f22b4624cb270647bd806a165b12d907b50dec400707d8c3ead64f7eb07fa94" => :el_capitan
-    sha256 "5ae27358f9df385b8ca9a2480f1ab99caf7a6ea9c8c14cfc118199364e532954" => :yosemite
-    sha256 "d248716cb7a39650214822ec5a178b111f388e46faa9ac678734ac8f47d72479" => :x86_64_linux
+    sha256 "fdd7425cbea37a7180e5f00c316920ec5a9993884d84c731c9b4e262d6be5003" => :sierra
+    sha256 "74f671c90d4f7cec88e4b6bf9e9dcc76d063b9887439643b1b49f65d982decc0" => :el_capitan
+    sha256 "4436e1b630dafa96ed2b76bd8e29e9f557853d431029110394e266fe7c77497b" => :yosemite
   end
 
   head do

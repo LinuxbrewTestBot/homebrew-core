@@ -3,14 +3,14 @@ class AnsibleLint < Formula
 
   desc "Checks ansible playbooks for practices and behaviour"
   homepage "https://github.com/willthames/ansible-lint/"
-  url "https://files.pythonhosted.org/packages/41/55/b89f9c47dda2ae4eaf4e391b1db6f675f5894f873ac1ee9758fa430416a9/ansible-lint-3.4.12.tar.gz"
-  sha256 "2f77054fc126ab03aac78b453f50deac1eab6b754bb00ebed00ba01f6ce8e586"
+  url "https://files.pythonhosted.org/packages/34/21/0accae0dbc42aef2ec433b0bdaa5d21774939667b45690f5d4a4619b4528/ansible-lint-3.4.13.tar.gz"
+  sha256 "79df7b490747049c857d47b44a39465ca909860dab0909df0ce48cd4333cf7e4"
 
   bottle do
     cellar :any
-    sha256 "83379d55b2f3b7536258b24f7efe970dd92de9f7c91fb577583dc42ed711b71c" => :sierra
-    sha256 "04aa5056aae3df7ff6f9808d753d1ac4c2d2ac3394605ff1c309a231201b62d9" => :el_capitan
-    sha256 "962a24c88cf757b7ae12c900df3a1559cce4290b83e3781255353d596e9026a7" => :yosemite
+    sha256 "237b38dee0e69d681ba7ac77f3526eff8cdf64e4f6be047f9edf4825be75d987" => :sierra
+    sha256 "dbafa20d7df97bcf7494419f808c29c465e3a4dd3e989846f9f5696f1fc4646c" => :el_capitan
+    sha256 "101a557fdc7174d8a97043e13b03e53124bc708e9fba075697d362929c3afc1b" => :yosemite
   end
 
   depends_on "pkg-config" => :build

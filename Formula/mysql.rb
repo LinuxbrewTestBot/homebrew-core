@@ -3,13 +3,12 @@ class Mysql < Formula
   homepage "https://dev.mysql.com/doc/refman/5.7/en/"
   url "https://cdn.mysql.com/Downloads/MySQL-5.7/mysql-boost-5.7.18.tar.gz"
   sha256 "ae6f5e2cf7b936496cf60260cd7fd5a0862c21f48cd240448021c4ea067a0f0c"
+  revision 1
 
   bottle do
-    rebuild 1
-    sha256 "4c4ca41db24fca1a443bcae54e238d4b830aa4e8dd7fdc44ddb898490aa47b94" => :sierra
-    sha256 "2256b6ec4878266cb4b3ec22abd9d154e4ce5e5413648737c388ac48fc63fac0" => :el_capitan
-    sha256 "abc74fa6a0d7330761dd68572b5bccf063b9df57267a2a421eef24c270182bbe" => :yosemite
-    sha256 "f9c9605fdb747e655afb1c9a39e317e2d07d5223bcbf96f972fca7efe864b4d7" => :x86_64_linux
+    sha256 "9d3c7b6dbb318dd8bcf7bdda510a8570289ae4329daf1663cc6f002ae5b087c7" => :sierra
+    sha256 "4c765b04a656f88ff4020c0a2c23e22a8bd7645ee61787565fac63cdc82f2dcf" => :el_capitan
+    sha256 "91ceb7a04609580e29c1b355ea3dc5047d63d1f1c15f06fb088ba70f03f23b4f" => :yosemite
   end
 
   option "with-test", "Build with unit tests"
@@ -63,7 +62,6 @@ class Mysql < Formula
       -DINSTALL_DOCDIR=share/doc/#{name}
       -DINSTALL_INFODIR=share/info
       -DINSTALL_MYSQLSHAREDIR=share/mysql
-      -DWITH_SSL=yes
       -DWITH_SSL=system
       -DDEFAULT_CHARSET=utf8
       -DDEFAULT_COLLATION=utf8_general_ci
