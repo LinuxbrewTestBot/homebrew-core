@@ -10,6 +10,7 @@ class Capnp < Formula
     sha256 "fe035ee20666f60bea72a033625e30981da7cf49bca28e3ded78daeb9a0cc9f3" => :sierra
     sha256 "5ef99277556769e117350e4c4c625c4498aab44aec043c24a3e8596ee98a311a" => :el_capitan
     sha256 "7068ca3b3c0db13d8669d1c6e70c5a4a5f31872b70741c8cd54485b5f66052db" => :yosemite
+    sha256 "e0aae8a0e7f1d59259bfa81c4b848c21ee6b4b8267185c87f0232b8bf2e52c06" => :x86_64_linux
   end
 
   needs :cxx11
