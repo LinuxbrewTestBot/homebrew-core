@@ -11,6 +11,7 @@ class Libressl < Formula
     sha256 "266a78adbadfd8698691c4d43d06f55a130d3600e8da07b703e17e511ec32f5b" => :sierra
     sha256 "88c9cf082ba35d9f3c63e9d15e27315e7502bdd569a6551f0a0cbbed62e4e893" => :el_capitan
     sha256 "f5571d4fd87840911e683c2240a1d5a2bf940a3de6e14033d1759af824f6840e" => :yosemite
+    sha256 "30b55f0f161bfbfac69bd0f24f3957af74c4873cb2b9c418e53779e9bfe0082a" => :x86_64_linux
   end
 
   head do
