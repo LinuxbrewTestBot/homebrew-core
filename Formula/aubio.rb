@@ -12,6 +12,7 @@ class Aubio < Formula
     sha256 "e72e6f6ca2562e43dd3b79755bac1741fbda2cc12c1adf41e19712da9eb292c7" => :sierra
     sha256 "d754ca2e173318c33fd6af21184fcbf7e9d739ece3c35b329f616483dc8696d3" => :el_capitan
     sha256 "c826af70ae0ac208299282b6935747736ef58d5505b9c7235c699590ac26020d" => :yosemite
+    sha256 "daec1a47c99c1cf1c99e594387b76b0f08952d33910f1cf96500225370553191" => :x86_64_linux
   end
 
   depends_on :macos => :lion
