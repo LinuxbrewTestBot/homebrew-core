@@ -27,7 +27,6 @@ class Postgresql < Formula
 
   depends_on "openssl"
   depends_on "readline"
-  depends_on "libxml2" if MacOS.version <= :leopard # Leopard libxml is too old
 
   option "with-python", "Enable PL/Python2"
   depends_on :python => :optional

@@ -73,7 +73,7 @@ class Gupnp < Formula
            "-I#{Formula["glib"].opt_include}/glib-2.0",
            "-I#{Formula["glib"].opt_lib}/glib-2.0/include",
            "-I#{Formula["libsoup"].opt_include}/libsoup-2.4",
-           "-I" + (OS.mac? ? "/usr/include/libxml2" : Formula["libxml2"].include/"libxml2"),
+           "-I" + (OS.mac? ? "/usr/include/libxml2" : Formula["libxml2"].opt_include/"libxml2"),
            testpath/"test.c",
            "-L#{lib}", "-lgupnp-1.0",
            "-L#{Formula["gssdp"].opt_lib}", "-lgssdp-1.0",

@@ -1,14 +1,13 @@
 class Mariadb < Formula
   desc "Drop-in replacement for MySQL"
   homepage "https://mariadb.org/"
-  url "https://ftp.osuosl.org/pub/mariadb/mariadb-10.1.22/source/mariadb-10.1.22.tar.gz"
-  sha256 "bcb0572e7ad32cea9740a21e9255f733bdf60a5561ffbda317c22dd12b3966ce"
+  url "https://ftp.osuosl.org/pub/mariadb/mariadb-10.1.23/source/mariadb-10.1.23.tar.gz"
+  sha256 "54d8114e24bfa5e3ebdc7d69e071ad1471912847ea481b227d204f9d644300bf"
 
   bottle do
-    rebuild 1
-    sha256 "b2fb95845e59337eb168d52937401a6c75b8ac30638f11fb91e1232125d17fb1" => :sierra
-    sha256 "37de79c161518b0e1a14a8747a3ae2b79f5e93e837f17eb6afa3081c65459ea6" => :el_capitan
-    sha256 "d6da0b6169d6eafb7228de64284485f5f4e99402b731b2504a9f02f9e8f332c3" => :yosemite
+    sha256 "04cd62eea7f3209cbb84c3f0ae272a1506895fe694adbde590c2cdf070fa4de5" => :sierra
+    sha256 "fac8cb5ab929041a7b29b28f18d1f1f0e5fcef1b197fef330f3f4cc783529532" => :el_capitan
+    sha256 "a0dc238797384b8bb9e72b7c4bd5f7faa37d16fab61676fb01c776c765fea061" => :yosemite
   end
 
   devel do
@@ -40,11 +39,13 @@ class Mariadb < Formula
     :because => "both install plugins"
 
   def install
-    # Don't hard-code the libtool path. See:
-    # https://github.com/Homebrew/homebrew/issues/20185
-    inreplace "cmake/libutils.cmake",
-      "COMMAND /usr/bin/libtool -static -o ${TARGET_LOCATION}",
-      "COMMAND libtool -static -o ${TARGET_LOCATION}"
+    if build.devel?
+      # Don't hard-code the libtool path. See:
+      # https://github.com/Homebrew/homebrew/issues/20185
+      inreplace "cmake/libutils.cmake",
+        "COMMAND /usr/bin/libtool -static -o ${TARGET_LOCATION}",
+        "COMMAND libtool -static -o ${TARGET_LOCATION}"
+    end
 
     # Set basedir and ldata so that mysql_install_db can find the server
     # without needing an explicit path to be set. This can still
@@ -115,8 +116,10 @@ class Mariadb < Formula
     # Fix up the control script and link into bin
     inreplace "#{prefix}/support-files/mysql.server" do |s|
       s.gsub!(/^(PATH=".*)(")/, "\\1:#{HOMEBREW_PREFIX}/bin\\2")
-      # pidof can be replaced with pgrep from proctools on Mountain Lion
-      s.gsub!(/pidof/, "pgrep") unless OS.mac? && MacOS.version < :mountain_lion
+      if OS.mac? && build.devel?
+        # pidof can be replaced with pgrep from proctools on Mountain Lion
+        s.gsub!(/pidof/, "pgrep") if MacOS.version >= :mountain_lion
+      end
     end
 
     bin.install_symlink prefix/"support-files/mysql.server"

@@ -2,15 +2,15 @@ class Mypy < Formula
   desc "Experimental optional static type checker for Python"
   homepage "http://www.mypy-lang.org/"
   url "https://github.com/python/mypy.git",
-      :tag => "v0.501",
-      :revision => "ed6480d148dae49f99c8af40f42b17def9947899"
+      :tag => "v0.510",
+      :revision => "12e9107bd0493fb7cdf2d7c07e29c6ef8ca37942"
   head "https://github.com/python/mypy.git"
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "c984e0803ee7622c9a426f1f39dc28a5587f6c710bcbf9d75794ec4b7f95de05" => :sierra
-    sha256 "5f97075bafbe8b913ecd55d5c234b3786690ca0ea5f065e25d28b7b65a517b5d" => :el_capitan
-    sha256 "76b16d42477c7249c4b3e72744765f0667d9a0ff23fbf0e12020077e58b84485" => :yosemite
+    sha256 "8e14da6d178f4e51af0f3c9933f124dbf203f063f32fffd7e50e86357bce7f7c" => :sierra
+    sha256 "028d1bcbdf6291fe1353b3afdbc0ca71c761f0a29fe8d40aff7221aa63dc9a45" => :el_capitan
+    sha256 "fa84697f3f43533c17f0b46fe9d8113fd1f3607a1458795824002b2b2b972e4f" => :yosemite
   end
 
   option "without-sphinx-doc", "Don't build documentation"

@@ -14,8 +14,6 @@ class Casperjs < Formula
     sha256 "8a70e2a64e5375215a66052c8912efa0492001f3f0afacd6d245c9ac1b271ea6" => :x86_64_linux
   end
 
-  # For embedded Phantomjs
-  depends_on :macos => :snow_leopard
   depends_on "phantomjs"
 
   def install
