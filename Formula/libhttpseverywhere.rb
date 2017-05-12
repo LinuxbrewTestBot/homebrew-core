@@ -9,6 +9,7 @@ class Libhttpseverywhere < Formula
     sha256 "d36070029a09b477e88ad3a23c29d4492f4b6b00edd6b977e4ef73462ce58f91" => :sierra
     sha256 "dfb0196cd1729c95c5f3d49d0ecee4cff7937ccfe2573103499e7fcb6d754389" => :el_capitan
     sha256 "d160d5ba6990daf3a0ac4042e93e940d3ace83d518b56b47adfb1aa939e2a28b" => :yosemite
+    sha256 "5da044cfa27f664478db4563510215a407574ed2d17a69c5c0d8f840ecb75753" => :x86_64_linux
   end
 
   depends_on "meson" => :build
