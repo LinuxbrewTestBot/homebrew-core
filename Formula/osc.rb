@@ -13,6 +13,7 @@ class Osc < Formula
     sha256 "cf4adda29c741e7bcba4c5b65852d7942e353bfaa976dd2e3d5633acff8215b3" => :sierra
     sha256 "582ef1d1774810282e7a45cffabba0e7f96420749b2459b337b6c0c1cf198e55" => :el_capitan
     sha256 "3e8e90ec555e1e7de6593a9e6858743faf50c84bf9786123549c2a2f5ea0e529" => :yosemite
+    sha256 "25498f081dabe8a3c9feb98ab9f7e38d3af8f4d959b4a16146d1806136aa37eb" => :x86_64_linux
   end
 
   depends_on :python if MacOS.version <= :snow_leopard
