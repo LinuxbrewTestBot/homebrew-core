@@ -10,6 +10,7 @@ class Xmake < Formula
     sha256 "916ebbf59ecaece1bc27462fd31ec1633005de201adb70d986e9308de0a40013" => :sierra
     sha256 "79f78a202c29fa947d75c277a130130375fb853d345224fb798d0731fe6d2418" => :el_capitan
     sha256 "c9d5e18377434432f957eeaae6a5a14e8fce527ba14a1b6ffc798f21cfda511e" => :yosemite
+    sha256 "a6298cc86e23f42c25bca50ad5c9904da58263f75841f26aecda4d59219adb38" => :x86_64_linux
   end
 
   def install
