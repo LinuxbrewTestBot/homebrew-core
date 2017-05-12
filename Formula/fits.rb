@@ -10,6 +10,7 @@ class Fits < Formula
     sha256 "e9c4804b16a628a72f546e3d33361ecfc19d3baf779992a52f6a9685f4ecfdb3" => :sierra
     sha256 "8f54130183f2c98d4ef07510891fa78fc6ced0761a4237c360e71f614da3dc14" => :el_capitan
     sha256 "4ad20c354f89507a904707a8bb66c40496904f31d5ad4043e0d410341f927a70" => :yosemite
+    sha256 "428480fc8467ed1d695488bf3aa20a47eaff5033ac89eb2e4867d19edd1a283a" => :x86_64_linux
   end
 
   depends_on "ant" => :build
