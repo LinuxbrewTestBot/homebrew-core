@@ -10,6 +10,7 @@ class Duck < Formula
     sha256 "84dec700b5a045ca32bfcac095a515c118a2636e14826d6891d7bff2a1fb5eec" => :sierra
     sha256 "ff34e3c14192e8eb551a5b005edada07a4621491bf957a94840ee0564f79477b" => :el_capitan
     sha256 "49e8908c6ff03e2410ed3b8c4bc67f7acc367b41cb447720c693887ba225464d" => :yosemite
+    sha256 "b7ba418e8a1c6ab630c8e22a99ac62bee7028eda06b561c0d14d2e241449763d" => :x86_64_linux
   end
 
   depends_on :java => ["1.8+", :build]
