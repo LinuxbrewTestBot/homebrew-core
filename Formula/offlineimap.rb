@@ -12,6 +12,8 @@ class Offlineimap < Formula
     sha256 "54c3afb8fbabf3a9f82b99dcde2576451ae6cec23941c8c6dd0420cbe35820c3" => :yosemite
   end
 
+  depends_on :python unless OS.mac?
+
   resource "six" do
     url "https://files.pythonhosted.org/packages/b3/b2/238e2590826bfdd113244a40d9d3eb26918bd798fc187e2360a8367068db/six-1.10.0.tar.gz"
     sha256 "105f8d68616f8248e24bf0e9372ef04d3cc10104f1980f54d57b2ce73a5ad56a"
