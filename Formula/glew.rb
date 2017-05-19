@@ -30,6 +30,7 @@ class Glew < Formula
     sha256 "ca64d2e470aec2b8c222f1ecaacff6480fb5325d983da3a287b81ebf8939bb68" => :sierra
     sha256 "5e426e5b18242c93b582b6fc8edeea976465d581924d0cd1c7cc52748fc0aa96" => :el_capitan
     sha256 "357ac59b6b0bfe6bee5d754b7b0e8b48f7a049123a5c4afd8c197996bcd2e658" => :yosemite
+    sha256 "2f978e67ea5ca42f762cd6bf955902ecdbb2c1ed4e483903e4dfd1616788ebd8" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
