@@ -12,6 +12,7 @@ class Syncthing < Formula
     sha256 "0858bbcbf444b03c3f63e63685f5547028e25833e341ec2a3be8895661e5d7f3" => :sierra
     sha256 "19ed2ef9a03e60740f74b54c95a6b4d84c50d412b5522ef02674b36419aaa272" => :el_capitan
     sha256 "b69c7b7ba6a6c659d2804705dc6340d1ded5c2b05fef1c055605f9b70260d351" => :yosemite
+    sha256 "47cc606c6b0d858b161707f126feddfd21023386349a9ecf6730e8a72b3ed01c" => :x86_64_linux
   end
 
   depends_on "go" => :build
