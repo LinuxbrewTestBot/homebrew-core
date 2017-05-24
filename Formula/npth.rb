@@ -11,6 +11,7 @@ class Npth < Formula
     sha256 "04f04d92596d8900aa64db510f288f4e98d0145072b9a18fe871e060f867f5d9" => :sierra
     sha256 "5ba80bd4f49981de50ca7d29659ba8a3e35b60c69243ef8344ce8e4d1e4b171d" => :el_capitan
     sha256 "a8df8b963b69529db8328ba92b9f37c385c55a86d4b01b2a454ff7703c3187f9" => :yosemite
+    sha256 "1d01e920692013efbbbb01b72ca870b0981c8af0227b2f1895793270c2d42c00" => :x86_64_linux
   end
 
   def install
