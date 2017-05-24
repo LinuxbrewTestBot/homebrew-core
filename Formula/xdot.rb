@@ -12,6 +12,7 @@ class Xdot < Formula
     sha256 "7cb38b8fb14e2c2b7ee8d16d73300c3af56617ae044e088b4fe05ae61ec9f5c5" => :sierra
     sha256 "7cb38b8fb14e2c2b7ee8d16d73300c3af56617ae044e088b4fe05ae61ec9f5c5" => :el_capitan
     sha256 "7cb38b8fb14e2c2b7ee8d16d73300c3af56617ae044e088b4fe05ae61ec9f5c5" => :yosemite
+    sha256 "708498d8a50881c367a893bd0aa7a72baf40d1e0afad692f2a739f47d840a448" => :x86_64_linux
   end
 
   depends_on "pygobject3"
