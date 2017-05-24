@@ -13,6 +13,7 @@ class Openjpeg < Formula
     sha256 "e5d4bcad36795653f31a5deec4ed17ece781891d7421cb2841336ca48ce37d9d" => :sierra
     sha256 "6a2608996b46e5889a8ca154b03bd6af6e01efbdd54af269b41abb859e37bebc" => :el_capitan
     sha256 "b6321a8848d7d86113a32663bff217c2e12565ead59d1ecaf3cfe9b3d8fd8467" => :yosemite
+    sha256 "e51c464bd26795d1b4faeb69e5a5ce02f6ea9bccbf8e4300bfdca5e72db00f30" => :x86_64_linux
   end
 
   option "without-doxygen", "Do not build HTML documentation."
