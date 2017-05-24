@@ -10,6 +10,7 @@ class Libgit2 < Formula
     sha256 "d43aa3bea4589796cc3819f79e1c0022be9c763a17b8d2a6d88bd16f8c4d2da7" => :sierra
     sha256 "a2c31c7175e7a36fcf6b08d57259490bc16ffd6190e9ca4ae8da3add44a172d9" => :el_capitan
     sha256 "1c9a4e6b427e80df70d78c9dfdf857b269888a2c8091ddcdcc3ce96e6d0acd8d" => :yosemite
+    sha256 "4ce02aea48dbdab3098eaca718c8a5b8aaed0d8de13d864145a4af1916d7ed5f" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
