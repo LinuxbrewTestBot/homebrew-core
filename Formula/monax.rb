@@ -11,6 +11,7 @@ class Monax < Formula
     sha256 "305385f9e631893c31496dfef6fe1aa0c87865cc7e66b94a749f853853ea1249" => :sierra
     sha256 "64a6b82656b477b0edcdbd9f1a1c3dd937419b890ee96f623a36de6cf46e9bac" => :el_capitan
     sha256 "7010eb9e3521f32597c4c965c8858969250ceca0426e2b3acd724a0b8d1119e1" => :yosemite
+    sha256 "7ad605eae567d88ea9d170b71af0c2dcde0beb6f0399137cb2b1bcd2333867b9" => :x86_64_linux
   end
 
   depends_on "go" => :build
