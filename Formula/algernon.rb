@@ -11,6 +11,7 @@ class Algernon < Formula
     sha256 "42651ae0197dd14d82a5ec1e50416c0575028139d067f5b2cd38dda99b310752" => :sierra
     sha256 "8b95001602a0ef83151445ae00488a3e69ab4f2d0abaaf2ec4fd23420b00fa58" => :el_capitan
     sha256 "2ee0fd1db921f44d1d2bada985064b8b969e338ea1f52a25b50c9ab291768f92" => :yosemite
+    sha256 "a926e9acc79bb9ef57cdd7f7a9deab180272488f9bc553a44ad283108557ea49" => :x86_64_linux
   end
 
   depends_on "glide" => :build
