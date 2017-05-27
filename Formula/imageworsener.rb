@@ -9,6 +9,7 @@ class Imageworsener < Formula
     sha256 "ac6900cd8b79e500b8312d2fe9a7a31d11ed7f637623825bcf5b03a9c81cf845" => :sierra
     sha256 "38c3d2aefc1ac3b0e1a0edfde959138f1e2c15e835f362449df2a83fdb7e6695" => :el_capitan
     sha256 "2d0b052c3dedb2adcd7d3fece5dfae0547f7e64cf9a28a91d79833e974c3c5d8" => :yosemite
+    sha256 "3903bfaa31a6dfbb1cc82fef52d8eaf7e6f25f11a42519a1b25dec3ea606133b" => :x86_64_linux
   end
 
   head do
