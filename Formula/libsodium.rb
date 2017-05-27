@@ -10,6 +10,7 @@ class Libsodium < Formula
     sha256 "0a64df6bdd78eea1d141776def103b89ef7dad897e0785c14809ba130ad4c22c" => :sierra
     sha256 "53f03968c131fd2c4a2fbbe875287797f5fa4b697922f1a98b8178dc91e40d70" => :el_capitan
     sha256 "b7bae3e647ebf21787d1ad7faa734a41e9d4e1e29aa1e658edf488134e5d60e8" => :yosemite
+    sha256 "fc1cfa98dbda63e27c4c0cfc74d86bd4f9e7b2a20a4f7e027509998daed7f981" => :x86_64_linux
   end
 
   head do
