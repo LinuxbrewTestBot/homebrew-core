@@ -11,6 +11,7 @@ class Libtasn1 < Formula
     sha256 "389ef05d7f0a7db7a23bf7afc22bcf5c7eb78d81b66e439d8449c7bd3d661241" => :sierra
     sha256 "39d5d6eacce63452a1921f2d3d6d53ce277b946faf37eba3e2480f6269f74fdc" => :el_capitan
     sha256 "7b50181cb9672cf449035e2f55e0c43e1e1b393d60011631ec8c3fdc30413edb" => :yosemite
+    sha256 "203fc278fe00effbdf601c5c117ec3888449fbb173400613c4daca4a4f40910a" => :x86_64_linux
   end
 
   def install
