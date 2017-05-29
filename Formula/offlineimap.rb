@@ -10,6 +10,7 @@ class Offlineimap < Formula
     sha256 "93df5d003f4d0747cf0db74f0b16968abbbe01e8732c21f91b1a7167073069f1" => :sierra
     sha256 "466ac3cd3e20fedef240f4d5f0c9155a5f003abdbd9752e6a67a92e4b68e7387" => :el_capitan
     sha256 "466ac3cd3e20fedef240f4d5f0c9155a5f003abdbd9752e6a67a92e4b68e7387" => :yosemite
+    sha256 "9236e69fec0d2a993117404327a4db1eab726fca6ee895943eeece6e2d7c6746" => :x86_64_linux
   end
 
   depends_on :python unless OS.mac?
