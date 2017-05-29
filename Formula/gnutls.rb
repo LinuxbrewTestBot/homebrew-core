@@ -12,6 +12,7 @@ class Gnutls < Formula
     sha256 "82dd5e8c5d83f4fd476ebf457b460d8020e26559f5180b4a2df80a7be0b6b08c" => :sierra
     sha256 "2bb9712e77cf82a5156a76bcd2c67f16c6e40e5d2664dbd5f688e5b889312365" => :el_capitan
     sha256 "71834ef8ff2289581950d1093821cb041a8622f11e6ce58bc6364fa0765e5e0f" => :yosemite
+    sha256 "8788be914614a8f11c0b8e67ed9c0733221312f8c8b8617d4b262ae89298d47b" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
