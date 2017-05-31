@@ -10,6 +10,7 @@ class Colordiff < Formula
     sha256 "cc4e89679b9cc83ea97edb37a9c1d766ba3273e21087297496567f55b677bb77" => :sierra
     sha256 "46960826668ad5d3ae1ee49afa1ba85da5ba9377b9c5d27393589c588a95a779" => :el_capitan
     sha256 "46960826668ad5d3ae1ee49afa1ba85da5ba9377b9c5d27393589c588a95a779" => :yosemite
+    sha256 "3754fa47ea25b4b5146778667b642907a6a6a94603d6d4ace8e4a340bb6cfb8e" => :x86_64_linux
   end
 
   conflicts_with "cdiff", :because => "both install `cdiff` binaries"
