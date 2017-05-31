@@ -9,6 +9,7 @@ class Afflib < Formula
     sha256 "84aefa7e2449d8162aca396921a568c556f2191db72fd5f03ee2daf6cf9485bd" => :sierra
     sha256 "2efac098c764845cae4a33c4788fd2f811a6a62a9345e4dcdebe4097cd1e09f3" => :el_capitan
     sha256 "7a70c24489fcd92a6f3845dd945eb0822d4018ef937747c720522a1e70e90fdb" => :yosemite
+    sha256 "6b3f592446e9c4fe2a270d9ad5242aac70b6dd3acfb2c78709402981187f5aec" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
