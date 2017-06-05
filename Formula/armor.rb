@@ -11,6 +11,7 @@ class Armor < Formula
     sha256 "d63a0f68561eea0459f97c9ab35d8ba87ee925c5775c8cbd27bd1a6870aeda5e" => :sierra
     sha256 "50e3feb1aeb698702bef02afad88e49a9d1e9aa1e14451a17dd90b15080049f9" => :el_capitan
     sha256 "a08c292b58f9cf56813afed9c584e3f415b6bc9435ece34dfc47a6f4172e3d0f" => :yosemite
+    sha256 "82fe17aecc0b35b280245c829584faeb6ed348263f238b4a3d6d1c680630a322" => :x86_64_linux
   end
 
   depends_on "go" => :build
