@@ -10,6 +10,7 @@ class Fsql < Formula
     sha256 "316420c1e4a7793fd5607b032be6b32ca67ed8851b53af9c3c410d65cca9a8a4" => :sierra
     sha256 "530a6013f87796b1b2bd99b6e36f12ec4dc762f8431f4536bcdffcbfddacba04" => :el_capitan
     sha256 "6869e98d96626f0b3eb25e89203ec08cd03468f833c7a0122e17c555d3181f4e" => :yosemite
+    sha256 "d854daba22f4e935b731ace014a0994d4a5be4d61faee1321940e441894b305b" => :x86_64_linux
   end
 
   depends_on "go" => :build
