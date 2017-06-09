@@ -11,6 +11,7 @@ class EasyrpgPlayer < Formula
     sha256 "e8eaa8f75f3f56592bcfaf10f38f628e142574d9df3d1a01180d5c22f5c7eb7c" => :sierra
     sha256 "584781c2929c14f1153e87fc28068d1e006fc629f2caef59ff1e847e343cf675" => :el_capitan
     sha256 "fba0e66131648a46ea3a1accff15dec77e7ecf57e557263218d2584cc76b0a4a" => :yosemite
+    sha256 "1df3cc27d18f8ae43564449c64878d6933bd70a126d739a2e86d519a51e24b5d" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
