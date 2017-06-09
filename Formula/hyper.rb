@@ -13,6 +13,7 @@ class Hyper < Formula
     sha256 "1ae87901488d4863857ea90f23548f8740b5d17f0473446e34379ae2c80ea312" => :sierra
     sha256 "55ed18d787fd0971c037454fa1529e72b666fac9fb570a8d290448e462008778" => :el_capitan
     sha256 "a0c8b853e922595c738cfa0c341f4f6decd9784f4b526769a5dddbf22cefaefd" => :yosemite
+    sha256 "f0f489b86c86bf7c4209e0c30a311f153879cffa6950ff4d7931366d0e20c780" => :x86_64_linux
   end
 
   depends_on "go" => :build
