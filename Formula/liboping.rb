@@ -8,6 +8,7 @@ class Liboping < Formula
     sha256 "42b80e23afe4fb4f296d039b0bdd4ccd0da21937514fdd04a90bc01d39da7aec" => :sierra
     sha256 "de0bb72a0752469b262db3a24a41c84746930858462cd08993c057caadd46264" => :el_capitan
     sha256 "c4f46d01bdace450a49e2c4fc4ba4056070bf1b869ed07f1b0a1d6a4f7646bc9" => :yosemite
+    sha256 "38f80e4602f0e831ed1dbabc750adbcf9824cb0c3e39997e5481d9eb9dfbe40e" => :x86_64_linux
   end
 
   def install
