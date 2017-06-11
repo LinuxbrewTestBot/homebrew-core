@@ -11,6 +11,7 @@ class Leaps < Formula
     sha256 "fa9cf3e9eac808b4a137e5140bcc524f8581d87a1cf9f80e1ec32a78020ae3ff" => :sierra
     sha256 "6057a6539732b2b7967ca6678981560b19f0cb5bd96557b6bd930f1922272abc" => :el_capitan
     sha256 "e056193127c7d1c48aa01934ea4e3c0301a7124a9c7fa46d82a34e1f9cd20e28" => :yosemite
+    sha256 "f3455a6675f195020aebd97c419168a0c265c150b2cd3a09642e8349befb3604" => :x86_64_linux
   end
 
   depends_on "go" => :build
