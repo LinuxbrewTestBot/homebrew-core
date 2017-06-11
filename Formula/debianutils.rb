@@ -11,6 +11,7 @@ class Debianutils < Formula
     sha256 "25750c7137e1017c68a504c8d50be6cf45e281d16431cb712a1e9d10c0cd7bc4" => :sierra
     sha256 "b7c94594e2e103e491779a5872049e28373b1e039914574623ade0c893a65b8a" => :el_capitan
     sha256 "fe3cc3649ac7cda8b062b947f89df3844809f6b041b3c22510f70271b09ed7ce" => :yosemite
+    sha256 "e6f37f3c522e0288699cf08db644689191ff58a436c20438d2f9948a965e527e" => :x86_64_linux
   end
 
   def install
