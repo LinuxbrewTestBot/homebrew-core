@@ -9,6 +9,7 @@ class Protobuf < Formula
     sha256 "b0b89d8ed02a2d4d54619f7e1dd37797797f580f434229dc96a4f772056c7493" => :sierra
     sha256 "c6ffdc50994d81d836df2d5dac2a3d5e82b05ae6c323a0ead9c1d0217801d9c5" => :el_capitan
     sha256 "10a15ee1d092b59765c94a15bb4dca77c0a9370180a3813018c5c083593173d3" => :yosemite
+    sha256 "2317eb9668c9935b17b954f3411d94aa0c092846073d1dc406dd6ebc4f43878d" => :x86_64_linux
   end
 
   # this will double the build time approximately if enabled
