@@ -12,6 +12,7 @@ class Fibjs < Formula
     sha256 "81ee585e8cba5f182ee68cb9be6a50acafd823f6c38ae6e16095a78105c266ad" => :sierra
     sha256 "a99b536c6544f2b22be73c030d55bb4cccdf02861d37ba3beaf1f63c6165968f" => :el_capitan
     sha256 "706f39e92ab350f6c41e057d2204349d5e7e81a5c617004b6ab175194c5bcc54" => :yosemite
+    sha256 "a71a24ede13fc3c730f29e2a8f42cbafb8fbf549c6d1e7f75642b06c5d9d6103" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
