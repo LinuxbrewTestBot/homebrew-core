@@ -11,6 +11,7 @@ class Jemalloc < Formula
     sha256 "36daad66ad661c9b32e1805979fff03895fe839c7a4e91fd6a832aa3f8d93a00" => :sierra
     sha256 "ab395122e3e65e7def1f4c5c2421a69999a163ca1a8f551d972e2af420354c00" => :el_capitan
     sha256 "85f5f33cc20dbba2ae5bc5d1b3ee9004ea2158764e8f1c14e9e1714e295ed619" => :yosemite
+    sha256 "614dca7813ac45f0e6333303601b5700ec6d5b24db2fdd518e071146f423c939" => :x86_64_linux
   end
 
   def install
