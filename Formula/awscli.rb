@@ -13,6 +13,7 @@ class Awscli < Formula
     sha256 "9329a7887ba1c26e607ae17562ceb040f4a13985cd1640999849d87094061dda" => :sierra
     sha256 "21d0612cf7430ce08b72a168143f955dd9d1960b01a43d86a1b8dd0ece0177d6" => :el_capitan
     sha256 "6893e7a1509f4bcd60cc090d66b7f2e3beb1860cef8824e323cb3d27a14ecd64" => :yosemite
+    sha256 "5b9a7261b40f339f2f725eda6a11b70cd6efd7a38e91eaf4d3f276285e3dbb3c" => :x86_64_linux
   end
 
   # Use :python on Lion to avoid urllib3 warning
