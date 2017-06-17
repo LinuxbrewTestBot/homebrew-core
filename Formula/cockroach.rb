@@ -12,6 +12,7 @@ class Cockroach < Formula
     sha256 "f1b629b27125f9c3502ede75696a22aa5340df4606649d32460b20fabaa3ad95" => :sierra
     sha256 "3fe94f00f5665f518ab8fd5fc87212754a1b8695c2dddba8496416dc4da2f107" => :el_capitan
     sha256 "00c6b5c8127924d86acf5d576330952c34182cb16b19e30188c2feb2599e3fb8" => :yosemite
+    sha256 "7ea95972dda5586cf2efffaa2f2fa801c88f6413c0a57244213e6224e576a27e" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
