@@ -9,6 +9,7 @@ class Vim < Formula
     sha256 "dbc2a6ffbfc0353dbb45b81913432236aa277f03e4c7c81c6ee0152172cdc8f7" => :sierra
     sha256 "e4bcc9710814d7d231fa0a2547b8bb9102c909ea65986e1da78c226dfe6ffd05" => :el_capitan
     sha256 "3ae5e214908a319be72a4c1d2a0ab9a5354af3cc8171c144e5bcd418e6ace459" => :yosemite
+    sha256 "90ddde39d8c8c38d0c40c7c9353b66552e806713fe9ac01c2d32ce050678ac9a" => :x86_64_linux
   end
 
   deprecated_option "override-system-vi" => "with-override-system-vi"
