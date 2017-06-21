@@ -8,6 +8,7 @@ class Libqalculate < Formula
     sha256 "2c2e4e9a9948111cb7281225d7eb55a62b19540c95cb1525495871452e9a8d3c" => :sierra
     sha256 "f41994adf6c16077f4ff82e6efa3ab03f21ef3c26180e7fcb24bcd49ad03e4de" => :el_capitan
     sha256 "56870b47784e7947d47070b3afb863e3fdfb1eafe9b2f8add68628e1a55a1096" => :yosemite
+    sha256 "6ff9e979da640a6105ddb70e12891650ccb6baaa05574abf378b3b36fd6ef63e" => :x86_64_linux
   end
 
   depends_on "intltool" => :build
