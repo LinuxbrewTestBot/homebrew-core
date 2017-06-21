@@ -12,6 +12,7 @@ class TranslateToolkit < Formula
     sha256 "d69d47cab214bbb4af8f6771ebd7ea8127c092720d5282e9e8d7aa37b31b2a4e" => :sierra
     sha256 "2215196bf1bb37ca376e0b2987e9430b37d9dbad97454ab470ec11ffc19f087c" => :el_capitan
     sha256 "40afdaa90672dc71b6493a4f49edf1ff6870b6698e8729f8dbdd9d5eb828e97a" => :yosemite
+    sha256 "4a755a7c19fa7d145aec01266463e25d6ba28e1f179922d740f8f3d9c2e6fbb0" => :x86_64_linux
   end
 
   depends_on :python if MacOS.version <= :snow_leopard
