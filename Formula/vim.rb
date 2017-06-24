@@ -6,9 +6,13 @@ class Vim < Formula
   head "https://github.com/vim/vim.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    prefix "/home/linuxbrew/.linuxbrew"
+    cellar "/home/linuxbrew/.linuxbrew/Cellar"
     sha256 "8eb1d097f3aead09f40d0fadb9fdc767a690e3bd7ba81128539804308ab1d318" => :sierra
     sha256 "91b2f59e5e1c69c7d5e67465a4192b251ab6d265552a6c5ca7eb6d77caccc136" => :el_capitan
     sha256 "998478d53224420e85b993de26a4c77eededcfe23631e5eecc1bdf8bfefa760a" => :yosemite
+    sha256 "c46a6e1d79cef7bd4191a3a41f1b27f58b0a24f39f7d10b56f84ed4511282cfa" => :x86_64_linux
   end
 
   deprecated_option "override-system-vi" => "with-override-system-vi"
