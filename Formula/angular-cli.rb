@@ -7,10 +7,13 @@ class AngularCli < Formula
   sha256 "7b3f4738ed6b79422aca98acfd7fb2be6db3ec385eaddf7dbd9fd6bd05db1519"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    prefix "/home/linuxbrew/.linuxbrew"
     cellar :any_skip_relocation
     sha256 "ebaacd7760cc7ebec4b0057473b8d880f2c6a046e0c194330a85dfc5e71c5727" => :sierra
     sha256 "9789972a22750df643b61cceefb490c0daa926bcb5c5f0d4cd11e8303a4879aa" => :el_capitan
     sha256 "67c8a0852f7c694dff9463a3da98df35ef3c115194ee61e93a4f77f2030b772c" => :yosemite
+    sha256 "418e7527f54b1456b679b395385e8f3aca01575d8f2ec6e4574793daca6eee3e" => :x86_64_linux
   end
 
   devel do
