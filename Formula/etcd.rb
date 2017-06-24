@@ -6,10 +6,13 @@ class Etcd < Formula
   head "https://github.com/coreos/etcd.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    prefix "/home/linuxbrew/.linuxbrew"
     cellar :any_skip_relocation
     sha256 "cbbf3e8bee60341ed9612c39cb256f488be28af50baad0bf2cad24fa07fc0084" => :sierra
     sha256 "6a2a49dc6bd5a040c3b4522b3bce5e1eaad771153eaf0ddccfdf9fd03e037410" => :el_capitan
     sha256 "642ee14234374ec9c5924621ca2af1ac6c710bfa38555be09ac97523bc1c90d1" => :yosemite
+    sha256 "065ced1885ae294ccdf627fd7ae0659d43c1f13a5d3ada04ad456d66a302c167" => :x86_64_linux
   end
 
   depends_on "go" => :build
