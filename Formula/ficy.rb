@@ -7,10 +7,13 @@ class Ficy < Formula
   head "https://github.com/wavexx/fIcy.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    prefix "/home/linuxbrew/.linuxbrew"
     cellar :any_skip_relocation
     sha256 "84c0a9723612b39cf41b500d45aa9be9b67bcb779ce76983b06b38ae73d435ae" => :sierra
     sha256 "17f8f21f973bb591cc29854c58cc26cc4a5de2550f1b6b02d3d258e67ea9cec9" => :el_capitan
     sha256 "b7f3934b28587731dea3e2bb779f7c498adeec5d3c28e658bb78258b00aca8b0" => :yosemite
+    sha256 "5cdfbe4a61a9ff3cac4b591bf833bc7c1eeeb9c7be201d3b2d61cee5666703bd" => :x86_64_linux
   end
 
   def install
