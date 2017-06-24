@@ -6,9 +6,13 @@ class Texinfo < Formula
   sha256 "6ae2e61d87c6310f9af7c6f2426bd0470f251d1a6deb61fba83a3b3baff32c3a"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    prefix "/home/linuxbrew/.linuxbrew"
+    cellar "/home/linuxbrew/.linuxbrew/Cellar"
     sha256 "bcd43bfb0b31234232ed4d4894a7ffb16b23384105bce519ee7e83a12b01ecb2" => :sierra
     sha256 "f078d51fc568e628efb932f30451e4886b208d12c591aac03bafcc545d2c709a" => :el_capitan
     sha256 "c85b9e3b8577e56160abca0b98c22e162e0f576ecc49253deca1363e6758a58d" => :yosemite
+    sha256 "cd69799235361aadf70e2355f775bfe017d6352455b9dae4cefa0cbda61221bf" => :x86_64_linux
   end
 
   keg_only :provided_by_osx, <<-EOS.undent
