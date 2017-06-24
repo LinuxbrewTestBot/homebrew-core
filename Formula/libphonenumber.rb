@@ -5,10 +5,13 @@ class Libphonenumber < Formula
   sha256 "a87ca2858ec4ba80523be3c6ae8d17a90dfb21c8580a5375e3f35469c447554b"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    prefix "/home/linuxbrew/.linuxbrew"
     cellar :any
     sha256 "3565a4ac15870ea808fea93a9a2cfb44f857e54823d81e3616f5296b173aff92" => :sierra
     sha256 "cab5078d6fc86ce3157f1c858b1eefeb61e2b7bbd4d198f04ada402241a3cda4" => :el_capitan
     sha256 "37880ed9ab44ca4f54f3b13b4bbbfb2ce6b6ddb1074094a9f826b18223a1caed" => :yosemite
+    sha256 "bbcf05539b85a34062e853086271d8dd66088a5d4b102c3fca11df9c983975aa" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
