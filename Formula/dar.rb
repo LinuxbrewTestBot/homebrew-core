@@ -5,8 +5,12 @@ class Dar < Formula
   sha256 "ad9d4b32b7a1240d9ae74155ff0aab3848065bee65ce01a022a234c02be73989"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    prefix "/home/linuxbrew/.linuxbrew"
+    cellar "/home/linuxbrew/.linuxbrew/Cellar"
     sha256 "71c64f23fff450713707947bde55648141d79939ec7bbda1cb1b2ebc99dc2756" => :sierra
     sha256 "faa2568040a935f3333ce689b52439df343e75d424490f6cf34cbdae44226c68" => :el_capitan
+    sha256 "4144848e26ccd82bef6fdd81a6ad7aaa9b02dc3587b05a3c499eb8b36bae3fdc" => :x86_64_linux
   end
 
   option "with-doxygen", "build libdar API documentation and html man page"
