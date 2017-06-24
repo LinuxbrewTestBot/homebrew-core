@@ -7,10 +7,13 @@ class Parallel < Formula
   head "https://git.savannah.gnu.org/git/parallel.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    prefix "/home/linuxbrew/.linuxbrew"
     cellar :any_skip_relocation
     sha256 "af02d237a94ddd8d5d18287026a1da8a6afc6a79dc84f20ef723faba0ca74249" => :sierra
     sha256 "5c79705f86d6caef4d761a11394cde9f092c81e64f5966644ca04a5ddf74ff3b" => :el_capitan
     sha256 "5c79705f86d6caef4d761a11394cde9f092c81e64f5966644ca04a5ddf74ff3b" => :yosemite
+    sha256 "ebb1da620b96119bc1c1e93a09096c43f4d44d4b52cf33f56bd762e61169bfa9" => :x86_64_linux
   end
 
   conflicts_with "moreutils", :because => "both install a 'parallel' executable."
