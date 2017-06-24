@@ -8,10 +8,13 @@ class Awscli < Formula
   head "https://github.com/aws/aws-cli.git", :branch => "develop"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    prefix "/home/linuxbrew/.linuxbrew"
     cellar :any_skip_relocation
     sha256 "0ae2bb200ea874c9ce6924288eed6992bda69516a7d825cc9e0957651f861d03" => :sierra
     sha256 "961ca4da3cf0c59ad36e0fe92bf6d9efcf710e36aff5754c62d47a9340d16bbb" => :el_capitan
     sha256 "d2239f234640dfca52ee29db4a003a81b7cad0ea08e15421724282e855b5f3da" => :yosemite
+    sha256 "0bcda0395ec0e461cf00cd1116213565f544331c3c641c94b0a861e6b188288d" => :x86_64_linux
   end
 
   # Use :python on Lion to avoid urllib3 warning
