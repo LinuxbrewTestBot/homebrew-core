@@ -11,6 +11,7 @@ class NodeAT4 < Formula
     sha256 "7f1f2f5064c18679b6c2494c361fd4ce2f3d7baaa415ec096487a0b631a172e6" => :sierra
     sha256 "d0c4365f19168f7444d29f63081ec43ae676db826241bdf093d0ebeb59515f56" => :el_capitan
     sha256 "57cc91d2e546dd493654c97cea1a6684ef19c17b31b23bce3840c9d7d8bc47a7" => :yosemite
+    sha256 "1d72387ba01f08be5a531772b10463ca15aef27762071af2945665540a8dc9ff" => :x86_64_linux
   end
 
   keg_only :versioned_formula
