@@ -11,6 +11,7 @@ class Insect < Formula
     sha256 "dc3d95026270fa0cea8cca524f92405a3d25f181e665c8852f373f43415073dd" => :sierra
     sha256 "4f6c779f753ab5d31845bc1b22ea7baad3d98667d99a4feaf900017f41e3b423" => :el_capitan
     sha256 "e905fb7cf8dce1ff269631c63ed46cf7d6c781f60e2cc4662ad2ea81f49cbf10" => :yosemite
+    sha256 "8ac6cdde466fe8b873cd3e0cd1342165c1e27d7ab95f1b50a090fe02d8d3f257" => :x86_64_linux
   end
 
   depends_on "node"
