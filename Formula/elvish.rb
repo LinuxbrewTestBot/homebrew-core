@@ -11,6 +11,7 @@ class Elvish < Formula
     sha256 "8a36df07bafd28ecb996e46d7d5853257d509544c455b7853c2e4cd3a219f844" => :sierra
     sha256 "ce99b7ebda92359ba19ad392effcb1f51af19d5f422337ee90f06f6d2a1a9ce7" => :el_capitan
     sha256 "206c2c9c2324ac1167e836f06688684d3418db1023575ad1ec036ecba4aa3f22" => :yosemite
+    sha256 "9d6f80593ee66a24bdb182e0bccc4d34bff2b9f60d0b055f124270be627b34c0" => :x86_64_linux
   end
 
   depends_on "go" => :build
