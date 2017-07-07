@@ -10,6 +10,7 @@ class GithubMarkdownToc < Formula
     sha256 "31bcbaa4a40b5a3a95809160797c8ea5e2f91ac292e401b04edebaec5772d128" => :sierra
     sha256 "cf2b7410f56f1cccf40e435c2200bb06e5e0d39ed593fa64d9ce18787db5da94" => :el_capitan
     sha256 "a0b6d40d755f2f7293fb86ba0b5d27aa1b1073e845ce6829a73c1bcd7c7c0ba2" => :yosemite
+    sha256 "6c105d9ac456ba4dd5a9a3cc6fb1e5e6584520dd7a87d455ba10bae2f6231387" => :x86_64_linux
   end
 
   depends_on "go" => :build
