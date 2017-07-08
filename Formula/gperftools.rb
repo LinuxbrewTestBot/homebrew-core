@@ -9,6 +9,7 @@ class Gperftools < Formula
     sha256 "88b926680de61012eb3fa138ed594a78e58952788f5c308d4fc9275b52311774" => :sierra
     sha256 "a2edc2ec0e885b4bdb31ccc32f82f3ed6dcf87fb771860c2e4255b21717f9c2e" => :el_capitan
     sha256 "b80ed7e1c907d37f2d8f226158234c5a148269ce0478651a7e1f14e2865f9234" => :yosemite
+    sha256 "a2e0d8e062dff1d613cf30f65817e1c213710b4d06229b14649cc3a892f9231d" => :x86_64_linux
   end
 
   # Fix error: No frame pointers and no libunwind. The compilation will fail
