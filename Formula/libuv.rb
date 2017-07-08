@@ -10,6 +10,7 @@ class Libuv < Formula
     sha256 "ffa1fbff68f28afc31050aeff66b21b695834361882e66f594309df74191ce09" => :sierra
     sha256 "45c605c73b6d599f4826ebfa2660cd20c4b16d64d2a019ed583bd81b7cb0b783" => :el_capitan
     sha256 "b02527e44b929b79b4f887d8c7be2ded4f778e313ccf6d708843bf0506b00923" => :yosemite
+    sha256 "a510d3544ab16cf11ff2d17825cdd69fd3ec04c08312e077eeb926ae720d063e" => :x86_64_linux
   end
 
   option "with-test", "Execute compile time checks (Requires Internet connection)"
