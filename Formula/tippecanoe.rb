@@ -10,6 +10,7 @@ class Tippecanoe < Formula
     sha256 "58f1160f77222ce9ed7199da8f24ff9276474bd4790feb40f9e6d3f07c0eee79" => :sierra
     sha256 "457d32af7734d2154a6c8c2680287e972054653b2c639197a8c8084813ef3660" => :el_capitan
     sha256 "7e8863fb46dbd3cf2a5e9fbb0a96443643aba95ff127e245054663ec26b423a1" => :yosemite
+    sha256 "56b9d17e10daa6e11661c31e012837a5eb0fd18696cba5a098f1eaafa74f2df0" => :x86_64_linux
   end
 
   unless OS.mac?
