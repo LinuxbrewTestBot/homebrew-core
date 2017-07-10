@@ -21,6 +21,7 @@ class Coq < Formula
     sha256 "279ccf9f81ba2771c72a056a5478f561c3dd2cdd58db2b45734cbdb0650d1ef0" => :sierra
     sha256 "02032903dfa6afd60560a04d7ee83e55441e164c70dbff4b92930a66ed287279" => :el_capitan
     sha256 "eb6840b20829497aed7b3e484ccc1280b795442388ecb0b92ac93ec56a297898" => :yosemite
+    sha256 "85a2fd6bfc4ce4a95c60c2f341655efb4c156f7e288404569c77193eb7c4d7b7" => :x86_64_linux
   end
 
   depends_on "opam" => :build
