@@ -10,6 +10,7 @@ class Lynis < Formula
     sha256 "191aaa47304a649d973607526ed626d5018ce23a3ff40a57a7cd752f58788b3f" => :sierra
     sha256 "2090c33d07ed3a1c86e66420f3a1cd6ef9fce5173d9809bf8144080fabc802f6" => :el_capitan
     sha256 "2090c33d07ed3a1c86e66420f3a1cd6ef9fce5173d9809bf8144080fabc802f6" => :yosemite
+    sha256 "3b23289fd9f30c8cb35f8e6bcdcab4eb76e8571fb34617eed93f6a34f4fe1f3a" => :x86_64_linux
   end
 
   def install
