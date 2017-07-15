@@ -5,6 +5,7 @@ class JdkDownloadStrategy < CurlDownloadStrategy
 end
 
 class Jdk < Formula
+  desc "Java™ Platform, Standard Edition Development Kit (JDK™)."
   homepage "http://www.oracle.com/technetwork/java/javase/downloads/index.html"
   # tag "linuxbrew"
 
