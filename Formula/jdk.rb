@@ -20,7 +20,7 @@ class Jdk < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "6c98492fd5e0c8195b2e573245cce13942ee31fcb8b811a1d27509662759ef2c" => :x86_64_linux
+    sha256 "87f69d17dd3e0ae0a5b39e60465e88a4602bd692ef5c647f220af3d47779dba6" => :x86_64_linux
   end
 
   def install
