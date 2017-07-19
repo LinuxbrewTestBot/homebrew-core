@@ -11,6 +11,7 @@ class Orc < Formula
     sha256 "898aab2c8b3130b7ba114ab9aef396da0dbd2360477dccb74d96825e16feed83" => :el_capitan
     sha256 "1c673f9ecf72830b030dcac2035949a598b036bda3d15fd23ebf7c9643c9f330" => :yosemite
     sha256 "257b50ea85c8481edf1638bab17c027a191f2a492955cb214a23f5cd6516db56" => :mavericks
+    sha256 "d5a8a229eb64a01a7bfddb84713b53ccf582d7542b2e2afcdf32dab371ba5938" => :x86_64_linux
   end
 
   def install
