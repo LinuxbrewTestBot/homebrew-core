@@ -9,6 +9,7 @@ class Bmake < Formula
     sha256 "d3e2259d97f10c26ecf2d91cf548810bf79c40bc8bd45d48ec19954c7e531f93" => :sierra
     sha256 "e0136f28cb039f808ed8e7478dd834681f7c3fabd5cd1b08efa9fb55760878f0" => :el_capitan
     sha256 "acf577519e8ad6fa2c34ff5be0c62c0317b606aa122126392b3a99cba1aa4c26" => :yosemite
+    sha256 "0381cc36d7d74bfdcb34bb5e0a9b05e4144c3b03f054aab6bdfe9a8718f3a5fd" => :x86_64_linux
   end
 
   def install
