@@ -13,6 +13,7 @@ class Dcraw < Formula
     sha256 "fd86c81c35d07d7fc919b0835975cf2d09407c8d3802508092c2edf8aa1b76d1" => :sierra
     sha256 "1bdb077f41630167865d8f9fdf08747c33fe429c4d09b8d1703791c1273accbd" => :el_capitan
     sha256 "158f4c5794f21b39c2102b721425d9f69ffe78d0b86e28c73f6b36a4e84d44c8" => :yosemite
+    sha256 "2aec484f9f354eef185dd0ace54f232c5f577a9656816ea1a0b8cc440bb90508" => :x86_64_linux
   end
 
   depends_on "jpeg"
