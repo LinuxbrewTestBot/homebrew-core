@@ -11,6 +11,7 @@ class SdlGfx < Formula
     sha256 "f14692eab7c7a7a60694ea6aca4094c6ceb869604f2c587dd044df880b3a747b" => :el_capitan
     sha256 "756fe923ceccdb3e9c5c7865298344a3520efe0bd549e493b109bc1506e6de29" => :yosemite
     sha256 "aa06ebfac9112febe86ec4a933d807ae88e87329498a71678bd52be51748d9dc" => :mavericks
+    sha256 "4bcb074ce7282bfc27388f166fdc867cbcb5e8a0d09579d59295d6f2ae106517" => :x86_64_linux
   end
 
   depends_on "sdl"
