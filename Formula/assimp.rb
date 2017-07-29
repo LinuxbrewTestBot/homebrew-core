@@ -10,6 +10,7 @@ class Assimp < Formula
     sha256 "33f1c8829b765b1cf2617033283c8327be4fc56aa17195d905be9e2293ce7ed2" => :sierra
     sha256 "44b47fc2ae6bed6293413ee01c15e009a7c1cd89b34cb999ae78140b1cf1f70e" => :el_capitan
     sha256 "0a6c9c1ce1f58f930a52842e2451f26c9dea4bfb7c71cba53a1c2f41e9158b87" => :yosemite
+    sha256 "62f5ec92aa939ecf59554a78d5eb1af8ee75402fd08c6b7a5e18329eb07223dd" => :x86_64_linux
   end
 
   option "without-boost", "Compile without thread safe logging or multithreaded computation if boost isn't installed"
