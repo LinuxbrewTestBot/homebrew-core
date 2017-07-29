@@ -10,6 +10,7 @@ class RedisAT32 < Formula
     sha256 "6b92f611c5559bc1888a549911e327d09b6a1b745f15c0e685a1888aeb135f3a" => :sierra
     sha256 "5382bb6b3655133302085a0a37f6e09d7377dbe91aa68bb967b4aaa7fd15c8a7" => :el_capitan
     sha256 "e528da87bc0be495ccd0b7ba48b4cd59e862710a1273baaaf54dc5649de6570f" => :yosemite
+    sha256 "1dc8673befd8c90657d08af774307dc350f69b8e32df87d3df3ee05a28f81eaa" => :x86_64_linux
   end
 
   keg_only :versioned_formula
