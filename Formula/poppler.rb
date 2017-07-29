@@ -10,6 +10,7 @@ class Poppler < Formula
     sha256 "15dab34a883c6dbff79f1ea4c51133266505bce11d9b2698cc1080bc71cfec6b" => :sierra
     sha256 "ddb61f693a2e681a5beb89eb967c64bb6e6dbc6a20afbe4d380dc332f860e006" => :el_capitan
     sha256 "e5bf643f2144c6aecdbd0f696c99329ec84d3667200eae2d0d9f672325f54147" => :yosemite
+    sha256 "905d8b19236b4da26229d1ebd25a01b0ad447868a8d8bd573ef918c0f527c870" => :x86_64_linux
   end
 
   option "with-qt", "Build Qt5 backend"
