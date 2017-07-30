@@ -9,6 +9,7 @@ class Arpack < Formula
     sha256 "96272ee3928cc30b8814aca520809b65fb94830d63ddaec928957ab0daaca330" => :sierra
     sha256 "7311ad6d0936cd828e65fa7e27c189fa375c19538620c8252e06c813bb144435" => :el_capitan
     sha256 "bd7aee67c923392a0038673e3f8c361a3bfec169b5ab03cb6cbb30f56c330d35" => :yosemite
+    sha256 "c0d60181fde9b3ce02ec48bbf4ee5dfe2c5e4890ca64ef90e267cff490c8a781" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
