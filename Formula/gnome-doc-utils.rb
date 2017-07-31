@@ -8,10 +8,7 @@ class GnomeDocUtils < Formula
   bottle do
     cellar :any_skip_relocation
     rebuild 2
-    sha256 "d95821cd8f04c592d32de3093662409699c501970fcc05a2df944b28d8925ad4" => :sierra
-    sha256 "7a0d8d8881d55aecd4432036f659a9c61e98fa7006afa5ec6bf956b2e34b2c12" => :el_capitan
-    sha256 "7a0d8d8881d55aecd4432036f659a9c61e98fa7006afa5ec6bf956b2e34b2c12" => :yosemite
-    sha256 "1bd802071f67a0f73ca91deb4d2339305a553f3ba38bfd146313e17b9ee2d5b4" => :x86_64_linux
+    sha256 "d9b4d406b67bc1919c3c1a65139b4900572bcfdd035c1a191f273f556478cd60" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
