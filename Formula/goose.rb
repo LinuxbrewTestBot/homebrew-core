@@ -12,6 +12,7 @@ class Goose < Formula
     sha256 "e0780cffffd29b8cf0680e30a61f343b64f5cb190de2cbf47f4f7ca681e8afd2" => :sierra
     sha256 "dcf6bf2196cab49f8ff4d422ce706417964201a9e98eccdaf5d2f7134062bed9" => :el_capitan
     sha256 "8422c26d13ad5706c3c2f3e00afdf29197c43fc68d66fd2bc2b663ddd361977b" => :yosemite
+    sha256 "103649678ade1667bf51de73890b40b2418d6dc21d488bda128e7c283eb27e65" => :x86_64_linux
   end
 
   depends_on "go" => :build
