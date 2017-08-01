@@ -14,6 +14,7 @@ class DoubleConversion < Formula
     sha256 "727930169ce2bde673b86c5ae242c6641cf1a593902f5e7821981009dd4a2306" => :el_capitan
     sha256 "ffcf11a69c596f04cfb936cbc33a489f9f994b8fdaf66901f23e88a5638a4477" => :yosemite
     sha256 "648a9a7dcebe2abca8848a11c4647c0d3c85c6c49181100859277d24b8b71f62" => :mavericks
+    sha256 "7a7babaa617026a3a38c4b28e072fd30c37efe5e73a1faf38120cf20034b33ac" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
