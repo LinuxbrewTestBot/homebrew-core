@@ -4,6 +4,10 @@ class Cpio < Formula
   url "https://ftp.gnu.org/gnu/cpio/cpio-2.12.tar.bz2"
   mirror "https://ftpmirror.gnu.org/cpio/cpio-2.12.tar.bz2"
   sha256 "70998c5816ace8407c8b101c9ba1ffd3ebbecba1f5031046893307580ec1296e"
+  bottle do
+    sha256 "2e8018465c5abc4e3a825653530ae4dd8f1c06219bf6aceac4e8a74fd4e69cbe" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   def install
