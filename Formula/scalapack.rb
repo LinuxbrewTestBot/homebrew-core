@@ -10,6 +10,7 @@ class Scalapack < Formula
     sha256 "e4814d509597fbacb427a5b8b76803cf4a68921a5d23b09fa928f496711aebaa" => :sierra
     sha256 "b592ffa39e508c9ea58ad2bc63b7c77c0bce7da82ca844f3a4a32e2f265337f4" => :el_capitan
     sha256 "f99b2896ad413f0cab5b3e4228931909d5e52cc40c84bede3c849d26113a87e6" => :yosemite
+    sha256 "cc66c04acd503be218db2eef9f7af9c436697b8c6744eb1b3dcd29757c7b805a" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
