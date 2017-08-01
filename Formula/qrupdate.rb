@@ -9,6 +9,7 @@ class Qrupdate < Formula
     sha256 "797a5f20ea8a61b1c71588b5ccce081daf479239df9e8ac587f52134e3ee2685" => :sierra
     sha256 "5376220c35da94d8f1162dc34624a051fc415363046978f6788678b35af13813" => :el_capitan
     sha256 "2b527726bd3303edc9712e3e47b672a266cbb8065b4e41c51951746f2da8c08d" => :yosemite
+    sha256 "d6958d7e62a95361e4dfc82af1eaa6eb6eae221fdf70378cbb71a8476d5e1feb" => :x86_64_linux
   end
 
   depends_on :fortran
