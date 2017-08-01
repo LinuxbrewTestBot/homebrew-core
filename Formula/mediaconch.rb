@@ -10,6 +10,7 @@ class Mediaconch < Formula
     sha256 "bf4ea72cb8bb7fed78449d110d0c646ab908242175ad352dc73a15ac276728ef" => :sierra
     sha256 "daebcfe58ced098b2199ef1a49cebc74f501fd1587780c3c04f46f126470e2ce" => :el_capitan
     sha256 "e05eeb856d5097b45543364a22241dc31efb1f704918e4fda47b299d574f5c30" => :yosemite
+    sha256 "0393b766ebe29317cf64dcbac9c3e11097f1a358ed1f5dec949a84c36b27d050" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
