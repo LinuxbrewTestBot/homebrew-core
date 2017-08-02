@@ -13,6 +13,7 @@ class Ffmpeg < Formula
   bottle do
     sha256 "1b419e42dd75c6d1faf17bd9bc0598bc6e2f6720f9fec1247ece6b3e2c820f31" => :sierra
     sha256 "dffc8990189b26ea1848b0c798c7abb0bc2348b3e60d01fdb40e51d079345347" => :el_capitan
+    sha256 "96325574fe3bd2f0a2248bcd917415ce78c79917c7fa8982d736c6445e54c682" => :x86_64_linux
   end
 
   head do
