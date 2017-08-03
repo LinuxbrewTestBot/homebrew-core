@@ -8,11 +8,11 @@ class Watchman < Formula
   head "https://github.com/facebook/watchman.git"
 
   bottle do
-    # Bottle hard-codes statedir. See https://github.com/Linuxbrew/homebrew-core/issues/956
-    cellar :any if OS.mac?
+    cellar "{"any"=>:"OS.mac?"}"
     sha256 "07e826368e27cc7401366d820cc8109fec8bd815143ec75b30a81cc0b84d766f" => :sierra
     sha256 "bcea4d625e7c30ecc6f728e257f5de81125c7f14680cac684bc7c878655e167c" => :el_capitan
     sha256 "c8374abbad804b919c372d6883302654b44b8d4b190e06b6e4dad172e038bf51" => :yosemite
+    sha256 "4f5fa73acad96e9e2650d75ff7e0382bf1a5636be52759289453a08d38c66114" => :x86_64_linux
   end
 
   depends_on :python if MacOS.version <= :snow_leopard
