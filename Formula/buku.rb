@@ -12,6 +12,7 @@ class Buku < Formula
     sha256 "a67d678f4479ffb3e140f549275632090a24532347e8e9ac89ede499ebd3edf8" => :sierra
     sha256 "3bfd6702a59267241be776bb75bf8e6b5e6beb106d6d61bdae3a84a8c15bddb2" => :el_capitan
     sha256 "0f2f8628d89eece537a258f070aa24fcb2d1eac82fdb7ea395ce3dc46c66b6b4" => :yosemite
+    sha256 "57c55924d6378453f8b8e6d19f2f243e31fbb1d3dda8c04955d276a09994ce94" => :x86_64_linux
   end
 
   depends_on :python3
