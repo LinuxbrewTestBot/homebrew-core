@@ -14,6 +14,7 @@ class GitlabCiMultiRunner < Formula
     sha256 "00f316bba1331d47f958674e9602b0b06f3d4ac9ef5fcfc9a8c7fc4542115ccb" => :sierra
     sha256 "65726d5e31dbf7a4673eb3efe1d024e1458cadfba759e4b550cd2000d3f716bd" => :el_capitan
     sha256 "4c318f082cf266e960414a5f3bab05e30c1636f15efb68180d1ad61a680b1ce9" => :yosemite
+    sha256 "f0febea1a15e59792318221437a4d9f56c0b51b7652c5c67c466d686af90469c" => :x86_64_linux
   end
 
   depends_on "go" => :build
