@@ -11,6 +11,7 @@ class Snapcraft < Formula
     sha256 "cb5185c07b4913e6caafbf223a21780552b764cfbf057d59e4363bcff38da94a" => :sierra
     sha256 "e5328abd75852cc45b8b7e3ef0432d801cffe1f35a772471ad0bec0570636574" => :el_capitan
     sha256 "84b8de7a7cf9445ed12a0b6444417aced60d2a67360c2e9f42cf15dc64416fab" => :yosemite
+    sha256 "51ea77f5696760a2060cfa439478c58829e0db2a3dafec7c553a57240f72ed91" => :x86_64_linux
   end
 
   depends_on "libmagic"
