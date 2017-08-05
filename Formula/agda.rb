@@ -22,6 +22,7 @@ class Agda < Formula
     sha256 "195d08c2ee4b0b415443df8d9cbcbb383e9ed39e5a62cba4c4cdd537bc4cb93e" => :sierra
     sha256 "9af94e36d57ff4d07430ff375d56f594fde7289085f708ab349181a02df82571" => :el_capitan
     sha256 "9711ee243f0ccfb7e2a3226b9e3f2cb91f678ea619ada7dd36e6f1158ba54772" => :yosemite
+    sha256 "d7354a4f1be7d3f4b814c717384779b4a66f27e05faffefd62ab9d26f8c0c4e4" => :x86_64_linux
   end
 
   head do
