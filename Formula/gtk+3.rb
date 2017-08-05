@@ -9,6 +9,7 @@ class Gtkx3 < Formula
     sha256 "2512bb567493724c1e88f0773bee5d8e028c80b15b1e3ef25c085bfaf0657304" => :sierra
     sha256 "300eccfdd8a88a2499891e7924444b7e0cd311b90e054820ec12c9e0793364f3" => :el_capitan
     sha256 "ffcb7262c67de59c89e66216288021cdf29cbe0b714f91570057e919ec8f0c44" => :yosemite
+    sha256 "fef3d9bd41b07adf94a8ce4993c4cad4fe09f75f0a7e954f7c271d178b320ac9" => :x86_64_linux
   end
 
   # see https://bugzilla.gnome.org/show_bug.cgi?id=781118
