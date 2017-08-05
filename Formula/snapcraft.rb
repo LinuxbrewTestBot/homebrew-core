@@ -18,6 +18,10 @@ class Snapcraft < Formula
   depends_on "libyaml"
   depends_on "lxc"
   depends_on :python3
+  # libffi is needed for cffi
+  depends_on "libffi" unless OS.mac?
+  # pkg-config helps "setup.py" find libffi
+  depends_on "pkg-config" => :build unless OS.mac?
 
   resource "cffi" do
     url "https://files.pythonhosted.org/packages/5b/b9/790f8eafcdab455bcd3bd908161f802c9ce5adbf702a83aa7712fcc345b7/cffi-1.10.0.tar.gz"
