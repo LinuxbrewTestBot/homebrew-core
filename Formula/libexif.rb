@@ -1,3 +1,4 @@
+# libexif: Build a bottle for Linuxbrew
 class Libexif < Formula
   desc "EXIF parsing library"
   homepage "https://libexif.sourceforge.io/"
