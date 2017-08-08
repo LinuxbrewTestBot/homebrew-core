@@ -12,6 +12,7 @@ class Gmic < Formula
     sha256 "0d01c756161cf7c34c7060fa504cec81f0d6d0862ed631b1e981b10a12b6f684" => :sierra
     sha256 "d10d5d6c2e9e4a409c866647e8657d78d2c347af7c4457e73c05ef5d3fe0f016" => :el_capitan
     sha256 "00c1064833f27be4b82f70f4e2c5668aa40e6a410db8139b65aa0973899f7395" => :yosemite
+    sha256 "aad8c51cd92f1628e3584b8906cee2762e12560f7b0c8900bcae7df64e6a4821" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
