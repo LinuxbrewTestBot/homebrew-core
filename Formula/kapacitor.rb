@@ -10,6 +10,7 @@ class Kapacitor < Formula
     sha256 "e85fc6178dc5c6342e54f19abd94b6952834f5b72c903728ae1681a10d425989" => :sierra
     sha256 "d451010153ae93c56ddcb36eacb930821262301fc3ae56f956e06ee77d5b927d" => :el_capitan
     sha256 "95fd3d7c4202901176f322068c931f77376012627b5181b447117d48017e40d8" => :yosemite
+    sha256 "554ba044e0a42d2e7022cfe1df4f13b213a09bfe6a8eb57744d7ef7d8855cdaf" => :x86_64_linux
   end
 
   depends_on "go" => :build
