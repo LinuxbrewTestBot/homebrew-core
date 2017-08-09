@@ -8,8 +8,7 @@ class Bsdmainutils < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any_skip_relocation
-    sha256 "b52153c929451ce34b8b0f3f28080b15477b74600527d5def404739f6f0779d6" => :x86_64_linux
+    sha256 "f8682d65558e06d54bb1a1853e8000aa9506c6845d8caa1754179dbac0486386" => :x86_64_linux
   end
 
   unless OS.mac?
