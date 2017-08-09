@@ -9,6 +9,7 @@ class Mpg123 < Formula
     sha256 "cdc3c0e01f2304e65a1e91bf6166c973abe804e0a7722e2a4fc05da5b0d419cd" => :sierra
     sha256 "a0246dd4fbf0875199541784222eda3c26f178f386585d9d1f4be2040c636f1e" => :el_capitan
     sha256 "957d3f24b10dbbfb77af2c0d49662d1aaa96d83ed3b13c6e41a99fa3341f64c3" => :yosemite
+    sha256 "ca8c2fa12a6a0925f1973719ef0f7f5681d10ac45caf107d70406817b9f7c9dc" => :x86_64_linux
   end
 
   def install
