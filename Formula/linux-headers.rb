@@ -7,7 +7,7 @@ class LinuxHeaders < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "7aa04d2094ebcd31ebd9dfc3df59769886cf0d77ddfd319bec6def14aff3ca0c" => :x86_64_linux
+    sha256 "57f09e2f5ef15f7fb75d1bea674ede128f7236d0a497f7eec8fe0988ece9e0d2" => :x86_64_linux
   end
 
   def install
