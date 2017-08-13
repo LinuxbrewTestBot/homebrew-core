@@ -8,6 +8,7 @@ class Gedit < Formula
     sha256 "69cd37a74078d26487c5da262e25ebf4061e5b39269a267241ebf0a0f671a884" => :sierra
     sha256 "7b1c38d6120f65a9c2a247c45a5d871eff551e534973f1cbff9c8a80528ff177" => :el_capitan
     sha256 "39e9259fd08f5dd94573fcee5c7956b0a6922b14fa7e1dee167ded4a26827ecf" => :yosemite
+    sha256 "5a56a50ab8e24b29c8741ab77bb2bb6a2d26acd565ddbf00b7124cacb24e9b65" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
