@@ -7,9 +7,7 @@ class Sysstat < Formula
   # tag "linuxbrew"
 
   bottle do
-    prefix "/home/linuxbrew/.linuxbrew"
-    cellar "/home/linuxbrew/.linuxbrew/Cellar"
-    sha256 "aa0c7d446f27601f9fc2201bcebfb202c9249b72e74a1a13d593973aeff51c45" => :x86_64_linux
+    sha256 "f57d5096ecf589c47d166f5bafa000462c0f478c2c2bb775c564d27cba9b0296" => :x86_64_linux
   end
 
   def install
