@@ -6,10 +6,7 @@ class GstPython < Formula
   revision 1 if OS.linux? # revision for python 2.7.13_1
 
   bottle do
-    sha256 "12c1cebb7c95bbef113e18aff431196752aea17e4f2703cddd4d41dec7815f64" => :sierra
-    sha256 "84c5d8db2b68491504a7325b3b15947a343d3869d0fbdad614ec88f80e840bdd" => :el_capitan
-    sha256 "f5cb141a0c2e4ac9ca4bf43cdb2ee583ecda887c4cfe0e583d291fd517077195" => :yosemite
-    sha256 "f1dbc3b2e2b8eeb74922e977cba632161531438dbaf50e363d6a76aaec6a00f4" => :x86_64_linux
+    sha256 "cd0b2693718a26b282762b2c2a9b65582461f4f657c5480a77e7675773f326e1" => :x86_64_linux
   end
 
   option "without-python", "Build without python 2 support"
