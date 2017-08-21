@@ -9,6 +9,7 @@ class Libosmium < Formula
     sha256 "186d35d2a8c27aaab3fcf426a4e5434159a6da61f9cd73c21a1fb72dadedc405" => :sierra
     sha256 "186d35d2a8c27aaab3fcf426a4e5434159a6da61f9cd73c21a1fb72dadedc405" => :el_capitan
     sha256 "186d35d2a8c27aaab3fcf426a4e5434159a6da61f9cd73c21a1fb72dadedc405" => :yosemite
+    sha256 "0aa4a22f64989034f677d57a9395ae54e3fdd6623912918e8f3bd6c78030295f" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
