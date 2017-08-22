@@ -9,6 +9,7 @@ class Opencv < Formula
     sha256 "6d62ac40e7c800770f66c4671befc324167b89ebe6b050ceceafc8033a2bca02" => :sierra
     sha256 "981a7a7b7ee4d6539556843b4a42d7bc45e0af84cb80e2c84556dda70fea0d29" => :el_capitan
     sha256 "b4034120207584e69f1a6be81d993ce0da6800fd1675fd8d83f7cc03801318e3" => :yosemite
+    sha256 "bef8ea72185357707cbe0a468dc0449c1bfe252544ca6dd89f3f280ea9a8e043" => :x86_64_linux
   end
 
   option "without-python", "Build without python2 support"
