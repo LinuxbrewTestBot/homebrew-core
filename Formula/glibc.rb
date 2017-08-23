@@ -60,7 +60,7 @@ class Glibc < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "c680445237c7df6c84cb1218d0bf2b76b1d43b92dc165ec6aa537b4c1c064336" => :x86_64_linux
+    sha256 "968d83ab9bbfee1166415e6edc59094e0018b689e9e5875ed1e7b031816d2c2f" => :x86_64_linux
   end
 
   option "with-current-kernel", "Compile for compatibility with kernel not older than your current one"
