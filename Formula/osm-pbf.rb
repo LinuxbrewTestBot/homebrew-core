@@ -11,6 +11,7 @@ class OsmPbf < Formula
     sha256 "5a8c5f67cbaf2fca7171faeeeafd535fe16f5f1cb3399bed97e67c371b2cdf7b" => :sierra
     sha256 "c38b6254cdbb12ab370e807d8c6dcd756e081ab95b684ea5efad449238e52f00" => :el_capitan
     sha256 "2aa7a626188511fe06efa26f99b6d438391c7299ce7026ca08fa4c4069d6cc03" => :yosemite
+    sha256 "df6a6dc931ce09fb67891a2b5b84b76f2a52233bdb1a84e5ae2b4fa532c6f2c9" => :x86_64_linux
   end
 
   depends_on "protobuf"
