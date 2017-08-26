@@ -13,6 +13,7 @@ class Delta < Formula
     sha256 "202409012500969cfd034c9d44c441a809445a3b367d514357346438aa850f14" => :el_capitan
     sha256 "d3374cc3e84c93bb84615b1669503ea8b708ab65baf629ee0be9a728b12b10bc" => :yosemite
     sha256 "04102ae55ffc2cc4351816b010544b854c21f1c5e2a462a6af0e57ec2f57b501" => :mavericks
+    sha256 "720ecc283f7399ac350a7a169fdd08b8c034fb5a2ee7f88cd6acec4d6f58b711" => :x86_64_linux
   end
 
   def install
