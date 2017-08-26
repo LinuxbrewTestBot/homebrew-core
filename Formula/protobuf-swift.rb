@@ -11,6 +11,7 @@ class ProtobufSwift < Formula
     sha256 "9e75251dd05ba86f0cbb7b56e3941d56619f2db1e95d9d58c4e466dfbb745fc8" => :sierra
     sha256 "2291fc0bf3539f69c1f92b259b03be5c343a6793e2496d05753f080f2d6d8b82" => :el_capitan
     sha256 "abbb99094a069075df11331640e3c47ba668040445defbe01073026d6966f99e" => :yosemite
+    sha256 "db87be84d95a68e256d371d22614153a0ffda6d5d1dec20b33027280b27368dd" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
