@@ -13,6 +13,7 @@ class Libsvg < Formula
     sha256 "05c230ab37e4f4a3b854373b5c71b275414f852d1b776a60351c0fd49c31674a" => :yosemite
     sha256 "a6de74ce690bcc7dffd353139182dc0d896250cdca652c315356349f7e78729e" => :mavericks
     sha256 "32f69e5b156747638e952ec45a3b12a7eead5e479a9881e9db30582ca06f880e" => :mountain_lion
+    sha256 "2c2a09470b239192bce44a058fbe0313735c7ce096c26b2eba4e88032ebe4e62" => :x86_64_linux
   end
 
   depends_on "libpng"
