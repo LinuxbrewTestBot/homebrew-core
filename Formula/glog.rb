@@ -10,6 +10,7 @@ class Glog < Formula
     sha256 "c5ed5359196732957cfabbe516c87437df4969547471d8ba6dff78414ab0feb8" => :sierra
     sha256 "2a7a2aef322dfd7431221bb8b5807c67d06bbe8d6407d44ed6cedceda8a45098" => :el_capitan
     sha256 "ccb8f5022bffec4a768851feb5a8cc1bf52ee7d9b8b87b8f9ce6bc4cd28278f9" => :yosemite
+    sha256 "1ff84c13b0f101a0bac2fe42fa651c43b2bbb741eb4c87b683eb71cac7bb4ec1" => :x86_64_linux
   end
 
   depends_on "gflags"
