@@ -10,6 +10,7 @@ class Gflags < Formula
     sha256 "519562ecebe66cf89803786d0b0ba9ac02cfa2376c822c8726fa274c1e380d0a" => :sierra
     sha256 "9e9c1a067b324ccd372ac00cd0ac00545415cb4407ea90b15c181cbfb67a4260" => :el_capitan
     sha256 "5e6fcff184b2d6caf333a74cb24222da11bc1721eb6ab12a31bda7802cf8dfd9" => :yosemite
+    sha256 "5101d3ed48e1ca28c8976dff5d7304df3c7c99b71dd45ec46bef74e48738fa8f" => :x86_64_linux
   end
 
   option "with-debug", "Build debug version"
