@@ -9,6 +9,7 @@ class Dlib < Formula
     cellar :any
     sha256 "4a454baa4e26d2e824c65d555edcf3f6e9b51713fbf4690b054482f6bdb46d5b" => :sierra
     sha256 "3f1430496a2c1beca938d91e3dffec345baa3e0688ff092f3deec30de539b875" => :el_capitan
+    sha256 "7f37c2c5a16a93ed70736bef243e33da215e88c4641111fb4e2c9cff496aad8b" => :x86_64_linux
   end
 
   depends_on :macos => :el_capitan # needs thread-local storage
