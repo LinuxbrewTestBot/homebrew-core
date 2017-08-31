@@ -23,6 +23,7 @@ class W3m < Formula
     sha256 "4a77150a0c9b436b32bbb3516595ee392095776d1e0a0492fd49b72c7a0dc9b8" => :sierra
     sha256 "f5d96bb0f0309d4cf28f17b08e572631a9286b30937af0dfacb360825e0de28c" => :el_capitan
     sha256 "799596712549113267edfbffd1ba3c0bf3a0be18face730a8b90cacd1e9653dc" => :yosemite
+    sha256 "e781b05ddfbe73d9dbaa9ea1579c303028c38f51d9d1e0560e912a94c6a09a23" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
