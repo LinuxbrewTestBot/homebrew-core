@@ -12,6 +12,7 @@ class Octave < Formula
     sha256 "4adc5c84a3eada5c44a65daabb7fdfefae6a3e492f3ba02b17a9205f942063f8" => :sierra
     sha256 "06d173b089910c87709f1783b9d8fad8f624e4cbd2bd8cf93d39debd65ca1299" => :el_capitan
     sha256 "ba00325662c815e50d533ba964051dc17441915f2c4c74944f95e410d0b6099a" => :yosemite
+    sha256 "7ad70a98119e42810cf26f861598eaf35b144ecaa5a11cb75ccabce05e183fba" => :x86_64_linux
   end
 
   head do
