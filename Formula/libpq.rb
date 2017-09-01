@@ -13,6 +13,7 @@ class Libpq < Formula
   keg_only "conflicts with postgres formula"
 
   depends_on "openssl"
+  depends_on "readline" unless OS.mac?
 
   def install
     system "./configure", "--disable-debug",
