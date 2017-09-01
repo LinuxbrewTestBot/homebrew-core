@@ -14,6 +14,7 @@ class Analog < Formula
     sha256 "097f11e7f53078e6b248e38fc326cded49b08cdbe75ab61e20ab7b2a6e770256" => :el_capitan
     sha256 "f2f29ea2dcbb9e0576c72f009d8814b0c7f84efd49d6f005085c876c85fd29b9" => :yosemite
     sha256 "c9ca1f30d5b71b7653ecbbdb4ad8d9e81e41b2e33a9dc2c8e0a92af7cd48007d" => :mavericks
+    sha256 "5369312ff37a04f3c3043ce76300ead973ac1318483726f11cbf2084ce71b163" => :x86_64_linux
   end
 
   depends_on "gd"
