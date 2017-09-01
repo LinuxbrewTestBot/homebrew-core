@@ -13,12 +13,23 @@ class PostgresqlAT94 < Formula
   keg_only :versioned_formula
 
   option "without-perl", "Build without Perl support"
-  option "without-tcl", "Build without Tcl support"
+  if OS.mac?
+    option "without-tcl", "Build without Tcl support"
+  else
+    option "with-tcl", "Build with Tcl support"
+  end
   option "with-dtrace", "Build with DTrace support"
 
   depends_on "openssl"
   depends_on "readline"
   depends_on :python => :optional
+
+  unless OS.mac?
+    depends_on "libxslt"
+    depends_on "perl" => :recommended # for libperl.so
+    depends_on "tcl-tk" if build.with? "tcl"
+    depends_on "util-linux" # for libuuid
+  end
 
   fails_with :clang do
     build 211
@@ -36,14 +47,16 @@ class PostgresqlAT94 < Formula
       --datadir=#{pkgshare}
       --docdir=#{doc}
       --enable-thread-safety
-      --with-bonjour
-      --with-gssapi
-      --with-ldap
       --with-openssl
-      --with-pam
       --with-libxml
       --with-libxslt
     ]
+    args += %w[
+      --with-bonjour
+      --with-gssapi
+      --with-ldap
+      --with-pam
+    ] if OS.mac?
 
     args << "--with-perl" if build.with? "perl"
     args << "--with-python" if build.with? "python"
