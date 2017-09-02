@@ -10,6 +10,7 @@ class Librest < Formula
     sha256 "493c2bf876de213bce3ec5aa739c437a0b0384ac8f8f722a23ba7987d2604879" => :el_capitan
     sha256 "8b98b39acc982309f1d15c20466a6675185100fdf9a21da6ff30ed4cc32a9946" => :yosemite
     sha256 "d2e3fbb297d83bcf4064539968f5c070443786c187c803d264ad4a30d8454a35" => :mavericks
+    sha256 "86e9189e614d800ecfe9c4e123cff5a7fe2441fdb5144ab22b811874b3a5d6eb" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
