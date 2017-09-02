@@ -11,6 +11,7 @@ class Enchant < Formula
     sha256 "0315d7b75f8bcae0196e76c192cb514d723fd79df6f043c7ac13b3289d018b14" => :yosemite
     sha256 "622f8b9b8f008eab4d689c6b39c00887c803fb49b5ec461b7fe520737f179427" => :mavericks
     sha256 "35e3487d842e8b4be3e4dfa6d7c34a48c17bd875871da738733cb9305585619c" => :mountain_lion
+    sha256 "f980e7334de4fbb7848c2974bcc71a75bdc835d7c7ed5184dd345f3a52264815" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
