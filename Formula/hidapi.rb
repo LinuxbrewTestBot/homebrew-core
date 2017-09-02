@@ -23,6 +23,7 @@ class Hidapi < Formula
     sha256 "cea4750ae62177a9b399b43d463eec41852161f691a148b03d7b7f91789932fc" => :el_capitan
     sha256 "06daf7b3080f0c87c46b3f69c869ce3b88de5ce1187db2435cd8e3a1db2e9871" => :yosemite
     sha256 "6821097f8a0bb55df7697aa26fc7bea3e79914e76932eb69e03b4346a22309dc" => :mavericks
+    sha256 "67af5bcc2c749e25e4490b7bb3522f92ca46c100c1729a81fe865dabea7087a8" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
