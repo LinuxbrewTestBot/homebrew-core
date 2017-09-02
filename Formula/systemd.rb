@@ -7,7 +7,7 @@ class Systemd < Formula
   # tag "linuxbrew"
 
   bottle do
-    sha256 "b24ff69678f718005768a023d1c264c2486cc69027be407107341c5f648d0fcd" => :x86_64_linux # glibc 2.19
+    sha256 "bdfdedaca18e89ba4e9359b1c76e7c46b008c88613f593e5e148354ca6ab8d66" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
