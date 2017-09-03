@@ -10,6 +10,7 @@ class Watchman < Formula
     sha256 "d42c5a991e4cddef004773474b3d28f3275113a6c1858d0ddaae274a11bbeb33" => :sierra
     sha256 "83db75e3e7b186521d4b910a49836ec53ec85b987b6b35d63bc32b7282209dc7" => :el_capitan
     sha256 "da774a8464b5ddab2342d7d8ba0211220cd630d8099b2605bc977a4574dfee1e" => :yosemite
+    sha256 "70980a178ab90e74549f213501cc53892930e2317e1659957d5c499011d5a9fc" => :x86_64_linux
   end
 
   depends_on :macos => :yosemite # older versions don't support fstatat(2)
