@@ -8,6 +8,7 @@ class Sysbench < Formula
     sha256 "9c5faeb3dd75b8a37cfc16982648075f0e77733d79959286b6a9443ba33ac12e" => :sierra
     sha256 "66c2f958b10e0617fc762ef9c5c8d548deeb2d5d5cd7c216c92baa52582740fd" => :el_capitan
     sha256 "ccd5f98284f2831c1a3e335cd7098691d71002d1c7790615ea0ba460ccc65d47" => :yosemite
+    sha256 "8d9af4354ad586a6456e3271665e7f91af210ea756224f7a9969e8dc1b427260" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
