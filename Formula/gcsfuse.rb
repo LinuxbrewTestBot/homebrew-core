@@ -10,6 +10,7 @@ class Gcsfuse < Formula
     sha256 "9f42846472bbe6bc06b1016f6494415b16e148de6262fdcbb5bf9677fbee0a36" => :sierra
     sha256 "f4a837589708aed85da5762394004fa2398a2e907b37cb1c9554282578e635e7" => :el_capitan
     sha256 "4f1e5e0db02f9f148a61d9062626f754ba3f55dcf8df9ff69fc0f84cf5363577" => :yosemite
+    sha256 "5b7012014e9fb5d2c41632672df476cc7e780cc58b9189ff96f018a5445bbdc0" => :x86_64_linux
   end
 
   depends_on :osxfuse
