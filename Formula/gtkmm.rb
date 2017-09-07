@@ -12,6 +12,7 @@ class Gtkmm < Formula
     sha256 "96d116f0764c6cc537a3ec4b068422714e1e491f732239166f6ee6ed210e4607" => :yosemite
     sha256 "e6e38009b081330074bed4a673bb63bab16ca84a56e348b42944cf44d29e4b71" => :mavericks
     sha256 "09d009e702372d1632a8fc944c8ac9daff88e5d662feed3cbdddec30c18f5f97" => :x86_64_linux # glibc 2.19
+    sha256 "71f2531ff86369850554d4d2a8cdb1ea090db74d5bb5d9ec06dbc3d160f0136a" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
