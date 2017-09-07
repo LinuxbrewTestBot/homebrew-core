@@ -11,6 +11,7 @@ class Libxmlxx3 < Formula
     sha256 "9a1c98fc76dc4dede0d4092c1c015a690bcb8a8fe24be1a37235fe9846a302c0" => :el_capitan
     sha256 "3f9d20753370b2ff1ff3e3e9bb0df129787f3b2904d5f0ee475b9099ca66dbfc" => :yosemite
     sha256 "0667be7a8156742eee8dd04e2cad1963efbe63e86dc95e83a4dcced47f498c18" => :x86_64_linux # glibc 2.19
+    sha256 "279a94b7d9e1474a96414c103ce8c54cba065ee3e912ab5dc982cf94bacbcd58" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
