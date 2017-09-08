@@ -13,6 +13,7 @@ class Pandoc < Formula
     sha256 "3ca0dde718eed1db1d6620b2fac477166592cb93ff1c24a4b07dcf0d1b4317b0" => :sierra
     sha256 "480274969f8e4fac50a4258412ba07c32de463e955bc2e82b51b3ea79e2078a4" => :el_capitan
     sha256 "c061767f8f1c07e7e60b1b3920f324a8530469f53b0206a6de5901859bf02eb0" => :yosemite
+    sha256 "cd280a776d6d022d0278c4536c7eae7d1849a036a88816c580493c9cc70ad2dd" => :x86_64_linux
   end
 
   depends_on "ghc@8.0" => :build
