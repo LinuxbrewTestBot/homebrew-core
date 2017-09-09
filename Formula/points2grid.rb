@@ -10,6 +10,7 @@ class Points2grid < Formula
     sha256 "e26dd69fd1d5eab83fcc55ecd0ff5d2a12f32fcf95d31c018339089c92028008" => :sierra
     sha256 "e24498aa357986661c7bc650852876d0d7be0e3767a698d3d45e40b6693893ea" => :el_capitan
     sha256 "f68bd09644b1d6a19dc35b7ae681f80c23dc6d4a8d63936ad9e0530f203c2eaf" => :yosemite
+    sha256 "21b5044072edd7d0f8137e4e4b4534577154802c4918027c2065b635b907dc2f" => :x86_64_linux
   end
 
   depends_on :macos => :mavericks
