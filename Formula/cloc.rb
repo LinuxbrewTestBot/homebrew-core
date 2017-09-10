@@ -11,6 +11,7 @@ class Cloc < Formula
     sha256 "e7b47c2b072af1312ff8abf5fbefa0d43ce655a8bfa226aa2efac6133caac75e" => :sierra
     sha256 "7cfee2b95b9795d6ad016305c675101b1b78f5ca25afd6b2499bb52d74ca4a5b" => :el_capitan
     sha256 "3e2fb27f5b255286eb4be1af90c2fed48a5dc476cd51cc30c351d7d4abee664c" => :yosemite
+    sha256 "e23a8aabc7d55ef277f6276374fbd9e16c2f9bba1d306cf61eb5427364f94d1c" => :x86_64_linux
   end
 
   resource "Regexp::Common" do
