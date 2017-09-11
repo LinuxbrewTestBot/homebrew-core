@@ -11,6 +11,7 @@ class TrashCli < Formula
     cellar :any_skip_relocation
     sha256 "6c2e56df6aeed7ed8bcbdea702b9d66058ea17be38bc39a26feba5928dbe053a" => :sierra
     sha256 "92c6ab8dc868bad029103c897ccdc5a04e6e0f6809dfd2759c58aa390a7d5e8f" => :el_capitan
+    sha256 "0a63fa2a54f841b56387d7b731f7b321af7a2a8249e91f3c153bb89497f97386" => :x86_64_linux
   end
 
   depends_on :python if MacOS.version <= :snow_leopard
