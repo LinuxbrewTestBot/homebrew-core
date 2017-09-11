@@ -9,6 +9,7 @@ class GsettingsDesktopSchemas < Formula
     sha256 "e4f5ab8d16e84e09cf10439b7f827d80b403efe598e3b05d593b745d1d5675fa" => :sierra
     sha256 "e4f5ab8d16e84e09cf10439b7f827d80b403efe598e3b05d593b745d1d5675fa" => :el_capitan
     sha256 "e4f5ab8d16e84e09cf10439b7f827d80b403efe598e3b05d593b745d1d5675fa" => :yosemite
+    sha256 "ae0a94ce62ec83198841850d6fca8d1d562ec5aa6cc4f00274c46e28760967ad" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
