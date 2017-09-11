@@ -13,6 +13,7 @@ class Goad < Formula
     sha256 "1e303913ddbcc7d2284f380ffb6351c7eab64f2fdc8f95864343b97486d88f8b" => :sierra
     sha256 "1ac09ed9e1ec55c4309b4e09171abc4907702ab44e713a068ef8549f2dcb0ed3" => :el_capitan
     sha256 "1740f751efcb6a906a0807ec5d0c308bf9c9b77f1942c9d25bfeec75552c0e80" => :yosemite
+    sha256 "37533dde321db870ba5bc3bbcb5e4100200e89e23218b77bee6f4d286c1d98d5" => :x86_64_linux
   end
 
   depends_on "go" => :build
