@@ -22,6 +22,7 @@ class Bitcoin < Formula
   depends_on "libevent"
   depends_on "miniupnpc"
   depends_on "openssl"
+  depends_on "bsdmainutils" => :build unless OS.mac? # `hexdump` from bsdmainutils required to compile tests
 
   needs :cxx11
 
