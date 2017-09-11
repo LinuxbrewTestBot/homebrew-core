@@ -13,6 +13,7 @@ class Imagemagick < Formula
   bottle do
     sha256 "df3b0c3f0a4416c0cc8112a8d71bbdec6364f84a29b8ada8e7e4ee28b78985b5" => :sierra
     sha256 "657ff1758e17d409058551d1c91b84716c831b3f7e056f8e14069b49ee38f5f0" => :el_capitan
+    sha256 "35aa6b055116417d7884c31485f8e3e85d4e556b7f4912907f68be39117be814" => :x86_64_linux
   end
 
   option "with-fftw", "Compile with FFTW support"
