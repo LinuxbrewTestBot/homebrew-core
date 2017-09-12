@@ -10,6 +10,7 @@ class CmarkGfm < Formula
     cellar :any
     sha256 "5d1fde1c85b5943daa7fd82b64d936e346aff200126df9ce51fdfc7958a0eba3" => :sierra
     sha256 "f5ea53570cbe88230ecd4afa5679c1e3567c0c8280d3e1748fdd2c9ef4164f34" => :el_capitan
+    sha256 "c748a9cc7a36dadaf1e8b2a7be2e5d69dc88cd52979633e90cdb8d3f586eaa83" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
