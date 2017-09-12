@@ -9,6 +9,7 @@ class AtSpi2Atk < Formula
     cellar :any
     sha256 "bce618ed2d62539a8a657092f69ee12033ee45db9074c51f370fd89d73ef63fb" => :sierra
     sha256 "e3d340e6bc5093990778a09b1330f8ba375434e67eb880c8062782d7a9aa1947" => :el_capitan
+    sha256 "d0797aec384ad5fc6c41b315e86d0dd45e3ed3e34beaa1beae46aac9e5579594" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
