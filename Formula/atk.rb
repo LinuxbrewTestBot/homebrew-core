@@ -8,6 +8,7 @@ class Atk < Formula
   bottle do
     sha256 "75d877312be453f0bd061c95ec1d1bd46723aac2e3faa6639ae82410a2191c7d" => :sierra
     sha256 "985f4a5bea1cf987504fe997cc2bcd51d1ec71ddac2b8744c074d6b3a706466f" => :el_capitan
+    sha256 "04499553f8ac08b696f905a1dacd3dfd5ad1efcfcfd50972e660903450953cef" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
