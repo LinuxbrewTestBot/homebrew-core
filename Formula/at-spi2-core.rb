@@ -8,6 +8,7 @@ class AtSpi2Core < Formula
   bottle do
     sha256 "ebba4778d9ed5cba76f02841670195ddd5abd81e844c44262440a7c279170577" => :sierra
     sha256 "5caf61f65d7c94d2e197135fc751568362b6d7f8f2ef2b62259c5270c3870628" => :el_capitan
+    sha256 "6925a76702de14410b0be8e98cdc588205f2684e8105899ac1bedc8de2497887" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
