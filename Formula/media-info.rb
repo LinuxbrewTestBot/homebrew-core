@@ -10,6 +10,7 @@ class MediaInfo < Formula
     cellar :any
     sha256 "fe19cd2be4ba9f663ca385406374dcefa31088981ab75dcdd55d7f07d4c9a102" => :sierra
     sha256 "b696c66c1a07ddd58dfa5ab0dec65a60d1325401b56d703bb2a14a54832bacd6" => :el_capitan
+    sha256 "753b18418e65ec38954eb7d4285bf57c98ded01d3dd5353437e306fda65364e2" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
