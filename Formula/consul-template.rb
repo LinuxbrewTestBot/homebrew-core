@@ -11,6 +11,7 @@ class ConsulTemplate < Formula
     cellar :any_skip_relocation
     sha256 "98b894e6a5c2ca8e406b558db015ff37e0d96eb0ff42b4507887361753480000" => :sierra
     sha256 "84dfb236c7ca08c26d341e4723a2824e9ad93b1cbd9e238a1d5e3e8a27bbfbff" => :el_capitan
+    sha256 "241034a754c95448d491a62b66a2ca759c9cbb1b50982df584623d0e684ede76" => :x86_64_linux
   end
 
   depends_on "go" => :build
