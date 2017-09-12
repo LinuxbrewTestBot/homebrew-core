@@ -10,6 +10,7 @@ class Metricbeat < Formula
   bottle do
     sha256 "5903591429538a1681dcb31916ae1cb4465acd3bc0684b6a23ed80919a5c4db1" => :sierra
     sha256 "400393001caf9278d0147d2319fe49619b2b9f23f3d14a48ba13fdc99e103112" => :el_capitan
+    sha256 "bed9e8137bb3397efd28927112b4212174f4cb8a1f0af34362ec41ab81ee075c" => :x86_64_linux
   end
 
   depends_on "go" => :build
