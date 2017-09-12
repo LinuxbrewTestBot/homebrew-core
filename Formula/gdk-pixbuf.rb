@@ -8,6 +8,7 @@ class GdkPixbuf < Formula
   bottle do
     sha256 "5882b150615752aac43fced2d18d926c41a397db561309b16f17d5f8db12c1f5" => :sierra
     sha256 "672c4160b6f3d92fd5b10685969723f8d6f102d26ee8d0af4ebe7b3390029cd3" => :el_capitan
+    sha256 "7d4d78566930a22fd94791a6e66a15a2a2f0c569f89c2f18ed0238a91e6db191" => :x86_64_linux
   end
 
   option "with-relocations", "Build with relocation support for bundles"
