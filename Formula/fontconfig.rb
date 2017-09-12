@@ -10,6 +10,7 @@ class Fontconfig < Formula
   bottle do
     sha256 "a80b7f56acfff0602433d4bad7306d8ab8bc88fd28331682154abed4b8dcc910" => :sierra
     sha256 "fa6975258d80fcb0bd4227c01d3b0d6b6c9aa3b494c58e9f8120f91c9714e2dd" => :el_capitan
+    sha256 "03420f7746d5a86b4cc1babf4eb06fcd9d51f0f21b77e578a16254f63fd4e794" => :x86_64_linux
   end
 
   pour_bottle? do
