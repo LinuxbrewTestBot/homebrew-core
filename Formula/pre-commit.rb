@@ -11,6 +11,7 @@ class PreCommit < Formula
     cellar :any_skip_relocation
     sha256 "1e5fc2c55552d5cb59b18b7a4a866e3244b0ba9259e0c6c93c5a8577755bc732" => :sierra
     sha256 "dbe4a121bb4266e0f5b6ef4fcac5887fded32f9e665a3d9bf516bf6ddfaf06a8" => :el_capitan
+    sha256 "96d0a079d58763b43c4c5ac8fd939f9ff563a272117f5a9fe2b9c7d9ef69cd0c" => :x86_64_linux
   end
 
   depends_on :python3
