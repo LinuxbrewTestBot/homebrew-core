@@ -8,6 +8,7 @@ class Gtkx3 < Formula
   bottle do
     sha256 "b1cb343b75a4f97c63187f9a1645cb0a52d28c43ca82e8bc3151eb3539535dd3" => :sierra
     sha256 "0cc81331e661d0b9f7784a3f8853cdbe17e0dcc47f0530545986a2b2d2f19795" => :el_capitan
+    sha256 "5aabe6904a2f381e9b2232193917d0d02ccecfe5ef450b9f8b11082ff639b99d" => :x86_64_linux
   end
 
   option "with-quartz-relocation", "Build with quartz relocation support"
