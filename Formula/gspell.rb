@@ -8,6 +8,7 @@ class Gspell < Formula
   bottle do
     sha256 "d1cbb52f50dda1cbe670422704cf2177b4e0039f13277e021bf1fd296619d09e" => :sierra
     sha256 "29308ad85815a65c342422ad498ed02d34ed70b4af989234373a84b1c462db2a" => :el_capitan
+    sha256 "58f3e19d142efb23f43c5468e212cd794ce0fe6599a4c01aa8a60a67aaf2e2f0" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
