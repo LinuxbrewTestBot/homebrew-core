@@ -8,6 +8,7 @@ class Glib < Formula
   bottle do
     sha256 "bfeb6d10a3e46eb8529716a5ce3bb772415085278f5daa17d2f6cd25a489cc3b" => :sierra
     sha256 "7fd194b14cc5558cde76abbe17e017b5b7f3139b16b27e635313ff138945da9b" => :el_capitan
+    sha256 "3ded2f3bc24b3d7c8f9724d120cc544c6a99c5148e9d4e5bfa22ae27cebad289" => :x86_64_linux
   end
 
   option "with-test", "Build a debug build and run tests. NOTE: Not all tests succeed yet"
