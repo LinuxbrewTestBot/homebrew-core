@@ -8,6 +8,7 @@ class Vala < Formula
   bottle do
     sha256 "0ce8315e19c9f57bbea817849f420894c73195207866d2aa6075b5cbb5b5678e" => :sierra
     sha256 "abf8b5e9f4ab9df366f18d1c76c5a9244ca09ac845bce85e9a3dac35c1bc9696" => :el_capitan
+    sha256 "cfde0613a8e7c5702345bedaeb4c5d56bdde8a1f436730e8180f39eb092f145f" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :run
