@@ -8,6 +8,7 @@ class Emacs < Formula
   bottle do
     sha256 "4d7ff7f96c9812a9f58cd45796aef789a1b5d26c58e3e68ecf520fab34af524d" => :sierra
     sha256 "7bf6dfba77259ef5454696834c14fcab3643197ba70eef1e608476167c3d387b" => :el_capitan
+    sha256 "760c34fb38730f2cd9d60fb3e39723c549267d6ad643e952a1fd6e927d8d5a4b" => :x86_64_linux
   end
 
   head do
