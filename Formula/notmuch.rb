@@ -9,6 +9,7 @@ class Notmuch < Formula
     cellar :any
     sha256 "49f4b5963ec9b90b2e042993d659571114dd9415628087f1defee16ea03aedd8" => :sierra
     sha256 "3e3cc91824b79f977149beada05114f766a77e30c656bf9bb892c60e40b2b701" => :el_capitan
+    sha256 "e5309da01de4594e72f19f7323cbfb81eda672eaa873413b230d372e142cdae7" => :x86_64_linux
   end
 
   option "without-python", "Build without python support"
