@@ -8,6 +8,7 @@ class ShairportSync < Formula
   bottle do
     sha256 "dd52fdf8231291935fbe2abb210ae311b734867f7fb8c8b3b14ba2b7b2d8e1f1" => :sierra
     sha256 "84839e394d2fad0c09e3b46ff2dad5cdecea4c3be76bc20f4bbdfd047a3a618c" => :el_capitan
+    sha256 "fbeda2021f5b2dbd1f8a8c05b54eefe1b5469197a7f93e621010573901f66765" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
