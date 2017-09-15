@@ -8,6 +8,7 @@ class Gdl < Formula
   bottle do
     sha256 "37f76b2e3ec79557b3d3519afd3a88f0862b098d4cc0440caff55f5f4ef9fe2d" => :sierra
     sha256 "a6a61712548c304e4ae6223d52a076ef8ebb09b4ca1c9a0ae5e5697233ab5006" => :el_capitan
+    sha256 "c28a49e73cca53da3d823c01762b2547ec2992b87ef27681f530c7cdde8fc28b" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
