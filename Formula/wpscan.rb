@@ -11,6 +11,7 @@ class Wpscan < Formula
   bottle do
     sha256 "6dd163f2679959fc2ee5e340d61ab0e500efb350e395a26063d535ae09b18592" => :sierra
     sha256 "54522adbec639a9a4e743730b39e97199f45b2f21d4a23533e7f3cd5afb0d6ae" => :el_capitan
+    sha256 "acb03dcdfef106e05076c50769ae977aa0b238270674d116254dfd0a84a4abbb" => :x86_64_linux
   end
 
   depends_on :ruby => "2.1.9"
