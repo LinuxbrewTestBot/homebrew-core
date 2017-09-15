@@ -8,6 +8,7 @@ class Libinfinity < Formula
   bottle do
     sha256 "a57e350ab3149f0992f1ae56953eb951dea73601c0837d8268679395f247f8ec" => :sierra
     sha256 "b4d21db6a91949753057955b38fd47b8d289a2e5961ba6fc5e1fdc06c6f0d7a1" => :el_capitan
+    sha256 "17bceb0183c256f64cca1041de4cda75a62d2a91e4548f6d0fd763764ac5b0f1" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
