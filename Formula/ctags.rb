@@ -20,6 +20,7 @@ class Ctags < Formula
     rebuild 1
     sha256 "56bc233d09bc3591ad1f3a9c5282f9f9cf0729b0d5a0ee001d4ea6f68f2b0ab7" => :sierra
     sha256 "a17ee0cd08909484aeeca9177b356e14655d5f75ecaa4b36a3bd2e2248d8ac91" => :el_capitan
+    sha256 "3d7c323c6ec795ebb41076805bc58a4ff98da715dd7b89f649782306e91b66cb" => :x86_64_linux
   end
 
   head do
