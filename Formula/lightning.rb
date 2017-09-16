@@ -11,6 +11,7 @@ class Lightning < Formula
     sha256 "ed3fb8e5552f78ef17fa4a5eab54a69068113c28f50723e2a9d9fa68ca9a554d" => :high_sierra
     sha256 "b3898ab467ddc57c03f72615e95fedadf4bbf249ba76ed9de8cc410efe58b114" => :sierra
     sha256 "ddea1c93ea261eb8f49f998deb8769b8b67d44ec955e6dbbe8509d90f5ae9b6e" => :el_capitan
+    sha256 "c45d791b33a4c44d6d7a35e5117d3255c3ad69919fda261bf1710711162496bd" => :x86_64_linux
   end
 
   depends_on "binutils" => [:build, :optional]
