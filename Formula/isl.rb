@@ -17,6 +17,7 @@ class Isl < Formula
     sha256 "b370c775e2e670df7cab1375833722c72a1121e49b30d780746878945f7ef9c2" => :yosemite
     sha256 "13a5858f8a27b63d6613f5f29c44bfc1c9c6b95d625e3fbd1ff71acf17557476" => :mavericks
     sha256 "4d7ef6be0f083cab40af0debed4f45b1d596728eda4e08605df26fd1e4eb64aa" => :x86_64_linux # glibc 2.19
+    sha256 "964e01eb84ffc9082464b5232d8965f8b6d92dc691d8525d0b6daca88154c4ca" => :x86_64_linux
   end
 
   head do
