@@ -13,6 +13,7 @@ class Texmath < Formula
     cellar :any_skip_relocation
     sha256 "b7974f892e6967175bf00f7d50ab64b9f8a5664e27953054170e555d0c67cf2d" => :sierra
     sha256 "bf6762b6590315997c4dcb8eebdeef965bd7129f20e3d11deb97a047c4dff5f2" => :el_capitan
+    sha256 "2380d4c95220a15bcee548e3dc55c1f084d6ad10cfc7ba000628e902edd6d8b5" => :x86_64_linux
   end
 
   depends_on "ghc" => :build
