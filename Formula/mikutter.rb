@@ -11,6 +11,7 @@ class Mikutter < Formula
   bottle do
     sha256 "3f463fde07576593a53b03dd3ec2e02b2ac2d253582a4ec53dc10719154bc2a2" => :sierra
     sha256 "5bbf0a7bd5646ef9388a87cdde0a71abeccc94b48d1ffcca671915ad84ce49af" => :el_capitan
+    sha256 "83d20a679a57afc044cc61df8a2e16c509bddf0cf24be0ecc895f196a950429b" => :x86_64_linux
   end
 
   depends_on "gtk+"
