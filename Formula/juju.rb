@@ -9,6 +9,7 @@ class Juju < Formula
     cellar :any_skip_relocation
     sha256 "f15cfbc571b78cd88235464a30f1627128a2e2f11a2038d07ca7ec912fb95701" => :sierra
     sha256 "cb02ef1bbce63a59f9b2eea466d99b582a44aa7afc60dd5a07df1d381558222e" => :el_capitan
+    sha256 "861ebd9d3df1fdc53e147739a3c09371b65a6aa942fc5d479401d75976a5b7f6" => :x86_64_linux
   end
 
   depends_on "go" => :build
