@@ -16,6 +16,7 @@ class Shellcheck < Formula
     sha256 "7b53bbdd68a4dc010bbcb36c0b7b25df780f5f0f26454996688a16a7906be603" => :high_sierra
     sha256 "a481d31443ac152caadf1b43b95d1b509a9070402171dba1570d11943ba8dfdb" => :sierra
     sha256 "19b2be242da07935fb5393285cf87a4ddfe4cd9fb2aae8f03cfc856bcefe0140" => :el_capitan
+    sha256 "2076d885a506ea27bb41e0360f1be13f22f48399efd776e22b2049af4c805905" => :x86_64_linux
   end
 
   depends_on "ghc" => :build
