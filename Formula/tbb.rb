@@ -9,6 +9,7 @@ class Tbb < Formula
     cellar :any
     sha256 "ad77508883c17c264e3a7b8577efd771828cf02b9d1f8a4ba903b2e26be66422" => :sierra
     sha256 "fa092abc70c26eb61072eba47ea51e4767a2a0c64d450e1e9993dc3addb87c5f" => :el_capitan
+    sha256 "0b7ba9faa03e5f8d38b6b8a530232f253101a02c46748898123ebcfa5f1a5ca1" => :x86_64_linux
   end
 
   option :cxx11
