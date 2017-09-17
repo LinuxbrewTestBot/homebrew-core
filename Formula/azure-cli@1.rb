@@ -14,6 +14,7 @@ class AzureCliAT1 < Formula
     sha256 "650ffe0ac2def8a31931e75ef2d78345f89dca265bf8444de5311692d36c1913" => :high_sierra
     sha256 "655a9111da858348910dbc4015851c9d1e0be73a9b7c7dd6660c117fb8f965f6" => :sierra
     sha256 "8fcba4260673571b03bd2305d7c5de937de8d7f1569d65475104240f26643773" => :el_capitan
+    sha256 "e0022d91918a0e46b8bbaca72a2e7c0669f618ace99bb24196dc5d172d6e8a9e" => :x86_64_linux
   end
 
   depends_on "node"
