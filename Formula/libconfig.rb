@@ -9,6 +9,7 @@ class Libconfig < Formula
     rebuild 1
     sha256 "238bf662b61ce2ed2b3e4ef0cf932ab4c9fe784f23d5d82576b79ce552db10b6" => :sierra
     sha256 "2194870d1e0f7dcdc03df3637bfb16c92ddd03f1a65870c0498e28b06308f5bd" => :el_capitan
+    sha256 "183947af6bab92c9b7d54ce96f585e5b85a7f8a6feadc92947a98bf54adc2265" => :x86_64_linux
   end
 
   head do
