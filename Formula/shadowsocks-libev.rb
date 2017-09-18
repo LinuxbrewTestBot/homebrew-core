@@ -10,6 +10,7 @@ class ShadowsocksLibev < Formula
     rebuild 1
     sha256 "bb95e6875fa4374272362634537df8b5d69a30a659aee5b45c56073c42dbe8d5" => :sierra
     sha256 "61b0375223848f774a1fa2cdb28688b097538353c32d6d82e0cc3bc56ae67c87" => :el_capitan
+    sha256 "8455bbe9cd49808e4b5f2d1d557845a12568d9d0769670e350211cf29bfc7a77" => :x86_64_linux
   end
 
   depends_on "asciidoc" => :build
