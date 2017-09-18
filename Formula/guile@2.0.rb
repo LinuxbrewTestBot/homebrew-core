@@ -32,6 +32,7 @@ class GuileAT20 < Formula
     sha256 "819233cec3a671c42e24c34b8ce2fd6965c594e777daef1a7ba47984860e62d5" => :sierra
     sha256 "269bbb4ecb82b65d67d907f59b17958c7360ebb99079cb95503b90fcdd5c2c18" => :el_capitan
     sha256 "b412e20d5d69ef696eb1d7b9a23f972e07ea455d1078e7bcb38f41df6a521f55" => :yosemite
+    sha256 "177a3c8efcf482d0c880d7055881e0e1cd44f965b111473742ae95d58c5bd720" => :x86_64_linux
   end
 
   head do
