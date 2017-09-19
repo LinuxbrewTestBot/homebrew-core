@@ -10,6 +10,7 @@ class Freetype < Formula
     cellar :any
     sha256 "ad1a02a75cc736f17f340e1bcc4aca154ac7c5505e1f54e61b1a72b0b5ef07c8" => :sierra
     sha256 "a0949e817a31d3c8a39bca2cdaf283c5a5e538c9c6786214369848fafffb0c0f" => :el_capitan
+    sha256 "c3b0a7bcbed19fe1688599009dcdebab7437f8b3e57925a4ce7e63f2b4e3feef" => :x86_64_linux
   end
 
   keg_only :provided_pre_mountain_lion
