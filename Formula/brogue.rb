@@ -14,6 +14,8 @@ class Brogue < Formula
     sha256 "29b76f520e06b81094b7036d6c8bc1d9e259d2df18dc82514ed1156027dbfa87" => :el_capitan
   end
 
+  depends_on "ncurses" unless OS.mac?
+
   # put the highscores file in HOMEBREW_PREFIX/var/brogue/ instead of a
   # version-dependent location.
   patch do
