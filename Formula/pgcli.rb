@@ -10,6 +10,7 @@ class Pgcli < Formula
     rebuild 1
     sha256 "0c1113e26e84b844905197005b1731a4211d393d1fed2077e40223f6dc2a5082" => :sierra
     sha256 "678d9fdc717c0198804bb497fe042ccf685237385bc00eb3e410add8c7fa2d58" => :el_capitan
+    sha256 "51b5999fe1afa1612a2878145b7c23044f868cb37d3fb3a75bdf788f1f7b5037" => :x86_64_linux
   end
 
   depends_on :python if MacOS.version <= :snow_leopard
