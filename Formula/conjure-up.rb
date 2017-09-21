@@ -11,6 +11,7 @@ class ConjureUp < Formula
     cellar :any
     sha256 "792cd3cf9a6dd725b6448bcf2498b1bd6ad29b2b45afe1444084912b4e69af4f" => :sierra
     sha256 "d0b050dfa5a30359b93b31ee79a016cab89a3f2bf244d4f2035a9680857a02e7" => :el_capitan
+    sha256 "d906f685f3487ea7c6ec85363d1f02367abb3ef8c1c13a6eb63b1715e8b53c54" => :x86_64_linux
   end
 
   depends_on :python3
