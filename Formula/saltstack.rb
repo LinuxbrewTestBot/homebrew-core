@@ -12,6 +12,7 @@ class Saltstack < Formula
     cellar :any
     sha256 "1908da3fcac2c10a5a1593ae420dd77f834867c6b535961371d906218f3e37d6" => :sierra
     sha256 "3f581fa3873fb76875ae178c485de4850294ae2651a0241134cd68fcad102d1b" => :el_capitan
+    sha256 "623e468e968e7e72351282986325b259e83a5cbcf54b5f1c76b4c14a31d357c9" => :x86_64_linux
   end
 
   depends_on "swig" => :build
