@@ -11,6 +11,7 @@ class Zookeeper < Formula
     rebuild 1
     sha256 "8c7304be183d4c28c0f5d88e22626188c76794bee004e1b330c3e79bf5ae9d53" => :sierra
     sha256 "2d792cb3963a7caf57922635888ae4e3cf363ef5a81d23f13a11d0ee42a780cf" => :el_capitan
+    sha256 "fbf09c8cabcc2080f8f935ca77850367879a0dcd638ebd8b23131d57b528ffdc" => :x86_64_linux
   end
 
   head do
