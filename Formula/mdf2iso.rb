@@ -13,6 +13,7 @@ class Mdf2iso < Formula
     sha256 "fbe092bfc501d4abf8b0df052e26307219ea4bb9fb4eddb20df8b7734ff7fdf5" => :el_capitan
     sha256 "aab6c1b85c8f863016f7db7ca6b35c56cc7442a6bdf6876f7b9b8ba24b58e5a6" => :yosemite
     sha256 "8a755700501039ec87145fa6acd0d37e9ecaacd538481bf556e7ed69330bd085" => :mavericks
+    sha256 "29918c912c922db20dcdcf9eb46bf54e92adecd37d1d689531dd25d61959ecca" => :x86_64_linux
   end
 
   def install
