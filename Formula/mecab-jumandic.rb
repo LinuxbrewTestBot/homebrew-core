@@ -11,6 +11,7 @@ class MecabJumandic < Formula
     sha256 "4b821839b99982c506a1e262c9fa8b650620bc546a8725a5eaa1dc54b45e4822" => :sierra
     sha256 "4b821839b99982c506a1e262c9fa8b650620bc546a8725a5eaa1dc54b45e4822" => :el_capitan
     sha256 "4b821839b99982c506a1e262c9fa8b650620bc546a8725a5eaa1dc54b45e4822" => :yosemite
+    sha256 "6afe9544d20472c84c4f9fa282923045f508b15c28f9e83e4ba40d8090f9a960" => :x86_64_linux
   end
 
   # Via ./configure --help, valid choices are utf8 (default), euc-jp, sjis
