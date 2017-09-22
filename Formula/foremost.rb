@@ -7,8 +7,7 @@ class Foremost < Formula
 
   bottle do
     rebuild 1
-    sha256 "1fec9cd62de192dcbd5217cfa2c6c1c1ca056afa85a434114748171bf740ed96" => :sierra
-    sha256 "73f4f781edd9621d498238d77536dda5fbfa60dbb613bd7f15bb31d72699c986" => :el_capitan
+    sha256 "039d8f237f0c1247c23309a63ccba896993f4d57dc1a0db2fbc8b0d7fba936ab" => :x86_64_linux
   end
 
   def install
