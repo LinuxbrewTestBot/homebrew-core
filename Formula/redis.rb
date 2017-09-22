@@ -10,6 +10,7 @@ class Redis < Formula
     cellar :any_skip_relocation
     sha256 "56b3bc6c248bf22866b33c2850e19d4d5b280154afe541dc30ff6f28b9a982cf" => :sierra
     sha256 "3b03f01b91946e1978fbd74f2cfe56553f148fbe32ad8adabd4fc09cbb5ea02e" => :el_capitan
+    sha256 "248b0ceab9764c4397989e45e69d585e9c94e9e11f25b37c06a167a5dd6b9e44" => :x86_64_linux
   end
 
   option "with-jemalloc", "Select jemalloc as memory allocator when building Redis"
