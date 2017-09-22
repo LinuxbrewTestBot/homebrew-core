@@ -11,6 +11,7 @@ class Cmake < Formula
     cellar :any_skip_relocation
     sha256 "5adade9d76dbdeef0fcfd8dfcbee8a6359638607dc53eed6f82f6f4be6855126" => :high_sierra
     sha256 "7ea7a60b1ebd5859e7d8a6d9b781e3b976cfbac22ef52e06dbf9bb3f603012ac" => :el_capitan_or_later
+    sha256 "3fb2628407d43784471f1f4a34ea769975bc9a7e6dada9f39426ee5274db3dea" => :x86_64_linux
   end
 
   option "without-docs", "Don't build man pages"
