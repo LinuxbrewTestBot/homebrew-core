@@ -9,6 +9,7 @@ class Qrencode < Formula
     cellar :any
     sha256 "df4727cb66c9ca501675f7b169ac9c211e7b766a7908c69ee6248536f810bd81" => :sierra
     sha256 "f9bfb2e870776c67d8cfb735ac64162de374d5d123f48e3e3da965cdd742d73a" => :el_capitan
+    sha256 "2f6fb6c6858e72da9a15a481e00005e3c2cc06675467340c26c6af383d52d3dc" => :x86_64_linux
   end
 
   head do
