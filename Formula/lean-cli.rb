@@ -10,6 +10,7 @@ class LeanCli < Formula
     cellar :any_skip_relocation
     sha256 "6f9e1e131b123d9f9bda7e4337dc2dc35ec321c18dcfb63e4b0638394fa87111" => :sierra
     sha256 "307b90b2cb869e48493cfe9b6cfa449b4dd8ed0da50ca048562c76cff6dea312" => :el_capitan
+    sha256 "f337f9e6943a60165132eba5c34c9f62c016f60d96cb07c04053fb44c2f2ae2a" => :x86_64_linux
   end
 
   depends_on "go" => :build
