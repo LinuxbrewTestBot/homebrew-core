@@ -11,6 +11,7 @@ class A2ps < Formula
     sha256 "99646196c8b9e6d5a7b67ecca1589160749d690128bb89aace3b79d4c355dfde" => :high_sierra
     sha256 "5a1c466a3f833797710464dd1aaf4ad6c9ff0a47de33ab3b2ba9cf0c2be36bfd" => :sierra
     sha256 "532c3f14debcd59028285dad1d6fe41dbad481718cc1752b1b9e7c05fd82e27f" => :el_capitan
+    sha256 "f14fd4a117e48b7378150d8e7deaa9c49f432bb870fad1ba46742084afbed6e0" => :x86_64_linux
   end
 
   desired_prefix = OS.mac? ? "/usr/local" : "/home/linuxbrew/.linuxbrew"
