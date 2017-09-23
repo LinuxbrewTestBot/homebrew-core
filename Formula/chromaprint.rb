@@ -11,6 +11,7 @@ class Chromaprint < Formula
     sha256 "d4c053d1d43c82acf084d864745a6564687b246623b2d5c421822f1941691280" => :high_sierra
     sha256 "76cd7d5f0b2b43bb17f81666329521db69f58724022a3dc5e3e141fe0395a196" => :sierra
     sha256 "ff534ae7e7c8a86bee2d107f0393f7db5e6f4a1504274e03c1ec346b446bfd28" => :el_capitan
+    sha256 "ea2b542949e48401397c379227aa022134492e14ed5c6efd82e280c2efb3a79e" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
