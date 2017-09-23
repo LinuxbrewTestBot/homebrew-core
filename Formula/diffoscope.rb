@@ -9,6 +9,7 @@ class Diffoscope < Formula
     cellar :any_skip_relocation
     sha256 "c01cbac1383e6cee7ddb7dcee6d5d5d07ad7e04461f7f33519dead80bca78780" => :sierra
     sha256 "c01cbac1383e6cee7ddb7dcee6d5d5d07ad7e04461f7f33519dead80bca78780" => :el_capitan
+    sha256 "e683eb2a517c28eaa8cbf02dc3c2c00d6522f920a3161f2ce8832fd71a295ed9" => :x86_64_linux
   end
 
   depends_on "libmagic"
