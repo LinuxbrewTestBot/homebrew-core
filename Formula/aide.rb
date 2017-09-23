@@ -9,6 +9,7 @@ class Aide < Formula
     rebuild 1
     sha256 "71d151f2f389cbbc5884eff30261d0691d020c0983411962c1ba42927d0ae052" => :sierra
     sha256 "2860850684659f15f8d5dc01127a7a9f2bfc21f773d99c4a8897585b4542723d" => :el_capitan
+    sha256 "513e82f736d1e0c87795f5c6ca4d981d60bd64664f9b0cc5b20b0555e79a4071" => :x86_64_linux
   end
 
   head do
