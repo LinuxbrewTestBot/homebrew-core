@@ -11,6 +11,7 @@ class Certstrap < Formula
     sha256 "168d381366cc94bd625de836d50064320130a09a3da9c6c2f973aebceb80482a" => :high_sierra
     sha256 "b6ae41f23e2e588ec637558a68ab4d0d279326713bbf443fc8a26c7f9340498f" => :sierra
     sha256 "a6468f4513ef3490f786a1079701d3b22d44a59dc2b1ddf70b1e43b726365e70" => :el_capitan
+    sha256 "280517c4c342e416bddb60fa23db465cf1a7ee2a5dc282db1950997f666af4d5" => :x86_64_linux
   end
 
   depends_on "go" => :build
