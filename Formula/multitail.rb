@@ -10,6 +10,7 @@ class Multitail < Formula
     sha256 "b8d2ab93cd8bf7954ffc49ed929aa0cf2c60a2ebeb872e9d3686d314af043be2" => :high_sierra
     sha256 "ec1007a1ab7ffc9394f25d1a838d54051c04c14667721e8db9f49803084f6dcc" => :sierra
     sha256 "b9c5e200dab1bf30ef4bd9bb257d5728c6779552aab97a1ddc65d02ad697cd8f" => :el_capitan
+    sha256 "9e71d116effb1ae96a596b2f39a78e8b82a5678c7dceda901e2a61a6ab64838e" => :x86_64_linux
   end
 
   depends_on "ncurses" unless OS.mac?
