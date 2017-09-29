@@ -9,6 +9,7 @@ class MariadbAT101 < Formula
     sha256 "bdb5ca2aa68c7b4fbb2f09b3803ae04f2de65deea80d34c14aba3a04b37d7020" => :high_sierra
     sha256 "e384bb3533f0a98580bec80b71885a09cdcecdd293aa3faf541f532d1244e9a1" => :sierra
     sha256 "3a06f26aaba9fcb9d6417c47a270c426b56f29015cc0bf2f5fe328f4ea04d1a9" => :el_capitan
+    sha256 "f4717f4c0dc830d0fcda26b6c23f77ab0f2ff11d506d603354c34a3548e0a1b4" => :x86_64_linux
   end
 
   keg_only :versioned_formula
