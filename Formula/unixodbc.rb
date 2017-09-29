@@ -11,6 +11,7 @@ class Unixodbc < Formula
     sha256 "ee4a4a339f04afbcea6f2d3d4d30e82c5d1a25a29bfbdcfcecfea865dd6ca2e8" => :high_sierra
     sha256 "f8e46488ccc480251051490a55bebb44cf95c90c0ee334857c81440c912ba25e" => :sierra
     sha256 "6adc0803981df524dc7a06618920e9d4972ebb077bda3f14c20f50705e63824a" => :el_capitan
+    sha256 "48bfce640f2dbaf32a29cf9433b031c5df64e9480bdb69069e98b78a481b5ab0" => :x86_64_linux
   end
 
   depends_on "libtool" => :run
