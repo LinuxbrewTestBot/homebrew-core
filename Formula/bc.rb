@@ -11,6 +11,7 @@ class Bc < Formula
     sha256 "0baf2e31191d80258636186bf9adcdf6b3f554f213d36cb3054213f736e52bf1" => :high_sierra
     sha256 "1d8f0459c0b67aae275c43e01e5312146be72163acadd3d6c8f2bc440181508c" => :sierra
     sha256 "e5c4b3fa712d705c3cc9bfae12242c9b4dc429e329c61d12aa01b65c1623a11f" => :el_capitan
+    sha256 "57de5ac07f99f1b7b67b854997e9f2a6fb69664f904ea3c3cf4538d509227d91" => :x86_64_linux
   end
 
   keg_only :provided_by_osx
