@@ -9,6 +9,7 @@ class Nspr < Formula
     sha256 "e90cc21f350aefb57ddb6e3f2c27e86e95fa9c7a9d7e40772a6603846b17a078" => :high_sierra
     sha256 "e28f7bf25551e93a29b2310b80b7e492323f42677ecbefc43b64d6e09e76b354" => :sierra
     sha256 "f083506086d7a0a72d90689f108d116a991e3da26c91416f6c980ff9fe59a9e7" => :el_capitan
+    sha256 "796b3dd00762b8ac33cf9282ae880d4d8aa469ddcad56684189e60269356326e" => :x86_64_linux
   end
 
   def install
