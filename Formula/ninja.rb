@@ -1,4 +1,3 @@
-# ninja: Build a bottle for Linuxbrew
 class Ninja < Formula
   desc "Small build system for use with gyp or CMake"
   homepage "https://ninja-build.org/"
@@ -16,6 +15,8 @@ class Ninja < Formula
   option "without-test", "Don't run build-time tests"
 
   deprecated_option "without-tests" => "without-test"
+
+  depends_on :python unless OS.mac?
 
   resource "gtest" do
     url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/googletest/gtest-1.7.0.zip"
