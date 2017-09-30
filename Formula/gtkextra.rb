@@ -10,6 +10,7 @@ class Gtkextra < Formula
     sha256 "c83e9020038de86c26e74e2a87bdb8e382d668cfa7ee0c7560c3e653e776e52e" => :high_sierra
     sha256 "19204f24b8d8bca289b41e662b8acb46a9522a9aecc70f3a13666b7d14290606" => :sierra
     sha256 "6d9cadd386a89aee512dcf591efa08485341c2a36cde58091d2f1d51f74ce7ba" => :el_capitan
+    sha256 "d7899681940ffae9903540f4c2041e46be1b11238e82994966f616df59741dc0" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
