@@ -9,6 +9,7 @@ class Logstalgia < Formula
     sha256 "57cee03375921c5d1cab999a217bfc8dcb551d3f643708d61550a380cc9b22c9" => :high_sierra
     sha256 "f9b7f68acc5ffbb3eadad8510a5a86e7b9883506c30c2866aac8f58636509835" => :sierra
     sha256 "bdfd5eef17767bf73128d3530191c81b1a5345bbf1b6f46341e745c0acda4215" => :el_capitan
+    sha256 "e2a2c539ba3b4171934cafdf9b149be99e35b730b6a10fddf4e66d9b99ecc18d" => :x86_64_linux
   end
 
   head do
