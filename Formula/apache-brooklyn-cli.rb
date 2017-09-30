@@ -10,6 +10,7 @@ class ApacheBrooklynCli < Formula
     sha256 "bc1c638f30c4036519eff703b605de6d22313970e585576bcf16183381f59247" => :high_sierra
     sha256 "b2ad53984d4e98ef3d37622ff0ff9dd987f4ecc2614e251f3df60de13d96b6c2" => :sierra
     sha256 "39f56956e1ed81dfae64401caa333f910b70312d6e45950ac5e2bb3c0db59cfe" => :el_capitan
+    sha256 "252cd293b515a4d6de8d76b3bcc6f62b6bdc3df29cc8c679b2b477fad675b7f7" => :x86_64_linux
   end
 
   depends_on "glide" => :build
