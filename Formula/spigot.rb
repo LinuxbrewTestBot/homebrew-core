@@ -10,6 +10,7 @@ class Spigot < Formula
     sha256 "8c9fab08b85b4d484e17cedbacef09f9578ffb5ac3030251ee1cdef580e86a24" => :high_sierra
     sha256 "5783e2d9d24998ffd09e0a8fd895aea8e47df2e18302c2e5e136cffe9585791d" => :sierra
     sha256 "93ef74d8a466062fa3b38197a79e18b0f9714824d83e8313a9df0013b4dba9be" => :el_capitan
+    sha256 "77a9a0003c7f8bc664e126852f3f18e0112d4c8c81dd1a8dc03437cb37d07c9a" => :x86_64_linux
   end
 
   depends_on "gmp" unless OS.mac?
