@@ -12,6 +12,7 @@ class Submarine < Formula
     sha256 "0f69e16c6289fe9f529d2d972b91f86f5b950f31f0d9b7d2af3d80f4cc344de3" => :high_sierra
     sha256 "05cb83f2ed8dd62e4417bc4f9e65c6a4ad5127b0012296676033ee92346d3789" => :sierra
     sha256 "71ed7dcec2639d658412e8c099c4440bbb6f00d32cf80b9be8954abef07d0c21" => :el_capitan
+    sha256 "1a2790604b0b2f09ce31f0481c1319f347c7c18d82cdd3a9ed452bf676ffb382" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
