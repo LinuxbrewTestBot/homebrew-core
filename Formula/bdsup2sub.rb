@@ -11,6 +11,7 @@ class Bdsup2sub < Formula
     sha256 "178ef2ffa1129b31b099c923f6842302efc2b34bcbdd0e89782bf4ffc82c3c71" => :high_sierra
     sha256 "36971d050455a728d555831b7b1c554ae658bbceb6a7a26687435e04861c2bb1" => :sierra
     sha256 "59b0eccde943ecb9e614dc409ab7ddf7064479b75310c8a782bd7b777d7e25f2" => :el_capitan
+    sha256 "e75c9ba90b8201a6567aea8b35670426d0b0a38cb5b027f3d588caa3c7503404" => :x86_64_linux
   end
 
   depends_on "maven" => :build
