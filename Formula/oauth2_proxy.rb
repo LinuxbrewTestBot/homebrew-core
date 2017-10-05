@@ -11,6 +11,7 @@ class Oauth2Proxy < Formula
     sha256 "48fde51ae6c8f7c1ea348526117953ced48616c0e9a7678867c31998fdc13612" => :sierra
     sha256 "56c173bc0afde492037cd5c572ae600562058ae0c9c0dc8b0155d902332bbe37" => :el_capitan
     sha256 "bf940346696e4c891da94647640886d5aa78c261649730ddb08bc7efc3bea63e" => :yosemite
+    sha256 "58077d3db690cf6aa8fbaed785837a35f600e9713d846a0fd8f1ab88caf0fdfd" => :x86_64_linux
   end
 
   depends_on "go" => :build
