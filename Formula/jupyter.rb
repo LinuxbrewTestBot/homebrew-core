@@ -11,6 +11,7 @@ class Jupyter < Formula
     sha256 "8c12af02fe321efcd251a684a664cec1d455bb0e9e11725d7e57af299a4aad2d" => :sierra
     sha256 "1c8820e5730a1fd519b8b23d84814257c4bf95581090cc09e90848b732d4a491" => :el_capitan
     sha256 "30794bb89f95ed4e9abd9cb8ed2b7475293273efe85bf8c99182b02ef69595fc" => :yosemite
+    sha256 "db0b6585f102247fcf148d2cdc0dc7a5e93d4eb9157b27534536559cf82680a8" => :x86_64_linux
   end
 
   option "with-qtconsole", "Install with Qtconsole"
