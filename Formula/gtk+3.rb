@@ -9,6 +9,7 @@ class Gtkx3 < Formula
     sha256 "35ed1f0c57b6c1a9e5c1c750e9600a77dfadbbca216a9c3009547153b14c3250" => :high_sierra
     sha256 "d8b1c047f110494cfd34e9bef7e6ffc8338e2839491c411422c02d6f36858a6f" => :sierra
     sha256 "35ac475e5b781d23bc934809e40aabceea31a5591c61b5d8b01149ea1028d867" => :el_capitan
+    sha256 "26d9bb5b3eb0efc595ee4b9fbd70944e52fd4fd63eac8b2b373a2dca042fa5a5" => :x86_64_linux
   end
 
   option "with-quartz-relocation", "Build with quartz relocation support"
