@@ -13,6 +13,7 @@ class Visitors < Formula
     sha256 "60d139c48a4d3c8b457462530893ff11c681e512cf707ba6819a783eb17d3c4c" => :el_capitan
     sha256 "2d0a3e1a40e08ae6b4892731b0cd1f3a495e8eba42476630b7863fc057e85df3" => :yosemite
     sha256 "c94f334e326f511b486e4b63b5e62ee7a59121ea5d790a8e5854ff4b57abb5e6" => :mavericks
+    sha256 "dd61381b6d4befd771c6dc526b9aa5c3b1dafdfd65479e06306175230e31f6f4" => :x86_64_linux
   end
 
   def install
