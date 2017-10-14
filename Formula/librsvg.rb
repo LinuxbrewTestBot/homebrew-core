@@ -9,6 +9,7 @@ class Librsvg < Formula
     sha256 "072c7a4450eee5154aa380ada8cd193ca37f81ff1d3eaeb21a7e80eae384392b" => :high_sierra
     sha256 "a764af163564b1a20b4d85b8ce408cacd28e3dfdc369a31341edd788be34dde8" => :sierra
     sha256 "2be12f4d27cd0b87cefcb526ad4af4dde9555fe67e64b2218d4d15d8a58e2615" => :el_capitan
+    sha256 "bb7dd21faea126fe5ad47a6a302105ebbc423d9ae9cc6ab1f6ffd13534c7419e" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
