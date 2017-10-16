@@ -9,6 +9,7 @@ class Joe < Formula
     sha256 "760c0a06be2796ab446f917d4bd806adb7433e2ae5d00d5429406f67aebece77" => :high_sierra
     sha256 "bd6a3920d921b24b9e4c414e70512381849f64fcc4d93c2d2fcc60d4c79b7180" => :sierra
     sha256 "73f46c197aa85834ea639d93ea02740deeb18c31bb0ddfc2f6400164c6dde566" => :el_capitan
+    sha256 "390d746981649f5d2a6dce262bb5d9c3138ec4a892897480f90b72923a8c1121" => :x86_64_linux
   end
 
   def install
