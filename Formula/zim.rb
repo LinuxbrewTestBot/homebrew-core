@@ -10,6 +10,7 @@ class Zim < Formula
     sha256 "5dc68b594b596da2cf0cf41b4d551dc47a576634ab0274840011ee003385a1c0" => :high_sierra
     sha256 "9f1b73f91e1c0f397ded0c88ec443074b1b2060ddacafa0526f63b908c0eb7da" => :sierra
     sha256 "9f1b73f91e1c0f397ded0c88ec443074b1b2060ddacafa0526f63b908c0eb7da" => :el_capitan
+    sha256 "c1bc87bac9775c4a4830f433ee389b65f331f978914e2581894608b9e047cf8b" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
