@@ -11,7 +11,7 @@ class JdkAT8 < Formula
 
   version "1.8.0-151"
   if OS.linux?
-	  url "http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz",
+    url "http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz",
       :using => JdkDownloadStrategy
     sha256 "c78200ce409367b296ec39be4427f020e2c585470c4eed01021feada576f027f"
   elsif OS.mac?
