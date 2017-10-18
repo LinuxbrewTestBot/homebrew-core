@@ -11,6 +11,7 @@ class X265 < Formula
     sha256 "e09e6c6d0e51d956e6b1ab5396db3a8fa8201cd1efdb35d11391d29c294fe263" => :high_sierra
     sha256 "541de69ba422c79fd0782833b5edb941d42b97dd6ae1d1a767688270dad4bfb5" => :sierra
     sha256 "2ef0de7bef2e973a695f6839472b5be6ba4ff87c098e6199b2b2589bfc68618d" => :el_capitan
+    sha256 "c0e823407c654081c6aebf7a2abbc177aa012c897e158ce3487f47ffd7991f09" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
