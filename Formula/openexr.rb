@@ -14,6 +14,7 @@ class Openexr < Formula
     sha256 "ad973fc780bb731a5ee8be347283903e8343448913e46a23fbdede0145ef980a" => :yosemite
     sha256 "9c21b70caff58d8d699a58a50249f220b03c23f450a219276782827e6c03ff33" => :mavericks
     sha256 "fede3de1222bd9c581fbdcf5bc17515694966ac6edccd79b98071dcc0ff4d24a" => :x86_64_linux # glibc 2.19
+    sha256 "12459e25aca84581e2a9f3132c571272043d2790d3a625b5c21b64d7f63ea9b5" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
