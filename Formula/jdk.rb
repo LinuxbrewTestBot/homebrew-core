@@ -19,6 +19,11 @@ class Jdk < Formula
     url "http://java.com/"
   end
 
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "0701a22799493a1989ce113a5c3e43c0e1a140f33733ff7cc04c91257f456c6d" => :x86_64_linux
+  end
+
   def install
     odie "Use 'brew cask install java' on Mac OS" if OS.mac?
     prefix.install Dir["*"]
