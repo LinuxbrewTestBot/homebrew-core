@@ -6,10 +6,11 @@ class Curl < Formula
   sha256 "2594670367875e7d87b0f129b5e4690150780884d90244ba0fe3e74a778b5f90"
 
   bottle do
-    cellar :any if OS.mac?
+    cellar "{"any"=>:"OS.mac?"}"
     sha256 "66718831c0971eb2a0573b20c7a03e3ad11d56dc1856cec793f3a3b8befe083f" => :high_sierra
     sha256 "e05cd7a999b03c25e45dd0284eaa40a03283f043d4caba2539f5fadc0cc6be53" => :sierra
     sha256 "fa64157181d0fc92ff7bb25c60605b9179c0afdb3bc9b481a8b91ac47b263573" => :el_capitan
+    sha256 "84fdd6a4a81d58f99a6ac3d441334d26b9807ae68cd0a580cd4c047730496041" => :x86_64_linux
   end
 
   pour_bottle? do
