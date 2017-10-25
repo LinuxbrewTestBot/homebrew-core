@@ -11,6 +11,7 @@ class Cppunit < Formula
     sha256 "3c620068fba4bf15b6138ffc4042ab2111a67201310523104c07c314115520bb" => :sierra
     sha256 "a2d2bf8be8ffb614f0490801e38558681b8b01a9fc7ff4be5f785d3db7f71157" => :el_capitan
     sha256 "8078fbe4b7fd092a197c452af4caf3f5eaeb27dce16afd46e1da2a1ec1ae7f6d" => :yosemite
+    sha256 "242e5ba55b5ec56551cb8f87f9f58f3bb3d83282482a7627114fdfac4a246f8c" => :x86_64_linux
   end
 
   def install
