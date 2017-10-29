@@ -20,6 +20,7 @@ class Mongodb < Formula
     sha256 "9d9929d9502d958840929355daf8a3c71ce6779d63b0a3ab4123562e1c840b2c" => :high_sierra
     sha256 "715942c2e23e39ac1ad365860cb084d53bb2b35aef1fae2df4e38a18434438ef" => :sierra
     sha256 "5bdb6c3a4fea9d74afd54497f3b508c2f85034ff9de6a92b15783dadb06e575a" => :el_capitan
+    sha256 "b77cbd793ad1be383446a3bc1520183141cfc3dba365e390f8f8d69543cc30c5" => :x86_64_linux
   end
 
   devel do
