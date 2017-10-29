@@ -10,6 +10,7 @@ class Librdkafka < Formula
     sha256 "c101376cb494b33f88e26b6d2d009f8c90025cb8bd4607c9dcbb7d155ed05996" => :high_sierra
     sha256 "fdd939c6b199b39cf4762d513efb86ed64052f03cb62bf4997384c5d982c0653" => :sierra
     sha256 "466ef46e22e50663b119354ff67c4a0a0652b63e6106b6ba232d6cb5e79b2318" => :el_capitan
+    sha256 "3ace34bb2e71e0d6dccd0ba58935730dfb343339198211d02a9b146f0ce55ccf" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
