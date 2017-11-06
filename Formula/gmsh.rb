@@ -11,6 +11,7 @@ class Gmsh < Formula
     sha256 "e0dd6429f73cea89717a9a492f113fa31913025910acf7d0552ed4d3f1b6c8d7" => :high_sierra
     sha256 "f45b4752c85d4fce38cabdc24287632eebf2840d039195cf603be0605c9649d2" => :sierra
     sha256 "464a7fff7dd8a269456c72931162291981b77921886858fdf9878c7231a714d0" => :el_capitan
+    sha256 "83565a5d4f8eeab85ebd686e3690574f0c231b1f75f3b4d776d71f4f6a1324da" => :x86_64_linux
   end
 
   option "with-oce", "Build with oce support (conflicts with opencascade)"
