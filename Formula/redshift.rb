@@ -10,6 +10,7 @@ class Redshift < Formula
     sha256 "f8fc6b6b2279982aefc06a03571c8de76df9542808558e542e87d7e28187d58f" => :el_capitan
     sha256 "b51cd606ac04a3709ca9a02196c26ee6b79b1b32d976ef01155db382f5145f81" => :yosemite
     sha256 "9d151b44efdd166ae4239af7dff907a4868441c126f7fd11aa69a53e9d39de7a" => :mavericks
+    sha256 "e5224d97ef979debcf0256b2819d843c99e323ed03237f6ff31954e685062b93" => :x86_64_linux
   end
 
   head do
