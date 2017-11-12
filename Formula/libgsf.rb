@@ -8,6 +8,7 @@ class Libgsf < Formula
     sha256 "991c1058133dd8551cf35408dac2d17d6dbc5ef0fd9a10cca9b2c80d8600f372" => :high_sierra
     sha256 "192a8330ea0791eb95de79815207c40ab54b60a40fa287f376e286c9d4043661" => :sierra
     sha256 "e9af6f98bb9a0cfe498bcc72897b04eae6da11b3163caee9111e0a5b8cfcda36" => :el_capitan
+    sha256 "7912530ef34e68881922aaf9f7b6c440337af30c698818abfe77f94b500ea7d1" => :x86_64_linux
   end
 
   head do
