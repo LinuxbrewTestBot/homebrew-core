@@ -10,6 +10,7 @@ class Bchunk < Formula
     sha256 "d6183607b5b987345ee3380263819f1d5e12f2f3cc9f6fd55accfbf92c26d5ef" => :high_sierra
     sha256 "95ef5fddc2234902187dde834690fb5957bd99ce11403e3d0f8881a705bb8f27" => :sierra
     sha256 "665af973709071e982939f37ba39c79c6e41f7f18277d65670475ba9d8315f94" => :el_capitan
+    sha256 "d704539396152281a0fc791189fb40a9045fe93db151709f5c09d03b351c1b0f" => :x86_64_linux
   end
 
   def install
