@@ -7,9 +7,6 @@ class Netcdf < Formula
   revision 1 unless OS.mac?
 
   bottle do
-    sha256 "6a9d39204ae9bfbacc985bc082e9d3e6bf522ee78668b4b7adb2ef70081ac381" => :high_sierra
-    sha256 "8264e77321eacb944f6b5ac04622cab6abcd0c6a6138a738fc0d16fec3beb66d" => :sierra
-    sha256 "b1063f36db3172903dcfdb2451e49b710d62bf80174b4e013c29e61a61080d3b" => :el_capitan
     sha256 "94e1c49811d00b11bdc127ef62e25afd0110c6570f6498c6cbee8ac125731f7b" => :x86_64_linux
   end
 
