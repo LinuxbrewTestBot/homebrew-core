@@ -10,6 +10,7 @@ class Sundials < Formula
     sha256 "8912bb18905be789670243cf66c950f376632a669442d82195567abbe7005bd6" => :high_sierra
     sha256 "5152878671da66c199dee3010ad2801c9488e3c0c12dca004d483dfb99099047" => :sierra
     sha256 "86559a65cb0973cae8d4c536923f0ff2bc0dffddcf1fc510089f9a97e657aaaa" => :el_capitan
+    sha256 "0762ee851ce3b4d22c1dd1bf5016f3e99b370e546c15ccc04e6a13fa95efc525" => :x86_64_linux
   end
 
   option "with-openmp", "Enable OpenMP multithreading"
