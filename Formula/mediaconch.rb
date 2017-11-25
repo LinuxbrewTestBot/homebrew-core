@@ -11,6 +11,7 @@ class Mediaconch < Formula
     sha256 "8e7000926ba5af153e7f1426b83c80e13c187b3ce76f92601b69114d3917ec9c" => :high_sierra
     sha256 "dff233768b0a79dfc3a5affd64828ddadefd1d38bad1012e66d7f1d9793149d2" => :sierra
     sha256 "5bdc739addde0af6dade0401a2533c22658154de075613ed4c26301eadb78401" => :el_capitan
+    sha256 "bf32e460bb9bc1893bb0a1ae63c1553a9ebbf56535c1aafdd1b2582f2a1be78b" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
