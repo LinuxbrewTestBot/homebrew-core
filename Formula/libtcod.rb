@@ -9,6 +9,7 @@ class Libtcod < Formula
     sha256 "c9e64cf1266592a440401c31028f97daf076d8bb9ace113a19da1b9c6a01b4bc" => :high_sierra
     sha256 "360839e84034f149f3538be489273274a7db2f3b9020162dc94b9798e31dc402" => :sierra
     sha256 "8728af3c1c018e2586708b66fdf8578260a83c875602ff6e796f96f44ea0382e" => :el_capitan
+    sha256 "935560b6ef2924e0a384a0dad2c541dd02be69d4171009c2baf493f320064d04" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
