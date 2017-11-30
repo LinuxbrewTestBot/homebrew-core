@@ -11,6 +11,7 @@ class Libunistring < Formula
     sha256 "ccc4789699aed620a7f961549e9888a77df38e608cfcff60b5d59b292b9807dc" => :high_sierra
     sha256 "b685813e92dbd3a4eedcaac4b1a87ee3aae00a2dd4cf49cfc8d03cde079fac16" => :sierra
     sha256 "ef72051cb81989e396175cbbf82cde4c62bf8dbb1ef3028c4658af6402ad6133" => :el_capitan
+    sha256 "dae91fe667b1d278cb0c69f508e220bf6d68b2a4419c5ffdaca0ee0378d6b149" => :x86_64_linux
   end
 
   # Fix crash from usage of %n in dynamic format strings on High Sierra
