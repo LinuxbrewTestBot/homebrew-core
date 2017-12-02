@@ -12,6 +12,7 @@ class Log4shib < Formula
     sha256 "4bc1071029e6c9cb46d8ab05079ae9d8dc148df73009db99c4e94dfaab74fe4c" => :yosemite
     sha256 "0d3d2c95cac3b915a3278ea14550eaedd8e12aea205d7833a7266f4121e56a45" => :mavericks
     sha256 "3a5c7a68ba63d929fec53b79f6df2aa79fad75771d33d28b072ffaa49dd49956" => :mountain_lion
+    sha256 "5036867d1dfb30e58d8c870dd0cffd9f91880ef24efc41fe68a1388c6593499a" => :x86_64_linux
   end
 
   def install
