@@ -23,6 +23,7 @@ class Neko < Formula
     sha256 "96f0c125a3269f52d691fa6fe8a9dcbfc0d71dcf949b76acd004631e28ce2d81" => :el_capitan
     sha256 "4d1aa0431be615afa6207a56fecc30a79fe39d1e6e53c7ff84c4f075eda8ddeb" => :yosemite
     sha256 "db1b96e4f313b1d1d138449a63b921e17b4a6bdb8ef8733d7b806bda3272fead" => :mavericks
+    sha256 "10fe361a44d4f61e045ce74df51c8d304f2b80c215cd1f437c599db1d477aa11" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
