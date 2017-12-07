@@ -11,6 +11,7 @@ class Highlight < Formula
     sha256 "728512b1c96963324e3c3a60c9715f5a9de837af518b0413788d6f55419a7d63" => :high_sierra
     sha256 "882957703a9de931919b6911a2699ce25b92626794b4e13c2254a78484663750" => :sierra
     sha256 "0b8c101d8f592b2dd8797003d32b4bb186a0a450a5e109c7b20c1ff63537c745" => :el_capitan
+    sha256 "5fc0877fb31d440da3acadb1d94d6fac8125803b0c53868082a6e1dd155fbc5c" => :x86_64_linux
   end
 
   depends_on "boost" => :build
