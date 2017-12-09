@@ -11,6 +11,7 @@ class Mgba < Formula
     sha256 "3a84cea85a0429ef1e213acd82b31b9eaf95724e39ea26bdc336a899b95c8e37" => :high_sierra
     sha256 "7599ea9e1fe16fc52933760d484a76bc2c9fceebb26279123f995ae140b0633a" => :sierra
     sha256 "5ff36a9a5e0f0e2970045d93970e49f6825a3e718f3308c5ba3c581c96e9c2a5" => :el_capitan
+    sha256 "ceb4887c5aee8b87a2f69c313525bb2a9730274bcec50bc79c50de5d5cf1cf17" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
