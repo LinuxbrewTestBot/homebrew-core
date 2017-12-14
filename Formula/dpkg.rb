@@ -13,6 +13,7 @@ class Dpkg < Formula
     sha256 "4514edf429e5c0ba98d68ee24458e450ee11ddc05003b7c00836c6bf7750451f" => :high_sierra
     sha256 "8a691e148760a8bf970a8dfc4190010e70200a5810a0013c1332f2082f069076" => :sierra
     sha256 "a46a6de14534cc3429261820e3c10d39902196ed64ad290f1d5b55d62c46d449" => :el_capitan
+    sha256 "1081ea3be4dd9cf5f43ed60d9767d8f36d42b2321c1b5b0f05c58cc33194dc4f" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
