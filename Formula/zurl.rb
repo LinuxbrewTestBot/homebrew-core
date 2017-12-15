@@ -10,6 +10,7 @@ class Zurl < Formula
     sha256 "f94e3fbd570a122222ad66c0013b9b3425c5d49ca8f0e082e0377b1b7e6a538c" => :high_sierra
     sha256 "9ebde17a2751ce4b04a0215fe90ffebe880b4e07ab822897b5b8f7e44f4f273e" => :sierra
     sha256 "9deb04a87b09d9805a2fdfd443744fca5e61bcd00c79ecd067dc67c6319ef88f" => :el_capitan
+    sha256 "2636d730127bc01d687e6e3725a91fff788724c3d6858af4d18c177b0503e221" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
