@@ -10,6 +10,7 @@ class Uhd < Formula
     sha256 "09e6e9300165ceb431a585d475584286fd7cb678505f6851bb35c47e4d84ef48" => :high_sierra
     sha256 "c41a4a38499da8686ab1f8f53aad5c0dd83e308ef5a0dd623f26fe2008217754" => :sierra
     sha256 "a74de1f23e1c26c4d490228285878dc436af49dbaf1ff16bc73ae1f5936064cc" => :el_capitan
+    sha256 "3fd38bd063c2fcd1f4ec5f32664d40e7ba470ee64e14fe67408625e1eb19d13b" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
