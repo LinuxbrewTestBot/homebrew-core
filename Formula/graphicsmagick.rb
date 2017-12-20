@@ -11,6 +11,7 @@ class Graphicsmagick < Formula
     sha256 "cd8fda2a82b10d739b945fe36f714fb3477c8e962182012fb233357e3e4da636" => :high_sierra
     sha256 "a5e128edf71e38d6aa068134ef7979a7e67b074b66121e755b3b275b01836afa" => :sierra
     sha256 "7a50cb8bb67a70029fc3491a01a9c084168b7b5b76497b385b04a407bae4e731" => :el_capitan
+    sha256 "be41db4529cbcf3a9bca5cbf490bfe4f3b8483ba96348aa722f8bc4fd9c13208" => :x86_64_linux
   end
 
   option "without-magick-plus-plus", "disable build/install of Magick++"
