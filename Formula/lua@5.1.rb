@@ -12,6 +12,7 @@ class LuaAT51 < Formula
     sha256 "95a10759ef537078d9b262efe260367bef1530a446bcedf0a33f91a327795095" => :high_sierra
     sha256 "841465165c7ceac064594ce3f9086807df0200d5b059094eec8b17cbff9bab45" => :sierra
     sha256 "2e186449f5081079315fc19d3bf455cbbfc0722ab7f10f9d8ac5c3d942ec8a5b" => :el_capitan
+    sha256 "1b4b40bf57a9be87b1ac1ead47cf3b2e3df99f2d4e65ff900fd5b652b215e328" => :x86_64_linux
   end
 
   option "with-completion", "Enables advanced readline support"
