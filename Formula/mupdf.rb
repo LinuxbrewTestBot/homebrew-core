@@ -11,6 +11,7 @@ class Mupdf < Formula
     sha256 "4b9122fa576b3bb24754016fa9dad09113dcbe0fe982cff3341d0f8d718fae25" => :high_sierra
     sha256 "a9745c00b9efe835197f89e973f4b25698567c011aa1fdf3052c586ba3503a87" => :sierra
     sha256 "771078a7ae9a600933d1f38ff80389b7bc158e8aecde9c9c7bf7aecddc75e7a8" => :el_capitan
+    sha256 "041dc90a89a67305967e089552ac99b78aff093a53a2ed300bec5ee6a85f84ec" => :x86_64_linux
   end
 
   depends_on :x11
