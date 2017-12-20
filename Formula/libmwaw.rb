@@ -9,6 +9,7 @@ class Libmwaw < Formula
     sha256 "df8f0b79f09b6fa30a010d892d603ad132b7e3afcd99b4ddb3de18b4b58e9991" => :high_sierra
     sha256 "e819d6a8f20f6cbab7d4cbdb189e2ee3ce1c974e596134e3b80927b6c70ea54a" => :sierra
     sha256 "bdcd4556d74bfa584addfb584b2ebdab04746662955d4d265c762944243d9398" => :el_capitan
+    sha256 "ea6a4dec74c2225004b06bebea5e91832e27b489f424703db5f7641b9a11e190" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
