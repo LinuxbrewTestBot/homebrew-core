@@ -1,3 +1,4 @@
+# weechat: Build a bottle for Linuxbrew
 class Weechat < Formula
   desc "Extensible IRC client"
   homepage "https://www.weechat.org"
@@ -27,7 +28,12 @@ class Weechat < Formula
   depends_on :python => :optional
   depends_on :ruby => ["2.1", :optional]
   depends_on :perl => ["5.3", :optional]
-  depends_on "curl" => :optional
+  if OS.mac?
+    depends_on "curl" => :optional
+  else
+    depends_on "curl"
+  end
+    
 
   def install
     args = std_cmake_args + %W[
