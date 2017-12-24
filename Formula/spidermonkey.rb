@@ -14,6 +14,7 @@ class Spidermonkey < Formula
     sha256 "62193341691f6f35a1d844409c587b431aa7540b70c02d90451e2cb3623788de" => :sierra
     sha256 "5e7789a8ba4e3259364bd3ae827037ba83bf3a076633799bf8f5869b885db399" => :el_capitan
     sha256 "38d1b7f54b5dbdd4a0e28e3a1077aed2ada42a9266cfaddeda6a08d761a2d8b2" => :yosemite
+    sha256 "9ba7ed12129a48954b05a0aa98b4e895fdf9ee6d6b3cabe1270087398659a412" => :x86_64_linux
   end
 
   # Readline support is disabled; fails with:
