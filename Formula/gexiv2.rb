@@ -8,6 +8,7 @@ class Gexiv2 < Formula
     sha256 "54dbecf4ced2c26b385a991800d4ded8b1e088733d80c3a1788060b2a5e87093" => :high_sierra
     sha256 "966fa502c9e0dbf956dcdbc63305dbcaa92392c646754b24727f52a5891aa9ca" => :sierra
     sha256 "68c386108511133de0f88cf9a65cd2305b6935453cd6d29531e770a73e7f5c5e" => :el_capitan
+    sha256 "b4d3230920d033fa8de2741a05b9a3071bb872bb91511c9dc4426881717613ac" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
