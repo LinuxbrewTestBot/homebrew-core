@@ -9,6 +9,7 @@ class OpencvAT2 < Formula
     sha256 "7649a480c1a417585c63931e113069ac41458155dc62ba0f49f482479bef2e67" => :high_sierra
     sha256 "671bdafb37971ad9497f5924daecf8f9e0a7649c615cde04eb8cc278334c8d49" => :sierra
     sha256 "63bedafc181f8ab479787b05b769c85c183dce0359cdc50efd2ef8c90302c2d1" => :el_capitan
+    sha256 "58b6401c2f5cd1c0f3458e8dce616dd08228d0a73fb9124a780932858a24739c" => :x86_64_linux
   end
 
   keg_only :versioned_formula
