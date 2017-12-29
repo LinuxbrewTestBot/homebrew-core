@@ -11,6 +11,7 @@ class Mapnik < Formula
     sha256 "77885b794ff989aad47e813566259ff5623f07284473a07235d23fee9dcd680c" => :high_sierra
     sha256 "5962dbe481cf7c561252d7586bdc945bc26d22734111a766f5836c3d0535cf10" => :sierra
     sha256 "738e7bfd0224044bdf9d194d7cff90754aa7cf0534f3d7cdff7e312264f64291" => :el_capitan
+    sha256 "9123161e62d517b2da57da0ddcb94dd42497fab0d531d47901451a10851be1f8" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
