@@ -12,6 +12,7 @@ class GoogleSparsehash < Formula
     sha256 "8655e0c3b4f4c69e46d8823eef0d8ae2b1397cd2aa01bda3340eb3a84d647b89" => :el_capitan
     sha256 "b8e55b96aa3016ed2ab5a8d53a4bb39b44773885355ec75e80c9d9ef57c3e8b1" => :yosemite
     sha256 "570c4d250a4fe18d99f11167653a501a1d8a82ff74d2413336a85bc7fa8cbb81" => :mavericks
+    sha256 "7b59ab353073ab88845a20e4f326bc92a560fdc3c0b26c9de058c30ed33712a0" => :x86_64_linux
   end
 
   option "without-test", "Skip build-time tests (not recommended)"
