@@ -24,6 +24,7 @@ class Watson < Formula
     sha256 "62605063bef2b4e5ad62c3eb4bb3520ebf8bf8a4cfb4dcee4ffb6f28c73224da" => :high_sierra
     sha256 "63fbe8f6ae89a67ca12b34fb87991e007646737909e6e7fdb8f66184f40eca40" => :sierra
     sha256 "671a0899cdc58daf48eac8b93531f64eb9cbc291c347d274b23e0ae6a0d8d2ac" => :el_capitan
+    sha256 "7a17760246a87cc36813fa8640224ab1edc214e40fff817a2fd81b6e11499ed7" => :x86_64_linux
   end
 
   depends_on "python" if MacOS.version <= :snow_leopard
