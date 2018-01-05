@@ -13,6 +13,7 @@ class Wpscan < Formula
     sha256 "e93c2fa55c6319b06fa73187f91258d43b7f7195d263754b48f55e74a013a2e5" => :high_sierra
     sha256 "675a23f1373ffa03263646f7cfc9e3d51aa2057f9c1597ce1534f8e8a3572eee" => :sierra
     sha256 "469a94fdf86b201508e72fbc3900aed3c82b3891393dda1d7fa5d4e042754442" => :el_capitan
+    sha256 "6d95c2de175c71e4050534cf029f5b4c606caa00888aad0255a276ca36cd325a" => :x86_64_linux
   end
 
   depends_on :ruby => "2.1.9"
