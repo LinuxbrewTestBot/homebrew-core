@@ -12,6 +12,7 @@ class Ghi < Formula
     sha256 "272b4321fe7903188e89d35a4abebf96feb976af905a0790f7c68928adbcfc59" => :high_sierra
     sha256 "272b4321fe7903188e89d35a4abebf96feb976af905a0790f7c68928adbcfc59" => :sierra
     sha256 "272b4321fe7903188e89d35a4abebf96feb976af905a0790f7c68928adbcfc59" => :el_capitan
+    sha256 "b87f0e84b622683ddcc4c7ec9020fc280e0e58c18fc8ef00c358a6e5cc191113" => :x86_64_linux
   end
 
   depends_on :ruby => "1.8"
