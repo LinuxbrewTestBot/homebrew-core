@@ -11,6 +11,7 @@ class Ibex < Formula
     sha256 "94a734be24019ffb5567a0937bf48b1161c53bb0e553f71dac067fc5a24987ed" => :high_sierra
     sha256 "f8a7013ceb439028655d4583790dbd6c68cea179301223d6f40b486d96a6ec63" => :sierra
     sha256 "5cebbd21926601440436cb3a4b7aa860b1400af4e1d23a4903e2311271d50efb" => :el_capitan
+    sha256 "a1537b64499a12c5f79a0ca388a454e364b6c0bb7e7cf68e94c755fe47d9241c" => :x86_64_linux
   end
 
   option "with-java", "Enable Java bindings for CHOCO solver."
