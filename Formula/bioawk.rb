@@ -9,6 +9,7 @@ class Bioawk < Formula
     sha256 "023f5cafaa31404e68b8fc6bcfbeee27e63eb5fbcab897d2f406fceda90ec9ff" => :high_sierra
     sha256 "154d44dd9ea56db8170127711e991950d487e379ae12df76332e4b7512f79fe8" => :sierra
     sha256 "df0810bc087f924cdddcdb73f00faf9772de9475e0e698c7af8a7d036b3a4c91" => :el_capitan
+    sha256 "a07d49e22f1a40df39ff561f21e6c534241c7ff77815a65c48cde505df132960" => :x86_64_linux
   end
 
   unless OS.mac?
