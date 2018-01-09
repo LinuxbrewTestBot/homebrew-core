@@ -9,6 +9,7 @@ class Sickle < Formula
     sha256 "3aeaaa4393148876cc55cc9defbe82ae0fe0dabea18e418413b2aa8cff23dd0b" => :high_sierra
     sha256 "844b063d1496d2a7c7f8a12b2239ae32766a538557d44f712c584a30b9775fae" => :sierra
     sha256 "138b38a20aefc55ec4005ee4c4622ec332cbb13ff4ebc39ff45d91a2c12afde8" => :el_capitan
+    sha256 "844f7c565e7d2cce34318080b0fd4eeb25bcead46fb7ed5c673b54aebdc368c5" => :x86_64_linux
   end
 
   depends_on "zlib" unless OS.mac?
