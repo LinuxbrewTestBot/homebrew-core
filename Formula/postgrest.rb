@@ -16,6 +16,7 @@ class Postgrest < Formula
     sha256 "2960819fa37338ac4f610865b0365e2226dd7f4d0956cfcca738770932105ed3" => :high_sierra
     sha256 "c332f0905eaa2357110e2f144577dd348cbbf18c8e2ca3f8e47cd3bcbb786ffb" => :sierra
     sha256 "557472bb552b83c7c3e13b3df9e9e6f7473dcc91560d53751495f8304d2b59ac" => :el_capitan
+    sha256 "0f974a736666d01d71b45e9de85f50a6e001eb6e42622fb77ef20d20afbf2759" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
