@@ -14,6 +14,7 @@ class Goofys < Formula
     sha256 "d708238d9bb052cf595749580af1706860e81818ea135b9d7de045ed0e21b914" => :high_sierra
     sha256 "1e8cd32b9160837052a9da63e315a85d120ebe6b131b4b85784e03b22da2fcaa" => :sierra
     sha256 "87db731108b8d838376750c335aa98048ad4b8e157b0b1cd0ceec1a151a0c513" => :el_capitan
+    sha256 "2e2e5abd30ab34a09be2acc7d6d9d3dcb52b1137b24b8ce947c112bfcbcade45" => :x86_64_linux
   end
 
   depends_on "go" => :build
