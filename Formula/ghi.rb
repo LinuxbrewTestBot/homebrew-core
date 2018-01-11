@@ -11,6 +11,7 @@ class Ghi < Formula
     sha256 "9289e061f8a249130950ec212042e3d9adfaa96e3591f0eb2d6038c28ff0e6d6" => :high_sierra
     sha256 "d2b59c4b0326bd4d4b2de6da0310e1d5228cc63d57adb9eb37c5f5c5a9471131" => :sierra
     sha256 "d2b59c4b0326bd4d4b2de6da0310e1d5228cc63d57adb9eb37c5f5c5a9471131" => :el_capitan
+    sha256 "9a6ddc8d9c63ba0fe0d6417dae8cbf6b7f53fec7ded853799dcfa6579c1d8961" => :x86_64_linux
   end
 
   depends_on "ruby" unless OS.mac?
