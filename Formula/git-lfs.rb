@@ -12,6 +12,7 @@ class GitLfs < Formula
   end
 
   depends_on "go" => :build
+  depends_on "ruby" unless OS.mac?
 
   def install
     begin
