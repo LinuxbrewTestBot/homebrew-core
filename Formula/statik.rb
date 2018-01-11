@@ -13,6 +13,7 @@ class Statik < Formula
     sha256 "819a49a469b00e66631d51743a295d59cf4e8567709f4e63dac8716c443a74e0" => :high_sierra
     sha256 "9944cc71691db7897031db4e3ed26843d010512f7d99ce4697fbec1358264a7a" => :sierra
     sha256 "91dbf0459165d29270ae656730ca6284e24bfb1776cccd2452949a2e931b7266" => :el_capitan
+    sha256 "d22f9df7174cefa133f515b80251f3ee99393b85829ccf9e077ef4681c0f27ee" => :x86_64_linux
   end
 
   depends_on "python" if MacOS.version <= :snow_leopard
