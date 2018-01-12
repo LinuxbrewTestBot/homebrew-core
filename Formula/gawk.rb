@@ -10,6 +10,7 @@ class Gawk < Formula
     sha256 "506f2f173b24afbf3467a5408a4268bbb749b0eccfa354a8c3a2c3139fd1deed" => :high_sierra
     sha256 "ec83ac264e9a13b6e83bd70e5f0d965e78ba46837244b224d0fae90f7e66631c" => :sierra
     sha256 "5c463865ee87a53bd13b380552a4dcfc4933fe100e2c740586ba69d1eb870c2e" => :el_capitan
+    sha256 "2b778dd1cbe0b95402a70f723f97911778d6c07dc81daf51944dcdfe2893ed39" => :x86_64_linux
   end
 
   depends_on "mpfr"
