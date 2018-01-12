@@ -12,6 +12,7 @@ class Mpfr < Formula
     sha256 "e09cdf149a648968e92fb36f88e00746c9e63424f25738bebddb85904c27ba10" => :high_sierra
     sha256 "ff7915ee0cc083fda9c60d1a6c57686d3c64a06cb688965057072cb8b52bce92" => :sierra
     sha256 "01a35f06478a922f99469c2a98bf4de316a4a1271136941078483dc706a12131" => :el_capitan
+    sha256 "4c5baae6c9f8e4cefb94c67aad7bfa23f5a4096e27f4207e63b111c829cc6499" => :x86_64_linux
   end
 
   option "32-bit"
