@@ -13,6 +13,7 @@ class Mypy < Formula
     sha256 "546f5d3a40a951697a73933dd65fc3892dca6564563c8d0146f277d73466f45f" => :high_sierra
     sha256 "32ead559cb3cf15d1b697c21d69cd964f2c7976b35ae6098cef1076da3164991" => :sierra
     sha256 "830dabd5d2501739775cc4d7fbe00610167680391b6861d8db520b3569065d8b" => :el_capitan
+    sha256 "cc914aa0d01df9ab62bedd6d8af157cac635ecb6f5fb20c79d19e425a761eaed" => :x86_64_linux
   end
 
   option "without-sphinx-doc", "Don't build documentation"
