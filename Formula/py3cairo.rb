@@ -11,6 +11,7 @@ class Py3cairo < Formula
     sha256 "6e406c3d2a25243a94dc431943af690609c05e3c5f249aa92aaf50990a3f8bab" => :high_sierra
     sha256 "6a920f844ddc419ab1606ec5883dcde4591fd10d09df0db00e0c36f7c89c6579" => :sierra
     sha256 "f87c163a44a9600cd6a7cff663d49cac28262c02c71978353c880571f7046283" => :el_capitan
+    sha256 "021391d84d08fc6f6b19b51461f9522c87045b53db6c22b8dd1e728d8ceb8846" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
