@@ -12,6 +12,7 @@ class OpensslAT11 < Formula
     sha256 "6c6b3d283398a443549a7f3df072c4fb0b6053cef4c99245149f44c01e977284" => :high_sierra
     sha256 "b0d78618e300fd5fceb5bf98001d41175bb8dcfdc1fc9239ecfa8838dc7e95c1" => :sierra
     sha256 "54fda601f3bce5881e6b834966eb5f04090d5ed6b150d2efc7ea4e26de6446b7" => :el_capitan
+    sha256 "145566ab99d1926ecb02591ed1d397683f4f1733c0b7f512a7155f5a156ea25b" => :x86_64_linux
   end
 
   keg_only :versioned_formula
