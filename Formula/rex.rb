@@ -10,6 +10,7 @@ class Rex < Formula
     sha256 "887d7eef9979e6b9933ea009fc1c97f922d73ca1d4317fb4636b51b5cf58b5cb" => :high_sierra
     sha256 "f3ff192a1f3b7bdb43434af70d0f7a603d7e7790634b5b479735fbc049014ab8" => :sierra
     sha256 "abb8c9c4549b4c73bfa84de1d5472ee89fb4203ff2abbdba7b98208b349b3bab" => :el_capitan
+    sha256 "56b8972b312e97d3b4983233cbd568f3133f1e343dd808fa5600351fdecea2a9" => :x86_64_linux
   end
 
   depends_on "perl" if MacOS.version <= :mountain_lion
