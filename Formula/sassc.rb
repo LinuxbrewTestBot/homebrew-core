@@ -12,6 +12,7 @@ class Sassc < Formula
     sha256 "f48aaee9afc666a7ac0ce4b341b7e15b4e4d9404a77500e73da3cdfd73d4eaa8" => :high_sierra
     sha256 "bcc4826570ea3b06ce0abbe121c34dceb4bbe63725813141b4609103a4b2db51" => :sierra
     sha256 "25a34fbafc73386346451db63cffdfe2455d22a834a0510ff51d8bec925fbc3e" => :el_capitan
+    sha256 "d8240cd29198afe414a7bf384a544ab664a67929cb1d34c861162df3f2115607" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
