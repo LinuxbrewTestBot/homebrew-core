@@ -10,6 +10,7 @@ class Kafka < Formula
     sha256 "b7cf01a3db765e85c0cc38399348822e7f628c43c36561d42fa241f119c5b0f3" => :high_sierra
     sha256 "b7cf01a3db765e85c0cc38399348822e7f628c43c36561d42fa241f119c5b0f3" => :sierra
     sha256 "b7cf01a3db765e85c0cc38399348822e7f628c43c36561d42fa241f119c5b0f3" => :el_capitan
+    sha256 "607b867c7776e0bceb9434424fbb8620502fc0a46d4b5a036712f5a9c2f0231a" => :x86_64_linux
   end
 
   depends_on "zookeeper"
