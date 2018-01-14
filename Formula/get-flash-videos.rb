@@ -9,6 +9,7 @@ class GetFlashVideos < Formula
     sha256 "f10cc229b19d51ce3b14198ae0337f3b35a3f585d1429872912266f0f8ad11f2" => :high_sierra
     sha256 "eb7a34c33248780113180e4433cb2ac76ac5fe2c048c17c1ffd8e6bc1a6fd3fe" => :sierra
     sha256 "c937b646997ece2cd78677f67c730790d797def5afa5208bb4ef0242b5bbb8b9" => :el_capitan
+    sha256 "c6a5cc338bb308fc218bcd7ae825a2f95f65027c650ea62c4432cf66f6ad2dcd" => :x86_64_linux
   end
 
   depends_on "rtmpdump"
