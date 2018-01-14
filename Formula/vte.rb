@@ -9,6 +9,7 @@ class Vte < Formula
     sha256 "ede19ccc89ee79e3de5f8f150621c4d4fd966e1fab0f251d26ed56087db00a7d" => :high_sierra
     sha256 "3bb0bd706103b4d3744d3013955a7133864755d0df75c6309ef43a33a0526c1a" => :sierra
     sha256 "5c7130cbecd9801ec2acee9190dc02ca8bc2ba70e696419aa6ef7fca10d4847b" => :el_capitan
+    sha256 "0c1d5ec27f9e64a9dee508dbfeea1e2c38707dfe4f2e1731766ed93c4c1d44a5" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
