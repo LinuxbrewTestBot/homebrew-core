@@ -11,6 +11,7 @@ class BoostMpi < Formula
     sha256 "f4787bde14ed2b84468437f54b2a60e140f3eb9f878f9ada7086fd3ce27f6dae" => :high_sierra
     sha256 "7037c8d24185dd079dddd4292859c55d2b149f1753db81cfd04b18ccf42b9b8f" => :sierra
     sha256 "2de5c190fb851c83c8732190ea1411108a6e35b633dea28a8fc393a3888bc2f8" => :el_capitan
+    sha256 "ba47bacae9e78f91fac5f141b3c3c92b89d8b9b1f09da7c1213eab1eaa7dd67f" => :x86_64_linux
   end
 
   depends_on "boost"
