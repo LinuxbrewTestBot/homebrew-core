@@ -11,6 +11,7 @@ class Arpack < Formula
     sha256 "79916ca5fe573b2a4394cfdef2ef29c7a7070728ea9d0001fc1b565d30de94e0" => :high_sierra
     sha256 "cd4f84697d2e170fe14b9be297b1f95282b4f0c5631c2a89240e31a64b06c516" => :sierra
     sha256 "a3fff906ab6a5da67d6e5b770818416d5c609efb217211e77b227895603f7ee3" => :el_capitan
+    sha256 "e27da32dccb5f08638d6f8c63f24fedf58ab266bf1bbc10b4e78bcf4674e8172" => :x86_64_linux
   end
 
   option "with-mpi", "Enable parallel support"
