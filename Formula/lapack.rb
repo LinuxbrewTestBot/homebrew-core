@@ -11,6 +11,7 @@ class Lapack < Formula
     sha256 "707e8bb6197d1e6ed3633690a7b2ec3cff82272c8d83ecb17c8da2dc2a5efb3d" => :high_sierra
     sha256 "4692164cd2b121ac3f609946dbc27b8578c8519c5b6cf1b321c540eb77041a86" => :sierra
     sha256 "5eae00a6afe33f3114e33e9275dbda82182f5131c93639576367bcd44031c8ee" => :el_capitan
+    sha256 "aec57e327dd02b485514864f4c17b07906532f3212489e1d1a8ec8d7a262944c" => :x86_64_linux
   end
 
   keg_only :provided_by_osx
