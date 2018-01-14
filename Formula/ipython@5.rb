@@ -12,6 +12,7 @@ class IpythonAT5 < Formula
     sha256 "62714a025a17e67d5750c6645067bc24e1eaad233f9503ff5cc0b6cac0f641ea" => :high_sierra
     sha256 "be1908e1fafa233d20d1c2564cf0431b7d903e073b242849e97906af2f1cae6a" => :sierra
     sha256 "e1d0f0b1a48a806a5e47bb643b29bf1cf4ed624f78707ab22911169aa5345786" => :el_capitan
+    sha256 "6ec55ff072fe8ee58e8c6849bc80b7e24cf45cfccd22798bfbb52370dde31465" => :x86_64_linux
   end
 
   keg_only :versioned_formula
