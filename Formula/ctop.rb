@@ -10,6 +10,7 @@ class Ctop < Formula
     sha256 "fe0731802788f0950dcba7a4fd2048c6e86a1cf14da29723e42f15eac851214e" => :high_sierra
     sha256 "eb2733da770a3284f3f2db7ee8a66a1675e849426d9c6c5a06866ca162b94022" => :sierra
     sha256 "4ab7beee92e171ed5b723c42e406edb08c0e2c6e292136564b85aaabc11dc458" => :el_capitan
+    sha256 "962315f4c18bf6082448b67a320e6f19cc44b73e5c4b0d47778decb7304fa3b5" => :x86_64_linux
   end
 
   depends_on "dep" => :build
