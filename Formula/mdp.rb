@@ -10,6 +10,7 @@ class Mdp < Formula
     sha256 "847efa4b5df6c24c768a3f13a312b3ece5f99e3ceff8d293c42b2c241e918c35" => :high_sierra
     sha256 "d23b853ad13d7557f7156314df76bf4efcbd40c6cb0afd4ac4d59cb5803bc1b8" => :sierra
     sha256 "d2db9becc3573a975c8da120dcb62dcfc3cbb0f146850744dab3fda4917fd693" => :el_capitan
+    sha256 "eb149ddad2aad1af0daef188dbe8cf9f3e2f344a47b154877462702233e466e0" => :x86_64_linux
   end
 
   depends_on "ncurses" unless OS.mac?
