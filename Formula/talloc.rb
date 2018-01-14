@@ -9,6 +9,7 @@ class Talloc < Formula
     sha256 "01743fa004981e73f9c7ace8625ae5975ede8f4fe2bab218e09b002876d63e62" => :high_sierra
     sha256 "3cde9259d92be99440227670fe1c295d3651f92a1daad6d8fe30038823311274" => :sierra
     sha256 "ceefd04e6ce90d617b7968e1ea0dc0bf5f81c84c70b1bc003f92de62976701cb" => :el_capitan
+    sha256 "bf541a77d6b15ead1f10467db04b3bb792d2017abfc483ccb05f0af8bf7c3e58" => :x86_64_linux
   end
 
   depends_on "python" => :build unless OS.mac?
