@@ -10,6 +10,7 @@ class Gromacs < Formula
     sha256 "fbe26581c8430f11e653030247229c8fce9c0ab86e5d5d38f4829df2f165d676" => :high_sierra
     sha256 "89f40154abdee6cf57dd990b9aa61eb568a2e4dea7d590fea94993d1c52cfd0d" => :sierra
     sha256 "893b2625884d8c4215fbbe9ea279a10b2c8460cf505fe1c530fa5169e1788925" => :el_capitan
+    sha256 "b66d36252d14d60842c60ebcceaeb6923ecfe9e90add40b2ad432cfaf31adfbd" => :x86_64_linux
   end
 
   option "with-double", "Enables double precision"
