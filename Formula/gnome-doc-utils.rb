@@ -7,10 +7,10 @@ class GnomeDocUtils < Formula
 
   bottle do
     cellar :any_skip_relocation
-    cellar :any_skip_relocation
     sha256 "7f90a3db07a45313f84139a416127d24dc37e2e044841d70f643ec53924eecb3" => :high_sierra
     sha256 "7f90a3db07a45313f84139a416127d24dc37e2e044841d70f643ec53924eecb3" => :sierra
     sha256 "7f90a3db07a45313f84139a416127d24dc37e2e044841d70f643ec53924eecb3" => :el_capitan
+    sha256 "e77f8c9e8f74f99ee4a3a90e55c8752a8d7150de1959b4996c09b445682a91ad" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
