@@ -13,6 +13,7 @@ class Ranger < Formula
     sha256 "53183d431e6bcf9cf49a462130fb5e0929a4bf557a2d109c354e3194bfd36cc0" => :sierra
     sha256 "224dce8bf10cb4f29a182e00d8a684a388f5dc1544f427149ee85e050c07a833" => :el_capitan
     sha256 "224dce8bf10cb4f29a182e00d8a684a388f5dc1544f427149ee85e050c07a833" => :yosemite
+    sha256 "845b179a5f92c160c4e77f11b0bc0f550bf9245c3189e488005f25cf8c93dd5d" => :x86_64_linux
   end
 
   depends_on "python" unless OS.mac?
