@@ -12,6 +12,7 @@ class Hub < Formula
     sha256 "6c23abd1255f04855fc1dfb8d44706337b728b5785e5b79f2319637575be93c7" => :sierra
     sha256 "3452a355c8e4ef25714be7105d8946e01319e7760ffe97f7df3fc9dd21c89c76" => :el_capitan
     sha256 "3f116b4c0587ab5d2a87d9d2f013ea058407ac2f9e845461d4970f36548e6be4" => :yosemite
+    sha256 "3537169b856ae2cc7f4932deb8318f71701513bbba8b5948cc89756eef187bac" => :x86_64_linux
   end
 
   devel do
