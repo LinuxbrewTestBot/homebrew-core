@@ -7,6 +7,7 @@ class Libprelude < Formula
   # tag "linuxbrew"
 
   bottle do
+    sha256 "189967ff2af15f82c5e1ca70ab34e332f8c8c8ce0911f5ccb402baaefa39aba9" => :x86_64_linux
   end
 
   option "without-ruby", "Build without Ruby bindings"
