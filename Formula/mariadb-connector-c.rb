@@ -9,6 +9,7 @@ class MariadbConnectorC < Formula
     sha256 "43b657d33bd13473ccd6692e6d33ec6abb01a56891b610e75e0e4db5f6501feb" => :high_sierra
     sha256 "a89b9f6276d8c29b0775883686447cb593d9b2e50c7ac7af4e57870db0652998" => :sierra
     sha256 "4c63069a76d6fe43ebd97654884b06dab7b67782b3776cb49c8b11624ca4ba92" => :el_capitan
+    sha256 "59daa15f03137642deb2a9c26abb7c113424e8bca3dfbec2c2575f2b9800a8ae" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
