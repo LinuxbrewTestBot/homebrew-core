@@ -12,6 +12,7 @@ class Cloog < Formula
     sha256 "9b7cfa81d80f6c2f5cc82353bc99bf0221c033ca1f9364d40becd31172fbb679" => :el_capitan
     sha256 "e6f939ce6727868c72f9110709a6d913a61c6aa55eaf892f3ccac41278728255" => :yosemite
     sha256 "1c0409e0fada65fe5d48651fb05a03f7d2e0078bf6f9cc2d45547d54829d3198" => :x86_64_linux # glibc 2.19
+    sha256 "5da7dd5bae940d65318c0de9b6b9de25b0b581237dd66b61621a7e4a72c7ce29" => :x86_64_linux
   end
 
   head do
