@@ -10,6 +10,7 @@ class Htslib < Formula
     sha256 "8900715ec1050cface2b3921a8085e45980b07282c50794c13a6e0c61d2e1729" => :high_sierra
     sha256 "65781a76f4c67c53695cf99609b0951c832e7ab4703db7f183eae80f3852b4da" => :sierra
     sha256 "9bf6f3fab045f31e497b2e92ba1b2d7f54d4138a8519393b87f45df6f608751a" => :el_capitan
+    sha256 "12a46ae703dbf7113d8384f66abc60b43357975cf7be63ed66128d874e0cec1f" => :x86_64_linux
   end
 
   depends_on "xz"
