@@ -11,6 +11,7 @@ class Sqlite < Formula
     sha256 "b6fe12786c578292ca438c4b2566057c920440b1a67bdb9f3d587e9934b2882f" => :high_sierra
     sha256 "1991efa6bad8e34d3622a095b2f0a2af5bdc0753c76a8e08958eb401ff5a546f" => :sierra
     sha256 "acca504cba184af8c8d7c0ad3eedb6d3bbb534ff372bd8a1785152ae0ecb9d37" => :el_capitan
+    sha256 "e3536fd6150f5c8721b406cb85d79c3383eb53e665289e28b0ea0aa407a4ed94" => :x86_64_linux
   end
 
   keg_only :provided_by_macos, "macOS provides an older sqlite3"
