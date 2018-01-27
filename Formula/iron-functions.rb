@@ -10,6 +10,7 @@ class IronFunctions < Formula
     sha256 "0c7b0ffb269c9f977cd2c10d7bd838257ff49ebf9bf99967deda27cdcdc3420f" => :high_sierra
     sha256 "9a2edabc008d14c1eabbda2cb0c1368a39b69f842d78f2b9fb0fd25d50cabeca" => :sierra
     sha256 "874a0fb12f7aaca58e8da405a0930cb108fd505a547355ac4bc8ddceec083816" => :el_capitan
+    sha256 "d83e7c0c4f71fc82044b158b74fdcf14e95447ac49881f8c245e545eb6537abc" => :x86_64_linux
   end
 
   depends_on "dep" => :build
