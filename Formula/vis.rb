@@ -20,6 +20,7 @@ class Vis < Formula
     sha256 "3ae7e1e1213928f4c6fbac2e24c797ac69b0c711cc29011ceaf515a9ce9dd39c" => :high_sierra
     sha256 "c8c60ae96962570361c5a7dbaf3aab5d3ea408d9560d1b007d2b11c42316d8d3" => :sierra
     sha256 "9668e33187b9a55dfc67bcf39604d7bc9559fa1bd0e16fa7e33e1772b45f3afb" => :el_capitan
+    sha256 "f4ec7821b9c9da0fc5105e9d318d724c6302aa19c9ae64914f60563f9dd6cbe2" => :x86_64_linux
   end
 
   depends_on "libtermkey"
