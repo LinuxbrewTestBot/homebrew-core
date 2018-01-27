@@ -11,6 +11,7 @@ class Superlu < Formula
     sha256 "ea56d9279bc469e4883304e8a3c7a78500e7ad767c2e9e756043e8b382f2f6df" => :high_sierra
     sha256 "bf92da15ea05a65a0079658c7e1ac337c2f53fd82351817bc44e159b08bf289d" => :sierra
     sha256 "0e865bc43b87f76ea4ae55d7b55460e8ea46e3606c8840baba2b1e0e57d1e605" => :el_capitan
+    sha256 "b802873f78079ca283f9ffb0a2822b5579f5abb314523f989a200febce19c2c4" => :x86_64_linux
   end
 
   option "with-openmp", "Enable OpenMP multithreading"
