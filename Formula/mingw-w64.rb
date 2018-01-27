@@ -10,6 +10,7 @@ class MingwW64 < Formula
     sha256 "263eedfa805ef8e53ae365f303ddacdeecba759630bc60fd6fa6fa1fba583293" => :high_sierra
     sha256 "56c84c7ad3d5a2a2858eeb79f33eada75488107c352252f5533f5e805d175d74" => :sierra
     sha256 "91f92b16c39d0afebef40845c5b6aea9d4ad95165afef8024c2e1cd768d43ad0" => :el_capitan
+    sha256 "1dc70f6cb921c9536afc518d1b3dcc3db99f298dfeab0d678f76e8688f694031" => :x86_64_linux
   end
 
   depends_on "gmp"
