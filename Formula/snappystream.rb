@@ -11,6 +11,7 @@ class Snappystream < Formula
     sha256 "93bfef130708be8e52485c4beea0524bbc89cbc2a076d2d456b10dd3d401136f" => :high_sierra
     sha256 "43253ef9ad617662532e7da29acf8721552a69733367043fa79c534db3ec5417" => :sierra
     sha256 "a43cdc3438c25363ee6d98c85bce3a777c07860265a5a120789eff46da1c71ec" => :el_capitan
+    sha256 "b16369ba17eddddd180a2400bfa268df4cea8f49a8c940ed3ba894239a943c9a" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
