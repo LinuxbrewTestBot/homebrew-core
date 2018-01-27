@@ -9,6 +9,7 @@ class Dssim < Formula
     sha256 "cd9660967e876f49480ae7f8f1486ebd7f752edf2a22621b03f2b6bc8bf07f73" => :high_sierra
     sha256 "923949599d0070fbe2c6938f5847ed6df69097921897ce118d7e9cc8ef48cb40" => :sierra
     sha256 "34f0204a20f42a08c375b831669e8fdf8b2a8e54a77298f5c35a75403b1c69c7" => :el_capitan
+    sha256 "1acbdbfac7b637ab87ac8c8f488d09f9761484998df8b0d12c11d93f93bd57b5" => :x86_64_linux
   end
 
   depends_on "rust" => :build
