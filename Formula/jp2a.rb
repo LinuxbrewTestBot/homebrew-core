@@ -12,6 +12,7 @@ class Jp2a < Formula
     sha256 "2d5c4358454d3fa29f6bf4ebb9f43992f7fd0fd68f9161476ae2cd79f51a652a" => :sierra
     sha256 "ff1455c705893442d357efb79b275c6337b24a9e11c959e38f06df5cde4367ae" => :el_capitan
     sha256 "2a175fef16afed3e74c834ff250f0278eedc60c4deb0296e62f073954605d97d" => :yosemite
+    sha256 "553b3479ae0dee9a8546a10db8f8f6ce04efec18731bf7b7bfb13c5bd5d1ab48" => :x86_64_linux
   end
 
   option "without-test", "Skip compile-time tests"
