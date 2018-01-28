@@ -11,6 +11,7 @@ class Fourstore < Formula
     sha256 "e19d98e6be69d8f75483403714a639cf21976a9d21b1c10252f5798049690581" => :el_capitan
     sha256 "ce5b35020141bbe67afde2d1882ba39cdb00da479d64a833004d0688e9537581" => :yosemite
     sha256 "b2ad54ba983117388e256212e55ea67e4f9548c0c7d0d1c1b8a420ac025b5f10" => :mavericks
+    sha256 "6657d873485e29d62bab41c8bf953473c0f959e57ed40e07af6f2425be088351" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
