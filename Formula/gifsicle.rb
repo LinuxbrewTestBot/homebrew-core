@@ -10,6 +10,7 @@ class Gifsicle < Formula
     sha256 "4be5faaf5e718e1838142cc547555c4e131ab460dc5f5f75fb7b1e539c28f69f" => :high_sierra
     sha256 "3a83d1bded9e8ffb909671c6bd2caf0a30a2e7dfd051335f8659f7cc38c93ad9" => :sierra
     sha256 "882e8c483f52f5c4e698381697f4e1a2e7fca2c7c1bb2daeffb6316397945931" => :el_capitan
+    sha256 "019c05bcb2e59b1cb7bf48811e7c42b7481f9c2b59acfe23ddfc4c5f4b9e5d86" => :x86_64_linux
   end
 
   head do
