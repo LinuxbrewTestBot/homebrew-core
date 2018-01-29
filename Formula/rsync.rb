@@ -11,6 +11,7 @@ class Rsync < Formula
     sha256 "1b023b82b13c5afaaf0ef980465b660c7a3972f842b2a73cbb2fe541d0a7d210" => :high_sierra
     sha256 "e33f81c60ee6abe14cec39696d5d7c0d1384fac41fe5d2ca0b8b65db006d637b" => :sierra
     sha256 "b25d1d738aeb8c9964ade0962f84f47e8818be89bb476d683be5e4fbd7770c64" => :el_capitan
+    sha256 "2e878ecd7e249fb1cb77922abbc7ddefe3afcea3c2e5dd8e4b39e80aa107922e" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
