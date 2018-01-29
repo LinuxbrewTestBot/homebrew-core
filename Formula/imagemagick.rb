@@ -11,6 +11,7 @@ class Imagemagick < Formula
   revision 1 unless OS.mac?
 
   bottle do
+    sha256 "0950dd7f8fdb5dd1e82b32031bce9103a719a9333cef07dccf96efefe8fefdbc" => :x86_64_linux
   end
 
   option "with-fftw", "Compile with FFTW support"
