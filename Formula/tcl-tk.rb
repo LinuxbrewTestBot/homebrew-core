@@ -21,6 +21,7 @@ class TclTk < Formula
     sha256 "cd4dec2b564dcad86b151803c852142366bc48ec1b13d48a2e495c83fc32a688" => :high_sierra
     sha256 "96144fc3d7eaeec6125ff9f534f0aa21b61b673914dd8cb4898b10ca0530d90e" => :sierra
     sha256 "79222749d221013eb7d1fb529ace13293a819b43d6633b964d1f8f318ac66f33" => :el_capitan
+    sha256 "59c148a048b394063fae64f19548b4c8ee4f8ad17f81d2fea536a5ac086de4e4" => :x86_64_linux
   end
 
   devel do
