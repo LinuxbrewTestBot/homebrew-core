@@ -9,6 +9,7 @@ class Pike < Formula
     sha256 "9b3c1d8c9a1eceef90ce1bfe78137b0ccd726ec5dfc12f9746a471c5e855f92a" => :high_sierra
     sha256 "c8abc1e8fcc26523b257cd2144c22a27ed6063c07e33193c70e3d0898c94fa86" => :sierra
     sha256 "1ecfea274c44b5d087003b51acb934c4c3cc8494667cbaa4f6d57c1e919a2e20" => :el_capitan
+    sha256 "0f75c9a865a40ed1225727a7db1373f36f7d7c867cdc30dbb36de0cc11c17917" => :x86_64_linux
   end
 
   option "with-gettext", "Include Gettext support"
