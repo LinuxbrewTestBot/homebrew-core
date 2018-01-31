@@ -10,6 +10,7 @@ class Libtrng < Formula
     sha256 "c6ed745a330d0da3123467cb19dd6f4c8f6871aed54b4f6addd813271599a2d6" => :high_sierra
     sha256 "54e596853cd0ea1b49dd62d0d3fc5f559063572a6f19e3fb26ef09ed19a01564" => :sierra
     sha256 "e821f8b59abe5f15689ac8720539bd258eab64f83ecfa6047406e4c11884bdef" => :el_capitan
+    sha256 "a8fe14c80361976b8a05b7b9a5e1ccbdc0b88b4cf0d44ce50f4b190d047c8c14" => :x86_64_linux
   end
 
   def install
