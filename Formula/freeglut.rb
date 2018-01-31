@@ -11,6 +11,7 @@ class Freeglut < Formula
     sha256 "ac029acfd40b4c4381dc241e1e0ad94f950cd05ed7c76348e5550a3f848d0152" => :sierra
     sha256 "e3f9e0796917b54055f737677324560db1ffd849c415a1a40019598383671139" => :el_capitan
     sha256 "c2816abf98614e8bf4fc1e6fb65a10d637bf1b85659cf7e9e524bee4d46b3ebe" => :yosemite
+    sha256 "cec00d93fb08f9b3883f8fba3d0c2e5b46c84e29108c151f41083d2664c1f783" => :x86_64_linux
   end
 
   depends_on :x11 if OS.mac?
