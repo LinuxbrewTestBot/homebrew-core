@@ -9,6 +9,7 @@ class RakudoStar < Formula
     sha256 "e90c8e08dc6236adbef651d7767fe9230c13cceacee39655707fadc7c92965f4" => :high_sierra
     sha256 "7fafda1950b60283b2b85b607f2251e42917c727775d7c47cdeeed5feef2fe87" => :sierra
     sha256 "c5bf17dcfa36cd061fc70b7a5a5ae7e46273ecc87d84bdf65412f98105da135b" => :el_capitan
+    sha256 "a75bde9f83dae31f46cd6b6955cdeedf39736ce421b1395ba2fefa7717c3ad13" => :x86_64_linux
   end
 
   option "with-jvm", "Build also for jvm as an alternate backend."
