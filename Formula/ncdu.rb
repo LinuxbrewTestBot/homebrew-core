@@ -10,6 +10,7 @@ class Ncdu < Formula
     sha256 "5db180d05ce0d3e8571340f69916c5b867a9ad8f600873887881e692d6f7d333" => :high_sierra
     sha256 "17c8904b40c21d0fa8e1f9f5b7d40817911b34c1fc3f92360b98f6d43470a736" => :sierra
     sha256 "8a7eb78e5d778b71d688f1f935b775a7f55fd9319d1cec2988b809c359223a65" => :el_capitan
+    sha256 "af28f2efa7d0892fcecb21050f1b6556ec28c40fba3b9457b225e225ed0dbe3d" => :x86_64_linux
   end
 
   head do
