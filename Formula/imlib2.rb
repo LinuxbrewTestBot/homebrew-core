@@ -11,6 +11,7 @@ class Imlib2 < Formula
     sha256 "8ee074fbc1fa4ec9b48151518cc4dcfaf02ad15a9001288f636d94684e7172a1" => :sierra
     sha256 "139bf652a1e3b056f9100d33adeab3a576cd87cc86e7d7566cf1acadd8638fda" => :el_capitan
     sha256 "c817b22453401f614d195af1009aaa3a94d0e5c08db2d4ef34cf76a1c74720b5" => :yosemite
+    sha256 "217f9cb06b4388bb2b365eaf6783b1b963a84251e1cdbdb6f0c7f578520c50d8" => :x86_64_linux
   end
 
   deprecated_option "without-x" => "without-x11"
