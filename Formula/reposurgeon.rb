@@ -12,6 +12,7 @@ class Reposurgeon < Formula
     sha256 "e466c365599128dd3cf22a6c0b825d198bc3aca9b0ffa2363405e8074e355d1d" => :high_sierra
     sha256 "54469dad50f8885739c659201f77b49b224de6e09dd4fbb558ca33f85caebc9d" => :sierra
     sha256 "eb28acb491ef786f599c664e41a908ebc08b04bfe32362c18c6e76b6e1a958d3" => :el_capitan
+    sha256 "37b065ab9c370fb2a45439b46daaca6dd8ba0e811e1619c6bd18913e3fb947b7" => :x86_64_linux
   end
 
   option "without-cython", "Build without cython (faster compile)"
