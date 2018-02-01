@@ -11,6 +11,7 @@ class QpidProton < Formula
     sha256 "07eced3f64068e9560817eabd189d208e38ab6ea44ef4098085be81ae2e3bdf1" => :high_sierra
     sha256 "c347c628dbceabb09865dc06f525d655bfd2aa3eea7ee827de8e82636ba8daed" => :sierra
     sha256 "57e79c5c3320e85b290a535b8c36c9044ffe7925adf00242864593ff7cea8a99" => :el_capitan
+    sha256 "12f17fadc22ffcc35cde7a147a32f2101a66415d0fee239b6259b97b6d8c9c2f" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
