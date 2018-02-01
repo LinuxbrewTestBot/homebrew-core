@@ -9,6 +9,7 @@ class R < Formula
     sha256 "49f0c4d16ae8ee11cbb06da9d2ed10371e3d1099117f72b0850ab3a47d88c514" => :high_sierra
     sha256 "d4cb1268d6adeb1ee6be0e85b7f1f257277f3fd9666f3a9ab0e1b24b216ce2ab" => :sierra
     sha256 "361c2934f40bc20fca7e0db3c25291095155a473c663f64a0b028f9dd7c0940d" => :el_capitan
+    sha256 "a9bf233d66c0973bde67bebd9fc6dde8e5ab4698c0ee7c3b1f7633cb43193951" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
