@@ -10,6 +10,7 @@ class Python < Formula
     sha256 "783739edc153fa49d624f80baf543404e39aefcb137896f716fd39d0f8a40101" => :high_sierra
     sha256 "ff784eab3e8072ae8a1e3b7b51e932f905a39a8d65cbf500f27a844cfa1e261a" => :sierra
     sha256 "8853f6910125020b4cd92bc02a24df157981a78c727786e60516337beaf23c9d" => :el_capitan
+    sha256 "2e74ea7f76fb46da5eee27a0a81be2089687db98c601841fb3b29d1a02ee963f" => :x86_64_linux
   end
 
   # Please don't add a wide/ucs4 option as it won't be accepted.
