@@ -51,6 +51,7 @@ class Bash < Formula
     sha256 "4e08c7b4c14a14f36ad31973000bbae32c3ed1142cbff163728d7ceeafb2ae2f" => :high_sierra
     sha256 "5b0f264577b01c63809f1cb7adc9552bef33649b91079d727c64c15e7ee17867" => :sierra
     sha256 "e3f7e5dc17fd1650e3800599faf932929370a7e6e8b30f2cbd2c5cb310ce8e40" => :el_capitan
+    sha256 "82c5c8bdaa45c4d11a15482892ef61217e5b1ee750dc4c53e8e0665a92cde3fc" => :x86_64_linux
   end
 
   depends_on "readline"
