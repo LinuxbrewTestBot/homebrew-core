@@ -11,6 +11,7 @@ class Etcd < Formula
     sha256 "a6253c3272ed3ccefb2b2f14a7ef8e361ebcb8cca6b08bc1fd994d8a4e4af717" => :high_sierra
     sha256 "300731adbc3cd123bf8555613d9ee25fc9b7dd2e9e3bb544ce70c8d80fb3fcca" => :sierra
     sha256 "f0496124457290e0fcc180e5ffca3cea89e9cba06ecf1fa1aad851e25ebe61ef" => :el_capitan
+    sha256 "0ce3b774c24fc9e4a73fdb567c618578fbdf39f296ce09cc849990e8c4c04a9d" => :x86_64_linux
   end
 
   depends_on "go" => :build
