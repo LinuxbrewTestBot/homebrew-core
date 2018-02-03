@@ -11,6 +11,7 @@ class FuseZip < Formula
     sha256 "5519d07b34a5056ece68746b2592c2075f0faba70a8d04e1a89e2ad7784c01b6" => :high_sierra
     sha256 "bfaa54f69e164d81d88de6d1fb3773e856238e888a7ac29c13d8dd079827d8f2" => :sierra
     sha256 "4863009cde422f20c4a91e9c0d171b88c26862f0f23cb43257e9a7a0cb71cf80" => :el_capitan
+    sha256 "9da8df312c7994c1105e4c18beddde0107fcd660bd8727e3009d6b943adc70d9" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
