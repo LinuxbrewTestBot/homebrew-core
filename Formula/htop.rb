@@ -22,6 +22,7 @@ class Htop < Formula
     sha256 "4e65d1d92ef616935ee5b6e498e05ad92e733ced3a41a408c2b30ce7a6b5a1ed" => :high_sierra
     sha256 "4e9fe44dc41ca415f3465b8445d06df7ed319ca50522758dc44298daff9d9de5" => :sierra
     sha256 "adf2b63b4fa6d96efc9cfb7c5726d14f5b70a6f38c8e7cea38e0befd26c6ca7f" => :el_capitan
+    sha256 "fa213231cbace1bbde83b1ff2c2c97b121a2ae726a81b18bdc60b2b618b5780c" => :x86_64_linux
   end
 
   head do
