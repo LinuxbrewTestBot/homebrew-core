@@ -9,6 +9,7 @@ class Nginx < Formula
     sha256 "e1234c15637ba146b0d351aedc6f38097dc76caf68a92f507079f9ff0f939f81" => :high_sierra
     sha256 "41c8836c0b08d576fb2e858faf6d25e8f1044fbd4d9cc7f3a911078b77b631de" => :sierra
     sha256 "d0ecb4f4589b54d80a1824a6427fb60e9a5b8447879b301e94a7793dc9195d37" => :el_capitan
+    sha256 "e2026b520dc74cbee614de59f2ece7850bc7057ff300920e5330c91ac6e1b722" => :x86_64_linux
   end
 
   option "with-passenger", "Compile with support for Phusion Passenger module"
