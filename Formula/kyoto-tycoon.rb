@@ -9,6 +9,7 @@ class KyotoTycoon < Formula
     sha256 "7be4c6e507a1d8a1d526c82c11dd41b150806211c48388ab9a0dd790875fff79" => :high_sierra
     sha256 "55a2e33c172afca9880553097beef413abce0c2f913c0ca1aa20ff5873732d14" => :sierra
     sha256 "33d857c99b29a62a42965ebd5639990cdbfeb3584adee249caff81ab0cdf4328" => :el_capitan
+    sha256 "719e0bf6552fb1b9a5cdaf60a99e4fc020e5d621f5ab77baa1e32aaacf4e9dbf" => :x86_64_linux
   end
 
   depends_on "lua" => :recommended
