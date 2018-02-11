@@ -9,6 +9,7 @@ class Plzip < Formula
     sha256 "af30afb47c2eb2b2392c4402fa4deaeb505d34bc1a9dbd31d25fed666cfdc6a9" => :high_sierra
     sha256 "4461870d7a81404b53b7aae5d73180cbb3677bf65e2b815808311ad0573e5494" => :sierra
     sha256 "69b750626b5cdd03b7b2c6b6e260d8ebe5caf99e2a712503743c085baece4d8a" => :el_capitan
+    sha256 "51f1b357bf94b70131a331e73196a4d7720fb1387c764e021274cd36df9f67d5" => :x86_64_linux
   end
 
   depends_on "lzlib"
