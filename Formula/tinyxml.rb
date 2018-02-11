@@ -13,6 +13,7 @@ class Tinyxml < Formula
     sha256 "4b1df9cb229b04f9968621a52737d96e86fcd6c2ad8904ae8a5c324347845f50" => :yosemite
     sha256 "75f79bb5d502e7be74de20e1cd3e3dcdd4702b37ef7de53d9d9a546a51776b50" => :mavericks
     sha256 "2db8d34dafd503a2982dd9ca5ffb4a2a2740e0eb78195933cb121dd7b7836728" => :mountain_lion
+    sha256 "58b44f9ef1275fa22bd9d907a2f4bb59d8de971ff514664c3e7157ebc4ac944d" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
