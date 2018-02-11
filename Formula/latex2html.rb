@@ -9,6 +9,7 @@ class Latex2html < Formula
     sha256 "85d6f0725f609bcb997296d58304a466b8a0ae7a21440953f822feea0b34f05f" => :high_sierra
     sha256 "f1ee587fcf18d7c94eff2e0cc377e255f7a6c3495558438227e74a51d66a71d8" => :sierra
     sha256 "484dc0ebe2273a16cf1f35bd76a1ef551eee16406fd5927d551c86a7a788212e" => :el_capitan
+    sha256 "730b901c189a8998359d5e0325b4f6a1c85553d4e8d1a84ffb7c714408d27258" => :x86_64_linux
   end
 
   depends_on "netpbm"
