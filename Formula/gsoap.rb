@@ -9,6 +9,7 @@ class Gsoap < Formula
     sha256 "50a1e4b55d84cce7c692f860eded7b2f98fcae468ed0a9315841cd9df862df8a" => :high_sierra
     sha256 "8bfc18b2779afebee904dc39be4e2e86ddc181ed147956b45f7043d4b565fca4" => :sierra
     sha256 "4e6647382b0efd6d54f3e2bb4f9ea4a9ebcbc6b35d40eab8b38bb690c55e89a3" => :el_capitan
+    sha256 "6d3863ed1e52d9a29eb766580661ffa5b57902880e764be4461c2838b5e8c622" => :x86_64_linux
   end
 
   depends_on "openssl"
