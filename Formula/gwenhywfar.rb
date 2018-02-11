@@ -9,6 +9,7 @@ class Gwenhywfar < Formula
     sha256 "81c996539bd23f29dc887f30a2f264baa54adf0be256317c4135cec2b57b1959" => :high_sierra
     sha256 "c8fc46ae0ce6ff352b770a098121dd8b9f21e65f53737ed76baa14a519f31a72" => :sierra
     sha256 "054415540bcac666970e001732560e697d84f6c8ec7b7a3ca0ca4ac19e6a2a13" => :el_capitan
+    sha256 "14b84159e3ebd0f767266ffd64f3363d7dc6e21c6637d645a71aba331904e81d" => :x86_64_linux
   end
 
   option "without-cocoa", "Build without cocoa support"
