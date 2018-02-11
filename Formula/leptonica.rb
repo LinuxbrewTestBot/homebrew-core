@@ -11,6 +11,7 @@ class Leptonica < Formula
     sha256 "24f90d6a77ffef528c184679663017f551fbcd6202bbe79462960b71944d8583" => :high_sierra
     sha256 "fe32cc6350f6e26392993b4dc02d520b9aa27d43117ae0e8c349cc0a02baf5a9" => :sierra
     sha256 "d7338b13bc2cba7f15ff73a92f2e868aa5f57141edd043fe48384cb3dbe873ad" => :el_capitan
+    sha256 "0fffe3b65950f96f129db2fc07acb43141286887636c645a1e5245a0c2d07a9c" => :x86_64_linux
   end
 
   depends_on "libpng" => :recommended
