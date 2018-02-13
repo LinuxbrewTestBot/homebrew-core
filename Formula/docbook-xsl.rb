@@ -12,6 +12,7 @@ class DocbookXsl < Formula
     sha256 "ae0cdc12fcfa0b8a1c4e72532c4bf49697de862017f5a5820093cdd26ac24e06" => :el_capitan
     sha256 "4390c7e9a0e06aeb05cc950b04991bca819279e1ced05763073b65860867a9a5" => :yosemite
     sha256 "b6166ebd526d11e436d6138d53160774b5ff95c5ff5fe5cd34841185d7529855" => :mavericks
+    sha256 "7fcbb1110e8c03ae1504195f3fc96b6692a3bc15b8b959024715654bd4eeb686" => :x86_64_linux
   end
 
   depends_on "docbook"
