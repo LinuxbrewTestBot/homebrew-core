@@ -12,6 +12,7 @@ class Gettext < Formula
     sha256 "311475f36f3fd314ae0db4fb52e4ab769f62ded6c8c81678ad8295f41762e4ba" => :el_capitan
     sha256 "ca8fe572e7c8db00bb1bdfd66c379ba4a960927f4b829f47f9e2335c51dc7376" => :yosemite
     sha256 "e3091192716347fc54f6e8a8184d892feed5309672daa061a1407b071af80c05" => :mavericks
+    sha256 "2f7c8ce5517ede83ad930e05e758cc330700e72c715c647540ffb122057d1109" => :x86_64_linux
   end
 
   keg_only :shadowed_by_macos,
