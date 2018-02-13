@@ -14,6 +14,7 @@ class GhcAT80 < Formula
     sha256 "9184f9147b526c425fd14498dca9fa1550c563857291c3c5ad616c6e5e521e47" => :sierra
     sha256 "be71492dc8783027300be80d8554bf0a239ba53991002094dc11c5d982f7294f" => :el_capitan
     sha256 "715e6fd851a5044e1ccaa812b12db136cfa96c9b6e118893f93d92c625040e95" => :yosemite
+    sha256 "caff07c30d86ac27cda928ad803f732099d0e0c632a1f485b3226b499d756510" => :x86_64_linux
   end
 
   keg_only :versioned_formula
