@@ -9,6 +9,7 @@ class Gdnsd < Formula
     sha256 "bf4053d2306f90916017cfd77f306268bf19937df83e49766159b081a3583fa2" => :high_sierra
     sha256 "ad45aa5508ea114581c2f3c6476b5be424fe78451ca717464d5555c5bbbe4cb2" => :sierra
     sha256 "e5fdb09670335c84e9223a7170613b565b8dc46ca4629dec994c83a3beda768b" => :el_capitan
+    sha256 "969ee8002fe3000fd5d4bcbb675d3c92b8592fd45829e285c4a7632d13dc3d97" => :x86_64_linux
   end
 
   head do
