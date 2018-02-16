@@ -11,6 +11,7 @@ class Googler < Formula
     sha256 "e4325937b3b156751c2ee51aed335c455f63236e45c38b28b079818a9a01c4bf" => :high_sierra
     sha256 "e4325937b3b156751c2ee51aed335c455f63236e45c38b28b079818a9a01c4bf" => :sierra
     sha256 "e4325937b3b156751c2ee51aed335c455f63236e45c38b28b079818a9a01c4bf" => :el_capitan
+    sha256 "2941e0d6ec88bc7646029b9b79ef7c2e07afc565b00cc8599d7fe28704d889d4" => :x86_64_linux
   end
 
   depends_on "python3"
