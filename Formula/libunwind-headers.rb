@@ -12,6 +12,7 @@ class LibunwindHeaders < Formula
     sha256 "308e12c8084e3dd179e322320d45b7ebf3393b284cbb6a5754ccde9e577ad90e" => :el_capitan
     sha256 "0a920420880c1222c365fb886eaf0cbc215529e7a7be39280520dc770386fe75" => :yosemite
     sha256 "2b4ae1b1a438269ae833a52e73cafd6357b0d30dd5e8eb33ef29271cdc259f7c" => :mavericks
+    sha256 "fffaa8d5069f3f766b035957872195cf96af0822fad701efe34ce8be95d86640" => :x86_64_linux
   end
 
   keg_only :provided_by_macos,
