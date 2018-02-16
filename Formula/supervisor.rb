@@ -12,6 +12,7 @@ class Supervisor < Formula
     sha256 "de602ba5a4d850c369a1cb9f7275044babd776b21aed0d028e87b68e68dba2b4" => :high_sierra
     sha256 "432c2afe07eecfb03c4b8268caa0898b68cd7af5bf6364ae71d054e805842905" => :sierra
     sha256 "dfae5fc72acbfe08f53222ee70fa34259c29a46927272f1af8512c010acf02df" => :el_capitan
+    sha256 "ffdd8153fbe3a52667e12009f8ff7179d424a21bc782c320b23141097ea0a513" => :x86_64_linux
   end
 
   depends_on "python" if MacOS.version <= :snow_leopard
