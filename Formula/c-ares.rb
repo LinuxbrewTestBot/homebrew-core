@@ -11,6 +11,7 @@ class CAres < Formula
     sha256 "90ff616a7b816ce090d1319e541ad45d7b515c2787007d10b7eace9601fb2396" => :high_sierra
     sha256 "82c529566254c10dd71d09ae23281cf4a2c75d16200cc4df6d406ddecde5ba16" => :sierra
     sha256 "3c9943c455dbb8a0f641f78fd93dec6a27937494021b8f94f1bfe381ded46ca3" => :el_capitan
+    sha256 "426747362488bca54ad51996ce1e080dd86539090aa32e14848a4bfd323bb7fd" => :x86_64_linux
   end
 
   head do
