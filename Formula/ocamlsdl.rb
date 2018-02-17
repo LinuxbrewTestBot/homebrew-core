@@ -11,6 +11,7 @@ class Ocamlsdl < Formula
     sha256 "8313d585edbdf92234128947a792ca26e2a0d2181d83ce1c2e90bc6c46d97f03" => :high_sierra
     sha256 "8a40a90601e1f63f0a6ec5bf83cb5e78d401f8bd94bef4f5c2ca48d881bc961a" => :sierra
     sha256 "6cd7f7cf05819e1109d24a678ee2f21a742c8f743a3d23b56a80e2b8897ead98" => :el_capitan
+    sha256 "6f7ea676f23910189feb2227177bc67aec7cc0851b7cd1f4468d19526dc37dbc" => :x86_64_linux
   end
 
   depends_on "sdl"
