@@ -9,6 +9,7 @@ class Opendetex < Formula
     sha256 "39f296a67d7bb776673c7bf967612c0978f3d9a9bae6f96604e8ac1e18c76cbf" => :high_sierra
     sha256 "a5e9edb249ef5d97a72afaa586effbdd4ef7b48ff4b1fb0d0078615849bbea27" => :sierra
     sha256 "4cc67ed6010d4b4ac0c0df288af9fe66e55ab7446a297b1fa65bf5e78c7d769b" => :el_capitan
+    sha256 "5ba7f261e7e22ce61f5fdf8beb7353f8203a33df7ad550933ed8baa031ff7906" => :x86_64_linux
   end
 
   depends_on "flex" => :build unless OS.mac?
