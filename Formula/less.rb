@@ -10,6 +10,7 @@ class Less < Formula
     sha256 "edec3486e523a601dfe978a8a9524c8cef7a161c8e892d3154cd578623e866a7" => :high_sierra
     sha256 "10c47d26e0f2e1f9c2e46a6bd61b2d07e1104caaa58c188b4b81b7fe0cd948d1" => :sierra
     sha256 "0e98c6e82ecf7adb2d5288f3f4913ffa238469438b325211adf56eff9b260876" => :el_capitan
+    sha256 "0e7a208c9ca5aabee9780e4027ad89b13af613c328da62ab112b09eb437e4aae" => :x86_64_linux
   end
 
   depends_on "pcre" => :optional
