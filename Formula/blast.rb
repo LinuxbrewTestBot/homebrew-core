@@ -11,6 +11,7 @@ class Blast < Formula
     sha256 "13e0286489e2b28adbe3fc6ef82a26f3e081b44a0ce99f3212a0c4d7da981b3a" => :high_sierra
     sha256 "a868633034dc12160109ee44e5415577967e2ceabaad3246881abaf07c57a198" => :sierra
     sha256 "110a62423f43f3618aadc5a149c238302af30399426346e571e23f252f8e6bab" => :el_capitan
+    sha256 "f434242e0b337c0b13f62e1b0ce5e8735d5aab0b698320691cafa9900340e1c5" => :x86_64_linux
   end
 
   depends_on "lmdb"
