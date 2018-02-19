@@ -12,6 +12,7 @@ class Sceptre < Formula
     sha256 "6c146631b6e76bfc1ca79a14f0c1b5e9a9ca4f0226a815769e88ef87946af2b1" => :high_sierra
     sha256 "85ca2874b8a223ee9192114c77897aec2ce6a7c36cd7bbdd10b91fc2830006e5" => :sierra
     sha256 "06e0ef5138e37f2fbb195d879af9216450d68df67e97a6c7478db522f8af3956" => :el_capitan
+    sha256 "46f40c78e716b679590cf6f613499834b5c389643b9cf06b84fcd91bbdb303c4" => :x86_64_linux
   end
 
   depends_on "python" => :recommended if MacOS.version <= :snow_leopard
