@@ -13,6 +13,7 @@ class Hadolint < Formula
     sha256 "421424b317e3b85d1dda24ee6897dcdda4de4297ad42d3709cecc1f4b643fa0e" => :high_sierra
     sha256 "4d4b119e0876a0c31397b26b784d525f456d3a119deb3178b3a53ca9d5fd7561" => :sierra
     sha256 "733445a8e4b549a0531c278853ade0a63fd3f992cee472142d38539f7b6ace9e" => :el_capitan
+    sha256 "10b8886f0af3f2c4c08ab00f2139efa083a058235a8bbadd1e8dae5131b93551" => :x86_64_linux
   end
 
   depends_on "ghc" => :build
