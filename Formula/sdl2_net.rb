@@ -12,6 +12,7 @@ class Sdl2Net < Formula
     sha256 "46d189ebe1f240381a9e8d99a2cb249e577cec98e6399e741e47275735a3471c" => :el_capitan
     sha256 "2e2bcc1e1aac84b37ebb44398e463d9004764aa369489926cd07bb97cb9f60c4" => :yosemite
     sha256 "ebabcb8f4df6fdee7855a6e19080aea42d9909205b287312015179bb9b3f472a" => :mavericks
+    sha256 "a8f5d11fec7bb5fe7ba1cbfec35ba08faaca60928271d7ea1bfd5cc77ea7665f" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
