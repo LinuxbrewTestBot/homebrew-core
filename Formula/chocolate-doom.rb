@@ -10,6 +10,7 @@ class ChocolateDoom < Formula
     sha256 "af7016b2d60ca7dd02d91287994633b2674436587464e824294dc930566ffef1" => :high_sierra
     sha256 "837b44e4c36513df3d615d02ce986119049e1188c975343476d84380e43b0a19" => :sierra
     sha256 "a853675774b68249fd1aedc56a7c796fbc3177f7b64fbff666d21efd4c711611" => :el_capitan
+    sha256 "f9ced92d1e87ff88edb96f6c22303217f72dad16e4160d409f896367ea0d56f9" => :x86_64_linux
   end
 
   head do
