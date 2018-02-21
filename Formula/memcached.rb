@@ -10,6 +10,7 @@ class Memcached < Formula
     sha256 "312e7116c1c5717720cf3fcd39ace667821b8dcc32bbb797ec5fc031e4209bb6" => :high_sierra
     sha256 "4638ee071fefff07a28b49f6d67a366cb390003b2d13846da05e94fe897a967a" => :sierra
     sha256 "a4d112d093f1a032d186e6b82e3a70bd5797a439e649f687f9e1899a5bdbc045" => :el_capitan
+    sha256 "5368dd32164a6de282510d812bacf5f371184115dbbc8d89f9346b38097a812d" => :x86_64_linux
   end
 
   option "with-sasl", "Enable SASL support -- disables ASCII protocol!"
