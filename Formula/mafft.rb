@@ -10,6 +10,7 @@ class Mafft < Formula
     sha256 "823d5ae47d74dae6111ccbfc2dcd55f0ea3bfc956611633734a3d8ac3ac004a5" => :high_sierra
     sha256 "966cfbb27be12a9d0fd0bda110fe112828225f5ebfc3b9eeb416314c97282ac1" => :sierra
     sha256 "ecba2c513890512392db67b4832d9f70d0ea7dd52db9832e7c508764a7d93c76" => :el_capitan
+    sha256 "5ff6ecc25e962c920c7395c52966b7d082b20610d6d96ca20cf1524ba6b2935c" => :x86_64_linux
   end
 
   depends_on :macos => :lion
