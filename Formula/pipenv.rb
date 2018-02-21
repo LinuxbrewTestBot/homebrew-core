@@ -12,6 +12,7 @@ class Pipenv < Formula
     sha256 "818ebb06d1a17e102df8f89e61b90b792a5c829172d132c569bc1e79eed16102" => :high_sierra
     sha256 "f2ff58cb700456834336d33065d739e1137f430859f31388415228a2ecdda91c" => :sierra
     sha256 "011c6da42cd042099300575f61dfe972f395c680d393a0f7af2614c7545b6334" => :el_capitan
+    sha256 "1fbb5e55f051a2f5e441600661470f6de1cc70a6f1142759add0e8875f473ed5" => :x86_64_linux
   end
 
   depends_on "python3"
