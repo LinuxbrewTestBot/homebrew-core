@@ -12,6 +12,7 @@ class Pinentry < Formula
     sha256 "a1a0e526f622d7dc4e2b3e0dcde061dbb383050b8efbe424d916bf983ae66c74" => :high_sierra
     sha256 "fd93c11a28d38ba1b78c7fe646f027f98ce29c08ba02c7a0e14e69f355614e35" => :sierra
     sha256 "e8c6180d9d86f008d0d9cdf0bc9638f2c119bb426504955ecbd16ef6b108d01d" => :el_capitan
+    sha256 "6d3ee1989b32557f20342212e25d6168e1eb8e3c1a822a3b629a4d0b2ab379b2" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
