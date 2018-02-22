@@ -14,6 +14,7 @@ class Vault < Formula
     sha256 "b2538cf92c952f5e03d35f36a737bd1cfa81f4695ed6c5cad96a2ba83dffbd02" => :high_sierra
     sha256 "f547d4d8ac363cc6f9cf43f140e726ad5085a28c1a681f1ebd17583f8fd9588b" => :sierra
     sha256 "da37c24ba9a5da5a2242b08d3ba0c94d82065753de22327d4ee2b9661ce66c3f" => :el_capitan
+    sha256 "f028c0be8d0af7e6584b2f4320ff82ed2e432dc0fe3423fdcb86a4dd8c888484" => :x86_64_linux
   end
 
   option "with-dynamic", "Build dynamic binary with CGO_ENABLED=1"
