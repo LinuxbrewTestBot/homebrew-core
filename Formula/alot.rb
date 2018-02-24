@@ -13,6 +13,7 @@ class Alot < Formula
     sha256 "e161f06d7042c52b042d01784adbde135ba88ac13ed5c4307d0cd485624869d1" => :high_sierra
     sha256 "2df83f523a4167e7b86beff4c8337e34bb7a8a0e0f85bcc41691326b181d8faa" => :sierra
     sha256 "a7e2825dcbec2bba87fad5893fd7a6c3dfa50a21ca626c1dbc52c06ee162e4bb" => :el_capitan
+    sha256 "cf76eb617872c508919b58fac136fbc486eb35a2c44b89380c6f377c01f8526b" => :x86_64_linux
   end
 
   option "without-sphinx-doc", "Don't build documentation"
