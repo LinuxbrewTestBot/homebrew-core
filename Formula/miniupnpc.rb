@@ -10,6 +10,7 @@ class Miniupnpc < Formula
     sha256 "f0a408131f3affc4fbfe838d624dc9993ac9f33b13172d53cd36d3ed84ad2ab5" => :high_sierra
     sha256 "ab4234b5c43f6545de7a65f1f485811385b008aa8a3d7542012561f22b8e5801" => :sierra
     sha256 "a1b75e51819d03ebddca3784145bf32efbf41daf2a6f407fe11755eadbd9185a" => :el_capitan
+    sha256 "e879c6466751201211973afb5c0d3b062488fe74579167855745abcaccd7fe4f" => :x86_64_linux
   end
 
   def install
