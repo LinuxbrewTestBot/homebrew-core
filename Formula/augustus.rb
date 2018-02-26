@@ -10,6 +10,7 @@ class Augustus < Formula
     sha256 "628ec61d36ac8c0cfa088bf0aaf8facb59888d8df407027d6099385a97da9a5a" => :high_sierra
     sha256 "8e6f909d5feb3a6890935646d31b70d99f7faf9315c0613c4362af3d19912c1f" => :sierra
     sha256 "57d0cdab04164c968240245b95159b21e464d7988dd4063d758dbfbb93e1b25a" => :el_capitan
+    sha256 "f421982ad90c1d4507834102f0fb8183273c5b0e751392af0e2031460f391753" => :x86_64_linux
   end
 
   depends_on "boost"
