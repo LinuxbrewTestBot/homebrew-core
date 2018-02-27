@@ -12,6 +12,7 @@ class Svgo < Formula
     sha256 "33251a1558bc0d5479d49189d1dd3d9dd27af77d0a4e03d97f8f905cda2bfd72" => :high_sierra
     sha256 "5553d5bca19b519bfaed0edf43f33839371983b7b9840d4804a51a365281eca1" => :sierra
     sha256 "b255cdc0b1d51ddf9103fd3bc2e527c7556715c91c6e79f65806b3b6bbe475ef" => :el_capitan
+    sha256 "0a5f6cb236435ebd7f803880e861b1cbda6d658d123be2ef7d08322d771411a9" => :x86_64_linux
   end
 
   depends_on "node"
