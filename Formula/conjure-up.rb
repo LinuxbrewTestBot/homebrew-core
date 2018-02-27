@@ -11,6 +11,7 @@ class ConjureUp < Formula
     sha256 "0cb21be3e36d4245c52f2d8be28748d763f68ccb32ddd12bae541406d2f62a1f" => :high_sierra
     sha256 "d0db3fb1b9d93da1d8703dfa678585074906c8c4ee0ad0e09de6186e881021f0" => :sierra
     sha256 "35e26e83a34bfe8b1032f938bb687cfb396bbb6f050449bf752666c6bc9e710c" => :el_capitan
+    sha256 "4ab7580af77b48f4e91e54df0bc227e4f4a24fbebed7ba17719830004c18a7b0" => :x86_64_linux
   end
 
   depends_on "libyaml"
