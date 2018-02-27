@@ -11,6 +11,7 @@ class Szip < Formula
     sha256 "3b84fc3869965a5851cd13554ab46283a13adfa568ca7df1288728b2cfde0c4a" => :high_sierra
     sha256 "c57296964a6ac43991c5f3a6b0b14e3deb99e14f3d1214427385dc4112e803af" => :sierra
     sha256 "a4b1f903019aaa2e1d53e661aaf90f0e91937b3ad4b71126483feffb4c2d2e13" => :el_capitan
+    sha256 "607f95722c26f88e12ca47db91b334cd2b8447c2710c4452dca8fbdce2081c98" => :x86_64_linux
   end
 
   def install
