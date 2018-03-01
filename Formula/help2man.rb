@@ -10,6 +10,7 @@ class Help2man < Formula
     sha256 "8c2d747894baec4af17523abb21390651d931b2743dd90f043e434ae35d6f55c" => :high_sierra
     sha256 "8c2d747894baec4af17523abb21390651d931b2743dd90f043e434ae35d6f55c" => :sierra
     sha256 "8c2d747894baec4af17523abb21390651d931b2743dd90f043e434ae35d6f55c" => :el_capitan
+    sha256 "f65c670411f2b40a99a2528910cefb609053f7d4907754df89d43a1ffc1ae0f7" => :x86_64_linux
   end
 
   def install
