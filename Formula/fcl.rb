@@ -10,6 +10,7 @@ class Fcl < Formula
     sha256 "72a5ca040739722599576b579a6f864ca3307bf01ad8403765d739813a3e1fd0" => :high_sierra
     sha256 "8fd76b19ab4408397f161947d7da47f619ec710ddcdc2c012579440a6885f192" => :sierra
     sha256 "a2bc2115c9cc18a7f155583e6209ade38e73b80a10704e4d26e44ed177bcf5a5" => :el_capitan
+    sha256 "74382ad665b9afce1034892e54f4ec78088362d18d2c7eb83913a49a9d652d4b" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
