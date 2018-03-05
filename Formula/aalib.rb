@@ -12,6 +12,7 @@ class Aalib < Formula
     sha256 "2c2d05720ca991422e4c27e3f770c29024c5197871cba67404f4e72a3cfaf002" => :sierra
     sha256 "9b3f19e5da28fb682aeb1fe40f1747d1b532490dd50262978aaefcb7afbc8804" => :el_capitan
     sha256 "9e08dd4e3545b05353f3158e4e756c20a301bef295b72183e1fd5fb1d6d8e897" => :yosemite
+    sha256 "40f92137af26fa3729075fc82c0ea3e5539b70a6cb921ba99d6a9e1347d5d33c" => :x86_64_linux
   end
 
   # Fix malloc/stdlib issue on macOS
