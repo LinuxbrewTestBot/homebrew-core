@@ -12,6 +12,7 @@ class Pygobject < Formula
     sha256 "c442ae4c5065422f9c522c9e1000dd50f1e9bd565d496cba14a0edb0f378bb6c" => :high_sierra
     sha256 "d483ec396469442c8efb3a0936db2ac3027c131a70c8117f5a1ef6a97a007b00" => :sierra
     sha256 "a1302d922cfb12f36c25ebe6f35438ccb06fe8e7a155d4a9f326f71e8033b644" => :el_capitan
+    sha256 "70b0ede4f615973f1a8401a44fe2aaef078b03e40c515657d8ef4b4fa173e752" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
