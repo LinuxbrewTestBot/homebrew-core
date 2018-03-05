@@ -14,6 +14,7 @@ class Schroedinger < Formula
     sha256 "1b990c49b7d72f3030bcee52bf70094a6cf16111867565cdb7541f670636cf05" => :el_capitan
     sha256 "5b1355803b730a9727c959261f0e2afc217f77502eac88120f77941c5cf373db" => :yosemite
     sha256 "64042317d9919652ab8577cec94435fb15d8eae3ad960196fc54bf9499b7c30e" => :mavericks
+    sha256 "6d9db51d5f058623b9a32b165b6308052de84f830d7e0ea022f679e026f910d6" => :x86_64_linux
   end
 
   head do
