@@ -10,6 +10,7 @@ class Postgresql < Formula
     sha256 "632a988ae9a6b45acd3fca3f05af7dbec02e01fa91814ff8ba238cc20d1a7f38" => :high_sierra
     sha256 "c5412eb34006856a6f0aca2ca2c69e2b8da706f1c6a6aae200aa81d0cda23207" => :sierra
     sha256 "0581e9efe089864abbcc938f70a5175ff5595ffd701062bafec0be041ba56258" => :el_capitan
+    sha256 "46a405f14a0cc60d60fefa5d3f99afb2e1cf708d3bb7c60803fbb8f147292987" => :x86_64_linux
   end
 
   option "without-perl", "Build without Perl support"
