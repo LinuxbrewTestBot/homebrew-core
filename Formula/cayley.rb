@@ -11,6 +11,7 @@ class Cayley < Formula
     sha256 "da3ebc16ae88c74fe4d4fcf1e4721e009f93eb3f237f846585120936a251bd41" => :high_sierra
     sha256 "f66d9137ad0bed1614ef52b3bf654fd9ccb55dd4479d45f9622d88f3ec1e34b5" => :sierra
     sha256 "2404473b2973f8d47fb40a0eac16998d1e27b1036901261f47f07a7cbccdc713" => :el_capitan
+    sha256 "faf7eb15616cd6eb37eb55a6d27ccbcde019cb8e70517389de7add42834f1377" => :x86_64_linux
   end
 
   option "without-samples", "Don't install sample data"
