@@ -9,6 +9,7 @@ class Gxml < Formula
     sha256 "faf9da56560023721c8f04fb1871281ae556b8017b42847be5265f38b462484e" => :high_sierra
     sha256 "da0481c932a3aa2fbff97ad185c4191376f2b509bf8a3f948ec6feb752f7229a" => :sierra
     sha256 "d863844b85f0c0b67f40074108a690242989237dd3c98f16d34813c88e3b0958" => :el_capitan
+    sha256 "3b8ff222160e9dc65f2ebf492898b807b3850554f7f9a7ee7733c341a72c7232" => :x86_64_linux
   end
 
   depends_on "gtk-doc" => :build
