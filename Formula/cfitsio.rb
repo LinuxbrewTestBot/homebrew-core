@@ -12,6 +12,7 @@ class Cfitsio < Formula
     sha256 "84372c9e31b2c424aa3afaab1c0cf2719582246c796833e1b90d4880612af546" => :high_sierra
     sha256 "5aff04139b4335dd316c61cd6493cb03431774ec1e782213c973a57fe7d21a0a" => :sierra
     sha256 "af24391c95ac73b8af80fb8a1963dee17cff144252285bac29f631fa5cfd43e2" => :el_capitan
+    sha256 "b7e2033e882b6e8b1be2dde8db8825ccd618a849241c5b80e1d075ba0c5b6b09" => :x86_64_linux
   end
 
   option "with-reentrant", "Build with support for concurrency"
