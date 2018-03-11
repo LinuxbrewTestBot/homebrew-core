@@ -11,6 +11,7 @@ class PythonAT2 < Formula
     sha256 "d6ebdbd3ddb3651c565d68f6ff2c1b5e5f35f9263453d7e1af7d35d437ff6412" => :high_sierra
     sha256 "3459588fb09a6fc911965f7268ed1271d98f989953af0991401c3a957cbf3114" => :sierra
     sha256 "4218d62bfb18d242f27b8c5702ed62a89ef95a2b7f790fac398ee613b369e70a" => :el_capitan
+    sha256 "0bc43aa636a19ec71e5dc6efce1823e0e4d138e3711eb61f75a8f88b79f0ff02" => :x86_64_linux
   end
 
   keg_only :versioned_formula if OS.mac?
