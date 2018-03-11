@@ -17,6 +17,7 @@ class Burp < Formula
     sha256 "96e1e1c11821b71db862daaa8a5e81e8c4bd39444be45dbc16a14edab79019b9" => :high_sierra
     sha256 "c2fc5214b281b51806cfcadc5151c69977797c77cb8e39641153fba51ff8f913" => :sierra
     sha256 "3bdd206d6fdbbf7b877a82aab6c508d31f8183c5a686fcd04144eadddbd2a08d" => :el_capitan
+    sha256 "b274e9939766a9eb5050b1a9b8cf616adae6124b49e9e7015b0eca6b52da1655" => :x86_64_linux
   end
 
   head do
