@@ -9,6 +9,7 @@ class Nano < Formula
     sha256 "c2b11f274f05fd47c54712a199f5f2714c8d176c85a535723a1e0240b547a095" => :high_sierra
     sha256 "1ec561f8084e1ee2297923faef532c62ffdd7b12bf59046eae01b894c7c02642" => :sierra
     sha256 "644d6ebf2a6d4001791ba39b9cb10dd82d00a117da6468e69eb12cf4b9942262" => :el_capitan
+    sha256 "936156efa5ff01aed16564b85c26e840bc1e2439bd48d3ad15ba9d61070fd328" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
