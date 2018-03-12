@@ -15,6 +15,7 @@ class Autoconf < Formula
     sha256 "daf70656aa9ff8b2fb612324222aa6b5e900e2705c9f555198bcd8cd798d7dd0" => :yosemite
     sha256 "d153b3318754731ff5e91b45b2518c75880993fa9d1f312a03696e2c1de0c9d5" => :mavericks
     sha256 "37e77a2e7ca6d479f0a471d5f5d828efff621bd051c1884ff1363d77c5c4675e" => :mountain_lion
+    sha256 "c9156109ecb2567be983e17372e4eea97d98cd1d15d24a9ebe0a5e4e50c133bb" => :x86_64_linux
   end
 
   keg_only :provided_until_xcode43
