@@ -6,11 +6,10 @@ end
 class CrystalLang < Formula
   desc "Fast and statically typed, compiled language with Ruby-like syntax"
   homepage "https://crystal-lang.org/"
-  revision 2
 
   stable do
-    url "https://github.com/crystal-lang/crystal/archive/0.24.1.tar.gz"
-    sha256 "4999a4d2a9ffc7bfbea8351b97057c3a135c2091cbd518e5c22ea7f5392b67d8"
+    url "https://github.com/crystal-lang/crystal/archive/0.24.2.tar.gz"
+    sha256 "de50a455a509f4f80025eb8773818859ad6664a79f5f0fafecdd87ff5ccef6d0"
 
     resource "shards" do
       url "https://github.com/crystal-lang/shards/archive/v0.7.2.tar.gz"
@@ -19,9 +18,9 @@ class CrystalLang < Formula
   end
 
   bottle do
-    sha256 "62d38799ba6d36c491602d516ac84874fdab9df008848ce8c2994b8a833e97ea" => :high_sierra
-    sha256 "a03c7f307d2310b565679a17a96eef133c4e4fcafb315e15c72f8a8b6eecb391" => :sierra
-    sha256 "ea7609d75bcd0a465c09bd4a667bd7cb406d79871b6169e28d861932c8ef9d6b" => :el_capitan
+    sha256 "704f49cb6ecde5fbee10e6edd4cc2096bc8761a065789de2164c30582e7e74f5" => :high_sierra
+    sha256 "eb38543677beabfb6d9231d42c70a97ff0d85a01b4e84abed7e514ba5a5cb59a" => :sierra
+    sha256 "e352bdf530244df5d3c9abacc2bbb04853ee421c8c2d57969244849e72313fc0" => :el_capitan
   end
 
   head do
@@ -46,13 +45,13 @@ class CrystalLang < Formula
   depends_on CIRequirement
 
   resource "boot" do
-    version "0.23.1"
+    version "0.24.1"
     if OS.mac?
-      url "https://github.com/crystal-lang/crystal/releases/download/0.23.1/crystal-0.23.1-3-darwin-x86_64.tar.gz"
-      sha256 "d3f964ebfc5cd48fad73ab2484ea2a00268812276293dd0f7e9c7d184c8aad8a"
+      url "https://github.com/crystal-lang/crystal/releases/download/v0.24.1/crystal-0.24.1-2-darwin-x86_64.tar.gz"
+      sha256 "2be256462f4388cd3bb14b1378ef94d668ab9d870944454e828b4145155428a0"
     elsif OS.linux?
-      url "https://github.com/crystal-lang/crystal/releases/download/0.23.1/crystal-0.23.1-3-linux-x86_64.tar.gz"
-      sha256 "6a84cc866838ffa5250e28c3ce1a918a93f89c06393fe8cfd4068fcbbc66f3ab"
+      url "https://github.com/crystal-lang/crystal/releases/download/v0.24.1/crystal-0.24.1-2-linux-x86_64.tar.gz"
+      sha256 "b75df8522f2302270b48e6b77812a0cb0086e338cdf884227e0076afbf83aca7"
     end
   end
 
