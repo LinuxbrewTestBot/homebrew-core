@@ -13,6 +13,7 @@ class Makefile2graph < Formula
     sha256 "37aebae489e0f341f80417ec711e5c2817f5b8097c3493dcc11bc754bdd1b1cf" => :yosemite
     sha256 "0de3d4a2492797c3259798493e287ac2403f02254c6cfcf74948a16bcc4bcd0d" => :mavericks
     sha256 "52dea69b4d18c1c6fa451ab834a43e1ca57ba64d9efb4c63972126a387682040" => :mountain_lion
+    sha256 "d9cf1abfadeef69329bed8ebf251753f2aadb18f6955b8869a468a47b76b6f10" => :x86_64_linux
   end
 
   depends_on "graphviz" => :recommended
