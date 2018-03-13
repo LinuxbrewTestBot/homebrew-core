@@ -10,6 +10,7 @@ class Automake < Formula
     sha256 "f9d2f7f913917ce686bf8dab00fe5c5f2c971038ed91b2a6ec8cd6be9efd9b31" => :high_sierra
     sha256 "f9d2f7f913917ce686bf8dab00fe5c5f2c971038ed91b2a6ec8cd6be9efd9b31" => :sierra
     sha256 "397f56ce7582b559171de62dfa772fc1a90d99bb1f03ae2f20e6824a243f7ae7" => :el_capitan
+    sha256 "5acde6454a0a0e9e54148cb87b576c2d3a756280a2025aa0809b29998afd4425" => :x86_64_linux
   end
 
   keg_only :provided_until_xcode43
