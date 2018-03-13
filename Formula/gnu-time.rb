@@ -11,6 +11,7 @@ class GnuTime < Formula
     sha256 "7be7fa7161f1c4256e7fd0427cc70bcb9942516cf087e3a4ce8bf25a8e9bda0e" => :high_sierra
     sha256 "4340f98cd4edd0512a7462ad52180a3dd4bd282fce7c53cadfe56c45f5367095" => :sierra
     sha256 "1f81b3521747ff00d913ac9f4c7e7d9ce8f19dd76a67c7d2b05d5dd228561883" => :el_capitan
+    sha256 "17187494a6e02964e19812e57c8547734f2aeecf0ce2954e3fb6fb4523d2cc00" => :x86_64_linux
   end
 
   option "with-default-names", "Do not prepend 'g' to the binary"
