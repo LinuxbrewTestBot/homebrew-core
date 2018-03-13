@@ -11,6 +11,7 @@ class Nopoll < Formula
     sha256 "4a3c7a4f2657685b3de1b6700625e8e61087219c3b51868ee45e3ac0924b5eae" => :high_sierra
     sha256 "7695ccb4788ae836ca8e476f0d0f70216cca693e3f014c288edee90c18cb1df5" => :sierra
     sha256 "266e0d329c27be6a5c9a202b0dd7c6745d7962be606321b9172c0a57b77b91b8" => :el_capitan
+    sha256 "0d29178a46adbfcaf7b3fd5b385ad527f9efbe0f9aabc92ef64410742844c457" => :x86_64_linux
   end
 
   depends_on "openssl"
