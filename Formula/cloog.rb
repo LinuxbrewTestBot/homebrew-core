@@ -11,6 +11,7 @@ class Cloog < Formula
     sha256 "32b9d6ae3b69a1ac153d83997999add0a5836214c21d41fe18a0ef2dd44b3123" => :high_sierra
     sha256 "f517f774f48f11a1fdcf7d0023bdeacbd919cb22085a539fba539fac80025826" => :sierra
     sha256 "2e4ac62185b9291272f07381c19bba476eac505a40ff974aa8017b9ec4359b13" => :el_capitan
+    sha256 "170ae23042338f87e56b4520b6862fe2b5d3fbdfa3f213b12aed7239551ae18c" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
