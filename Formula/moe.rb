@@ -10,6 +10,7 @@ class Moe < Formula
     sha256 "8795bf38abe1ee929d3573e25bd54bb73220d4d2b30d0f2af4b6242ae5f862f7" => :high_sierra
     sha256 "c5015c950c74f73093aacac9e9f3b42f741b5bc57e864006c2a62f3c6739c538" => :sierra
     sha256 "4b7e08c089bcf431efba6be217df5a30e7ade7fa2813ae53152e5671958abb69" => :el_capitan
+    sha256 "a0ce31f8dfb6c90856d76f0a8fd6e12e2f24762207cf3ee35fc926a94fa99fbe" => :x86_64_linux
   end
 
   depends_on "ncurses" unless OS.mac?
