@@ -14,10 +14,11 @@ class IslAT18 < Formula
   keg_only :versioned_formula
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "e286024c142af0e968d8562e83745a05dd059dbe226c41fe6053c8fd481815fe" => :high_sierra
     sha256 "23c7305a7f227e1749a15584eb203ec9f1f49f1f4312753a9ee360f89b71d304" => :sierra
     sha256 "c00c85da652a572356e54cad1a6ff986f136f6088c142dfcdbfc166bd7144d1e" => :el_capitan
+    sha256 "91d41ab1645eb8c9ecdb9026d77719d08239014703c52903c7ac187b4ba72886" => :x86_64_linux
   end
 
   head do
