@@ -10,6 +10,7 @@ class Cdk < Formula
     sha256 "4fa97741c58623aedd6f8e41147cf503b21a318ae035341871212841bab0fbb0" => :high_sierra
     sha256 "58c136c407b21c5d34db2ae0f206887639f4077482a607060010ba172a6c1433" => :sierra
     sha256 "7d8e6706f54a83fe58b0ae7480bc7ff0fff3374a1d3f4615286057c336f31c37" => :el_capitan
+    sha256 "e4adcc515c670f99f2ea821303f3298154b82a3981e9147583f944732c9b092c" => :x86_64_linux
   end
 
   depends_on "ncurses" unless OS.mac?
