@@ -11,6 +11,7 @@ class Pspg < Formula
     sha256 "e61513e3232835b661761a4143e71d74ab3b1ad59ff5b5e44d8fc8512049930e" => :high_sierra
     sha256 "000505b737172b0a55cd9b429c6080fa43987c9a7e2991f03cd0276432b99905" => :sierra
     sha256 "4d84ee7f6369b4c215487d1d7e3281040be599bd261100c6fd99bbe94a36f374" => :el_capitan
+    sha256 "5c8f4b04acc838ad27c31fe0ab583817ffffec7a1a0f59ef4f39d4b23e7430f3" => :x86_64_linux
   end
 
   depends_on "ncurses"
