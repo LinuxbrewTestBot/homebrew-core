@@ -11,6 +11,7 @@ class Datamash < Formula
     sha256 "46375109fe618b238ce55f363a4ff37e1f02519446272b1164feacf7bd5614a4" => :high_sierra
     sha256 "9e2c6fb923dae81c0969ec63851c520c9b74fc9160a2b884a228e23afccee9c7" => :sierra
     sha256 "e8cee270f739abd46bea4dde5ae139b858e49cabacd4265b4d39b41a4c03eb1a" => :el_capitan
+    sha256 "72e39fafd704eda7f6f1c43913231f8cddb9ecd197cbad5271325f45dd2a16b4" => :x86_64_linux
   end
 
   head do
