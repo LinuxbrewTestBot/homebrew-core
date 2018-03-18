@@ -10,6 +10,7 @@ class Byobu < Formula
     sha256 "1f369b8fd147fec07fcee9ea20e1186b4656745f69d236850c7e181caddf3335" => :high_sierra
     sha256 "1f369b8fd147fec07fcee9ea20e1186b4656745f69d236850c7e181caddf3335" => :sierra
     sha256 "1f369b8fd147fec07fcee9ea20e1186b4656745f69d236850c7e181caddf3335" => :el_capitan
+    sha256 "a9680fc6b47fe291ba7bf67989d07ddf79c2201b492a00e7d0eeb002f5e05be8" => :x86_64_linux
   end
 
   head do
