@@ -10,6 +10,7 @@ class Diamond < Formula
     sha256 "2bf4ea935582b1067d55fa7be055ee99672735ed8bc32895a0d324adb28bfc41" => :high_sierra
     sha256 "4bc9bfd4876ad1d275ab4fdec81281c5a451e09a1313b1c152ec57d90bee7b3b" => :sierra
     sha256 "1840af34d7791e348adaae0243674affd2610e4104df9cae5bc0cf5fa9b95d73" => :el_capitan
+    sha256 "193c0c881bf1e1d59dd9804693e42be3d40c8d47b18c3d052dbe4d256750e3a3" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
