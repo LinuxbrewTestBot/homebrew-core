@@ -21,6 +21,7 @@ class Libspatialite < Formula
     sha256 "2a41b0baab67ec8b35f3c68b392439907a1b003a84437b8437b3ca3ecdcf35f4" => :high_sierra
     sha256 "4b73791b59c7766a4e20d9ca77502d2866f7d07fb7aeba660bf38e41077ba60e" => :sierra
     sha256 "eff5f3de6139cfe0adff6ec2fe306c7f11ee1f7b9195089d514902b11b0675d0" => :el_capitan
+    sha256 "8e68dcdf23ad93553116094213594dd07800fe72855255e7183e312de1657e79" => :x86_64_linux
   end
 
   head do
