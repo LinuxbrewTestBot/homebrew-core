@@ -11,6 +11,7 @@ class Jq < Formula
     sha256 "25be689b9bca3cef2ee0cb647388200d25f045f651679ef8871b8a86100f9e43" => :high_sierra
     sha256 "11e169f340dc1f93fbb3c21a87c3aaa7d1242967ed11672663e6e827e622ef0d" => :sierra
     sha256 "b3f95569c5d67db9c9c1e9eeff670e8769bd5b40ebf1e170bd64be7e62b8e576" => :el_capitan
+    sha256 "cfad6f50b6630939fc7f32a97d3f70d3233b3a960290105892648b525a8a9886" => :x86_64_linux
   end
 
   devel do
