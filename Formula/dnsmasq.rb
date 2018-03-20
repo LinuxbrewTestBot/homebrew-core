@@ -6,9 +6,7 @@ class Dnsmasq < Formula
   sha256 "77512dd6f31ffd96718e8dcbbf54f02c083f051d4cca709bd32540aea269f789"
 
   bottle do
-    sha256 "cb503d79a97cd033e519a0cc648fe2e2a466c0d4c4327d4fb482d74952c26ff8" => :high_sierra
-    sha256 "63a8d4c17eccee9ad07a3b6d0a4b5df9d7b2254cd974d2910d90fa231fe50b36" => :sierra
-    sha256 "0637ae2ecd7b7076d151a570f900dc495f5980068146b7371698f2a36cbb19d4" => :el_capitan
+    sha256 "1386e4dfb7ffe6205be72aaac92643673126cd6252a596ca84d127788a867bcb" => :x86_64_linux
   end
 
   option "with-libidn", "Compile with IDN support"
