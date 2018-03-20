@@ -8,9 +8,7 @@ class TranslateShell < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "08f51c7dc7fd57105b6940d3f9254c1e7f5a244b1c8f540ad3a46ee429744abe" => :high_sierra
-    sha256 "08f51c7dc7fd57105b6940d3f9254c1e7f5a244b1c8f540ad3a46ee429744abe" => :sierra
-    sha256 "08f51c7dc7fd57105b6940d3f9254c1e7f5a244b1c8f540ad3a46ee429744abe" => :el_capitan
+    sha256 "cc25ec7431420ef569135d2482f2b8332fd58d2ecd965a81ee2ebe6afe02ad9b" => :x86_64_linux
   end
 
   depends_on "fribidi"
