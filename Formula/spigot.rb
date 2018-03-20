@@ -9,9 +9,7 @@ class Spigot < Formula
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "62a62e8a645950de1371565f4d082d1b61ea86547e21830747903bff6dba261c" => :high_sierra
-    sha256 "72750840e3331b96effcb60855a06f0088106c8c4e92553dcebcddad89360a3d" => :sierra
-    sha256 "5da79d60f27bfba7c85a63a6373276184acdf839fb9f07126de2d88135460c7b" => :el_capitan
+    sha256 "214c07f8953cd05b3847cd5b3a3e720cb6df7841025e4025a050a5cfc4a19545" => :x86_64_linux
   end
 
   depends_on "gmp" unless OS.mac?
