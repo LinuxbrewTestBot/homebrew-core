@@ -11,6 +11,7 @@ class Libgee < Formula
     sha256 "d4afb1bbccfd61b0a106595356d5f571a0df6a5fb0fd5e378c8321a46e152c1b" => :high_sierra
     sha256 "b70794b96ce5d21dc3dac66f4e0e63177d7507c723d78a786110dc502d7777e1" => :sierra
     sha256 "7602f76b0667a7dd1527c01285274c2cca24d5e638b9a0c4a90cbc004d5e097e" => :el_capitan
+    sha256 "4791ea0a57328e464ff8875867e26db127687d2891528667fcf97d403ad8f1ac" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
