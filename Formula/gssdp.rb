@@ -11,6 +11,7 @@ class Gssdp < Formula
     sha256 "c8ac9c7c755749b7a6ea9790efab2311c9fc3d62a1af62b719968f14a7c25b62" => :high_sierra
     sha256 "3786f067d3b19ce3021618aaf434fd325862f90d03b7fd5ac12f6f37f8715e42" => :sierra
     sha256 "7927b712f8f9570c0a7e21593786bd41edf0daf2e14b7998886af9a00a8c2ab0" => :el_capitan
+    sha256 "8dc6f41c923529849f43e90d804cd4c548d6b6ea95f1221d2ef6e2d455d78d09" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
