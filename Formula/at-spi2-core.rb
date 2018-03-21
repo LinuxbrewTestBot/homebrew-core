@@ -10,6 +10,7 @@ class AtSpi2Core < Formula
     sha256 "1562647b757604dc562e0ab1a5bf981fdab39c5c73c9075fae2c41e6655307e8" => :high_sierra
     sha256 "cc5e6d51e17edad2be3c57634637b22bb987db17a0d7d9e00392ed612449459f" => :sierra
     sha256 "9dcb96ac4adb8e3b3897ab1bc3f16a65984bf3c6f4c41566838233a0337fbf3b" => :el_capitan
+    sha256 "e12b37b5b4203c4a5fa547fc29f5bdd2a80b2056a25f26b8d5c51d68e02e0bb1" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
