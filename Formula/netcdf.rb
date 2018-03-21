@@ -7,9 +7,7 @@ class Netcdf < Formula
   sha256 "89c7957458740b763ae828c345240b8a1d29c2c1fed0f065f99b73181b0b2642"
 
   bottle do
-    sha256 "0ab18b0e0cb8e0e389573de7b712da2195ab70457d857a308b21183b943771bf" => :high_sierra
-    sha256 "edb5de2eae06ecbc8fda68165596e7d86b6bbe3428b01f75b933cf61003c9bfe" => :sierra
-    sha256 "600a7793a3e2a425f89ec51b36acd480841116f6b43fde4594a1f187aa2027bb" => :el_capitan
+    sha256 "97af83a980df00f0986240eb5958c7097a6a00ded5e852e0cbb0b3b0d80b1e5c" => :x86_64_linux
   end
 
   depends_on "gcc" # for gfortran
