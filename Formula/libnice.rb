@@ -11,6 +11,7 @@ class Libnice < Formula
     sha256 "be32aa20f78d97b09b9fe6e7bfdbad16d1695c2b2c8bd7e2e68d51ddd75659ba" => :high_sierra
     sha256 "2f0e330e16992df3be0db63cf266cd3a1e96a3b54e1ad1511ee3b8ca43cb57f2" => :sierra
     sha256 "5c643f048a70ec3ae6b6ba59ee968023e40a618e99f42983414297bad4ae46ec" => :el_capitan
+    sha256 "e0c5486181ed970cca0d0267811cc557f65bc6270e2ff1278f473ae2f805c914" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
