@@ -10,6 +10,7 @@ class GdkPixbuf < Formula
     sha256 "9ab66c2e096eae435f0a7554db333715de935c347ebc4560dcb0c595f4bd28d5" => :high_sierra
     sha256 "d39abb17ec8e53cb2db8fe63e62905be87b0dda875da0f84c6ca63ef5c08863c" => :sierra
     sha256 "93079b1df5573210380ab0cbae77fc9b50bb9a4ec2d5a51c4b493d64f15df481" => :el_capitan
+    sha256 "df896014e4fef070eddae1d8f3fa368731822f1b3f7e3cf6dc85244621988712" => :x86_64_linux
   end
 
   option "without-modules", "Disable dynamic module loading"
