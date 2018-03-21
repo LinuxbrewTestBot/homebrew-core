@@ -11,6 +11,7 @@ class Gupnp < Formula
     sha256 "20be1bfad4695855653002badcb5a48c0d69868496898ea331656d0590a8b3e9" => :high_sierra
     sha256 "e8b43cc1b881108f2ee3447a4da9e80e842cc495ba9b2b778817034d8db63fd8" => :sierra
     sha256 "b5efc9bd423c11b952887a8b1b5e51821573c7c85f7a321cee0a7a3e91347b53" => :el_capitan
+    sha256 "2ee45d827e5c7afad5ac8d7f61ef4e7b042c6e78e1d27575a1a2e405bc3cc898" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
