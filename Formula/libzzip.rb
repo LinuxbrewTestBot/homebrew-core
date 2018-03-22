@@ -9,6 +9,7 @@ class Libzzip < Formula
     sha256 "51a753ced0f53de1cf59412783261620f8238eb2a5aa2de9db4e1970a7fdabc6" => :high_sierra
     sha256 "dde8ad2f566db63cddc63cead06e776c3d91f71a00c28a6f3813f75ba5b6c102" => :sierra
     sha256 "0cd5457528cadfb83a31b83b16e16089816f991c290cfbe5446372a3291c676c" => :el_capitan
+    sha256 "8e5d04fd4bfc3233f39a94cdfe4b9ea11ddb56e05bf71205af026b6fb9d35742" => :x86_64_linux
   end
 
   option "with-sdl", "Enable SDL usage and create SDL_rwops_zzip.pc"
