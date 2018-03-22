@@ -12,6 +12,7 @@ class Ghc < Formula
     sha256 "81c9afe34c5b941cbb18f7fe6059364171645e5266d2753e1a01eb20661abbc9" => :high_sierra
     sha256 "60cfe5533fc63992d7d1ebef161292fa3a0f34d06a8e54d09a96024252570fa1" => :sierra
     sha256 "f9af82a3385f326978c85f5c59dc37ecb3b0e84a5484024411829005fb7794f4" => :el_capitan
+    sha256 "b89e23398f0909d4d9ca50ed00607d3f56f4f6ff9b118b2409428e0c877d6f8a" => :x86_64_linux
   end
 
   head do
