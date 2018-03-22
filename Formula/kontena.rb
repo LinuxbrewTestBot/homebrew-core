@@ -145,6 +145,7 @@ class Kontena < Formula
     sha256 "c92862caf4138ce33079802ba274904074fd866767695dbc7c863386c5c27849" => :high_sierra
     sha256 "3acd8e330a508eeda7214bd5bbc18398b9973063c1e853dcf5b6e2242ceeb753" => :sierra
     sha256 "cfc0dc9927c211e1466af5651f43586d24fcb4d95bd19405cdf7125cffa4d381" => :el_capitan
+    sha256 "1ab2c07bb777b9c5c55f8274fb6a57771ba208b49084d8f55e61ae70e188c500" => :x86_64_linux
   end
 
   depends_on "ruby" if MacOS.version <= :sierra
