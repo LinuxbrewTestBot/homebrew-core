@@ -9,6 +9,7 @@ class Gcab < Formula
     sha256 "98f56ce0d3a6aa3e463ff3db4648b35bb50cc28a3ca6c851674def6277ef431a" => :high_sierra
     sha256 "7301b501634551391a4c7070a84bb61586261c76291e4e190cb42ef4091be18e" => :sierra
     sha256 "b85cf8a03bd289713ebe25c269fef51819de959d56a30c8885ab7c185a55e7f5" => :el_capitan
+    sha256 "7b1223f897932d4f1569908644cd40c449e8370d79aa7d389eeba29746e764b4" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
