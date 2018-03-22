@@ -10,6 +10,7 @@ class Grip < Formula
     sha256 "c17fefc54b9d615a020aedf5919745d636ece4aaf79395ea644161b79cfdb51b" => :high_sierra
     sha256 "c908a5b5762f89f1933ee3bc05418636821c616eaf4776d6d495ebb072bf2bcb" => :sierra
     sha256 "ca87bb2d1714f71754f6d62636fb7086961e4ca1ce9f8d0e031890746cf1e91b" => :el_capitan
+    sha256 "e58742f3bcf028003375c6700c929aba3f072aa6388cf72b4ea0110d59ee0758" => :x86_64_linux
   end
 
   depends_on "python@2" if MacOS.version <= :sierra
