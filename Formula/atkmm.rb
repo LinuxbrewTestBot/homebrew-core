@@ -10,6 +10,7 @@ class Atkmm < Formula
     sha256 "b6b2da1cde33893f1c499a6df77de45568b20afcfc87e2bfc911a25631b9a1af" => :high_sierra
     sha256 "09bfd213a8eb8c7b3ab8b8858593cd9c715b3f2baf00bdeb207dabf35e9d024e" => :sierra
     sha256 "010e3d1649ba47570df271456ba83c28ca23fbbceddee8cad0644ef91ba96eca" => :el_capitan
+    sha256 "e8134982e38085388877ec12a67c1484d7678f097708908ddddca95d62bb145e" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
