@@ -10,6 +10,7 @@ class Cnats < Formula
     sha256 "93634acc0e5dc64ffcd7e664bd61d58b138293f2462aca247e85a29e1f0c9154" => :high_sierra
     sha256 "b7b780159a6dd26e6b998b5fc602b62781e1c9b9aa0aaa58872c2402e82e1805" => :sierra
     sha256 "c0bbd1825975f69b7ed172c3ad428a36494611ea56cbdadd9b6288cc26154929" => :el_capitan
+    sha256 "1391374948ba4827a0db720e13bb2ef6ce75fee7e30c7514d799848b7cc1e4f4" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
