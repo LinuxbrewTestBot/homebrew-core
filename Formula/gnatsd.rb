@@ -11,6 +11,7 @@ class Gnatsd < Formula
     sha256 "ba43c0294be21d1b57fc8193e9b998e7f9301a68a61a4161aad724f786801520" => :high_sierra
     sha256 "990c795b26ecc35fff73f139b0bebc47066cea4bd92c78d1778b321bd4221ad2" => :sierra
     sha256 "f75e5b2031aca4c47890fb8bfcc6eb6db63eaf41f75efafa9267f771edaad333" => :el_capitan
+    sha256 "9a2865c590b912330e29badb8fbfddd21b0040113d97863d6e6f5096696d0b03" => :x86_64_linux
   end
 
   depends_on "go" => :build
