@@ -13,6 +13,7 @@ class Atomicparsley < Formula
     sha256 "b43ba5577c7e8b2dd9b4852a5d6652e1600a460584096646f38b69b7d103cee9" => :el_capitan
     sha256 "b1825326c53079bd37a098cf100ae29d2b2763c985be0f2592ba89f10b914eb3" => :yosemite
     sha256 "8797e94e5a1083d41fd9843a94362a714a48430918ed95fa9d7f37b31e0ba1e9" => :mavericks
+    sha256 "1d19235e19a1834ba82f04dea871f7e3098be41d291ce2ddc3dfb4a100b81361" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
