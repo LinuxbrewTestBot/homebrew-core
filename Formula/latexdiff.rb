@@ -10,6 +10,7 @@ class Latexdiff < Formula
     sha256 "defcfd366232b19b67f087f085113a30d18f9e42f70ee2b44eb03828ef1f0727" => :high_sierra
     sha256 "defcfd366232b19b67f087f085113a30d18f9e42f70ee2b44eb03828ef1f0727" => :sierra
     sha256 "defcfd366232b19b67f087f085113a30d18f9e42f70ee2b44eb03828ef1f0727" => :el_capitan
+    sha256 "bf57353271ac351540597373fd300776137b4b691f9e9cc8db4dafccc05013f5" => :x86_64_linux
   end
 
   def install
