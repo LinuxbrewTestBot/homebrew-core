@@ -10,6 +10,7 @@ class Zstd < Formula
     sha256 "ebc051190f4c96ce8df6bc1cc9638402b31472a5054716ac18eb0eece19c53ef" => :high_sierra
     sha256 "d5909c9a1c8b4ccb85496472104625d1ef9613e21400ff3e59c9c5a8859d6da7" => :sierra
     sha256 "2dc1d15fd5f7177aca8790c60ad016d689968e93384f752552a291eac72a6819" => :el_capitan
+    sha256 "18a7347359fadb9c89298fddef498766e289011292a51d32862945d2cbb68f5b" => :x86_64_linux
   end
 
   option "without-pzstd", "Build without parallel (de-)compression tool"
