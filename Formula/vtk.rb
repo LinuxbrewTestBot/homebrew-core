@@ -10,6 +10,7 @@ class Vtk < Formula
     sha256 "491015b614d28cd9b9a60fc7150553451bdb58dbc9df870e26672360d8636db6" => :high_sierra
     sha256 "f4f05ff2088b6ab12b8eb40c685e9cb1f3f375ae16d84c269783cedd786e3250" => :sierra
     sha256 "7c874c41cebc5b6d318e30b2ae072a2de5496def96273af90dbabc06f486d009" => :el_capitan
+    sha256 "120fc3b901eac16fb4a8c512a85f209f0e4cd1a61c59973ad860f4b1f80aa585" => :x86_64_linux
   end
 
   option "without-python@2", "Build without python2 support"
