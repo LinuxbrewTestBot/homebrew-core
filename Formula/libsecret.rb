@@ -9,6 +9,7 @@ class Libsecret < Formula
     sha256 "6a4ab070179363f9468424a354267afc31c61d6c50fca9f082ec4bae96d69769" => :high_sierra
     sha256 "600584d69e9688bdcecb510b7e10d1fab9593e789ce72a27c57a7da8cfb54488" => :sierra
     sha256 "9d64c0daf3b3f02d44eb2e24d156a76526afa0d00b6b911a5aecdfa8ccfd81b4" => :el_capitan
+    sha256 "2dbfa0a0bf8f38d1a925595066ea34c2cc1d20668be19b5ffd729f146d870cba" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
