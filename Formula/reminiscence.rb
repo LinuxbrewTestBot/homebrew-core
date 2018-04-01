@@ -10,6 +10,7 @@ class Reminiscence < Formula
     sha256 "afd2cd157db08a099a133474d2e39cfa0a84cf0f964f723d08e1c694150ce9d2" => :high_sierra
     sha256 "1d7ec41316c4356bf9563e2b1edad2ebb360d4d2aee3b10b4f3cc3549572fffd" => :sierra
     sha256 "5def6d20b975e17c0d988714efd1023b618594df8d7ab8f2fd9092df6ac35221" => :el_capitan
+    sha256 "8dc1ab3d3e24acf79b48ced3051f5cf5c7cb7a7569407ce706a0fd88e9f8a65e" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
