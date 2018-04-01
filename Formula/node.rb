@@ -10,6 +10,7 @@ class Node < Formula
     sha256 "8876dfbe41f76b3f25c227102c613a750f9474bd6b77de36487553982e2ea105" => :high_sierra
     sha256 "056716508110655dc29b554d1a40daaf633b5203b60a904b2cd6dc1d9e465291" => :sierra
     sha256 "b86b5eb9d4e6cfca563df1da5eb04224421f86e504b8a7364d63471359a3f98f" => :el_capitan
+    sha256 "132271b8ecb790079203913330af5f7c587032d84c3011efd89329a4682c4221" => :x86_64_linux
   end
 
   option "with-debug", "Build with debugger hooks"
