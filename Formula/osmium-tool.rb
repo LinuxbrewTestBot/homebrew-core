@@ -10,6 +10,7 @@ class OsmiumTool < Formula
     sha256 "38cad32aa92035906161ea8eb3fad6857aff23e930869ba767bb7071f2d95c26" => :high_sierra
     sha256 "5b11e95a4d33405ec3f57aadd2e90a4694ba010a492ab15174c8c7d20aa9be88" => :sierra
     sha256 "ad19ecff2341a5554588fdc82841180bc6648f7ffd18264cffaf5c92f9fd27cc" => :el_capitan
+    sha256 "12384d97def64898f44099db120f572e67dd8a83c7c9651eb042b2fe968b1901" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
