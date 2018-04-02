@@ -10,6 +10,7 @@ class Python < Formula
     sha256 "6ec7a1efb260f95627a0f76689090f429ef2b0eab08c04f27c4e163f018adf5b" => :high_sierra
     sha256 "fe2883208ee5cac0735a36cb747b56c2ee6a2f54fa5f53717ba2fa8d3adac982" => :sierra
     sha256 "17d00dd31407b64ab8f466de043a24f7b7191b958b56adb8880dfc9737c7e846" => :el_capitan
+    sha256 "09718e09ea334b712aef13c19c6f682010ec398294fa0de4d9d0f691029820f2" => :x86_64_linux
   end
 
   devel do
