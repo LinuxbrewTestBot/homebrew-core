@@ -10,6 +10,7 @@ class Psqlodbc < Formula
     sha256 "50c7b95ba79174f4ef553fd7ef2877ffa419c1d1cfc4d71f88ace5c6a61a0fbf" => :high_sierra
     sha256 "8d87b2eacab320536c900cb4ee49bb28c30f4c895a6ea28cc04ff886ebc66fd8" => :sierra
     sha256 "672ce7087dfd4ec055c46aa1ccac3ea1b224b453aeacf8c56ffa68eef3a6fbf4" => :el_capitan
+    sha256 "0e1b6057a8036e048f87a0da2dfdf4aeca2f352a933e8938e45a3c2dd6cdae4c" => :x86_64_linux
   end
 
   head do
