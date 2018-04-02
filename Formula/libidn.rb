@@ -11,6 +11,7 @@ class Libidn < Formula
     sha256 "43e9d1a69fe657db90d2aaf5f191741fb3ed428071abbc58d29276cfe5c4c252" => :high_sierra
     sha256 "5e447cc6fb5add5b30907b45a69f017be7daca6f515a2b7bb8338e0323238d60" => :sierra
     sha256 "94571f7decc615e95aa80762956206619785ed44e69a39261ff601f06890521f" => :el_capitan
+    sha256 "d091b8a1ab9cd500347a13646770b1cab458eda34f2bff9ff5e452d9c6de4bab" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
