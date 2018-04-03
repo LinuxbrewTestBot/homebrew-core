@@ -12,6 +12,7 @@ class Lmdb < Formula
     sha256 "446eacbb6ae70705b8ef850a143a19378f840ed4070a6beb7ec80c0876913987" => :high_sierra
     sha256 "5eb74dfb0f982df132fb1c4edd45de857cba72bf461b213c4565b54a8cb9fe67" => :sierra
     sha256 "6ca8e50908dfd7feb3e405c6f348a950c798747d57d02bd426e76b1cf1b8500f" => :el_capitan
+    sha256 "d53d0b41a88cdd6f965668b64f15a4f6ada4752ec8ca716fcbb1038382846b39" => :x86_64_linux
   end
 
   def install
