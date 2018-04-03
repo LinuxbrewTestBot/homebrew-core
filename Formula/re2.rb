@@ -9,9 +9,7 @@ class Re2 < Formula
 
   bottle do
     cellar :any
-    sha256 "848dab9a0f20ad568a7811091bd3012d9c4088c1a19766f7efd13c2339091eaa" => :high_sierra
-    sha256 "361d751e54a0ce71402d22d1c8eb1b12ead32576b08eef26dc3ead14c0a82296" => :sierra
-    sha256 "b9a173228752cec85ae8e29276c6cc05c850ca4551a9b474a2c26fd4aa5f93e1" => :el_capitan
+    sha256 "e8195c0e0e98823157acbeb746837542d5fdbf20ff37c2c106265bc13012808d" => :x86_64_linux
   end
 
   needs :cxx11
