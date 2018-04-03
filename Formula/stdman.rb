@@ -11,6 +11,7 @@ class Stdman < Formula
     sha256 "0f795424e68e066cc1f6c567a5513001481cd610cded75dfab77aa8db42cf9ed" => :high_sierra
     sha256 "d3e640c191d2cf471b37b2121d20ebab97ff353f2d69616cfa7f7227db069beb" => :sierra
     sha256 "d4b15103ae4011c1f2c9a4e3dcb0b205bfa45595d7ad25d6cb87ec1dc4f395ab" => :el_capitan
+    sha256 "b6b0ef820da71198038598ff37437525a2079bb58701ebaf71de5fe3c182c294" => :x86_64_linux
   end
 
   depends_on "linuxbrew/extra/man-db" => :test unless OS.mac?
