@@ -10,6 +10,7 @@ class Openssh < Formula
     sha256 "d378e6ea62cc33ab02df2c7394c8b9dc90fa7ab7d0a54a2f5f9a1db4c6f69dd4" => :high_sierra
     sha256 "f30f9b4163419d95b59e62dc6b55b956ab0612b49a654ace9fae3f67d18d3198" => :sierra
     sha256 "8c163dd34c4fbde8de02c58ccca743966b4f755be40049740f604509d2135a3c" => :el_capitan
+    sha256 "a4dfb3b6cacda3d3fefa50d56db02199ca56c1f316a198e9bf23303bdb8d9c24" => :x86_64_linux
   end
 
   # Please don't resubmit the keychain patch option. It will never be accepted.
