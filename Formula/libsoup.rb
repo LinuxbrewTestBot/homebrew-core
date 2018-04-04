@@ -10,6 +10,7 @@ class Libsoup < Formula
     sha256 "5ec289e00108fcd004ddcb8b3003a75c97f812af9ff90498c08b29614a9e60c6" => :high_sierra
     sha256 "fd78aff99206186df8f4b573567f00fd0bbc0862e50489668b1d78274d011cff" => :sierra
     sha256 "0a5e00e6ea4f52981e9bd6503b939c554749a9713f02e8f00fdcfd2e0d79e65b" => :el_capitan
+    sha256 "a19f1ab577844e1b988f106e05814c8a94fb62bf9282247a871a58a8ed605987" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
