@@ -9,6 +9,7 @@ class Pugixml < Formula
     sha256 "53ad542db23961c7ed6e7e7e6974c54198823ddce6644ae172d1f798136a0218" => :high_sierra
     sha256 "879ed1d86051a4230499b368e2a8d7b9ebcf5792ff0dd40aa711b311426bf6e1" => :sierra
     sha256 "a8fe6aafdb9826497121f3b616f382a7447a04dc252770b0828de1e4b4c99b99" => :el_capitan
+    sha256 "a782114e16ab08e8090e79dba82eaf8290330efea54c5d9ae49e8e3fe47cf23c" => :x86_64_linux
   end
 
   option "with-shared", "Build shared instead of static library"
