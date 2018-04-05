@@ -8,6 +8,7 @@ class Fail2ban < Formula
     sha256 "dd979343b0371718a514dfdca9cfca9b5166740f94ab76af2fa81afb6402b3f3" => :high_sierra
     sha256 "acaefca421f5398fc61bdae2eaffd29ce70cbd03ec5af2be4a1e8d13eec080d4" => :sierra
     sha256 "bec9fda21d0e11efd2fa52930b13ecbca598d9f0dfc522c0c2a1b54a5d7c7b59" => :el_capitan
+    sha256 "a36bd6a7934e786ae0152cc39a96f8f3c51166a187a2a70f4e25ff13f05b29e6" => :x86_64_linux
   end
 
   depends_on "help2man" => :build
