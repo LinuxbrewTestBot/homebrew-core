@@ -9,6 +9,7 @@ class Czmq < Formula
     sha256 "1e414d17fd6c0a4dd9939e84091b5073c23d2477569d12b0ee08d6a425abea14" => :high_sierra
     sha256 "c0b2b82ae2edfa4dc97f48789ed87050dc0fb602e85a2b510fee6336afe17a5c" => :sierra
     sha256 "d6966061fd61f2440713473c4f65bb9fd541be2f3be78e1d3f56ca54d366202e" => :el_capitan
+    sha256 "ade0bb37b32a7da72ca76f302267f30e5f40eb51a1ecb8999ff9d13cd89c93b6" => :x86_64_linux
   end
 
   head do
