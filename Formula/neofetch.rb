@@ -11,6 +11,7 @@ class Neofetch < Formula
     sha256 "0a037a66db7d9afe351da7c8f03fc8e0539f37725f624b54dfd3c580fd2c0329" => :high_sierra
     sha256 "0a037a66db7d9afe351da7c8f03fc8e0539f37725f624b54dfd3c580fd2c0329" => :sierra
     sha256 "0a037a66db7d9afe351da7c8f03fc8e0539f37725f624b54dfd3c580fd2c0329" => :el_capitan
+    sha256 "03754fccebd7913498ac6c8c8a1d3a3b114bf43f2149ae999a567e4155646cf6" => :x86_64_linux
   end
 
   depends_on "screenresolution" => :recommended if OS.mac?
