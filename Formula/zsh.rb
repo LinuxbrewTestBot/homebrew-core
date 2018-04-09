@@ -10,6 +10,7 @@ class Zsh < Formula
     sha256 "4d0f0b68254b14666c39471e3976c05568cf595c65b1679cd81b7645b66e88bd" => :high_sierra
     sha256 "82857336a40d0077a81367bb881f610c43cfcda00220cbf99f20f270f1835da1" => :sierra
     sha256 "c33033af8a1a15605aa636447041757a874a2158fd270261d3accd084915bfdb" => :el_capitan
+    sha256 "881f15cd01ccdd802929e8cbfad779f0c1622a2217b90ecc45fb5fad0340460f" => :x86_64_linux
   end
 
   head do
