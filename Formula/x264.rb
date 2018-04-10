@@ -14,6 +14,7 @@ class X264 < Formula
     sha256 "f9217e7b29e737cc050f04183266a19c75fb01b1e9101818bad014a7cdf62f16" => :high_sierra
     sha256 "c047a907ed59ffecfba24792f800c21a3226cadb6cb2155943711a373950a1eb" => :sierra
     sha256 "04a9a0a821da861a283c92993426c1cdfe3cfd786898b7dac8bd9c477c5d02d7" => :el_capitan
+    sha256 "73e5a66685308f7c02415d65faf4380d076761f8beee2b64a84c358925fc64dc" => :x86_64_linux
   end
 
   depends_on "nasm" => :build
