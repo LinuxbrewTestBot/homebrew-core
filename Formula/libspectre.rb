@@ -8,9 +8,7 @@ class Libspectre < Formula
 
   bottle do
     cellar :any
-    sha256 "5d4409361dfe7ff5da24015a349ea06427de2f53619e7a970fa028bb0a6a5144" => :high_sierra
-    sha256 "763d2771dc3bb190961cb4dadca99f233568f8520179be01c7d01c0f279276c9" => :sierra
-    sha256 "a2dcff59a6f432ee7e070ccff8963a5c9681f803ac0187b83f240f7f09382899" => :el_capitan
+    sha256 "b9370647ca6e7d9389d1cfcd2e05553f03054bef947dd0ca31f940db3af744cf" => :x86_64_linux
   end
 
   depends_on "ghostscript"
