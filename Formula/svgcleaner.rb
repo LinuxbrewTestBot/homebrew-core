@@ -10,6 +10,7 @@ class Svgcleaner < Formula
     sha256 "bc7ce28fda3125d1b53d38225cf86b1a72fbfc5bdc6964014ce8a8af96cc9add" => :high_sierra
     sha256 "141b68daa2335f0ca15ed707e07b239727340942c82943d9619e0b27a072701e" => :sierra
     sha256 "4a8e60702be1d8cc7be187f8de0ead26b234d7018c567adbc4bc358b90c1aba0" => :el_capitan
+    sha256 "d2b2d12c478271b631944c26de0a19a53ede2a89b2161209ae352b50b45b28c4" => :x86_64_linux
   end
 
   depends_on "rust" => :build
