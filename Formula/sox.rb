@@ -11,6 +11,7 @@ class Sox < Formula
     sha256 "f1ba26233464499f58cc0cab34c5472d8b9e30a83cbc6e185b451a9476d560f4" => :high_sierra
     sha256 "de9126013c1bbd7ec728197cc471231cf17c51e7620e995590b8a6ade6c07521" => :sierra
     sha256 "f3b3ac24d351edb82fcd30119f13f6b86848c62b9130b6d20c8538e8b2b17d89" => :el_capitan
+    sha256 "2316754802b0e8fd22362c56f13c7b03d6d2f1f0c190dd7ba24e652f3640d61b" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
