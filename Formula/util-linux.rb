@@ -9,6 +9,7 @@ class UtilLinux < Formula
     sha256 "8ff96bb1e4e04a8df26e0d062e855e0a83f4f6afe437c0fecca2ba0b891ac3e5" => :high_sierra
     sha256 "353016648e93cdaf7e9d277c0e7e26b3c681b19ccc6f87faa79996100de0925d" => :sierra
     sha256 "7d29b310f3bf5228b702031923ab8877ddaadaf46120ccf577d8b5ee9ca77e00" => :el_capitan
+    sha256 "3c8b8060c5d82dca00570fe415e8ea3fb0f0ea676062d789f6347fcecc86cc2e" => :x86_64_linux
   end
 
   depends_on "ncurses" unless OS.mac?
