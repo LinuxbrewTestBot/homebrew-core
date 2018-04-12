@@ -10,6 +10,7 @@ class Di < Formula
     sha256 "81c4864d599c750853763af46e78d9cc63f7cd57d892e9609e80eecd6c815eac" => :high_sierra
     sha256 "cd3618e1d20bbacf19690dd9b851399714e94bd89af4a9b4e22de6dd38ce39d1" => :sierra
     sha256 "6763e3cfb49aba34aab28df7a0deec27fa9603463220f4b2d4750530176ba6bf" => :el_capitan
+    sha256 "95f51f148e55dfffa0e3891fc5ee1aecb851f325b69deccf1b97512cc0e42cfe" => :x86_64_linux
   end
 
   def install
