@@ -12,6 +12,7 @@ class Gist < Formula
     sha256 "a92937549e26ba5bbb9059c9f97de66f6cc87c09906a7a52e0946a8634153328" => :high_sierra
     sha256 "384be8756092732a7bf082b0208f9a1634605e7d1ba873d5a6600180e228890c" => :sierra
     sha256 "384be8756092732a7bf082b0208f9a1634605e7d1ba873d5a6600180e228890c" => :el_capitan
+    sha256 "5a01b56f2a29eafa42df4dd8d3cc58a01b249f4c20025bf3b375ced2c897bbbb" => :x86_64_linux
   end
 
   depends_on "ruby" if MacOS.version <= :sierra
