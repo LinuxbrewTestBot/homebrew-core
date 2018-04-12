@@ -10,6 +10,7 @@ class CoreosCt < Formula
     sha256 "b8b2f678aca517399804f76bc6a276f821328f46936e1db11eac1c60f58317b2" => :high_sierra
     sha256 "00c96cccd0cf7d829bb9094d6cbe015a964784ff86d2a3ed8fad5dbe074ac8ee" => :sierra
     sha256 "c2d25c2e3f43961720dc16e4bf501f05914e7a6bf3b8061073f567a2a7652acc" => :el_capitan
+    sha256 "292384b4e4200fa4833c199d9e09e1ef9c8b5c9ed4adbd7b6852cd152146a94b" => :x86_64_linux
   end
 
   depends_on "go" => :build
