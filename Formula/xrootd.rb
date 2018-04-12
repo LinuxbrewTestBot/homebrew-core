@@ -10,6 +10,7 @@ class Xrootd < Formula
     sha256 "bd52bd5c1eb23dc62f59b3181b44de2188d25a11190d8b0cd22563ac1c2c6ae8" => :high_sierra
     sha256 "dea47c161b6d717525f5ff9fcfb395c287a8379cc74ba28db0de14071a9aed3d" => :sierra
     sha256 "5cd04eb4f45d29817b534a2d037b12784c7747e8582f399b4649632078be1dc5" => :el_capitan
+    sha256 "fd23da55f9b7776834f35d4910fdaf53779e2e619e0e6756398fb0f2a9eac442" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
