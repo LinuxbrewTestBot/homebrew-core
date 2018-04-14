@@ -9,6 +9,7 @@ class Fontforge < Formula
     sha256 "06dbc9a8d4bc58b2097d455074118db2b0c9063d6e341e8f36034f7dbb896aec" => :high_sierra
     sha256 "c1c341cc9e10bb504fee8b8cdcb827ae1ee32db9a2c723743a79e39df32da8fd" => :sierra
     sha256 "ec69ac98f88c91f84f83d929310c6b7bdb4ccdc731e2603d2402dbdccd54a6d2" => :el_capitan
+    sha256 "5eae6fb5c83f204fb8e602eb206ad89ca34b647b28ecfdd152c02d0756a1a899" => :x86_64_linux
   end
 
   option "with-giflib", "Build with GIF support"
