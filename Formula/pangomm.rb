@@ -10,6 +10,7 @@ class Pangomm < Formula
     sha256 "eefd29c6f25ecaa2d5b6f93a5578eda9607a71283ad7c2613167bb21ad4c62d4" => :high_sierra
     sha256 "d17ae0b9cdda0fe0145e53c890981aa088880befecc5973818170ca6f2b39c6b" => :sierra
     sha256 "807631e6f412e16bbc94bf2cdae1d9f4bd61da40d27a741047e907739a73d311" => :el_capitan
+    sha256 "406843b0d8a248148d44cfa7481718343182a45c97b18e77bef3ed2aaad4e492" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
