@@ -9,6 +9,7 @@ class Mpv < Formula
     sha256 "3cb3aa2d010d926f979bd5a6543b6ddbfd1debd675090a9a5c73483ba1c26e5e" => :high_sierra
     sha256 "953244c58784ce538d65e307cd07419fead23875f0055953f33e0dedb15ee30e" => :sierra
     sha256 "4e2dd1b8c7b2e6e8e7b55cfe75de3fe685e0a1efbc376c86a0f5dd28c09e92e7" => :el_capitan
+    sha256 "183b1898be7210221fe6bc651027876c8d62ecd903f2091c0891a0ab1258c15d" => :x86_64_linux
   end
 
   option "with-bundle", "Enable compilation of the .app bundle."
