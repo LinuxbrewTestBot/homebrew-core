@@ -11,6 +11,7 @@ class LibsvgCairo < Formula
     sha256 "63cfba79036bfd190a92e6a4c501e2e4c737bf63e6a8df6bdca56885c66ae740" => :sierra
     sha256 "9f87cc3a6d7e702aab12b23ad1f720ae592bdfb9112753e27c9cf2203dc21915" => :el_capitan
     sha256 "55bd8f9bfede25e71e9731d72ace27ce7724a4cce030a4e4e6969554ee64238d" => :yosemite
+    sha256 "071d883e83c9b3c9d5b9625d87a20ca892781dd8f20aacd07236ccbb32b51710" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
