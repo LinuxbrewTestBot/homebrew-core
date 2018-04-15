@@ -9,6 +9,7 @@ class GlobusToolkit < Formula
     sha256 "5da7a2839d7c3d94c45ef69d29d33cf728689b4a7eb5be187f0acef70a17e841" => :high_sierra
     sha256 "49a4adb00b948b6723b9b2106527789324dab90dae6044a5344baed84cb0032f" => :sierra
     sha256 "b13c8904b16ac206e4fdcc45e25335ef17a636824b41a3f40766e774cbd27895" => :el_capitan
+    sha256 "dd2ee109aadf6e27b7869302d19741e42c02ecba07becbe1135373fa3a718530" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
