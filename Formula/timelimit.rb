@@ -9,6 +9,7 @@ class Timelimit < Formula
     sha256 "872dbbd21820c6d08513f29bc0c024f8584c7d7b7b6b4b436553414d08fd6950" => :high_sierra
     sha256 "5fdeeb6ef9c0306f7195187b8068bc4f84de79d6f6716977a262ce26abb3b1db" => :sierra
     sha256 "d36206d7c4ba1431fb592ad9335e9ae3bea8b983245cec1e65cc24318088bd86" => :el_capitan
+    sha256 "ad1f6b0f597c4d0ced21a52d1a112db1041a22c9e14d07879382da47db306a82" => :x86_64_linux
   end
 
   def install
