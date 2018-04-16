@@ -12,6 +12,7 @@ class Libtiff < Formula
     sha256 "2338c777aad152907291b35f40f2767771038a4812d2460e045b9ef4a7f3b565" => :high_sierra
     sha256 "793f26ad5b2120fed7cdd00e1cd8f5b4d7e5f6363b7bc1aa9ef909cc05474579" => :sierra
     sha256 "d0f870c1226d0bbf13de283c770d73127bbcf34028d58805a35174fde6e89845" => :el_capitan
+    sha256 "186346b6621a2ea39906c01cabcbe93b4a678bb7db56e627fc495c2cc937caf0" => :x86_64_linux
   end
 
   option "with-xz", "Include support for LZMA compression"
