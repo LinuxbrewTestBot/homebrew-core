@@ -7,9 +7,7 @@ class Libmagic < Formula
   sha256 "1c52c8c3d271cd898d5511c36a68059cda94036111ab293f01f83c3525b737c6"
 
   bottle do
-    sha256 "bd5083a984a62056a9aa0e47997b8c02110e4c8c3cc5114a56fce6c02434c2db" => :high_sierra
-    sha256 "4231cdb08d5090c66aa226aa618c9befaa29687e732e1ebd48a930096187daf5" => :sierra
-    sha256 "02553f09e8f751547aaf5c98fd0210055472680840a86f9377bbd3712aea6096" => :el_capitan
+    sha256 "5f94a9cee4255625fbe5c64f22fe8c667fa852b005373dbcdb0eb25c9f37c69d" => :x86_64_linux
   end
 
   deprecated_option "with-python" => "with-python@2"
