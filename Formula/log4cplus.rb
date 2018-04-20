@@ -6,9 +6,7 @@ class Log4cplus < Formula
 
   bottle do
     cellar :any
-    sha256 "8f5d5c964260d3d1ce5bd96b2fcd292f12816a20f68c99f27d3790511ff65ff9" => :high_sierra
-    sha256 "a47e18c9074c81f9583c25141b44e5b52ab9b18f85b0610b40207a081bfaca68" => :sierra
-    sha256 "1ba3ad171f57d728ce82b4dfea6e11cac08f8edd8b77c3bfde2658a63cb0c5d6" => :el_capitan
+    sha256 "9a9d545c10950c742a0401481dbecd25e67bb13882136d8e9dfbb5ccdc7dc3dc" => :x86_64_linux
   end
 
   needs :cxx11
