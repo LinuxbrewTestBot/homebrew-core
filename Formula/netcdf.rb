@@ -11,6 +11,7 @@ class Netcdf < Formula
     sha256 "8df16777db8bf5fd6e14e956610b7bdc0811d2d0dc93243523fa60b5fff96262" => :high_sierra
     sha256 "a43e87f22c5901ea933ea86d4dac40141d9c1d2102e6ddaab090fb3a9c1c6c53" => :sierra
     sha256 "be56d8cfe99b96799cb684f421e2becc03e72a6754fc840723c78d0fb1bd774f" => :el_capitan
+    sha256 "f4081152a0b3d1cb13cc6e696f4d54358574d19ed114f52196566f911305612f" => :x86_64_linux
   end
 
   depends_on "gcc" # for gfortran
