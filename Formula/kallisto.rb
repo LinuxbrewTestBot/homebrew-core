@@ -11,6 +11,7 @@ class Kallisto < Formula
     sha256 "ab38b73fea94b87a8bb4a177a0c8d521bf91d5cd5476cd5b0237f2ea007ebefd" => :high_sierra
     sha256 "aae08244ae475a38fe28b7d33b1ce48880f48e3905451e813ba88c9bf69eda77" => :sierra
     sha256 "de0c2d1d3ec0b36aae9a536e890dab249bba372f26d6e72dc70d39e5ea3d29e9" => :el_capitan
+    sha256 "9f30d51a3b3c4a5e4350592bb758b678b5325b31cb6f57ee7175bdced8b6294e" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
