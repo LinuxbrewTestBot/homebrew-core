@@ -12,6 +12,7 @@ class Fobis < Formula
     sha256 "ec9c59351830b3c073a8a4a736485bf54dacd008c00e31d1f3746522b7464932" => :high_sierra
     sha256 "88c07fd15dcbb0cdeaf1ca191d6230ebd2d92d5441f3e7a8d0211a70a76343ce" => :sierra
     sha256 "59c6aa0f5784eadded4ada95083489a24063917a9fc3b73c0fc9055a4f44ba3b" => :el_capitan
+    sha256 "4c73ff8348ba770855cc1f3fa123a0fd5052100021bf7401466ed9274f1dd02b" => :x86_64_linux
   end
 
   option "without-pygooglechart", "Disable support for coverage charts generated with pygooglechart"
