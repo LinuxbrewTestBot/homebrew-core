@@ -12,6 +12,7 @@ class Parallel < Formula
     sha256 "517946a4ad5ab0918f5d64fe382a76cf9f7574fcf665457506fac880bc54b83a" => :high_sierra
     sha256 "517946a4ad5ab0918f5d64fe382a76cf9f7574fcf665457506fac880bc54b83a" => :sierra
     sha256 "517946a4ad5ab0918f5d64fe382a76cf9f7574fcf665457506fac880bc54b83a" => :el_capitan
+    sha256 "e751653c9daf300d99e572b8205e2dbea49447b34fabfae4156d1a03a9c0efc2" => :x86_64_linux
   end
 
   if Tab.for_name("moreutils").with?("parallel")
