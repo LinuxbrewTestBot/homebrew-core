@@ -7,9 +7,7 @@ class GribApi < Formula
   sha256 "ee4a4607f7208ee329d9ae622dc34da8f0675ac08ab65ebe61c68856bebee810"
 
   bottle do
-    sha256 "25f7ec4bbbaf2c066d49686347e7df83bb727d96213424084a95b0b4877663b0" => :high_sierra
-    sha256 "a90d6a1d4a24fef43837542ae5a180cbf4dd172688309a15fe249a34d992b452" => :sierra
-    sha256 "36f177dcdbd1a7b288957943ebd60da5ab053f7d065d6de71809de34f8efd600" => :el_capitan
+    sha256 "5e7fd7ef2dfc7529399fc07cd33222693ed01c5b3934c14aad5ee1da62646c7f" => :x86_64_linux
   end
 
   option "with-static", "Build static instead of shared library."
