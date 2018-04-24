@@ -10,6 +10,7 @@ class Perl < Formula
     sha256 "30317077ce9e42f30f9d4c875339ee5ade289cb8de08ddb55953803a52560aec" => :high_sierra
     sha256 "4aa888c405e50b43f0fd0191a84c509b3d4403dc02c9631085842f9ed98ed2a6" => :sierra
     sha256 "c87180da0272ae59e35e39733a5912d490bb5833de7b1600bdeee369a576806a" => :el_capitan
+    sha256 "fc6bc20c3f17bc4be43b0feaea79ff6419ee6746adb5f4afe50cc462f79fd62d" => :x86_64_linux
   end
 
   option "with-dtrace", "Build with DTrace probes"
