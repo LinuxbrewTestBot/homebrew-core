@@ -10,6 +10,7 @@ class Webp < Formula
     sha256 "d84c923512187318d2538983b0c517ae43f8abc9ea4b4dbc80788512ef59f21d" => :high_sierra
     sha256 "a330ed8cf9f841fcebee1cec3c751ed9798d9ecb9481f105ce43cf0adf0e29a9" => :sierra
     sha256 "d1a7a10ea4255d6e0d9930cf0ce42ccb1ba982c128a2830a59c951ce0878a22a" => :el_capitan
+    sha256 "92889d95419b993269884f49c8bb2c9a3ecd47bcbbdb07b7a077dc45e27ff7b1" => :x86_64_linux
   end
 
   head do
