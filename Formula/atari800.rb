@@ -10,6 +10,7 @@ class Atari800 < Formula
     sha256 "7e796d1b72b0f04b7d396a132f39be6b0537150b085ee33dde648980ab325049" => :high_sierra
     sha256 "91c67cd09225e85b65ce6040c37608365afbe49428113c785973f9e32c3d2604" => :sierra
     sha256 "bedac5c5ac65f87e08c1983d130fbe88e02e056b154196f2add661f98cb2b973" => :el_capitan
+    sha256 "332faf6b5ec3a0a120f71d47e1a331562ae3ffee0c441557a64a65fe27db6a6c" => :x86_64_linux
   end
 
   depends_on "sdl"
