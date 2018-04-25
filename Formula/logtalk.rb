@@ -11,6 +11,7 @@ class Logtalk < Formula
     sha256 "274bc573c66a48b563efd22562afbf120bb277d10259f766cafb9e837b7fb61c" => :high_sierra
     sha256 "85406c3d611b5f3000e110da0b9f76333b5c867ec2a886911d57c654435f0039" => :sierra
     sha256 "c8117b48303c897ccf3b2f11d1e8bacbe929abe9c0d7bca48dbe1a6b2ac9d244" => :el_capitan
+    sha256 "812de08b33f2178800ab89727a16b66ac7443d90ce32f8bbfc616660c2778f89" => :x86_64_linux
   end
 
   option "with-swi-prolog", "Build using SWI Prolog as backend"
