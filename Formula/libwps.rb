@@ -9,6 +9,7 @@ class Libwps < Formula
     sha256 "11c36fe9cef93d57b5d1f94fd4e51777e881a3be854570a1d529653802bcbb20" => :high_sierra
     sha256 "911b3443d51a221888399a5934194a83f44cf0c6ebfb2a2b3e19cdce73cdc08c" => :sierra
     sha256 "a5856fdd6440142ed49bf8bcf9c073f33efb16353c2b846fbfff2d6f8076eed6" => :el_capitan
+    sha256 "2380b50b140243dd0f2583d17a7eb6953ae283f06516272189e9a32c75873bb8" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
