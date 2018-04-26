@@ -8,6 +8,7 @@ class Gdal < Formula
     sha256 "e12a190d34c9b0e93bdad0b0511b66b4ea30d88a1eb421139a1692c5319a3568" => :high_sierra
     sha256 "e5b261299699570aacc75f5d97a85c9e6ff834f46d0561d63557c5efdedd6196" => :sierra
     sha256 "1f5ce5618a147582fdb21c786def1b14ad170c561cacf504612b62f30a50a952" => :el_capitan
+    sha256 "a8001482570fdc2067317fdf30a8534880808f560a599bb37e20c5af8235b521" => :x86_64_linux
   end
 
   head do
