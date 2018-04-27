@@ -12,6 +12,7 @@ class GitFixup < Formula
     sha256 "3c6e69dcc8a9dd6ad1bef0181b729cf310a8ff36c75f4671f0606272203dbf67" => :high_sierra
     sha256 "3c6e69dcc8a9dd6ad1bef0181b729cf310a8ff36c75f4671f0606272203dbf67" => :sierra
     sha256 "3c6e69dcc8a9dd6ad1bef0181b729cf310a8ff36c75f4671f0606272203dbf67" => :el_capitan
+    sha256 "edf482126a8b1dc7858a68791a498b1ec87751bc8a1550693674dc608479a17b" => :x86_64_linux
   end
 
   def install
