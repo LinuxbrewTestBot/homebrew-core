@@ -10,6 +10,7 @@ class Bedops < Formula
     sha256 "2fcdbba7e829549668ff85dfd33d281dd09824d6d9b7adc5b7f986c754bf39c0" => :high_sierra
     sha256 "e6cb89dd6bb66f40c09b06e3b9c35184b040a0c2334b59c52e0615cca3cc11db" => :sierra
     sha256 "ac524ad51227b7424026c42a11d2a04db385b3a87e06b6b4036e880002b98cc6" => :el_capitan
+    sha256 "047478958c5b125b5059c5d91e15bb4f61a7c16414355498078172db00f6f8d3" => :x86_64_linux
   end
 
   needs :cxx11
