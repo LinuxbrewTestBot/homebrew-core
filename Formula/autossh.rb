@@ -11,6 +11,7 @@ class Autossh < Formula
     sha256 "d9bb50e0a96fe80d177541ed317032e4f0d1d66af70aed5fcb804299384bdd87" => :high_sierra
     sha256 "75d84cea4022291022508dd13d231c6beb599e95256759856051e1cdcc385541" => :sierra
     sha256 "fea4dce29ebf3308cddd9f36f209a401933998821b3b8fa8845130d340d487e2" => :el_capitan
+    sha256 "d8adbd842bd9b6e4f21cd19e46d525e1203a56f838f72a163de43706903243fa" => :x86_64_linux
   end
 
   patch :DATA
