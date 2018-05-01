@@ -10,6 +10,7 @@ class NodeAT6 < Formula
     sha256 "997e787256162c58f3a9e6a7a16dbdb435551d6efb479a6b63048935c6830db4" => :high_sierra
     sha256 "20086065e71ea193b8a3a8a873239eb5df9d99fdfc188b58df9b2cbf1d3c73ed" => :sierra
     sha256 "26fb1d3da23642e9d0fd019e5b6cdaf801de92471bd70dc53e50504bd02a3cb4" => :el_capitan
+    sha256 "a8692691268f019d5551f3671b349f7bc9d8bb846ff76d0feb27a8a8ce0e4c6a" => :x86_64_linux
   end
 
   keg_only :versioned_formula
