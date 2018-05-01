@@ -13,6 +13,7 @@ class Xz < Formula
     sha256 "e7be50f4ee00e35887f3957263334eb3baba59e8c061919060f9259351be6880" => :high_sierra
     sha256 "bcc71ee69e2c43bf56b9c9ece5a53dc3439652f355620a25b020f794cd447fb7" => :sierra
     sha256 "974aae83ba7ceb62040c5bf02b1fb277a919212714c8da2a4c5eb3d1d119a465" => :el_capitan
+    sha256 "843e87c20f1d261e4fd08ed5856f788dd3f4d639bbc99746b89bb5e69dbbb2df" => :x86_64_linux
   end
 
   def install
