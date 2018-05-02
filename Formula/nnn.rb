@@ -10,6 +10,7 @@ class Nnn < Formula
     sha256 "90682082109f2ad444092cdb113c648a057de6f5ce14063db4ce3ff0f9365807" => :high_sierra
     sha256 "2ddd0a667b68025c2dca006cfed1e67ef84df8f6be6521d3640f070ffb7e9619" => :sierra
     sha256 "f8ba6cdc1fa14c0e2cfd7539aafe2d15c7d03e74fd070d7bcb024e30806900f8" => :el_capitan
+    sha256 "ca26ad3b11ddc463a736e97f1f338057393a62a32119a04821068adbd83cc9cd" => :x86_64_linux
   end
 
   depends_on "readline"
