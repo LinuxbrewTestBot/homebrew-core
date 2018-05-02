@@ -11,6 +11,7 @@ class Blockhash < Formula
     sha256 "ba87b5b649164c63d82f1693588414d994e0f2837c6f6f169634c9fc94d812f6" => :high_sierra
     sha256 "7cd8bc3a26ce19bb2b5b36e92679fef23bc751b6773752169f29eae595242f6b" => :sierra
     sha256 "e02dd7c2cf8fe76de1f376c1001c22b8b1a614897b4ffa77d89b648953b07c25" => :el_capitan
+    sha256 "4dcd1bc6edcd257d4a2e07790a016929d37cb55925a22e0cf96588c9ea422ed7" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
