@@ -13,6 +13,7 @@ class Bower < Formula
     sha256 "02a7d64987c14db303484c1dc329f485ad9596726038bf30667f9f28e995a772" => :high_sierra
     sha256 "341e7e76f3536cb8b2ddbbcc4d2e96c004e76bced2d375a3c636914c0ec11fa2" => :sierra
     sha256 "58a39bd911c39d6e1d319fb94d6073b91566ff73f361cf41a9ee5006c546050e" => :el_capitan
+    sha256 "489964d5bb13fc1c2512252942feec069c6da08a869ab7897c14b78c17b59e3e" => :x86_64_linux
   end
 
   depends_on "node"
