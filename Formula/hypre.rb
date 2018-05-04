@@ -12,6 +12,7 @@ class Hypre < Formula
     sha256 "7b0ee7e6a754e583739aa29b055d812a4d77834c0871e38c38f931731c860818" => :high_sierra
     sha256 "1702f97e71696f76192e2be7719020999810984515e777964053c2f6d2541ddb" => :sierra
     sha256 "9f8162b5b6119c7a1015388a054415c5d77fae6cf37a24b4bd58b7e3d0ef885b" => :el_capitan
+    sha256 "7f61b0d17c9b964a8083bf97dced737bfb507ce2cd018f4bfa3c21d5ae66081f" => :x86_64_linux
   end
 
   depends_on "gcc" # for gfortran
