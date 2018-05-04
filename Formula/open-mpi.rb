@@ -10,6 +10,7 @@ class OpenMpi < Formula
     sha256 "1b29265401462db5ba55626fcbd3eead0f04e579e73817fbacfc036a6a965335" => :high_sierra
     sha256 "f88bee16086bdae6549d6b019e9bbbf40087fb230dfb4f54addda2b9b070eba2" => :sierra
     sha256 "db03f3652705cb29a3fca43b8644c21d4cfe560cf0c46e803092c63db0f3c804" => :el_capitan
+    sha256 "aadb0b8d33ee1c7bcfccaf8b1b4e1d2dd4b3451aca2f80fd49b7ba4c0248e065" => :x86_64_linux
   end
 
   head do
