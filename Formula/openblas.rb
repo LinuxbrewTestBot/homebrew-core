@@ -9,9 +9,7 @@ class Openblas < Formula
 
   bottle do
     cellar :any
-    sha256 "57577356cefd497527bf2424ffb812469e96f516c653fcf7332af1348f4727f6" => :high_sierra
-    sha256 "8bd8b0cec1d6bbe27f96e47b23816e1281c7d8bf9bd41bc4b7f19ec800ba6105" => :sierra
-    sha256 "ac9ca44c22039bb242990db8e7c4181a85b674c424d1d66f03efe20649ad3753" => :el_capitan
+    sha256 "1bd974db9b9c6611481ede53dd3962bad6f52a05bdad623efc9f03190fc52605" => :x86_64_linux
   end
 
   keg_only :provided_by_macos,
