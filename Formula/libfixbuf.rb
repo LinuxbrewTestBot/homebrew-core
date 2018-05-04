@@ -10,6 +10,7 @@ class Libfixbuf < Formula
     sha256 "39c0963ed7c3a456615c91a22d77293ba5f165260a305f88a9f4ba5c358510ec" => :high_sierra
     sha256 "5dd04829e40c9f4584c8c7ff16326bc469c20410dcd32f18f51a98a30d3036dc" => :sierra
     sha256 "40d73c34e136143835dead424d662f4f13669c0fd9f3801dd9cb17613a8bdbb8" => :el_capitan
+    sha256 "895d871c8e080ead3446f3277a308feeb078b9a48b7988fc9bf55b34f188af2b" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
