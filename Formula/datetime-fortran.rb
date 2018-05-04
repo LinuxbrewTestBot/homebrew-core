@@ -11,6 +11,7 @@ class DatetimeFortran < Formula
     sha256 "ea8405814e9c3e72a192836107d6620a9e3c6996b8c3169675dbe7cb44b345b6" => :high_sierra
     sha256 "4d5d027551164ce741f3dd3915cc4d5b57e246120cd92ac002616c50d05ebd55" => :sierra
     sha256 "5c20d20514118ec61bd76de9dbabe7a84e10d9c7a13c74cc1f95272af60d999e" => :el_capitan
+    sha256 "1125ba53854277713648655ddaf855059284b54579539da84529273d792e041d" => :x86_64_linux
   end
 
   head do
