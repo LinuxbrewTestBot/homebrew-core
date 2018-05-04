@@ -11,6 +11,7 @@ class Mpich < Formula
     sha256 "5c3b8952de7a07098e19a032fc183f7dc5ea27e6cd70d01c2f620fcbb1031ad7" => :high_sierra
     sha256 "835787746d5851c0e43b19ebf762d1afbcc0e8ad6df38288c3f1bccedd04fd89" => :sierra
     sha256 "38ceb721bb800c6a375646c186646c0de4e34a270604bf58e87ad6896643a0c4" => :el_capitan
+    sha256 "4d555b6430f90a398cf9386de8f4140d4dacca8f1437eecca5bdf5f2cb90b054" => :x86_64_linux
   end
 
   devel do
