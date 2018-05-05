@@ -9,6 +9,7 @@ class Zookeeper < Formula
     sha256 "55170e3c70f9ccfe0f8a7a4f34c11d9ed96122adfb6946e223dab0ab31f129d5" => :high_sierra
     sha256 "7f9b53a4c01bf1b7af68d7b609ded5dec3c9ae91a3f0ef86a6fbe3f978d9160c" => :sierra
     sha256 "b8cb0059b877aa10a8da94bdbc01ea958b67115e085bf741b0c293b849ac4955" => :el_capitan
+    sha256 "5a81694c332bbdefe6135b70c4a09c341fc00c48854120c485b219ee34f2c05a" => :x86_64_linux
   end
 
   head do
