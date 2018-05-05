@@ -9,6 +9,7 @@ class GccAT8 < Formula
   # gcc is designed to be portable.
   bottle do
     cellar :any
+    sha256 "624161b922b7a5cd2843aba349a202cfd7a52dc7da280fa1d4f556c2a6847cd2" => :x86_64_linux
   end
 
   option "with-jit", "Build just-in-time compiler"
