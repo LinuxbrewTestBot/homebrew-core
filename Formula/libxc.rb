@@ -8,9 +8,7 @@ class Libxc < Formula
 
   bottle do
     cellar :any
-    sha256 "9ea81e66b245bde49b75db6707a2e6114eb83e393dbc25bcc07e81e2cf0d1c8d" => :high_sierra
-    sha256 "8ac766961dcbb498caa01ca4a91a20dfadef0cba846ed82e02cc3da2f2bd41bc" => :sierra
-    sha256 "7a0fc81d08b6e574d12a3b0b4a1bd033cb63a698e8b2ad508de1b84db94ed005" => :el_capitan
+    sha256 "93ae0bd6bb385517d8898f5fcbfb502a521cea3cef1eae6652bbc88afe656168" => :x86_64_linux
   end
 
   depends_on "gcc" # for gfortran
