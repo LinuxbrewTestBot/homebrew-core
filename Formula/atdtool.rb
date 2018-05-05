@@ -10,6 +10,7 @@ class Atdtool < Formula
     sha256 "c1c1b8c7468e0b649ba93da43344eaed88f3e8db4e09bd656398f91b6ebaeef4" => :high_sierra
     sha256 "c1c1b8c7468e0b649ba93da43344eaed88f3e8db4e09bd656398f91b6ebaeef4" => :sierra
     sha256 "c1c1b8c7468e0b649ba93da43344eaed88f3e8db4e09bd656398f91b6ebaeef4" => :el_capitan
+    sha256 "1cee126478f50dd0ad7a87237f4ce4577397761d7f33c964c95a14ba6b3178c6" => :x86_64_linux
   end
 
   depends_on "txt2tags" => :build
