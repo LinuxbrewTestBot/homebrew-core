@@ -11,6 +11,7 @@ class Openexr < Formula
     sha256 "6c96d4cae23adcf59f5a656ae922e919bf38b55cb69c1d66a7bb50d120a38a25" => :high_sierra
     sha256 "d05f50377503a0b3a367e69ce463941487128c970cfb8f4db32cfb14c23a34f6" => :sierra
     sha256 "f8d152a55c42645a8871906ff4d5d3f39fb8885cd02b6648ffabb3eef93e5beb" => :el_capitan
+    sha256 "5f23fd96eda029d796d09de1b4704e3406bc4056d79dc12f4cb2703eae8d5e70" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
