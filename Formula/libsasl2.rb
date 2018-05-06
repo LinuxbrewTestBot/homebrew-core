@@ -6,6 +6,7 @@ class Libsasl2 < Formula
   # tag "linuxbrew"
 
   bottle do
+    sha256 "96ce5c62f95a57f3371c7cd30f8c35a80407cbb13fa54fa7b155ea0378259d58" => :x86_64_linux
   end
 
   # https://packages.debian.org/en/jessie/libsasl2-2
