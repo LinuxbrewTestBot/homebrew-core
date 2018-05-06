@@ -9,6 +9,7 @@ class Fig2dev < Formula
     sha256 "43ab38df1a59b1354326b9df617a370d865ee01e0b9924bebc7d50eaedd78504" => :high_sierra
     sha256 "5ce54788ded402638956c57526db334c25fc4a3fbd0dca29625c97a98a065499" => :sierra
     sha256 "e73cec0aff10bbcf4b6b940e33f7f5cfdc65a83faabd81a12b29655d70d23d17" => :el_capitan
+    sha256 "8ca8d013c69fda681621060a210d237f3cc891b6599ec04498aa2bb6313d2808" => :x86_64_linux
   end
 
   depends_on "ghostscript"
