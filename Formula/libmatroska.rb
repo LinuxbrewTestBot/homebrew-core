@@ -11,6 +11,7 @@ class Libmatroska < Formula
     sha256 "04ec9b92408b8b08f201ae9e31da5d9abd0383a468938b999007ec51530fa50d" => :high_sierra
     sha256 "8f8b94c254e55a0c79aae5d9ad6a3ea60e16caca379594d8613c5d92f9e8dc00" => :sierra
     sha256 "8df1a83ae264b0597d714f843e2b3d322be80a30ea0f0400dc86fed6b5d6c0ee" => :el_capitan
+    sha256 "74da691726c85acdcfef90e4d64dae51fc292be663b3dfadbeceda4512f8424f" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
