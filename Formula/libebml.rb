@@ -10,6 +10,7 @@ class Libebml < Formula
     sha256 "a01d2e280ab7a8d66fb011d76a561418efcc405b77bfbb6aa7c4ed8cdf50d801" => :high_sierra
     sha256 "42290383556da8468940edb695037091cc85e96883a3e41e9751e2f28033868a" => :sierra
     sha256 "9783de8ef94b13ed3660eb99a821e221ae1f72d0e52397c1bf96e408d2d0654f" => :el_capitan
+    sha256 "a96509028b57c85abd6378648ef200102c32be8de120127402d20a505e29cbcf" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
