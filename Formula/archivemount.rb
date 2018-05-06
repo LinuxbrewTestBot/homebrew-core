@@ -9,6 +9,7 @@ class Archivemount < Formula
     sha256 "e5ec32c8e34385931fe8a9cbd97b02dbba56650194e8cf8d0bfae628132ca096" => :high_sierra
     sha256 "bbe1f730c843b49dbdf8fcb05822314eacec63535e5a13096bf672e4446bc0c0" => :sierra
     sha256 "0723ee2f777084e9ed749c996ef0f48dd68d55925a008ed4283902c814e5748e" => :el_capitan
+    sha256 "9ad3a1371eb1bbed5503cd9ed5ea341e02c80026e9683986add14aeffcb59c83" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
