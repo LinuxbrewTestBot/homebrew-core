@@ -10,6 +10,7 @@ class UBootTools < Formula
     sha256 "292d6891f543f3db03c96e8b62fa754e2c452e6b1ba5c4e7fde67a9731fe2dcb" => :high_sierra
     sha256 "d6cfb2dd3794f31182cfdbe54dc73de11fda73fa1fa0548c18e46630f4f4ff1c" => :sierra
     sha256 "094486dc701036c17716113e867af69c6104b7dd3114bb10df5a02bd93777cd4" => :el_capitan
+    sha256 "c823d15d9272bbb7c2d595aaa84a9b5e2c862498a5baf502ed4f9ba2c8be0304" => :x86_64_linux
   end
 
   depends_on "openssl"
