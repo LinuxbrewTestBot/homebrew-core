@@ -11,6 +11,7 @@ class N < Formula
     sha256 "35ebc95ee76c7a59a53f9f2c4ab7843ffbb35a04adcefec996cf10357f7db5b0" => :high_sierra
     sha256 "35ebc95ee76c7a59a53f9f2c4ab7843ffbb35a04adcefec996cf10357f7db5b0" => :sierra
     sha256 "35ebc95ee76c7a59a53f9f2c4ab7843ffbb35a04adcefec996cf10357f7db5b0" => :el_capitan
+    sha256 "e1990ec0d7e0483aa4e7d92ba9fae8ebf27c98af4e6f7bd2a3af753fd0a5e8c6" => :x86_64_linux
   end
 
   def install
