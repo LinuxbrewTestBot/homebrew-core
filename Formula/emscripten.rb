@@ -20,9 +20,7 @@ class Emscripten < Formula
 
   bottle do
     cellar :any
-    sha256 "3d13b47920d34f5e0485248bcd5cb0ddde3eade2edacd91bbbef2514d2dd233e" => :high_sierra
-    sha256 "87e13523a66404fbaebd7a492e6a57e44e84281e2f355f38b502fe4ffa736669" => :sierra
-    sha256 "9fcf6878c55c2d40b16201e8050f0a0a4eaf801cbf9d310e61556cbc013161d9" => :el_capitan
+    sha256 "1aeafb29d92249058ebc60135e5170d0c96c0fe8aa336c8a6700d385ea1399ff" => :x86_64_linux
   end
 
   head do
