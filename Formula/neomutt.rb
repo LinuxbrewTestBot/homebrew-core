@@ -9,6 +9,7 @@ class Neomutt < Formula
     sha256 "ae2354a645f5602da74cee42e385815ed58730d95138a73ff25200e77d8fdbd5" => :high_sierra
     sha256 "30c9faf7758144c6689ce52e18f14002746889635164f423cb05885b370d637b" => :sierra
     sha256 "92f82210f31bc4667f65bd370750f9ec725535c382084a09771b10b87958ab9d" => :el_capitan
+    sha256 "5772ba780ba7fe356488b59dd8edb936008adfec1f46737976dfb8972e49f072" => :x86_64_linux
   end
 
   depends_on "docbook-xsl" => :build
