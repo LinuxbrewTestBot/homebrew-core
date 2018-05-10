@@ -9,6 +9,7 @@ class Pulseaudio < Formula
     sha256 "a449d66ca202e6ba2106af19ab3513ab17841ad45db2069bd8e18c5fa3341189" => :high_sierra
     sha256 "80fdcab93388854621cd2392e3e0782587efda978c2f0de51381d3c3a264301e" => :sierra
     sha256 "9ae35d388adbb4164afd5c121e5c8105886be394ad21921c33ebcff375ec8dff" => :el_capitan
+    sha256 "0b7a951d8a0a9b3700357fd24e0b394f5b6600fb0257eab40ea0018b7c214b74" => :x86_64_linux
   end
 
   head do
