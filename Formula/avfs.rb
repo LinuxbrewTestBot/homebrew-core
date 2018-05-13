@@ -8,6 +8,7 @@ class Avfs < Formula
   bottle do
     sha256 "18dd2a2958a2a07b74309e3ec832dcc4c99de70b73e5d5b263be8833cc820ebb" => :high_sierra
     sha256 "23a05f6de2db30b39d4ce575afe7feca996439857798628645f258085b6dbda5" => :sierra
+    sha256 "2f9c763e50cc03b8fc1819db518ecd3017f0b823b8e38723e443103606c4c5fa" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
