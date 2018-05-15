@@ -10,6 +10,7 @@ class Armadillo < Formula
     sha256 "3d9ad9d4eb210c1e8079d35b5bf16a22db6ff9129ddb78d94684bdfea473da90" => :high_sierra
     sha256 "2f94665e5aa383cc53c3d0b6fe25d1b509a8b51a541e0b0780d500a1a89b03bb" => :sierra
     sha256 "bf7ef1afcd06e0925ca8d2ce5a5a5bb427e67dafbac2d7573a8659697a6f03d4" => :el_capitan
+    sha256 "11ca84a12ec9afd975fb80b96fc3c1051eac9a9966b10533c256c6b1bd82825b" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
