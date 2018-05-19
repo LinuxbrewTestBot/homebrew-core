@@ -11,6 +11,7 @@ class Dlib < Formula
     sha256 "6c4d49dd0e8726979f1a2caed12518f2ca8878bf91db5afdf96ad8922eb73084" => :high_sierra
     sha256 "3cd72676d90e98b601ac293645c3ac434fc6b34b4322ed05cf2a6589face262c" => :sierra
     sha256 "f4634700a98a7efff7ec09df57687ab4b601ee8dba85b2a4b24add00e965ee4e" => :el_capitan
+    sha256 "6b570cd70c55c3b5d9908b19d5365a7937c2f43ec8824c3e5ba77e3b7d9a2eb2" => :x86_64_linux
   end
 
   depends_on :macos => :el_capitan # needs thread-local storage
