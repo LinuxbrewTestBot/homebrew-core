@@ -9,6 +9,7 @@ class Keepassc < Formula
     sha256 "c030cfcf3fdfef7addeed45b239dcfbbcaf13346d0020ebdf787611cabb6ce06" => :high_sierra
     sha256 "828d015d7b090d70b3792ac02c4479c681a9716067e497969a993b23ccd04221" => :sierra
     sha256 "1b1ababee30bca896679d79fc717605aa148ee6ccb7b0c28ec98992523686381" => :el_capitan
+    sha256 "e999b72ed62423c93dc4b7bce96bbfc56615a0c3aa04fb986b3ed6ceaec98cad" => :x86_64_linux
   end
 
   depends_on "python"
