@@ -11,6 +11,7 @@ class Djvulibre < Formula
     sha256 "7f3f10f71e06342886c20b449551fc36d9edebf5bf5e90cb3fc355cf4624f4d9" => :sierra
     sha256 "9f0fa17a46c514ab33d1d5fc88429f4d9f27926aef59807bdd74f94f8f4343ca" => :el_capitan
     sha256 "a175ac622b0f8914e401ba93938b4316c08f35bc186c35196a5a3de6b56b95ab" => :yosemite
+    sha256 "71cf898acc0513af2c01317a518eecb234355ae7eab3791cfc6d5535aea9d169" => :x86_64_linux
   end
 
   head do
