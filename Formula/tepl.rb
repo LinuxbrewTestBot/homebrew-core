@@ -8,6 +8,7 @@ class Tepl < Formula
     sha256 "99922988d8cf0689e288e0413bf9cbc559388b9f4881c376d3c7466a4408f40a" => :high_sierra
     sha256 "2394f7e1b075e8e73d000d679d8b2d7915323f4819f2b8a5a3bee605c7b7d1ae" => :sierra
     sha256 "36ff1501eff48974bb514b6e8c983dd53296d569d6d19dfb25cfbf10792a8865" => :el_capitan
+    sha256 "612962f199a8ed6bf5a30209aaf47bf3fe4cc24f93565c6e5f7db0f3b6e23199" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
