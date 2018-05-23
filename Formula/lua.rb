@@ -11,6 +11,7 @@ class Lua < Formula
     sha256 "09e8525e7d2aad8e51c50181e9a9efab091d7397ddea0ee5fe16daea2b13a9cc" => :high_sierra
     sha256 "8d55080cc58b7e2d82cbecc4c03f47ce14ed325e5c204eeb0d2225e9433103b6" => :sierra
     sha256 "4e691c5e758e7dcb2c656ad433b5ae1a5018cad8ab9eb748faaf7c554ff295cb" => :el_capitan
+    sha256 "93026c5aade32638b44c1d391d77f155c8baa48bc684337fbc5081a3d63c9411" => :x86_64_linux
   end
 
   option "without-luarocks", "Don't build with Luarocks support embedded"
