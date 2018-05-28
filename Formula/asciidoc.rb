@@ -12,6 +12,7 @@ class Asciidoc < Formula
     sha256 "c82aaf006c1e61742f4b0d01106b34efa0bba4c7b315f31298b6cce1d9616947" => :high_sierra
     sha256 "c82aaf006c1e61742f4b0d01106b34efa0bba4c7b315f31298b6cce1d9616947" => :sierra
     sha256 "c82aaf006c1e61742f4b0d01106b34efa0bba4c7b315f31298b6cce1d9616947" => :el_capitan
+    sha256 "629196210f06fce6dc3bdd316115d3fb107fb361c7b8db1c6b912204f5bb1712" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
