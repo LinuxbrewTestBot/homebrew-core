@@ -11,6 +11,7 @@ class Libedit < Formula
     sha256 "a8907ccf48a24561ad151f527dd7c6c7097600b71d564de5ef95a6bdba48a3b8" => :high_sierra
     sha256 "968593c13f12a4e12728fa319504a8786910efe4b38eda4290a0f9e674a31af3" => :sierra
     sha256 "556f24d0c21be5ecbb753e8c1bab7f60acf199bb77423370c1534b6046ffc482" => :el_capitan
+    sha256 "8d04ff26f67cab239fd0a6fcecdc86146f45437b1e9610c348277770f66b6d9a" => :x86_64_linux
   end
 
   keg_only :provided_by_macos
