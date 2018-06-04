@@ -32,6 +32,7 @@ class GccAT49 < Formula
     sha256 "0c4f2650325b060bf72beafd78dabab80973ee4ab330d4de16eb648b88225096" => :high_sierra
     sha256 "01a231e69b3c3e10a9e6aa99b5cbb6077eb1a011660bbbf06871ee262b6f31e6" => :sierra
     sha256 "1c407f31d58ab8e41230a83c6ffd1d77503c0c6528ccbc182f6888c23c5fb972" => :el_capitan
+    sha256 "7b96ca4423b15494935fc775503132602637fae4fd773c4fe1f773738afb1205" => :x86_64_linux
   end
 
   option "with-nls", "Build with native language support (localization)"
