@@ -1,3 +1,4 @@
+# bento4: Build a bottle for Linuxbrew
 class Bento4 < Formula
   desc "Full-featured MP4 format and MPEG DASH library and tools"
   homepage "https://www.bento4.com/"
@@ -13,8 +14,9 @@ class Bento4 < Formula
     sha256 "a9f65233b8bfd756e673a09ea18cb1847610170402bd9ac6a57107370ce9a3e5" => :el_capitan
   end
 
-  depends_on :xcode => :build
+  depends_on :xcode => :build if OS.mac?
   depends_on "python@2"
+  depends_on "scons" => :build unless OS.mac?
 
   conflicts_with "gpac", :because => "both install `mp42ts` binaries"
 
@@ -27,7 +29,9 @@ class Bento4 < Formula
         File.file?(f) && File.executable?(f)
       end
       bin.install programs
-    end
+    end if OS.mac?
+
+    scons "-u", "PREFIX=#{prefix}", "build_config=Release"
 
     rm Dir["Source/Python/wrappers/*.bat"]
     inreplace Dir["Source/Python/wrappers/*"],
