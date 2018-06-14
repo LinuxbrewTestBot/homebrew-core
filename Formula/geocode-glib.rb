@@ -10,6 +10,7 @@ class GeocodeGlib < Formula
     sha256 "780bb3b6c0a4254b86b7ea19aaa38b7aefd64d3e426bb0ecffd1bec2ca0e48ff" => :high_sierra
     sha256 "46f57b5d17d403eac2ac15a9d855cc97419c657d6956d41893f9f9ac02809354" => :sierra
     sha256 "58a18aaf640e1b4788876082272dee570c7b8c3bf459463ec72f14d10a8bfc59" => :el_capitan
+    sha256 "35f2b025275ed875a5604d74f464553c0486c43f0a1b2ef2bafe16bff63200d5" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
