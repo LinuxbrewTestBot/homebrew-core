@@ -10,6 +10,7 @@ class Draco < Formula
     sha256 "12615524f7d2a02dc205cc583a74af22e295d991319abd97b1c3d4bbeefd08c2" => :high_sierra
     sha256 "deceead0e090a64709966bdbd82056b26d7b494f995531af41382fd9d6af54f6" => :sierra
     sha256 "64bf9f616fcc812476a0674ce9bf742a93896de44e1b696a167e98a5a88e2f9b" => :el_capitan
+    sha256 "aa1096fe0d6da7ef4e413c75c25bb7e012fc49def99bbcf30bc39d562f3fdb7e" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
