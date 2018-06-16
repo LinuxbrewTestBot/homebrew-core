@@ -17,6 +17,7 @@ class Wpscan < Formula
     sha256 "4ec2e3b27d79d68cd52fa7ea222ec1d44f45f11b4a756e6f78fd578cd2bde542" => :high_sierra
     sha256 "19ae05c1e0ab1f90ed41fbcb320d96a41fa43012f39ab4ac7e714148c802119a" => :sierra
     sha256 "41b2171f3609acf4e10770809b79dbd11c7ee6a1c2f384b0d8ef04767f7d5e93" => :el_capitan
+    sha256 "0eeb267531ea6e14cf20110be0e381a55cb8597860bb5590433bd470d7c72a60" => :x86_64_linux
   end
 
   def install
