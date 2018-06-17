@@ -7,6 +7,7 @@ class Texlive < Formula
   # tag "linuxbrew"
 
   bottle do
+    sha256 "a0474bd6f2033213200f60336f6202379521c1cc8337e4a86df8900b792c42a8" => :x86_64_linux
   end
 
   option "with-full", "install everything"
