@@ -10,6 +10,7 @@ class Gauge < Formula
     sha256 "c9ab05af16d66e08c7a1847eca63821f198eff42a863c9fc862347988fd74956" => :high_sierra
     sha256 "ec90f73026d039563c630e0e221e7e95210c55c9702ab413cd041cbc8e2833e4" => :sierra
     sha256 "adc703beb018fbb854d9e615a5fe5f81edf33af7a2c66db8d18240b99a493d87" => :el_capitan
+    sha256 "f8aa60be6d5ee4b1d30552dcf36f50d0dd996bbbf26fab75c20b5ee7263a0945" => :x86_64_linux
   end
 
   depends_on "go" => :build
