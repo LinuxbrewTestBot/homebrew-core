@@ -5,10 +5,11 @@ class Libimagequant < Formula
   sha256 "7035eb281bc9a49cf36db8db807b713d03a0ffe8c5abfbb17a9ea8a038f21d5e"
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "714cab630af0e9d0e19ad0a30a1e07b4dfce3988f9c048e3b634cea85c018ec6" => :high_sierra
     sha256 "41aa19e02e531883c60360556f94d404fb6be00bcb8b4c155368ec34c190ad10" => :sierra
     sha256 "908ec28bdf4879c7527053bbec4b635e0cbb4f7c635251674e8f1723b4e16cd6" => :el_capitan
+    sha256 "54d93e670c9343860c1f777ade7824e794ea2d11efbac0d26fd39ee88a837816" => :x86_64_linux
   end
 
   def install
