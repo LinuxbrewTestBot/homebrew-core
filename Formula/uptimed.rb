@@ -8,6 +8,7 @@ class Uptimed < Formula
     sha256 "7dda8cf4cbda86ba76db57c3352b916726da78640e656c49edf5c8b63441a817" => :high_sierra
     sha256 "01e1e14e4af2adc149ef379042fbb223fd9ce27fbc7f2b0e4711088c90bf9dd1" => :sierra
     sha256 "9b0d74450aa29f5fbbc1f6d2749b9d35c9af37e4594c88b53bb4c950a7c4c73b" => :el_capitan
+    sha256 "d35faf1ffaa45285fb3bb1b8ba112127b5df3ca042dfdc16b2503bdb7d620346" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
