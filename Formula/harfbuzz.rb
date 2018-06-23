@@ -10,6 +10,7 @@ class Harfbuzz < Formula
     sha256 "79b52493ebbd6063eecca349a1db9b64190a800b6547945f12a7f96b34497902" => :high_sierra
     sha256 "ca9d510c795443e8c1769836ae39d74c3b53c19dc222d728549c0ef8b030f246" => :sierra
     sha256 "2348d7f9d65e2ea8a1775f9f9325fbdec77b40dc671be06eab16488679bc43f8" => :el_capitan
+    sha256 "199d8def3884c2641bcfe3242f514b7476166b1ac31c05bde8bafdf3588dcba7" => :x86_64_linux
   end
 
   head do
