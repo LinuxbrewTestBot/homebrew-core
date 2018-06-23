@@ -10,6 +10,7 @@ class Goreleaser < Formula
     sha256 "1e39acfbc1b79eb6c3dd80707cd56c3099ee35422718bb42da7960ec27f6a941" => :high_sierra
     sha256 "a7259ea61ed9712fa28e4e37ff7b613856457d32a63883e19a0d133faf5c9736" => :sierra
     sha256 "08145321507ccd11dc061b1d931850b6b10089d4aa3de7b253e84cb1a30f60b7" => :el_capitan
+    sha256 "c7212bbfabcb60ed2748e6a1940c6c458a6d2cc08aebea9d2f9b3e627af8c137" => :x86_64_linux
   end
 
   depends_on "dep" => :build
