@@ -8,6 +8,7 @@ class Tinc < Formula
     sha256 "2d8034404d514f18b2d09b2ded4ac524ca6a65adb4dad695611cd870aa906e12" => :high_sierra
     sha256 "fbfe414a6f1c0817b56743d8d255008cf6070f41ca25d9216c8ecda24a92aeb1" => :sierra
     sha256 "6a187d24923ec9dd02162f6e0484c3733861a9783b5a1d21378475a0ccb82323" => :el_capitan
+    sha256 "68e71df863574431d62a37394c291dfd1e014c5df66c4305be0b5e6224ec07ea" => :x86_64_linux
   end
 
   devel do
