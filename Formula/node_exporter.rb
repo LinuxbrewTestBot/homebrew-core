@@ -10,6 +10,7 @@ class NodeExporter < Formula
     sha256 "73a63fee885b246f401e3bb5f2ba2ef151a0d445d2c5be3480eb5ad7e34c5150" => :high_sierra
     sha256 "a2f81f31c72150cff3ce0442ae63e783b4c8d9ea6b04cce353caed36f373c464" => :sierra
     sha256 "43917856258a8a777b2632921070b002853b266438495320ca20d5eda6a95809" => :el_capitan
+    sha256 "0820a2e9298abc660f99303eb7a6fa72e06bfce159ce7ee73d8cd3592f547cfd" => :x86_64_linux
   end
 
   depends_on "go" => :build
