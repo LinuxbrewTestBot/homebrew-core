@@ -14,6 +14,7 @@ class Thefuck < Formula
     sha256 "d79877a3dfc5ffe7763d2cfe1dab110dbcd3154bb5475434062289f3147cfb85" => :high_sierra
     sha256 "9d7c0244c419e88100d0d602f54863cb788c479b9daeb0bbbf9c258061080757" => :sierra
     sha256 "0c1608e14e6d5c1c048589fa79bc0b4e9b8963a700564ecf71d5dad2dbdedc70" => :el_capitan
+    sha256 "9cb0e6ab80a9eb4b1aa879e9d1d887d2ee1172ef526cc83d924f9fa782db9f01" => :x86_64_linux
   end
 
   depends_on "python"
