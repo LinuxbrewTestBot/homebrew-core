@@ -10,6 +10,7 @@ class Coreutils < Formula
     sha256 "77b09dbe66f3d5098998da6babf953e01e828742b8a740a831cc3f3a1f713df7" => :high_sierra
     sha256 "94844581b7e08ae2d1dc6c77acfd6e95021283cc8b7c1228fed32a423ae826cc" => :sierra
     sha256 "a5145f88de2525d168ef998f8310d5c0abcead9efee9108fb61c30de91a4869c" => :el_capitan
+    sha256 "621d8cc935be3563d79fa3d5ffa8e52f1f3bcdf29a8a0e8ff62474336768d12b" => :x86_64_linux
   end
 
   # --default-names interferes with Mac builds.
