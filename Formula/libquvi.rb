@@ -10,6 +10,7 @@ class Libquvi < Formula
     sha256 "bb5a4201afd814e87ee496b8cefbcf126f0245d7b3c600039e71e7b355115bf7" => :high_sierra
     sha256 "9968d412860717f837082f0e9d225b741d8430a99a3d1c4e12b7a1cdc95cd456" => :sierra
     sha256 "d91506a098fa564598b4aecbad97a2fa30728fafd8ad82bf8c4ff4bedb8d6c0a" => :el_capitan
+    sha256 "a71d548fc037b4b2c291052ebb111e6d8f87147f9e5b961f16419080da48b58a" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
