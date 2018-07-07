@@ -11,6 +11,7 @@ class Hana < Formula
     sha256 "2508e9dc9d41877be496f2300e9e0660a0060cca0e86aaa216fac58d7e6bac75" => :high_sierra
     sha256 "2508e9dc9d41877be496f2300e9e0660a0060cca0e86aaa216fac58d7e6bac75" => :sierra
     sha256 "2508e9dc9d41877be496f2300e9e0660a0060cca0e86aaa216fac58d7e6bac75" => :el_capitan
+    sha256 "340820b85e9d119aef32e0eed9b7d4bd1d5712aa05cb32ad8460ad4e2c34b582" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
