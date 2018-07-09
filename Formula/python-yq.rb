@@ -10,6 +10,7 @@ class PythonYq < Formula
     sha256 "7365858d49340df37abf5fb5236ebef2516effacfdb748f89890121250786f38" => :high_sierra
     sha256 "7365858d49340df37abf5fb5236ebef2516effacfdb748f89890121250786f38" => :sierra
     sha256 "7365858d49340df37abf5fb5236ebef2516effacfdb748f89890121250786f38" => :el_capitan
+    sha256 "2f27a618203e5505e03236ed48300379a4c8247ab7eab8be8b78fb73cecbe366" => :x86_64_linux
   end
 
   depends_on "jq"
