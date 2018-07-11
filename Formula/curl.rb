@@ -11,6 +11,7 @@ class Curl < Formula
     sha256 "db48b518c5a587f2b09327d8d946656aae65768b7a35fc8937f223c9d6dab12e" => :high_sierra
     sha256 "02837a9185a52d7d564945b5c252d6ba3bbeccb5d6182eac15c411e056327995" => :sierra
     sha256 "727880d832e4ba6ceeb0037e08c1e412db55d1a3033a3cd3e66e169a3be6fdce" => :el_capitan
+    sha256 "e55d080e1a1debc1f222c92bf607ca0a90cb69e1afd4ad3e8c72f9827b3c1d2c" => :x86_64_linux
   end
 
   pour_bottle? do
