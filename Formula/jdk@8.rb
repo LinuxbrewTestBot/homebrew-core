@@ -13,6 +13,7 @@ class JdkAT8 < Formula
 
   bottle do
     cellar :any_skip_relocation
+    sha256 "e67c59f7e22cd8902e94e3c6e6863e043aa141ed81eb2b7b653dd579a6dfba82" => :x86_64_linux
   end
 
   keg_only :versioned_formula
