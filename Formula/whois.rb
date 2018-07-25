@@ -12,6 +12,7 @@ class Whois < Formula
     sha256 "a44e35933c977f5510daea2b8486e7843edf26551b077b718508471902653b06" => :high_sierra
     sha256 "e6ca1417a99c060555de387381139d1ba3f0181bf92f19ae30d3a23558f6616c" => :sierra
     sha256 "d40af5a93e8a0b7daa1ebb5de3a25a00cd834283c18f26957e33aec3329ef8b3" => :el_capitan
+    sha256 "bb28e68b528316d1114376100d871a06aad9e300c9422edf7da49810d6dd89fa" => :x86_64_linux
   end
 
   option "with-libidn2", "Compile with IDN support"
