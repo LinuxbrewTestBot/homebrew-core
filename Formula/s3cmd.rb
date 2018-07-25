@@ -11,6 +11,7 @@ class S3cmd < Formula
     sha256 "6edd51ae84e001e4c7e7e87c9bd47d3ef2ef9bf2a7e171f61aa92ee475c918ba" => :high_sierra
     sha256 "6edd51ae84e001e4c7e7e87c9bd47d3ef2ef9bf2a7e171f61aa92ee475c918ba" => :sierra
     sha256 "6edd51ae84e001e4c7e7e87c9bd47d3ef2ef9bf2a7e171f61aa92ee475c918ba" => :el_capitan
+    sha256 "305c5b1c45faa703de9bf35b405ebcdee1d4038feb324a9827b95f843bdde12a" => :x86_64_linux
   end
 
   depends_on "python@2"
