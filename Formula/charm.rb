@@ -12,6 +12,7 @@ class Charm < Formula
     sha256 "96340b518ffcf81070c7a2fdc67b4e461b99fe97ed08214da4e05e426fdb6909" => :high_sierra
     sha256 "e420ff6fb6d45f0041a8e3a75b75b97e9a5ea1a2e5a519940d024a04cb3a121c" => :sierra
     sha256 "a75b8dcc4d0bd766e18a55dae39e786dae8186310eece4d88e0541e6e76aeb13" => :el_capitan
+    sha256 "a099f2a3c0754c9c13481682b3f70ee4a6542545694618db749b555ceb3311e3" => :x86_64_linux
   end
 
   depends_on "go" => :build
