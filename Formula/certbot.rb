@@ -13,6 +13,7 @@ class Certbot < Formula
     sha256 "51c8500544d4952e3a7750dd1470cc92e0e2f152c6c8976fc9c450728bd13a27" => :high_sierra
     sha256 "1642424a19c3ffd663cce17ec37a957b6a5079aa166dda634cceef190fad03e7" => :sierra
     sha256 "e2f39b2708471c5e480afacb15685b52544603d109b7f89699b9e4e53102cc12" => :el_capitan
+    sha256 "d1bc56654b48195c78157906a320303fddc53aa0e61cef2e04bae90500d9447c" => :x86_64_linux
   end
 
   depends_on "augeas"
