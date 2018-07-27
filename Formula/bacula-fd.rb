@@ -8,6 +8,7 @@ class BaculaFd < Formula
     sha256 "e5721a004aa365ad12c53c4cb593261ba9e2c809d877480a9efd98d2c6986e73" => :high_sierra
     sha256 "f4b1f49978b3a4b5082a7514ee4995397e3c40768f6a87f460f262c92805cb96" => :sierra
     sha256 "cf30893eb978f8da240416e6bcece5154caf59ecc70afb1d8217cf18ffb9421b" => :el_capitan
+    sha256 "3bc2d2f62db88d68e253cc9025f8b5ddfc2be8cc0154f12846ab7d6918d995d2" => :x86_64_linux
   end
 
   depends_on "readline"
