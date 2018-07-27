@@ -13,6 +13,7 @@ class Hadolint < Formula
     sha256 "be846bd545a0c392d2d8c326e0141e5335bba8913cf9a9e0aaa3088fd8ee52a6" => :high_sierra
     sha256 "65af8e62db81ec467ddf74432fbcd349f9c7014b967ccce759f495aff0458ea4" => :sierra
     sha256 "0e223d743e5b86c32900e05246d72e9efe2887dd25a875b478f3d36b520200e9" => :el_capitan
+    sha256 "00b5b97fd28d6aaa5638178ab06c9375d18f26bf4c66f5915da20d37d98669e0" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
