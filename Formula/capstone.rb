@@ -10,6 +10,7 @@ class Capstone < Formula
     sha256 "90c24c16624b06137aeec9cf9040c6cf91ccc5045a4fa5606c4ee39be8b06991" => :high_sierra
     sha256 "e3cd9819d2ff6cc1ee026458463c939070085a78558a99a85aab34243f7f63ea" => :sierra
     sha256 "8d2b3cb82b16a0e40242f9413335fbdb60d99860e2f3ba85a4dab442fc72f804" => :el_capitan
+    sha256 "08d32113af11369e604c507630d5d320032c44ada99cd806628655c50e0c6e55" => :x86_64_linux
   end
 
   def install
