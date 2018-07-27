@@ -10,6 +10,7 @@ class Libdill < Formula
     sha256 "08bb496704c214d723b7d9295249d646f612d27f170071aca1e25dc5fee7d6ff" => :high_sierra
     sha256 "83a241fa02747f2231076dfaea8d87af44816db11d6af15f0e10efd4bfe87432" => :sierra
     sha256 "59f60913aa966a30939e189adf0bc969ef82c379fc3131dab70262cca0b3e5ba" => :el_capitan
+    sha256 "83358e5df0a94521ad92456cc48ce9abc83ddf1371a749368ad643153e9ea53c" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
