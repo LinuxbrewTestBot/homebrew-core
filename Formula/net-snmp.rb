@@ -9,6 +9,7 @@ class NetSnmp < Formula
     sha256 "05d9e1c66150e58af4a5c4167193551684b8bd06bfbbe0320a2ac4bf33099544" => :high_sierra
     sha256 "366c28c25db9b040e115850a606c1859e7c61b3efd9ad4580fe57d7464065ee1" => :sierra
     sha256 "00d85edcab504df6828344a70d1b4d8eddfce656ef379144e49bf52d55572863" => :el_capitan
+    sha256 "d9453c107a5a33f96569fdb27f0db27b84fadfe02fc511d2c9540305c0efef87" => :x86_64_linux
   end
 
   keg_only :provided_by_macos
