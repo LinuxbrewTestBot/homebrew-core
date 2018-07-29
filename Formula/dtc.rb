@@ -10,6 +10,7 @@ class Dtc < Formula
     sha256 "c230e06edc7710720e75e77319d3982f2d8e1e873018df6fdfa25268ae3ea2e1" => :high_sierra
     sha256 "ea5ae5a503636ed53d3dbc87e835c9fa2f3e004b06d871003a9a4617afc87163" => :sierra
     sha256 "6755bc2af0a42c3bb4834c468f36db8248b983d20cb47783afded95ac1267aac" => :el_capitan
+    sha256 "13c2abd98fdb5e9e60807818f736051a6ae168ff591af9b208e80a12493f8ed8" => :x86_64_linux
   end
 
   unless OS.mac?
