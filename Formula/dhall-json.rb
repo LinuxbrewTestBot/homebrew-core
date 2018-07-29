@@ -15,6 +15,7 @@ class DhallJson < Formula
     sha256 "fc5c315c6a1716cb3f798f0038afc6f3bd613128d5e0e578b5c497f96f3bc614" => :high_sierra
     sha256 "804a9f66e5658fd2a80a8b6c4a0ca15dd668c10976b4eb42a6bf31ddba9c19b8" => :sierra
     sha256 "34de083f3278f32175ddc4a1638133051dff68340f1d44cff3eb574d2d517ade" => :el_capitan
+    sha256 "d3e0591e9c315e3fc5596e95bb00e475420039bc71cb7542094792f82040969c" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
