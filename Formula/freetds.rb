@@ -10,6 +10,7 @@ class Freetds < Formula
     sha256 "d896755316c4670c5f61d149ef703e07151c7c13670f0b80e436db3b7ff2bf7f" => :high_sierra
     sha256 "7fbf04647a8f70aa5c830457bfcd31e533b2c60fc2873e4f7a712300cd2d535a" => :sierra
     sha256 "58fa4410b8fe7faeb2461330ae9febbe3de742bcea4d3d615d1a8cdde85205ed" => :el_capitan
+    sha256 "9e8b05d4e61ab442f879577e6be74e1360f3ab2b32f1e1522caac07f50ba7162" => :x86_64_linux
   end
 
   head do
