@@ -11,6 +11,7 @@ class Mr < Formula
     sha256 "a41bcee5b050ec9f98cf5960a457421528b05773867d8c8dbb8eb32716e09fd5" => :high_sierra
     sha256 "bcac4176692f69d47a83cd961cee92e096f6b35f19cb7206973f77b15a1ba71c" => :sierra
     sha256 "75fd9c6fbf6dcf833243e4dc9baf0afe81c422e55d3e251f5cfe040b8bc6a254" => :el_capitan
+    sha256 "6c2f63cf3e3fbc9d1f49d5d9ad37ebdc72cc21c1dd7e2ed9bcef93d65911241d" => :x86_64_linux
   end
 
   resource("test-repo") do
