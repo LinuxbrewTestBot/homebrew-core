@@ -11,6 +11,7 @@ class Utf8proc < Formula
     sha256 "cdcd5132f9ae0bebe232c59e76d66f4a0cb6a4a26f37c94041a78fd214484348" => :high_sierra
     sha256 "dda62c99b48421dee34963e3be55e1db932227b21b4ab5005f268ff4e4f187c3" => :sierra
     sha256 "f7065fb123f7d5946ed5c55784d14069c54c1cef02982f28921018307cb86a99" => :el_capitan
+    sha256 "cd274d13716f4f34dc1a79910a8874b7ffe0fd4241156825637a7b4b72c0214a" => :x86_64_linux
   end
 
   def install
