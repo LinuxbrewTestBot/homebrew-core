@@ -10,6 +10,7 @@ class Pgcli < Formula
     sha256 "b2a29083b527d33a3d000568f05f97249a77de1b6f82ed36c833abcaa38f5739" => :high_sierra
     sha256 "6b135e96c18cb9eb9fe727afb783a7935188cdb75486f33a2a6b15a7f6b1c81a" => :sierra
     sha256 "ec494ab862b6e901b15feb440a78cdf3710d27fe884e17303730868d4d52d7c9" => :el_capitan
+    sha256 "f27a2d06a62183a295b7c2d15f5456fe449580bf4f7f8a48b4309c478be47d34" => :x86_64_linux
   end
 
   depends_on "python@2"
