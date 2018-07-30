@@ -10,6 +10,7 @@ class Fruit < Formula
     sha256 "68d203232c339e922d31b8202abd16d2548bab5fdfbe4ce1167822adc8ef1b00" => :high_sierra
     sha256 "41d0398cabe780492baaaed4d04ab18f30a880d8ef5a951a8c3b7c8aa24ce4af" => :sierra
     sha256 "5c1ec3722f8337844cd19ec5fa3f53005fbfb439ab65e2b704ab882df9b9a921" => :el_capitan
+    sha256 "1659b6a586ae2754be7c7af49a56ac3b12cc1953301d4bc3447a64f9e609201f" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
