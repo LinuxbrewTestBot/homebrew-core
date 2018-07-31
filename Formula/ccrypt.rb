@@ -9,6 +9,7 @@ class Ccrypt < Formula
     sha256 "a4d270d5b5f467870f0b265f6f2d1861762d853df46756a34ac7e6a6d83e2121" => :high_sierra
     sha256 "048295cb4f95c9f0f3c5f1a619141e08c0326b6d8252c62c97608fb028cb48f7" => :sierra
     sha256 "a98ea0f3dbee5e9086bea342ac8291303970b1d8a85344be2b4d91330a919ae9" => :el_capitan
+    sha256 "bbafdb89f6dcdae6562aab322471f931d15daae8bd47744d417aa45f79fae7ec" => :x86_64_linux
   end
 
   conflicts_with "ccat", :because => "both install `ccat` binaries"
