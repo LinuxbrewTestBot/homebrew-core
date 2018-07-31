@@ -10,6 +10,7 @@ class GitLfs < Formula
     sha256 "15333ffc32711c11d739fbcde3785ef0243ed7ac65d69b9614c418842978dd5f" => :high_sierra
     sha256 "8fa77cbd43541a3284ded867fc7c995e321dde13ec1c8358ae25f311590108e5" => :sierra
     sha256 "329e996f4ced5247b258f5375d7b0a43a5bb91086b1d81315eb4ee6f1dd70070" => :el_capitan
+    sha256 "9ed672b6e4082a822e4af5896c888d9a2e475a643c13ed0b94e416525939e5b6" => :x86_64_linux
   end
 
   depends_on "go" => :build
