@@ -9,6 +9,7 @@ class JpegTurbo < Formula
     sha256 "3419adae8718b8b9fc41cd7e7f74803bdc4437d2f754605a59e8768d2630512f" => :high_sierra
     sha256 "68d14fd1b5a59c349e9bdd639d25841947f790f48d3eb788898599bb62515560" => :sierra
     sha256 "5782250ca2948367083ccd42aacba569efe888bd5a2727faa01d6ad6234d02ab" => :el_capitan
+    sha256 "bb12f5e6c3d8afe8de0c1867c7af01041df22affe39448ce33856afe5db3be84" => :x86_64_linux
   end
 
   head do
