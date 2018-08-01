@@ -11,6 +11,7 @@ class Freeimage < Formula
     sha256 "f3372b5ce748afa7c99da67a593c3e1f112b5aa4b28b36da6a17ee4428158c68" => :high_sierra
     sha256 "24423414222aa7c629f53aadeef266a1e7f3aa50e4138f4a876eadaba634d6c6" => :sierra
     sha256 "cf6a38a128929d3202ffbca5443ee07268d2de2360126353449b698e56830e15" => :el_capitan
+    sha256 "62b5cf37deaf4cae92143839f28ae7265cc6966812853797723fb8554069c3e7" => :x86_64_linux
   end
 
   patch do
