@@ -9,6 +9,7 @@ class Lsof < Formula
     sha256 "276399b5b42f5a9dc167515add55c3bb2e545faec1299516b06793b1581a9311" => :high_sierra
     sha256 "9d57eea962770c2f3c5b56d26d9fdb9b0bbdde559dfc92d0c9db3dcaae33cc43" => :sierra
     sha256 "59c8c1a9455e3f10c8d6326bab49ab33a85c3cfa702627aa4ba2dd9600cc7d72" => :el_capitan
+    sha256 "028a29f67df58757fbb8a489f9111ebfd23f86b8a2251467fa935fb8e82ad8b9" => :x86_64_linux
   end
 
   def install
