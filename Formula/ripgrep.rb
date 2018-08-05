@@ -10,6 +10,7 @@ class Ripgrep < Formula
     sha256 "e653274f21c9e0999512f7afd79490920c1ef70b6f22920088153f02aca3ef5c" => :high_sierra
     sha256 "254e9f86612959b580f200351051ba280f69d4e90b130788fde98803b9af2404" => :sierra
     sha256 "ec3feeb2827f940b783545b9b8fc9b42b54ea0d8307655d682fa24df70cd4f43" => :el_capitan
+    sha256 "2726c07c8753f18c6bd3579b69b1daa3d80b77811fdf428ddf6fcf9f70b27394" => :x86_64_linux
   end
 
   depends_on "asciidoc" => :build
