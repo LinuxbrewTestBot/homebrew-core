@@ -9,6 +9,7 @@ class Libxkbcommon < Formula
     sha256 "68c2c32d4a35e4c7b3984fd4df45b29aef77a3cb74da4bb301ce9e3fff86f2ff" => :high_sierra
     sha256 "b8deb446b227b5d6b19e752083486168f76e9c911e542b2cad2bf00f310612ec" => :sierra
     sha256 "ca1f6ac28d09ce0178b219003a3368e60ed3c7de36ec48cb9ea8c57eb844e643" => :el_capitan
+    sha256 "3924469bea2b0cbfac27c8c4c38b06fdd3737133fae40141342be4f5688f57ce" => :x86_64_linux
   end
 
   head do
