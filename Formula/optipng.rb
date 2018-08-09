@@ -10,6 +10,7 @@ class Optipng < Formula
     sha256 "b64e8d6bd75de2e40d481c7b0e816f45b0865e2dfa42f03e507f67607804ef2b" => :high_sierra
     sha256 "416ce24daab37aaef4fecda949fc80bed2b1d9b9714406f972b093846578ab3a" => :sierra
     sha256 "f59e3cedb808003915ee214f6487b968e3e6dcea669452f0a732fcced03aaa8f" => :el_capitan
+    sha256 "583e39421ee8cba284602103d524f6d9c6abc46d5319415b54f4919b1819017f" => :x86_64_linux
   end
 
   unless OS.mac?
