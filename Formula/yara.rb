@@ -11,6 +11,7 @@ class Yara < Formula
     sha256 "907c694d9a5f9e88c6fc8817d7299b4f28b09be634549211eb6e391530bd2de7" => :high_sierra
     sha256 "4b1892414ea598b2b9f63597495629787e1a177115f72f8d1fa5f0c791906c9f" => :sierra
     sha256 "f9b54c9174e5d48345d2cb9dd7bb1ffb94bf23451960f6177bd8d9f810d7943f" => :el_capitan
+    sha256 "51e8c40685f7d112b43165eb5d629ae34c6d5198a121cbf97e78d64d368afbae" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
