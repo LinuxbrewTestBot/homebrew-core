@@ -7,6 +7,7 @@ class Mysql < Formula
   bottle do
     sha256 "963bbfbd11282a5dee036f5dafe93c4eb5d9a900e7063fcd883dad5bab826492" => :high_sierra
     sha256 "44e56ac21c0258735e906b6d01c18a562131b35e2e9d1b5d8f09677562b8b411" => :sierra
+    sha256 "91a8c7c86c6c65f72dcdb16d90c045378d45bd145f3de7638073e125db8ffae8" => :x86_64_linux
   end
 
   option "with-debug", "Build with debug support"
