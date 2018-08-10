@@ -11,6 +11,7 @@ class GnupgAT14 < Formula
     sha256 "dbd43b52f11e65c2bb6dadf3adbf8ccf7f740af33b56e4d8c8b037611840f127" => :high_sierra
     sha256 "abc1e142397fbe833f2f7c5f71409d925ce690506d77296f7f3d41656a0791f2" => :sierra
     sha256 "397c92b88bd189ef61dfb01d5fe2e27e0477a63de64a713ffb883eb799dcbb87" => :el_capitan
+    sha256 "6903320fde85f5a381381d906ad3fda31ad8f036056b0f48b7a2dd9e40f1c0bf" => :x86_64_linux
   end
 
   depends_on "curl" if MacOS.version <= :mavericks
