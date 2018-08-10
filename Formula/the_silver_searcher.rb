@@ -11,6 +11,7 @@ class TheSilverSearcher < Formula
     sha256 "0bf5394d8ab5f61b8fbb593249f556f13b358d16eb0d3c97215be3da0476e94b" => :high_sierra
     sha256 "2365e24e5d0b1bef64b35c6a8f9e4f61d1f38eafe38c06d6e0acefc6a9a955db" => :sierra
     sha256 "1f35dcee133d638a16462db711560b624020e9dd8f732ac5a6f13a09b694421a" => :el_capitan
+    sha256 "2fe5f77621c6b94e9ff7e6c6e0799b90cdd6bfdd5b6f7b66e03ebfb0162f5dab" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
