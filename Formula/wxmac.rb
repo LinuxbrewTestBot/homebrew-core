@@ -12,6 +12,7 @@ class Wxmac < Formula
     sha256 "32357b2ab1590b209e89c02fd36c54b5378fe79d32e82abc4047ab4fbae2663c" => :high_sierra
     sha256 "666f423fdee434b4e4f91d6035678f658cf149df8077dae01151c0ebe781445a" => :sierra
     sha256 "6acfa572e370c0f9c2f48f89ab8807a42d81726151e8ebddccca48aa634514de" => :el_capitan
+    sha256 "9db7e24b014fd7549f9c30346307342173422b0d937d9346af3d6dba73a07e33" => :x86_64_linux
   end
 
   devel do
