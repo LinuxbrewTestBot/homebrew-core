@@ -12,6 +12,7 @@ class VstsCli < Formula
     sha256 "f581e56644210416738424264db59d1264e40959d7a24dc762fce10b385f3650" => :high_sierra
     sha256 "42ffbe7062e59f34521e7a52edccf259effa972aa531af52b9d908bd642d6cc2" => :sierra
     sha256 "a674bcfe820a9fb00c765968a3076abf8f7e1e639ee55cf9dd5c7536940c276c" => :el_capitan
+    sha256 "57cfab9a03dbfc2eddcef838b19c5f229eca985750f6dc409b48a5b0691cd2c3" => :x86_64_linux
   end
 
   depends_on "python"
