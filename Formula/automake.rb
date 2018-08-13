@@ -12,6 +12,7 @@ class Automake < Formula
     sha256 "fb32c065aaf91661380af32ed301edcf209ba453635c79ca945353b67e54af10" => :high_sierra
     sha256 "fb32c065aaf91661380af32ed301edcf209ba453635c79ca945353b67e54af10" => :sierra
     sha256 "d552844779f0dc4062f27203f7facfbd74c9d1780724ac76a86791e401aa73bd" => :el_capitan
+    sha256 "98a28717930814875958c8b63e72acd2e6aeaa99caefe89ccd604fd7a17a586a" => :x86_64_linux
   end
 
   depends_on "autoconf"
