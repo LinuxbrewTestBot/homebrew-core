@@ -11,6 +11,7 @@ class Dxpy < Formula
     sha256 "c869d10399117eb2aea0697edb62a90ecf9a7fcadedf2b678b67573cfa7f3687" => :high_sierra
     sha256 "3c16eff2c86136e13972174958b80dc996deb4e1d3702de601c6be7fef3cde24" => :sierra
     sha256 "940c866937735a98c7f78073ac674261de34740537c5673ffe7f403ba75644f0" => :el_capitan
+    sha256 "8f6a3d9b5888e6507e931908555acbf769e552393c8fa619b03f0c19be065f4f" => :x86_64_linux
   end
 
   depends_on "python@2"
