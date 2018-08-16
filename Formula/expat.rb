@@ -11,6 +11,7 @@ class Expat < Formula
     sha256 "f40e7de5136c5cebad824d0977040d6a12ce88d53131a37ade357b069759001b" => :high_sierra
     sha256 "42bbcc51ea53b2eccc49d10fcf8d7e90d3061fb7f1e35e6f58e8b8adf6fdceeb" => :sierra
     sha256 "ca9ef3c3c89d70794872e6b7dd2eed560008db47efa16c6c8fad3258940e3263" => :el_capitan
+    sha256 "abcd526aad3d25ce11126f5de597c917b22af0b226b49cf1bc49fd32d419a0c5" => :x86_64_linux
   end
 
   keg_only :provided_by_macos
