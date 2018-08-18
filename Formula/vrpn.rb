@@ -10,6 +10,7 @@ class Vrpn < Formula
     sha256 "9b9f4a31161dbc0a4a9ea0759122f0a3725a361dde0b5f1def9bab4e59de12e7" => :high_sierra
     sha256 "4e03c131adba54f74742151ee269d2d0c1716e307294679ed2366c0e6cb5fd41" => :sierra
     sha256 "36e5273f8006b1fe5f1655e258f8937e06e9abc4ad849e2c9b1e7a1462fe790d" => :el_capitan
+    sha256 "30030b05ef8bc7a36a3fe44167566c800ac46362c4c5fbf4bdb77d03efa89c1e" => :x86_64_linux
   end
 
   option "with-clients", "Build client apps and tests"
