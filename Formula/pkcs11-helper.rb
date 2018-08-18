@@ -11,6 +11,7 @@ class Pkcs11Helper < Formula
     sha256 "8ef9dab823d0d222506ad95b9501797230e8ff6a79ac1bc45137de708f0862e8" => :high_sierra
     sha256 "98e6529b783c275380faa8282d2d0bd17be5c3d65d41db184d652ea85978ed98" => :sierra
     sha256 "2cf6979b8f750c8e58005c4150171a547b6b4a06bdd758fcf77bc52a05d48ac2" => :el_capitan
+    sha256 "322c5a0ce7c32312864b39bc95fdc27bc2decc75bbc4faa8d11f41d868aabf87" => :x86_64_linux
   end
 
   option "without-threading", "Build without threading support"
