@@ -11,6 +11,7 @@ class Pyqt < Formula
     sha256 "7098976f9222b541929b63e50038127b85263c1b820186b79fe011d559a1d4aa" => :high_sierra
     sha256 "692d8ce2949fcc4258818c68dbf142bdc5b1a22a98af99bcdac2a321d0b79ea0" => :sierra
     sha256 "17ae485e79a5b3e35f0a09bcb3862239517218ebeae10850d7804d49edc1d839" => :el_capitan
+    sha256 "d35aee3dbfbdaada61d1bef0c013ef6b32d7ff3df7a12111c55ef74de7cc1800" => :x86_64_linux
   end
 
   option "with-debug", "Build with debug symbols"
