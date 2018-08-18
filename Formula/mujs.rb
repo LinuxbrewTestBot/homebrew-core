@@ -12,6 +12,7 @@ class Mujs < Formula
     sha256 "c962c59672d0b8cd91e2c04bfee730c8e520700aa82aad311afcba915bc68eb2" => :high_sierra
     sha256 "0825935cc4a064502c05e6f177cfc717030a7ca6198537aac1a7fd75bfdeb24f" => :sierra
     sha256 "5376177a24d6ac21859f8c313267b558ab417ee8f3154b96fc3b42b380d3bea6" => :el_capitan
+    sha256 "8dcf003d616d1a98cefb39e382fe6c5c72cf4d80c867ced95f1b14606019cd05" => :x86_64_linux
   end
 
   depends_on "readline" unless OS.mac?
