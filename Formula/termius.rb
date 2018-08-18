@@ -13,6 +13,7 @@ class Termius < Formula
     sha256 "37eafd317b786ecf5e640c83e638b40aca67a2c6aa6d096245df1582b3578726" => :high_sierra
     sha256 "4d68f73ba10c090b285cd0051708a0baa4f20d85f524473069853aa05d0a2eb6" => :sierra
     sha256 "46d51f5c8e0e0c23bab503d2c60fcd051688b20d8e835f8ed747e92993517949" => :el_capitan
+    sha256 "91f4ff273c1820546953bf770da4ab47269ddff2bc5f8560b16e48cc89eb9862" => :x86_64_linux
   end
 
   depends_on "python@2"
