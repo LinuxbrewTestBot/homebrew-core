@@ -10,6 +10,7 @@ class Cquery < Formula
   bottle do
     sha256 "ee46fd2b279edc3b52df5ca9b84bdce404bb888f8a7d31e092b3fda33285a02b" => :high_sierra
     sha256 "ac3ad5aada30ca31d70f36e6e3ba76d96aa0e235ccdd62259a086578fe182b44" => :sierra
+    sha256 "0cc13cc0439b0fefc4bdcd582cbdebebf88e9596c8a0f1b7991ba8bc2abc74a0" => :x86_64_linux
   end
 
   # error: 'shared_timed_mutex' is unavailable: introduced in macOS 10.12
