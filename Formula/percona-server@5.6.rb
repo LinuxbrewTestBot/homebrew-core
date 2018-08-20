@@ -10,6 +10,7 @@ class PerconaServerAT56 < Formula
     sha256 "fd5c4c759c72edc1b5dca683ab860c2f74178a10bf09b3029b35e3dca4879632" => :high_sierra
     sha256 "9b8a05eb87f8bd0bc1f09dcc38ede084b889b548c3dea810edd293839ec3a875" => :sierra
     sha256 "aa90a2216314fefbe8d7774e54ba2dcfd8e30bb13be48c786dd68f756b7f385b" => :el_capitan
+    sha256 "427c070ca7cc70267f1a498af9a63385968c4a13b04b1ff06903d94ed58cbff1" => :x86_64_linux
   end
 
   keg_only :versioned_formula
