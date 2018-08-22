@@ -10,6 +10,7 @@ class Hugo < Formula
     sha256 "8554ecd55429f03b29572e9edbb822a5fde2fab385ff1736c82d144c1a89e051" => :high_sierra
     sha256 "9f9e0162984ee3bd5ee7487cd327b49d3a3f94048f5249498d8247c2dc86f014" => :sierra
     sha256 "9e84b719eac13b3123a18d2f357cfd9daf86cfcc2cd51248e1dd0de70e86defd" => :el_capitan
+    sha256 "e1f9d5831dfd1d258a02bf7abcd21f16ac5d9e8e9a8891b37a59e05847f13364" => :x86_64_linux
   end
 
   depends_on "dep" => :build
