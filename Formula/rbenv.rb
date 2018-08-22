@@ -12,6 +12,7 @@ class Rbenv < Formula
     sha256 "dcde9bce89f83d313c5ad527bebda2fd931a88c18023d0ccccbf33f0d48f4c4d" => :high_sierra
     sha256 "5aa32d4c24d32be9d80deac4fe02fa672519374251c9fc2e3c4982c6d11b063a" => :sierra
     sha256 "687c347463aac118d1b8bc01892cfb7df54f03be3bf8cc2017abc93b16c878e8" => :el_capitan
+    sha256 "256e15d2738ab5451127606b23ccb4794c0d196635b0fce4f688863459012712" => :x86_64_linux
   end
 
   depends_on "ruby-build" => :recommended
