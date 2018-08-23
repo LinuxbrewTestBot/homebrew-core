@@ -9,6 +9,7 @@ class Confuse < Formula
     sha256 "6e5f40a3ca684e8aeef00fe121a0742214a434d23ed45810d0b7b6c1e5ff65ac" => :high_sierra
     sha256 "8a34f5dee392fb5c572df1e636821b1b6af62a197aca7a2de0c49b4f55bb2874" => :sierra
     sha256 "8547a54095de338b895476e8fc2cfabc27ed9039996f37bdcb48040759c67f79" => :el_capitan
+    sha256 "4eb6f9f7a059ad7795ac9f9b206eda3a02ba571abd78764d4ea052506c80d093" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
