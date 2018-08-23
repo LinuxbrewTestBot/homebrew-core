@@ -14,6 +14,7 @@ class OpenjdkAT10 < Formula
 
   bottle do
     cellar :any_skip_relocation
+    sha256 "0c97b6481b06b762cdee1311c4ed6dfa00f6b4dc5e01290d4ed878256a364ade" => :x86_64_linux
   end
 
   def install
