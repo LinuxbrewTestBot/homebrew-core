@@ -12,6 +12,7 @@ class Rename < Formula
     sha256 "b40d758f416765733e0071705fae180c62c63058b350c379b9f36da9da98fad1" => :high_sierra
     sha256 "b40d758f416765733e0071705fae180c62c63058b350c379b9f36da9da98fad1" => :sierra
     sha256 "b40d758f416765733e0071705fae180c62c63058b350c379b9f36da9da98fad1" => :el_capitan
+    sha256 "5e392c9cc9475c9e27239fbbdf4b80fa1cf5038316a7ff3dedcefd58dce91463" => :x86_64_linux
   end
 
   conflicts_with "util-linux", :because => "both install `rename` binaries"
