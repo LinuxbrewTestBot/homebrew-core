@@ -9,6 +9,7 @@ class Qtkeychain < Formula
     sha256 "762e3117de29b6935378bf54cfc0fd9a3d49ef35469a8621333bfb88d22c77a8" => :high_sierra
     sha256 "fd43ab15dd3da11cc4a7a5c068067af8a66e957317af8848892368e450ed6c17" => :sierra
     sha256 "2547d3aa216eeb767df920a63ed33f6a06ce355a59e0d3d70c2ce73a225af91f" => :el_capitan
+    sha256 "31b879d773fbb5345e87aece7687bc576080d9595a156da282a2c3ecaf10bd05" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
