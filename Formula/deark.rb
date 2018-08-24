@@ -12,6 +12,7 @@ class Deark < Formula
     sha256 "08b71c8e1e78027c5a2803ce561460c61a7b85a0d9ee1b5853d388032b6c3549" => :high_sierra
     sha256 "68c9616ad4a90b7b364e1918ac6938a8b2b8bc407a97fd72b437dac6aa0d6230" => :sierra
     sha256 "0927ea0354c7f6da3d71dda9cb060a407d4325eba2e6c37da62118666936fcb6" => :el_capitan
+    sha256 "96bfd3681d18345fc4db49f5492bba8d5f34c401dbf78d37bbe07a7dc008e7de" => :x86_64_linux
   end
 
   def install
