@@ -13,6 +13,7 @@ class Legit < Formula
     sha256 "2919e3ef7827297d891afe3fb123507e96de5cc8f3e4080cd21519d453dcbb1c" => :high_sierra
     sha256 "defc980ee36b65d40c6e4cf5293b9bc22dd169998dcd9e88585d92aa08855c20" => :sierra
     sha256 "d5b4098018676b19f06a15d1438c881cdba2fec784cb8f07477413ae9f3dcfcb" => :el_capitan
+    sha256 "143ac421766c0a2b56b47099ee1e1381426fbb036a239fe6696aa1b89c72cf57" => :x86_64_linux
   end
 
   depends_on "python@2"
