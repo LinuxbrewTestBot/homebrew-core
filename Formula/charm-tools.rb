@@ -12,6 +12,7 @@ class CharmTools < Formula
     sha256 "68365eeb6730d2d7645a791c7d60206d733f19d56c16deb31e5b42cc0378bc28" => :high_sierra
     sha256 "4dc6ab436414c0ffd0c07601bec4240b2907c090b7a7a300c5ec6bc49e960a01" => :sierra
     sha256 "11a6747479a401661fcd32e6233e581ec0f065a0fc737ee3da163c23d73bb00d" => :el_capitan
+    sha256 "dcad161a9b20a915fac66420f28d265376704fc7926d9cb9fb4419084dce9ddb" => :x86_64_linux
   end
 
   depends_on "python@2"
