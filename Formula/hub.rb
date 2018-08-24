@@ -11,6 +11,7 @@ class Hub < Formula
     sha256 "615f3b7b09e7ea0cb5cd4de1ecf5a1ad5f61382860524624ecccaffffd4c818d" => :high_sierra
     sha256 "8e191a21ad7b1cb2bb746257d99f322b7169879fe4f42f6619234c6abfb552ef" => :sierra
     sha256 "2e59d1b0a83718d1663a40c895fb3a6d6faf9f12cf0519f4c0a9105c2c30f4cd" => :el_capitan
+    sha256 "af9ded7ac23a11c6832812d1d40eeb67b4811e7509b30f00019a8e3665c25079" => :x86_64_linux
   end
 
   option "without-completions", "Disable bash/zsh completions"
