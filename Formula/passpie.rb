@@ -13,6 +13,7 @@ class Passpie < Formula
     sha256 "c76cf8962d2cef65aa5a59672e58be1ad0fd74f48ef94608f34275800f243d29" => :high_sierra
     sha256 "858a53fbd86235af38263ff97b7f283f434fe59623f6bf170845fc51a0ebc0c7" => :sierra
     sha256 "9676b9237428cd46ce1fcfb42b7911ebf96a7df2535e936bb60d3f57507db8f4" => :el_capitan
+    sha256 "e36de118956043ccd6a74831fff6832f0e50d80cc039f94005b3efea15e54a5d" => :x86_64_linux
   end
 
   depends_on "python@2"
