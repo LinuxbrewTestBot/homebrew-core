@@ -13,6 +13,7 @@ class Elm < Formula
     sha256 "4655392e3e985c90f9e23b03438a8587475b48c1e1b0dabc2d74358f1b06daef" => :high_sierra
     sha256 "e0e45eb3388efe4a8147a65121d067ffad875952146c11519e8e564095de139b" => :sierra
     sha256 "e2a5f47750fb6a487e5220a3ac234b209acdb7edcde7e42c2ebe2507f8a3a5cf" => :el_capitan
+    sha256 "6cc9cf1ca8e529101ecc6ed9aefcb2426f82cfa6d01aa3bc4cd4415c5387922f" => :x86_64_linux
   end
 
   depends_on "ghc@8.2" => :build
