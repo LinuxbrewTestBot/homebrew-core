@@ -10,6 +10,7 @@ class DockerCloud < Formula
     sha256 "809594637760e2118111760fee5b298ee528dd862f845055a8f0e2a03aee10b5" => :high_sierra
     sha256 "b5337ce18f9053667a61f4873e3d1e8b7f910b0a668505c853531be48b95428a" => :sierra
     sha256 "90b1feb11ccb54a1481a2c23df1c70762b346d0907b7f873296b70fb6774b763" => :el_capitan
+    sha256 "c92c6e376e3131099042845da4b849c90d6def56c9eda2533f8a111abe67cba6" => :x86_64_linux
   end
 
   depends_on "python@2"
