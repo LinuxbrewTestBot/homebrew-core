@@ -12,6 +12,7 @@ class RabbitmqC < Formula
     sha256 "d95c6f2c892a815ac20fe9a57fac961c73390182abb748d95d5901a3cb45d7ab" => :high_sierra
     sha256 "b2c77dd791f014dfd33983394a369f97e23e0c4519d451b552322df9dced4081" => :sierra
     sha256 "892c266e4c6086c65b3e4cee8cf5116f59d682b178540ee3f78efeff1e9d912a" => :el_capitan
+    sha256 "519d460c94c3b503d3f807d46f586c164dbfc90d970a809dcc23baefdb537546" => :x86_64_linux
   end
 
   option "without-tools", "Build without command-line tools"
