@@ -15,6 +15,7 @@ class Futhark < Formula
     sha256 "fd991de532d502cb54ea2cdd7705df1a31893309a9ef9286b4fe997ca6081033" => :high_sierra
     sha256 "41e3d8b3f5589ac6f6fbf3d7af782b309d3d43533fd7eddc10a4db6305fa8fa8" => :sierra
     sha256 "80521a7070e8ccea084083036c2d14d6d7a2e272457eb7d8f037650649004648" => :el_capitan
+    sha256 "c5715730916debe613907b5c6d7700284b84df1dd0622e5d74b1a5b0f10cd94d" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
