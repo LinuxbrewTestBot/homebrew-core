@@ -14,6 +14,7 @@ class GccAT6 < Formula
     sha256 "1e33eda2bb05662fe7f061765332f32451d7b9ac0dc70651e94ff5dfd6ef2d07" => :high_sierra
     sha256 "dfc7cef94a96b5c9e38463ae771726747576b77af63e91c2158d5344c189d681" => :sierra
     sha256 "929f81db0795b08b4768f667780cff9ef0950990faa7d7215f4498c9752df7cd" => :el_capitan
+    sha256 "55eb94693392383884898c43e2ba91e5908c275930cf457b7a0805fb7192a6cb" => :x86_64_linux
   end
 
   option "with-all-languages", "Enable all compilers and languages, except Ada"
