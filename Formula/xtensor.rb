@@ -11,6 +11,7 @@ class Xtensor < Formula
     sha256 "e9a6333361d5c12949ff10dded248d1c100ca3a8d6b9c3b9c30b8720c1c209a8" => :high_sierra
     sha256 "e9a6333361d5c12949ff10dded248d1c100ca3a8d6b9c3b9c30b8720c1c209a8" => :sierra
     sha256 "e9a6333361d5c12949ff10dded248d1c100ca3a8d6b9c3b9c30b8720c1c209a8" => :el_capitan
+    sha256 "4e7fcb5fd59d0603a805e89e969807b89209f925d40b811c530a7883bdbc31b1" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
