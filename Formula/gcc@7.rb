@@ -14,6 +14,7 @@ class GccAT7 < Formula
     sha256 "5f798446d0193232ceeb27fa34965ef988ed42796b6aab63e6983304a771afc0" => :high_sierra
     sha256 "47b785a673df97f76b974aed4de9f80426ab69db455f56387f0746d744a375d6" => :sierra
     sha256 "4fed764370e0b2b283d498ac06de3f3d028edad121bc1a3659f4c10c8665ac73" => :el_capitan
+    sha256 "720213606dc87d3b638b9494450e81d3c31d07ba64701eac9538f10b3f247ef8" => :x86_64_linux
   end
 
   option "with-jit", "Build just-in-time compiler"
