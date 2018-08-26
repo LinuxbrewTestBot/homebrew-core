@@ -14,6 +14,7 @@ class WebtorrentCli < Formula
     sha256 "f742fef76f23303d2e3f00aecc58f0e330151395827b0c1e86965aea15de86fb" => :high_sierra
     sha256 "684233d167eda9cd325ea50016c1000ac4c4a19764a65da4810bebaa5f49a156" => :sierra
     sha256 "5fccaa04d58abeed5146887b970264758a3aff86a048766e9d40386bb5ad3dff" => :el_capitan
+    sha256 "949d5b22c2d974816523c79cf0a32fe09fdee4bcf4249af95bf1b423b21c72d1" => :x86_64_linux
   end
 
   depends_on "node"
