@@ -12,6 +12,7 @@ class Docbook < Formula
     sha256 "6ac70ee56739ffbe8d99e18164bc42d8d0df9ce62cc2a5c55be4b65cd74092aa" => :high_sierra
     sha256 "6ac70ee56739ffbe8d99e18164bc42d8d0df9ce62cc2a5c55be4b65cd74092aa" => :sierra
     sha256 "6ac70ee56739ffbe8d99e18164bc42d8d0df9ce62cc2a5c55be4b65cd74092aa" => :el_capitan
+    sha256 "8898bf1783b50d7da4d63b966b82e0a51be1d16829be045287ba95fbdbb4da4b" => :x86_64_linux
   end
 
   depends_on "libxml2" unless OS.mac?
