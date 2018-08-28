@@ -12,6 +12,7 @@ class Sratoolkit < Formula
     sha256 "506e6115cfb2cf9404b9db86525d6a4393ad1f530e1b0404c9f4a8b7e723615b" => :high_sierra
     sha256 "197a1f8040d8aa1fe968e96abb895be04e75174aab5eae45dad7a74070b5f8db" => :sierra
     sha256 "abd6309f2f03e81b67b6d27ef25bdf5cb506bdad19aa2895f86ee77674dfd5eb" => :el_capitan
+    sha256 "32f8ba13eecac8d7adcecb7e103744853ce88ee0e4cf594655bd8f7db0c3c44b" => :x86_64_linux
   end
 
   depends_on "hdf5"
