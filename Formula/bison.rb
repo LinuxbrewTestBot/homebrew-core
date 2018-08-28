@@ -11,6 +11,7 @@ class Bison < Formula
     sha256 "07aeea960757c9db4633f532ffa57b526a8c0ade186caae63d985474e68e643f" => :high_sierra
     sha256 "0deeabe5fe3de5d81b5940bb9f2c6a457dd6eac0a10d518c1483f618a6bef19e" => :sierra
     sha256 "99c319dc82e2a823f9c16a3909931e0970dc5cd189badb224c57a5786eb44016" => :el_capitan
+    sha256 "c21f17175e4e82bd83e1ae262a57300dc75d83dadede2de89352157b7263cb50" => :x86_64_linux
   end
 
   keg_only :provided_by_macos, "some formulae require a newer version of bison"
