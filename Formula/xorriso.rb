@@ -12,6 +12,7 @@ class Xorriso < Formula
     sha256 "45f3af489e20189f73248b0c5444cc0a986f1028c23959aeaf240173bebabeee" => :high_sierra
     sha256 "e7ddc12178ac466d7aceaa3786b070829582b6c5adeb59ca383eeab3fa866e89" => :sierra
     sha256 "dd920cbec3a5d95504763a4129aa915031bc124285ddb16d7ff76c15cecb9724" => :el_capitan
+    sha256 "2efeb5ed22979c18d7d52b6126f297ceb8805d06874df8e2b0dbfaf48e8ed1d9" => :x86_64_linux
   end
 
   def install
