@@ -21,6 +21,7 @@ class Beast < Formula
     sha256 "18363f90761d465aa9b3e1a2e37b884fcc2361fbb927cb5d91184eb92fc3c0d7" => :high_sierra
     sha256 "3440a01630e7673369720258960618b4c0f0f8305775151b62e8b50818208675" => :sierra
     sha256 "b11b1291e5a960aaf77bef07542f9e7a9b0da2e8fb24a24da3fa8c12a07381ee" => :el_capitan
+    sha256 "b38b98b8054de7a89ad51900796acc3923af7472c88d88d95136fdb2c6cb3801" => :x86_64_linux
   end
 
   depends_on "ant" => :build
