@@ -12,6 +12,7 @@ class VorbisTools < Formula
     sha256 "a062b8dbfe05458dc18c311b16260da2ae12b00b3537643b4336094d731f8808" => :sierra
     sha256 "5ec349e8c68d23599b9e3185c6b8b1a6a3294d3f0056b740e7b29f141a4c70b3" => :el_capitan
     sha256 "643822a271f6748dc635cede3cdf7b53558cc25f4663014006d46cda817a7c8c" => :yosemite
+    sha256 "73423823af88d4de39b609a847461c1d6e336407f2c0994851f6c24aa23532df" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
