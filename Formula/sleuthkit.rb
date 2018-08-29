@@ -11,6 +11,7 @@ class Sleuthkit < Formula
     sha256 "ee6b4ae1e8cb351311e9ef810b1b92d847751e4e17a722eef12fbb700a69718e" => :high_sierra
     sha256 "1b7336477311e5dfb97d6fdaa18732441d79c74098edbdc33cd9ac13c6159263" => :sierra
     sha256 "879fcb4c26d6245a80fb135cfb325526046ea22e4e82bc178cd51616d7987b90" => :el_capitan
+    sha256 "23213a08e88893cef1e309d32c76a039f52b55dd096bcaa9c3f9605ab2dc8fab" => :x86_64_linux
   end
 
   depends_on "ant" => :build
