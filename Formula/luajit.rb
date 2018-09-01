@@ -11,6 +11,7 @@ class Luajit < Formula
     sha256 "ec3757b184301eba2c0364b7c93a9dbb12357ed045aef02246cab9068d0c14d5" => :high_sierra
     sha256 "2bec1138cd0114e4df5c56cd14ec2cc88f6e397c1fb7dc1e1763926670645078" => :sierra
     sha256 "c6090283a2708cf2fb818d2f33845d80d6b01d236ce1306b6f56d7c6879b0b34" => :el_capitan
+    sha256 "042c7b36ff66e7d4a31b0fe7a39a45018663b4dfdb1a7d3130415618d10b835d" => :x86_64_linux
   end
 
   devel do
