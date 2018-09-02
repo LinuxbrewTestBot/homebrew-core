@@ -10,6 +10,7 @@ class GobjectIntrospection < Formula
     sha256 "24a45803b455d938c7f2918ba1fd7fec50cb0fbc6af27289a27e0743171251ae" => :high_sierra
     sha256 "d2dbab8c078919411b6c6d8b495a6839634b09bbd41e723157d2a7947cc76d85" => :sierra
     sha256 "dc2f4b80a9239b2b077b59e36f1bf8137200f9133f0714925f3791179cf42edc" => :el_capitan
+    sha256 "e1159f0d5dcc23f67dd1c88dbe91d6c0f9b2440df4d9837aedd77e2fd639ff65" => :x86_64_linux
   end
 
   depends_on "pkg-config"
