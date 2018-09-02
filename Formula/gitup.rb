@@ -14,6 +14,7 @@ class Gitup < Formula
     sha256 "013423ddf1b0b48b22cf16fcc60b35f3e06e73615f24dc226fa004669d09e392" => :high_sierra
     sha256 "2b3a5f5cdc84e26488f87e2fdc390612bc79c016fb5ce2915eddc8c49dc71473" => :sierra
     sha256 "3099d2c8e9b7adb5150b23d08f95832808e8d175186f25109459f106c3d31564" => :el_capitan
+    sha256 "9949dda17d1ee702ba07a03ee9b9adf04ceda7d47d572ffb3161a63f445c3ab8" => :x86_64_linux
   end
 
   depends_on "python"
