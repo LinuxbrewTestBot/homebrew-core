@@ -10,6 +10,7 @@ class Bloaty < Formula
     sha256 "1c06ab5eb36a968ba9755028760f1dfc4958273325e5d243d9562cb571912fa6" => :high_sierra
     sha256 "aa8aa6c63e5cd626ce78146912c8abf79d2ed110d3ed0501482a88f421dce4b5" => :sierra
     sha256 "2657c5809a086a8bba8d2ed81ca56f5640a5eab69723aa3ef342160c64c84cbd" => :el_capitan
+    sha256 "a0d28f516c5f7b9d73b8a861cdc566e46a614ab1966cc5e36e79186b7de4e0d4" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
