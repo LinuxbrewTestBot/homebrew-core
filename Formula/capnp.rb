@@ -11,6 +11,7 @@ class Capnp < Formula
     sha256 "a4720c5dc1b0866536b4649a87e16149d29cdaa730ced45acd7e557918dc5285" => :high_sierra
     sha256 "56c4c541de5388071f53d582a12b7d0672c476ecf15130122d527bde2af4f358" => :sierra
     sha256 "c828367f66d7b83289de33b8b3d47cc32dcc1b8da555469bdf886f2a7febdf2b" => :el_capitan
+    sha256 "75824c89113a24785766a18dc394b728056257c059bcae9f788d84c4cbff7930" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
