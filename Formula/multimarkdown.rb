@@ -12,6 +12,7 @@ class Multimarkdown < Formula
     sha256 "4b0c84924e451362afe93a6046bfa31bb9ea567930f7d21ad2436241fc44d3d7" => :high_sierra
     sha256 "3a314a87893e7eea9fc3542d5574d5fdadf96a77763ddef403335a34ee21d35c" => :sierra
     sha256 "580595562320f4d5b78d0abb2e41f0773c91ef0c0bda6f7560486e3d05c52e13" => :el_capitan
+    sha256 "0be5cf4989b29cdaabcae0c38607922c730768232c5a8b248985ff3ac8e40df9" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
