@@ -6,6 +6,8 @@ class Libtirpc < Formula
   # tag "linuxbrew"
 
   bottle do
+    cellar :any_skip_relocation
+    sha256 "8877610a23ff7fc029060517988cd0d07ad253448840bc6927ab5e6b381c3562" => :x86_64_linux
   end
 
   depends_on "krb5" => :optional unless OS.mac?
