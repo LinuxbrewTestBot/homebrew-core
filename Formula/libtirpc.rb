@@ -8,6 +8,7 @@ class Libtirpc < Formula
 
   bottle do
     cellar :any_skip_relocation
+    sha256 "881f70ffa32003c9140bd124485e420ef32d5f966b91a8bcaf67f6ee9922c7ee" => :x86_64_linux
   end
 
   depends_on "krb5" => :optional unless OS.mac?
