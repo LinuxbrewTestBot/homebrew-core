@@ -12,6 +12,7 @@ class Nsq < Formula
     sha256 "ff5ee1076510935d467a359172c57a487f5c4fa50537c28643f60b6254d60348" => :high_sierra
     sha256 "e06823b1c505fff73402522d13a74f386106987c96c83dcccb0b8e68e169449a" => :sierra
     sha256 "02225f180c8e5ebc9d5e0ecd30c0875738b10904143c031a07709a6661362243" => :el_capitan
+    sha256 "8e4a373962fdbe629b92fa35a4719f1ac0187e876ff654d0c3bd2efdc4f1625d" => :x86_64_linux
   end
 
   depends_on "go" => :build
