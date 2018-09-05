@@ -11,6 +11,7 @@ class Cgal < Formula
     sha256 "4996b3af224bece9348288878c47f4b1a6de780311c711a044ed85ee25b21d47" => :high_sierra
     sha256 "b21b64f5f7806d599edf51dc030ec367aa420160d505e6ba8abb1752bacc9321" => :sierra
     sha256 "ccbaa0179fe268ce00bb467759c29e626ff606b537963a6ee099980789c9f519" => :el_capitan
+    sha256 "1e8053d943d9532a90615fd89b36f117bd60587681fabc04eb7c20f7ef1978d1" => :x86_64_linux
   end
 
   option "with-eigen", "Build with Eigen3 support"
