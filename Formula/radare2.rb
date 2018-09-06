@@ -66,6 +66,7 @@ class Radare2 < Formula
   depends_on "libmagic"
   depends_on "lua"
   depends_on "openssl"
+  depends_on "perl" unless OS.mac?
   depends_on "yara"
 
   depends_on CodesignRequirement if build.with? "code-signing"
