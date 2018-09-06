@@ -13,6 +13,7 @@ class IsoCodes < Formula
     sha256 "efd955789c4db00603c3f408efe76a1b022481e8a3195a64374367e361f78daa" => :high_sierra
     sha256 "efd955789c4db00603c3f408efe76a1b022481e8a3195a64374367e361f78daa" => :sierra
     sha256 "efd955789c4db00603c3f408efe76a1b022481e8a3195a64374367e361f78daa" => :el_capitan
+    sha256 "50f9d8f74364cb78cb9f525314dee2d1282466e8334475a231ee5bcfb79ffb7a" => :x86_64_linux
   end
 
   depends_on "gettext" => :build
