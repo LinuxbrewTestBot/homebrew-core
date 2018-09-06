@@ -10,6 +10,7 @@ class ProtobufAT31 < Formula
     sha256 "941385129ac0e5a34923a373cb57daccfecbaaa25b429624c741873e144ba581" => :sierra
     sha256 "b7d053c5f1dfef00da3c05fd9ad3db7317a8d0abb983290869844d1ef28a799e" => :el_capitan
     sha256 "813126845f50a0d885b9fedb213e566fc5e3d5959f1f69733d8c2d04fa530c67" => :yosemite
+    sha256 "1e3e1b32aa61b61b0ec6bba5f0e4b974e73a2c2739e7c4690559363ec52ae22e" => :x86_64_linux
   end
 
   keg_only :versioned_formula
