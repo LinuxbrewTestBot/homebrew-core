@@ -14,6 +14,7 @@ class MesonInternal < Formula
     sha256 "cadf29ef1454acee4573d184a01e86e9c05d636b445c21255314dcca80cd9585" => :high_sierra
     sha256 "ac82416f8f8f99bfd0c19ba2196028d541b945f6bf401a018f59a0d81775988a" => :sierra
     sha256 "a2434e205cbab983230a6019fa9520adb2a5c2c31eb8d430ac80b74ddec790b6" => :el_capitan
+    sha256 "a074bc28182d9ce31e359c0b802c5da3a49333e6d364d6479811106b3a1800cf" => :x86_64_linux
   end
 
   keg_only <<~EOS
