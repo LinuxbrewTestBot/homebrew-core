@@ -12,6 +12,7 @@ class Valabind < Formula
     sha256 "9cc2312ef64b8f1d39a36d9b157d9112920ebdda221e64d0680b32e641e0a795" => :high_sierra
     sha256 "e9ffa47579200c0f8a1394c6495b1c8c52d581084bcd9273121d4e907fff307c" => :sierra
     sha256 "c43502d503c09c23f2c225250c5e8ccf9f7100b88703767f27ceed729b55a8c3" => :el_capitan
+    sha256 "5a07b84448e068ec54605e5f7af2b4e2d2fab911bbd3dfd96b32a59c1778e927" => :x86_64_linux
   end
 
   patch do
