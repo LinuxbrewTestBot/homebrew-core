@@ -13,6 +13,7 @@ class Glide < Formula
     sha256 "9fa42c78c7cd971eaddeec55597a33b05f3ce25eab526395fa686fa3f16ae3cd" => :high_sierra
     sha256 "ff5916390cf75b50291657e75c7c612bae81ad8ff23584d04abefa33990204cd" => :sierra
     sha256 "88825414624585386604980809adaf132fc18cdbe9c5b7cac1090844a4a01df1" => :el_capitan
+    sha256 "e17a0b68d40cff9f7159c3f1428bf9410fca93db87f887a6dec73146ea83ffcc" => :x86_64_linux
   end
 
   depends_on "go"
