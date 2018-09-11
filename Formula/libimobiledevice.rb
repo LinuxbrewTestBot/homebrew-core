@@ -11,6 +11,7 @@ class Libimobiledevice < Formula
     sha256 "99f3f03c16a4a3818ade87ca533a54d411613b9f07e8c61bf49f157771bddc2f" => :high_sierra
     sha256 "430aae9daa52ff2a477d691c338bb7745ca62e4a889027f116112af63613b1c8" => :sierra
     sha256 "64640027ae8fd012ff75d25c2a6befcc10e688aabcfcb885edef03d24e0e7e23" => :el_capitan
+    sha256 "edade3236bce24a4fd65af5704d86c2bca5ac6f31e38179abf352df23c52f5e5" => :x86_64_linux
   end
 
   head do
