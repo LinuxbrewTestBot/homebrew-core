@@ -40,6 +40,7 @@ class Radare2 < Formula
     sha256 "cc571a80f7c88293a730172dd5b4406c084ecc05efac9cbca440657797a5da64" => :high_sierra
     sha256 "3b0f9155c6fbc2ad3c155c399726d99088dc24f41ab7bbf9522dc6ce30d5dd95" => :sierra
     sha256 "af3faa1cc55dc1deead3c6bff00222a55e2350c5f8566fb86f381c34f95c3bb0" => :el_capitan
+    sha256 "3d33fcc001f69f74564db8b95fbdb221795e80e148ec013be1834f766426865f" => :x86_64_linux
   end
 
   head do
