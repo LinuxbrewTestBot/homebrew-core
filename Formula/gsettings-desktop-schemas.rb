@@ -11,6 +11,7 @@ class GsettingsDesktopSchemas < Formula
     sha256 "39ef6c65974fe55184a8997c8b3a8de5f0dcc5b71f0bc457887381c2f567c154" => :high_sierra
     sha256 "39ef6c65974fe55184a8997c8b3a8de5f0dcc5b71f0bc457887381c2f567c154" => :sierra
     sha256 "39ef6c65974fe55184a8997c8b3a8de5f0dcc5b71f0bc457887381c2f567c154" => :el_capitan
+    sha256 "91db960063df6a3d7afacb5c97d7bf7221e8476e63d62486c3253808f15ef217" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
