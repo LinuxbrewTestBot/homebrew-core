@@ -10,6 +10,7 @@ class GdkPixbuf < Formula
     sha256 "b5fcfc3b0f9217182ead5b34ddb23dfdf5793fd249a813995f64296cff599ffb" => :high_sierra
     sha256 "fa967244c2682026689bf53ffa3b77792470c8a5fb1db261c13af564253e43bc" => :sierra
     sha256 "cafc68c2bfb6013f6f6f0fad456eb6454065346f38679b11c23a2fed75e714e6" => :el_capitan
+    sha256 "715b6ccb006caa7e15634aee7013336e8f8bbc07a255945a68a68d221cbfc00a" => :x86_64_linux
   end
 
   option "with-included-loaders=", "Build the specified loaders into gdk-pixbuf"
