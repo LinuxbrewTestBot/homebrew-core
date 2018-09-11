@@ -10,6 +10,7 @@ class Xmount < Formula
     sha256 "79b616ecf3e76ae690945cccd66b04b716aadaa61a82e34917be86c6ac4a367c" => :high_sierra
     sha256 "9fce7eb9aef96aaab3584783fedb7cece191cc9a218aba2ccc4ea7aefe38eb91" => :sierra
     sha256 "07295242dc494ee0f5612f2fb542011170725c0839f003fb876d3dc6eff6ac48" => :el_capitan
+    sha256 "d13e7de724698c2fb78e4553c1c47c4fb344608ac064171ba7654a276ef27ab3" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
