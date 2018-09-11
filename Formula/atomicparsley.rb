@@ -13,6 +13,7 @@ class Atomicparsley < Formula
     sha256 "05c4cdc1dfc14fa6f06fdbbcadead5055a9fb53091d014458b86ecb4b22111fe" => :high_sierra
     sha256 "d5f8672d420511ff76fd9ecc4d41c8aee5eecbf4382d7c4bd3fb04400c4617f4" => :sierra
     sha256 "c0a7964ced998b2db7150f95b9329e138f28f0768be50d531fd4d82754e0ebde" => :el_capitan
+    sha256 "736efa28b543dfe6cf9f1163d026a05d02896e8e6777f6e11f9b5ee117dbbe77" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
