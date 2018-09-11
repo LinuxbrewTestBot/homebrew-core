@@ -10,6 +10,7 @@ class Libre < Formula
     sha256 "8194eefcf23d4c37a7d30f9a15b47d576f6a2506078c2cfe99bf690ce78b6bdd" => :high_sierra
     sha256 "224690c1ce6b7912c997b5d454c308cd9be3d231d5e7b1763f3274b2eeaba719" => :sierra
     sha256 "ca45de9ec5798c63537e0492daf15c0c52774961aaf2d2bc38fc3e3a0913f059" => :el_capitan
+    sha256 "29a95d77fc7ac7f33ca2cdfe78c226319adbed5670996e6971b6d41240cbb80a" => :x86_64_linux
   end
 
   depends_on "openssl"
