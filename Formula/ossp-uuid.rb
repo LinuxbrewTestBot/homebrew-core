@@ -15,6 +15,7 @@ class OsspUuid < Formula
     sha256 "ac4456fc1c29db7e0d565ebdd392cf827be315b52c9eb3abcd113c4c7b981f25" => :el_capitan
     sha256 "c6cfa39816d19fa8d4586d6a364cd17e3a089ea018242875dc371731578a4ac7" => :yosemite
     sha256 "5253f4fab035aca3ca3b867ce0d081812eb17fe0dcaab6599087abaa385c478d" => :mavericks
+    sha256 "92cc17f72267c14bc1333ec626c55f58ac420100db239dbcbeea7dea94160e72" => :x86_64_linux
   end
 
   def install
