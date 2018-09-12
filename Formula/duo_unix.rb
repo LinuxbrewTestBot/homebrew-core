@@ -9,6 +9,7 @@ class DuoUnix < Formula
     sha256 "a2565350e54b87360cf55288030a00910c8e7b9f68478c8f13fcce5fdf5c93d6" => :high_sierra
     sha256 "e9aba3a8e3ce860fec86c16afab97810a2cc26062701babb4f0c2c85b58c0e23" => :sierra
     sha256 "d8088e93ca2a1ed00a71d94e58a86778ed26f99f20d2e582695489b1a6bb86d0" => :el_capitan
+    sha256 "068df635ece8914ee34dca2bc131e78c40d9009f385ef7e66a049ccc547d36c5" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
