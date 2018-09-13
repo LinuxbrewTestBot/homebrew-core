@@ -11,6 +11,7 @@ class SphinxDoc < Formula
     sha256 "f6b4ce4f8e2c33f641e38438ddeba4b2c0964fb1726c6085fe42889194bf3fc9" => :high_sierra
     sha256 "88fb81c1d2acfdbe4813060e2a2688ffd15e1e770f7623561f39c4ca838f524e" => :sierra
     sha256 "cc5a262cd6cf845c2d5012a525c962544fa9e5ea11743aeff17be202c9ffaef3" => :el_capitan
+    sha256 "30e373b2a74b34964b643ea48b5da56a152c92f6cef30661e04c53e795f57414" => :x86_64_linux
   end
 
   keg_only <<~EOS
