@@ -12,6 +12,7 @@ class Xqilla < Formula
     sha256 "38579e6ab1b6f6801ca5404cc79fcd972f395b9dd2e981672889b3eac5441c86" => :high_sierra
     sha256 "0f1ef8f2aa1349b723062426a3e44fba2821bcf93316bacabf4c5e2948093bc4" => :sierra
     sha256 "4326ec876d3e05647320c4ab55824c37531af997cc723f303fac4c4b40153753" => :el_capitan
+    sha256 "18e7b349da94d52a40be41747e69fd4d8aa64fa668aee85e31b047257ae01a89" => :x86_64_linux
   end
 
   depends_on "xerces-c"
