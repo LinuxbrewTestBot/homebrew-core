@@ -11,6 +11,7 @@ class Libstrophe < Formula
     sha256 "1e6c0b7461aeed6bf925a338248a577435d3b7f60561e09a7da9c530a05baaee" => :high_sierra
     sha256 "4ddabe86834d65dafb68a82b2f82c66b1052df5c0bd5cdd81318ae421c6ec0de" => :sierra
     sha256 "65162c4c6215dae7441c79aa50b31ef99c0ddfee55eea5f5d8974fb330a2dd96" => :el_capitan
+    sha256 "64fad1a1f9c156fd90c91a03ccfd5cef5910da4b4dfe002c74444756694027e7" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
