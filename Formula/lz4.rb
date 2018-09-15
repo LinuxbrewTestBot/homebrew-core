@@ -12,6 +12,7 @@ class Lz4 < Formula
     sha256 "482b331f6cff1d008d0af6f9e58620ab28286d0bfab4237ddab40e8c2df1d2b4" => :high_sierra
     sha256 "bc702825ea1970c9ff8dabf1128fbcc7900a5d3719455175b777b8d5119b287e" => :sierra
     sha256 "bc8d157d93aabed915fe3c57c5506f0438f9c0c9d1adeedd470875cacd4b5c39" => :el_capitan
+    sha256 "08d96d2802691f750ed4f6be1cdad505bce7f0d9235fa91784b188ef44fb30aa" => :x86_64_linux
   end
 
   def install
