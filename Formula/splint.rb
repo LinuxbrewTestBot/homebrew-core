@@ -12,6 +12,7 @@ class Splint < Formula
     sha256 "9eac9f8e530c1d9fc238b57f9d4e143fbf5727450657ba92e6d721660777753b" => :el_capitan
     sha256 "4b385e4fcf9b82fa2ebd8dabaef7e712039b3f7c83d2f6d5e3263ebf51e7b6d7" => :yosemite
     sha256 "ad8551b508f303c69499a60456de49d2b77d1f0f2383383d3c01c1b657a230b6" => :mavericks
+    sha256 "cd1436875ca596ff9100db6dd03022815b1a534c13b457a5b695efef58a5a5cc" => :x86_64_linux
   end
 
   depends_on "flex" unless OS.mac?
