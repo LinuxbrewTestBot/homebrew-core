@@ -10,6 +10,7 @@ class Lynx < Formula
     sha256 "efd1ec304b8f8c76c840b09abc0ca564c7c393bc33e0f572ff8979086ea81a73" => :high_sierra
     sha256 "14c607d4f273ab4f6974bea3d8b2892eaaa919c48d6ea4637b5e97759c9365d1" => :sierra
     sha256 "2240132091626d4577ec75e0e24ffba4052d13534ce8bf28f766b3b255d0286d" => :el_capitan
+    sha256 "3f928e10d73528b97c5aa7f130cdefd5240ffa3d7c140c95ad761450526421d2" => :x86_64_linux
   end
 
   depends_on "openssl"
