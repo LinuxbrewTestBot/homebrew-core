@@ -10,6 +10,7 @@ class Shellharden < Formula
     sha256 "1dc1515f934b43e17b4faeb17cda61a22a28866e625d863c7372eda6a2e111d3" => :high_sierra
     sha256 "2fdb7e3d8fdeab4089143e5d11f1b5b379f25b11623af5497cd54e829ccd1b85" => :sierra
     sha256 "d1b2430ab2de01134b5a0b4435fb7280bed7f140e662d7e2ccd4764a5be6e737" => :el_capitan
+    sha256 "ebc5463ecec7079c557df193669e5d5b8ac7633dfc315025106a94c72bdabe95" => :x86_64_linux
   end
 
   depends_on "rust" => :build
