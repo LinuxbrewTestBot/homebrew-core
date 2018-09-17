@@ -11,6 +11,7 @@ class Links < Formula
     sha256 "e32a0dfddba4e773520e8f33834fcfbcc5ec8d4d6ebefb7527de3e964d865522" => :high_sierra
     sha256 "17b63c4b6fc92b9d735f2c44c3cf4cad60c3e69a73e0397d17bb7b21c4907707" => :sierra
     sha256 "910088e2b13e329c7f783e68ced98a1bfe7fa84ee266087fbd665248f852b78e" => :el_capitan
+    sha256 "837fe294bf9f384c875908f5254dd793102caee3fd4ca501c6572772e20720de" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
