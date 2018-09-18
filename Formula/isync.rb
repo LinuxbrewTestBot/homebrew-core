@@ -12,6 +12,7 @@ class Isync < Formula
     sha256 "4804cd78586b11ba9316db5522fd7d91c171ec3c6936f74f3c8cbbd8f8b27d56" => :high_sierra
     sha256 "01d975dae7bf0b92d9fb4bb92846b45e1d60a1c5b16421f051f9212ba6ac1959" => :sierra
     sha256 "6a0679dee26c5534d12801897339b1d0fb8cd82f907917900ffb632a42b0c8e0" => :el_capitan
+    sha256 "1f471b783eec65bab29a204f176c83c591c2f1e63da15cdacebc1b16df6d25dd" => :x86_64_linux
   end
 
   head do
