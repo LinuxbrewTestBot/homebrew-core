@@ -11,6 +11,7 @@ class Bazaar < Formula
     sha256 "102d9ec9fbed0c83402195d77f20bbcf94210face42bcddf98c3feda6c9587f7" => :high_sierra
     sha256 "4a927398b0b1fc8ce43e16a227f40c63409a752338fd36600d05b907d960cab5" => :sierra
     sha256 "6d1409dc49d838c0209bc59ebeb4ec5b70c5c1caef3b27b97f0ebedd6d8ff515" => :el_capitan
+    sha256 "61caf25684f3cb56e592a47b904c8740290bce2ce2c6aecac969c7ab36a1c310" => :x86_64_linux
   end
 
   # CVE-2017-14176
