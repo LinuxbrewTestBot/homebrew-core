@@ -10,6 +10,7 @@ class Pidgin < Formula
     sha256 "39388fd5f805236cb972d68da78f54cbb042f650a2194c6fbb4231dd2f2a2fb0" => :high_sierra
     sha256 "3e89f23e44404b8299562785f612259140d25c8b1af4c5c77d9da0008d1bdd84" => :sierra
     sha256 "5bb5d41124e21b68b6172c025f0faf342d70a87fd95da067b7c450b76d3ab8cb" => :el_capitan
+    sha256 "2ad0826dc0f6d4d71e93dbe975e017f5fbf2687cd6124c7a1f26f977e20f9d98" => :x86_64_linux
   end
 
   depends_on "intltool" => :build
