@@ -11,6 +11,7 @@ class Gupnp < Formula
     sha256 "7e27871e73f36e0a957dc59f591aa09972471cc8c3a25e7994735382e2f02daa" => :high_sierra
     sha256 "b7e235858bce8ebc12d6f4c61a2506c6cf6fefd2ffdea083a0c474486374be6c" => :sierra
     sha256 "3382f7c4a3b884bb604179f554d55e31028e40ba97c031fc29c4284ac8c4c19f" => :el_capitan
+    sha256 "9eab46e4712e842a4e77fbaef044dabba80221351878adcda60b8ef2fbb260c2" => :x86_64_linux
   end
 
   depends_on "intltool" => :build
