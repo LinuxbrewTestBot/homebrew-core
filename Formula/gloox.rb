@@ -12,6 +12,7 @@ class Gloox < Formula
     sha256 "3f72253357c59741e8a2bee9898b526950394acf5c6482ae15fea664abc26368" => :high_sierra
     sha256 "f0812d2040520df39193a65c7edbca2b49092f409a495a7e74f7619a86f58597" => :sierra
     sha256 "f9e1d2ae48aa08d5c223aa4d85cf553205e400f9f68207f0107b5a752db01f22" => :el_capitan
+    sha256 "53228f57fba3540c817956fd309c3247a91571c006cd3b2f7ea55e9534a6ad3f" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
