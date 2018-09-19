@@ -11,6 +11,7 @@ class Python < Formula
     sha256 "3d55617b68b1cb58415159b31a29193e0b8c08e3726030f756d40a65107a46ce" => :high_sierra
     sha256 "5720eaec832c06608ce60bf366dfb772f7ad5b1bf869f6f4d0f62636b9194d48" => :sierra
     sha256 "19bbe7ade52e031cbf7e2b6d0d7ebce204c51fd7fae3d675c06fffdd29cdccae" => :el_capitan
+    sha256 "9a52c4ff039e1460f10ce6c353379de5694baf96f5c0a0045268584547509cab" => :x86_64_linux
   end
 
   head do
