@@ -11,6 +11,7 @@ class Node < Formula
     sha256 "6f1c350e623963b2fa3356d08dc0450555da66dcdcf63d824c9b4d99e40f8231" => :high_sierra
     sha256 "de6aad6f1f1a9c2c8112bf79f8004939b2211a61eccd91c087a1398178055ed4" => :sierra
     sha256 "11129da02ab2a6f0750c4b9d1d545c4a03dfebd8a4ca109437bff3857710b630" => :el_capitan
+    sha256 "2051d3d06f4e785b339b66de1aedfa9b67fc8591de9bd85f262b56e4ccb32bb9" => :x86_64_linux
   end
 
   option "with-openssl@1.1", "Build against Homebrew's OpenSSL instead of the bundled OpenSSL"
