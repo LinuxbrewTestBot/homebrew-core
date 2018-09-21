@@ -12,6 +12,7 @@ class Woff2 < Formula
     sha256 "f0a9cba72030b62b02336c277f2688ad96bf45c1720e58205cfa597be9860296" => :high_sierra
     sha256 "965310f79a417663d33d4917880b4dd2a9654ca85f5a9a243465e3e0e86a394d" => :sierra
     sha256 "59d4f6c77ae933445a0fde4b1445208a094169fa5dac784889dd6c8d4947c997" => :el_capitan
+    sha256 "207f46d8082580e89a76cf0e660bed4fc3d382cf3d587ccccb109c9f12ceb94b" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
