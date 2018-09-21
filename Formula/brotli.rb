@@ -12,6 +12,7 @@ class Brotli < Formula
     sha256 "4bee5587f4ce589b094165c33696274da19042b9ac1e1f738a69e72f54f5f6c8" => :high_sierra
     sha256 "471b22b887f5156d6aff56752d939840db1d2362c4fe3773783ca49b5db05802" => :sierra
     sha256 "b32ea035cb9d1eae9e7895ffd3909ab2d3ca8391aeae47f3772fc71686d2713e" => :el_capitan
+    sha256 "7a42cdb5a88b00e79fedbbb8785b517c2c139e8bb4e6d99b4bef78491d9907a1" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
