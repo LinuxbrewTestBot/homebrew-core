@@ -11,6 +11,7 @@ class Mdds < Formula
     sha256 "f6f6896bcffcedd91647cf06bd924b1a08be6e6654f7a0cba7d1f471744f217c" => :high_sierra
     sha256 "f6f6896bcffcedd91647cf06bd924b1a08be6e6654f7a0cba7d1f471744f217c" => :sierra
     sha256 "f6f6896bcffcedd91647cf06bd924b1a08be6e6654f7a0cba7d1f471744f217c" => :el_capitan
+    sha256 "502dedbbb58d805adc02f9180deba464df21e9a9d937b9b663e1fbd4845b4092" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
