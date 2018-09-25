@@ -11,6 +11,7 @@ class Libcouchbase < Formula
     sha256 "9fb25bbc2af910b793e895695e1c74b557dfe2ac7caf06d02aefb33306f38f2b" => :high_sierra
     sha256 "4a836e3578bb12efab25921e5dceef03f81d611f763986fc1a3619d8bf88f480" => :sierra
     sha256 "101ab4fecd83172c64aae11afe2ac5474f9d3c02bff35825e793f44837aa0893" => :el_capitan
+    sha256 "9b902435b7fa96fe57211fee37bdac22bee799a57f307a64d729a47198cba638" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
