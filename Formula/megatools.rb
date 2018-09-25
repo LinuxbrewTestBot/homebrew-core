@@ -11,6 +11,7 @@ class Megatools < Formula
     sha256 "f18ae236c38b575b3524c3dd1762b6291257231fdbadd09c8c84ef166cc3c34c" => :high_sierra
     sha256 "096b9459462956a3257a8869154f9ce3003decaf3ed4f20ef65ba4d6094abc11" => :sierra
     sha256 "956a0731c11c8ae3f999386cc95d57a787a19ad7ead8007b09efc7a96412c034" => :el_capitan
+    sha256 "cba661655bf399fa28e0fd1584acbe6142f451d4a342f30f55abc0a94ac44658" => :x86_64_linux
   end
 
   depends_on "asciidoc" => :build
