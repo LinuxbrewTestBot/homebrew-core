@@ -12,6 +12,7 @@ class GnuUnits < Formula
     sha256 "587ee2567c3c1b987d477460fb93b34e5f41ee89c5ce8f6e9dbf2aa141826fc5" => :high_sierra
     sha256 "9a2143c85ac0dc3b51654ece73c907b5a8a395fe221eaeef054708ae9459579a" => :sierra
     sha256 "5763af73624526f5859c4b1058cba6020ab49f582027197d2610bec9df52028e" => :el_capitan
+    sha256 "0d66cc1bb30e6d12c7deb256d4b21fb628ae4b649b0cd14575813133afac2387" => :x86_64_linux
   end
 
   if OS.mac?
