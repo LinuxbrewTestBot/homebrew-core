@@ -10,6 +10,7 @@ class Glib < Formula
     sha256 "6f4b16f4146bfa8ca324a2e066b60e18ca9c45e1bc0d9ec51ac4970129e7072e" => :high_sierra
     sha256 "38021da8a98c8d86672b4bdf7fb92568f0599fa202110d23f4b318f1491b0e70" => :sierra
     sha256 "b79c2f30d938327006a2716bb26bb667f09783c3b258cc4be7e12760fd28ff44" => :el_capitan
+    sha256 "b10e2e5429b27ab3d0d4f80c435412ecdec6e7432987ee6ff73331da08280196" => :x86_64_linux
   end
 
   option "with-test", "Build a debug build and run tests. NOTE: Not all tests succeed yet"
