@@ -11,6 +11,7 @@ class AvroC < Formula
     sha256 "845eb5220229a26d3acd435beb093301207850787827a84db0d55455357f18dd" => :high_sierra
     sha256 "442b64624539b8454693b961ac9b455f2ad956c1119cb16e49c65498caeb1e81" => :sierra
     sha256 "6282882c11af83fe568776fa45c11c5140dec413a6cd4efff9e28b2ffc35713c" => :el_capitan
+    sha256 "29221324e81fe6415d5d2798be670922b193a443c6f02703320574e69fd09b1c" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
