@@ -12,6 +12,7 @@ class Wdiff < Formula
     sha256 "c11b3eecc5edb376ff46d09ac5206bfb05e6b16842535a236a0b19d08dd96295" => :high_sierra
     sha256 "5fc339bce086c8780d7588a27b959d02ce079403166af2f5fd541c44ef4a29c8" => :sierra
     sha256 "51b0625f3708ecfc74c613fdd2cd11cfb706d08da20206ddb5e628e6aedfb62f" => :el_capitan
+    sha256 "c632af1a60946164b9bf46e35ed9642b8c46683e367adbcf00331f16202dac6e" => :x86_64_linux
   end
 
   depends_on "gettext"
