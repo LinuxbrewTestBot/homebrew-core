@@ -13,6 +13,7 @@ class Libuvc < Formula
     sha256 "c0ec2076095af1c5154bc43d18a5869b5678f026f1b3c76964f136e4ada07717" => :high_sierra
     sha256 "1888941024fe1b8ca44f15b98e51390872286c0145806fbd0a61999bab225905" => :sierra
     sha256 "4defbab7e171c20da065eb5e4f2b11b5b27165efbd850e742674be281f3a0fcd" => :el_capitan
+    sha256 "53b5d544c54769aca873258fa6d022cf0a342173d90f92373439cc25b68bd434" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
