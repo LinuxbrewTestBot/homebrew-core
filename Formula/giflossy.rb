@@ -13,6 +13,7 @@ class Giflossy < Formula
     sha256 "492ddf714381465db00b10689af119d8c225ca5138304d8f1e6c946b9cf67e76" => :high_sierra
     sha256 "464798aef709d62f6bfb4cefd3cb9d084e3aced492766e63b113762f15347d19" => :sierra
     sha256 "50e8538008faf1bb05e8d44801cacd6e8f41fbf392ed23b639c7d05d36b5c8d8" => :el_capitan
+    sha256 "c11eccc51f6a2468673f000757ae6293d2d4c498f85c2bbdbd344bc28568988b" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
