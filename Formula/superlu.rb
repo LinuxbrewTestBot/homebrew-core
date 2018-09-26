@@ -12,6 +12,7 @@ class Superlu < Formula
     sha256 "5c037c2cf95a26ea76672e0831ac3fbf34bb8d4378acc21dc99040f7b9b421f7" => :high_sierra
     sha256 "e4fdd5560b722e5fbb5892cde2795a5dcf18889d4f663315fa29a154a266af3a" => :sierra
     sha256 "a20af0692236e73bce9cdd4c659ba7b0c98d7dbaf2953bbf0eae4255abec0e1d" => :el_capitan
+    sha256 "f1efa4e63f39d6914f473b310681bbcd2b171e5f279cd48bc8013e6dd2a7f751" => :x86_64_linux
   end
 
   depends_on "veclibfort" if OS.mac?
