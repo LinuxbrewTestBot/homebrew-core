@@ -12,6 +12,7 @@ class Unp64 < Formula
     sha256 "8ea046591c46ac09c3b1d82e1143a19ed8aa0143526e982efaed503ba8391a78" => :mojave
     sha256 "3bb668767bea20f8002928722f6b05c1394965688bafa22c38cff72f3d160fea" => :high_sierra
     sha256 "0693a0f4eda10e575321a8e39a0dc5fdbc9efb796c77b51e6b144c2573fddec8" => :sierra
+    sha256 "6072534116cb1d4efc0daacd8875444a2fe5128f7293f87aeea2874a505421f2" => :x86_64_linux
   end
 
   def install
