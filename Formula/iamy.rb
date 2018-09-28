@@ -11,6 +11,7 @@ class Iamy < Formula
     sha256 "b53242a77b9f929dae108b63f5c98dacd8dbbb012c5b84aba2a32e3a568997dd" => :mojave
     sha256 "47472140d1784e319eea2d203722d957b588655234e266a3dab26be9fb103598" => :high_sierra
     sha256 "4d1e5b3b9bb838117293c18979370d395cd111f3c32f9b00030fbed7ae9c2f3c" => :sierra
+    sha256 "021926f40d2c52c0ec784c14f52b6e33d0414f8202775f16e208b9b3aa404722" => :x86_64_linux
   end
 
   depends_on "go" => :build
