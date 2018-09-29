@@ -12,6 +12,7 @@ class Wrk < Formula
     sha256 "bf22b23f21ae787e2a114f0138519710f5f1e3069ba7480c5c1c0217cac62873" => :mojave
     sha256 "1366e8330c9013002d43984b4a80dfc16e73fa23b91b72eb0c8ee2df512628e1" => :high_sierra
     sha256 "8aece2b0e05cfce8f9e1bc408bc043c8340e999cb175c2396ec94d9a8ead2221" => :sierra
+    sha256 "b1439167e5bfb5daeb881325a7d77d5f51c3782b62f97829e71444adb45b2edd" => :x86_64_linux
   end
 
   depends_on "openssl"
