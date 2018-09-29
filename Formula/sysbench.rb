@@ -10,6 +10,7 @@ class Sysbench < Formula
     sha256 "88e3ab23abe4cefc6c3aa3971a1572c122dc6da07d16be8a7a507bcfe65e7440" => :mojave
     sha256 "c0cac7822ea2b4e68b29373f924a8d367f77e42635a9cf28392b41e2f45d3ebf" => :high_sierra
     sha256 "8aae1f5f0966a4ad0915d1443cbc2dd0aeac5e919fbc094af545ad78c2686c5b" => :sierra
+    sha256 "3b701c83194aeefa9ccc8cb220cbfc52357fbcc65f0d10cfebbce85983363fc9" => :x86_64_linux
   end
 
   deprecated_option "without-mysql" => "without-mysql-client"
