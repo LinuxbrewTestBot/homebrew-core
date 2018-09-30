@@ -2,6 +2,13 @@
 class OpenjdkAT9 < Formula
   desc "Java Development Kit"
   homepage "http://jdk.java.net/archive/"
+  bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    prefix "/home/linuxbrew/.linuxbrew"
+    cellar :any_skip_relocation
+    sha256 "16703337d5a1267958459faf34237b1ff1f2f2c7fcfd45024765acca90b66cd7" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   version "9.0.4"
