@@ -2,6 +2,13 @@
 class Openjdk < Formula
   desc "Java Development Kit"
   homepage "https://github.com/ojdkbuild/"
+  bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    prefix "/home/linuxbrew/.linuxbrew"
+    cellar :any_skip_relocation
+    sha256 "71c1102168426cf6beaae3f7f33985fc4e3d070ec12efa759b406d1de3a82e1f" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   version "1.8.0-181"
