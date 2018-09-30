@@ -2,6 +2,13 @@
 class OpenjdkAT10 < Formula
   desc "Java Development Kit"
   homepage "http://jdk.java.net/10/"
+  bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    prefix "/home/linuxbrew/.linuxbrew"
+    cellar :any_skip_relocation
+    sha256 "ba4ec12a189b620f37317674d5198a93d7facfab4cee8fe6ec920f96c04688f4" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   version "10.0.2"
