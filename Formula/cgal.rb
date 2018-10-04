@@ -10,6 +10,7 @@ class Cgal < Formula
     sha256 "d969597f4c3fb993bf19363e4e92f0f74427e25f6f855fa28d1f9792084aea9b" => :mojave
     sha256 "e6978f966bdd5a050f80185d8e506a38016a8adad6010b039b9ef42558ed14eb" => :high_sierra
     sha256 "349890c9c6f40272b3173c15412701f6588003047e5ebc3e0cd2a03c870ba83d" => :sierra
+    sha256 "cb4b254b228315d3f87f710e41df8589ffb1cad4035f59f385c005c903a2baa8" => :x86_64_linux
   end
 
   option "with-qt", "Build ImageIO and Qt components of CGAL"
