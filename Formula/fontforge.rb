@@ -11,6 +11,7 @@ class Fontforge < Formula
     sha256 "7917392b435917468ce7f8e4c31822ba376d901cc9303ab354c44ef8155fad49" => :mojave
     sha256 "5a04540e69d56213fb104a968ad9ce2bc5c2ca152d5c3e0ecfccbd93981f80dc" => :high_sierra
     sha256 "7c4e3def1ac5f5b374e773d6dd7bda60b09eb304a19c6b231a292125d4d14915" => :sierra
+    sha256 "73a08095664b9d9d33e59e08e8df09c800704148a392ea4679525fa71a960ff4" => :x86_64_linux
   end
 
   option "with-extra-tools", "Build with additional font tools"
