@@ -9,6 +9,7 @@ class Bitcoin < Formula
     cellar :any
     sha256 "9706142fea73ff186a4de1db3180f7dc1abe826ca48ba3ac421ed916cc991999" => :mojave
     sha256 "9fb110426bfc2e4cedb33bf8de7439450934dd6c81abcc183f12bdf3a5c72656" => :sierra
+    sha256 "7d415fb60386f9e0723a3d372302ba4620d03fef5f433ecfba47dca6d8671171" => :x86_64_linux
   end
 
   head do
