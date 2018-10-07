@@ -11,6 +11,7 @@ class Flatbuffers < Formula
     sha256 "bc51298d7bcf8e3787a3b67f92573571a06e5d54c11ae9551c4c2dcaf6143a3b" => :mojave
     sha256 "e5605a8aad6a90cec130a9c80b4c1ab9128175bbeafe9c7bf47e2a47967fc0c0" => :high_sierra
     sha256 "6bcfce8e2e75744a7599eb3cd9ed3773b5790db8d5b605c4672747e891e8fa3c" => :sierra
+    sha256 "ca0ea01e96a8ad8b05869ba5291153be3270a088f459fac5c7e510519c93e47f" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
