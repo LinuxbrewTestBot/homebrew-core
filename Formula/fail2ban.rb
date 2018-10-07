@@ -9,6 +9,7 @@ class Fail2ban < Formula
     sha256 "8a94f2acb50779d21bf5f419ef4ab65692d03e827d1d618a878b14b5174fba59" => :mojave
     sha256 "96f7b39c78cab991ea75e7c68e65b764fe1ce0299ce82281e25800a255662bb9" => :high_sierra
     sha256 "96f7b39c78cab991ea75e7c68e65b764fe1ce0299ce82281e25800a255662bb9" => :sierra
+    sha256 "7f26a20f7bab29e0602e2ce26046c501efd704e6c79c4c67015dbbf64b1c226e" => :x86_64_linux
   end
 
   depends_on "help2man" => :build
