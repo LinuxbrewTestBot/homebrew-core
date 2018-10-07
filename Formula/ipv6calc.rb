@@ -10,6 +10,7 @@ class Ipv6calc < Formula
     sha256 "3e0d6c64f9821f4a34fca5b146e971f8e382ef05de62f1e4ae3fa9ddcbdbef3e" => :mojave
     sha256 "1e64e269dbaf3ca47ed4af72a8bfc11a7bc01c4b9207862207194e024eac2f19" => :high_sierra
     sha256 "fa6ff54f91251f67f00a1786f3f83280fcdc735daf6bd4386f0f836067a5922b" => :sierra
+    sha256 "a0dcec65d3b6ff15bd167e5c89103d6f87af40f1f849f11213e1e079124f17c9" => :x86_64_linux
   end
 
   def install
