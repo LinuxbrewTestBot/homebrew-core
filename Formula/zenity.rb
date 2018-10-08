@@ -8,6 +8,7 @@ class Zenity < Formula
     sha256 "1f45ac15943a7b3493d7833072c253ffa5158aa124fcc734c890f5906496396b" => :mojave
     sha256 "ef38b762ac8036cf3055f772b661c856e04a387c5e29b4be9b108e5b19485b17" => :high_sierra
     sha256 "6efdbda681d0357aa8da3cd76fb047d2c66745b75b05a388cc56da5e7e0c5b46" => :sierra
+    sha256 "562f8fa1c804e254063f2ae5f7d87272ac5e5bf3bbd125346ad7a573637a9ea1" => :x86_64_linux
   end
 
   depends_on "itstool" => :build
