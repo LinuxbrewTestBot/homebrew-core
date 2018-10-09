@@ -11,6 +11,7 @@ class Fzf < Formula
     sha256 "fbef178808dd3cee3b36ea3256579bc759e6516f87c4b8b2be00ad404ce14d4f" => :mojave
     sha256 "7307a392d1869453b5dbfa86b4b0bb4b1e8e6178d12fd928b82e9f8cfde3926d" => :high_sierra
     sha256 "490018ace4f9d99a470af3be3a409c793c1551fe72a6be2ad6e766dd594fa282" => :sierra
+    sha256 "7fe8886f83e3e1e922449506c61d2b3c40eaad7fbc5989b00caa894fa7f43054" => :x86_64_linux
   end
 
   depends_on "glide" => :build
