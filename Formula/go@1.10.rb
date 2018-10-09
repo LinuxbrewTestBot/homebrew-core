@@ -10,6 +10,7 @@ class GoAT110 < Formula
     sha256 "8f61daebea1012743280f2aab830db7d812b6064dffa786a1514dc06550facc0" => :high_sierra
     sha256 "c198d33774a788840143677bd396fd9f9601c1e568b01f6c41afe1b292a94796" => :sierra
     sha256 "f8ae863158b47ddbc82df4dcfdd3248d1c55c5f2bbce291a855053850819044b" => :el_capitan
+    sha256 "bad9118b777b695c95058753276d85803cbee7d55b4781a72ea18aea7ff097b8" => :x86_64_linux
   end
 
   keg_only :versioned_formula
