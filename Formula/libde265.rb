@@ -11,6 +11,7 @@ class Libde265 < Formula
     sha256 "318155fde344fe1742f354396bd65fbd2b1ed14f420131f3ed5ff569d5a6b38f" => :high_sierra
     sha256 "5f247bee31e10b2217023a64e5ef841566f1ee5edc7227dc15110fb507405269" => :sierra
     sha256 "942f19c7b70c6bc6510715c13752bb99e7a4793f1f028245fd2f2b798a8efe56" => :el_capitan
+    sha256 "9b7a2d89a9970961eb3796807ba6c4811d38654cd255eee5c2c7bdd90158e8a6" => :x86_64_linux
   end
 
   def install
