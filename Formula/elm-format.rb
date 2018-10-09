@@ -16,6 +16,7 @@ class ElmFormat < Formula
     sha256 "723a1df0e7f4c28d99b245ca1222b1bfd24f728d4eba2fbc95244437a95ea8d0" => :mojave
     sha256 "5b31e9ef6c2444befe736dfbde6253c6a259117f4458d5c2e04ec6d0a23a8877" => :high_sierra
     sha256 "4af61266dd8e30c3a57be137916f164d2f51a74e6e6a35aa85a5271061f15572" => :sierra
+    sha256 "0b9d60767244f0ae9e8460966ea975a45e0ecfe9ba26eb64404d984ca99e1286" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
