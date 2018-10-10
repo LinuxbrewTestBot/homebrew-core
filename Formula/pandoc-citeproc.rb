@@ -14,6 +14,7 @@ class PandocCiteproc < Formula
     sha256 "022f0c850cb583f85a5eff6f2aee61c567d5d2cb5602f92b3c4b287e953b0325" => :mojave
     sha256 "584d07ac76131c7948daeaf89bd25da42441f5124a0c2db1dadbf659fe3ae8bf" => :high_sierra
     sha256 "7e49bc059c26c629f1a5237dd5823900f91dbdc4b5f0baa48f41c3e6c9f5abd7" => :sierra
+    sha256 "90840071ecdf8a31232db58f5d7e58a6879d7c7b181820ff3ad6f81b949d29db" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
