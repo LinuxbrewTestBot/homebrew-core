@@ -11,6 +11,7 @@ class Cloc < Formula
     sha256 "bfab4c34974f66e6f48442cfc06fb9421547ab9c53aceddce2ddda408e77ffbd" => :mojave
     sha256 "6f0f297361bcaaba9b0924ab4a7401932cd8b208cc06587bc6c0881bb58935a3" => :high_sierra
     sha256 "9651d13839bda437d0cd39e8a07e6f6688957525c049565d40d01287ae7185c9" => :sierra
+    sha256 "27f2cb07e0d5ea7de265fe7fa581643d341fe342c709d08de3edf28ed3717f8d" => :x86_64_linux
   end
 
   resource "Regexp::Common" do
