@@ -11,6 +11,7 @@ class Unbound < Formula
     sha256 "05d20ee709aaa08166007a9602b21a72d4c3fbd7b00f3d832e37a48d5423137e" => :mojave
     sha256 "c87c9cde683c23c0512626c58655e36416bb3249a0a3f4fd41b4c6c22e95c43b" => :high_sierra
     sha256 "7f8c5a827a566bbf5e664f434c97a57eb772c79f497d4fe419418fbbc74ec449" => :sierra
+    sha256 "232fb9728995ad8c3238b7f5c6d40165499bea5a627e80b2141854becd1cc3e1" => :x86_64_linux
   end
 
   depends_on "libevent"
