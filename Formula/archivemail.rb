@@ -11,6 +11,7 @@ class Archivemail < Formula
     sha256 "33c0fd2530ac1f0d09ff9c357ea3cbd8774e05c1f78b7d73e9674af9b5ab3b42" => :mojave
     sha256 "fdcee6cb204a8b0aeacb9d3774d782013b2a53e87c0f2995d939f00f7fe669e4" => :high_sierra
     sha256 "fdcee6cb204a8b0aeacb9d3774d782013b2a53e87c0f2995d939f00f7fe669e4" => :sierra
+    sha256 "5c09d49b7071b9aee3c1945b9055a64dae0b852cd6edf3de9d8bad384ee48f12" => :x86_64_linux
   end
 
   depends_on "python@2" # does not support Python 3
