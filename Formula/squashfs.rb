@@ -11,6 +11,7 @@ class Squashfs < Formula
     sha256 "06c8d10e167295f91684c9c5bb596143189f4de5f4e1cba7b3f45ab0ee9ed1cb" => :high_sierra
     sha256 "cbf0fba9b2b73aff6465c8611453b832886159c6e12191eb27ab39e58e9ef577" => :sierra
     sha256 "192a9b40b56ded7b5d97c1ae9a587173f4380e0a71ec8332dc475d9c5beeb5e1" => :el_capitan
+    sha256 "dc0238ed5908019d22fb1a4f4cabccf64cf3edd2ef859fa0f60cb022bb001a4a" => :x86_64_linux
   end
 
   depends_on "lzo"
