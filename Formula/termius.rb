@@ -14,6 +14,7 @@ class Termius < Formula
     sha256 "282eda73f7577b057f5e02594370262155b6bc2e8415831ad6db0e5bd3a85df1" => :mojave
     sha256 "11caefdfa58dc01f65251fbb8d2d7158bfa88f294d84fb0a7f16af829426f009" => :high_sierra
     sha256 "495c0c709c331514900d5f0805da1f25a28353808fc4e6634ba3f5aacfc4256c" => :sierra
+    sha256 "fd266db120de37779a665ab4c994509f264a9bbb4925b5c2c03769db2d3edcf2" => :x86_64_linux
   end
 
   depends_on "bash-completion"
