@@ -12,6 +12,7 @@ class ClosureLinter < Formula
     sha256 "0c3cb911fb4d4597e7dc00b2cbea553a62477d9024cea8c457cfe515a8730f21" => :mojave
     sha256 "d44e482bf8061224657e04f76ac54d964fc04bbcc746dd3f38cd713d587242e9" => :high_sierra
     sha256 "d44e482bf8061224657e04f76ac54d964fc04bbcc746dd3f38cd713d587242e9" => :sierra
+    sha256 "96d8f86adf3733a017df4436521494c640d2eac1779e75dc5c7b93b27195825c" => :x86_64_linux
   end
 
   depends_on "python@2" # does not support Python 3
