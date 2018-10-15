@@ -14,6 +14,7 @@ class Pius < Formula
     sha256 "d879b8fa36572f39451238f0de4b83f243d74370e6cf5d0c908d1f758591adb8" => :mojave
     sha256 "e113e0d49fd040b5c5a338e40dbbe541158f8d7fbd8de3d73a0d9f5b717969cc" => :high_sierra
     sha256 "104cc7287e9a26087ac5060a79365cdf1a24cd69cd693e942bfa4a4d0b18e300" => :sierra
+    sha256 "31f1c0d60d90350c70b8a01b97d17c2b0d007c60fecef6735c22f8d7be0efba1" => :x86_64_linux
   end
 
   depends_on "gnupg"
