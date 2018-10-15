@@ -15,12 +15,6 @@ class Valabind < Formula
     sha256 "5a07b84448e068ec54605e5f7af2b4e2d2fab911bbd3dfd96b32a59c1778e927" => :x86_64_linux
   end
 
-  patch do
-    # Please remove this patch for valabind > 1.6.0.
-    url "https://github.com/radare/valabind/commit/774707925962fe5865002587ef031048acbe9d89.patch?full_index=1"
-    sha256 "d6a88a7c98ab0e001c4ce2d50e809ed4c4b9258954133434758d1f0c5e26f9e9"
-  end
-
   depends_on "pkg-config" => :build
   depends_on "swig"
   depends_on "vala"
@@ -29,7 +23,21 @@ class Valabind < Formula
     depends_on "flex" => :build
   end
 
+  patch do
+    # Please remove this patch for valabind > 1.6.0.
+    url "https://github.com/radare/valabind/commit/774707925962fe5865002587ef031048acbe9d89.patch?full_index=1"
+    sha256 "d6a88a7c98ab0e001c4ce2d50e809ed4c4b9258954133434758d1f0c5e26f9e9"
+  end
+
   def install
+    # Valabind depends on the Vala code generator library during execution.
+    # The `libvala` pkg-config file installed by brew isn't pointing to Vala's
+    # opt_prefix so Valabind will break as soon as Vala releases a new
+    # patchlevel. This snippet modifies the Makefile to point to Vala's
+    # `opt_prefix` instead.
+    vala = Formula["vala"]
+    inreplace "Makefile", /^VALA_PKGLIBDIR=(.*$)/, "VALA_PKGLIBDIR_=\\1\nVALA_PKGLIBDIR=$(subst #{vala.prefix(vala.version)},#{vala.opt_prefix},$(VALA_PKGLIBDIR_))"
+
     system "make"
     system "make", "install", "PREFIX=#{prefix}"
   end
