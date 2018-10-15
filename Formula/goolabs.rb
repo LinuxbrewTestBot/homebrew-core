@@ -11,6 +11,7 @@ class Goolabs < Formula
     sha256 "56e26842d65342cb5aeb31c22a07bb64e5b04349c8ab17b7085d13bd19923305" => :mojave
     sha256 "a3228c96960feacfa6a7f6e637261c4214600da27ce48e2fafa73d009c2401a7" => :high_sierra
     sha256 "1e49980130952d980e63548980b6c37163e5e540d833f8d50745595d8d45eaee" => :sierra
+    sha256 "b996dd37826d87ea0d9e8cd003c73074cfc5090c3c62610cbdc42b240d213b22" => :x86_64_linux
   end
 
   depends_on "python"
