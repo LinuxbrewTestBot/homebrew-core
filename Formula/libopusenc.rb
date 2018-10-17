@@ -10,6 +10,7 @@ class Libopusenc < Formula
     sha256 "a44552641cccda9fe5068838fb6177a397384c626c1e4fc420b28bfa1161ea92" => :mojave
     sha256 "56a5aad7c5af4f705864cffbb5f5cef59c576299dff0ae4529f3bd9a61aac82f" => :high_sierra
     sha256 "82360661e53da4371b99fb7779aef23993ede434679c2d0c9d6bf1e4fe1978d6" => :sierra
+    sha256 "573d1e7edcfe07321e845677eed94c1fff1d4f7a3f7a84ae751a9d1ac8eca303" => :x86_64_linux
   end
 
   head do
