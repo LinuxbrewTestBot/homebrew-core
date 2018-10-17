@@ -12,6 +12,7 @@ class S3cmd < Formula
     sha256 "189112abb6e81acbbbd4977a3d573cf090dd7c85fee032642c5a9164ccb03046" => :mojave
     sha256 "182902e2ea25497262b58393a95b34a0961a1d83dc2702d357c5f3d06d1baecf" => :high_sierra
     sha256 "182902e2ea25497262b58393a95b34a0961a1d83dc2702d357c5f3d06d1baecf" => :sierra
+    sha256 "3c90b81024436bb0a7128900dba8e1194d62008f694ce59b467d3b4db8c70d3e" => :x86_64_linux
   end
 
   depends_on "python"
