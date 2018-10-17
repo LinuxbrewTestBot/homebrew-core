@@ -12,6 +12,7 @@ class Re2 < Formula
     sha256 "d366478de02ad27fde13652978894c4168598b1a63e7fb1d66c214ee0e247149" => :mojave
     sha256 "fbdc4cf54acf99d1712437b0ec6b96fe295c54a3265994dc75da12d72bdb5027" => :high_sierra
     sha256 "cbef8e8f1e0377e1ac0a379ff8c7a3408f7963aa1c37a94e219a86480da23737" => :sierra
+    sha256 "5a4a27aa088e85797da8ac52686e590e09f4bdbb5ed459c9df5fbfbcfcdc79ca" => :x86_64_linux
   end
 
   needs :cxx11
