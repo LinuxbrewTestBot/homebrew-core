@@ -11,6 +11,7 @@ class Atdtool < Formula
     sha256 "70d3f21f1dc1ee76fa55fcb3d4cd5369300c8d361031267fb25f6426b13bdce9" => :mojave
     sha256 "2de45317e5c51f1fcb7365d038e667fcbf48f333af9c49eb0a27ddce2d2b1e57" => :high_sierra
     sha256 "2de45317e5c51f1fcb7365d038e667fcbf48f333af9c49eb0a27ddce2d2b1e57" => :sierra
+    sha256 "2de4489c0e943f3681803a9092e3963bee8eac624dfa7b1079317f35d857d06f" => :x86_64_linux
   end
 
   depends_on "txt2tags" => :build
