@@ -9,6 +9,7 @@ class Hdf5AT18 < Formula
     sha256 "100e63ca57e49713edef20a610add098d9da6cf75f2e12146eb17a2625a6b6a3" => :mojave
     sha256 "9df9c3319bf0734c9bed37057db565b11df30db01f380ce069d78bb54a9e01a2" => :high_sierra
     sha256 "5dfcc37589233e529bf0094bcc376743ca6dee2c40bd7dc87c8d4d5cb6d68a6e" => :sierra
+    sha256 "7c5df4865a572d421153e9276e56067a3992b079808977d69418394adad896fc" => :x86_64_linux
   end
 
   keg_only :versioned_formula
