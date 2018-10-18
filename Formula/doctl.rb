@@ -11,6 +11,7 @@ class Doctl < Formula
     sha256 "1fd8be2d90b0033aec6f159c92a0a5ea38848c66ddd426e853a6af4bc9afa4bc" => :mojave
     sha256 "0cbb5e0dbc42e0832348643df42451352a3a378419a6570bd2662e9f54e70437" => :high_sierra
     sha256 "13e52a21fd86a1f042e3ae5b9d203558e4d9738a181f0ecc8bde4c1f7ca96dff" => :sierra
+    sha256 "98c5a4d858a0d63b780f3b440eb03cfc26927d525cadd796b0f70da950e10559" => :x86_64_linux
   end
 
   depends_on "go" => :build
