@@ -12,6 +12,7 @@ class Yasm < Formula
     sha256 "a3b57d242cdd13967472fbb5badd774d677428b6f730438d18fd153920dd3620" => :mojave
     sha256 "aa12e2f4b22a402405553706681d5c6bde592a1958a7c1e2594a365c29834625" => :high_sierra
     sha256 "49aa187cc261f03269c7036f1c39d6ff58d6748a25b247a0c51f8f3ecbf032cd" => :sierra
+    sha256 "1dc1a3707c1748eaada591325a5b4dbe4a9aca39b0e9377e4c3fe5b5cb7900b1" => :x86_64_linux
   end
 
   head do
