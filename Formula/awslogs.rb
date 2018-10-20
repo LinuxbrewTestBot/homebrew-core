@@ -13,6 +13,7 @@ class Awslogs < Formula
     sha256 "eba2fcea38465be48ecf8a7ea55fbec72bb8d977ac622a381e995ecad504294b" => :mojave
     sha256 "19126515321a5e97f73caeaffdd01506134516a76d2fab21a87983f6faafedaa" => :high_sierra
     sha256 "82daf95a3047ffcc333773f19ca3596fe83345ee81df056b98c85aaa25d385c5" => :sierra
+    sha256 "11e8574ed20834ad89848e1b55570984045c0fe1d5577335aadfb1d4d0746f06" => :x86_64_linux
   end
 
   unless OS.mac?
