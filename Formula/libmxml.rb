@@ -11,6 +11,7 @@ class Libmxml < Formula
     sha256 "a5e58b0137687c3fb938f38bfc57573576ad8840b120d5befb4bf707e8a5b1e2" => :mojave
     sha256 "51c6ef931e9ce4d8b477826223ac3afb961b4522903a710ced751d82081a67e7" => :high_sierra
     sha256 "fb13cdf0e19d628feffbddc62e3e68306eddc31334414d02eddfade55069fe28" => :sierra
+    sha256 "d4339d17912b91ee4ff3c996e3ac08d1ab12b68191deba0ff7b82a3a699d308c" => :x86_64_linux
   end
 
   depends_on :xcode => :build if OS.mac? # for docsetutil
