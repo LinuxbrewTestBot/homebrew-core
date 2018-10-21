@@ -9,6 +9,7 @@ class Ccache < Formula
     sha256 "b244a2503467746f01416f745f4cfce9b975943c17c490be0e1b6b9ec4a388a0" => :mojave
     sha256 "80f1c0d8a93e7ca12ab3a368d4f92cb00455c7562e35505d5a5a0555c3f98c67" => :high_sierra
     sha256 "3e7e577c26ae4c80cf98a93570f4f32a81fa07f1559e32211f1fd0bce01e2158" => :sierra
+    sha256 "99fc0027070e4e13466fe5ae82dec01106a651d386d657c234743b845b049bd5" => :x86_64_linux
   end
 
   head do
