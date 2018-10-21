@@ -11,6 +11,7 @@ class Nanomsgxx < Formula
     sha256 "ece20152a6ddcd9bd5a931b8c190de6c998da9ad3bacb195ae69fc3671767d50" => :mojave
     sha256 "dd6e547bd44055f348857c15843c16965b4dd03ea82713069cbb5df9836f1009" => :high_sierra
     sha256 "25067fb5373110f213ef8fb8e662e274db47c84e6058777e646489e1257d457d" => :sierra
+    sha256 "df310647af58a331d586cabf11f0e8cb477c24b01b2a8cd48912fb0ee017b2c6" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
