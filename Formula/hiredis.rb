@@ -11,6 +11,7 @@ class Hiredis < Formula
     sha256 "b4ad73060273cc312df323beb4657426ed554b6fa436381e68c5b37fc64dd471" => :mojave
     sha256 "f4ac0116806f6a754175e1ceadca0ddafaf1d70fdd5bc0af0604cb82483040e3" => :high_sierra
     sha256 "df1316285bbf8325a8e9dcc2f8cd472905354cba2b1562cf0dd75e268b596f5c" => :sierra
+    sha256 "2c7de23a0b14eddced9c7ce83fc6259288cffa3f580e86b1f15888e68d2267e2" => :x86_64_linux
   end
 
   def install
