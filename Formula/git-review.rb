@@ -11,6 +11,7 @@ class GitReview < Formula
     sha256 "2f73ab5bf100915a3df63c43c33990c4f80525760432d7823b22f38cc9cd1a52" => :mojave
     sha256 "4b8a4140d010eda40ba87bb4758a3f7bc4f720f2ccc6a96ce162f06604228c9d" => :high_sierra
     sha256 "7fcf58eeb89e646c95b6f11450b4e042d1b5a21c4075d1efe33900037281e6c6" => :sierra
+    sha256 "2ac0bb53beb3b958bd4793e7425d2f84567859c720ccef274062ea84d71c018c" => :x86_64_linux
   end
 
   depends_on "python"
