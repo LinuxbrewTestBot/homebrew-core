@@ -9,6 +9,7 @@ class Dnsmasq < Formula
     sha256 "1cdcb702a0dbfd1b22daac69f4e52953ffbae60292211a3df61e3b904838aa3d" => :mojave
     sha256 "d151f9072dd7e594caf4852107a4361e52d895ab2038308c83af53c37ded6608" => :high_sierra
     sha256 "c5aedeadca97702f5c0e4beb335f4e3f93de4ef6e3522fbd2399bc084cc78512" => :sierra
+    sha256 "bee970a52ce9f7adbb2dc64d90d57fe0cc47a7f9174576783d57156612001333" => :x86_64_linux
   end
 
   option "with-libidn", "Compile with IDN support"
