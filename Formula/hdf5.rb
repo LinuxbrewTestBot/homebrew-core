@@ -9,6 +9,7 @@ class Hdf5 < Formula
     sha256 "ac1b242a49c884c9572c95089f589243637dab9992f11f120218f7e9c1207e13" => :mojave
     sha256 "207bb10e9ee432b9e3e71790b2be25efb4fa57a95a30d2a47997ad460d3ae7d7" => :high_sierra
     sha256 "34af9edb3db5e46887106f70a7f6c7c3e4988c135e739089f5f13e0960edee3a" => :sierra
+    sha256 "50a4f6065d5a249030cebe54c34fe645832fa6203b04555b4ca298a92932a25a" => :x86_64_linux
   end
 
   option "with-mpi", "Enable parallel support"
