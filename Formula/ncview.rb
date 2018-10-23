@@ -11,6 +11,7 @@ class Ncview < Formula
     sha256 "bee5774fef793dec088f6ad641aa04ee535ccc74a6ed329bb696ce0df575e1a1" => :mojave
     sha256 "e1547c62f4f463f23cc2f0625e49c8d81ae99f453c67ee014fb67b9879d96719" => :high_sierra
     sha256 "4b8210f42b906b910226bdfe6b6eaa2be73a8c81b8b01443599d89efdb5628de" => :sierra
+    sha256 "f55f340bd1abc9aa213ef8dcb1129e76a771824ddc2f77754e680f0913cee0b3" => :x86_64_linux
   end
 
   depends_on "netcdf"
