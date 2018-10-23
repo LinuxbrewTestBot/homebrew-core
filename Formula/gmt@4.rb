@@ -12,6 +12,7 @@ class GmtAT4 < Formula
     sha256 "cfe7635ebe3de9922754db606838acc57dbd0ad68c7dfad55dd275beb34b7e17" => :mojave
     sha256 "4e10a4b50cfff977e5968c81856ab9e0529681ab7e70fbd44230a8296d3975da" => :high_sierra
     sha256 "66b5bd0f94d0aa36d6760bfe6672e213bf0c2b665d073cc8c77074535fb27f27" => :sierra
+    sha256 "9f50f82e5e65bd6bad74c15dcf4d2efca5bb0062db76eaf3e920a9bdd99e5d40" => :x86_64_linux
   end
 
   keg_only :versioned_formula
