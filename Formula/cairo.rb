@@ -9,6 +9,7 @@ class Cairo < Formula
     sha256 "204d0a3df9ebebef6f553b4a583351f14b84ca8682537941f2c04ba971999444" => :mojave
     sha256 "f518c9e6cd207647eedff70720fc99a85eaf143da866f4e679ffb0b6c6c50098" => :high_sierra
     sha256 "1b0421e0159c06862b742e7868dbef23985afc2f1e282c4d985ff13725995a6d" => :sierra
+    sha256 "4f3477fdffd3a758283e6b5a38bdfda73f0e45e997e523a66dcac583eb758cdb" => :x86_64_linux
   end
 
   head do
