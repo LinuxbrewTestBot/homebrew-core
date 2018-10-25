@@ -9,6 +9,7 @@ class Librsvg < Formula
     sha256 "d752e9b9be4fd3a8c890a9829255739411e95a3aa58c1bacf7233ec4435d4829" => :mojave
     sha256 "8dbe1f581c403942903518795d8ae5eb3762cc58efb0d40f7818e2e56cd84b51" => :high_sierra
     sha256 "15d01bb1d24711aa12410bf47655f7e86777b80e91456728279b816e4e0ea1b2" => :sierra
+    sha256 "4227f93b45c5aae3bc56269ba72519f25a22b3ad155ca08d3ff90ff43a625660" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
