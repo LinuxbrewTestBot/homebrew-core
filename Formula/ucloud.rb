@@ -10,6 +10,7 @@ class Ucloud < Formula
     sha256 "7a8b517717d359b92bcc5b23328dac28a18feb922a154eabf0c6f610c4d8f50c" => :mojave
     sha256 "110cd73ea117b317a50e4dc495af69945694b2aecb0fef06d0d30098450f9e2e" => :high_sierra
     sha256 "62184554d8df97d63483a646055b56a5e5b0c9890a5e1c4f7969a59b81701e0e" => :sierra
+    sha256 "66d5c7776c3c2c72dea0898f1e05f36c5c409511e2bab4d572d84f04eb6d3b8d" => :x86_64_linux
   end
 
   depends_on "go" => :build
