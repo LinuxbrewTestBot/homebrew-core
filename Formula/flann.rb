@@ -10,6 +10,7 @@ class Flann < Formula
     sha256 "d63b6b851376c199e86938129b34616500be62354904b586e367af6108541609" => :mojave
     sha256 "dc63d79be691c9b18d98b8c900fc5eb6d824feb2d4e2a8b7e5fd085827f70cfb" => :high_sierra
     sha256 "9c825c76c662f0743adad10544fd7572a6d2449a59cc92da674da244ea2e209b" => :sierra
+    sha256 "f6bf7096372eb9dc52ddb3fee2cceef07de63281777917005092ee88a7490b45" => :x86_64_linux
   end
 
   deprecated_option "with-python" => "with-python@2"
