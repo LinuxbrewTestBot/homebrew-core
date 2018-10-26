@@ -13,6 +13,7 @@ class Valgrind < Formula
   bottle do
     sha256 "7869473ca1009d871dfcb496cc4d08e0318315d18721854ef42960b76e2ef64d" => :high_sierra
     sha256 "5ac984d472025c7bbc081e3be88b31f709944cf924945ebe85427f00d7cca73e" => :sierra
+    sha256 "620c98bf3ab4cc57457d926561254e3229570bab063e03a43415ce9f460e0e19" => :x86_64_linux
   end
 
   head do
