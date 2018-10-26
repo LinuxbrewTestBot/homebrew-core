@@ -11,6 +11,7 @@ class Xmake < Formula
     sha256 "f37ff6d23755f0a5bf6d869a567fe642a9943e27ce785146f0b74f159556447d" => :mojave
     sha256 "aaa8b884fa6b54243c2a342200f29e6d9dc5782480936b384bcba525ea1e30bc" => :high_sierra
     sha256 "a7758bd8f49b82790e272259a2e49fbe17f50689fe772043a5c5208128b4af9c" => :sierra
+    sha256 "9da32051caa0779de166c758985963969157835efa5b42670162c513d62e6571" => :x86_64_linux
   end
 
   depends_on "readline" unless OS.mac?
