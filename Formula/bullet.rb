@@ -11,6 +11,7 @@ class Bullet < Formula
     sha256 "67ebb227d1add969049c669c21436f6b10b8054d312771f9d796ddadaf8a918b" => :high_sierra
     sha256 "1b6bdf19a76d98b448c6768edfe7d7340df249aadea6d841226bd4b86c25173b" => :sierra
     sha256 "40daef7c06fe9352e96a60b6ea5abb7177484f2fb14e0bff505bb88f73a8186d" => :el_capitan
+    sha256 "124a2dec54a05ae31812b6e670ac97cf783a48b9c6d77a03b9016cd380de4fcc" => :x86_64_linux
   end
 
   option "with-framework", "Build frameworks"
