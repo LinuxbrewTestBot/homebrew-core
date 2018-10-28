@@ -10,6 +10,7 @@ class AwsElasticbeanstalk < Formula
     cellar :any_skip_relocation
     sha256 "83badc49015db13b12f12ec1f3640716fba2161a80e91772d8ccdc144ff69185" => :mojave
     sha256 "e88ba1b0777ae69d037fb3fe933b833ed8147d34b85aa0adb97b2d63df08a87f" => :high_sierra
+    sha256 "c51ecef2685f2fc9c50b1fa6b3e77fbaf54d81b126b416a9c68009797862fa96" => :x86_64_linux
   end
 
   depends_on "python@2" unless OS.mac?
