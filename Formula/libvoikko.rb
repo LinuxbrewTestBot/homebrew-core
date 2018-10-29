@@ -10,6 +10,7 @@ class Libvoikko < Formula
     sha256 "5620d97e8cc678f3b3d587c4b823c97973728270e3d7ca9bc271ede33460adfc" => :mojave
     sha256 "d1364046f46fd563531bf49ea5e323bfa587dc52690d44a426761523ad0ca969" => :high_sierra
     sha256 "cf6af0c8bd59eb76d42ab774f2b8492f10e6346f5d13203adaea2a2482c913d9" => :sierra
+    sha256 "740f13ba473f95f9c20cdfd0b9fe28e80acf9dca1993781748b90e9f0ee1b293" => :x86_64_linux
   end
 
   depends_on "foma" => :build
