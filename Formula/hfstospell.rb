@@ -11,6 +11,7 @@ class Hfstospell < Formula
     sha256 "276eda6c0865d79d468db9509daeaf537425597ffb88f983b1c0c97313b46b18" => :high_sierra
     sha256 "949b5bcc9566da8dc417cd5c1585790986d066d04fb926d7d38bd05dbed420d2" => :sierra
     sha256 "8db96d894473fa94b81ddcf40365cf4cd215d3aa8e9eab07210c0e4827a833cb" => :el_capitan
+    sha256 "d4704c332a280f3f6c128fdfe2c27e84793af5eb54327760d824b3d14192fa8e" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
