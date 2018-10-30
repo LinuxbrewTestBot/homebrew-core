@@ -9,6 +9,7 @@ class Nsd < Formula
     sha256 "79b060790201a13210c2233559f6148e8697f902729a11445de906d877fe3993" => :mojave
     sha256 "8fd4fa8c342da1c793f2ec752d142aea3a3a597c7846d5ea1708c90824376e71" => :high_sierra
     sha256 "3abbf3549bc204ae1520c371214666384d1810edec41bacfcfdca8e11287b124" => :sierra
+    sha256 "0425c8d359f46451b4993c58090080f8e2e8c1c76b3f3a01be206d96abf2ef23" => :x86_64_linux
   end
 
   depends_on "libevent"
