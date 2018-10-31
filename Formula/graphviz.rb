@@ -16,6 +16,7 @@ class Graphviz < Formula
     sha256 "cab27f92a59d543e2f2c1494c28c7563a4c2d7e0dce4c4fbc22587db91cafc5b" => :el_capitan
     sha256 "6bd4c01e724cfc965871e1aad9a4fb2a6afef90a1e254d81e2fe33a997f50aaa" => :yosemite
     sha256 "4713489ba984e5f76ee886ba0c1d0c891945516fe42159dc05787ab705165127" => :x86_64_linux # glibc 2.19
+    sha256 "8cb0957981d2fc4966eb9e553e001991a4cf8fa018fd76f8e725fcf305c4392c" => :x86_64_linux
   end
 
   head do
