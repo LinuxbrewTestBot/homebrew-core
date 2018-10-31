@@ -10,6 +10,7 @@ class Zookeeper < Formula
     sha256 "d1e4e7738cd147dceb3d91b32480c20ac5da27d129905f336ba51c0c01b8a476" => :mojave
     sha256 "806ec4f5c3c63387ffa3d1934764b3ebedcacdeffaa26661ae203c71be7d707b" => :high_sierra
     sha256 "ea14de526563c5a1d5edd84c40383c75bef5dcf135b80dbc54af14f8b70cc68f" => :sierra
+    sha256 "5747f67c0d15958ba37233e0f062733e1019c21dcd321867e12f6dd654bdcf91" => :x86_64_linux
   end
 
   head do
