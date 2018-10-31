@@ -11,6 +11,7 @@ class DiffPdf < Formula
     sha256 "7786efb798edcbc8410b097e1605706f8e5d628260e37e923579c27f2e91c828" => :mojave
     sha256 "03792920a4e0075217da7d7d827e46b9e43420a16a9ff4362827b072c7d720e3" => :high_sierra
     sha256 "42eee834f5cc8b49bbcf3b4d47e7c1881f406c7da82ab44354f5ace790f9e6c4" => :sierra
+    sha256 "c59ff1ec5b09c2c5d53bd71265b13331a9f6f72b1d97d9e2100e4c26414f96d6" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
