@@ -11,6 +11,7 @@ class Whois < Formula
     sha256 "10059480020bd2630bedbcfc0b268992a2ba97a730fff1c9cd147672d17a7fab" => :mojave
     sha256 "189674db6b83258f70b76372c44ad0644497e65757ee5ed7004e576327f87797" => :high_sierra
     sha256 "69e7f9739c62cd476b297cfa2263be993970f4646d925db6e35c2b74fce76948" => :sierra
+    sha256 "26f59ea7bad718ec91908b0a62023d1f1687150116dd1c6c811bb0196eb53048" => :x86_64_linux
   end
 
   option "with-libidn2", "Compile with IDN support"
