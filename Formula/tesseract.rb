@@ -9,6 +9,7 @@ class Tesseract < Formula
     sha256 "e4eaf45b39ff29548aafb2dc32fe9834e1e8ee8d63b6b5e760ac823a25beec37" => :mojave
     sha256 "1a9a686a74d2acccb7c6b1da208916de91f5466fa78441ec32524bcd9cb827b3" => :high_sierra
     sha256 "56f223e7ff045d5639a8d447791c8ad9876abe997d393f9e3d918dc098a0a467" => :sierra
+    sha256 "5516027a007d95e394f301ac2bed70b714a53f5ced84b7c451814bd416146096" => :x86_64_linux
   end
 
   option "with-all-languages", "Install recognition data for all languages"
