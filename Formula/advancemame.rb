@@ -9,6 +9,7 @@ class Advancemame < Formula
     sha256 "95f2cdff91ff98c3c9f65a0751d7948cefb3829d96e1977b5b8869163eba0790" => :mojave
     sha256 "9c5e0a9f81f43ec02eb951b82b4930639dafcdbacbeadf7bcc5e74f2e2ec7c45" => :high_sierra
     sha256 "6ba2c02db07a9ef7ddf561dbc2cde3904abe0b1b0ab9c9469020fdeced72e011" => :sierra
+    sha256 "0dbb35bda5ac1c608568bca1d3e67906a5139e3ab7795d14d994a80fcd8deb2f" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
