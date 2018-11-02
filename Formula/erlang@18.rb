@@ -9,6 +9,7 @@ class ErlangAT18 < Formula
     sha256 "fbd8cee1bec3a5e5489818af3eda83b5fbb6f1d2c43dfd8918e0cb20eafd5ddd" => :mojave
     sha256 "494e7da2604522f1e3ce247712bfc760211914afd34521d61eed6138c2461b7f" => :high_sierra
     sha256 "c4da61545ccaa6b5bde74ce57b36be02383634430e7b0b69e3ef0e31737f5b2f" => :sierra
+    sha256 "3ceca2b5f6e5275f8885520a871d69a9421f56c77bace652a31a04b4d14322f9" => :x86_64_linux
   end
 
   keg_only :versioned_formula
