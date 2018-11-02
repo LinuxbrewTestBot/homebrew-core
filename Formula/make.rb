@@ -12,6 +12,7 @@ class Make < Formula
     sha256 "3920fcf871d3ae443cac36fb1b83cdaddb4abb3b37c47a8808a9295571d27d20" => :mojave
     sha256 "03431f1d344a6f474224d2a99f1d2c36ea1ff8b60ae0af3bcfbd73a3b53d6688" => :high_sierra
     sha256 "98d5e65561d42e737713bd745110bf808800819a393e2ddb7743896203f92b56" => :sierra
+    sha256 "f2836e9268128edc4d415440f74d7415fa187b2fdc450bd20efa26c060206cb6" => :x86_64_linux
   end
 
   if OS.mac?
