@@ -11,6 +11,7 @@ class Aha < Formula
     sha256 "b22a64305a6e2b05dfbc534169d4536d34dcb5ed81be53dbf57f7dd640a6b9bf" => :mojave
     sha256 "be1915be3aebd7fdccc3e0d694351b29c9e5af4093492154dbf46ddb5d506a2b" => :high_sierra
     sha256 "2625fabfb62878a3123448e5dbe56e18efbd0d90f1b4dcf3dc1619274ecb7c08" => :sierra
+    sha256 "8c23e19b8fa18789c364797676973cef3ba0480889724ba6d9379d5c0260181d" => :x86_64_linux
   end
 
   def install
