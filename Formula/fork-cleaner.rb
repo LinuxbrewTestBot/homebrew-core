@@ -10,6 +10,7 @@ class ForkCleaner < Formula
     sha256 "ba35506a75b9214f547ab1247e00a1774da42b7b6caf5ad7838786a4311d82aa" => :mojave
     sha256 "1186f25c26a39b69cc5a45a48b60f8f663dbd7ac450fd7b69b20941d798cb11b" => :high_sierra
     sha256 "c4f6ff2fb271638993210665fa49a44a6bb57f40116f87e7f1872029dc10000f" => :sierra
+    sha256 "cf86f8a3f2748f21fb727a8f2f9b5fd864dc3e7f25985261187da88e7ddee45f" => :x86_64_linux
   end
 
   depends_on "dep" => :build
