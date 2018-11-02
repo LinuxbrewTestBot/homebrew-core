@@ -11,6 +11,7 @@ class ThriftAT09 < Formula
     sha256 "79422a32dc72ec61bb4f0b9db57a08af6c7478ac676e52f14d05e9060acff2df" => :mojave
     sha256 "c48f3d1200f4cedd092622f380bee268caefa553822c4b0f7bf25aec13d19371" => :high_sierra
     sha256 "d0b173d367891df3d5a9398ea5f5e3a48cbd412fa88955e29d061b7707b7b9e4" => :sierra
+    sha256 "55ab0716e76fc43a4e326a95e61d5e1497a303a04d4086e281fb8140fe5ac7fa" => :x86_64_linux
   end
 
   keg_only :versioned_formula
