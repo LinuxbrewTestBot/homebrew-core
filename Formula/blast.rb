@@ -8,9 +8,7 @@ class Blast < Formula
 
   bottle do
     rebuild 1
-    sha256 "1f0bdc5f64acf3ce913b36c3531ca631669bd2afbf5eaf8aa66d94432d497a31" => :mojave
-    sha256 "18545f187e9af022d46e20bccbf4666c0d89033c7a3fe471174dc9bfda4abf94" => :high_sierra
-    sha256 "243c089a32cce6871b3ca55da06749257e1de2cec3c8b46301b09a5135776711" => :sierra
+    sha256 "3765d02c4d98ac0a66518cbc049a57ede1f2f5c2633e79ea2630cf8742213102" => :x86_64_linux
   end
 
   depends_on "lmdb"
