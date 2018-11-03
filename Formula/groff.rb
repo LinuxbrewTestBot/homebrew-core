@@ -11,6 +11,7 @@ class Groff < Formula
     sha256 "117230db80bea766e9bdd3f0af02911d824ac333a14c466762ef475dc7ffc5bb" => :mojave
     sha256 "cbcd60c91851bfeb7d32d292bc2f1838ee130b1e9b87c4bac535142b7c8dc4de" => :high_sierra
     sha256 "39945f37f43ad6ad93d87469847dff4d75f720a9209c0e4c5596c61eb611b6ae" => :sierra
+    sha256 "e7b8093ee53f1714fc171e1e13c3a573c838a0ae3a10325e2470b1141ca4efd3" => :x86_64_linux
   end
 
   patch :DATA # fix parallel build, https://savannah.gnu.org/bugs/index.php?43581
