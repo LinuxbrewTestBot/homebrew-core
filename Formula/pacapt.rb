@@ -10,6 +10,7 @@ class Pacapt < Formula
     sha256 "15a4adaeae087d3f7d21074293bd401a4a63e56ebdd307cce3054039bd4ed9d1" => :mojave
     sha256 "041c799bd75724e4a25ab4594a64dbe4fdd3ee152e68b552cf9564d9051972d5" => :high_sierra
     sha256 "041c799bd75724e4a25ab4594a64dbe4fdd3ee152e68b552cf9564d9051972d5" => :sierra
+    sha256 "2c6198b73e22c74fce5f8b6fb5d0b6a80139357f6b05c43b6eac4c801b059cc0" => :x86_64_linux
   end
 
   def install
