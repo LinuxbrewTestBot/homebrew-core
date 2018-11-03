@@ -10,6 +10,7 @@ class Latexdiff < Formula
     sha256 "6e25d76af6c4385a848dd7e4f59bd8c1c13c257ff2ca53e615abd994cba6c4f7" => :mojave
     sha256 "84bfed3b50311df8d6b11a7a8df65c55c228c3e5cf6d094e65a20596d345ba13" => :high_sierra
     sha256 "84bfed3b50311df8d6b11a7a8df65c55c228c3e5cf6d094e65a20596d345ba13" => :sierra
+    sha256 "35cff6eda66f135765f356dae4083d6471857a89bd059047d3fcd9690c2e8af1" => :x86_64_linux
   end
 
   def install
