@@ -11,6 +11,7 @@ class LibjsonRpcCpp < Formula
     sha256 "94278cc62c0e7a0c49d9fbe0125a5d3f6b354d317540bd65a7b39606c686ca68" => :mojave
     sha256 "be1196fb4ae8d9ec49a1be7432bf319537e3dd40497771b6144d32d6f7bfe49a" => :high_sierra
     sha256 "91e9b7ec9e5aa10f007c4ae15e9debedc9a2105a8e67153d38fcd19afb5dd597" => :sierra
+    sha256 "2aa490db07377be1e38207025bb11b54adca0f58e0159d64886c1221a78b8ea3" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
