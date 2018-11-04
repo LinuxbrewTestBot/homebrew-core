@@ -9,6 +9,7 @@ class Opus < Formula
     sha256 "284b7f10549043bd3dcd7e1ba8765ef75f5c87c95bf7550d3e60a94eccdafe03" => :mojave
     sha256 "f7a80387cadbc0d3dcdc5cdd3f6ef6dc34d7d136d3ca7a368186dac54e2f43be" => :high_sierra
     sha256 "dd8c973d58d50be078d47efdf50419fa00a36187ed0907d95dc8799b757e2b4a" => :sierra
+    sha256 "835d019c319838d24ebd0fc3c4a14f212ddfc5f80ca9f1ed92332d8e7d12d6ce" => :x86_64_linux
   end
 
   head do
