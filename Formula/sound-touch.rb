@@ -11,6 +11,7 @@ class SoundTouch < Formula
     sha256 "f082ce515895d8cb5230e4afb0778731febf47800c93e62f4cafad9b14547852" => :mojave
     sha256 "d3b8c7fc1c53208d848c810f0f15d4f2da334e602ca8e5ffd373630233546d36" => :high_sierra
     sha256 "b17dfb640d87dcc75b1c9676e4be249ae6536739aafd4d55869f941ce43f4b86" => :sierra
+    sha256 "71f96af2b06040d7670e7a0c5bf965843fc53ec0cd46dcf15e9d333a974c44e8" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
