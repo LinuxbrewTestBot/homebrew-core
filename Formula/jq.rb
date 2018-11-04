@@ -10,6 +10,7 @@ class Jq < Formula
     sha256 "d1c2b64ac27e4826a7b1104082d092cd67df8b76a9df2697035e7e2efe494559" => :mojave
     sha256 "d560b85d7854c50fbf32c921a438e222da877239af960aedf739997577fabb38" => :high_sierra
     sha256 "b59d708875afac979ae7a16456cf2715dabe1cb14decc1064faf0bfb8cbef4de" => :sierra
+    sha256 "8b169583c035b36294f1ca7422056745fac57e39c90c0a70879e387af1c52d36" => :x86_64_linux
   end
 
   head do
