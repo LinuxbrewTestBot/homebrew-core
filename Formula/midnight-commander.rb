@@ -11,6 +11,7 @@ class MidnightCommander < Formula
     sha256 "f3d9cb2444cf1f8f757afe0c70a7c4b737718144bd667926f49fbbd35a7a290f" => :mojave
     sha256 "d810c0aed2f4007b94776895822c9dd79242a10c6bd6bc6507b6f46c4bb5a9fb" => :high_sierra
     sha256 "08bd22ecf0dd7183e36f01f44d6c5fd7c8ee759c08121ecaed1be19d87017247" => :sierra
+    sha256 "c691230948995b466d8a481c55106dcfdff1adf5930ef95035739f93773b14e0" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
