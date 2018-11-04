@@ -8,9 +8,7 @@ class YamlCpp < Formula
   bottle do
     cellar :any
     rebuild 1
-    sha256 "0110c3434c6af9ddd0e36cfe2b875724edc221081a3c28437d827c8a1a2e83e1" => :mojave
-    sha256 "2479b905895f0877694a510343a411cd3239d190141c02854a193324bc47ece1" => :high_sierra
-    sha256 "a0e866bdf04718de53be3525bfc6f12b075a7613fceca1e828f02df054cae8c4" => :sierra
+    sha256 "892d2baf4d483183695ed9f0e896587b173a8584bf508bd4ecf4d810de066be7" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
