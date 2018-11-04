@@ -11,6 +11,7 @@ class GribApi < Formula
     sha256 "437fe07006a50a5111d757ce44441d1b1c2a0f26399c7a0bd6e1842d9ebc624e" => :mojave
     sha256 "f67e6242e60d5359dc5d05705c00b95df89f8783fe8704b0d59e4f5118664981" => :high_sierra
     sha256 "0b950cbf4e4fbc91e1c034a6fc6aacdebe57caa3b79ece787e4e93105e7b8959" => :sierra
+    sha256 "07fbb83b7192108b992401250ac43e24595033ceaa9c25de95ee0bedac8d5690" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
