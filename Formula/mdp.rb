@@ -11,6 +11,7 @@ class Mdp < Formula
     sha256 "606ffc22ff72a524f46ae683466098409e2db33cb5de58dad6ea179a9390cdbc" => :mojave
     sha256 "0bfa062ad64e8da4fa6d1df9be7e8a52da7799f87fc012b80847ac58adf81830" => :high_sierra
     sha256 "b38a74964fd0ac22fcbb50eb569b165128799f77a32d582f102278252b6bd291" => :sierra
+    sha256 "506939f0a3c49d673c7644b25d734a1f63bb108775ba56cb7dcc2d711cfdeff1" => :x86_64_linux
   end
 
   depends_on "ncurses" unless OS.mac?
