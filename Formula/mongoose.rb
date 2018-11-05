@@ -10,6 +10,7 @@ class Mongoose < Formula
     sha256 "00e7662046f84e6e48ddecf56f471bd7c2a5acdbcc919ead7c5457a1126617dd" => :mojave
     sha256 "a98aaf1726ab5402dc2ccd1418f71b32f0c4034f4be4dc8f3a93257b7d9113fb" => :high_sierra
     sha256 "4960b6b0cb836bca2c4d5ff925dfbd6d09d8952c239cbc912200d5c509c5cec5" => :sierra
+    sha256 "6a47d5a6e5359725374e92e4651accb22fce3d009ad371d21c7766b4846e5e7a" => :x86_64_linux
   end
 
   depends_on "openssl"
