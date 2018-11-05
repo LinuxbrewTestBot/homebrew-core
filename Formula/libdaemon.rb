@@ -13,6 +13,7 @@ class Libdaemon < Formula
     sha256 "d37febee18ba355a3d536c50dec03c51cb9cabb43cc76859ee2a772f6545e9f3" => :el_capitan
     sha256 "48de2498d199a800418e557b7fa70c5834094a60b76936d2541e0e242ffc25ec" => :yosemite
     sha256 "107d695ff51e515e6b8eb1c619a51efea5006d2df8d0dc5b0d32873994b3f936" => :mavericks
+    sha256 "c903d6fe56871fa08b590ea260c2a775f4840f7bc5f05c22eace8ead96806462" => :x86_64_linux
   end
 
   def install
