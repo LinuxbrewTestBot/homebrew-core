@@ -12,6 +12,7 @@ class Httpie < Formula
     sha256 "8e0c0bf7a9484dbca1c6ed32a3ab4ca1c1ebb9c31362fa74ba2fc64185c41627" => :mojave
     sha256 "d3c1ae735d83fab3d8d949bdf09449ddb58237f5755e805dde8227e5a5984628" => :high_sierra
     sha256 "8a0c8064cda778621caf24da67744dce822f47d78324cdfc9fb57c795ec22e68" => :sierra
+    sha256 "c6360d972ae2c18def1c32791a1a9ed56eb42797199c511c511aef100ebb3f5b" => :x86_64_linux
   end
 
   depends_on "python"
