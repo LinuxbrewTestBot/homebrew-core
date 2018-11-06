@@ -10,6 +10,7 @@ class Libproxy < Formula
     sha256 "2bd92529540425a786f17b2b2cc10423394c53a6120bbfa7a8d1df29b0617818" => :mojave
     sha256 "1da068be3ea931eda7ac2f58c8db57d9169d299bc5d57c70b8a455decd351931" => :high_sierra
     sha256 "e848c71f0cdd15d30a2f8003188883f4cf395034447d8b8db4909db5d51904ea" => :sierra
+    sha256 "f3474e380decfd77960e29165c5ba8ca8ae2165d6c28304aee72e6319e8f6824" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
