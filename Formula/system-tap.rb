@@ -6,6 +6,7 @@ class SystemTap < Formula
   # tag "linuxbrew"
 
   bottle do
+    sha256 "b024f9a989c46354de489d9ee30bd592ab666cdae57fcbb3915968ec2d73747a" => :x86_64_linux
   end
 
   depends_on "gettext" => :build
