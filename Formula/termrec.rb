@@ -11,6 +11,7 @@ class Termrec < Formula
     sha256 "062bb1a65c337321569546e845048d3fb5912113bca87080530b72cd262fc8ff" => :mojave
     sha256 "61ffceeab4daf5feeeada49c1057ddafc8c5efb0c1561d7b8e1303462cba490b" => :high_sierra
     sha256 "b51ae0744fb22e3807841f852452c422f9117d53c83503b8b89ea7936ba700e7" => :sierra
+    sha256 "d32c0695736711f7b7cffcac0d99956c022c4036aa4c4e64e1590b7b3e395ecb" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
