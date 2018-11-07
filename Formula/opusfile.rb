@@ -10,6 +10,7 @@ class Opusfile < Formula
     sha256 "b0832b77ee693d6b273d1ef2e46b87e827506797db7eb46ba15288e3eebeb095" => :mojave
     sha256 "8dc04c950d22da20bd5357f248edac39bd63d9f9e6b9fc5a0d2ddbed1ab92e5e" => :high_sierra
     sha256 "f61cae3c7434bf1f8a240e412c96fdf0f40ec16ad9a6e88bf74af3a4b07303bc" => :sierra
+    sha256 "865f26de8db22b962354935dc8fbc8dc76a29148f4cef9fdd84e971aad726225" => :x86_64_linux
   end
 
   head do
