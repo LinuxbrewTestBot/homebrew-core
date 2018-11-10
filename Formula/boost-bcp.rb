@@ -11,6 +11,7 @@ class BoostBcp < Formula
     sha256 "8c16e424058e32535221951ee4e67cf37804814f476e421a1fd6b63c2a9faa26" => :mojave
     sha256 "95e399c79e9b8a176ae3d9495dac2b3719d8d0a332f4aaeeb94876ec4d3b8d43" => :high_sierra
     sha256 "6be0f07faacc2785bdcde5a830cca11fcafa1391b5d379f5672a2a9b401e566e" => :sierra
+    sha256 "037b3a5c63c4033ac944d8552058e3d5a5824e9d8fbfd22fec08c9081317ff49" => :x86_64_linux
   end
 
   depends_on "boost-build" => :build
