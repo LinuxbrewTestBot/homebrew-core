@@ -10,6 +10,7 @@ class Mkvtoolnix < Formula
     sha256 "dd454368d60e3ab11bf4f7d41a3678e09a0383a2a2e5bdabd82f4af1a455fbdb" => :mojave
     sha256 "85f224f5180137df4b27ca52d35cd49d7ca2df868d4b0519bdd0a19168d62a3b" => :high_sierra
     sha256 "03be51905d4fd608f7de55f04363332e5d703925cac79e51cc3ae0b9eaba2fb0" => :sierra
+    sha256 "a90975f3e6ec139fd1a89456dfed8f7f80c12f387bf2195342880597e8fa4d34" => :x86_64_linux
   end
 
   head do
