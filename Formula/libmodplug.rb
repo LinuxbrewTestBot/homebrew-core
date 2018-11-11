@@ -11,6 +11,7 @@ class Libmodplug < Formula
     sha256 "3f46eca3704d441ba8133d71bd283e8d24cff61e8b903fff720b78932185f9bf" => :high_sierra
     sha256 "fc88a11e82b19a1a0aa4ada0ed3468147464d3414c3e9dffda9cea139b195c9d" => :sierra
     sha256 "968a0bdc082725f136ab94f3a7eaf5a6a376eb94ec03b45f49ab275bd9193318" => :el_capitan
+    sha256 "a267c9306a29ae0b5987eec09cdb090712f8b2c94f5b8a97d62e68dd5ee56309" => :x86_64_linux
   end
 
   resource "testmod" do
