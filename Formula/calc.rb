@@ -8,6 +8,7 @@ class Calc < Formula
     sha256 "4e766215d68c33ce4eccf7856549aa179a44b76008230cf8560057798262e3e7" => :mojave
     sha256 "cdd8b3cb08bc725934ad4ae10c691325a97ee7a1e441d30469729fa98222827a" => :high_sierra
     sha256 "4af7c47ad39d8992203f12e7d8085e0c83735bff0b3c2e4df4e64e31edfe6ddf" => :sierra
+    sha256 "973b8553abd6ecd5aea5cd955ff4fec151b152d1e5c26c85c96301a82a7efa2f" => :x86_64_linux
   end
 
   depends_on "readline"
