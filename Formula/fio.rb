@@ -10,6 +10,7 @@ class Fio < Formula
     sha256 "85f5b161461e6379af7cbc8b08f549cb56af1b073437165975c3c1cd754027ca" => :mojave
     sha256 "c4c5d539d96b00a5cafaee423102fa45b8761d9aa128656ff82ae6ba95f680b6" => :high_sierra
     sha256 "34754b4ae14c129cb9483f038d6cc885a2ea0701ef6eb771bcf6b430afafe606" => :sierra
+    sha256 "6976bea4fd5ab9f0d726fe2d622709136558df42006aac29e0c27a6002e5c353" => :x86_64_linux
   end
 
   def install
