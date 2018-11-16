@@ -10,6 +10,7 @@ class Sleuthkit < Formula
     sha256 "ce1663cad76dedba6e23c936d5cf7e460242b7788b3d0c2398609aface6a0111" => :mojave
     sha256 "b2fbd5d22f83160c6f6625f8586ac22a53b479b4f728ca66e37128dcb4302c20" => :high_sierra
     sha256 "e10adcac8cd1e11875cbc44cf9a390a1a494820ba50183b6459c702b1f369a67" => :sierra
+    sha256 "5c1c8072b01bd3aa9d4b818a2d037170fb574593ae30bb0d597b3b759be5fd4d" => :x86_64_linux
   end
 
   depends_on "ant" => :build
