@@ -11,6 +11,7 @@ class Pumba < Formula
     sha256 "920505d0f515ddcaccc1734cb78c21510cfa85e2c8af642829c493921839a673" => :mojave
     sha256 "b76bf17e6ab5e15a4746e6bd1c64e96ce5d5f73bac7b5577dac34440487d1b3c" => :high_sierra
     sha256 "f27ca7901fccf81eeafa3cff20380dc0dfb8c93868f3b3a6ea2c648928356d1f" => :sierra
+    sha256 "1f04859531184398f43f7a321ce4e046e957c6b0e702fbdd29305a995deff561" => :x86_64_linux
   end
 
   depends_on "go" => :build
