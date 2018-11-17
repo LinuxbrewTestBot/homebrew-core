@@ -11,6 +11,7 @@ class KitchenSync < Formula
     sha256 "c44f936f6ad2b0801035fe95939d9f3f7a5fc2cb60ce3c190ce01cc938feffca" => :mojave
     sha256 "113464f5021617feabe43817fc4a5d5ab0bb5e07805de00f8e8acc5b1ebe1add" => :high_sierra
     sha256 "d74bd7054a4a9fa23610d383936aeb122986ec47af70f269e502b5215d91791f" => :sierra
+    sha256 "9aec0454db018a18af61a64f17c1f8fb0aec0f67d1f6c482965feb0315a38048" => :x86_64_linux
   end
 
   deprecated_option "without-mysql" => "without-mysql-client"
