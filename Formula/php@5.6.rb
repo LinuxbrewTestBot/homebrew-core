@@ -9,6 +9,7 @@ class PhpAT56 < Formula
     sha256 "77511149c69ad593596bf9185003f58b58278c7af8beb47d3b5c2df205a6debf" => :high_sierra
     sha256 "4be88bb510b67dcab62c94e4fd40a6290c89f1115bf3905743ec6293e6b2d530" => :sierra
     sha256 "e6d257ad289c40a7fff33feecdfe6f8cef736d20e861080fba8c685d4e21bf48" => :el_capitan
+    sha256 "3b593fee1288d5da6a665ef25a748d6758a8e8e912fa295d1892d681aef81e03" => :x86_64_linux
   end
 
   keg_only :versioned_formula
