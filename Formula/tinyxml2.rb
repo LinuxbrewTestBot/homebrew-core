@@ -6,10 +6,11 @@ class Tinyxml2 < Formula
   head "https://github.com/leethomason/tinyxml2.git"
 
   bottle do
-    cellar :any
+    cellar :any_skip_relocation
     sha256 "233eac209902fba3aebf51fa81d15a5b472064eec22bc5364b8685453166a08a" => :mojave
     sha256 "cc447f7fcf805805c97e4d9aedacd5638b103177de32fb30986bcaec37698c18" => :high_sierra
     sha256 "90fda15a1ce430ed1e77891a23c65a53092deca1b585330aa86fbde8ea3b80b5" => :sierra
+    sha256 "6e86755d4dd8db554634c84f9800a36c71c88de0a8ec0f9be9a6cacd918d5574" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
