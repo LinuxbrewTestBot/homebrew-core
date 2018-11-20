@@ -14,6 +14,7 @@ class Ucl < Formula
     sha256 "32a54309c092854fc5a4a443a1e9d33fb677ff257d983ea7d5b0eb7bb90d3b2e" => :yosemite
     sha256 "3c334012766dce80dac49d279be1be1ae4a1fc5df188cc19a25ba1bec84305a9" => :mavericks
     sha256 "4190f1602c52b934a93581741fcccba8dad4e8dc4f478342d71b1b564cd62834" => :mountain_lion
+    sha256 "07864b07361fc18ca17ff2c8e4bdfc04a51bdc440f289bd824faadaf3fdd28b5" => :x86_64_linux
   end
 
   def install
