@@ -35,6 +35,7 @@ class Upx < Formula
     sha256 "9c9c64af53571828b5315dc247885f6f14dc250088d24d2e22c8ec431102b1c4" => :high_sierra
     sha256 "21086139ffa7f4d7012f046182a04baebb7afc0bb434f5a59f5636875389afbb" => :sierra
     sha256 "7410cdbfca2b1d0fa0fe58abd4b0aa22c158d77667b7aa9b04ff6c58f02d1cab" => :el_capitan
+    sha256 "a5c8fb43cea148d56c45fcf594d07aa764740f51312dd291383fe1541b3d09c7" => :x86_64_linux
   end
 
   depends_on "ucl"
