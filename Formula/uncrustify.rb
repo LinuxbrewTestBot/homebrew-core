@@ -11,6 +11,7 @@ class Uncrustify < Formula
     sha256 "e38bc9c71ad6fce189ba22672fe419e16842303c4dbcb175c1a3ddda88abcd84" => :mojave
     sha256 "4a1c4ee728c6eac8483c22b92ae46da4ed714e13b551e9e8d3df72cfebcb2930" => :high_sierra
     sha256 "b54265611c738e58e225705e09f5124733b9806d3f62eaa5784e289d635c62f8" => :sierra
+    sha256 "91cedabf22c18be80e05cbe9408e2405ea536321f114002097141e415a47b2f6" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
