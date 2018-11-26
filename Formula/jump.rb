@@ -11,6 +11,7 @@ class Jump < Formula
     sha256 "e1b3d072fc77dfdcf996a156b4aad18231d3eb6e4f60c30d36413b2e5fda2265" => :mojave
     sha256 "c4593b2d462f90e07de46f6ef3c10fb8acee00a86750ffac08ea00d909a9196d" => :high_sierra
     sha256 "aae48a7e31b328afbda4025af4356b86a5dd94fe9f0657ac681d7d882578da70" => :sierra
+    sha256 "f01b7e43b2e61dee4a1da81004ec0eb6b78aed817d0c2f4e5b4eab07c6763c71" => :x86_64_linux
   end
 
   depends_on "go" => :build
