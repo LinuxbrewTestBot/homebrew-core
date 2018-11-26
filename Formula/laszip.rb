@@ -9,6 +9,7 @@ class Laszip < Formula
     sha256 "fad706b5e3c6a0d7cc414d7add0d9397da97c18c05e1852f8fb5fea7e432691d" => :mojave
     sha256 "4e0eede32c34aa0298318235e79cdae555fbb901eaaae91ddd813f33a9b025f3" => :high_sierra
     sha256 "d840cd999b4de36df15ffae98d21397172acbfd9c3d1796762eec304a6a94cbd" => :sierra
+    sha256 "0e46eb8476cdab05407a80c8093752a95038bedfea543c62e1c307aff926ea0a" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
