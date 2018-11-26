@@ -4,6 +4,7 @@ class Openjdk < Formula
 
   bottle do
     cellar :any_skip_relocation
+    sha256 "9d731054e74d9fb88b49719ed28842709922b2ff1b104d4ea756a3e1b2bea64d" => :x86_64_linux
   end
 
   # tag "linuxbrew"
