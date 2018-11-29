@@ -10,6 +10,7 @@ class Fd < Formula
     sha256 "0c4e3e81448c0c1fe41d3ee84c7f0fd28f2fb0a57888107b400be99032d3123c" => :mojave
     sha256 "42c3bf9ff769177c0ae456008a0b9f80c8a8851189838e3a0b74efa84d0b34db" => :high_sierra
     sha256 "4fe626ac8a1968b05a6d85789401589040c8170916e1b8f3a70475b3473efc5b" => :sierra
+    sha256 "40be11439978bc3dc02788f13a9312137ea8db37d9b33657ffa0ccaf214de5ca" => :x86_64_linux
   end
 
   depends_on "rust" => :build
