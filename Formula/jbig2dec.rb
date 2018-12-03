@@ -10,6 +10,7 @@ class Jbig2dec < Formula
     sha256 "9b13b7bdd2a907bad49d5e71d8b97604afdc8581fa37a73304b0d147e11cbb3e" => :mojave
     sha256 "880df1d4364a329a3a4f78d32360f3bba01fe422877ea10e0170db06d57f8637" => :high_sierra
     sha256 "53ef474b4a04148edd1c7b2bdb5529c674a72316ecda7d46410c8e8ae0368542" => :sierra
+    sha256 "cc50eea43dcdf2d381e249ebac6b11973eb044f8c3cd9c138f0dd6d5f99e7468" => :x86_64_linux
   end
 
   resource("test") do
