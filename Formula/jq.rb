@@ -11,6 +11,7 @@ class Jq < Formula
     sha256 "71f0e76c5b22e5088426c971d5e795fe67abee7af6c2c4ae0cf4c0eb98ed21ff" => :mojave
     sha256 "dffcffa4ea13e8f0f2b45c5121e529077e135ae9a47254c32182231662ee9b72" => :high_sierra
     sha256 "bb4d19dc026c2d72c53eed78eaa0ab982e9fcad2cd2acc6d13e7a12ff658e877" => :sierra
+    sha256 "d789e2534f6603eca9e5923c397e4f7e7a93856ad86bed2310f51b034e15f2a6" => :x86_64_linux
   end
 
   head do
