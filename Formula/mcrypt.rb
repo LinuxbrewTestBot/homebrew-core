@@ -14,6 +14,7 @@ class Mcrypt < Formula
     sha256 "d7b36cbc7affc0e1851861381e92677abce2b011f184ab39234ff6cfbf021413" => :yosemite
     sha256 "6c060224061c43733929524f3e45010192d5fc4ece1972fbce7259f96f514fa2" => :mavericks
     sha256 "b6dd5f1210d4b0fffa7b14e4fce445c11d6245840fd38f08255149b6e27832c2" => :mountain_lion
+    sha256 "a05c7e6f21be0049507a81c24970be7a3d6d8fab5b8dff48254b52eede53506f" => :x86_64_linux
   end
 
   depends_on "mhash"
