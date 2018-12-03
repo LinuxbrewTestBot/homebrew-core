@@ -14,6 +14,7 @@ class Mhash < Formula
     sha256 "fb03873f042a16fd2db5ae2a7eb62e970927b75a9dff92decbb3fd035a2bd41f" => :yosemite
     sha256 "eb2799dca9f7c9d020e76034361c5859a4dc7e8aecaf4f1e989901b12ef4420c" => :mavericks
     sha256 "611123db41bf9d43b1937fe15451da7a0f4d2049660a98a4237618345b8d4a50" => :mountain_lion
+    sha256 "901a01a7fbc06bea6d8192520a2eef0a6d9ffb7fe8b62df6f47958fd02f10714" => :x86_64_linux
   end
 
   def install
