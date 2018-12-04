@@ -14,6 +14,7 @@ class Libidl < Formula
     sha256 "356ad466ab477116e8f030ef75b70bc46321f68ec1f077f9b06dca3bb076e499" => :yosemite
     sha256 "dffe56b6e1076ac49a43ff662517b974f97e47707906362629176cfdc09b6f91" => :mavericks
     sha256 "7aee2ea7f3760687e9acd4a35c393e240f8f59e94a36c2a31812d15a41cfcac8" => :mountain_lion
+    sha256 "167e427894507f864eb31739682941226152c6cb5c4e79000580ca8840641f42" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
