@@ -10,6 +10,7 @@ class FdkAac < Formula
     sha256 "f479a15b109a3cfacdc75ba6bb9564267761912f390cf3b92235f574fd4b69b1" => :mojave
     sha256 "8f0e553452bdf944e6c13fb653fc603d2b0ef5d6bd259627b02d3c31ecf99c1b" => :high_sierra
     sha256 "f398fc626dd0645aca5acb73974f7a93eec63a3957f1a0b16fd4de206ecd24e5" => :sierra
+    sha256 "20a4c76f714616aafde4a024b1a63757754a9f8dfb254f6666162ccb5fe7dac3" => :x86_64_linux
   end
 
   head do
