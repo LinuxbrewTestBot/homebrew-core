@@ -11,6 +11,7 @@ class GtkDoc < Formula
     sha256 "be0ea15d4d139ca270cb09222baed7e0107d5ce406086efe8e849a5b547bb3d0" => :high_sierra
     sha256 "be0ea15d4d139ca270cb09222baed7e0107d5ce406086efe8e849a5b547bb3d0" => :sierra
     sha256 "be0ea15d4d139ca270cb09222baed7e0107d5ce406086efe8e849a5b547bb3d0" => :el_capitan
+    sha256 "0720b8db9ca3412e088438f8b70e8802a2e612ca8f22e9bbd48b3362abb7c879" => :x86_64_linux
   end
 
   depends_on "itstool" => :build
