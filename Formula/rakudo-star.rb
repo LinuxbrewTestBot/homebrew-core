@@ -9,6 +9,7 @@ class RakudoStar < Formula
     sha256 "04b613aac2b3458114675aa632a9bd0d0ef533b12492d2bdf88c3f329a0f1229" => :mojave
     sha256 "161857fada5e6f84449ef8c4c1c1094ea69539c3319ca40245f96cce79298332" => :high_sierra
     sha256 "b6842c2ae742ea34d15ba4f14cfaded5ee982f7f830469ea1e81e5dd84e44f08" => :sierra
+    sha256 "d1fb2ee092612b1dbe6724271fd653332db694c3b6cc854aac7138472800dbea" => :x86_64_linux
   end
 
   depends_on "gmp"
