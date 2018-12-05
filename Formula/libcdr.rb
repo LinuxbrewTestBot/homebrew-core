@@ -11,6 +11,7 @@ class Libcdr < Formula
     sha256 "b63f7fac692b74414a2cfd969aa94588b045670410498e2e6a70b30b93a9ff86" => :mojave
     sha256 "2fb5cbb2d220b32b8c939d766ad3176ea81e90fea8ae77edceaf46a36188726c" => :high_sierra
     sha256 "8b949db079ea7f9f4657d1cc6355843062580831b5dd0b408cb51747c25e3535" => :sierra
+    sha256 "9a32f512cad5c66a2611ab50a93085322f6bbe8803a654fcfb06c31b1febca51" => :x86_64_linux
   end
 
   depends_on "cppunit" => :build
