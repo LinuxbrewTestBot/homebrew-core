@@ -11,6 +11,7 @@ class Libmspub < Formula
     sha256 "88fcaf08da9f11bedb81f2e5f7ce489325109e4481729cda57f168f2b7eaae75" => :mojave
     sha256 "6d4a84da0d0cfc06f07e61043ff3f36310f06a3f2eff259c619b1c188f5113bd" => :high_sierra
     sha256 "857c89b5a164acf971221125715acd419bccd092ca8ab2683f68b4174c6dd859" => :sierra
+    sha256 "e341c5e334acb80f635cc72385b57dade3e6c70458b987236fc8aec69f8286c4" => :x86_64_linux
   end
 
   depends_on "boost" => :build
