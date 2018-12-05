@@ -11,6 +11,7 @@ class Yaz < Formula
     sha256 "443f645f031f2faa787d7f2bc133651bce6825ceb589be06376ab94e411cb100" => :mojave
     sha256 "5f7d25fc72a59c73ddfed4ee805cd72776a8ce953bad9032bc08979188ef511e" => :high_sierra
     sha256 "bbbaf585aa6f75f2915d4445a739aabd5b4191734e12fd99ff1e58ee27103453" => :sierra
+    sha256 "85ecf1611d89175d386f435e4819d1f029d0396c19ecc5507b4b427dbbd8fba9" => :x86_64_linux
   end
 
   head do
