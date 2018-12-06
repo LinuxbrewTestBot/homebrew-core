@@ -1,3 +1,4 @@
+# libplctag: Build a bottle for Linuxbrew
 class Libplctag < Formula
   desc "Portable and simple API for accessing AB PLC data over Ethernet"
   homepage "https://github.com/kyle-github/libplctag"
