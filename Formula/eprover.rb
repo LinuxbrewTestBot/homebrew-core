@@ -10,6 +10,7 @@ class Eprover < Formula
     sha256 "0f45c36c2ba8a4c3793b4078b9948a735853d9e91e568d7a5ffcc2ec195998ca" => :mojave
     sha256 "77cd34eeb515299ddd4f3db8e6fa70580c64b144d9e82718d4e3a5c5b4f7a25a" => :high_sierra
     sha256 "b2ab8b9aaebb1755f8f77c5f1820f795a15c5daa77dd42b718e194404cec70f8" => :sierra
+    sha256 "68de83abde53131de844ddf63c4134067e0a17d241fd42381673cbe721ae4a46" => :x86_64_linux
   end
 
   def install
