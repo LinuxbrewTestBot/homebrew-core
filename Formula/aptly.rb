@@ -12,6 +12,7 @@ class Aptly < Formula
     sha256 "19b910566b07b2795bbc67ad1c3894c309cf772045922baff0dcc5e3f53329a8" => :mojave
     sha256 "966f18f15eaf50533ff84926ed2d1a302b9da5dfc860b65fc94f89efa06622c8" => :high_sierra
     sha256 "c3137ebf033719c6076b2fdda72d01bb91fd286affe1535ef84c8d9f388ac414" => :sierra
+    sha256 "98e55a71614c0d0b21c46f0ea7ad10272191d3afe2bbb4806e0cf2ca6d41fa2b" => :x86_64_linux
   end
 
   depends_on "go" => :build
