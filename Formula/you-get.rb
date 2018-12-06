@@ -13,6 +13,7 @@ class YouGet < Formula
     sha256 "cd6c7720e5d550d693ed516d27eadc6009b894a538fcf796e21605952b244bd2" => :mojave
     sha256 "511e138f72d06117fa4a5b2cf91f5cfd88d038e7731d11138e71886027a5b576" => :high_sierra
     sha256 "827e22804664d4644d05d6f9abab6620729b1ab588f1990b022317248813f1c8" => :sierra
+    sha256 "2f2842edb1267e5ffa910beb16705b0a9265ffa0c9001f5eb3971c328963a57d" => :x86_64_linux
   end
 
   depends_on "python"
