@@ -10,6 +10,7 @@ class Nss < Formula
     sha256 "de91adeb2b2d78137e03d48e07d91880b41bd0270df50272e4cc782e2a740253" => :mojave
     sha256 "b08939b2dee9590d851bc4cf5b1a61c7bfd6f8cdcce8e677155c61f877f8511d" => :high_sierra
     sha256 "3f8c3e64d995c740fe0648f003c8ed3b989aecec0b77989f13068c6218dacce9" => :sierra
+    sha256 "144ae359012c794864d13aca090a44d7882a465f11e91021c86446c2d6f4f9cd" => :x86_64_linux
   end
 
   keg_only <<~EOS
