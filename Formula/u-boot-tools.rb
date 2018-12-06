@@ -11,6 +11,7 @@ class UBootTools < Formula
     sha256 "ef92748f2dce7b805eb70b9e6381d15c4897206e62cc17041a0ec0ff76bf9078" => :mojave
     sha256 "c9af409154e2a3c626cab9711d1538b99eec39f977b11f2abf75ca34bae755e9" => :high_sierra
     sha256 "baef3b783798fee71d0623fc1387954cf1e190d501617ae56238bc75180fc2da" => :sierra
+    sha256 "73a56ea852e8dc9801b965ce794c7723b9b3b7ba80e01d168d92bd1903da2644" => :x86_64_linux
   end
 
   depends_on "openssl"
