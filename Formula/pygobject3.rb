@@ -9,6 +9,7 @@ class Pygobject3 < Formula
     sha256 "c4004732688326f968423751c18861a21297e36bd628bd19e0c410747d60f07a" => :mojave
     sha256 "342769a9ab3cbb29bd30368cb4ef7024821f45032f185c952dfdc9b32ccb4b39" => :high_sierra
     sha256 "34cb3f702e580475d18bb44652fdcfb02041a1a7153246e2b710df17576b93e4" => :sierra
+    sha256 "0637f48a44cc5163e01cab0660b9e2ea490ef220e053fa40a1f74c2768ac9444" => :x86_64_linux
   end
 
   option "without-python", "Build without python3 support"
