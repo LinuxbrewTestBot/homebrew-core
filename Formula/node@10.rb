@@ -9,6 +9,7 @@ class NodeAT10 < Formula
     sha256 "1c0cf6ce0517d209bb13d3a3742cdeb3030e66d09cc6658dfa9668d6187a33a1" => :mojave
     sha256 "1529d45eb2ae7a69e0b559fc2a2e681d4568abafe652301a0acc400288ba62cb" => :high_sierra
     sha256 "33fa1c920de475808c463b2298ce69aa493855e5ff4ba0765e69b9b48d56392f" => :sierra
+    sha256 "3125e90528d1a711da5540d2a436a16b1f9d519104259f21bf07d940965a0ac5" => :x86_64_linux
   end
 
   keg_only :versioned_formula
