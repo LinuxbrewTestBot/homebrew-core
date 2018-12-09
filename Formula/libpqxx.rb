@@ -11,6 +11,7 @@ class Libpqxx < Formula
     sha256 "14ea8b5493e751ba37be37f31070f94690b7e00f4da84bb55d9192975c988484" => :mojave
     sha256 "9bcda764067d6e48837289429d317a3c113d977e77d8378341c0c77034410881" => :high_sierra
     sha256 "62b1423cade0315667f6be6dd4c53424c2deff87877f44e2f554cb9409478c58" => :sierra
+    sha256 "162fdb5ec33c16da5b0b7dbe73f42a3e651a6712746b1fa5d52efff38324ee47" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
