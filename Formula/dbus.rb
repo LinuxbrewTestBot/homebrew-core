@@ -1,3 +1,4 @@
+# dbus: Build a bottle for Linuxbrew
 class Dbus < Formula
   # releases: even (1.10.x) = stable, odd (1.11.x) = development
   desc "Message bus system, providing inter-application communication"
@@ -51,7 +52,8 @@ class Dbus < Formula
                           "--prefix=#{prefix}",
                           "--localstatedir=#{var}",
                           "--sysconfdir=#{etc}",
-                          "--enable-xml-docs",
+                          ("--enable-xml-docs" if OS.mac?),
+                          ("--disable-xml-docs" unless OS.mac?),
                           "--disable-doxygen-docs",
                           ("--enable-launchd" if OS.mac?),
                           ("--with-launchd-agent-dir=#{prefix}" if OS.mac?),
