@@ -10,6 +10,7 @@ class Kafka < Formula
     sha256 "c64dce4c55608665ae1885e4c741eae4450cc9baca5d19dee4e9e78841e85b6e" => :mojave
     sha256 "445693c39bd27957bb04eb09393cfc106fedf50f7f92cc6ffe073099e17b0389" => :high_sierra
     sha256 "445693c39bd27957bb04eb09393cfc106fedf50f7f92cc6ffe073099e17b0389" => :sierra
+    sha256 "baef671c5935b5ce8da7c2e97feccef0937e2de0ecc7ab17f46b947c896ecf08" => :x86_64_linux
   end
 
   # Related to https://issues.apache.org/jira/browse/KAFKA-2034
