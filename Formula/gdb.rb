@@ -10,6 +10,7 @@ class Gdb < Formula
     sha256 "494641bdd92ccbf9a998943a1ffbdbf77e1970c9234a726727788dacbbf925c0" => :mojave
     sha256 "61f97b09fa467416772bb972aafc95bd69aed211c741787cbe13885e115701c3" => :high_sierra
     sha256 "5d35ee00715d9f119d90222e57c84f9173e3d2665af947b00fe189e7c01e4429" => :sierra
+    sha256 "8a17748d105c2ad65e954bbb9791a056da9014cf5c74d85c43a00167564b2948" => :x86_64_linux
   end
 
   if OS.mac?
