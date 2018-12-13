@@ -3,27 +3,26 @@ class Sceptre < Formula
 
   desc "Build better AWS infrastructure"
   homepage "https://sceptre.cloudreach.com"
-  url "https://github.com/cloudreach/sceptre/archive/v1.4.2.tar.gz"
-  sha256 "0253ef680c1fe2ff589851f979fbcd28f81dd437cdbe9047ec7d3daac6600bf4"
+  url "https://github.com/cloudreach/sceptre/archive/v2.0.0.tar.gz"
+  sha256 "6c7376c271060089488fee0e58eb7d8714b3abb06d65bc47c22591e1351b6e3e"
 
   bottle do
     cellar :any_skip_relocation
-    sha256 "d4131d8a7b10cf672f29b00b941c97443533beaa1f62e77e0afcc83364d63c43" => :mojave
-    sha256 "03b9fde6a7b11bed545aec7d2b53be3b8f97e138dd2205e9f780d71f7e4ecd39" => :high_sierra
-    sha256 "14868dbdfa54d121abf968542c4aabbd9cb616ecdb08070959405413c0430abe" => :sierra
-    sha256 "3d0ef6400d469c8aad9cb48428abdb295abb46c45488db614d426ec542180f58" => :x86_64_linux
+    sha256 "6f797ad1253de1047661bb8574c1a9f72b4dcfd98054a98bf32a2667f36d7033" => :mojave
+    sha256 "19514193df3672678f19b7625c6f4defe61dc7b70d0142ed3c45a3acab61289b" => :high_sierra
+    sha256 "c4215d4fc53eca136d1ff899f3bb469d7f5797653bb887f44b138ed15d0b6fe5" => :sierra
   end
 
   depends_on "python"
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/18/89/fb6dec1de25c1e446bc11da7d43dab967d8b948bda734140a6b3fb7dcc4a/boto3-1.9.42.tar.gz"
-    sha256 "02e5c1b85a8b22a92f612daf2d1eea305818076b24ce02878b85e92d9ae0082e"
+    url "https://files.pythonhosted.org/packages/fd/50/3868735fae36e0f93216019551ca0f75b6cf9f933a55891244efefdcc3bd/boto3-1.9.62.tar.gz"
+    sha256 "e9e93029b0d4f91ff342ffd953048c5a64e6a1522c2362c4521864bcc88cc365"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/80/ac/518d1fa4b0ec896cc564742e5ce4e4b4d8ce1f8d3f9b6bb29409d1db97ca/botocore-1.12.42.tar.gz"
-    sha256 "0e495bcf2e474b82da7938b35ad2f71e28384c246b47ca131779f736621da504"
+    url "https://files.pythonhosted.org/packages/da/c5/8fded95d8076d0144cbe3b836277ce234cee86e1b1393f6e6e8bedbf1436/botocore-1.12.62.tar.gz"
+    sha256 "67ebafe2d0d6a37b62033bbc78786fdada02c38535f83d74313dc0dc281bf87d"
   end
 
   # click version was fixed to 6.7 for sceptre 1.4.2
@@ -36,6 +35,11 @@ class Sceptre < Formula
   resource "colorama" do
     url "https://files.pythonhosted.org/packages/f0/d0/21c6449df0ca9da74859edc40208b3a57df9aca7323118c913e58d442030/colorama-0.3.7.tar.gz"
     sha256 "e043c8d32527607223652021ff648fbb394d5e19cba9f1a698670b338c9d782b"
+  end
+
+  resource "decorator" do
+    url "https://files.pythonhosted.org/packages/6f/24/15a229626c775aae5806312f6bf1e2a73785be3402c0acdec5dbddd8c11e/decorator-4.3.0.tar.gz"
+    sha256 "c39efa13fbdeb4506c476c9b3babf6a718da943dab7811c206005a4a956c080c"
   end
 
   resource "docutils" do
@@ -56,6 +60,12 @@ class Sceptre < Formula
   resource "MarkupSafe" do
     url "https://files.pythonhosted.org/packages/ac/7e/1b4c2e05809a4414ebce0892fe1e32c14ace86ca7d50c70f00979ca9b3a3/MarkupSafe-1.1.0.tar.gz"
     sha256 "4e97332c9ce444b0c2c38dd22ddc61c743eb208d916e4265a2a3b575bdccb1d3"
+  end
+
+  # networkx was fixed to version 2.1 for sceptre 2.0.0
+  resource "networkx" do
+    url "https://files.pythonhosted.org/packages/11/42/f951cc6838a4dff6ce57211c4d7f8444809ccbe2134179950301e5c4c83c/networkx-2.1.zip"
+    sha256 "64272ca418972b70a196cb15d9c85a5a6041f09a2f32e0d30c0255f25d458bb1"
   end
 
   # packaging was fixed to version 16.8 for sceptre 1.4.2
