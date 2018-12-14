@@ -10,6 +10,7 @@ class LibatomicOps < Formula
     sha256 "35e045de065fa044dc9646937ac891452892f777a386029d5b91cbf4cad2b432" => :mojave
     sha256 "05f6848304f76ea640df1fd395a8e384dc5de0d13ee7962ca11b90f97748867c" => :high_sierra
     sha256 "1bc588fffdda2bdd320e329724006dffc941ccc104886f14f7d963b18ed1a3e9" => :sierra
+    sha256 "f9d7fcf026306c226ba5ff283321bb4461e6f57370a647a5f211575854ee4d53" => :x86_64_linux
   end
 
   def install
