@@ -8,9 +8,7 @@ class Sqlite < Formula
 
   bottle do
     cellar :any
-    sha256 "810b44b487f59d73ef873406f44a1bd355516cea45a2886e2edc749e29e34cc8" => :mojave
-    sha256 "cfa0666026d5360cd73cfb8a51de830fca81db8c6f85743222503204812a5954" => :high_sierra
-    sha256 "9c8e266e082a3b6ba61193759db4361812685228c2d4003c1ee74634194886cc" => :sierra
+    sha256 "43e4f6d41762a0d395b81165986b3ed2f48761b701444d39b954b6a4c150deed" => :x86_64_linux
   end
 
   keg_only :provided_by_macos, "macOS provides an older sqlite3"
