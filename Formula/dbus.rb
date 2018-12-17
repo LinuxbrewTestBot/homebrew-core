@@ -11,6 +11,7 @@ class Dbus < Formula
     sha256 "35bf723ad353d87124779bcc175aa59c236bb327519d7606c0919859cd906dde" => :mojave
     sha256 "8044e64e37449d5f91c0410263ddda23a7ed74e216bf619b89bb534b319473cd" => :high_sierra
     sha256 "1fe2295f71bc0a96a12600741f11c4973b50b2c0ec3342521f0cbcee4f2a6e8b" => :sierra
+    sha256 "66c0420704c06297b1a2e50d98d262e19198a4fae70fbba5d7f4f9136b99bcfc" => :x86_64_linux
   end
 
   head do
