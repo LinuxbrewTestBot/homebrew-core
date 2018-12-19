@@ -12,6 +12,7 @@ class Cfitsio < Formula
     sha256 "bfb59c9b5b42df93624a3f4a6eca92d89ea58667b560ace653dae5a726f7fb93" => :mojave
     sha256 "9426e79aa95e40fa1f1e785738cc91df524ad040d4d25cca351ab29f7624f5fe" => :high_sierra
     sha256 "a7b46f6352f302b0302ba5c5ce5edc89d5d0d1b4b231ed87954493c721d2f9a7" => :sierra
+    sha256 "d684ce46373b4d3418d1f0bce83dcf8bbbf9e1f50f9772778b916c9b3bbac777" => :x86_64_linux
   end
 
   def install
