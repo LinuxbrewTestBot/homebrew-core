@@ -12,6 +12,7 @@ class Dub < Formula
     sha256 "2bbb5032bc156864cc2615133e64ffc7fd80536a78bb4572838ed27c3a9c5f7c" => :mojave
     sha256 "08b95360548270ac11188ee6057cebcd70b8944ee49f2bdf2a2c96aaca881d7d" => :high_sierra
     sha256 "e5e8d469945a8358742657ebb32e16e2b560718d9b20cf6e85dbe943cd838c3e" => :sierra
+    sha256 "ca30c803225e178ef87286585c678fbae33de74aadbeea0dabf318f578ee8ef5" => :x86_64_linux
   end
 
   depends_on "dmd" => :build
