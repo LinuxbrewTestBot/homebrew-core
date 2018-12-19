@@ -11,6 +11,7 @@ class AescryptPacketizer < Formula
     sha256 "0065041f51f313cc89745778c7063171ab021ac844c238a1186c5b4e35d88323" => :mojave
     sha256 "0bc56edb35949f38807c5e64895875f9177c732c1b97d65146fe0ccd18fba434" => :high_sierra
     sha256 "271379b01ad1868a2b9270e987911694391824beea2f53a54d95eb989027fb58" => :sierra
+    sha256 "ac2b8b700cf68b582b30c1cc004198a62d19b42cec9f03fe5344ec2c7e7e93ad" => :x86_64_linux
   end
 
   head do
