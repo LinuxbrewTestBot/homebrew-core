@@ -10,6 +10,7 @@ class ContainerDiff < Formula
     sha256 "08c168cd3c1886e1a97238bb71ed345d2bfaebcabf53bb09f0ca31c8f3282919" => :mojave
     sha256 "ee1bcd0d01a88f6858a5792b5bd335d381c0102edae28ffc6ca2f7829a73b702" => :high_sierra
     sha256 "34b9450a1cf011216a2b308087b5648cbeca33781947f2046270810c2cf950cb" => :sierra
+    sha256 "1e84fba68909ea95a604c9310a0d88fb7c9332eec82e7d57c334e774fb003d3a" => :x86_64_linux
   end
 
   depends_on "go" => :build
