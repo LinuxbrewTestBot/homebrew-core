@@ -11,6 +11,7 @@ class Grep < Formula
     sha256 "9605eb41929a11ec6e330c65b0a0ccef8c052607c9fde52061063fbfb90ad32a" => :mojave
     sha256 "9c21150901667bd9f65a9b894abf076781580e60560d2f610da325b89f96dd96" => :high_sierra
     sha256 "82abc832186859552a9ca620b0f0ddc28474988847338793e0fabcd2ac9ca130" => :sierra
+    sha256 "24412242143b9a701964c59d7622074fabcb329cbfa8a798b4ee73db0bd43961" => :x86_64_linux
   end
 
   if OS.mac?
