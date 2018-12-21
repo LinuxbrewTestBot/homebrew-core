@@ -14,6 +14,7 @@ class Imagemagick < Formula
     sha256 "50bcd83cf748ff693eaf328b5b3a61bc621d291dd249a4e680507d845632a258" => :mojave
     sha256 "be5834b59d299f3bb037efe2663eabb991c9edea076dc2afb73f9a072c395156" => :high_sierra
     sha256 "d9c714d149b9d53eb143aee80e1760088347928e2c017d79961b54ea801ebd56" => :sierra
+    sha256 "d424f5443ff11f535c052ae212fc13e80bab5159176da10a335d72c0f9939d3c" => :x86_64_linux
   end
 
   option "with-fftw", "Compile with FFTW support"
