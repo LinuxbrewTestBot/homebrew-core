@@ -11,6 +11,7 @@ class Graphite2 < Formula
     sha256 "d1f97782079841862d16e256fa735fff3fba05b431d2b511c44e259c4ede830b" => :mojave
     sha256 "b85d96057af2671346e6f3ae5d7c27e47774fa0c9ec6c401d8ebf3f290f8274d" => :high_sierra
     sha256 "3aa5eeba93470994d028afa0180f9122f3185a2e72179698ce781561e9287af6" => :sierra
+    sha256 "1457448abfefb662094df0c3c9dbfcb63e0f9ecef9fb4a8c1f7f938614bc003e" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
