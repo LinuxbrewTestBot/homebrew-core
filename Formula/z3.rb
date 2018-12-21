@@ -11,6 +11,7 @@ class Z3 < Formula
     sha256 "eec4ebf19be6c9ce4ddbd84d0838b925b24cffa286eed603c8c28330c6202761" => :mojave
     sha256 "d3ba64584f9b5fd3e164486e72fe6c773475424bd980e87080ac30be02fb368f" => :high_sierra
     sha256 "42a9c9e14a526d78a366b924c2e75de7d5f41bb724807f91552c66d1e354497d" => :sierra
+    sha256 "6e3c01d7e3d4c3292c8db9a30cb4616adacaffe937f549ed4808235821122a03" => :x86_64_linux
   end
 
   option "without-python@2", "Build without python 2 support"
