@@ -12,6 +12,7 @@ class Bullet < Formula
     sha256 "5284036f39c7469ba84bbee409fc2b82de37073649c3d872c192731b216a9df0" => :mojave
     sha256 "e7cdf082554cd6e320f756c051a418816799d52a920c9192068ac6637bb6f5d5" => :high_sierra
     sha256 "bfea29b63b6eadaf0181fa3a1baee1e9513a2b43b9603fcf996201164ebec049" => :sierra
+    sha256 "bbfbb3e003a87ab11977846ba1c70fe0a90ab1af54cc880dfc73bb1a5ebff5f8" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
