@@ -5,10 +5,10 @@ class Fswatch < Formula
   sha256 "44d5707adc0e46d901ba95a5dc35c5cc282bd6f331fcf9dbf9fad4af0ed5b29d"
 
   bottle do
-    cellar "/home/linuxbrew/.linuxbrew/Cellar"
     sha256 "7310f4dbbbdeed582cb713b3d08bf982553747cbda75eb76d2dfe00f309ed3f7" => :mojave
     sha256 "68cfeb10ae04d00cc90e0d87d48a61c7c22b38f386410dbf2eb6c004200ddc8a" => :high_sierra
     sha256 "9362bc3b3321bf0238fa70d2f2825e4118e18deb2207af3a2633b6772bb33666" => :sierra
+    sha256 "bff1f34b6757e0be00671d0e0c3b5d44f506243db338115da4d07e5a114b772e" => :x86_64_linux
   end
 
   needs :cxx11
