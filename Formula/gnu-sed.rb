@@ -6,10 +6,10 @@ class GnuSed < Formula
   sha256 "2885768cd0a29ff8d58a6280a270ff161f6a3deb5690b2be6c49f46d4c67bd6a"
 
   bottle do
-    cellar "/home/linuxbrew/.linuxbrew/Cellar"
     sha256 "f253301f0bce1c470b77a4230b173a9e6cd70c21c94ff83ae148aa2b8e315b0a" => :mojave
     sha256 "29288f1d0da2301218a31f2efb219f9bd627c2b52a646fd570273a4f38cc580c" => :high_sierra
     sha256 "5c090deefc2dd3769191d97378b981b2dfdd64f1e0259de22682d434ad07e427" => :sierra
+    sha256 "f01292e35b8c9f5a885152ef445c599a75625f095f67eeac9757b34f0334e727" => :x86_64_linux
   end
 
   if OS.mac?
