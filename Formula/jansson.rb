@@ -10,6 +10,7 @@ class Jansson < Formula
     sha256 "79437c250f1b9fff4eab1a15385bbc38e5a29856b0efe3e5b0d68356d24d1f7b" => :mojave
     sha256 "aeb69f2744314df891be52ee4ff2fdb95e8991715a24f74858535063639f3491" => :high_sierra
     sha256 "ffafd42341f4a86ab91bf46e56a2cc4436d840998a9d053bff38467f8b6f4a1b" => :sierra
+    sha256 "50d82be7987d74ed1502dab2e6f29befd7984d2424e240530c805af183e8aec7" => :x86_64_linux
   end
 
   def install
