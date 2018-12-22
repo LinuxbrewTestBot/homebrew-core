@@ -10,6 +10,7 @@ class Libcouchbase < Formula
     sha256 "713b002219e8982e08d95afde3aebf9d3c8795d117851121078e6aff031e6370" => :mojave
     sha256 "06b4d45bf1788071f5ee30358dbbfd1a7217e2a23bc84810714e8cb87c1270f2" => :high_sierra
     sha256 "6b1c1f546afc5d4d65dc8d1685de6410655414f3810280af3c85b9f31e0a9470" => :sierra
+    sha256 "8bfb295440b7785ba3fbde13445ff51c7c8b2f4c0eb5feb2a7c0445825047b57" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
