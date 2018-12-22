@@ -8,6 +8,7 @@ class Gdal < Formula
   bottle do
     sha256 "97c2b47f65141cc67949dc49fc7fdd0972e34d9ac9b21b7c14b27816220facc3" => :mojave
     sha256 "c5d1c451b34740f1759a66d6b1af4a159ded520309d6613c73e7d9d4040e392d" => :sierra
+    sha256 "e80a4e6692525d5c8e942796ab874dad43b3cae17b905a1d912ab2350682e18a" => :x86_64_linux
   end
 
   head do
