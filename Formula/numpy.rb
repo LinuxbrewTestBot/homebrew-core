@@ -6,10 +6,10 @@ class Numpy < Formula
   revision 1
 
   bottle do
-    cellar "/home/linuxbrew/.linuxbrew/Cellar"
     sha256 "a3b8540e1d529354ffd8a6ddc9a931e22258f06488f9bf104cea6c5b8e00ecde" => :mojave
     sha256 "4d4b469f66db66247d51580464845e30f59a6ba285427f7f833e1a3f6acaa1c0" => :high_sierra
     sha256 "100fd310cd3133fc998b473aabfd7d82e55db3d74d739ceb5f144271fa255390" => :sierra
+    sha256 "9a1de4ff21cc264722a6a3981e6578ad6cd64eaa478fa64d2e24deaa5ab5db21" => :x86_64_linux
   end
 
   head do
