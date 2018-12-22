@@ -9,10 +9,10 @@ class PandocCrossref < Formula
   sha256 "ff5515e76884aa0d7f9991fc22853622b185a92f940084d2d396133eddc56e97"
 
   bottle do
-    cellar "/home/linuxbrew/.linuxbrew/Cellar"
     sha256 "b921f684a1f3418cbc0b315c249c087f0dd76dba841bb88174204d3b2ed1fb4c" => :mojave
     sha256 "085ae0758587544cf0f49c388579982d66fcd7db2806de4a6fc965f19119bd5e" => :high_sierra
     sha256 "de5daf23c19c4f34d5ba3a22ce0a2fd8ba9bda8e867620ea5a50106d71aeb031" => :sierra
+    sha256 "79f95466c19dbcbc8426c3d95f8c02b69d4a4b5ac06bff29aac6a2e9b07e2f41" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
