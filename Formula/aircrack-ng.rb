@@ -9,6 +9,7 @@ class AircrackNg < Formula
     sha256 "6aaae61586ea0f80f466e1eaa3740ff64cb5a68d457ee248c6561339778246bf" => :mojave
     sha256 "795dfb0d851b602176fa1a68383afee62f6860fdbd868b515cbf7cf4fe010b7c" => :high_sierra
     sha256 "e8302d2bb87a615d341dc907cf4a8e8f87f9fd560a28246a5b4a37230abe9d7b" => :sierra
+    sha256 "7e7135ecbcea8c69b1658052537e1d8f47ff99abf474ffe91079de6e582ab7e8" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
