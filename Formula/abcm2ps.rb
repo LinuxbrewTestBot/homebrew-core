@@ -9,6 +9,7 @@ class Abcm2ps < Formula
     sha256 "320058bf265c30f579e84da0c55fcd7bb1344ce5e7a55d5115acf98cca3a6273" => :mojave
     sha256 "0a50d0b42377150386ae72402d6916f66d361f66fbed186b9c914abcff0a1c5a" => :high_sierra
     sha256 "440e63459d4348940210433dc760c8434b3d3d884dfb9e2c785d7ad3c8637f5b" => :sierra
+    sha256 "170a29256432d54505e9ec126e84e7f0b24f9b632fb97315831143c3c3835858" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
