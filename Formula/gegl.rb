@@ -9,6 +9,7 @@ class Gegl < Formula
     sha256 "ec5804c7cb55ed5f6a09eb4b9c45a1d24385d2e11c486025ee7dcf1ae2b459c0" => :mojave
     sha256 "9da4062b2ae54e23f751e66c06b0405f84927091eef886996f895b1740b0b84e" => :high_sierra
     sha256 "9f658fe35cff351f64fd2970628bbf5aa3e0a2a682301562bc0c3b91b1b7d520" => :sierra
+    sha256 "8802d6ed0c41a0919fbf624c419b79bc5111c043e52347bc278deb0205c74976" => :x86_64_linux
   end
 
   head do
