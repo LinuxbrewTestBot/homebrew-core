@@ -11,10 +11,10 @@ class Shellcheck < Formula
   head "https://github.com/koalaman/shellcheck.git"
 
   bottle do
-    cellar "/home/linuxbrew/.linuxbrew/Cellar"
     sha256 "20539e9e7d74ca9f46d397e050343d1bee078c3a47f808682771b2edd9df3ff4" => :mojave
     sha256 "4cf8f9e649d601ff8ff0e6aa5ec942a57ced2c2d6b1aa6abf00031bf3a047e73" => :high_sierra
     sha256 "a4c362d13a746d6c3377d2970d311668626c175f8a86fe7289f9cbacbda9f59c" => :sierra
+    sha256 "769a56acf3cbb17a88cff5feb47d171b07e4b968f892c740482ab0d641d4b3c6" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
