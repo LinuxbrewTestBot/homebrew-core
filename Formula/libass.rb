@@ -11,6 +11,7 @@ class Libass < Formula
     sha256 "adf25e0a4a61f098662952861b1103493f2be98a14975b1cdd27c8aab3a9603a" => :mojave
     sha256 "d3a3e4c2ff26d2a10991134bca875ecafcff6bc8abb193f3c78cb8c0cd57c779" => :high_sierra
     sha256 "028e53840dcad7fa8291fddacd46be8276578a3fa8c058b04975cf56a802101d" => :sierra
+    sha256 "f31a3d420ea6118617e53a152f38d0a99f73fed0cef274a35b7948e3818ff8a0" => :x86_64_linux
   end
 
   head do
