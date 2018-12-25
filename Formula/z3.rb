@@ -12,6 +12,7 @@ class Z3 < Formula
     sha256 "120adbe521a09623f9f13357a42eaf50113aafeb8154650cb434287fd18b5c50" => :mojave
     sha256 "2e3ca6c8ce76e9e5022f95f83bc30e7251fc55758a3ec7bb973f9887fc219822" => :high_sierra
     sha256 "aa69aae9bef9513b46ba964dbeb69104584ec5ab515c4e7a622e4476672187fd" => :sierra
+    sha256 "1b087408128e6ee42ec197f30fa39ddfd5151dba0f3e548c97e68345a077ce51" => :x86_64_linux
   end
 
   depends_on "python"
