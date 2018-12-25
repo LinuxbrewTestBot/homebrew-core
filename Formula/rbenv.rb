@@ -12,6 +12,7 @@ class Rbenv < Formula
     sha256 "67f0becc3ef010f3b4f489d9ff852ff28988b18b968281c73a84892c7e26ec8f" => :mojave
     sha256 "faaede99c2b74417be708883586777c4b0747cdfc691aec10776682e31585083" => :high_sierra
     sha256 "39825fd08255d27551e9154d16691477cfecb3be52acf627d29986b4c8c0b87f" => :sierra
+    sha256 "1f4536db867144969be2ef3831b794fe5f18e3e340a93d6763540b540a783f37" => :x86_64_linux
   end
 
   depends_on "ruby-build"
