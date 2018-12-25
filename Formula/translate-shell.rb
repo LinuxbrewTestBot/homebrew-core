@@ -11,6 +11,7 @@ class TranslateShell < Formula
     sha256 "cdb64cb73dd0d2e4911d489a82f7f7ce03f96f65c403324ee5e62107f9a24d18" => :mojave
     sha256 "f942f0e292e4667bbdbe12a6afbe329504ba5659645e2e375cfd4eee4676b3ed" => :high_sierra
     sha256 "f942f0e292e4667bbdbe12a6afbe329504ba5659645e2e375cfd4eee4676b3ed" => :sierra
+    sha256 "bf58f5d78abf6c953a8487b2e05a2c35f97232a727feecaa27f0432b7c325135" => :x86_64_linux
   end
 
   depends_on "fribidi"
