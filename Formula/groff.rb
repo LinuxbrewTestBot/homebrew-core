@@ -9,6 +9,7 @@ class Groff < Formula
     sha256 "1ee2ce419f4d59f098f0804e1dea42524ef72a88b69ce891c42f13d5f19be5f9" => :mojave
     sha256 "24fac4b672946970b70c6e308311e87a6686fed50d4d0909228afb252531065d" => :high_sierra
     sha256 "2966f4b562c30eb6679d6940b43f4b99b2b625433e6a218489f160eb76c7c360" => :sierra
+    sha256 "d31274339f07f31fa1a710f04120927f11c8ad03d780ddd3e39363ca3a5d5fe3" => :x86_64_linux
   end
 
   depends_on "texinfo" => :build
