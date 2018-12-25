@@ -12,6 +12,7 @@ class Gowsdl < Formula
     sha256 "2ac105a303ffb54fb2fe09be85a6b913aca155cbd8c3a3fb07a525dcc662af64" => :mojave
     sha256 "e9c472ac11711508d3d4d7dc403d2697b178b9eb82b4283f5801e49a07b34353" => :high_sierra
     sha256 "83fa8252186b7c1c2d6ed205ea90a7e479c5e7df2891d77ddc3229dbaa98b49b" => :sierra
+    sha256 "769cecc1abaa9177f7735a3d12c762ce308d1725bd4312319d7ca59f2d6f7e24" => :x86_64_linux
   end
 
   depends_on "go" => :build
