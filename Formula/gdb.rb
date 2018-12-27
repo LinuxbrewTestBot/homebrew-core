@@ -9,6 +9,7 @@ class Gdb < Formula
     sha256 "01b06c2983503c78bc346b5f5e2c2bdccbc41d6f5ca759542eef712bf123ca30" => :mojave
     sha256 "9824d06b8d0d44e725a1d29f6631828b3b43abb1952c883e9fad559b6a816c04" => :high_sierra
     sha256 "cf7371e9f6257d1a7dee80239d05917e424e5bb3e7577bd93f0e139fe5174198" => :sierra
+    sha256 "a9e9816663c8f62c1cb1129306a4f4659eeb5f4cb23d49b8cc4a5ac9bf42ad0f" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
