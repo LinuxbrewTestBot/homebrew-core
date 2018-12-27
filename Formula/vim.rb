@@ -8,10 +8,10 @@ class Vim < Formula
   head "https://github.com/vim/vim.git"
 
   bottle do
-    cellar "/home/linuxbrew/.linuxbrew/Cellar"
     sha256 "4e1d300cae8b6652413c5a274943289a9d456ae86cb2a5278d1925e5133d3734" => :mojave
     sha256 "bc5a5c059c0d04de75ac8dacf727b35bd78aa18be76416ee983e53cfda6049d7" => :high_sierra
     sha256 "2ae3a0263aa9e0000d22d5a891f457dbe40347446521eeb537feb3e53c6dd93c" => :sierra
+    sha256 "b3e99b808f95b3ea0d499cd563fdc04e347ce6e9297d0401eb3fd796c3ff7253" => :x86_64_linux
   end
 
   depends_on "gettext"
