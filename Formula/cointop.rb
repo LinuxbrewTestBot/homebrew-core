@@ -10,6 +10,7 @@ class Cointop < Formula
     sha256 "221ff054d2034edf7a53fe0a17cd49c884bd094fceabdf66d9bd1704cfc62ca1" => :mojave
     sha256 "d85db44fb5a9691991d0a413368cda6e99911bb92ab80437933c98673c2f82f4" => :high_sierra
     sha256 "0f0b9038f212eeb29b14693f05cc5cbdb48ae40f26f159d92d0744fdbc1fc27b" => :sierra
+    sha256 "67836c92f738dab3a4259a59e396ab6ff7798f8409374540c9c153db9c3d207b" => :x86_64_linux
   end
 
   depends_on "go" => :build
