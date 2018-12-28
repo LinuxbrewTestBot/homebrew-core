@@ -10,6 +10,7 @@ class Fish < Formula
     sha256 "411c04301a63eb10c0e912193ffd5b60560f184d6361768c2557a79e0ee84b93" => :mojave
     sha256 "087eaab54dbb04f5269ef01ee7115797af291077fd2a89403dd392fbf97bc5c1" => :high_sierra
     sha256 "973773f553ea31c91816b102aac427bfaf71774c7ac2927dfd3e5d98c90ab151" => :sierra
+    sha256 "f74d4872dc525ceb76fb41599447cadc70c74e80ba9cd8efd8a9ce8818a4f917" => :x86_64_linux
   end
 
   head do
