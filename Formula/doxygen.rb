@@ -12,6 +12,7 @@ class Doxygen < Formula
     sha256 "2ca215c26200d5e12735c306dead7fef458613d94857b28f7e425929f8dd65dd" => :mojave
     sha256 "11c0ec6f8ad45c65904f085aea930f4ddc7c6d6a507610e63fed8ceb0c81735b" => :high_sierra
     sha256 "ef99a58a814f6d022b19d34e4f1498ca9a12682ba8a7938147813888f4bbec45" => :sierra
+    sha256 "356ca35b8ae591886ae123f5fa1671c8552c0b224f544254994de016b1edf919" => :x86_64_linux
   end
 
   option "with-graphviz", "Build with dot command support from Graphviz."
