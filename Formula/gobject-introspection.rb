@@ -10,6 +10,7 @@ class GobjectIntrospection < Formula
     sha256 "a6beac9d34408e7c3b2f47fe6c32b5b7ee4b6a0830eed3220c98d5f08a66dfaf" => :mojave
     sha256 "9e1b84d300574888afa48d17e8c141941eadc39b1c152c8ceeb6f3652616b628" => :high_sierra
     sha256 "bfcbdf5408d6990606597bcc32c8b55c6e0d062af30cbf8100cfd200277aece0" => :sierra
+    sha256 "f0fbd24d08467cb24292186a118b2e55335e5c29e99381860aceda60394bb4ab" => :x86_64_linux
   end
 
   depends_on "cairo"
