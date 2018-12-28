@@ -10,6 +10,7 @@ class Libnice < Formula
     sha256 "7ad4af0b7d763700cadd513c9e7a0aded9bc29638ecff250b7fb3897157bd3ac" => :mojave
     sha256 "3873699688e7d9cc866dbbf7c4ad9a2f09f1c7ec86e548c25570d2435113f76c" => :high_sierra
     sha256 "33228c4e83ecc832b6ccf49e641d1cc186c362f256ec407f867b6ee8b3baffcb" => :sierra
+    sha256 "6f33492182ded6adac2e1a8e2f73ec2e6913fe93229a6938c3f310cf60ff9d5e" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
