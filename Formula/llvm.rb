@@ -68,7 +68,7 @@ class Llvm < Formula
 
   bottle do
     cellar :any
-    sha256 "e0ccf0b0a27d72f6d3e081895116962ea8909f939b8ef4cb9f9669fa05cdef72" => :x86_64_linux
+    sha256 "f4db7879f49ddbb5482698a590f5ff52568b3f829fecddbf7b814754ccc892c6" => :x86_64_linux
   end
 
   # Clang cannot find system headers if Xcode CLT is not installed
