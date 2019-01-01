@@ -11,6 +11,7 @@ class DbusGlib < Formula
     sha256 "4e7193ebfc16eeb9635ae90023890df2735bcf8b28851ed8d284969548a3d4bd" => :high_sierra
     sha256 "9eae92ddc86a2b845e3de72e75c8cf5f965e170c921b30dc6540e4126ee89ed8" => :sierra
     sha256 "122823a60de6d94f947fd7a0db6f28ceb7c751b55e72a48d14917d021ed033ae" => :el_capitan
+    sha256 "22c037881db18cbd1a3418b7fdc8429c6f7a9efbf8e7cd39a0281750131fbfc3" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
