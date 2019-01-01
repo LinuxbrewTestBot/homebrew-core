@@ -12,6 +12,7 @@ class Gconf < Formula
     sha256 "e810083f15d5ebb027c92071ea67c5960abf4d0b19c5e7809a71d026a78ae34a" => :el_capitan
     sha256 "85f809fb483b3c78b283d3e7b681b133d106d991717d361c0bdd9596a81178ea" => :yosemite
     sha256 "91bbb172f214d7fc407f20eef91a6d4dcf0140da4e91d99f4e0c2fd1e902815d" => :mavericks
+    sha256 "80d45dd84ef10113ee297fcecada53bd07f103bc591f24c45800151f9ff1477d" => :x86_64_linux
   end
 
   depends_on "intltool" => :build
