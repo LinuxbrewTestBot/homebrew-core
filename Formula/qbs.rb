@@ -11,6 +11,7 @@ class Qbs < Formula
     sha256 "034118c02dd613f4ea1ec5a194b2bce35fd92e7da8980833bd73c26fefe6cc83" => :mojave
     sha256 "8e1ab3e24fb13e9cbc9f8f48412baab93fcad9b53b6bbcde182aa54e52492f84" => :high_sierra
     sha256 "db191a9143a006bf964add16229ae5d7f564a554e2d44ccb1b8b5c1d79241fff" => :sierra
+    sha256 "b46b67408f5e8c3cc53eb9643a1a1cbcf8bc06a8a4133382a642de99ed38007f" => :x86_64_linux
   end
 
   depends_on "qt"
