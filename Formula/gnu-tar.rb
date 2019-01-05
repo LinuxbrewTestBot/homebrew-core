@@ -9,6 +9,7 @@ class GnuTar < Formula
     sha256 "d3fb271fd666fda245f9c985fbfb392092ba3e39d18d10cbd390a13526c6f9ae" => :mojave
     sha256 "21a8c7069bbc823aa9aff058f2d5a89d47869bb618069475adefd7d2b7aee1a6" => :high_sierra
     sha256 "d902cc77855ce1961df899987681677d022a73045a66cf3b4a3ffbade900021b" => :sierra
+    sha256 "4c84b2659471f89a634cff2e8c8eaa016722edd3be3d955efa83a9bdb43684b5" => :x86_64_linux
   end
 
   head do
