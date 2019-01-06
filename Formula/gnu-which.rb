@@ -12,6 +12,7 @@ class GnuWhich < Formula
     sha256 "83fb2814c1a81fa381f5462565141ff1f4fd0580847288c7047019353bad0fa4" => :mojave
     sha256 "1c2174cbc0d721dec7f86f920dbdda09109c84fdf8b8cada6a10b01d496e411b" => :high_sierra
     sha256 "ebd500ad7b851205dd25c7ec78441f029b9982b8a0f3df081266e58f6df7c6ec" => :sierra
+    sha256 "6de216836de1c1599286eff64a8d60b6f8a5bfe3f6385fdf6656f59e165a6909" => :x86_64_linux
   end
 
   def install
