@@ -10,6 +10,7 @@ class Opencv < Formula
     sha256 "1d5b539888b6163e9e8b5e6944bafdfec126cae714a0f14dc914af6f810975dd" => :mojave
     sha256 "d8b90363d87d13279244a656d925460a180279c0adba63ac8f3b5d5025af7797" => :high_sierra
     sha256 "fb3067a4371739a462d832f29d3c23a5445a1b201f93ffae0a8db9fbb6560d49" => :sierra
+    sha256 "82c9f2fa1d4f87f17d03edd03918b9904b0e8528fde0d34a6b89c4d94074e486" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
