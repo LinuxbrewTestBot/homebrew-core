@@ -11,6 +11,7 @@ class Libmagic < Formula
     sha256 "0fd1814daaab8aaef0f6c9bbfac4eb3d251def6778e6d59bd4e3df3dd5def9bb" => :mojave
     sha256 "ba9b9ee461f6a5de3618f462a13e1c2aa83185bd0cf8cc759788577f2d2b39fe" => :high_sierra
     sha256 "0df405f6459085824e349764bbb324da02b6bac817a2d307317e713045c7972b" => :sierra
+    sha256 "27efb75a9d80cc381132f7015e8f4da090ec2fecb61bb1ecf4b55fa4875b3633" => :x86_64_linux
   end
 
   def install
