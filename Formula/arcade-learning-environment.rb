@@ -11,6 +11,7 @@ class ArcadeLearningEnvironment < Formula
     sha256 "c1df5b72ac9f1048c11b51133b3c703cab7ff5f184e5a3ac80df559ea7332f66" => :mojave
     sha256 "4347e69ed56c1798240b6c160d7ddaedf5ecc2fb56b8d235c644ef44103f3dc9" => :high_sierra
     sha256 "327944c55b6c2b917bfdc04c8cdfaffe59ecea5851f326369901949c0657a5ed" => :sierra
+    sha256 "c8d0599aa0a84e3d3c55ccc9a7a35104e675af641818bc4c8c8dfd72560a1183" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
