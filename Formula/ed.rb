@@ -11,6 +11,7 @@ class Ed < Formula
     sha256 "d3c38fddb44fd9722721be45178d124576ce58fdeb4deafbc38878bee117fb3f" => :mojave
     sha256 "79fc86f8994588aed2b0316d58954f5f404e9e9b6f18ef7833b13d3cbd94aefa" => :high_sierra
     sha256 "e670e43bf5e62d0c131828c0e5a0e6760f68904fc787fc2bf9538f68025b6590" => :sierra
+    sha256 "a88c0fbad14228028d85f4a4ccd12acb7432b5ac7c3aed6740e12cd9b2833be3" => :x86_64_linux
   end
 
   def install
