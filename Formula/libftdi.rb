@@ -11,6 +11,7 @@ class Libftdi < Formula
     sha256 "196d095a5381b46c318b9bfba33e9c219b99c9d56d5059ca047acd957132c746" => :mojave
     sha256 "7fe432b58790def951944e5731cf4f1f8939d6b3e7c68390bed12106d16c52d0" => :high_sierra
     sha256 "86c84e08da72a016f132fe314f1fec7450e28fae18468d77669961831f6ee246" => :sierra
+    sha256 "8b1cde01d600b758954cd67a95688830a4c84cc25339c6f66bb538cab4c1b135" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
