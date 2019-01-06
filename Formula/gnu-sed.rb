@@ -10,6 +10,7 @@ class GnuSed < Formula
     sha256 "a1d45377723857fe063e64d19023cce633c8abd2a40b96e1331ebac93d07e08f" => :mojave
     sha256 "9a8f2e31cb6ab729429ba4bf5c7fb0f9333cda7a78d7e6f052cf3534ab4cbddc" => :high_sierra
     sha256 "2f5d798d3157939f1c2edab1fb1f519018fc8eb78181d9f669df68197c517b45" => :sierra
+    sha256 "a1732f299ca101ee3ac894fb2ebc797a1113b990eed3f9cea1d9ba743f897f30" => :x86_64_linux
   end
 
   conflicts_with "ssed", :because => "both install share/info/sed.info"
