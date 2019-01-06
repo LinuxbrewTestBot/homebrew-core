@@ -11,6 +11,7 @@ class Podofo < Formula
     sha256 "b744f10486e5373bc3ca29b1a5530008f90b48ea176b8098ae73fd91070ea60b" => :mojave
     sha256 "b1ec1d67c725b6021617013c49d989bd0c91be23e5302f6d3421e6fb0c9aeb5d" => :high_sierra
     sha256 "aea9066461ba04300b0cd20a30063c349a821b62a5285aaa2abea9068966da82" => :sierra
+    sha256 "8903bd7a12e7177350bf930c01669d3c48889e49ad09fe29f37d9365413bd35c" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
