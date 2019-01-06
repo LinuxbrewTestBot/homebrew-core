@@ -11,6 +11,7 @@ class Frei0r < Formula
     sha256 "a509ee11dc4a3cd431a888c708d32c53d81e5ca67250520f91284d4370d946d4" => :mojave
     sha256 "7bef9c45d808de6bf3f7026ff0c96e4ddadd2ca3a5f8737ce9041f7aa828e6a1" => :high_sierra
     sha256 "28d07c64bce38e3fa9c76437ce86b86ae34ac317070f1e167dbbc1f825f68b46" => :sierra
+    sha256 "934aba8c03f3c2d780e4748e50baa173ebfb628370fe9d269c6794f68b687541" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
