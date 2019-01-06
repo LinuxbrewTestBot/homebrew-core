@@ -12,6 +12,7 @@ class GameMusicEmu < Formula
     sha256 "e1fe807091f485642c81c4289c153ca402c8b2729eee12f1f3394662ad8b89b4" => :mojave
     sha256 "0a47b9636e687252c399a7c8820cb168fa2f5fb00281c6c7808c5df767b320a9" => :high_sierra
     sha256 "1ff25b427da3158fb382efb6a8f0b03015c789f9fb56e1e5c2bf4311b51c5c24" => :sierra
+    sha256 "db0b21b98cbef728ea19f3feb65ea14dae7254d57951a5dd1a0822e8c905f0a1" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
