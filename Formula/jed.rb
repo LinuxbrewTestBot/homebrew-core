@@ -12,6 +12,7 @@ class Jed < Formula
     sha256 "74df74658f783e6de97ed841b1e2532ead3681c7816d55c52e56d4d5056050b9" => :mojave
     sha256 "b8e8f13a1936067960fd2040019d30fc3cedabba4f5c3c22712990f64e09c752" => :high_sierra
     sha256 "caa1269eeac2bd84b2287426c77d501956632f01f92c44605bf8b5d76ab7550a" => :sierra
+    sha256 "c5e7cd25f3620891873a45bae49516a0bca7a5397d803812397ef8ca3f728d45" => :x86_64_linux
   end
 
   head do
