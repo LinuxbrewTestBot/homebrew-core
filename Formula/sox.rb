@@ -12,6 +12,7 @@ class Sox < Formula
     sha256 "e0e0c4d0d52410e04179c4cdca1cd09c46451a282af6ebe7b8840e6b9aac4268" => :mojave
     sha256 "5ba02bdd4b170dc35d5472399a705a13e2711e2e84af79c98b2b484e4acd05cc" => :high_sierra
     sha256 "e7bd73d3b1f15ef439b2cba3cddaa74e3fad91747f2be1f66a551d6db1a61c49" => :sierra
+    sha256 "87a4cf98e014b42c9ff3b074496673f9fce5c622fc7c3854a6906083755bbcf6" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
