@@ -10,6 +10,7 @@ class Exiv2 < Formula
     sha256 "0d55621ba183fee1850242a07fd5cd78622daff82f9a4877a4c1aa14e114cbf7" => :mojave
     sha256 "36d48ac8ec05df9ae69d35561d14dde24e5a6b31e44fae3235d648c62bb9abfc" => :high_sierra
     sha256 "5c0229876d4183240896b8d31347adf99c90ff45b8d3dd45ec5d13bdd83c1e2b" => :sierra
+    sha256 "1e75df66a782197afd70895bc2934ee97ef9cb714c6423f90c31c586a7b1cc19" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
