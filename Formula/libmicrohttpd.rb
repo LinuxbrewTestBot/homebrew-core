@@ -12,6 +12,7 @@ class Libmicrohttpd < Formula
     sha256 "e2a6d6aba4b8a259cafd558e58d7424e1b2ddbd2afbc6b98bbc2ef3617971cd2" => :mojave
     sha256 "d76e6ca726c0067832ee7ca266bb856b8b6a9065c6e94910fbd6aeb1428478c8" => :high_sierra
     sha256 "9085e50cae90cfd889f001092af2ed63f26078b9f9683b945a281f00b5fd9317" => :sierra
+    sha256 "a0cd78b8f4aab6175fbc10c60ddb0275ac3b5e4cc468571d2d905a02711c9162" => :x86_64_linux
   end
 
   depends_on "gnutls"
