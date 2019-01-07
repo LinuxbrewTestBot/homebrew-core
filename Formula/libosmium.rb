@@ -11,6 +11,7 @@ class Libosmium < Formula
     sha256 "51876fb1bc9ba3495dbf098737e891296d3c9aca69a1100b350fe75c078a5c4a" => :mojave
     sha256 "c6d4232ba9c320f939116309788b3a8dec335531294cc683d7fc043ba1232ac0" => :high_sierra
     sha256 "c6d4232ba9c320f939116309788b3a8dec335531294cc683d7fc043ba1232ac0" => :sierra
+    sha256 "0ea5a0120002f0ae0747ab71a904f2692c85d0402dabb901253b35406ea61627" => :x86_64_linux
   end
 
   depends_on "boost" => :build
