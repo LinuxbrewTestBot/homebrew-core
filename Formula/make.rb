@@ -11,6 +11,7 @@ class Make < Formula
     sha256 "77c4ba8e8b6d7ff0b8ea9b4cac2026882888196c2f39cdbdd004b92757a07ccf" => :mojave
     sha256 "9486542a6ad3207c3f7e00c80f99a562014d6fc8aa833036c3927d11a6cee0ee" => :high_sierra
     sha256 "8641015924620134cfa26c18eb665503950291d1110d72f876354242136cfa77" => :sierra
+    sha256 "bf53022e4dc6cffdcf0feec6eef54a7ff8ebf58cda6dcb67fe951f68961c16d1" => :x86_64_linux
   end
 
   def install
