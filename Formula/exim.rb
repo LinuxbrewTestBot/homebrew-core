@@ -10,6 +10,7 @@ class Exim < Formula
     sha256 "8c5e26e6f6edb597d177b67a21e7e9e5a66a955e10b3d657f3525979c799f0d7" => :mojave
     sha256 "ddcc7bca58533ed8b9768097bce5ab20d5263d66d0c116bcbdadde20eb237416" => :high_sierra
     sha256 "854a961001d7502aa90b7af67d8d0ed03cd2bc30e87cf492a87a7bfaacd76ea4" => :sierra
+    sha256 "e2e57ca816bd542c63dce79eb9401a779afdd61a4f1e51ef38e6ad38903987b7" => :x86_64_linux
   end
 
   depends_on "berkeley-db@4"
