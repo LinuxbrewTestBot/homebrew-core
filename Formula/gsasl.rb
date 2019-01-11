@@ -10,6 +10,7 @@ class Gsasl < Formula
     sha256 "d52080e846621b8b297fb8f100c077a859545b933ec527573a02addddca0b40d" => :mojave
     sha256 "9e6544e25c68eff0e352ba84355a9a6ea201b9b533cbb9420eee3bdfd1531eb3" => :high_sierra
     sha256 "22c6d1dd63deb2e26dd8e3b2b51b30735ada08b6972222eed3d1868fddf1ed3c" => :sierra
+    sha256 "9453792e12ce9e3b1330594b8c36150607714ed4138d6d613031f643a61d8e45" => :x86_64_linux
   end
 
   def install
