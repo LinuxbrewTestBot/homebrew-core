@@ -11,6 +11,7 @@ class Findutils < Formula
     sha256 "ec4451f43d744c9f9a891f5de2be83c88cfec2f3decb944e58cc6fada7f9f9cf" => :mojave
     sha256 "a9ed3201327c741029789bab2c1fa6e1f1407ec47011b70afaf0f048620d8ea1" => :high_sierra
     sha256 "af9bf8127ffd522fa0d5ed7f4d39b312c1a97b75d57ffe831bfcc805bab45880" => :sierra
+    sha256 "55938767d3fc9ae89f039f4c4c2934b27aceba65cfde98dd779ad2a301206194" => :x86_64_linux
   end
 
   def install
