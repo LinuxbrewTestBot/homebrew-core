@@ -11,6 +11,7 @@ class GnuUnits < Formula
     sha256 "2570ac9d62c68482b03f6697c773f829347049763ad36ff68c9d0cfcad9eaba8" => :mojave
     sha256 "54f54a751537e3810a5d89874d6929f08f1e78c66962c1a7ebe107ecf4a814a0" => :high_sierra
     sha256 "a02b9fd8e8c8701b8026808eb6fd4cfbc3e4b6be7c3476948ac1e7b784166c8b" => :sierra
+    sha256 "8347bdbb72de628d53683e95452206022652011428f34a3218e54733098fb701" => :x86_64_linux
   end
 
   depends_on "readline"
