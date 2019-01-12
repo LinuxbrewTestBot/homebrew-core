@@ -12,6 +12,7 @@ class Inetutils < Formula
     sha256 "bf7f5033d2e9d0767fa1791b9e50660893a18e227cfa55a74157ffa06b562293" => :mojave
     sha256 "3bbc3492fbb8a3aa76a9e8945b7b4e8b57cfe4f505e85892b1243e0301a5838d" => :high_sierra
     sha256 "826fac0f766be80594dead976e8acb5038391cadf3faee6e0b505247c30ccd1f" => :sierra
+    sha256 "d421a04a6a9b2e92f6d3ea28bbd821e2a6678d5f40520791d3ddc18c9edac3ab" => :x86_64_linux
   end
 
   depends_on "libidn"
