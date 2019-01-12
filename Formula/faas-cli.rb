@@ -11,6 +11,7 @@ class FaasCli < Formula
     sha256 "8319df9bec7d403a4896cd5a7d2fa06c4bd84e793adabfff0ee0639452a0eb7e" => :mojave
     sha256 "dcb7e0a0de6eb4df22dc493aecd932af5da315d63d03abad256ced3864baaa40" => :high_sierra
     sha256 "4a609304f87d1e850f311dcda145d1d749e1784edce1a9951e4ac2471ee26ed0" => :sierra
+    sha256 "84e2c5d5dc103ec07cd1ed2d1c09b366abb4f5cb6b5af2c43a47c4dcf0e91508" => :x86_64_linux
   end
 
   depends_on "go" => :build
