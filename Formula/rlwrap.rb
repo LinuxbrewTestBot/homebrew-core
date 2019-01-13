@@ -11,6 +11,7 @@ class Rlwrap < Formula
     sha256 "1bd82e889c7f88df7b45b31201d563d7185c362c7a5d3814b5474d295de65f22" => :mojave
     sha256 "d8d5c5402f1b0041bc26c2161b2822cfd025e93674a7a5dc0046185d5870181d" => :high_sierra
     sha256 "3dd6233bbef1327553b5bd92d070c4d7bd24f5414628c1c367c4c3ad6f1acc76" => :sierra
+    sha256 "f837f0ccb8b8fecc59f1879eeb5dcfacbd94a16dac2094b1ac97177d51ce7bb2" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
