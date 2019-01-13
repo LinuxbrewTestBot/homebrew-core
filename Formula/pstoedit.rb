@@ -9,6 +9,7 @@ class Pstoedit < Formula
     sha256 "11f3efb3f5f5aa6912bc34f72be786abbfd176406bf6635166a5057415e6af08" => :high_sierra
     sha256 "83a6324270f93ae5bca3843f52e0ae84050fc72f68c150d3456947b961f4f16a" => :sierra
     sha256 "fd0e52881d4397cbca26f851b2fbbc65b382ee3c70ba46c362b90b30d9280428" => :el_capitan
+    sha256 "6373675515491f56edf73dc6510865a1e23815756371b25659266c1ec0f2990c" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
