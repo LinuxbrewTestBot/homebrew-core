@@ -10,6 +10,7 @@ class Pari < Formula
     sha256 "132614e46066837aa3d3a4661bbbcdc648dbb48ba1835873a58f54b8805d31f1" => :mojave
     sha256 "0bca55f59df6cb9441bc5b49140392a089df20ec85d08452ca7966f395d71a73" => :high_sierra
     sha256 "2f8f44aeaa83bf1ba107946b82b81e032305afd6db5d02b10a6027afb902c862" => :sierra
+    sha256 "5ad7b87bf971e1a61d9598841cd71a1d04246f6b22b88b705c8b449433ff4651" => :x86_64_linux
   end
 
   depends_on "gmp"
