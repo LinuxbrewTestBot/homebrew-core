@@ -8,9 +8,8 @@ class PythonAT2 < Formula
   head "https://github.com/python/cpython.git", :branch => "2.7"
 
   bottle do
-    sha256 "4461576d1be699f9dad4751e0c986f5d42484f230bbbe30a27532471ffdb98a6" => :mojave
-    sha256 "9e89dd40be444c2446a24f8d10fbbda8ae858c180c4620ce597639308dcb43cb" => :high_sierra
-    sha256 "1474f6903ec29c717c3b70f7b26f3067ecc08577a696821042b04cd6799a3a67" => :sierra
+    root_url "https://linuxbrew.bintray.com/bottles"
+    sha256 "b35d3958555acb6c667ce338b16a1abf493cab422eeffd747dcc010976578b68" => :x86_64_linux
   end
 
   # setuptools remembers the build flags python is built with and uses them to
