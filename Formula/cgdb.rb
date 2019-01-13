@@ -10,6 +10,7 @@ class Cgdb < Formula
     sha256 "61bf2feb99d9f787ca7f31054732161fbce069e7bb2d586bc498021890de625e" => :mojave
     sha256 "5d7640abe0c061f425b299202885c1540352efacf7a0be63dda9047965ec1cb1" => :high_sierra
     sha256 "ae319df2221718b4b69238cc8b73e201350b4a8260d0c4b6ac7e1608cb4669d6" => :sierra
+    sha256 "2e4e3361a166b7e221d9e7b2e51507b695bab7e7fc73acbb645bc6a37d08b97f" => :x86_64_linux
   end
 
   head do
