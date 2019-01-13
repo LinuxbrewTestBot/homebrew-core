@@ -11,6 +11,7 @@ class Postgresql < Formula
     sha256 "ab6499de5861d5815ca4e0db6a1001f4d3ff66370e2d304d72573c163780c1e6" => :mojave
     sha256 "d24169e3fc7a17180a96be3995e71546e306f56b0f93747eff3aa03aa6464c22" => :high_sierra
     sha256 "70591e89e2220d7795b590abb295aad4bdd94be01e7c417324ce5b0e18858d14" => :sierra
+    sha256 "82d3323996f130631750953ba8e02886c134b280c956a7c737e95b631d78508f" => :x86_64_linux
   end
 
   option "with-python", "Enable PL/Python3"
