@@ -10,6 +10,7 @@ class Augeas < Formula
     sha256 "7069fa64198cacc1df2240840e214e3071ef09298feb5f8d4f215ff7eb6751a0" => :mojave
     sha256 "e5c5c1548077ab50027b0079bec99b9bd7ad75c872b4e0d6d9a3f431af500765" => :high_sierra
     sha256 "1be7a367767198aedebd736f14ce80b9314d7dc216575d678b9a32a905fd5b79" => :sierra
+    sha256 "22c7d4b765b9a2a262f4ad2a868381dc2830d11a6649e35eac3a5b57898f5663" => :x86_64_linux
   end
 
   head do
