@@ -8,10 +8,9 @@ class Sqlite < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
-    sha256 "950736ef2a17d92518538ef97f985019509332e0b7717667fb521c8ec2cadc8b" => :mojave
-    sha256 "5301650f025a5802d806f62079a01282446dbb6e91cb4cac567633cfa22c7b5a" => :high_sierra
-    sha256 "4e30d34e63ead32ee747323c60f0c4bf24b97d326112d4bd386d70fbb72fdd77" => :sierra
+    sha256 "3c3c5bc633ab464bbe346161740b94551a31a384c3e2d4c4e3f5e515f43a3765" => :x86_64_linux
   end
 
   keg_only :provided_by_macos, "macOS provides an older sqlite3"
