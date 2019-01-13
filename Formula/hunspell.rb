@@ -11,6 +11,7 @@ class Hunspell < Formula
     sha256 "4424ad936c0d45d85afa0e0fbe610346cf0e3bddc96c88ff7efbef0f01528ffa" => :mojave
     sha256 "aa31c8817d44d1b5842837bdaeb3daa48c2cee384a683590c51577c080dc08b4" => :high_sierra
     sha256 "8e0b13ca0558d71f0edb45cc68560eec84873743b8697da739ee6119a3d9fcae" => :sierra
+    sha256 "c0d1458af84ff112e454b42256376f907f3932839dc33e123f1a0df92533dea0" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
