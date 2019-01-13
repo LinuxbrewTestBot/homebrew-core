@@ -9,6 +9,7 @@ class Gphoto2 < Formula
     sha256 "37fb8edbd5544c29cedcca1d5993edd79f864e0e48d2881a594967e220b9d011" => :mojave
     sha256 "5a806c3bab79874be998d3a47b0d0345cbedf17e3cc18ae0cd01cb881769155d" => :high_sierra
     sha256 "e9c413a70ddfac524438a2e8f59638483f8b2dfd975921e4cbdca35a0cdf0803" => :sierra
+    sha256 "e3d545e635204ead788f3123d10d5379ffdbfced6a8d00edcc6e218dde9d25d6" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
