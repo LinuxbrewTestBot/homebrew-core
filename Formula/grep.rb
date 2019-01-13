@@ -12,6 +12,7 @@ class Grep < Formula
     sha256 "ca4b36489d4767f809516edaed8e4f869834dfca40e7ccfa2c697e1ffa771717" => :mojave
     sha256 "3d31c9e997b832a9035394e51191d4f26357b51412d78e0029e19d5a6fc7efdb" => :high_sierra
     sha256 "830c7d077c489b9276a314c631a32d539c476efa7fa3857e9ed5913aa92c9c06" => :sierra
+    sha256 "d67a211df8eb3435df093891625ad0111cca5d2c8285ea37c25856e440591930" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
