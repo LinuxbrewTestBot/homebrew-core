@@ -18,10 +18,9 @@ class ClangFormat < Formula
   end
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
-    sha256 "c7b2d5141522cde00e586a0291dbaaf651285905abc52669ee58767fb001798e" => :mojave
-    sha256 "499498f37f6fc02104e369fec3e8d3352b043cf56ceb52cda5ea57a60e5a8868" => :high_sierra
-    sha256 "856dedad614fd9a3f490b9d92e734f9ac7d9b3f345bf09b6083d5c1509d90d6d" => :sierra
+    sha256 "298226130764e2350f53f1921a52dac9c6260af08be293655e0421214496c78c" => :x86_64_linux
   end
 
   head do
