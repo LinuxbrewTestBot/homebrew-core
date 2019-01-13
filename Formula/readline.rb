@@ -8,10 +8,9 @@ class Readline < Formula
   sha256 "e339f51971478d369f8a053a330a190781acb9864cf4c541060f12078948e461"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
-    sha256 "9b698b215a371ae394a4fa9137b019472c649c77ea389b6bdf2d9104cfe4a56c" => :mojave
-    sha256 "9f5c4da065626612770b0176f5eca537b4443cfb004c12e08a5b421f755e3c64" => :high_sierra
-    sha256 "8cd1c5d78f8731f935f38b15c95ab714c3ef9c1c2268239743e406230fd73d0e" => :sierra
+    sha256 "4d94eaf31d5cc553107065a1a425226183044ea7b741a5dc49fe5714b94ec8cf" => :x86_64_linux
   end
 
   keg_only :shadowed_by_macos, <<~EOS
