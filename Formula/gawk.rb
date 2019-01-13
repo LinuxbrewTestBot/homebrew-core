@@ -12,6 +12,7 @@ class Gawk < Formula
     sha256 "7c75090bc176f309855c5eaf4a7b11c184b7619971fa9cff88272cd79952ab7d" => :mojave
     sha256 "f1c8e8d852bfd156056b3dea4b80704b707adfd742795ccfd47ca33e5ab9a1dd" => :high_sierra
     sha256 "ca8c762e95dcd6733fd49d20be8733cf179d4b3c4e0ec9bc9ffb3c54cfdea9c0" => :sierra
+    sha256 "d0672516d4bf5f589c4ad4f0718ed0cc37279e8050214536a259b66311c2459d" => :x86_64_linux
   end
 
   depends_on "gettext"
