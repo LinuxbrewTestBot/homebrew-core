@@ -15,6 +15,7 @@ class RubyAT23 < Formula
     sha256 "f67b409db2204b078cfe7f5d41f5c01fdf8a21516a463dacb87a232970f8e0a6" => :mojave
     sha256 "67dc2fa377749c3804d123414a16747157384b66d3b670475bb287aee10640a9" => :high_sierra
     sha256 "5e464abed74ff2c045f76400b645dcdfe31ee7572b2478ca80a4649b6ed31578" => :sierra
+    sha256 "4480119c0890111b42a7c6a21346074a03afe12b8f792010035857083c9d4dd9" => :x86_64_linux
   end
 
   keg_only :versioned_formula
