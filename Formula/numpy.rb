@@ -9,6 +9,7 @@ class Numpy < Formula
     sha256 "9542bce5982450e50992b906f42679f54213367a63c58f3951c8ee29e60420c5" => :mojave
     sha256 "f77add64f13be9d84f3b9a12c3595eded343e6258bd9a7624a67b09b69cc96e4" => :high_sierra
     sha256 "d72f29fb6c63200129908070c58d2893627f9bd601ae6e2d3a59f72b64546c73" => :sierra
+    sha256 "9031f4f0fb548a459b3ce8dff4e81976f7f20ab99c7586184760a75b78bc6666" => :x86_64_linux
   end
 
   depends_on "gcc" => :build # for gfortran
