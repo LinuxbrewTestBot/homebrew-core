@@ -11,6 +11,7 @@ class Guile < Formula
     sha256 "a5916710ddddf9ab79f368008fddfc708fd50ae86fc5b894a7d70cb3cebfb326" => :mojave
     sha256 "fe1d3822f7bb1a18b3fa73907db89ba7654a85c3cae4f572eb3257a4b2e148d0" => :high_sierra
     sha256 "a1bf9796750403fc459f8393144ac7589474f97ba4ce3a0d732fdab7aa3f3df1" => :sierra
+    sha256 "87413ef5f6de4a88db712d9412a14f078f844d06bfaff1ff15e7334482dafe08" => :x86_64_linux
   end
 
   head do
