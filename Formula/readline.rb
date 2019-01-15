@@ -8,7 +8,9 @@ class Readline < Formula
   revision 1 unless OS.mac?
 
   bottle do
-    cellar :any
+    root_url "https://linuxbrew.bintray.com/bottles"
+    cellar :any_skip_relocation
+    sha256 "aecadfc325735c80de0965dd31292d34d2c3ed0cb404a7adb8288d6f99a78e94" => :x86_64_linux
   end
 
   keg_only :shadowed_by_macos, <<~EOS
