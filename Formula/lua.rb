@@ -11,6 +11,7 @@ class Lua < Formula
     sha256 "fcf36c0a4785ed9f515a1a18d8e158ad806c8ff92a5359959fbfa1b84bc52454" => :high_sierra
     sha256 "17947facfc289e35fc19a1c4091f4d26387bdc254150df75e0aa95d881e58135" => :sierra
     sha256 "b6e9699312e768aaa800d06e1f1e445f1bed64c8eb614083915c60e0a2e3d746" => :el_capitan
+    sha256 "b1d5ef71e2c7c2cc918a90c131b781e80f1f097e1d81899856315c1fa389443d" => :x86_64_linux
   end
 
   unless OS.mac?
