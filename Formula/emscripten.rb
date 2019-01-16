@@ -19,10 +19,9 @@ class Emscripten < Formula
   end
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
-    sha256 "6372200df93bbf516628e3137e33f1a9c83bc015b4e988a0ef09b27c18f2e1ba" => :mojave
-    sha256 "b61f19c84e345d582366e4d0acd6c17c8cfb1234febf74f538f680c96f91961c" => :high_sierra
-    sha256 "8192b9c87026e8ece64212a89d62be221f000d619e81610954169230ba5ab106" => :sierra
+    sha256 "50866cdc555e6943d7a0df0d389d83610cf40c9d7036000dd7539ddff666c14a" => :x86_64_linux
   end
 
   head do
