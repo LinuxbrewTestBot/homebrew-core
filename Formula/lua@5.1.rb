@@ -13,6 +13,7 @@ class LuaAT51 < Formula
     sha256 "d374b94b3e4b9af93cb5c04086f4a9836c06953b4b1941c68a92986ba57356b1" => :high_sierra
     sha256 "67ce3661b56fe8dd0daf6f94b7da31a9516b00ae85d9bbe9eabd7ed2e1dbb324" => :sierra
     sha256 "e43d1c75fe4462c5dca2d95ebee9b0e4897c872f03c4331d5898a06a408cbcb3" => :el_capitan
+    sha256 "e31f283dedde4b288f527674a1e48fa700a64a344e655244192051a4d9880d4f" => :x86_64_linux
   end
 
   unless OS.mac?
