@@ -22,10 +22,9 @@ class Rust < Formula
   end
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
-    sha256 "8b5ab9ff8232e7439dee2696072092db7e12b967b28b79d3d12a6c767f878ffa" => :mojave
-    sha256 "40a40577df9b566751ac50bd8edc237624942232b950db10ac3f08eb6b4ed8b7" => :high_sierra
-    sha256 "e332630074e758bdfdafda7e66ff085a7ff07987d6d2748d990b8d5293d39e90" => :sierra
+    sha256 "6bc4e5e9b5b57f3b1eaaba7959fb0b245601a9135a6f43c33827ed9b31b279eb" => :x86_64_linux
   end
 
   head do
