@@ -11,6 +11,7 @@ class Mpv < Formula
     sha256 "4b15a57a979f20ae92bbd26a16b7f2f466263200c57b0f165651b8d42a083894" => :mojave
     sha256 "79db69bf884b91c481e7b2c987f71674d200354f1e78e62d545c3d886d6700f3" => :high_sierra
     sha256 "697fdbdb8313c795528cc7b161fc1b65c15799cdbbca5b3e972fb52f41374458" => :sierra
+    sha256 "07ac3d037660b72d21a1b5259c9bdd58eafb5d91392f0fbeddf66907902a3dd5" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
