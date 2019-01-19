@@ -13,6 +13,7 @@ class Nginx < Formula
     sha256 "7ea37bf70745ef33d48e5dcc978c7595c8113bfe513b3e594ea0321c9332ff88" => :mojave
     sha256 "435ac2d570973cb1b41e90ce4f75e9f87c841a8aae7f5f314a4922cde2a73c9c" => :high_sierra
     sha256 "18b69c75e157380d380aadb053a1074b3101cdb97a1d2b2f097ff4b3ecd2f79f" => :sierra
+    sha256 "ca27d1f3bb9df229313c6122dbed68da160d29f31a4c566907836e987e7a1db6" => :x86_64_linux
   end
 
   depends_on "openssl"
