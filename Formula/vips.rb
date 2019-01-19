@@ -9,6 +9,7 @@ class Vips < Formula
     sha256 "b0f5e9de2c412d6f188fe36371d7c828c735f8b873bc68d9058a0d6145751476" => :mojave
     sha256 "9813262b061a45991e1e4b1e8a6d4100ef29f8af5d23cae37911e2cdfff81433" => :high_sierra
     sha256 "56a18f3f056bd18584574e244c487b0d8e48756a86453e8f9de9e4d16fdd10a2" => :sierra
+    sha256 "f87ca91996d88850e83f415110e236edb1bd0ab21b2f8dea3f8db3e5f0e684d7" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
