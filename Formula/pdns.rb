@@ -11,6 +11,7 @@ class Pdns < Formula
     sha256 "fcb6c47b7c0b57871044885ac05892ef86f5345b632455b4a97fd9149c6b67b6" => :mojave
     sha256 "7fedb7d0e28c28b5b9dce56a2fa16d0a0a3b9f834a6e6ee677b34b927c555335" => :high_sierra
     sha256 "f65bed6241a54a701a627f195761d99ccde3507e02c33c0b74db4801130a6b81" => :sierra
+    sha256 "386bff460f5ac9833cd29b2bf4113b2b15da0aff76f1fd403bb40997ae022dd4" => :x86_64_linux
   end
 
   head do
