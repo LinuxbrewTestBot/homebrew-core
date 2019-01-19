@@ -11,6 +11,7 @@ class FluidSynth < Formula
     sha256 "a881760d1a2d37f01fb99c62e5760ca290b0a302ca14532e33422584cd6dd5b7" => :mojave
     sha256 "d15c30490cad51a60bc138fef78fc7e1339c6a070eb676f3eafd6ff70170ccb9" => :high_sierra
     sha256 "875610f52865d882a4531635dc2b39b5212f15f5a9d324410d3af227f0ffc5a8" => :sierra
+    sha256 "422040684c7431c11ec996c90f2b844ec39ee2fdc4ef1ebbd71f8bf8012b6181" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
