@@ -11,6 +11,7 @@ class Vegeta < Formula
     sha256 "4bbc3b02ddf47cb7d75c4344744ec9c273145174d5ead4b9141a7d4f4418aa1f" => :mojave
     sha256 "f3fdd71e68611f4227b7b12eb3e0ab6499a2166c5f096aeeb1819d052aacf81a" => :high_sierra
     sha256 "0a5a909e5c563ca6ae28cb96f11a95e1dca2eb036824d7152b6eb5f504155da1" => :sierra
+    sha256 "5f556147c50cb9efefc28ce2a8477ef6f8232612b25f9e0e7f70a043db3bd6fa" => :x86_64_linux
   end
 
   depends_on "dep" => :build
