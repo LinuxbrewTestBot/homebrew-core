@@ -12,6 +12,7 @@ class Xapian < Formula
     sha256 "424ac432e892cfc455f6fcd8ae7608b44d76d39a73361b3b56d143ac30921b8c" => :mojave
     sha256 "32e3b96b619d8f39e6f2d5a32fb0f9b9fb0e1378fcfdbb2a163eb549798e10e1" => :high_sierra
     sha256 "adfbefe2380111b93f1ebce01311bf8a1d07f91715e90b33134457604772d41d" => :sierra
+    sha256 "c15f8595104502766b29d8eecdf00881781d3e01a825b371386498bb16d932b0" => :x86_64_linux
   end
 
   option "with-ruby", "Ruby bindings"
