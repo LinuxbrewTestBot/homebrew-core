@@ -12,6 +12,7 @@ class Aspell < Formula
     sha256 "ff90482e98d4185c02676885cb9295f2e2c3fc0a59173981fdf08e2f8627fbf8" => :mojave
     sha256 "2f60bc62dfd9208c05c9a14ade674934605375a017e1ed41c5b96ead11b8cbf8" => :high_sierra
     sha256 "196310dc5ff6c2b1b9b9cf915056fac79d5cc91a28634cf15e71b2a37781a8ac" => :sierra
+    sha256 "e56a0cd11a356566abfb9d9a611b5897dd7e4ec50d938647c52732563890360c" => :x86_64_linux
   end
 
   resource "en" do
