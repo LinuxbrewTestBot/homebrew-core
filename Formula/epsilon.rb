@@ -13,6 +13,7 @@ class Epsilon < Formula
     sha256 "10da057d558d4d9df8c503135b53f7c23778258f7c66d3b39229bf70d9a887f1" => :el_capitan
     sha256 "2811209670e68ab4316e6d177bc1376cb28462cad9b696b4a782deff4074a9ce" => :yosemite
     sha256 "606cb80be8eebf2df61c726ac3e1d91abda3bc49d3c73ca5d07f85b59734069e" => :mavericks
+    sha256 "62ec89adcb2f2b7f2d40d0b8a0bdf333d9e887cb6b2716d2653d6d38a281f874" => :x86_64_linux
   end
 
   depends_on "popt"
