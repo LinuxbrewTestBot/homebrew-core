@@ -10,6 +10,7 @@ class Ctop < Formula
     sha256 "0e168b17be6893484012554531584934ddcb4c41a81ff5ffe9ff6b72f8a24d39" => :mojave
     sha256 "eccc5c1766fc7c558b313f3c4d928615176e252e12dcc329d985c4320feb5813" => :high_sierra
     sha256 "fa9113c826584235dfbe6e96092c3c0fe74dfb5ae37719b0f5f1726191f3f051" => :sierra
+    sha256 "5bdf6c95d44623f2b4263425dfc01be9456cb71830efb804981770d580e477f2" => :x86_64_linux
   end
 
   depends_on "dep" => :build
