@@ -9,6 +9,7 @@ class Glib < Formula
     sha256 "0d156d04fb77e31e3679e82c19ae55aafdceb075be81e01cda08dec89fdce6a9" => :mojave
     sha256 "b321b6dd3b7a6285f65ef38493c96a7e23e9e400f996a3a0ac9aadbf2434eff1" => :high_sierra
     sha256 "c57f11747bbc0248f069e727e948cbc306f53e8312803ce6bcb087e89f7f701b" => :sierra
+    sha256 "c8569f4e870a97305c89fe838b557a058a02e466c85470a726741570357e83d2" => :x86_64_linux
   end
 
   # autoconf, automake and libtool can be removed when
