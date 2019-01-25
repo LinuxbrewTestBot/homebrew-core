@@ -12,6 +12,7 @@ class Vde < Formula
     sha256 "97989b0577f7a1fbd13c916aff1e61391cf3d7b886c4ef965f0b765e034c8bbc" => :el_capitan
     sha256 "5ca4100e3dae3df4704e2fdf9ae07a1fb0637d2cb2e916e7db931a4cb84a0c55" => :yosemite
     sha256 "ab336b6d84a03dd981d70ab8b377ec3a61dcb9abfffd233c84a0e74c8fadc8b8" => :mavericks
+    sha256 "fba80b136b9f003701249ddacf6c2d7b1c7f9ce8e28c66bcf5903ac69ebcdcf8" => :x86_64_linux
   end
 
   def install
