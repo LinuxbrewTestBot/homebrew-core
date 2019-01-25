@@ -10,6 +10,7 @@ class Gssdp < Formula
     sha256 "0b33c442e3ac602474980603f72ae51cd003e338d89aaedebbdc858dda2a6b93" => :mojave
     sha256 "7c745644a57ff5a9d80d7422830770aad3c80aabef6009a4db107612b97d2536" => :high_sierra
     sha256 "fd8130caac892fab33a2abf2db7f7089455d700fa5454d36820d54781adae7be" => :sierra
+    sha256 "4541c225e4c752dd9616ca473a61064602a1b4dd9ee22bd25507aa6c006d4d35" => :x86_64_linux
   end
 
   depends_on "intltool" => :build
