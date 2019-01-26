@@ -14,6 +14,7 @@ class Graphviz < Formula
     sha256 "554a0f729bf393301fb3fd796d771a63c51871d6aaf498a7af6c7f98a64979bd" => :mojave
     sha256 "769e9c92c5e08e803b54d2940df74aeb7202e5bc5019eb602d36116ea7cddcf3" => :high_sierra
     sha256 "4267fe0d22373837bc22dfca35e8a925ed660e3b403b76af791a30fc074130c9" => :sierra
+    sha256 "a7e38f1d91e81ca9404edb64469296d7d7ff8f73f9e10ce0a875497972c85710" => :x86_64_linux
   end
 
   head do
