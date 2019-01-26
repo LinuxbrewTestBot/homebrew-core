@@ -12,6 +12,7 @@ class Libxml2 < Formula
     sha256 "dccb64967eebaae0393a9577161a7488c762557331fabf6ada7a1516ed73527f" => :mojave
     sha256 "20c9c8d32316fcf9847aee768d91d901460d9aab10539fcb0d701880ee1e6285" => :high_sierra
     sha256 "2f76c8582aa8dfa6ce724fa570449680221f69d84c5216ccba7bccefe8e680b1" => :sierra
+    sha256 "64d18a6fd85067d7919dd0961a01cae406e2693a95f19d6e975e2bc1d5438d58" => :x86_64_linux
   end
 
   head do
