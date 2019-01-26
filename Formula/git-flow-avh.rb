@@ -17,6 +17,7 @@ class GitFlowAvh < Formula
     sha256 "40d9fbe7b2edc783565efe4d7fa5842fb8e855dbb9d6af8871cec797ff84fd14" => :mojave
     sha256 "d1f0b434f4931a703155c274daad453f3c6f75122f42090d0c6231ef62365dc9" => :high_sierra
     sha256 "d1f0b434f4931a703155c274daad453f3c6f75122f42090d0c6231ef62365dc9" => :sierra
+    sha256 "fc61e606f3d17242523c2e6e33e20681cd62adfcecc70a63b7f748a846b0a270" => :x86_64_linux
   end
 
   head do
