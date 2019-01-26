@@ -11,6 +11,7 @@ class Tesseract < Formula
     sha256 "cce4d46a711959e3e62bcadd7470bb5a8ead7a2ccf195b455891e51d7d13f64e" => :mojave
     sha256 "f00c278d85fc9a42b6a7b88c994c13ddd3533e7a71a6229215fc53d02ec1d3c3" => :high_sierra
     sha256 "05abf694ff3f7dee8c50ec255329558e7b5be0cc2ffd1661cfe2a637f6ccfeb2" => :sierra
+    sha256 "beb5a8c6b279d3aa36075388b482e241c92c98916ca6559afc25e20a34de5e13" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
