@@ -10,6 +10,7 @@ class Quex < Formula
     sha256 "fd2be2bb933af7bc6b2b1313d4ff30019293a9c821c8e4bbfc499c2a3f7f4711" => :mojave
     sha256 "745f6d4fe25cb48f6e3389a6746027790c9c73dcdadd449d6bfba1845f2fe7b7" => :high_sierra
     sha256 "745f6d4fe25cb48f6e3389a6746027790c9c73dcdadd449d6bfba1845f2fe7b7" => :sierra
+    sha256 "2cdca8078eb1bb9f6fad0d155a1046af18c3987bb879cd60f4ed0d0883b70de0" => :x86_64_linux
   end
 
   depends_on "python@2" unless OS.mac?
