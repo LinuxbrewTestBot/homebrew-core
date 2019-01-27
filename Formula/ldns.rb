@@ -12,6 +12,7 @@ class Ldns < Formula
     sha256 "59e16e20f7ec9324f2f0381eaa626788dc61f1a7acad8360d648ce9627669f3c" => :high_sierra
     sha256 "f696aa117920984beb08f77884fb6cc919d48f737f2684a6dd754ef76e069346" => :sierra
     sha256 "4022d01b29df2ea81bd8f722c1b1883d718e7804e8c950cdc539c0e7046eb146" => :el_capitan
+    sha256 "cf8be2de328d898f93059d69c7a51be828087b057335f999a3139331d8e7eb64" => :x86_64_linux
   end
 
   depends_on "swig" => :build
