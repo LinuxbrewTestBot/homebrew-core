@@ -25,9 +25,7 @@ class Rust < Formula
     root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     rebuild 1
-    sha256 "45f65397d37790f9359595eb10e38c12ffd2032c7b961d5aeee2b38ea4e21ca1" => :mojave
-    sha256 "742649151ddd435184927a69cbc4a59b06bc40bd2b85206737efc16cca3eb229" => :high_sierra
-    sha256 "6a37b5828827a1ae6307e702f7ea558bff187e15f682ff471766056f5735acfd" => :sierra
+    sha256 "35a1a2024daf3c2fc2f0a14b71ef8f039722b5bb3705ef4d5b436b8770c08886" => :x86_64_linux
   end
 
   head do
