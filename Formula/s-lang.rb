@@ -12,6 +12,7 @@ class SLang < Formula
     sha256 "d1e3b31d585951f3b7eddd49242573ddd17b7fb15e295e3c987497fc02fbf9c2" => :high_sierra
     sha256 "587a25f8189a6579e730b9cf5bed62feb55381a66aae4d5fddfb59dfc6868802" => :sierra
     sha256 "a57f80593cc9b57b7c7eef8252a81b0240b9c421fac756010e01c5292f51bff1" => :el_capitan
+    sha256 "929089db4b74f0e3121e29c20b429a18065fc8b2dc45a319c38dc8011b0b4ef2" => :x86_64_linux
   end
 
   depends_on "libpng"
