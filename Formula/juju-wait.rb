@@ -12,6 +12,7 @@ class JujuWait < Formula
     sha256 "fa16c0c9ee4e4630473cead84377e6c0495013a25f9952e1000737ca11f7268a" => :mojave
     sha256 "2067d5af66824dc2100ddc6cbc2a758dd3d919dcb44035a4d6c7112aaf391fa0" => :high_sierra
     sha256 "46dadcf85332eaf1e80e044da7fb790ce32d65df5f79193253f4edb80d16c283" => :sierra
+    sha256 "2998f6eed958ae46b89eb178583bf7395ff52b11712e6907522e9a14628d047c" => :x86_64_linux
   end
 
   depends_on "juju"
