@@ -10,6 +10,7 @@ class WithReadline < Formula
     sha256 "3a6e8e8e2d6f35ecd215b969c3794e586b1209820a9b0e5d935ddc5363f58678" => :mojave
     sha256 "72ea8c0cce2f94fae5c963a1113c9b2504f1d728234c3c511ad7e3d5dca0d74b" => :high_sierra
     sha256 "808a3a96b1d247f16c0a3e21eb18ed287f7df474b36c4685725768a05c3c1c61" => :sierra
+    sha256 "abce45969a63965b104dc5ace34e2a88257c09322f611e847835efb25da58080" => :x86_64_linux
   end
 
   depends_on "readline"
