@@ -12,6 +12,7 @@ class Libscrypt < Formula
     sha256 "bc2c8318384a72f82802937f7e6dd8017ec44fb6fc94583e5f0c38056e1a660c" => :el_capitan
     sha256 "0e870b01dbbfc49432cc8ea81c90ee6d8732b6d8adc4665368844536d5c6e092" => :yosemite
     sha256 "fe3bc1ca8b19e7c86e103f1345cb9294da01cc15b950302ad5486ef49b2b212d" => :mavericks
+    sha256 "b02209e5c778dcfdd9e13123d9ce258f909f583ce5e0b474d916bb4ea1c48293" => :x86_64_linux
   end
 
   def install
