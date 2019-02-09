@@ -15,6 +15,7 @@ class Mu < Formula
     sha256 "b12b4e6d3a86efb4cceb1e7d06cd6a202210e190f02249c19cbc0bec23c1fdfe" => :mojave
     sha256 "3194434108363a40f108ea380e2dd5014f318e5cd5e5330a9b4afd02420ba6e4" => :high_sierra
     sha256 "e233b018589b46b4e72ba96d71427cb4b5240ee02fec05b4f19e278bec428b3c" => :sierra
+    sha256 "e322ba7079c1d9153290f7ab4fc0d547f490bfd521dc20f54769a14c9cb127f4" => :x86_64_linux
   end
 
   head do
