@@ -11,6 +11,7 @@ class GitExtras < Formula
     sha256 "a8a718b1c0fcba2990489bedc99d2fb42416f41178627766f777428c7b4ec361" => :mojave
     sha256 "a8a718b1c0fcba2990489bedc99d2fb42416f41178627766f777428c7b4ec361" => :high_sierra
     sha256 "87052e2cda514c6664caf19ad9bb7f25d158120295b930b220b5f444c85a94d3" => :sierra
+    sha256 "c746fe60725f689cbc7d0dc39273b2108572c04a2bb83d5954d02ee82090a8e1" => :x86_64_linux
   end
 
   conflicts_with "git-utils",
