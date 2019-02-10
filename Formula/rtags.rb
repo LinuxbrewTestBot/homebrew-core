@@ -11,6 +11,7 @@ class Rtags < Formula
     sha256 "a6cfdd43fb22fab24d10f7882fb9219d9617fce141cb162c503a6bfd9485fad9" => :mojave
     sha256 "7abaee104be0a7bb4565795703ac9004f988ddbaf580caf8152c0fee22ed17a9" => :high_sierra
     sha256 "b80aa423a5c6fad2f6e4537456a59b7ad7d4979b3929607791f845f4a27745e2" => :sierra
+    sha256 "2d768526873c2097ab2c5a1739a8f79e559a478202ea41f8b91bff5f4f3d7d92" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
