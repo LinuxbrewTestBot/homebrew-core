@@ -13,6 +13,7 @@ class VampPluginSdk < Formula
     sha256 "f5b77eaf0b80183cf7c19b08c4734b49393ad38e382da03666a8c8a3b5063b5d" => :sierra
     sha256 "acd0d2d514e459907217d67a6a2652bce37e6b87564fc9383a1e22763b84472a" => :el_capitan
     sha256 "ada7d84cbd975d1857e83651815a8a3a465ee04299fd32e5d90eba6646d6325c" => :yosemite
+    sha256 "32c2894a3ddb4b83edc8e197570865b407b69f99ab7b1ce289668721cd1cd3b6" => :x86_64_linux
   end
 
   depends_on "automake" => :build
