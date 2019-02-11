@@ -10,6 +10,7 @@ class Xtensor < Formula
     sha256 "fd6e8d6700c8b76642b73e17bb8e35886ec483fddec67b6f1203805f20f1547a" => :mojave
     sha256 "fd6e8d6700c8b76642b73e17bb8e35886ec483fddec67b6f1203805f20f1547a" => :high_sierra
     sha256 "e48b12c8423df69d64ab20a1a001e49a90d98fcbfec52ef20b2b47c93ed86ae3" => :sierra
+    sha256 "cbe7e9328fcbd05b3fca91803ea54251776e33b4c3e74b2dc75337be422e8f21" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
