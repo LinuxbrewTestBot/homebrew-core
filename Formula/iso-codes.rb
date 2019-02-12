@@ -12,6 +12,7 @@ class IsoCodes < Formula
     sha256 "a85d3ffaa71d35872da9c4ce021ec92986a447f3e3b4e7a1a23306be9239b4b0" => :mojave
     sha256 "a85d3ffaa71d35872da9c4ce021ec92986a447f3e3b4e7a1a23306be9239b4b0" => :high_sierra
     sha256 "240191588d2e014bfe26550e1151cdaa2f364a8e4859f2d39b17ed91507fe2a3" => :sierra
+    sha256 "e8e5a4e827c1330110fae21bcce42d86cdf39d95967f500781da808a03ca20c6" => :x86_64_linux
   end
 
   depends_on "gettext" => :build
