@@ -10,6 +10,7 @@ class Lftp < Formula
     rebuild 1
     sha256 "06caf0dc86f94dd6a0d6c958447580f45cf88c8ef7486b97058d2da06f7cd0f5" => :mojave
     sha256 "648b83bad8685a0f265e9a5cc4c47fb8620dcb27100cf09a37bbd1a9133a09a2" => :sierra
+    sha256 "442f1dd0ad45478d89a7d363d1314ada66a269c518b0b886b773560317455b05" => :x86_64_linux
   end
 
   depends_on "libidn"
