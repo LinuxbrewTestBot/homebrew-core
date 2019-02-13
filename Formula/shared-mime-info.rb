@@ -9,6 +9,7 @@ class SharedMimeInfo < Formula
     sha256 "a7fb52d858dfbd75c6c5553b0cf688dd982b9aa49b60569a44a0a1ea270b52c4" => :mojave
     sha256 "97b2ec767496ccab0c890c4310ddfd03d0ba318a494f88556a47a69a87a14bdd" => :high_sierra
     sha256 "3ee458bfa61d4517eafaa2fa24e03044c7c695acbbdf84eb28566bc3be4495c2" => :sierra
+    sha256 "27c5384371cc57dbf6a04f42ed353dce3f6ec9330249a8851b2a62c1e2a04acd" => :x86_64_linux
   end
 
   head do
