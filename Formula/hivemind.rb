@@ -10,6 +10,7 @@ class Hivemind < Formula
     sha256 "e76b38e91f2a8143a01b72d7428e4b869fcffb9a9332cd20d89a3d667058fa72" => :mojave
     sha256 "04b2c5ea90cac6a2c552e7209650bfdaa3a16b43a6bd2f8492c1fdcca852a7a6" => :high_sierra
     sha256 "bb2ac3328d179d26a6d02cc952b9efb7352aea0f9f8faf6c45c84e29ceb5e298" => :sierra
+    sha256 "5f728b2f590cac8a8ea48ca9646497003e337401ca4f721dfed74e89dbb3f262" => :x86_64_linux
   end
 
   depends_on "go" => :build
