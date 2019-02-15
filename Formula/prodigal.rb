@@ -11,6 +11,7 @@ class Prodigal < Formula
     sha256 "c120fed8e29bb3b1a4ff69d5ca05e051a0fe3822784b3d585e142da3452d1ac1" => :high_sierra
     sha256 "a27fe5316181d4826e5aa5291d0fc1b1a7087c32c7b4e6aedabf1209d5a8ac36" => :sierra
     sha256 "70b432e3d3da1f4089680b06c0745b7dac3611f05d8ec9440faa918bc82d6fe5" => :el_capitan
+    sha256 "226fe9c5d5b64136ac89da1e34aa4cb9a41226d37e94eeb1f30096d10135e5c9" => :x86_64_linux
   end
 
   # Prodigal will have incorrect output if compiled with certain compilers.
