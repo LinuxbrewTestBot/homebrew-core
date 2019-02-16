@@ -6,11 +6,13 @@ class Qwt < Formula
   revision 5
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     rebuild 1
     sha256 "a0440f8bbfaa4a88a44ad02aac93cd1d96a45b59f0b4e3c6133c150dd877e100" => :mojave
     sha256 "fefafb68b60362fb7c2f268171cf111a7676044d2586698d786bc448263cd315" => :high_sierra
     sha256 "b333be61fb0188cdf98510566dd28ac51c677eba50c7257d7b5145d7619d7a44" => :sierra
+    sha256 "f7aeec647433b1c74e51450250346cb860946c20ae28b9859ffc2e1043db51e2" => :x86_64_linux
   end
 
   depends_on "qt"
