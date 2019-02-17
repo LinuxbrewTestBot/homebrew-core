@@ -9,10 +9,12 @@ class Pipenv < Formula
   revision 2
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "b009471c44f19b92649f1ef10961cb852fac7784a02bb319f7c9bbc017e85d19" => :mojave
     sha256 "30a4e67c98fd7ec02db6158cbaa7052fad686ec21378e1be2a682aa3c1dfcd47" => :high_sierra
     sha256 "3143408bdede7d4130fc6d2a21b8250ca9b33c842e08be1ee93d652221b7be37" => :sierra
+    sha256 "2de5b37a43292f3772e16fa3da34eca317b3c3dae9ed89021106d50b3b63f507" => :x86_64_linux
   end
 
   depends_on "python"
