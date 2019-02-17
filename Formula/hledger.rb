@@ -10,11 +10,13 @@ class Hledger < Formula
   sha256 "e916a6c898f0dc16a8b0bae3b7872a57eea94faab2ca673a54e0355fb507c633"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     rebuild 1
     sha256 "094e8f16f48d74d4681061acf2ae59d9908bb590b655a4cafaa179b75932813e" => :mojave
     sha256 "67d5ec47abd70d06d2e6effedeed024117befc3944acd6efa281bca3b9250666" => :high_sierra
     sha256 "0f2d3ab4a3ed38fcde4eba321b83e579273b39ca0cd8700a5e4c3a5d7e6d750d" => :sierra
+    sha256 "934214971c8e3ce4d4454d19c6c43f501312acf9ec2df1ce32fc1542fa05a02d" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
