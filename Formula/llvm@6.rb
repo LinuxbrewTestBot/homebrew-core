@@ -7,11 +7,10 @@ class LlvmAT6 < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     rebuild 1
-    sha256 "bdb6b04ed9307ad89a7bb5058d5b28d1fda5954983f705b971ceb3dce85158b0" => :mojave
-    sha256 "c505f682a55e9b00657927071e7f3450b8e1ec93cc854e9ec3249dfaf376a24c" => :high_sierra
-    sha256 "4513258d2dcdbfcf676ec48402a5d48a7705543fc06c8016cc9e9a71b187466b" => :sierra
+    sha256 "fa82b34b02759b52cf6d6eab0e41602a1c2b902b8eb94624d30ff0652697c16e" => :x86_64_linux
   end
 
   # Clang cannot find system headers if Xcode CLT is not installed
