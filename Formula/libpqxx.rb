@@ -6,10 +6,12 @@ class Libpqxx < Formula
   revision 5
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "252bef987d558c400bed42eac610114805d103b09dca80a4108bbee94a512c28" => :mojave
     sha256 "c179153f967f4e6242cfb6f8ad9c75886ab08320c3772874de04367ca2b0e495" => :high_sierra
     sha256 "6178caf5cac93adf2464eda7c229c2ff4b5dfebd6d9176b95df5b79c2b064fe6" => :sierra
+    sha256 "f2b35c27f8d7c997efee38814321ae2f1d6e241c21f815e1dda1f9c9ed7b7848" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
