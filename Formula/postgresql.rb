@@ -6,9 +6,11 @@ class Postgresql < Formula
   head "https://github.com/postgres/postgres.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "8fd1cacd7b9aa9325c9ddcc1c3fabbc0f76d70898cb45aa476ef53ffef7983b5" => :mojave
     sha256 "08d79f786ec1cee0d836101040e544b52e33527ed0612ca3283237e11455fa15" => :high_sierra
     sha256 "3941b3241eec502036ad48abec93b6bc5cfce831ab354a5db9f358e41422b95b" => :sierra
+    sha256 "ee91ffd653d3290adeeaa0c4625a44d617b346bd1d0a04acbd9f67256036bb2d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
