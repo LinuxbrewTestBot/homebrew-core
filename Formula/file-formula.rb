@@ -8,10 +8,12 @@ class FileFormula < Formula
   head "https://github.com/file/file.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "b26d1dc9e339e8f8c238ee25baf66f7b5153696662ff23cec1fb0a3e61e9844e" => :mojave
     sha256 "9a479081d4805d2bc22190f9ae388a138fbb33696796b60e63638759ee1845e4" => :high_sierra
     sha256 "2592d8a9c0c9838135bec5af4084bade0900f10d57f2beb7d9cdf567152fab47" => :sierra
+    sha256 "c990839fb8cd1e6d91321ce05c8580c8b51154df28d7e772bf0a4a5a0575da05" => :x86_64_linux
   end
 
   keg_only :provided_by_macos
