@@ -6,9 +6,11 @@ class Libmagic < Formula
   sha256 "fb608290c0fd2405a8f63e5717abf6d03e22e183fb21884413d1edd918184379"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "2f9cd29505ced7c842c5c673db528c68237acc69f552fb1ebe7b903f0e2597be" => :mojave
     sha256 "b63065cb2c3501a8b352d1587804a0c7af97e2fac27fd114987e7571dfc1c3ab" => :high_sierra
     sha256 "8187a0d50ab22d037e598c08d2e2793a84c9ce994748fa79ad8f505b889528c6" => :sierra
+    sha256 "ab9c8ca3942de494be2c29c51a4dd6841c6594c01af31e6cc9e5a26af4debb05" => :x86_64_linux
   end
 
   def install
