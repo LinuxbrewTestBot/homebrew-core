@@ -5,10 +5,12 @@ class ActivemqCpp < Formula
   sha256 "6bd794818ae5b5567dbdaeb30f0508cc7d03808a4b04e0d24695b2501ba70c15"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "ca87456dfeee8d1b999d883a01db5a657996f31973cc2b516bfc2d704136028a" => :mojave
     sha256 "8bd27f343a7669f51d84068727be531fd65b98bc9567b161aaf025c1884a1809" => :high_sierra
     sha256 "9b4e5dcb89bb68292b695c8e056fad47a729b4a5e037c5ef4a95a7b1406c61e8" => :sierra
+    sha256 "808a8d0a3c43babdc60ee8e711fe69a515ec97deca39f0a08ac8c752b601975f" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
