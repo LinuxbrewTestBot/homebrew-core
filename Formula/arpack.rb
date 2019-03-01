@@ -7,10 +7,12 @@ class Arpack < Formula
   head "https://github.com/opencollab/arpack-ng.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "03b577602fb08b98d5c8794311dc8759532b4536ac31006bd263343b0f4306f9" => :mojave
     sha256 "aa06eeb6b15b44bd81be5807b2f5ace1c3e4f060b553e3d3dbc126d1d75f1ea3" => :high_sierra
     sha256 "8c76d753f5657ed808e8d36c8b5e4b7f899737918fb0b4139b8d6085395bc540" => :sierra
+    sha256 "602b8c36805fc640698588924b248cae44a351445d8817e983b0558d49498bfe" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
