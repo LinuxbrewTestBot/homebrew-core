@@ -6,9 +6,11 @@ class Avfs < Formula
   sha256 "4c1a3a776a01ce7a5b74d66c955269162304edd8c18489fb2186ef728f4be3c3"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "f7b1f3a2a166a4418f6f27707dae144391f6ee2db5fe6029a2369d8de6d2093d" => :mojave
     sha256 "782ac0bc73deff3843c7af2b05e4b82cd99c8062c41014100ca1b2d56a5f5b53" => :high_sierra
     sha256 "810afba90280d2aaef31560b9d0776cce882fc549e9c0575ba9777bd626687b7" => :sierra
+    sha256 "bf59631b733eee902aa8ce6035ab350bb6d214f8bd62bb6aa29eb07f2ff3536d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
