@@ -6,10 +6,12 @@ class Pgweb < Formula
   sha256 "e475973e7c1287905b3d2c26be9b9a11609cd05a088af77ef604823389a3d7ab"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "54d9b58164e36731378ca6bed6f5e78fc80a5484d598d5d6897927ccbb787fad" => :mojave
     sha256 "81b6f85babd2c22d092db1065e341c902834381d8e46583f1378c0d2974db062" => :high_sierra
     sha256 "effef44dd2f65ed0e24304aeb2be96529597f45d4beab80f74c11c4ee4a906a0" => :sierra
+    sha256 "26581e4bb9db89108cf9b746ac9e650cbb9e9f565e34ab851a4d30668996f744" => :x86_64_linux
   end
 
   depends_on "go" => :build
