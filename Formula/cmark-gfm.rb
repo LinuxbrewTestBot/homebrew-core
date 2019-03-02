@@ -7,10 +7,12 @@ class CmarkGfm < Formula
   sha256 "483ed2c0eb3b8bdbcb0679c4e6f471c8e351d320cd310c22cbf01a83943a4785"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "d1df85020bd4e0d7a60614c5c3819f05d6d180e73c68908eeff228895965c763" => :mojave
     sha256 "a8354c2f178548925a8b9a987b0b612453b5047981be19f07569de18ce9f48ef" => :high_sierra
     sha256 "cdf63218b2aa503893774d7cae7d2c9c25e001acc3b4df61ea9318a63a4a8c27" => :sierra
+    sha256 "5e22c72823fa24655c519e3bbcab6f0a8ecfae9fcc8f3ff6ffb627e5a313a181" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
