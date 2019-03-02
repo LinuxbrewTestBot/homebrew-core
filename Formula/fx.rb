@@ -8,10 +8,12 @@ class Fx < Formula
   sha256 "b33fafe37ec52ce9a00f8a414e83f47866705514e0f2819222b07d5346bf7f60"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "499970065a21912329027f0e93d8b5ca71709ce145e2d9adedd3ad395379bd89" => :mojave
     sha256 "fd45a3cdc3f7fb3d22a2e775c54a0bb1c1fb530cf514e1761150c1ca0e0b60ad" => :high_sierra
     sha256 "16ee652106674168a795a0fa46da3dde3789c3fd20a144279f13ac02b3e59b3e" => :sierra
+    sha256 "4e782792c692ba647739c31b6c00ae84eaea47fd60b577a5154c766d76292616" => :x86_64_linux
   end
 
   depends_on "node"
