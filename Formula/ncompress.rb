@@ -7,10 +7,12 @@ class Ncompress < Formula
   head "https://github.com/vapier/ncompress.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "ee109f0c632bb97ab6dd85f8f73c526b36becc9e30e003fcc67f32e09d4e9d5b" => :mojave
     sha256 "3f58c3e47a34c1720a0e082c242ca9f57c75a56121b8a79bcf6f2d4a1303c6e8" => :high_sierra
     sha256 "4d9132c7f2ec9386eaab7d6cd740d6cb23438321a64cfce213d622ed6a70464d" => :sierra
+    sha256 "2587ed2dfb6fe6ef855d660c265bdd4bf3206fb213e1bbbeecde38fe380bef87" => :x86_64_linux
   end
 
   keg_only :provided_by_macos
