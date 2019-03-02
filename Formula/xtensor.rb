@@ -6,10 +6,12 @@ class Xtensor < Formula
   sha256 "ea0ed42ac27888f4e4acaf99367fbef714373fa586f204e8bc22b8e5335ecf06"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "cd91f1e093dd83c47e6857e3762f374b35a8f210aacdc7b9134ca5c4f7fb81b3" => :mojave
     sha256 "cd91f1e093dd83c47e6857e3762f374b35a8f210aacdc7b9134ca5c4f7fb81b3" => :high_sierra
     sha256 "ef3962344fd57f9b16ea8676b148a07ad355e55cb3c2d8ff0c9458f911062fad" => :sierra
+    sha256 "4c5c63d5e2ae3ad6cc47012e505408075d5fc12f0a521c99ad767a74d987779a" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
