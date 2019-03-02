@@ -7,10 +7,12 @@ class Fabio < Formula
   head "https://github.com/fabiolb/fabio.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "67487a58775ce639924c4cdd51907b23d61d10c23667efca9b9d9e5752b3f363" => :mojave
     sha256 "aec5deb6a536a861abc132e787336c990a6a5635ab55454171877e2541e3543a" => :high_sierra
     sha256 "4cd2e56d77e3ea61a8689f69a9b73a5b9184b7224ed56e5c6e0b406de1873dab" => :sierra
+    sha256 "104ed77b00ee6faae520f4e24483c6a0caa589fffcc79190cae69c5466b4e502" => :x86_64_linux
   end
 
   depends_on "go" => :build
