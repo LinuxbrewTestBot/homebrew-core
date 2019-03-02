@@ -9,10 +9,12 @@ class Gx < Formula
   head "https://github.com/whyrusleeping/gx.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "cd9206262c3ec48b7c745c23b93a7d35f1eb062ab46d2a8712d1e80f97c01ba4" => :mojave
     sha256 "f9b917fcf75f644943869f660dbb418168962bb6c32df2a0962ca11d71822c2e" => :high_sierra
     sha256 "d10a52930db99b4e6e815148cbeb418eef47a2fac43c8d3b4a6b1c0addc3c72e" => :sierra
+    sha256 "af3b02571ea9623af9f1fd2691393de2fe93b4fa91e9a83127e98199ce873490" => :x86_64_linux
   end
 
   depends_on "go" => :build
