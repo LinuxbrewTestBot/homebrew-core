@@ -6,10 +6,12 @@ class BaculaFd < Formula
   sha256 "a40d04d2c48135972cecb6578405e835c4b9d798c0950017de0fad40ca94e8a0"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "e44148506fe45be0d0af0d63c7373492422a4de571a667dc40f3ad48ef9a510c" => :mojave
     sha256 "5089ce4adb3949e99787afe92172b214170193c66032135b12f3477f9e89674b" => :high_sierra
     sha256 "278520eb714f64ab33b41bbab1b04eba647ad84df1a73b6aedc7291a25cf4542" => :sierra
+    sha256 "52453f53be4eae493f6c63f63632ec954dd3eafa4dfdab94ee2c9accfd79426b" => :x86_64_linux
   end
 
   depends_on "openssl"
