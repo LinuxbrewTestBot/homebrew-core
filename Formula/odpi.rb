@@ -6,10 +6,12 @@ class Odpi < Formula
   sha256 "a22e5f5166626c2280a73b93b9a749009d509a0446b5903966c505fba298a8cb"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "9c5ff5dfe555154be3dc9a3fd51675e92a022fb9f8c7517091879f14e5fc8933" => :mojave
     sha256 "f5f617075d281fc1cf029bd61502dba281815e5d96a786da7b022ed08b691568" => :high_sierra
     sha256 "036ad1ef32fbda26d7267cbb7f0994b51862c2579ea25f4284f480eb78b7b371" => :sierra
+    sha256 "3f249802d99f2bbe15114c18fcd4af0fc93e989425c73b174a9a66312b0bf9a6" => :x86_64_linux
   end
 
   def install
