@@ -7,10 +7,12 @@ class Backupninja < Formula
   sha256 "abe444d0c7520ede7847b9497da4b1253a49579f59293b043c47b1dd9833280a"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "39df0693351a58ac9f406d6c16ab9c15ddb5d96ddf7ac9e98cf94061ccffe9a8" => :mojave
     sha256 "39df0693351a58ac9f406d6c16ab9c15ddb5d96ddf7ac9e98cf94061ccffe9a8" => :high_sierra
     sha256 "071ac37b853475ae44c4b3dde995d694a5fce322e68d7eeb39eb52a85c781cea" => :sierra
+    sha256 "46e71b934970638888d029ae6b69b09090e6f111c8eae190dd677234ebfb8601" => :x86_64_linux
   end
 
   depends_on "bash"
