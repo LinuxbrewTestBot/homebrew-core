@@ -7,10 +7,12 @@ class Pulumi < Formula
       :revision => "c53f697a6f84767be00a366c6186f76c02d09a6f"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "cc3693f5981ea3f64fb472ec8fa538376bbd1d84318495a8c81f9405ee2cf842" => :mojave
     sha256 "9f421a629d91250bf39c18ebaa42326a1813f785e8e290eed6d5ea136b6a63c4" => :high_sierra
     sha256 "cdb02c34ae2f5b887d5eb62113bb0fe966f7785da50457281f3b055c177d0f0f" => :sierra
+    sha256 "3ba7c7e32f0f5aa95b1b05d113495aad1b726484abcad71222dfb4d0cbd11250" => :x86_64_linux
   end
 
   depends_on "dep" => :build
