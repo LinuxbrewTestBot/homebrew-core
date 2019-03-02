@@ -7,10 +7,12 @@ class Bibtexconv < Formula
   head "https://github.com/dreibh/bibtexconv.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "6f6011d0f4881805977ee882cdead5e69222b3a8d119d27ef9b3895f8e63b288" => :mojave
     sha256 "96eda092763e70b1af132b834a5f8bb9c9f12ad6f2f0802e3c09d18ebf2f6115" => :high_sierra
     sha256 "210b19d5a4d6b38a544f677d87e59d0909ca727fd4c0519d8be38174a0e07af1" => :sierra
+    sha256 "d5e763f85770b5ef50adea6f8984a080b1cc81f14d3e0a01721e05308ce53051" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
