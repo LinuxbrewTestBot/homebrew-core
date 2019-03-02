@@ -8,10 +8,12 @@ class Aurora < Formula
   sha256 "90ac08b7c960aa24ee0c8e60759e398ef205f5b48c2293dd81d9c2f17b24ca42"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "71f54ab698f0164d6e1c2385591969da6056130db87a83283623a630ecb41fb0" => :mojave
     sha256 "8ed6f1aee6ea5c74e39dd26969c355df0c43651b5b16d6f49d45b00331696fb0" => :high_sierra
     sha256 "4d59e71f583edb221cb1b85102612778fdc186cefbcdb4ff3df9619d7082eae1" => :sierra
+    sha256 "55c70db87f4770ec8f29b8167cffb6b7288b00e5eb9749580259a02c48895fe1" => :x86_64_linux
   end
 
   depends_on "go" => :build
