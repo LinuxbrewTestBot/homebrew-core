@@ -7,9 +7,11 @@ class Calcurse < Formula
   head "https://git.calcurse.org/calcurse.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "cbbd5f48b6e829ba30d55ee43d171f57494c437685593146774800de8ea4a6d0" => :mojave
     sha256 "dad2aeec1b1ad6a0af16f05a115c71a0ad490d40a8612309c1b7a0501146cb60" => :high_sierra
     sha256 "5e368815101d3bead19d1fd9223073448f06c9acbd329236926b5f0ddb64dbcb" => :sierra
+    sha256 "2ff8d21ec5de223676a5e846513918af9907b9bcb6af03d81bd4bd2e43a5d3b8" => :x86_64_linux
   end
 
   depends_on "gettext"
