@@ -6,10 +6,12 @@ class Cli53 < Formula
   sha256 "f2c7dfafada86d9e75067b6db5c8dcfb6c5d9e3edec5bf780495219b6049efc9"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "82e7f1b17ab07fc2ce7b70ee460d762c3044ea9321de7f1290a33d931e0d629f" => :mojave
     sha256 "aa503927d31112aef3c44118762a9b3bb30a3ee5329947427903c25eae6baea7" => :high_sierra
     sha256 "045133ce67ca54c26ee6b64045c9e7c954f169ce683293350305773e20f2db23" => :sierra
+    sha256 "b3d63a653a525ded6a3a206ba602d4901fae169f18bb25302122ca74216f86a2" => :x86_64_linux
   end
 
   depends_on "go" => :build
