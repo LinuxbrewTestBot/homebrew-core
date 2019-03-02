@@ -7,9 +7,11 @@ class Axel < Formula
   head "https://github.com/eribertomota/axel.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "adeae5381b5f2af22d603fbb6fac26db979bba83594ed3a3df1f37111052242d" => :mojave
     sha256 "2cf88b747ac4b3e70e20248993abbfc4e00ada9acbab151f8df333901394ca23" => :high_sierra
     sha256 "509b1d7f66f4cd73750f6aa67e6cf081d53b358d78c2b7a489d9854b76042c84" => :sierra
+    sha256 "144bc4e688e765b7aab862628c092b2675f2704ec9a8dbde013a11792138ac7e" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
