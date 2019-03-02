@@ -7,10 +7,12 @@ class Hub < Formula
   head "https://github.com/github/hub.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "b23b59540c95ee7b987ff1c8bb494b57b971481a5dc92709833d17a6eb766af3" => :mojave
     sha256 "b688a3df107cc125a8b964466793972c7392cf0af7b530ff26124f8270b959c2" => :high_sierra
     sha256 "90f5efb667658b5982b9ae2e71af04836bcb5046c20cba5c5dd30219c2416394" => :sierra
+    sha256 "a1bb397039caf852220fdfba1b80fdade68b4ee7baf86b3e2843c3ffa5a29e9e" => :x86_64_linux
   end
 
   depends_on "go" => :build
