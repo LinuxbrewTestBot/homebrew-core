@@ -7,10 +7,12 @@ class Terragrunt < Formula
   head "https://github.com/gruntwork-io/terragrunt.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "4649bf82fbf8997592b649e91e1a2bb7d25efa972789091dad9a8a1740d2b7cb" => :mojave
     sha256 "ac0313ed9e2e6c7042ba0ac134d439b216421c08fd80fe8f0c2f83ecca581d38" => :high_sierra
     sha256 "9a53cbaab8b28a8426a5aa57cda5de876eeb5da5d1c8fddc000cb60275aa578c" => :sierra
+    sha256 "4b1ca0078fc4610d2755dc0bc5f001e72feb23220ede67c281a8060d99c01440" => :x86_64_linux
   end
 
   depends_on "dep" => :build
