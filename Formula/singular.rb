@@ -7,9 +7,11 @@ class Singular < Formula
   sha256 "79d6ed8489ef08eed4d4f4b8f8be4ab4da70f611e0b8889fdc6f825f25981a84"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "7c3a5b416a29576bcff523b4ca9ba2eab2e33ba239f52403dfb2561bb0ab47fd" => :mojave
     sha256 "52213af26995625db95a5d0c440bba6cdff5edec858baefff5de1b71a3705e84" => :high_sierra
     sha256 "8832f44be358f6f939268a1e0da3af43260e207f103186e21949702bd2c04848" => :sierra
+    sha256 "7306c95e2623d9a5e9aff8425019068ca61654a637014677534ce7102c1e667b" => :x86_64_linux
   end
 
   head do
