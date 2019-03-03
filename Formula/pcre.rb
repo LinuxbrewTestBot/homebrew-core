@@ -7,10 +7,12 @@ class Pcre < Formula
   sha256 "91e762520003013834ac1adb4a938d53b22a216341c061b0cf05603b290faf6b"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "08e7414a7641d1e184c936537ff67f72f52649374d2308b896d4146ccc2c08fe" => :mojave
     sha256 "0389911a93a88efd4a69b52dea8ecb872fdb55bcfff45d2f7313be5f79730861" => :high_sierra
     sha256 "02966e199e627803e700bc1905bf30a07f87f82bdd627cc7e915966af727fd21" => :sierra
+    sha256 "c5f2a6176065d9e76544240357026c6da7fcf661f7f6b0ff30e33242a4c778cf" => :x86_64_linux
   end
 
   head do
