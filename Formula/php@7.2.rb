@@ -6,10 +6,12 @@ class PhpAT72 < Formula
   sha256 "75e90012faef700dffb29311f3d24fa25f1a5e0f70254a9b8d5c794e25e938ce"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     rebuild 1
     sha256 "8968abf6810183991c1e74170b2dc6d5278f63437e22d9210200405c658eaf0b" => :mojave
     sha256 "84263102d3cf9bf2d36948f1b109c5f44683640c1d59579a1d5be0ce524b7a73" => :high_sierra
     sha256 "c1b41804f586a52286baf546291d34cbcb1eff7199b43f549d474a21f41c71be" => :sierra
+    sha256 "f8da4f3494123ae38d50bbca0dfb9945b61d3de5e0d8660ab7e0d7cb1f33ea82" => :x86_64_linux
   end
 
   keg_only :versioned_formula
