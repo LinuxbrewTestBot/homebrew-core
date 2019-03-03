@@ -8,10 +8,12 @@ class Dcd < Formula
   head "https://github.com/dlang-community/dcd.git", :shallow => false
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "13b8e41055d50cebc054cb3c3be9a83f4957c655cc6b87567c2fe97c42cb3641" => :mojave
     sha256 "e19e1b335cf1f87ac7b969d01a87c4fcc0c0565cba4357cebbcdaa4e3646a64f" => :high_sierra
     sha256 "dfb6b5d7a1ac63b64d5d702132fbd3953ccacaa4b0554234a11efa80ec6f79d3" => :sierra
+    sha256 "a81b78061b76dd94ae91eb87bcd2637d6abcbe8d9d7860dbc054d5e88f7ba8c4" => :x86_64_linux
   end
 
   depends_on "dmd" => :build
