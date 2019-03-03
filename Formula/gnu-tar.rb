@@ -6,9 +6,11 @@ class GnuTar < Formula
   sha256 "b59549594d91d84ee00c99cf2541a3330fed3a42c440503326dab767f2fbb96c"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "62ef2c92bf090b1ada1b8434034be21ac4534e9ab81388516191b7cecd6c095a" => :mojave
     sha256 "440e9a400c184e76bff84b0b634b1a103231409735c4f7885404d9619ca96c43" => :high_sierra
     sha256 "d245b143eae5179554fca39cdaf37e928e85df8956087d43c5ec0ac968f6c0e8" => :sierra
+    sha256 "d70d10d0ba6ccd6181b52965e4b5df9d417c32b85a4a889581f797cf96623a94" => :x86_64_linux
   end
 
   head do
