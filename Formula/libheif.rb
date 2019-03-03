@@ -6,10 +6,12 @@ class Libheif < Formula
   sha256 "977a9831f1d61b5005566945c7e16e31de35a57a8dd6eb715ae0f40a3595cb60"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "b79d458a5b9b582904c38c2d4f0b05bb069863811dea7b5b695caaaef3bb2b08" => :mojave
     sha256 "a991b6fd3bd4690d7e4dac089b5830ede7035927e89d26371f9385c6f8f2a491" => :high_sierra
     sha256 "ddc2f6949d0ffb2da755fe900ecc09519797bc302ca5f74d53ad7e76b86df1e8" => :sierra
+    sha256 "fed067eed5c22368697e0a8c0a687d4e6c8316e72af539ace3a85e1b5db9c160" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
