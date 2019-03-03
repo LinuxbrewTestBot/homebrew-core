@@ -8,10 +8,12 @@ class Auditbeat < Formula
   head "https://github.com/elastic/beats.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "510071d1030d7aeb2ef1b147d94cd2c5dc16bee13d4db6434286a8b6ed4eaab3" => :mojave
     sha256 "b035f34cbf9b97ed1061be71e7ba4cc15614964db82219c1a385199307fe2724" => :high_sierra
     sha256 "299d6df634d7147e816051760c42ded348f0a74962ec0b3a4af010aff2d22d34" => :sierra
+    sha256 "ec8d97a295cd34e401533e6affa55e39cdd594b0c5268eff4872f8203d405933" => :x86_64_linux
   end
 
   depends_on "go" => :build
