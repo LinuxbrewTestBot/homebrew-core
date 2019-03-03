@@ -7,11 +7,13 @@ class Libmxml < Formula
   head "https://github.com/michaelrsweet/mxml.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     rebuild 1
     sha256 "a2b4ef33ab0e325d90dc981a1ec1dcc51cc7f655f9dbfdf4d1d22b77f2c485be" => :mojave
     sha256 "fb7036772610237c6f56e3ce22d3ca4d48cc6ee0b9274bedb5cc40468fa9e2ac" => :high_sierra
     sha256 "d4593b0721fa4cdec6664b30cf908fc70afa14cc904cf62cd6302c6435cc9c98" => :sierra
+    sha256 "1056aa8efdb818cb9effdb5970d693cb356f1fc887f989a91b2af947023e5456" => :x86_64_linux
   end
 
   depends_on :xcode => :build if OS.mac? # for docsetutil
