@@ -8,10 +8,12 @@ class PreCommit < Formula
   sha256 "534f806f4b0f515f3c1434e0f5d1036c798cb6434173fec46989b877865e308c"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "a17729ea74e53b54fb63a5db6631738ee693ae907503405f3d4d1dfd98f0a937" => :mojave
     sha256 "50b7f9f993044dab6dddb84a73155035c36750d966fea0425797de5bf6c0fdb2" => :high_sierra
     sha256 "37731e8e2afd32fdf6fec08cd47b9dbb524b5ba744d2f4860a7c8c9932b8d9e1" => :sierra
+    sha256 "4dc2b1882a7ee5710e9c55a88ad3f70ffef0f27e20f55d97592b399f37a41a25" => :x86_64_linux
   end
 
   depends_on "python"
