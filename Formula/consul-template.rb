@@ -8,10 +8,12 @@ class ConsulTemplate < Formula
   head "https://github.com/hashicorp/consul-template.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "7559cba6cb21be7511ef392022525f592a357598093f1169b90a6e5305b14ba9" => :mojave
     sha256 "06faa71caea243c485c42cc7e5401b973462ae191bb3a5fd89527a6dcaa0beec" => :high_sierra
     sha256 "f5d28452d05955eb0a95206be5d2252f6e4c25438c6a57d7d854f7a1d8242a3d" => :sierra
+    sha256 "2e9386326dc2408ba275338a909b805f8525213cdc32d76f4d54b26d3d1c2967" => :x86_64_linux
   end
 
   depends_on "go" => :build
