@@ -7,10 +7,12 @@ class Crc32c < Formula
   head "https://github.com/google/crc32c.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "280f1403560b15c47c7a329a3669c31a07fd79c4875cba6a5e9a1165ad20954a" => :mojave
     sha256 "6a23ba0acf485b27659e8e7058609551c218d6af53f583b0a911b6e8f3c5cde1" => :high_sierra
     sha256 "2dc0253cc78c964e53f91ac533a8f8c42b1516b94611f2de32270f6bb4193399" => :sierra
+    sha256 "f21515273d993991fe5ac74f00f0a88d5e86212cf5224fde7082684a3b9a1c36" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
