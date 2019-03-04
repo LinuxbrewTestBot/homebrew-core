@@ -6,10 +6,12 @@ class Cython < Formula
   sha256 "6c5d33f1b5c864382fbce810a8fd9e015447869ae42e98e6301e977b8165e7ae"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "160bf3b99006737857f859995640f2e7a6034925866d2f3fb1d11384c2308a86" => :mojave
     sha256 "5dbb62c2f7110d8dc73792036326a6282242837a98cf6c1122f7ddd7ff937eca" => :high_sierra
     sha256 "28e1eb3bf054ce949d40076fa46e59642b2db629fe4091747f2bab4fdfa57005" => :sierra
+    sha256 "ba75b4ecef8dde8242a931ae87b1d56e11cbce21ca23e766c1e7ea8aa7569de3" => :x86_64_linux
   end
 
   keg_only <<~EOS
