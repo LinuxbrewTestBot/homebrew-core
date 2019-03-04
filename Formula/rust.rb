@@ -27,6 +27,7 @@ class Rust < Formula
     sha256 "389306c833e28e2c73c09d9a537450fc8d694a74a5a8fb7a5c3e354f18480d9d" => :mojave
     sha256 "0f20a39e8a85692d4d3e7176e7788bbb8f34df5458dcf84aa2512f0e9f09cd97" => :high_sierra
     sha256 "595d65666fe7181e0c21136f5393070b747436751a84890a0318ccf184e21e86" => :sierra
+    sha256 "f42b980558fcaa68ec80903c48b7cc7cf6d7129922aa61f4b16d5ee234ee2f3a" => :x86_64_linux
   end
 
   head do
