@@ -8,10 +8,12 @@ class Deark < Formula
   sha256 "2243e98f9b75f7c8c9ab2881259221ba8d719a6903dd1fb013e6957411c9d6c7"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "00f53a4073d77a67c2e8d295a68a955babfa90b6235ca3fe77e95810d183beb7" => :mojave
     sha256 "257c40c3b7e30b1c61846baf6b8f22c550f540967b9b7be0b1aaa7864dd3645a" => :high_sierra
     sha256 "7393b4d3b5034571e2b728d9a5fd290e4b3d8f809723de1f71dd5216bcc291ca" => :sierra
+    sha256 "b801b46fdf8c2536f4b6504ac08286d69978b9eb2a9622973a5652b2dbdcad24" => :x86_64_linux
   end
 
   def install
