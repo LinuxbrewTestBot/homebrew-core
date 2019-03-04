@@ -6,10 +6,12 @@ class Xmrig < Formula
   sha256 "ac71836e0320ca73ca7645216b0ed0a2c04497fcfd693225b1da1d29112e30be"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "ba16d9d40716caf249604ce4e2de463c81c5df9c9e7761528260999e6c025cd2" => :mojave
     sha256 "0fc02495b28f28fea5ddc01a5a3a85bc90c9d305b8305922263abb82a037f436" => :high_sierra
     sha256 "897f0e5c27964bf605c7898692e9322a09c514de56a13c3d682ded6fb123ff7f" => :sierra
+    sha256 "34d61cc0f5bb3f8135c9382b4c2869a18120f2633250c563194a5a687a3916d5" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
