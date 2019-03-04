@@ -7,11 +7,13 @@ class Jupyter < Formula
   revision 5
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     rebuild 3
     sha256 "b37596a5d6115045e04b687d6d90bb00c15ac544a3e5aa04ea66e60af099e622" => :mojave
     sha256 "390459365be4e3007c3b8c138ecf0bd2dd7c607f487b109b2664437dfab4dde4" => :high_sierra
     sha256 "0bea4243d77414c5b6d7bb126f1f789a81e5caac781c8e2a062918c8b835f70d" => :sierra
+    sha256 "ab0c155b546593fdcd221f01af9577ad5292ca97691eba59716e0c918f04a7af" => :x86_64_linux
   end
 
   depends_on "ipython"
