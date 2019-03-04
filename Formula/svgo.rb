@@ -8,10 +8,12 @@ class Svgo < Formula
   sha256 "ff832bc1dd2dd6f01638b57f288539df7be2a26bb0d941e0d911f974f66286a1"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "cba3a6b0a6f572186efa9fb3d8f27f884d7527f2f0d9490c7220297f69c18813" => :mojave
     sha256 "6e29dbbfef143135466a6a4d0926944acdd13a8410f6f7209d2ac90641224738" => :high_sierra
     sha256 "b4fdade15b336b801f0bd862f05c1407f851f6203cbe82bd4e87966778035a68" => :sierra
+    sha256 "69a51175cd470a3e6da52bf331d81fa4bee9da821739c85df9be52e2d25449fc" => :x86_64_linux
   end
 
   depends_on "node"
