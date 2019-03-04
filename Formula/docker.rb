@@ -7,10 +7,12 @@ class Docker < Formula
       :revision => "774a1f4eee66e29a71ca12e88ac2220670990f7e"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "da04b59ffd9347394a0d862f86a8852738fc836e6442fad8571cdbc1a4733f8a" => :mojave
     sha256 "f7b23cb7412651d2046cbb1bf0edeb9d6c3181ff7abdbde5737df4619c8d4348" => :high_sierra
     sha256 "bc2c84f41865e178b5f4a5c6dbc1652259818f73205f759931df264dc269ba67" => :sierra
+    sha256 "9634b2e5994ac8659563103b5f97a2e4dbc4fc7cf63c9f24cc9b9da32a3c200d" => :x86_64_linux
   end
 
   depends_on "go" => :build
