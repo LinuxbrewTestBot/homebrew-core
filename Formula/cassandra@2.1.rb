@@ -6,10 +6,12 @@ class CassandraAT21 < Formula
   sha256 "992080ce42bb90173b1a910edffadc7f917b5a6e598db5154ff32ae8e2d00ad3"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "47ca86c5d1cf581e53f47e51d7ca79c42b65dec999f66776c64278603f6e3def" => :mojave
     sha256 "8c6e02cd3c1310eed4e3263df8a17ee9260482f2e5cae6ce2a440ea7a5252fdd" => :high_sierra
     sha256 "4d3b23140d99eab938d61efcde0e7e265693fc07d95656cc5cb8e29eae239ca5" => :sierra
+    sha256 "41469378c84aee5e203a952fed19c678ed9cf46a54012d6acd44e3937fa58a2b" => :x86_64_linux
   end
 
   keg_only :versioned_formula
