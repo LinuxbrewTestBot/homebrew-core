@@ -6,9 +6,11 @@ class Libsecret < Formula
   sha256 "3bfa889d260e0dbabcf5b9967f2aae12edcd2ddc9adc365de7a5cc840c311d15"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "2a7841ebb35b24339e28543b80f73113774dc297dac8e5b6c072cb0602eb3515" => :mojave
     sha256 "6c761141ef146223b516a600c99fa75bb4863e60b09aa6b65da4bb19df3109c3" => :high_sierra
     sha256 "a3c6bc66b02a4e4f4a554705e4dcc0e6fbc670f0fa71f485dbb2e6c9392b049f" => :sierra
+    sha256 "5cff9b41a8f6ac093b31de1ec2344c36eef8b057a917e823e2fdff3b722b716d" => :x86_64_linux
   end
 
   depends_on "docbook-xsl" => :build
