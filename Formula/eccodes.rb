@@ -6,9 +6,11 @@ class Eccodes < Formula
   sha256 "f75ae5ce9e543622e8e40c3037619f8d9e6542c902933adb371bac82aee91367"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "206d6ce9f403dae9f4c99ce23c8148a8d66ab8b60d436f6258a0b1d5ca7e9590" => :mojave
     sha256 "7612ef3aa9fbc4360126e41440262bae526832f78b69976a6e4cdfff3b3c11e1" => :high_sierra
     sha256 "26bc88ede8825c8ee97b8fd79440c6800017842e8da789ae04df27d2df9c8dc3" => :sierra
+    sha256 "f42fbae86cba2b62b5b44840191f1c420a5b9eca79e166d550119495f5e14461" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
