@@ -6,10 +6,12 @@ class NodeAT8 < Formula
   sha256 "6b6486a3f452624941f6e11dd5f878c298d43e9c21b5f43ca1721dc7ce25add1"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "99d7b256e5090592344f21eba78066a1668e4001b2d0d4906a7b805f13022492" => :mojave
     sha256 "21efe0a7fd4105434e0ce75a66554f8ccaee4adaa20c1712121a44f51931c58b" => :high_sierra
     sha256 "5ccba12493760031b79345b84a6b4c662cbc387ecb1fd4c34e7b9af2dbcc4ea8" => :sierra
+    sha256 "1e4bcfdff11f4ef79ecf1807a53fe53a42dd610b36b9828ca6ce516fca9a84e2" => :x86_64_linux
   end
 
   keg_only :versioned_formula
