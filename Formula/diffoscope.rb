@@ -6,10 +6,12 @@ class Diffoscope < Formula
   sha256 "d3897bd41969e655004854a31f8874b24081dbbb3dabda9dc7056df759443e03"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "9c00e967bd8ff40f180d55bdb0d44a7734bfa46ad28c90127c6974e94a58bb26" => :mojave
     sha256 "321efc969ee81afe2963d9a60e300a50ab1b7ac17fe8b275fb1360c42fbb1161" => :high_sierra
     sha256 "19565fdb3bfe1dce16b6210d4a0e1e874c2e3d38b922dea59f92e63bcde8faf9" => :sierra
+    sha256 "636cb6008e22d48ee5170c141944f9aafc33f7bff6dcd5233fed00bb9e9f3e1b" => :x86_64_linux
   end
 
   depends_on "gnu-tar"
