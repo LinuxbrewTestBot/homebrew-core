@@ -8,10 +8,12 @@ class Godep < Formula
   head "https://github.com/tools/godep.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "86eebfa5fa958aef6dfc8d9e47f51890c472483d4bbdb0955cfc18ae32d4a9f4" => :mojave
     sha256 "29a7cb0d070a05ec70e099c3c3766b6725d0cc5f479d16ced5885dc041e65231" => :high_sierra
     sha256 "d7fa024503562ba44d9e7ce91e65d41b9f85645b65f4fffbfc50f58d88a75eff" => :sierra
+    sha256 "6f589dff9fb53cd405e19ddd9db90eae965c0d69c0570d1a167158156bdddd11" => :x86_64_linux
   end
 
   depends_on "go"
