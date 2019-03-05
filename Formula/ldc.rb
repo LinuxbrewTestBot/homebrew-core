@@ -7,10 +7,12 @@ class Ldc < Formula
   head "https://github.com/ldc-developers/ldc.git", :shallow => false
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "2f1aa9300d244dbeb1a14cc358fefc86b7bf4d76885edb18c1778bf3f391bc43" => :mojave
     sha256 "cde039bb59b8922df58bb395b649dfb643a14caac2afd2abfcf3f25b5f055f28" => :high_sierra
     sha256 "ac65b80edd5acbbdb0e75b5eff174ceaa0e4e67f0f6e7d27027636fd2206d969" => :sierra
+    sha256 "b71378d2ef9b1c64e5818de0d35a4a81c9ca0287fc2fe0f28e0955e54b58f307" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
