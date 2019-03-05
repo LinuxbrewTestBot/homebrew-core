@@ -7,9 +7,11 @@ class Grpc < Formula
   head "https://github.com/grpc/grpc.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "f10a63d499e31fafef32ba2ffa3028b8533b9d294c77fd9f22916e929d32ef8b" => :mojave
     sha256 "97699ed8034acf2e9f8372516ba1a684e6d280fd909c0835b0b6c251df1b5fcb" => :high_sierra
     sha256 "a7bb32ebdb2c9ec465232946ab333a27e55bc3ad395bc62e72eaeff87623152b" => :sierra
+    sha256 "9f4eddd9f0bf44d7f6c6a79c443005f60036a285266ed277a8af192d7e1dde5a" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
