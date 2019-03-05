@@ -7,10 +7,12 @@ class ProtobufC < Formula
   revision 2
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "613e0a3df1b9dbb35a1a953d436b82eae60b0a905f122603d337ffccb7157455" => :mojave
     sha256 "3b5e1bf7fe80fe15a1eff307e31f7aaacbb572855fa6a390d1f603e927b4530c" => :high_sierra
     sha256 "c2bd07c29b6b7371f7b58a462f1b45895d8ae302bdf0f7ce8c7c53529bcb715b" => :sierra
+    sha256 "855f5c648a5deddcb14e9b341b8f880acbb79dfbba4a8cfd9e9c10fb10a7fc98" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
