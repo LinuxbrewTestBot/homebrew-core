@@ -7,10 +7,12 @@ class Zbackup < Formula
   revision 9
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "6f90dd99ebcf108479b5c8b8277905096fa9f13b533b466e07ea6f3eb4ebc839" => :mojave
     sha256 "6a4bc9f7dfda15391161d00ab8add5e955d48d01c4e9fd6cf64bf2dd53f2b90f" => :high_sierra
     sha256 "c52a21ad7a2ef67525b77fa7ca8df46ae0f3d1a47e6b111633046af5161e3539" => :sierra
+    sha256 "b2c911d3bd6b39d68da91fb03634ca5cd7db7415527366f588a623c1676291c4" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
