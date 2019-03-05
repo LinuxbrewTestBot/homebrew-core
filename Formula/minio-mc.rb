@@ -8,10 +8,12 @@ class MinioMc < Formula
   version "20190227184428"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "30889209d94171a492c4d7b3425115d39741f6e173d0a498eec7fb99918bb879" => :mojave
     sha256 "8d647ff8564e4aa38b366b5e9530819c5f8ff943c3ea69756bb1dfed545b9f28" => :high_sierra
     sha256 "dd6f850d896388d43d9ff7aa0aa92d8be935dc40cf86519ecfcc19d0b6d5b82e" => :sierra
+    sha256 "7b6b752a8678ffe2b46315901b0083ec644bc9f29bf031d053e5e40c2513abe4" => :x86_64_linux
   end
 
   depends_on "go" => :build
