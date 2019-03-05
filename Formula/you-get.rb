@@ -9,10 +9,12 @@ class YouGet < Formula
   head "https://github.com/soimort/you-get.git", :branch => "develop"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "a796e2ca52021684b22956210974e98ee1aa5cb3311fdd5f8d65faa52b685363" => :mojave
     sha256 "fae019533cf4f03d85e31ba68f7b54dc1a6247ff6196514ab748826939f0a6de" => :high_sierra
     sha256 "8037a36a2661e148ae7f67f4c7075024ea978b381dcea3e65facd17d7f79faed" => :sierra
+    sha256 "22bcf24a7731fdfd4ef7a6e1dd070821a8d4046f202777f22f5df41febe4162c" => :x86_64_linux
   end
 
   depends_on "python"
