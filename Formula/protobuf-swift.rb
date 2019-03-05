@@ -7,10 +7,12 @@ class ProtobufSwift < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "bae411c98ef6433579d163c3768da147faa3f467dd9c194c1de0edc57fbc1863" => :mojave
     sha256 "ac056837e13336ab4a19148fcba9638b2598409ef81eb7fda97f8db3b4bca573" => :high_sierra
     sha256 "810002a7d999354ec824b101a8c3fd78c7316302fb98d2ff056e577f2aafd9e7" => :sierra
+    sha256 "5e354847afcd356456b60b239a6fe733829e0c8db9be573b774636908b09a329" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
