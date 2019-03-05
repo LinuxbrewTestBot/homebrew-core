@@ -6,10 +6,12 @@ class Fn < Formula
   sha256 "58f3ef2772a9d1d218311e52af311b327649c98f18604116b1208c65dd823fe0"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "cf7d56ceffc4f78729880314efc2f89e338322ff671340aea22e4c4ecd68eb0f" => :mojave
     sha256 "4efd3009a4f861c8075fbe6d2e0a18ad1e814c4650100475517a00513a95f1ff" => :high_sierra
     sha256 "651c3103c5ba669130915ca34f143b5bd7501d06f69814a278c691f382afb64e" => :sierra
+    sha256 "5843dabe059717309e199f8d2dfa1baa1386f34abf2c94f3130ad62a63040678" => :x86_64_linux
   end
 
   depends_on "go" => :build
