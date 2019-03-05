@@ -8,9 +8,11 @@ class Protobuf < Formula
   head "https://github.com/protocolbuffers/protobuf.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "5ff917a16f1625e980e3089c4da5ee9909f4e3b0fc5c359a5e1b0131a7787c2f" => :mojave
     sha256 "137739ea611d2f81669992ac2c39e24d335b687cc2cc3aad3f9e82ff8bcfd583" => :high_sierra
     sha256 "060b641aea6ea4e89713e2c53a7d6b70340d92e84681718694fb0323f7accec1" => :sierra
+    sha256 "b5491e74f4b8c64dfa27a382ae9533ef5ebba7c938f930d6cdcf0ce77d24ca3b" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
