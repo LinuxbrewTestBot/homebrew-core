@@ -6,10 +6,12 @@ class Debianutils < Formula
   sha256 "099f1e8a7278b26145a2ba2dda84c4118403bfab38c8d7070a6235a7ffcb55ed"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "d34836dcdb11d0fc332d8f4daa871279f1e88d50a1948b51d2de81241fd83cc6" => :mojave
     sha256 "842f6907d6005f4379bbef6eaedaf749c37c3d2179447b80e3239b99ee864deb" => :high_sierra
     sha256 "c530b6e5122e115c6d95120c2477a37e6bfc06a84cceac7e134d4c2aeb5407bb" => :sierra
+    sha256 "f4fa4c0e43aa1c7d752850919744417e30a5e0b514b4bde87144a4e2b84c1b4d" => :x86_64_linux
   end
 
   def install
