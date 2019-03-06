@@ -6,9 +6,11 @@ class Libpq < Formula
   sha256 "2676b9ce09c21978032070b6794696e0aa5a476e3d21d60afc036dc0a9c09405"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "7683b433dcc0a91262c223e58b5881339d9c8d424642f5fa27ad4db565ad8f36" => :mojave
     sha256 "7748348f3edfaf8b3838d80374ab80f715dd7e0bbb45b4a75af5994ac2582d29" => :high_sierra
     sha256 "1abee44829b2d83b96c144d0c54bb0efe1d4f2d05bdb0236965a32df2c23c69f" => :sierra
+    sha256 "b6ba2ce5d7102235e727a763948c18f7acd4fc0a08353c7fd52e19fc01286a97" => :x86_64_linux
   end
 
   keg_only "conflicts with postgres formula"
