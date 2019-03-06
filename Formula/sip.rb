@@ -9,10 +9,12 @@ class Sip < Formula
   head "https://www.riverbankcomputing.com/hg/sip", :using => :hg
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "c4fa78c446020cb0e781723d865c816f6f89c6d6757ef18eb80c8b16dbeb2674" => :mojave
     sha256 "ffc228d8ac967c7c1e72424f895ffbedc79a85589a6850b47372813493629f72" => :high_sierra
     sha256 "876c2aad8b03cc2b28432d424b17e713b902d4f7739aef6c7dcd2fd08af02606" => :sierra
+    sha256 "dd5c04f2b473d8af173501334e969f11cf81032836cca4d321ae0348a84fc189" => :x86_64_linux
   end
 
   depends_on "python"
