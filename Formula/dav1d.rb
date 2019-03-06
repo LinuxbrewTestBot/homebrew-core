@@ -6,10 +6,12 @@ class Dav1d < Formula
   sha256 "b7d0db946e112f46140043360a0d7dacd5b3087cc888fffcb4d2eb90e85a0d60"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "e8d8655cfa9d860cf47ba42ff921827b8b2a04dfd6786b84783292d56e388bd1" => :mojave
     sha256 "0f505fe84980775e24e10e5224a2ae8efc88adf4837d9e77813f3a6cf81cb40d" => :high_sierra
     sha256 "576290d7056e20eb83b8d418276a95c169dec35b6b132850f8adb1a06a86e0ba" => :sierra
+    sha256 "606fd714933192b4d49e5e61aeb3c080bbb851f7e19720f916bb485200f5b1b2" => :x86_64_linux
   end
 
   depends_on "meson" => :build
