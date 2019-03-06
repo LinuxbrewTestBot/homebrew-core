@@ -6,10 +6,12 @@ class Akamai < Formula
   sha256 "5f9d2f3db4ec3b3df58726a578e2448b8a5b882d9694545ea0da7f75dca8c410"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "2e3b1f3e9e6d2619bd5444b1bb1c3a126bc9f2bfcccac81974129ea43c111116" => :mojave
     sha256 "7e85b290fe5843bc92b21da75a678d847e9ac7d922b9b2b7ece0cd7afbdb3ff0" => :high_sierra
     sha256 "d0ca84bd9e0591b9ca14b6a8b908a14051fe6580a5f7d981f4134db92078bcaa" => :sierra
+    sha256 "c536caa5073cf3cca59dd5e44e3f02c1e7aa7154b7e8e4529626791ea57dd134" => :x86_64_linux
   end
 
   depends_on "dep" => :build
