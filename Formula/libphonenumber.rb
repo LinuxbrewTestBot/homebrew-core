@@ -7,10 +7,12 @@ class Libphonenumber < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "e2e472612c4afa11d14642158306b4093a0ab3a80f94544125722d59284acc71" => :mojave
     sha256 "bb87950093665ef4060c7c7adf2c8eb1cbd9e3f020b5293383939b2eceabcce9" => :high_sierra
     sha256 "c2d8597002956f23b3dca41feb8b5290010bbc684f343eccabe7908d89951dec" => :sierra
+    sha256 "afd4fe469f8270bdaa047af75ba23ed340351fb95f68477f5004d7fba1250ca1" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
