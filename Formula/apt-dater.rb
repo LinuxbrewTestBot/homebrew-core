@@ -6,10 +6,12 @@ class AptDater < Formula
   version_scheme 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     rebuild 1
     sha256 "c0511a22aa94d42d26e1d314e13f87375bf57d4fbe1fb8ca3532ab250e751d4d" => :mojave
     sha256 "b8766c0ad1bf2a0fbb50a9bf062c53aacb98855307732e9df866651f13be3aa9" => :high_sierra
     sha256 "7c90d33ef6d7c577506997b998fa286f9f54fb0acf47a3590e653fcecc840a14" => :sierra
+    sha256 "89003f15322b452f709bcba840b9b32f7edf27240b4977326dd1104e3c2ce1c2" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
