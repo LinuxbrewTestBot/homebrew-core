@@ -7,11 +7,13 @@ class Gpgme < Formula
   sha256 "b4dc951c3743a60e2e120a77892e9e864fb936b2e58e7c77e8581f4d050e8cd8"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     rebuild 1
     sha256 "ea06301a5f59abbc2274e6dd26825940faa83fa1454b7ac11f23682667d7b643" => :mojave
     sha256 "a5cb71352d5f494a8e00cb8d410a65e6300aeb5d2ed4049523fd39f3b519241c" => :high_sierra
     sha256 "e7303c04a642d079c366943e6ed011edf90651dafd425767fe87885d8cc29025" => :sierra
+    sha256 "d034ef14559a5a17b5b6ebfe55c5b8a446f7ad806d0d2879a3a94d0acdb3a132" => :x86_64_linux
   end
 
   depends_on "python" => [:build, :test]
