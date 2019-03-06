@@ -7,10 +7,12 @@ class FaasCli < Formula
       :revision => "0df6d3fd2eba8fea989c65405080dd5ee6ff33c5"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "93a3e1d58bab7b60d6f27dfdb042277ba6069ab368d7f53b77257c85b5e9ef39" => :mojave
     sha256 "ad5cb9be416756535400bc0e19ac9dba4955793a3e5187e996bab3cf0726bea0" => :high_sierra
     sha256 "c43ce3da128f05b44d2cf1a1e196a888d5330369910c2a26a3623a4eb293dcbb" => :sierra
+    sha256 "82cd5023be9c44c7179b3892d597b4de2f5e962c448e6e3acb9e53e8bca0dd93" => :x86_64_linux
   end
 
   depends_on "go" => :build
