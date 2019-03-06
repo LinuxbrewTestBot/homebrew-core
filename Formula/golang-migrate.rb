@@ -6,10 +6,12 @@ class GolangMigrate < Formula
   sha256 "2146d2f5ab2c7886d4eaf4b5a7faf114231f86f5fc22b0ccf197cef859aef4a5"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "74fb0b67b0be8a8d5f119d6ebc90b44803797d96adfb70b8c4f1cb97a4fa2d9f" => :mojave
     sha256 "d4a593ef49ac517e8172ffe8a2927d15e2cb082f4ae8250f1634abf2a59b06ea" => :high_sierra
     sha256 "fed9aac30a582172f945eb806e783cc788d9450ff444632c5d40cfd57dbb9f59" => :sierra
+    sha256 "65e9bb42fe66779fc09cc7620298288e23e4dfde55e9379ab8be20b071b4847d" => :x86_64_linux
   end
 
   depends_on "go" => :build
