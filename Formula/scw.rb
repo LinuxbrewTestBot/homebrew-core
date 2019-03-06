@@ -7,10 +7,12 @@ class Scw < Formula
   head "https://github.com/scaleway/scaleway-cli.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "ab6884f3d8014367040f6e8846ffc0c76783ff164beff1966740f55e3f2f7683" => :mojave
     sha256 "b3af7992cbdfe233dd3f897001ea5ca8053ee540b282c1e2de4110e70a5226f3" => :high_sierra
     sha256 "4f2ddf1b9a4dd05bf431618af1849345ad2b2f476a4be0f9e9b5804019a7e114" => :sierra
+    sha256 "e291011d8f5a2994b1de9094ac9f64dca3d9cd1e7e919b9aacee79290462901a" => :x86_64_linux
   end
 
   depends_on "go" => :build
