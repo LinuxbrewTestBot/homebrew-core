@@ -6,11 +6,13 @@ class Fossil < Formula
   head "https://www.fossil-scm.org/", :using => :fossil
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     rebuild 1
     sha256 "1f166b784e43e79f1d093e1aeac2b1d805704652204b385e8ac24f6f45e03f92" => :mojave
     sha256 "069768fe35f9cda0bad842b90a7d10f1b4c813554403b7f4023ba5cb73a8427b" => :high_sierra
     sha256 "f6dcc3ac3c4c0f7c3ee2d96b0dcf43705a1853b60705f84e6aab2273e32bcdca" => :sierra
+    sha256 "f62a3e5db2772d29040d8fbc9952ef1beac9bd7bed16d35f01ba4de040f0cd17" => :x86_64_linux
   end
 
   depends_on "openssl"
