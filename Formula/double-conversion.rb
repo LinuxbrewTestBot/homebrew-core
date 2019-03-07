@@ -7,10 +7,12 @@ class DoubleConversion < Formula
   head "https://github.com/google/double-conversion.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "cd5173ce53c54f9368ae8e18fb92f557c067bc74b889ce783b88acd07523908e" => :mojave
     sha256 "c7c7faa463dc0be1e89d5dd41c5569b87ae3c5369bd8b648c7541e9d5729297c" => :high_sierra
     sha256 "c11f0e5382d621b449a580a506bbf53d2e392ed6c83937244cdaa40d7f857d91" => :sierra
+    sha256 "a745c1462b3f6da50018d2404f36357d467b814d071564689f6216af89cbf780" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
