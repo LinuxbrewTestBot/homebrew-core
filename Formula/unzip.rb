@@ -8,10 +8,12 @@ class Unzip < Formula
   revision 4
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "06aeb3114e2a030970f0d05424e9f2b2f845a2a5643065f173ba6a70e99970a3" => :mojave
     sha256 "0e76c4b9f38e8de22409e666894400b95340271144e44bd408975a8d0100b942" => :high_sierra
     sha256 "5445d1be98f82d7d4d4a01f930790d0745c845cdbf1a7ea23d07f7fc295d6f90" => :sierra
+    sha256 "af7c92535b17ee6fa9eda85f07381292e784ade07e1ef60054209aecd6e0e794" => :x86_64_linux
   end
 
   keg_only :provided_by_macos
