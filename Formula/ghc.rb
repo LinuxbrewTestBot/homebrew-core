@@ -10,9 +10,11 @@ class Ghc < Formula
   sha256 "5b5d07e4463203a433c3ed3df461ba6cce11b6d2b9b264db31f3429075d0303a"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "4a2c5a01f9e3ef499a30b25942e4d52ee86e2cb902b33dc11c1065948b9c4e50" => :mojave
     sha256 "72e530954801084477803d9f37265f4c067ab23ddae13826ac357acf954bb725" => :high_sierra
     sha256 "b115dacf7a6fee79a2c929d9406258e975eb6348e1471b877fe3122c80e6b4a5" => :sierra
+    sha256 "98e85c2e030151127b7a2ad1d5525c990f04ea81dc4e71235bed5eb99e4c0c53" => :x86_64_linux
   end
 
   head do
