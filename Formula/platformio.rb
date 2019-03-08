@@ -8,10 +8,12 @@ class Platformio < Formula
   sha256 "5ac22d4b171823a92d3f7234dadaed755766b2aa94d376aec39a30245a0ad82f"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "e6fdfef54f75aeed367ee07e9a4904122945344a8164e036eeb36d58eee02400" => :mojave
     sha256 "44129630e9696d83186065d92a74d18abee7f018854b36a73a94c6aecfccba4b" => :high_sierra
     sha256 "88070b6f44f1549399d2bfb726ef8e580ddd8eff968c8a12b91316d8306d5dcb" => :sierra
+    sha256 "9d1eeb2fa595acb0df7d90b94969f0a79da991845c773a1a823af03c0627607c" => :x86_64_linux
   end
 
   depends_on "python@2" # does not support Python 3
