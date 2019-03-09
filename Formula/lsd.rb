@@ -6,10 +6,12 @@ class Lsd < Formula
   sha256 "b1d04a6e10549f1394c7d9478cea5e3e3104a1c2aa20ba7a87098e04e608daa6"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "51b93f40b28c0bdf17e8309113514aae94437e83e23473dca5b586759c6850e8" => :mojave
     sha256 "2f0cb7332fc506b96aab8cb5ec1f331843b4d52b7d9744d0dca1018c462a7418" => :high_sierra
     sha256 "9b48d31e55961df3eb2e938b908012d24888b462a80fe7df19636932104a0117" => :sierra
+    sha256 "bde70117f8c9f155bab0e888f45ffb5defba9da578fe3afe35b3b70ff447b6ac" => :x86_64_linux
   end
 
   depends_on "rust" => :build
