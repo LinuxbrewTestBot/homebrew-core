@@ -6,9 +6,11 @@ class Scrcpy < Formula
   sha256 "1d4b53573554a60fa46b6b40685dbe6c8474bc451ecbe803e2f2ec9724b48a01"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "a231a2a6bad01684a2a2cc9564825c44f6ec240b88c6f51813387bf65885a7de" => :mojave
     sha256 "c9bf05f3397b7f0b3306dd16b6fb3808293ff20b6f15cfa4afd4b8e55eea5185" => :high_sierra
     sha256 "4ee897a33bdfa7b88522e6b3abeb27c8330de739cd64de869eda546045402c98" => :sierra
+    sha256 "2a898012f1a04cdf887178b6fd24789a5a7bc2814fe4ba0cb52f06f703cac295" => :x86_64_linux
   end
 
   depends_on "meson" => :build
