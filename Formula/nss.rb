@@ -6,10 +6,12 @@ class Nss < Formula
   sha256 "087db37d38fd49dfd584dd2a8b5baa7fc88de7c9bd97c0c2d5be4abcafc61fc6"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "1dadb17d6216a93ca919c92a22f353a2238e86040881eaae6a2e98a4cee6ea5e" => :mojave
     sha256 "475bd410cc1f9af3847a1cd3d82bf891b05e429be574105ecf2649cfd4caa998" => :high_sierra
     sha256 "01cba15cffaea80162a66d879e01e20b2e8791c8ebc17fa24ac1eff2b49e4b50" => :sierra
+    sha256 "1c65b51782607e5582028f5bceb230346bd0a97346e98924e890af72b537ff91" => :x86_64_linux
   end
 
   keg_only <<~EOS
