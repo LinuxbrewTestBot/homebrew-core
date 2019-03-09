@@ -7,10 +7,12 @@ class Telegraf < Formula
   head "https://github.com/influxdata/telegraf.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "5f4b5ae93a7100f7a160cad684c01fa143afdac9d43654e6818cca7a56e0ffd9" => :mojave
     sha256 "b7161a0395f0aa2d9e2a82a8ba8d8325363f7774bd83e6b283cc43b0eebf5415" => :high_sierra
     sha256 "b1c2ee6006b583adf740f4bf2833bd70ee6c16f14b1dac1561024d05e14e3879" => :sierra
+    sha256 "f1b67cc456f09676455b8cb326381f32b93cbbe1c5f0b3d22c51eacbce694a4a" => :x86_64_linux
   end
 
   depends_on "dep" => :build
