@@ -5,9 +5,11 @@ class MysqlAT56 < Formula
   sha256 "1c95800bf0e1b7a19a37d37fbc5023af85c6bc0b41532433b3a886263a1673ef"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "a1eb58101bd7a6897da03abf98c3ce9eb6c964f25871da6fa363f0118b1fd5bf" => :mojave
     sha256 "690cd67c744f052a37b2a5a35131939a068b590f033ce32232c5bce862d7780a" => :high_sierra
     sha256 "0ee74b3db712bd7fcceb3f62e3538f3bb12d8e31a9eb5398e3be7a9fd4000320" => :sierra
+    sha256 "c668321530b8e195209f09d52220fc3b0b190404a955bc5dc0e87f330c190af0" => :x86_64_linux
   end
 
   keg_only :versioned_formula
