@@ -8,10 +8,12 @@ class Mmark < Formula
   sha256 "6013da8bd80f68d627d8f7c147d9c0370d0543bd100dd6f7c7adc1dcc68be6b3"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "ccc7588477d1e0f5f66b2bc89630762353ff1626c86f82e2f905980ed067f938" => :mojave
     sha256 "d90ba0c314c2d24c5d71554f50030c44e7008c735e70aeacc530da0de5304518" => :high_sierra
     sha256 "5cf03a5de3805f0563091752d7ca913ad9e4378b988469418b745314116f0bf6" => :sierra
+    sha256 "9f780d3d2a817f0088349aff88e3bea46e1e2825209f3c24889d552e45584b8d" => :x86_64_linux
   end
 
   depends_on "go" => :build
