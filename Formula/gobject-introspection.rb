@@ -6,9 +6,11 @@ class GobjectIntrospection < Formula
   sha256 "9efe4090cb59717126701e97062e784773f800b8d47af14c4d278ebf194df35d"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "ea7bc2f4589f6aa40d1063428e7d4e85bb6108c478b1df403eb2a6d2b6269858" => :mojave
     sha256 "e1ec2088d85415f11e4ddea309f41c51cb6cf2b343f38b039d05d81c4e8cc8cc" => :high_sierra
     sha256 "5bfcef20b0f999c3428d86e93ae30e7acb954bafb8a0f025e27831144cc1a231" => :sierra
+    sha256 "854de4db9f3cbca872168efcabf4cbd24dca1fa580249a614ec1040ebeab3a54" => :x86_64_linux
   end
 
   depends_on "cairo"
