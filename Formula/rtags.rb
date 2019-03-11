@@ -8,9 +8,11 @@ class Rtags < Formula
   head "https://github.com/Andersbakken/rtags.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "55793a051e58b809971e5b8b465c4713009125360e1d1a8fc042bb21855024b5" => :mojave
     sha256 "cee64b9f08ab8589b9962d76b2c7785b304e228dca0f02dfed5a1e54f9a5922d" => :high_sierra
     sha256 "db3ad30dbc1a3c8f53ed1e88766a6b647204a54bac2815c35c8f289c8d6bc925" => :sierra
+    sha256 "8b19b740f5ab8d3e24f43efc54adba8ce0c1d0b81d6a0aed5f988e483d69587b" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
