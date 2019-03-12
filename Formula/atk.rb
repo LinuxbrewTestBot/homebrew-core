@@ -5,9 +5,11 @@ class Atk < Formula
   sha256 "cb41feda7fe4ef0daa024471438ea0219592baf7c291347e5a858bb64e4091cc"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "5e3a66f66762eae4e829d5e662ed1bbb1d0b63baed920b0b64caa572de0845e1" => :mojave
     sha256 "d9c89c25ee886688210df699bbe927caed15c889cdae2275226f95aa5650dd60" => :high_sierra
     sha256 "bb1e2e364be687253ed0d2d12f1add25e8f6df14511e4682b4cd707ce214836d" => :sierra
+    sha256 "8bf284ae0564cdf2c34dbc311d4005b90787b4d4be5e7ac12c018072f75cff3c" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
