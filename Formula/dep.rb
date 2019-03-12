@@ -8,10 +8,12 @@ class Dep < Formula
   head "https://github.com/golang/dep.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "5ae2b134e3ae0db5f49767820b8a29ba302a3e850be0febb108ceccdb6dbc2a4" => :mojave
     sha256 "185d8734c3009053c1b7eca70e61e2749ca83fe3573257a95e4c7f173f8eacd8" => :high_sierra
     sha256 "596d056ca96c9d4fd992f16362f78f64526a3034112e775ee3912f26ab5d4158" => :sierra
+    sha256 "c49f94bba3293b8a40a554b43827df80231775731493fffab2654908da6f6dbb" => :x86_64_linux
   end
 
   depends_on "go"
