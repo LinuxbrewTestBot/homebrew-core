@@ -11,9 +11,11 @@ class PandocCiteproc < Formula
   head "https://github.com/jgm/pandoc-citeproc.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "42081a52bcc12fbd04f5c211e1bc8afa25aa0462c1b84feb1c632901b91624be" => :mojave
     sha256 "c1b246624a48029bb4a2e06623f29bfe6e55d9a9b99e7609128c9c18fe1c0aad" => :high_sierra
     sha256 "52e8e1ffb36b25c3c1ee39d0a38a1225b439da78bf0468cf51a2907af3161c2b" => :sierra
+    sha256 "2a6dde16b963000cb7b414df79a14dcc60c91ef572f378424812c88907e7199d" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
