@@ -6,10 +6,12 @@ class Terraform < Formula
   head "https://github.com/hashicorp/terraform.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "a979f1cd1bd2a247c9d446c61a42f0640b49745db074c61f9271b205e9444a29" => :mojave
     sha256 "3a256286c866424853162834988d6e52a0912a7fe23824776ba3165bea76b1b0" => :high_sierra
     sha256 "24408628538b0b382f2ed8bef9b19faa9d4f3654e746641f7e5d59aae3eed4b3" => :sierra
+    sha256 "12a3f804985b9c7f2984e39cc5d067917026caec5891d144fd013f7c655aa3cf" => :x86_64_linux
   end
 
   depends_on "go" => :build
