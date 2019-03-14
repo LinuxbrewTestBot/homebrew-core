@@ -6,10 +6,12 @@ class Libcerf < Formula
   sha256 "011303e59ac63b280d3d8b10c66b07eb02140fcb75954d13ec26bf830e0ea2f9"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "a181d4bf63f5ad9a5f00268a8551e7d62c52e81a88b9e9a29dba148d1a16412f" => :mojave
     sha256 "48ac5501edc4e90465af39ae8ff57234993f5b9b9f4b08fd8ba00443fd5d977b" => :high_sierra
     sha256 "401e716456c99bb123252b2f256e6fc70d6a741a23c8bd16d1a2ae0998641387" => :sierra
+    sha256 "afc35532ad052cf3f2b994f8903ebb7a630c19cae17df797e739d9937bd08c2b" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
