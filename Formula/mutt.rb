@@ -15,9 +15,11 @@ class Mutt < Formula
   sha256 "b651357ea6c8762178080493991c77ecb111d916d171d422500257ab48be2801"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "97670ca1fcd312b643feab03a2c5394d31a5e64ad2c87ccbb1f0aaf7d2b0e043" => :mojave
     sha256 "3930e0247de8fdf7b4c4c0cc246b5c501f255bed8050f82d85262ef0aa6f4f11" => :high_sierra
     sha256 "a48c9125b61c717c557cc0e1520cb367d39362382ff99787ccd6d3670ef40ceb" => :sierra
+    sha256 "1f3e345e2c9dc0986f880acb7ae1d4acbee51b820d3412b32763f7b9ce93a20d" => :x86_64_linux
   end
 
   head do
