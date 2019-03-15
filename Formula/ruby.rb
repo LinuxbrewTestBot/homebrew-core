@@ -6,9 +6,11 @@ class Ruby < Formula
   sha256 "91fcde77eea8e6206d775a48ac58450afe4883af1a42e5b358320beb33a445fa"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "0370836f4107a976de5fa84a333faec65f65866bedf3bb11b4732333f933497d" => :mojave
     sha256 "1fb93f70c550192484dcd1b41926903c5b087dfae5002f375e8e9e10cc89037d" => :high_sierra
     sha256 "dc2fa36b6646401b745eb5593c188f9012b1ef031aaa04271051581c018560e8" => :sierra
+    sha256 "077456abbb8e9733b474c26482a3184df176ca014e1b933dd42fd668f52a7cf6" => :x86_64_linux
   end
 
   head do
