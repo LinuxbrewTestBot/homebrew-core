@@ -6,10 +6,12 @@ class Sundials < Formula
   sha256 "280de1c27b2360170a6f46cb3799b2aee9dff3bddbafc8b08c291a47ab258aa5"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "f0d3b4aa8224d34bded3dcb334af01413418c76803805d4c52202cb5d1acd41f" => :mojave
     sha256 "a892a1e43042b3bf22027f949efdead295a211cfba492cef2613dadf67ed79fe" => :high_sierra
     sha256 "a934b8dc4ca9ef13c001d5e75196e51858ffc58dd1de3c22b018ac10bc6effdc" => :sierra
+    sha256 "3f72a46379e1ce885ec83ff00993f1953cc487aa161f3d84fdb25f7c148d867d" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
