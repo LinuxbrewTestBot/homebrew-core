@@ -7,10 +7,12 @@ class DnscryptProxy < Formula
   head "https://github.com/jedisct1/dnscrypt-proxy.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "d5f10b65c90f98bc5b724bb181112fc9499ceeb519d085f21cb0baa42362d9f7" => :mojave
     sha256 "9ad7ee4ff7732a72b1f4b9a8eb454a3a5b97da83ce8bea90aed361398d6e7983" => :high_sierra
     sha256 "162fcb7b552912cde757ec868039da1e0288bcf6f5ffa5af0af59b5eccbc6b39" => :sierra
+    sha256 "5ce6301f541f40a5314a37db1127d16a3ddd4d4531f54163115e32af8cd9bc9d" => :x86_64_linux
   end
 
   depends_on "go" => :build
