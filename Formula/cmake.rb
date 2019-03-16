@@ -7,10 +7,12 @@ class Cmake < Formula
   head "https://cmake.org/cmake.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "5d88d0076190f3dff67e1dac1e65854c8dc5e32603f1347200b1ded08a8d291e" => :mojave
     sha256 "420ea594e36623cf014b190fbebb7d43710d502d58d29009aaadd41036368d07" => :high_sierra
     sha256 "89d537ae8cda065216d8e21ff6030a502a47d19adbcac79d633de6860446e4f4" => :sierra
+    sha256 "5173c62c41e06d45abdaa3266562cc1ff08b33d1b4226044d1710a673baee55a" => :x86_64_linux
   end
 
   depends_on "sphinx-doc" => :build
