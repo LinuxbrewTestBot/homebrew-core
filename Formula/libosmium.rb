@@ -6,10 +6,12 @@ class Libosmium < Formula
   sha256 "4c0fe0146aee20423d9526e88f205fe442257fdf26df19225e2bde6084bad0ef"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "622a61f6e3e28ddc14410739d8a3756c2c430a27390b02659f78f1a6124e9d7a" => :mojave
     sha256 "c3746f309883529af19021e3accc93b3c6a21976303c7812c41ea129cb11f408" => :high_sierra
     sha256 "a4438a9a2bd4298c1cb2e694065fe5fa55b929d2ae30babf7e46cbe306929efb" => :sierra
+    sha256 "1c0cd4e32d519fa5a98d041301083e8c7d6d8fc65a4320de6a447150b4ae21f8" => :x86_64_linux
   end
 
   depends_on "boost" => :build
