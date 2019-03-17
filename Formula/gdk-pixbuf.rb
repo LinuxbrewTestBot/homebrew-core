@@ -5,9 +5,11 @@ class GdkPixbuf < Formula
   sha256 "f19ff836ba991031610dcc53774e8ca436160f7d981867c8c3a37acfe493ab3a"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "191484223e3008e91fef28edaac87fddaac10f65e4a061dda3d2e783deb9049e" => :mojave
     sha256 "7213023a24faa8c847d742cb2c8994416abad45c6f9117274b04821e83df866a" => :high_sierra
     sha256 "1ad9524a855f609809fc404b68afc6cb417b856921fec44b0710301a74289562" => :sierra
+    sha256 "ae1ad5f030021b3811d1c290567500fb87b651ac72f58ef4035f0dced3af24df" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
