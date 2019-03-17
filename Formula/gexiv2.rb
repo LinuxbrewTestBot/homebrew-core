@@ -5,9 +5,11 @@ class Gexiv2 < Formula
   sha256 "58f539b0386f36300b76f3afea3a508de4914b27e78f58ee4d142486a42f926a"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "58961691014d9b76398d5836b80bb459cdfec75058baa6cf776cc9ad4ed20158" => :mojave
     sha256 "50e9592e57255686ba8c32df6c9cc8c1350bbb5673cc6b1dd56377808f867748" => :high_sierra
     sha256 "188a26e79ceeb06be9dc593391612bfaefbbff25fcc9f51f0ccfff5e5817e54e" => :sierra
+    sha256 "27311bdda7b8848ac7968c95f74b8c0f701c6205832dcb5fe2c112fa4ad162f5" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
