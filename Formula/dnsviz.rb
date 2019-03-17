@@ -8,10 +8,12 @@ class Dnsviz < Formula
   sha256 "a81ff254c23718cd6f364b03bf6e9c80468fa4663fd5be66043de7b0bece1cab"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "f55b130eee33b503ea3b4c88ba34c952ae58a070c632fdac326962199c9ef5b6" => :mojave
     sha256 "6324be158374f9b93e287ada9dfe33c2aef01b05a4bacc78fea47719f69d2db9" => :high_sierra
     sha256 "08325b100e560aad351b72002e7828b713f3f39e003e2a3eaa2a6cc7d4797e62" => :sierra
+    sha256 "9d9593331f7aac0690aab8f1d77838d881c92c925e2f291ef81c38f845410754" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
