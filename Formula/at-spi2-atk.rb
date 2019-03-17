@@ -6,7 +6,9 @@ class AtSpi2Atk < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
+    root_url "https://linuxbrew.bintray.com/bottles"
+    cellar :any_skip_relocation
+    sha256 "c7f6b4c70342f5b969a9fd38b950169cd26e41d33fa4946f6a9f515f3eb3e213" => :x86_64_linux
   end
 
   depends_on "meson-internal" => :build
