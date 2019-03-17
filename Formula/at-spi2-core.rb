@@ -8,6 +8,7 @@ class AtSpi2Core < Formula
 
   bottle do
     root_url "https://linuxbrew.bintray.com/bottles"
+    sha256 "db85d8b246cca13f32eb9c082b72766b36eab52ba79f4faa12c52a153132e574" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
