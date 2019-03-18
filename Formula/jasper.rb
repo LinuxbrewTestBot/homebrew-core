@@ -7,10 +7,12 @@ class Jasper < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "ed0856ff9b2429852401e658f4045c9e39cd05fa77b5ea7a6a3c2e21b4d8c460" => :mojave
     sha256 "630b86c544fda0a769815637e37b34e587a6d070b26d642b0d50401f609c744f" => :high_sierra
     sha256 "15ccd9ba448e5de3468d6be07c41106ed77e45d65adbea74a524c042e8791b06" => :sierra
+    sha256 "1d57491d2065e57574f3d0ca205d9a303bc8eb99c6a1dd7d5f22f75f05978b85" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
