@@ -6,10 +6,12 @@ class Glibmm < Formula
   sha256 "6e5fe03bdf1e220eeffd543e017fd2fb15bcec9235f0ffd50674aff9362a85f0"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "53f25847c421d3d56383031d69808c9d78488a2097968a8e7f446b367cd0bea5" => :mojave
     sha256 "5682d288f3f9f471919f2a3efb6483200b3eef3a21ae30668f0016104a82d5b3" => :high_sierra
     sha256 "6874494fefa0d272fe9a19c0148653c0cf50598f77b45be5680ed201fc885d0e" => :sierra
+    sha256 "69fa397963a460328e8be6515163fb38f515cc0aefbb4d8a95adac5a9fd43e74" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
