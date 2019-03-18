@@ -6,10 +6,12 @@ class Rebar3 < Formula
   sha256 "b7330a67a8cb5d6fb3b53a3246208b7c2b248546bcf62ef71a9a27b1d541c2d8"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "00da5264fdfb7f7a1a1e4bf620e3e3bf4aad863c5ef44a9ebaaf7812aa8e7854" => :mojave
     sha256 "0168f1b8e24ecc01eda20b993c811f5310b7531bedc061a9f8580f5b557f21f6" => :high_sierra
     sha256 "ad821cf1468ef68c53904f001dfbcb965a73cd0189921c9ba43a496cee95b77a" => :sierra
+    sha256 "34f6a6eb22db6d508ab8f3dac141f75441689c0132e8c1cc794f4f7be661e691" => :x86_64_linux
   end
 
   depends_on "erlang"
