@@ -7,10 +7,12 @@ class OcamlNum < Formula
   revision 4
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "27261ae37ce2f1ac1645899cffda5b2d38df183e97c5c52185a3a906773c297b" => :mojave
     sha256 "22918db71143a26ec137101bb349c5313e670fa9a4a54cac9060d2ff16bd379b" => :high_sierra
     sha256 "27e235c6b11adf22cea6e68a932b51882f4d17eaaa7983b05d4489081378b207" => :sierra
+    sha256 "9b00c76e3c610436b5d514424eb1bf9c128412ef1d92f0e12407255294af4f97" => :x86_64_linux
   end
 
   depends_on "ocaml-findlib" => :build
