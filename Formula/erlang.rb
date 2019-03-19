@@ -8,10 +8,12 @@ class Erlang < Formula
   head "https://github.com/erlang/otp.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "43c90f9201147a819f25da9cf10be57ed5877d02c4e742b067ac12758daf2682" => :mojave
     sha256 "700d0c023d3159807659d42dcc2b2e3983bc6d453e02a5e459c762a733da7d62" => :high_sierra
     sha256 "995547cdd017bf50006936f760194ecf19726d40cd822143ec63b21581950e71" => :sierra
+    sha256 "a46a1cea0243f6401071cf6e99dced11c87c2c9eba0e38b99153c21db1b6fbfa" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
