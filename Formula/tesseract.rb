@@ -7,10 +7,12 @@ class Tesseract < Formula
   head "https://github.com/tesseract-ocr/tesseract.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "46867f03eddad20bbcc7d17580d48ab718c3658291a1e51b928c6b0c2a55100f" => :mojave
     sha256 "9a992489da4ea09c66997fbc5c8ffbcb2dd411b4c2acbf23e24497184943aa53" => :high_sierra
     sha256 "03209012cb8884dd4224661d47ec9d5190807ae317b04342a4c7a4f97b830895" => :sierra
+    sha256 "268ff281b33642ceb6301b6d49bb3967471699cc326ee2209d0a451fd327516a" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
