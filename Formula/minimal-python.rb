@@ -6,6 +6,8 @@ class MinimalPython < Formula
   # tag "linuxbrew"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    sha256 "5e020358df39c85cd6d415316f9109f21d5a815256e00ad00b4e2d4854cbbd25" => :x86_64_linux
   end
 
   keg_only "conflicts with python formula"
