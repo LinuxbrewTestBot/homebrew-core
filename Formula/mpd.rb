@@ -6,9 +6,11 @@ class Mpd < Formula
   head "https://github.com/MusicPlayerDaemon/MPD.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "0d7097c4dc2715a22d52dfb043079af7caff6334c86f02df9a94d391e7c07a3d" => :mojave
     sha256 "53ac967273ff331d9935747054ca99ed0f928527d1c89ffbcc8a3b0d6b46386d" => :high_sierra
     sha256 "c4a226d7ac56d643e0a9e9cf767511b642340af52c157f7bf014fad25791e35b" => :sierra
+    sha256 "1346215221212597715ac33d466c342c2c3b5ee18a83d60c275d4085180cab84" => :x86_64_linux
   end
 
   depends_on "boost" => :build
