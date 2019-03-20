@@ -6,9 +6,11 @@ class Gtkx3 < Formula
   sha256 "52121144a2df4babed75eb5f34de130a46420101fde3ae216d3142df8a481520"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "06206a95bcc033def97b226ef94fc19773768ba238b114350d8add6db510e464" => :mojave
     sha256 "79ec4fbdbd9f84c04921cebc63ab21333efe03c68f58a6809e3a6c979e352ab0" => :high_sierra
     sha256 "83a228aa828991e4e69b2493a2ca5198d41b673f7bde45d0032e50fd127c668d" => :sierra
+    sha256 "7bb1eff40da10a150985097e04acd890ff1a171cfdaca325f3611a122edbb550" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
