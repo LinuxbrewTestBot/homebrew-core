@@ -6,10 +6,12 @@ class Fontforge < Formula
   sha256 "b711adec0da9ee490bbc2698b33e6630150931e08e826d1b63eb3131d85db8b5"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "881917282849e10c9dc746e280e8891ee201d195f4044fd42527d3504b4c5f03" => :mojave
     sha256 "29dbbd01fcac434e21142ef14f2ed270f9debaef657788b8daab30310f1aa587" => :high_sierra
     sha256 "7a3b998f17b60acba7df784f84a3b9090af7270648a34e9f18b3863ba4c487f7" => :sierra
+    sha256 "51c2a9e257c14805358588d47b292dd919ba800c3dc992aaee332faaec039392" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
