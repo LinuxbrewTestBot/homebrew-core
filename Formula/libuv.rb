@@ -7,10 +7,12 @@ class Libuv < Formula
   head "https://github.com/libuv/libuv.git", :branch => "v1.x"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "62c01d11ecde6423eeb1124423f7040ed76be389d954219bb1baac31ab64243e" => :mojave
     sha256 "c74e6fd13bdcd4ee6808028ae523a780abd1b2f4009bd2aa73effc2e65d24877" => :high_sierra
     sha256 "eedccfc120ae823659d0362d9e64b707ccecc6ccd5cd21ac559b92e5ca68d143" => :sierra
+    sha256 "c0f2706d501dbe671747fa8a095beeaeb602f329aeca22bf406e724a6d017f52" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
