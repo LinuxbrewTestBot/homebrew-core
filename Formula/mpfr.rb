@@ -7,10 +7,12 @@ class Mpfr < Formula
   sha256 "1d3be708604eae0e42d578ba93b390c2a145f17743a744d8f3f8c2ad5855a38a"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "cfce7ab866e98360c9364cd924da620ae7936d3a224d686aacc209c2107d19aa" => :mojave
     sha256 "bf5d21e7e8e549f7e8d07791a90f44a487f4c7151897b7c64d02928b5bd73520" => :high_sierra
     sha256 "4fb1860a481e24c70eefc8e5782030612840f1bb8f50586ca76a4c6c53629deb" => :sierra
+    sha256 "cffaa9976a516130ac5b979eae7bdd62180ed8924bb52bf0b30935174b1cbab0" => :x86_64_linux
   end
 
   depends_on "gmp"
