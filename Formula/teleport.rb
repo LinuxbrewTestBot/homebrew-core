@@ -6,10 +6,12 @@ class Teleport < Formula
   sha256 "5993de3223933ea5015a0cf0465f77983952fdf543ec58b70b492bb5238b1601"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "3b9f69ecbd0720b43f9d015ceaef199cbc182f7bd12bf83fc631cfe555bb2322" => :mojave
     sha256 "03bea5a8bf95cb8aa434428577633b732be2a6fceeae213b94ac06bc6024f531" => :high_sierra
     sha256 "0916887d28542d520b7974fceb7187de7b48958c2779d8792386b96e31ae8ca3" => :sierra
+    sha256 "0bb5b3709f1fe1b9178775d36d18764cc54a55f55401626c4c3969c12b91b068" => :x86_64_linux
   end
 
   depends_on "go" => :build
