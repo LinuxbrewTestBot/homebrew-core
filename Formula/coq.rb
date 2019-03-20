@@ -7,9 +7,11 @@ class Coq < Formula
   head "https://github.com/coq/coq.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "0b56d57a006cabfcba72986ee8e4d7154ea8d764bf2ca2921c9ee894e166d033" => :mojave
     sha256 "fc3c71b442caa68b3a40a5143ebd272eb93ded575fcee2a72c81ebd791f42906" => :high_sierra
     sha256 "8506c6f6304ae35782dda12751c4ff2b22474dbcd6f9e41eb390801314eb6f68" => :sierra
+    sha256 "ef017e185f470ddecec0702b498c3c1956b6ed76961ea9bf21d677c67ebc5442" => :x86_64_linux
   end
 
   depends_on "ocaml-findlib" => :build
