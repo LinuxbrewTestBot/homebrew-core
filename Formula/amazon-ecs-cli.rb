@@ -6,10 +6,12 @@ class AmazonEcsCli < Formula
   sha256 "bbbcb3aff971f71a5b565035fdbb6c09145b7ffc93015aa77a8f552d65776d89"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "a7495d64ace573aaf350e0ba7246dc663fe664582244b64872c15372a766250a" => :mojave
     sha256 "ba77b2c302a9a8c67316c5fd540d496aea5ea0a3eb31d82090d0dc7cb05d2079" => :high_sierra
     sha256 "fbe00c2733e0c513d43d8000b7dfaa2ddaf981515e6c608d162013259423b9bc" => :sierra
+    sha256 "16b4299314594e7f91acd22ccedc7d96babd19fe512e2f56c67802a7fc07ec13" => :x86_64_linux
   end
 
   depends_on "go" => :build
