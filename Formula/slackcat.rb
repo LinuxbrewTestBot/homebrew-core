@@ -6,10 +6,12 @@ class Slackcat < Formula
   sha256 "e5c8f98f3048cccc3f8e49c0449435a839a18c7f12426643ac80731b63b829a9"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "b8fb7acbcb922af01da7e97b7c3ef303dcda92762996d2ad9a12ffec1bfea608" => :mojave
     sha256 "4a5566659aedb0453c68c468c65521b53d0602113a940b50afab759488b4997c" => :high_sierra
     sha256 "80ed662db0f0e057a2346e25244b52fd3019fdb6f1af1e809b03392a82d0dcd9" => :sierra
+    sha256 "ad0787bb5f746b0a52f7d3bee890c49394d144d57bb332b667afd858f9d531e1" => :x86_64_linux
   end
 
   depends_on "go" => :build
