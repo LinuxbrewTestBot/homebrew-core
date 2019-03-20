@@ -6,9 +6,11 @@ class Gtksourceview4 < Formula
   sha256 "c431eb234dc83c7819e58f77dd2af973252c7750da1c9d125ddc94268f94f675"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "58e711a9175080860016ac65978f20cf5b273275da444984515f6536b640a87e" => :mojave
     sha256 "705d1e72a1199de70f1a9f838a51a48e5313c1a504dc68105d09b3c9d6ff222d" => :high_sierra
     sha256 "e216512f34adf24a7f4a06c38ef7a5c43a8f285bed2a11aea82125d7cc1cb9e7" => :sierra
+    sha256 "8ee0a33c5d274c4b154d973e7fcf91fd5f013368738b1053ea826ee0a9f2719c" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
