@@ -7,10 +7,12 @@ class Redis < Formula
   head "https://github.com/antirez/redis.git", :branch => "unstable"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "610694b6fa462400eb0f197f1aafc8d5ad01275d1b356a50534d4e7d9baea777" => :mojave
     sha256 "8400c5743994c8dd6cadd7674d499dfddb372e5dc7a4c82a4a242dc441f08e4e" => :high_sierra
     sha256 "ee80d08075b50bb2b5945267ddedb366d35b88a76a2c0b6251817492307ca143" => :sierra
+    sha256 "373895678358046c806907edc55c97b88b072520c531b9853641b63b569d5c29" => :x86_64_linux
   end
 
   def install
