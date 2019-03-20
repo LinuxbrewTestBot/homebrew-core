@@ -6,11 +6,13 @@ class Mpfi < Formula
   sha256 "2383d457b208c6cd3cf2e66b69c4ce47477b2a0db31fbec0cd4b1ebaa247192f"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     rebuild 1
     sha256 "55d8819c0310e6b8bc66742f7ab5881b9b552a9c60eaf940595ed08e8a320a56" => :mojave
     sha256 "d4464bdbbb2861861fa92e471f75e1b658e7c5f5814028a6c57f74c76092b013" => :high_sierra
     sha256 "50d3b78c1ef6837198a0320dbbe0852ad524f83bc2e12460bfbdc188bd1da76a" => :sierra
+    sha256 "9d948d4b378594da197972541f316203868402c5aab7b8b32aa5b83bdad0bd07" => :x86_64_linux
   end
 
   depends_on "gmp"
