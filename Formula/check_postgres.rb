@@ -7,10 +7,12 @@ class CheckPostgres < Formula
   head "https://github.com/bucardo/check_postgres.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "eed2892822abe3b006befc6f7933040b8deec32074c9729408c6c4f4765efce8" => :mojave
     sha256 "eed2892822abe3b006befc6f7933040b8deec32074c9729408c6c4f4765efce8" => :high_sierra
     sha256 "56fbaf773772a3424d6c1d532c9f5f691c1f4d85e4a0bc62ef880a28bae87f5a" => :sierra
+    sha256 "52e31b82412fee6e30dbeca20db651083296bfa5c125d0fe625037d503f7937e" => :x86_64_linux
   end
 
   depends_on "postgresql"
