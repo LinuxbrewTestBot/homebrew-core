@@ -6,10 +6,12 @@ class Click < Formula
   head "https://github.com/databricks/click.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "e879a6d855395353f4d6bf94c86db2581681be41be9a8d892344cc64190b72c4" => :mojave
     sha256 "ae13dc5304de63ae3cf3af67f0919d8c5c8ac7a4ac5ce63b4d297476eff302b8" => :high_sierra
     sha256 "d1da447c91387264409aef3256198c1863d4840bdeb9b218c8e5da2fc6fc0d34" => :sierra
+    sha256 "00b809779a7a23c716202ae9da3b721d2c1c37243407af3993e45c33bdba4375" => :x86_64_linux
   end
 
   depends_on "rust" => :build
