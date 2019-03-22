@@ -5,10 +5,12 @@ class Conserver < Formula
   sha256 "764443b2798047f7429747510eeb3207240260590551700d13dbbad8a5bdee08"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "97403a07aac75ec35f200f6c804c55f6e011dd472146c87c53da209f130f74a6" => :mojave
     sha256 "1a5372d2617d47faea48393dcf6dffe38d778194a7e1e7deb32f49548884b2d4" => :high_sierra
     sha256 "b86cff5c3d9803a8840b06199065fe07b29d8361457412d7063f171a42cf6b2e" => :sierra
+    sha256 "c1242c07b9468abab0211a94d40508b0feb9e554d47a3a27a68b32c58ca8f38a" => :x86_64_linux
   end
 
   def install
