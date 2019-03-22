@@ -7,10 +7,12 @@ class Freetype < Formula
   sha256 "fccc62928c65192fff6c98847233b28eb7ce05f12d2fea3f6cc90e8b4e5fbe06"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "d231ab6634051c4b655bbfc07cd5b306ad5489d891ee2b105ed892347f2714af" => :mojave
     sha256 "d19594d298d7357cbcfa700edcb6224a5edf8200924cadda3d2c91f0751f0113" => :high_sierra
     sha256 "e1edfbb0ec07384c366e7fbbdd297ddf003f84bad1486b1aae8fa16fa3576fbd" => :sierra
+    sha256 "0d3d990f0b3579ef2e24a9d06d9c16c1e9cd98b3be1ac804684ff26934ecfb47" => :x86_64_linux
   end
 
   depends_on "libpng"
