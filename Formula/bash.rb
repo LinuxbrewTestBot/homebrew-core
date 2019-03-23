@@ -32,9 +32,11 @@ class Bash < Formula
   end
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "6573f80429e70d699ef4c352c5a25575a15924d126a6ca6aede797fb47ce1068" => :mojave
     sha256 "153f3cde71a02dad3d763a8516e14b45525bd4008eaf89d67fda820623249afe" => :high_sierra
     sha256 "92e65ddb78c110783313f99ed331a650ce21692bc4bb827d031e5e34cacf420b" => :sierra
+    sha256 "c660e748bd9f045edc96432edaffa20e6816e814de50aaa55bc3f9533ae56ef1" => :x86_64_linux
   end
 
   def install
