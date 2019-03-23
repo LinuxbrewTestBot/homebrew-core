@@ -6,10 +6,12 @@ class Podofo < Formula
   sha256 "e9163650955ab8e4b9532e7aa43b841bac45701f7b0f9b793a98c8ca3ef14072"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "477345ac9e2bc7bf70307dca70b1ea3e08fc1138736adc497781ee784030966c" => :mojave
     sha256 "0b66eafa989073b3ee0abe52f2524714fcf1155592f20633dbbb9fe92f9d1382" => :high_sierra
     sha256 "eb20ecc8daabf8742a368ed32ada7d47fea2c79ff964aae026bb7f40687b5029" => :sierra
+    sha256 "e145afd6e3314250adc0f0bbcfbca3e852725c26043c4d3d5789fab6ec70ee32" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
