@@ -6,9 +6,11 @@ class Nghttp2 < Formula
   sha256 "aa090b164b17f4b91fe32310a1c0edf3e97e02cd9d1524eef42d60dd1e8d47b7"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "336eb6bf2788bcf43c47e40d31e20af00685695baa74a821e4fd5bf5485bf48d" => :mojave
     sha256 "c4b73515d2c207657f4d8a69b64f772d51208d069ae1f0cbd005f6d287d979f8" => :high_sierra
     sha256 "e8d38af114792011b03827d512ddf9a1f9c2fe48c641f18e04bbc00d94277057" => :sierra
+    sha256 "95feb6ee217174380299fb08040897dcdbfc4c2693499e6740effca36194e493" => :x86_64_linux
   end
 
   head do
