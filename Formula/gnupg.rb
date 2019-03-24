@@ -6,9 +6,11 @@ class Gnupg < Formula
   sha256 "1bf9ed46dc1ec5d8cfa13ba1ad47f94981f3b6a7ec16ad9123cc2549c4cbf87b"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "0abf2cd136116f9e68826640508054b981e4973ab55e163ad6eae5b298e65454" => :mojave
     sha256 "a7f8bc92b75ee04965c154369aa694bc4e6fcc03fecd5b286560ddb2f6494a6f" => :high_sierra
     sha256 "d737caee0dc1bff9fcc29b43f189964d297e8e5094e172291f03ca4593998093" => :sierra
+    sha256 "220231a3cfbb0ec30b27e668f2521cf660d816eabac91c1c50a4a581c2730771" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
