@@ -61,10 +61,12 @@ class Llvm < Formula
   end
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "28494073b3d20b22668ca82af68fef01c59708547acec2f6b86ff5e3e152e8dc" => :mojave
     sha256 "a2bf6ec0b51b56541c40d31ec7677b700764850e93f29474f54333b96355bc0d" => :high_sierra
     sha256 "b827b266bcbca04ea70b362b452aa0c903403e14847665c0ce59b6b11273a21f" => :sierra
+    sha256 "3168c05f421dd0ae9f8986f69d6bdabbdf0f71d8b6e5f90c760ac3fb683d5418" => :x86_64_linux
   end
 
   # Clang cannot find system headers if Xcode CLT is not installed
