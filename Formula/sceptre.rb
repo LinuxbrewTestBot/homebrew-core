@@ -8,10 +8,12 @@ class Sceptre < Formula
   sha256 "4ebbc2cd8e121522df1a27d153b50f760007e513a6c2bc04c3db2292714edaf5"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "0b613d07a4719dc0fb2b341ee8605ae322209809a8c829a208e1ab59bce887df" => :mojave
     sha256 "5108aa578f9569a263e4eb5dd31d477f1abad387895e735ac60751cb56d22829" => :high_sierra
     sha256 "c673e73be62fc762f62192b220e7fc7f1682679ce1b8c315eeb8b31f47304441" => :sierra
+    sha256 "fd7b81414e2d244d50dd6c4bfda547003cff55ee034c42bfe69ab3960438287f" => :x86_64_linux
   end
 
   depends_on "python"
