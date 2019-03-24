@@ -6,10 +6,12 @@ class Libssh2 < Formula
   sha256 "40b517f35b1bb869d0075b15125c7a015557f53a5a3a6a8bffb89b69fd70f159"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "f927577d783406a3b0fa010b39acbfc39c29d262dd7a1fa38c4abe69e58139a9" => :mojave
     sha256 "98f643593c20a04b588b0c96332f83a9106ccffbfee2d8b45aa033ce741c0903" => :high_sierra
     sha256 "57327cbb9408518a9ee7b578bd30192730c730bdb0508f53e14671dea5965a92" => :sierra
+    sha256 "ef57f325882772bd24f92114ce1bd714620da6dd8c90b8bcf9b36287adffdecb" => :x86_64_linux
   end
 
   head do
