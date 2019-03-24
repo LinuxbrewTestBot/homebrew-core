@@ -11,9 +11,11 @@ class Openssl < Formula
   sha256 "ae51d08bba8a83958e894946f15303ff894d75c2b8bbd44a852b64e3fe11d0d6"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "c1f8c06740398325c7028213b20b18c5de39763fbc81e5819c78a06ee0621170" => :mojave
     sha256 "2b68bd92c0c2faea5a1e70cc57a2403482ab2d83d0201bb42016c57c754427a5" => :high_sierra
     sha256 "02c6161715bd1bdb45e6f922615c97f420c852b28ea0865d39ff8db6d8e70678" => :sierra
+    sha256 "e1f6e95153e7a8e5d3bf62e22dd0ac771ec80ee61a36805278370f6140716b52" => :x86_64_linux
   end
 
   keg_only :provided_by_macos,
