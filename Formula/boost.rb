@@ -7,10 +7,12 @@ class Boost < Formula
   head "https://github.com/boostorg/boost.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "ffd50072d4f4f59c5e0d55e2bc44430bb38d2272279ce4bc944b784915138c42" => :mojave
     sha256 "d11d9cf367df6ec274385fea0cafc9d484a2036e19437ae9a67b82da75979a6a" => :high_sierra
     sha256 "35809d731353341b017e78dc21d396b4a05cc8c3f7cb86abbd98e22af092ffef" => :sierra
+    sha256 "79cd0a431e6702dbbd516d11bf9a763c958453c3d4ce928d7edaba3992c83754" => :x86_64_linux
   end
 
   depends_on "icu4c" if OS.mac?
