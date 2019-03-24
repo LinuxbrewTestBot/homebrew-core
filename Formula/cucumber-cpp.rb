@@ -7,10 +7,12 @@ class CucumberCpp < Formula
   revision 2
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "f51698030d9e59f888059a33fbf05aab2a14efa479cdc6167a7be9eed4963017" => :mojave
     sha256 "f4daf096bb414f9af8a3109bd699f97ae3ecf4e177d1f8f3bce01f3e5b8f4d26" => :high_sierra
     sha256 "b1049586b1ab62851e67629481bef7cdc596073fcb13124d127de402c029bdc7" => :sierra
+    sha256 "caff64f670781b86c25f7d0c3316624e73e4fbce8692640b9a4fcb0c15741311" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
