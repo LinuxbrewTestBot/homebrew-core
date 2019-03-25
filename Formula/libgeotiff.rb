@@ -6,9 +6,11 @@ class Libgeotiff < Formula
   sha256 "b8510d9b968b5ee899282cdd5bef13fd02d5a4c19f664553f81e31127bc47265"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "bfdaeec165954cc2bfdee12708269c662849e482e7ed2d837022f610ff65188d" => :mojave
     sha256 "f17f672c8720ed21ee46cdafdb956846ef5479e81754ba7ba4c5a73698b3a6ea" => :high_sierra
     sha256 "c47ceaef8471c86b2d4d55b0d97e26a52d53bdcb784b9159ffd201a183eb8763" => :sierra
+    sha256 "fb8c3029f8969619cc21e2206e7c50c86d1bf3c525126f072700bcce9c463c5d" => :x86_64_linux
   end
 
   head do
