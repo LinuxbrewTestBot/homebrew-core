@@ -6,10 +6,12 @@ class Leptonica < Formula
   sha256 "e2ed2e81e7a22ddf45d2c05f0bc8b9ae7450545d995bfe28517ba408d14a5a88"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "534b5e4c96c34aed7f2e3dd9ffc046fd49a9a015a1ed0c2f1859d2cc182ed66e" => :mojave
     sha256 "ca7ccc979d58c3586d74169c5dbd537976f2ec9a41bd16effaec418fb03ecfc0" => :high_sierra
     sha256 "9f14866468766e9b7344b18c6d530f6cbb88919e2b3d25dad248f2e049f7bd3a" => :sierra
+    sha256 "7a731be4afe28fb910dfa1fc76dedf97d1c34cf812b5f8eb28f321a9abdce264" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
