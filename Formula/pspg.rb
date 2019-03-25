@@ -7,10 +7,12 @@ class Pspg < Formula
   head "https://github.com/okbob/pspg.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "f9f565cadb2557e3cf353c5636fb65fe688bd74c4d4bd24ccee0949cb8c574fe" => :mojave
     sha256 "f8618651c9724546269679e659ddfa8bc78d826d05d561bb5a1f922a3260edc6" => :high_sierra
     sha256 "a77d65a1bd17ffab3da9c157090e9033532c6499ba139a9a098e04bccf6b34f1" => :sierra
+    sha256 "6e8044bdc1df16b30c99b495285582487e5b4cb27035c5c767460b2ef8f75c53" => :x86_64_linux
   end
 
   depends_on "ncurses"
