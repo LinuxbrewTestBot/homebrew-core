@@ -7,10 +7,12 @@ class Glm < Formula
   head "https://github.com/g-truc/glm.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "8ba51243f0276e651ec43f6edd4f8f9aa48e8a6445faa61c8ba4b7b38f4c52d8" => :mojave
     sha256 "84551dca48f057289cfda741cbc16972f95a4a9a7c732ca38418ca58c50f332b" => :high_sierra
     sha256 "6d528c84ff11e13a550de7384c93f56db90392c9c431c30495bd04774e63490a" => :sierra
+    sha256 "bf1dc7eb0b9256d330b6e8d219c3fd05283e9c1eb8f171f0dd3a074eab3bc46c" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
