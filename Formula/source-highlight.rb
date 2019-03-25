@@ -9,9 +9,11 @@ class SourceHighlight < Formula
   revision 11
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "bc37636a5b31f9abe79cc0170c99e895f42c3bf06e29776208f83eb838bf3c9c" => :mojave
     sha256 "4d941b71cab4542d36c34d66f3d444028053083a00e8726229d556b58de0aa7d" => :high_sierra
     sha256 "96026ed6dc4ef266c0ea160bb3d3cbd5d799179ab13a7e5addb406f5225e843c" => :sierra
+    sha256 "099b0b1fb7f42d984bef8730d0404b58348a975af9ac76e71ac60be92aab7420" => :x86_64_linux
   end
 
   depends_on "boost"
