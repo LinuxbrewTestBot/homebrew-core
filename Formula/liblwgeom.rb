@@ -7,10 +7,12 @@ class Liblwgeom < Formula
   head "https://svn.osgeo.org/postgis/trunk/"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "7a5b41e04d2f3351e8f8ea97c6025ee6e868cb1389055b5bdfe11b4f2b87836e" => :mojave
     sha256 "1f1d5f8e6148e67fd069d01d00cbbdc5a719cd3e8bbdbcdbd7524261364a844f" => :high_sierra
     sha256 "ab29ba07d76f6511297ffc3fc57adbe38a9dc44e0aec908c78fa26b7a4880d74" => :sierra
+    sha256 "ee3955cd525de6fc2300799877883afe2468b4d4998e84e56b3a6d028c3fb63e" => :x86_64_linux
   end
 
   keg_only "conflicts with PostGIS, which also installs liblwgeom.dylib"
