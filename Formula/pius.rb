@@ -9,10 +9,12 @@ class Pius < Formula
   head "https://github.com/jaymzh/pius.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "c6a89759b45a3eb4872c9d2b5ee6b2a8cffd7d9d2d7de68832886f2f291e0a87" => :mojave
     sha256 "7b46acad45cbc2559c2b167e5060842fea50256ddd375ba9bb6147cfd4ba286b" => :high_sierra
     sha256 "018c43d5e6de8bf924ea090937758dfc04aec4d3abbe543227fd352064f75556" => :sierra
+    sha256 "0acac47bd6cf611d23f3b29e431a2abdf12e2cabd1cd7c905a0649ce94f79da7" => :x86_64_linux
   end
 
   depends_on "gnupg"
