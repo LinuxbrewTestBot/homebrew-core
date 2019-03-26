@@ -7,9 +7,11 @@ class Gspell < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "3807df806f279b1112bc7c35bd03b6673cf76248d20bbbaf756c4e621f4a1598" => :mojave
     sha256 "aaa321fda6fb18ddeeab3a46b3848d729056e180d6d138b4bcf85e6cc1e381cd" => :high_sierra
     sha256 "b8f272bc9e78648ba3f9bc6e0087969fe5b10befd6f306feb15561aa47f746e7" => :sierra
+    sha256 "2fb9c940b835181ba29e9f8c62cc5f30adcb11961df5debe1aa49ad48b84a283" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
