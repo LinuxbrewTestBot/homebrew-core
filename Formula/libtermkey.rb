@@ -11,6 +11,7 @@ class Libtermkey < Formula
     sha256 "efa6360ccb50275ee143410e57b4ff47b2d6bafd97d6f4feeb3cb3ee02050a2c" => :mojave
     sha256 "e3b848de428f811c1879530c043145152bf4b0e599ed642aa2845904d13f7081" => :high_sierra
     sha256 "3f8ce77603619d85de7127f317e276c0cd38a461c545cafeb7c875e7c89fe467" => :sierra
+    sha256 "06448056fd738bb09a88c734b85e54692bfbd1bed7a977307cbbe480a1e0e5f1" => :x86_64_linux
   end
 
   depends_on "libtool" => :build
