@@ -7,9 +7,11 @@ class Menhir < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "7e434bb97950dd0019b43a01ecef5ce0737cb4247e070afb0157d8dffa68c8cf" => :mojave
     sha256 "cecaaa9bed5bb461e3342b591d9e3c86805fa0a4706abdbf6b09c57d7d83e4a0" => :high_sierra
     sha256 "26f11583b32317cf934fa8ae49ae93a467014f46feb705218ae7610dceb9567f" => :sierra
+    sha256 "1062c97af3857c744c7f45ff8582733e9e22e27dc9b3b92f0aa50df3c9838d1e" => :x86_64_linux
   end
 
   depends_on "ocamlbuild" => :build
