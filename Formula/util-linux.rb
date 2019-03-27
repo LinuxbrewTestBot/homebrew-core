@@ -6,10 +6,12 @@ class UtilLinux < Formula
   revision OS.mac? ? 1 : 3
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "977cf2845acc9cdcbcf1b7e92d9c0af0066c5d0cc17df307a123c13180a64e62" => :mojave
     sha256 "d551dad77ab8c533bab98d5bd91291db1f296564336d59d600f0ce75496a9d08" => :high_sierra
     sha256 "aeef9c88dd7ea82ac3f71b6f3793b2316b76ee59a8e01cc56f6316efa4e1346c" => :sierra
     sha256 "f3040a39ad4ffb9eabd9446843dfc3b66df01b3264c875dc68e7339636830357" => :el_capitan
+    sha256 "2e9397309791bdbd5deed06cfb8edadac4832c30478ccd341e59c6db0b1d5832" => :x86_64_linux
   end
 
   unless OS.mac?
