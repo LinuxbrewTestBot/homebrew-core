@@ -7,10 +7,12 @@ class Glog < Formula
   head "https://github.com/google/glog.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "034a4d2272b48fd7655b467b92c78eebfb11efb33cc6cd31f7b13ee085b7169b" => :mojave
     sha256 "bbe6c4138b5fe8cd58d269a39644176f640fa62e694ffac36337f87661cacc69" => :high_sierra
     sha256 "08408127c37122614811eae2d925d940912c2cb29eb0fb300116ee4813d50095" => :sierra
+    sha256 "d2e577f5e9b5ecce6470c053cdda74539a6eeaccae6e8629fbd7879fd1f1f5c5" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
