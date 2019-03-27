@@ -6,10 +6,12 @@ class Tokei < Formula
   sha256 "d7c18192a773158eb4c12534dbe16cd1de3023118149427441c2e1ef3f076a1c"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "11c293fada9e4eb940e448773e69a702f3b2cc179d2659c759791dfc5e38e801" => :mojave
     sha256 "bc94436bb0e6257fc95e063a8822b25697d42436102b28e83d6424cd5ec04711" => :high_sierra
     sha256 "c3f2640ed950476c0fb09b76274e5347c10ba6361fd09864fef014cb636f9513" => :sierra
+    sha256 "095acc285d3db50342e14443aa0557cee4a93d5aff1dbf30f8102d2c2c354d76" => :x86_64_linux
   end
 
   depends_on "rust" => :build
