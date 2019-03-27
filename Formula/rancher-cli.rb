@@ -6,10 +6,12 @@ class RancherCli < Formula
   sha256 "b41bf4637c9df174a6a9d813eeea5b60c9b407dfcea379a5112097393d416052"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "88afc29ccbe080da761bee57ee5b80c1a1f300cba13447b87c0cad577ad349bf" => :mojave
     sha256 "1cb11955d2e394ae1732c0444b2de52c5a1d91252761e0e0b26f55f972a52b81" => :high_sierra
     sha256 "9038728e3401099e6b8c2ee9f3843b4c476180e939425c3ffd20b9bbd64b47dd" => :sierra
+    sha256 "4549c75713ad20dcdcd21ac381322fc69e1cb22cf0a43b55224028fa0567e5f8" => :x86_64_linux
   end
 
   depends_on "go" => :build
