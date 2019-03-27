@@ -7,9 +7,11 @@ class Uhd < Formula
   head "https://github.com/EttusResearch/uhd.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "019e463662322a2468f01524cda377e75f3071ffe57fff7a08011877a3415a01" => :mojave
     sha256 "0b377e3732cdbf3c60bdccc61d4cf9fe35ef9db8523c8112f635037a40dbaa06" => :high_sierra
     sha256 "0a939217bd4b1d772df4c75c5651b49bb01557102eac56695e6d9bd925df280c" => :sierra
+    sha256 "1fcafbceb930eb7d448508bbb4a7b34c9b24823d304720a08c7e88a0eec823c2" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
