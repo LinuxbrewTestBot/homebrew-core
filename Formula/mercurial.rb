@@ -8,9 +8,11 @@ class Mercurial < Formula
   sha256 "1bdd21bb87d1e05fb5cd395d488d0e0cc2f2f90ce0fd248e31a03595da5ccb47"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "8246e13f5e8eeabcae470b1b35cb8c2d8eb35aadc2ee70c9355d2bd0773e955b" => :mojave
     sha256 "0c9dbdc13f157d77814a9f533495212c6ce1d9575dbf3b0a8f4fdc1057442e64" => :high_sierra
     sha256 "282a1569ea5935fa7a3481571c8030e4f2d0f089c45368893e9c4904b256523a" => :sierra
+    sha256 "35863ea48d05e8156552255847d9ca2239f2a33df904ea904f35360c787b8ca8" => :x86_64_linux
   end
 
   depends_on "python@2" # does not support Python 3
