@@ -7,10 +7,12 @@ class Rbenv < Formula
   head "https://github.com/rbenv/rbenv.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "d1019098dee8d037587069398e5ad04e6d736f834dc44ae73943bec46b10b260" => :mojave
     sha256 "b5984102794a9d39388ca1f6ec77965aeea29b971cc00cb5af8ede8ee6c926d6" => :high_sierra
     sha256 "873175a851e5aa4f5b3438072030b945c252f08a9a07760c64dc045e2cce4724" => :sierra
+    sha256 "b3c384b5d154ce9566e59760682035d3be05bf997e2c336942a9423f12eb74ef" => :x86_64_linux
   end
 
   depends_on "ruby-build"
