@@ -6,10 +6,12 @@ class Kcov < Formula
   head "https://github.com/SimonKagstrom/kcov.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "eb5bc53867f7dc0ebb53216daf6b1ec62ee45036fa36d60ccfa03722644176ed" => :mojave
     sha256 "e5c56807425593829fa59be83f58ba473cdde545216c06fdda54e7e59996f413" => :high_sierra
     sha256 "75e27a93b88782772c9d54db0afcb079f5f1b3d89a6ab1e457306e269c2951a3" => :sierra
+    sha256 "eeb907847bdfa16be69ed2cc819e389ad66636b7c381f810e80a7a7d9348bd04" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
