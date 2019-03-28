@@ -7,10 +7,12 @@ class GitFixup < Formula
   head "https://github.com/keis/git-fixup.git", :branch => "master"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "0fc85e047798c8602c8ad69796c6b6ac4d9759852bdba1b189aa0e999dfb53a2" => :mojave
     sha256 "0fc85e047798c8602c8ad69796c6b6ac4d9759852bdba1b189aa0e999dfb53a2" => :high_sierra
     sha256 "30b0473a2e18df5f4d91f61d74babf21fd5e8eccf9499d402f61790643400af7" => :sierra
+    sha256 "7952ae72aa226808c24aae17d97e5a4c60dbc48bc8d86176a26f2d892ee83aa5" => :x86_64_linux
   end
 
   def install
