@@ -7,10 +7,12 @@ class Tbb < Formula
   sha256 "2ea82d74dec50e18075b4982b8d360f8bd2bf2950f38e2db483aef82e0047444"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "dddaece3fa2a6f9956cfc960904bc783e8d514ee2062efa235896c920011d8eb" => :mojave
     sha256 "ff7652fd64198f0ad020c417b337efbc91a37e0f566f56a8ef237363e19dc338" => :high_sierra
     sha256 "42fe13b9961e7560bac489d4c4ed7b3e79ef6aba54d1d851fe851776e42a933c" => :sierra
+    sha256 "ee5907c6ed3729ff3e4ade8ec6a9e0b25edd31e9bcb05adcdcbc58a73e1577c5" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
