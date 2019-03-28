@@ -10,10 +10,12 @@ class Khal < Formula
   head "https://github.com/pimutils/khal.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "cee9b881289c60323bf0c73b154b1ec79d3762e3ca74b5c5704be99937407a34" => :mojave
     sha256 "66502c06cdaecdeda0542503a509589c62b9717476fd20a7446dbaccf67a2faf" => :high_sierra
     sha256 "02721d05da49b67c695639a0fdd4c9b7142339d4076cea402fd37a8b9490deda" => :sierra
+    sha256 "4d0cbcb414b133ea7188150296390c6ab32ba65867a5b71019235536efeb138d" => :x86_64_linux
   end
 
   depends_on "python"
