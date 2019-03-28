@@ -9,10 +9,12 @@ class Cppad < Formula
   head "https://github.com/coin-or/CppAD.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "00b5cd1f773116274669f36eaf037816aa016a2acc00256076e24f63e429d91b" => :mojave
     sha256 "00b5cd1f773116274669f36eaf037816aa016a2acc00256076e24f63e429d91b" => :high_sierra
     sha256 "53c33dcd82bcd8b89d6738d6a9487e63dd0f014bc8534c20600796179df45618" => :sierra
+    sha256 "93456370b9e6a5bd08f5e999335a7c7de27e822cff5c4747e28f35aef4216f56" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
