@@ -6,10 +6,12 @@ class Bowtie2 < Formula
   sha256 "c5daeb0249e98dfe8f70dac7d660b100365a00a22df4cad94d3e383f489911ae"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "a8d3ff5aa29ef48837b1e1867d5ae015773f1e6a40a3fce5191ddc3211c709c9" => :mojave
     sha256 "2d0d7ea055e9e43276ccc0e88c24dbc013c2d008102f69415c601f2f2ee88ec0" => :high_sierra
     sha256 "6eb09792f58222c4c05354423647a694d7e7333479d279b2e3a14e5c13696511" => :sierra
+    sha256 "a4f4d99e341bd1e4fc46d13f457f8c51999c7b72d1c2735dfb513d9c242dc9ac" => :x86_64_linux
   end
 
   depends_on "tbb"
