@@ -6,9 +6,11 @@ class Abcm2ps < Formula
   sha256 "ce2708550725c2ec54022b4c4a076dad7ea7f33d9cd588e7df58bb5c989eccb4"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "69bec8680e6e76714977d28b02d01545824c6e3c551589f189b2f941f964ac5e" => :mojave
     sha256 "03b600243e0b6700e16d064c2332a7556ffb25d12a8544475cfb3ee14c05a507" => :high_sierra
     sha256 "f6e131e82457d8e836d60dec364456926be89ac8d05fa287893d25be1f502791" => :sierra
+    sha256 "c89b33a48715fd37191ece2523e5cfda54cbdcf5162caa6633b2a1f6c4f41bed" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
