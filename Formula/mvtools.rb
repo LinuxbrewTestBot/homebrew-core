@@ -7,10 +7,12 @@ class Mvtools < Formula
   head "https://github.com/dubhater/vapoursynth-mvtools.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "38a737a0f57228a8feafd128cf5124cb563a1579396943c5f3ae28716922ddc9" => :mojave
     sha256 "ddc7826a71b5c15138526db3857afbf16cda335c7037236bd2abe35035c9bcc9" => :high_sierra
     sha256 "397b4e471afb5194b619dc3829bed5bb98739f11c3c188db6e3837d09159063e" => :sierra
+    sha256 "9b690e659def27819a205d51c2e859214af21877cfa0b12206286d1244a61fb2" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
