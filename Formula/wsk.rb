@@ -7,10 +7,12 @@ class Wsk < Formula
   sha256 "0f0052ea85b10aea8902d4ccb9393fd523b96d5b2477b1c38d486366edc9535c"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "850399f50dccd74a0b26b06110bcc2c350684113d43c4befc589cc184eb10254" => :mojave
     sha256 "f15b8866018349165cf08465902fc6de24b7ffa4207baa8aab4f1e4851933cbf" => :high_sierra
     sha256 "9b568c659828cf15eae198a7632a3ef6ca66fcad518541518ab3d380b1d39a07" => :sierra
+    sha256 "2136b7afd41ac4720c7b205cb4e7287c1b71969f4ba0e4bd1ac4b8e9eff4af5f" => :x86_64_linux
   end
 
   depends_on "go" => :build
