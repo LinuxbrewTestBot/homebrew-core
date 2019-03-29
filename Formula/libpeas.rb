@@ -6,10 +6,12 @@ class Libpeas < Formula
   revision 2
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     rebuild 1
     sha256 "eb2c9c93ae2f61d692ed967754a535c2f98d8c7b96a5cb4762acbb4d222a165d" => :mojave
     sha256 "0b4c9d85b0bf36dc9898947b3440d170a7176f5d0cced1ab3ef1e791c7ca58ea" => :high_sierra
     sha256 "4d3e2f1ca6ecd6ffcfa5e496a4bc98e965293de85631c2e6d5a4f2636adbfe9f" => :sierra
+    sha256 "df1763d6284895c716c0b723fa271c2925ee2d002c49d862f76d35d6e8307fb4" => :x86_64_linux
   end
 
   depends_on "gettext" => :build
