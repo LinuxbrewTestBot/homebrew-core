@@ -7,10 +7,12 @@ class Libtommath < Formula
   head "https://github.com/libtom/libtommath.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "e69fa7fa3b1ff2e85209b6719ad17192942c9d2954321f30b7e039745e4e9ffb" => :mojave
     sha256 "291e7d5f7f5ecace41fc8d9a402f8bb630004700f264339ad013df713f9b33eb" => :high_sierra
     sha256 "fba7bbbc5efe8f09f7a23b93e5d168134703f3ce14bf2a5b8b7473cad0f7826f" => :sierra
+    sha256 "690eb2d8b8264d5c2471b187bd6e87cc8eb11c95103876365a04f7b0294a9aab" => :x86_64_linux
   end
 
   def install
