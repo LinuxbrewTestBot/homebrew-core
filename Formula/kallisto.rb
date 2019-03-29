@@ -6,10 +6,12 @@ class Kallisto < Formula
   sha256 "2c97280c69991f995f77e7c8ab56ae5060329c90f7f0d7e9ca2f01dd50ee378f"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "60b4b2ac31be396caaf7a07d403be9572451fe1583f638e1e3782c99cc66973b" => :mojave
     sha256 "265a37e38c894f343a1f245c7c0b1147788bdc294dae5c765e6e7c4edb86bccd" => :high_sierra
     sha256 "67d589175fc046e782a761597c3a5d11623770cc9937939eadeff3f535f04dd4" => :sierra
+    sha256 "c99124856c4afa56146809780416719daac3f1a7b1ab816e44f26f0147e3b828" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
