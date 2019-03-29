@@ -10,9 +10,11 @@ class Hadolint < Formula
   sha256 "acbc057a1eb8367ff13ec86c4e5b2eb6fa66f9536bf4716648e2108163fca9c6"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "5d93806a8a4ed05e4234cbcab8b7fbbac06d5eb40e8fe24cd56ca8f4ffdaa836" => :mojave
     sha256 "2e9dfbd2e39689eb5a0240d0d967ed0be8e7a72fb27e8aab9dd606bb332b3c63" => :high_sierra
     sha256 "bc3a05382f66059eab138cac77c1af2e717f4becb91e5de558d1c4e8672b40da" => :sierra
+    sha256 "790ee0b5181a77f1ab9bc8e536546ca5106326dbafefc6c3a4e979279b069b5d" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
