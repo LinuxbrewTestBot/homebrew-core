@@ -7,6 +7,7 @@ class Plotutils < Formula
   revision OS.mac? ? 1 : 3
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     rebuild 1
     sha256 "96a618ea8123f08d676b0db38c1c3b93dc8f707c742e97442b74650c2dd8e4c5" => :mojave
@@ -15,6 +16,7 @@ class Plotutils < Formula
     sha256 "b734cdcbc7ce11c4a716bc96ee7671f3883a5d41dadceac28d994ad2c20292f9" => :el_capitan
     sha256 "fae89f252628820ac83a0896fa022b1c08cacca6e6234b2fb23c10554f424fd3" => :yosemite
     sha256 "e51b4b5c367e8f9ec533f54e20c9df0b887818ee35c4cde19ba8feb73d4d2ff2" => :mavericks
+    sha256 "40c9a61e453068bca346cf164ce3464c77a7b884a123a960f306d7fd08e69b81" => :x86_64_linux
   end
 
   depends_on "libpng"
