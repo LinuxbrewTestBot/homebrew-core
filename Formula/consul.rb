@@ -9,10 +9,12 @@ class Consul < Formula
        :shallow => false
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "3e97e5e604475174cb8a30296171530f4482bd1d051863311f31445285bdc872" => :mojave
     sha256 "97fcc94edc368fe577cee71fb6652c475e34c69ec363d62d3ba890550b544b82" => :high_sierra
     sha256 "1a16178f018ca4643e5ef0ff04fe614062743c9d5d69fbb443f9eb6208226af5" => :sierra
+    sha256 "7f206478b9d78575446eb9ad81fa7eb62ff7bc48d28dc2a40621a6117c65b585" => :x86_64_linux
   end
 
   depends_on "go" => :build
