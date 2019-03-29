@@ -8,10 +8,12 @@ class BitwardenCli < Formula
   sha256 "a9fc1dd998d34de8f4300936ef4e422d3aeab086930a34f1e5ae75219a1b8f58"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "eb4a7a4ad516f0f750c27cac69245823565d4240c5b3913bccbddfa7f3d8e568" => :mojave
     sha256 "b122d6e652f9462bda4560d0b6d19d520ff3f9520818a019d063693894ccf4be" => :high_sierra
     sha256 "b18d54ccc94976e1589eebd2577b5d03084780101d750b98f9fe5beb8904c586" => :sierra
+    sha256 "c8619ebc37c2e95efc5199ed1871a63862e7f358405e4d2b7dbd20be4cb404bb" => :x86_64_linux
   end
 
   depends_on "node"
