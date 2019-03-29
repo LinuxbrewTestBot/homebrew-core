@@ -8,10 +8,12 @@ class Termtosvg < Formula
   sha256 "be2ec97841249cea02483fe761d903cae5f8a0b15887d5d0f106a01b5ac53c54"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "a41b6080f406b9a04221c8328ac2772d5097994659aa4a033d3ff706dfd5fda0" => :mojave
     sha256 "cfcd6703680cbfd26dc5b1c532f674a1e5b3074f7207e118989648d16826d74e" => :high_sierra
     sha256 "65e860a6e9f95e47b2d763a37a66bb70c08c0afc90966d13c9df54c91d7b1dce" => :sierra
+    sha256 "71b8080dc2c89c4daa088bd761acd6938c02b278d1d6ef127634109f0d336176" => :x86_64_linux
   end
 
   depends_on "python"
