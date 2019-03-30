@@ -5,10 +5,12 @@ class Aide < Formula
   sha256 "0f2b7cecc70c1a27d35c06c98804fcdb9f326630de5d035afc447122186010b7"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "53b1dfabc76d6e54db56ec24f7f91b6cc9dcdd18210d17d2df92f86225fb9c9f" => :mojave
     sha256 "79a2d4ce92526516891c844a4852161d39421f9dc31d2eba5ea0e48d79496053" => :high_sierra
     sha256 "b626fcf7e52a0ea66fbed58bdc00cb08484f7bce8e84e61edf6740fbad7fabc5" => :sierra
+    sha256 "d3ae683583863f880b727b8913c8d2682f3d26ebdfd43d2253868a8441b47c98" => :x86_64_linux
   end
 
   head do
