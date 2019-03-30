@@ -8,6 +8,7 @@ class MinimalPython < Formula
 
   bottle do
     root_url "https://linuxbrew.bintray.com/bottles"
+    sha256 "f0fb1887b88e5aa46ed6171a2501b0b9a5a16ac13a532b858b8f27c4e60114a8" => :x86_64_linux
   end
 
   keg_only "conflicts with python formula"
