@@ -7,9 +7,11 @@ class VimAT74 < Formula
   revision 20
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "962c40704fd24c488252ffaa01f2019736e70b63e7e14b09c57dbe1eca93ee70" => :mojave
     sha256 "85c256d2e4fbaf410e3407db02b1ecae12a36a529aa8f2ff14e77d8b97bb1b27" => :high_sierra
     sha256 "0c2c6e6443bb7052a4a5948f404ae5a8c539f74004f2cab942f8e59fb52c32d0" => :sierra
+    sha256 "f194d286af954808377849c7abbc332b82b590e21daa222657e6d9f88ca090ef" => :x86_64_linux
   end
 
   keg_only :versioned_formula
