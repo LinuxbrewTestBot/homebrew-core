@@ -7,10 +7,12 @@ class Doitlive < Formula
   revision 4
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "808da033ebffe76926139e44a3c69434403f3873576e91b701e5fdc87726f4c2" => :mojave
     sha256 "e2837619960de9f94dfd4b39b5c7924da768dc8b8bde917b5f0e405ac5914d43" => :high_sierra
     sha256 "4e1809008663b4f89187c339d3e0a79c81e025dd884c483fef79da5857e79377" => :sierra
+    sha256 "f46ea5116b2bb091a0d73b6bdf86433fe9e52d44095c9e2c172df348dadd2c85" => :x86_64_linux
   end
 
   depends_on "python"
