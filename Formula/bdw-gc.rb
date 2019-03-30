@@ -6,11 +6,13 @@ class BdwGc < Formula
   sha256 "4e8ca4b5b72a3a27971daefaa9b621f0a716695b23baa40b7eac78de2eeb51cb"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     rebuild 1
     sha256 "6ba8765e5828d33948dd5f75b02e99c830e3968199f612cba21b47be48c3232d" => :mojave
     sha256 "cfb61bc256c0d0a95fb247652eced2e7744cb53e0226ba6585e5e37ab35d8613" => :high_sierra
     sha256 "36c45709cfdd7956869513c778caaa188ea735da3b0b2448bf1787609615c125" => :sierra
+    sha256 "7b758ee2d9218c382f55f93dbe2c0785be3130c48e1c886b7e77642c08f2085d" => :x86_64_linux
   end
 
   head do
