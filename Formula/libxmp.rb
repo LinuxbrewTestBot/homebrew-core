@@ -6,12 +6,14 @@ class Libxmp < Formula
   sha256 "353535cc84c8cddae8decec4e65fa4c51fc64f22eb0891bc3dae6eaf25f9cccf"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "d86f0bd86f2cada740f5a87d9f18216b30e2383d9d572200c5a684fd73b8a9a4" => :mojave
     sha256 "642c904938aa1797b3512f3f820283d4104a8153d2b0144003110accdc48a877" => :high_sierra
     sha256 "019ff8e51453bf527ba6ec46fd289acc5396208e230445afb0332a18752d72e2" => :sierra
     sha256 "8da81ed699c312c831be38295df20218663fef23aec1cab91afa7e425baaa4ab" => :el_capitan
     sha256 "dd80b8a6786f265488503234bb7aecffa15ab0a5c099677fd0989fd3329709d2" => :yosemite
+    sha256 "000485628d649584912f7aec7f8eb536a0f764a4045380830e42837b146b5176" => :x86_64_linux
   end
 
   head do
