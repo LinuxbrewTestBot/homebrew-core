@@ -6,9 +6,11 @@ class Freetds < Formula
   sha256 "bd08d2b7e6b7819fec611f02ff5b48a53298d46f733385f12e83289c017f2d1c"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "66ce6291c83495f7372ae00559eccc8044c19d61642f5f02a375c22e63ac88d5" => :mojave
     sha256 "79172589792275fd0ae469364a01b8ffc617080687a6523f1401c210d122cb08" => :high_sierra
     sha256 "d1d7e4eb2fe06e76e8b257770477969b70d4bc3159bd1d08b8c759ca1affdfac" => :sierra
+    sha256 "9e8f054f035cff860ca2b478489af47a98812c420143ca293971659d585f1f88" => :x86_64_linux
   end
 
   head do
