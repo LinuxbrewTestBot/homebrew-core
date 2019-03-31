@@ -10,9 +10,11 @@ class Dpkg < Formula
   sha256 "4eb1a12d1f5bd55478d2eab530dd188733e425f301e3b8c030f645f48ef43768"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "9cee368419235eae87a1756cbb28ee959cc32641b31d393296205e423babfe4e" => :mojave
     sha256 "20576b72c2efdd806f7a3ff2e184dd0985ff339ca3ff49da4acab5e2bbf0a81f" => :high_sierra
     sha256 "6b42beeee30b8be393a3e0cb56dc9e08932691e3bdfa7050ea6d35ced9869fa7" => :sierra
+    sha256 "89c5a1fb8a0e3126fd00c5a94348c0dd54431930903bd280829bba339532042d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
