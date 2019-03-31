@@ -8,10 +8,12 @@ class BerkeleyDb < Formula
   sha256 "fa1fe7de9ba91ad472c25d026f931802597c29f28ae951960685cde487c8d654"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "bda67250f858b348c8e537ff22b63f69b561eadbb7c04153a87b291eab7eb617" => :mojave
     sha256 "0904c59965847bc4d02ac3bea47898a50cb7020f95cc22f58981ccd583b40419" => :high_sierra
     sha256 "97c14eb14e088be83ea8d090b7adcb05cbdcd4c545a64fa5681dcd6ff4de017c" => :sierra
+    sha256 "9fd2719ad1503f88ae72073f94d535864c371aa8e5d0d8b1f6026c716b23ff77" => :x86_64_linux
   end
 
   depends_on "openssl"
