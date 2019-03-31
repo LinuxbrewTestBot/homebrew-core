@@ -8,10 +8,12 @@ class Esptool < Formula
   sha256 "51ebe169cade538c986e92eb65562b8ff3a1293baf14b9ad977df888061ed78e"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "9faa763fa31fb23e398639dc95860598b289b15ff7a8a70a76a66eb1dbf9ca3f" => :mojave
     sha256 "6a97ebfbddb809ffdd8cfd97337dc313cff99790b2ac52f1e2c8021691bcd58f" => :high_sierra
     sha256 "e9f9409e0ab29d504a68a61ab7767c58f8f898f317979a67b8e726e366616d87" => :sierra
+    sha256 "c8043383d3e0670cd6101e0a2d3ee25b70413ff9a0a9f6c997bad8c8905a9f02" => :x86_64_linux
   end
 
   depends_on "python"
