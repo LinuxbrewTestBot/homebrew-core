@@ -7,10 +7,12 @@ class Whois < Formula
   head "https://github.com/rfc1036/whois.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "66e068933f97c0f7afc1f53eadca1befbd739295c2384343d35595008cd8c5a3" => :mojave
     sha256 "460c91fbfe20fa011af0e912f6139ec87de04c8a34fb1f0d28b29dd602bac53b" => :high_sierra
     sha256 "57392e6c829947253e65e9e353b39c17dc85d448ebf8af94cbc5803ee927fdcf" => :sierra
+    sha256 "f4c7fa38a8fcce54cbb9cee75831429d70b9cdedc32a1432d41c076725c44891" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
