@@ -6,9 +6,11 @@ class CurlOpenssl < Formula
   sha256 "4cc7c738b35250d0680f29e93e0820c4cb40035f43514ea3ec8d60322d41a45d"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "44d845c366ba037c65fe913ca2bee9db03a847ba333176689fa94c6af0f935b3" => :mojave
     sha256 "0bdb433305b927f6a0c71393c0c8c5002ff6c566440b82f93d8a2d5014cdc01d" => :high_sierra
     sha256 "9dc946b3332439ca177c3ca0c01748955365d49fb47d7cb29c8c2178bb83223c" => :sierra
+    sha256 "c0530aa6f8c41a0ed17d47f859378d5c56e9bb7d1ef1ceca25e9d76d1d9b0227" => :x86_64_linux
   end
 
   head do
