@@ -13,6 +13,7 @@ class Auditbeat < Formula
     sha256 "bbd27e1dcdb0e2cc5f2067544001665d561697878734cd5879834a787ddeb366" => :mojave
     sha256 "4a3e05d318b4227eb210056213604143695ef2599dc691017a935b26f345851d" => :high_sierra
     sha256 "5915bbd0d7f1ae3bbaf0a6e8ab31b9a0b591e617fdcde294348cfbdfd0117c14" => :sierra
+    sha256 "4cf7a587e8aec290e7593e3eb1e8979867e15e88c406f7974a3a038a5e16d81f" => :x86_64_linux
   end
 
   depends_on "go" => :build
