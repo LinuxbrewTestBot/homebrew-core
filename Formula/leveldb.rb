@@ -6,10 +6,12 @@ class Leveldb < Formula
   sha256 "e0fbd238047b9e82ec26a2b808f826b60e12b4fcb5d1a18c7b3d6edf357b4026"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "207163a92d342b49859dadedc6c1dd521818291021320296842b96c596b09a78" => :mojave
     sha256 "25edbb2764d6e1fe3bd2f77abac191e94c088cda24540e218788672a88086df7" => :high_sierra
     sha256 "0c03715dd2161d3860552d660e06cf9a276bb8b412c332bfdb0449ea34030799" => :sierra
+    sha256 "00f88e8c9125bf9cfe6a947132c07f26ae4d68f02e81ca00153e09defa61dcdd" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
