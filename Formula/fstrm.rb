@@ -6,10 +6,12 @@ class Fstrm < Formula
   sha256 "10ee7792a86face1d2271dc591652ab8c7af6976883887c69fdb11f10da135fc"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "3dd80be760c39df81e083f3e7b1a8fd00d65aada1d3bb43bb2af66fc1ab47bcf" => :mojave
     sha256 "b6e66ea781aba5fc3b2aafb0b895d5e8ac24f57de5fbc99d32c0947b36fd4e6d" => :high_sierra
     sha256 "0525efc611c5006c41ba7ab1355479b4078298fa21739cee38225df35aa91d56" => :sierra
+    sha256 "08d2fd602946d4108c7302742ef9755e6bad3c3915ab719971cdbde230ebe684" => :x86_64_linux
   end
 
   head do
