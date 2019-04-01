@@ -9,10 +9,12 @@ class Coffeescript < Formula
   head "https://github.com/jashkenas/coffeescript.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "47e4dada1327df33681dd9e8eff5a1bb6450d9cdab1bac5ba4942a3d3c652ce6" => :mojave
     sha256 "12e0dec01386a9543185f86c8b820d1de706cd98cb9013b563508f3346b2158d" => :high_sierra
     sha256 "a4d5bba36cbe559f5d1d944d78749b7d90fe03eb0481064446775d1f7f36e1a3" => :sierra
+    sha256 "14fec945cc5888b13833177eb0148ddbc240e9113d0e3174fc8db8ed447ff06c" => :x86_64_linux
   end
 
   depends_on "node"
