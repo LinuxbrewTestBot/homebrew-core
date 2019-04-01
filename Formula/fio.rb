@@ -5,10 +5,12 @@ class Fio < Formula
   sha256 "24d7917e830ea6eeebe2a90f4d374b8317c45aa0df7c4fc0b420be3fa6edf1f5"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "2395205bfa683bbfbebbc9fdd8ee5f03c04921f6ea80f0e9d8788c6408869f53" => :mojave
     sha256 "cf9d98d1f6df0fb1077ad81b535583ad1094c4e06ae7cb5fe62c5c2f1e185ceb" => :high_sierra
     sha256 "c3a19915d2892a7e1dcea98e1d49437c61e101e1087ca256dbca327bf2d7656a" => :sierra
+    sha256 "a735d081b46f98f67d4fc8f349c00675243b7ac3e1f10e87727c38cb3ce8667a" => :x86_64_linux
   end
 
   depends_on "zlib" unless OS.mac?
