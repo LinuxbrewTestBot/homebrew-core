@@ -6,10 +6,12 @@ class Ginac < Formula
   sha256 "e74b6bf42d120a162014d8c8b5e89decc9c37a0a772adfd45acb23ecda6d6887"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "9d1b29e27f00ce4e73523a225a97252918648566b729d6fcdf0b8fc12058e80c" => :mojave
     sha256 "3aef98960da7da142e1ebcdb2c76a4a095dc3eb7665ae3982f2862f2aa386d39" => :high_sierra
     sha256 "cd70440f6fe43ec1fae5e643ef2c5cf1bb3cb9861406b4b2718b3901deb33666" => :sierra
+    sha256 "efd6e90200f8560733004329fb456d3eddd6f7a87b35782bddc7017f69f705d9" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
