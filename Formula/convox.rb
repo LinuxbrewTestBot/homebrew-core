@@ -11,6 +11,7 @@ class Convox < Formula
     sha256 "2d859bdce77b34b21676d5825092fe566c349032d86ec0a31ad741a734599420" => :mojave
     sha256 "4fa8f7bf0e82f0e67c00e68150dc67242794b2ee4706e8aaf6c914a3f1f03558" => :high_sierra
     sha256 "ade7bbb5ec769fa40d8b674d66a82d6252e5e9cc020d3f9b6b00dceb913cf510" => :sierra
+    sha256 "285aa41a1896caf4649bed5869095ba373b9c2c5204f5e446cd63b2065309266" => :x86_64_linux
   end
 
   depends_on "go" => :build
