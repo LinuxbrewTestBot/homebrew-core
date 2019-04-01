@@ -7,9 +7,11 @@ class Highlight < Formula
   head "https://gitlab.com/saalen/highlight.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "fb2b5f288ecd87694069e860fdccdb103f154ab884317675c64e38c5e4679ed5" => :mojave
     sha256 "e713c9b32d2cdb085b3b963d9779b21127aa08473b07556c931b848d52a96174" => :high_sierra
     sha256 "64b0d8d2c6418e33dc39b04223bfffa5219850e9ef73cf902b5e3bbed1d6f91a" => :sierra
+    sha256 "fafd10fbbfb04a08d42d24d9c7d9090c6261fd23313347ccc85db7b253aea3b8" => :x86_64_linux
   end
 
   depends_on "boost" => :build
