@@ -8,9 +8,11 @@ class Gammu < Formula
   revision 1 unless OS.mac?
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "268a83ff9f049f11778a184dca09e7d623b9646229c29c2ec12a947225472340" => :mojave
     sha256 "11da43acbe3fc602314139531d78c5d1671667040d70f496b4222fee332bd2af" => :high_sierra
     sha256 "7dbe28490b04010a1b337e9dd4f5a9099bc1caad07f0c02de7585351978e94a1" => :sierra
+    sha256 "c18863979d6d5f946d9308f3709eb9dd87f1a80fa288c1ce417523671de8d14a" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
