@@ -7,10 +7,12 @@ class Fades < Formula
   head "https://github.com/PyAr/fades.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "c21bbc27f3219e06672b379c38b065808bc9b32301d8d334e0556721aac2b654" => :mojave
     sha256 "6c4ee1dadfb942d489a91e6dd14f9b71fbab8962fed4a0e454456331cd2fc8c1" => :high_sierra
     sha256 "4df027cd197638de99378de8d7e0c91f6fa4fbbd685440dca7df1363d32529f6" => :sierra
+    sha256 "a541e4cf31831f269d807152cad910beb06dedcbe03a262685f08cb771e37ad5" => :x86_64_linux
   end
 
   depends_on "python"
