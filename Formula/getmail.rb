@@ -6,10 +6,12 @@ class Getmail < Formula
   sha256 "04d52f6475f09e9f99b4e3d2f1d2eb967a68b67f09af2a6a5151857f060b0a9d"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "bbdb94c93d8c1371b5b711d0ad5e7d93291bf258c9369db8cf86df21b93730d9" => :mojave
     sha256 "bbdb94c93d8c1371b5b711d0ad5e7d93291bf258c9369db8cf86df21b93730d9" => :high_sierra
     sha256 "b7a29273d7246e00f25c029b887c64cec4d2db89613de17ba48c76031c5116e7" => :sierra
+    sha256 "9d652f927f1f7e2396cf90261e36c418f52b6cc17f43657809f4bd9009e1230d" => :x86_64_linux
   end
 
   def install
