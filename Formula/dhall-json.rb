@@ -17,9 +17,11 @@ class DhallJson < Formula
   end
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "be720f359d2d4a410710e680f92b00ee1dc27b73ba57325d22749d0655f6db4c" => :mojave
     sha256 "e2d137cae281e8dfe163314c0bf68f9481458808b233287fbe7567b92122cc19" => :high_sierra
     sha256 "79cfd56848515fd4eff7620be3c25e2fd75131778b319a9e70f075b46f0251be" => :sierra
+    sha256 "934c8746badc588557b260770b6cf7da41b0bd55ca379878c4c2a4c81db6369e" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
