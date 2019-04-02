@@ -9,10 +9,12 @@ class MpsYoutube < Formula
   revision 7
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "ac649a7aea7518f1155ad9c2675c1735e617788b10639fdc4b96fc14b75d95cf" => :mojave
     sha256 "a6aeaff1f55ede1a00e2b21ca5bab1c21002cfe492971c81bddeb4bc8dadde91" => :high_sierra
     sha256 "2ebd7005338eff1fd9a92e58f707d9ab9998f155aee9d42e37dc276e2b77c0ab" => :sierra
+    sha256 "4c094ca0a9a358ce3a4f590069206325fdcd9679ca724d88d232f768ede06479" => :x86_64_linux
   end
 
   depends_on "mpv"
