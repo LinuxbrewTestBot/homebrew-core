@@ -6,10 +6,12 @@ class Cgal < Formula
   sha256 "59464b1eaee892f2223ba570a7642892c999e29524ab102a6efd7c29c94a29f7"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "8987fe56d173560be950ee0bbe77c5a7a5015b743c1111cb5136946b86af92e1" => :mojave
     sha256 "9ebc1fcc1954264abed37bb40cff0d64f6290b03effa0d95e4b579c9710a4f59" => :high_sierra
     sha256 "13eb7618b3f053926d6f88e4d701a12bc4792b1aabad0f822b1af9c1a51ea242" => :sierra
+    sha256 "7a054b111a3a3e120367c2e58bd8fd38f0ebbfd4aa68a46246619ce892867e85" => :x86_64_linux
   end
 
   depends_on "cmake" => [:build, :test]
