@@ -9,10 +9,12 @@ class Mackup < Formula
   head "https://github.com/lra/mackup.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "6c47ab4a2ecdf96143874948d15ccd380c62708de608d6ec7bbbe761723716f1" => :mojave
     sha256 "47ce18f4be5b06637ab4a46f960146d46e11a82cce04771de0734e67bfffaa93" => :high_sierra
     sha256 "9a030465035f5b9cb969acb538977487f5c7dd5cc37b1889afb57bf5f9d0384d" => :sierra
+    sha256 "d357f34101afb6e4205d612fc07d812dfce4c6c8842d2e4474ebec94eda66def" => :x86_64_linux
   end
 
   depends_on "python"
