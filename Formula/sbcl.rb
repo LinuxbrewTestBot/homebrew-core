@@ -6,9 +6,11 @@ class Sbcl < Formula
   sha256 "f072cbab325062202e7b9147f44a42c99c78e3c159e8916609b54ea01616e623"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "c3a62b5d3d43ad5163ee49c94a6462c72db2c7da0af249a5f615e8ece1bf7523" => :mojave
     sha256 "788453f908df6946ab9d3da06449896e1d01e3c6cfb93ea81cf6cf924202074d" => :high_sierra
     sha256 "4619c42174b3614e2406d02530f863251dff15ca61ec9c84cf7312c354dda0e0" => :sierra
+    sha256 "b66a697365c057abd637c4a7e2144cba2368a8577191cd3cb5d8d7cfdfcd2ca1" => :x86_64_linux
   end
 
   depends_on "zlib" unless OS.mac?
