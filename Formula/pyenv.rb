@@ -8,10 +8,12 @@ class Pyenv < Formula
   head "https://github.com/pyenv/pyenv.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "acae690d661eff69b54b66aa90c69f5254c546e23a7bc6b5447897e9024c48f6" => :mojave
     sha256 "449bb8952ea6aba7f0534f3259bea479cd7464f1c24378f8d433a6048c4bd0e6" => :high_sierra
     sha256 "342fbf05f62973a4123e53c1420506f99023378e2c0574e93b2fc995699a3df3" => :sierra
+    sha256 "f4e0ce98c360766a6549bdb8e2783b867ac14bf2a6bc604975729148ed5f95fa" => :x86_64_linux
   end
 
   depends_on "autoconf"
