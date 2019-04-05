@@ -6,9 +6,11 @@ class Gsoap < Formula
   sha256 "a2a6d37c94aaf8bf72ae9192848f21d99a9efa939f0d0d4ddad5a9e6be5ad72a"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "18df1341d4ed565916b1ccc8228348c5581de74b9f1880fb9721533895d69116" => :mojave
     sha256 "b0fac6a89c05a524f02fc1f8d5573d560f6d0cea9f4e0929f0a5cbe06bd27359" => :high_sierra
     sha256 "ed0662e80a9c81e063f54b4d0cca5cb67f30dc9f26db0b5fcc6c444e3454fffe" => :sierra
+    sha256 "d70afeec2e0ae010657a91ec8bcb8cc04535fba40239c8d0025df4e36c5b1dae" => :x86_64_linux
   end
 
   depends_on "openssl"
