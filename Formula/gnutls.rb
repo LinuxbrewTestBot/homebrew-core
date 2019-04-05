@@ -7,9 +7,11 @@ class Gnutls < Formula
   sha256 "881b26409ecd8ea4c514fd3fbdb6fae5fab422ca7b71116260e263940a4bbbad"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "8ac55be3286c011d104ebeadd3d79186a2513e7ac41b73e3e111fd2b474340c3" => :mojave
     sha256 "c7ab489a0991438e3d2ed470cbf6fd0106b02330f11a2a046855809841568aaf" => :high_sierra
     sha256 "511e751619a7a3429849dde189f6f4250bf1f3433e1436be9f08b2b79bf5d5f3" => :sierra
+    sha256 "e32adffca9318c32d0eb3851cafd6eb57e26d9444f26925855b3ee344668e4f8" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
