@@ -6,9 +6,11 @@ class Nsd < Formula
   sha256 "1bab5f30406cabac2f2cc95f8af6dfe20581646a75a70c091845e04d325f4eea"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "f63a856122e366a1413a5fbe580bfa40faa937696cee7a089c11241dad35a50b" => :mojave
     sha256 "491a88aae267376b31da83f39ef94ddf2cfb0c302f124a5671c6c5c06b740fcc" => :high_sierra
     sha256 "6aa3633bf07bad78e431f8856f8f94832196f92814b8cde319e0358ed82d8658" => :sierra
+    sha256 "42c88bf36d4e85f947cda6189ca4a07e140a082e8e54bb8ec539548bff2626bd" => :x86_64_linux
   end
 
   depends_on "libevent"
