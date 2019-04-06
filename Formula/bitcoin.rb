@@ -8,9 +8,6 @@ class Bitcoin < Formula
   bottle do
     root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
-    sha256 "997ec756fb344e2d2fd32e6a114650be378eb1e1e771ee23521fefeb4f63b69d" => :mojave
-    sha256 "4914d564d82268fb483d570e35c8133d03ba45a9f4aedb15a3ed14d1ea435557" => :high_sierra
-    sha256 "f3db34cdb178af236d04afc56753235aaee7367f576080a2bd4512383717cd56" => :sierra
     sha256 "84927769d1db60e189d056e7ac9a5eba9ad9b14d1e2cf4ab86d821aef9f308e3" => :x86_64_linux
   end
 
