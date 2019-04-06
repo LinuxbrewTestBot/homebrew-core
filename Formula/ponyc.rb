@@ -6,10 +6,12 @@ class Ponyc < Formula
   head "https://github.com/ponylang/ponyc.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "199b917ae5c5eee23777e56f78a8711283726e67d289707615256a74613b62be" => :mojave
     sha256 "59fa6bfe479cdba949e9c91753775b8c14dac0c691a6ff5f4c7b0c64e98effb2" => :high_sierra
     sha256 "5f24fd0cf1e8ac02e44515b12e3ba85a733d8a527f74cbdfee9f17a22aceee81" => :sierra
+    sha256 "3f90d26da86f8cf6442b978e5093a83896231fdf491208d00fc203b007334327" => :x86_64_linux
   end
 
   # https://github.com/ponylang/ponyc/issues/1274
