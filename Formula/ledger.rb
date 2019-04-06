@@ -6,10 +6,9 @@ class Ledger < Formula
   head "https://github.com/ledger/ledger.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
-    sha256 "b225b9fde9487458e32499fc039810a9aa7f73d6744b9132f5326d8c20524563" => :mojave
-    sha256 "95a13d2f8ccf38bcd91030dd86e8abaf39a018ef5ddd0303db772b3380ca6758" => :high_sierra
-    sha256 "8ce321281434ebc6852924f117f34bd932a21d190870edf2bec9887e4e99ecdb" => :sierra
+    sha256 "7136c04485382b8d9272cbb9f12a4c1780f1520c56b451908d93bf41a57c5c62" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
