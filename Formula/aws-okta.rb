@@ -6,10 +6,12 @@ class AwsOkta < Formula
   sha256 "f2c7d20a023d9a77b77568b6ec2e17bea1fdb408c90a28654a54395dd7d15107"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "c83fd4fd1f9a720ea22ae94b9891ac387aba8c042bc46aa8937013ee168f7c99" => :mojave
     sha256 "dd2f22a1fbf658f3f928997fa1a13ea4a4270bc8fa30f0b894fa8849918e8a5c" => :high_sierra
     sha256 "a0a34ab324fe32de593bc7f60aa42817b724c96685772460e9b5942fe4e22dfd" => :sierra
+    sha256 "3552628788ef0c1438f0854d1252a3a4f5f17513ce72c61554b134b90c30ff66" => :x86_64_linux
   end
 
   depends_on "go" => :build
