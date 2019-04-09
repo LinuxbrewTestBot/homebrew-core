@@ -5,9 +5,11 @@ class R < Formula
   sha256 "2bfa37b7bd709f003d6b8a172ddfb6d03ddd2d672d6096439523039f7a8e678c"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "8d1c5161ae03b34d8ed55bd7aa60c708b196b39929cd867bf80973640915f86e" => :mojave
     sha256 "e1d29ef3229094d533527fa8caaf1d747548b06ef03260dbda3b490f8ee85904" => :high_sierra
     sha256 "e3da4551f917e2846fb7c887c1bffdd923fcd8abab3f035d69c592ef74d9a18a" => :sierra
+    sha256 "448ad4b364a862a39e95c515110a15725061fe52bbd354a90a08013e978d786a" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
