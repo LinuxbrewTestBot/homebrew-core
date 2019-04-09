@@ -6,10 +6,12 @@ class Anyenv < Formula
   sha256 "43d51b31b4efccc52cd48290d565d33ee8ef9fc9dbcf635909481744e9898617"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "f36c96fb9dce2d36e6d67aaf1aa8fc846983333b101816ff6a78ae5b68135a08" => :mojave
     sha256 "f36c96fb9dce2d36e6d67aaf1aa8fc846983333b101816ff6a78ae5b68135a08" => :high_sierra
     sha256 "021fa6c226fdd920311d5fb871dd8befe70690b14bd2e03365059f0a011973f8" => :sierra
+    sha256 "1bc85f80e2570aebda5dae99a26d69677129cbaf6d8b77df3f8f301f2cb27f10" => :x86_64_linux
   end
 
   def install
