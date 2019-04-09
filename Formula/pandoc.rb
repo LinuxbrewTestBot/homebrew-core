@@ -11,9 +11,11 @@ class Pandoc < Formula
   head "https://github.com/jgm/pandoc.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "061df034a6db511da9527d4854e125c16facb65bd0220255e35083f7f244666a" => :mojave
     sha256 "e5b22a9027074824151f20a99cabca01e1a5188732fc5b63887ce08e654c11c6" => :high_sierra
     sha256 "91f38ecb0cfe35b1e8f687226710e1a348d7dcdf67c71cb209688a5875d9f11d" => :sierra
+    sha256 "d926da701f253408d1b6e6fe898ac48f3c7ef3c6bdf45ade0ce887bd12876dba" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
