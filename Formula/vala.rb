@@ -6,9 +6,11 @@ class Vala < Formula
   sha256 "8553b422484af88be1685d8b47f7b0df36ae4477c3e77e89ab22276ffed1eae9"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "fe4f2494555fad61baa949f5c97c58a988a686ceab25608f30b671b882e190fd" => :mojave
     sha256 "e34200e65bfe7f1dd39e1c6ab3ecb9a8577c6abbc17580f3f14fedc0e0b38004" => :high_sierra
     sha256 "462cfe6ad15a8009b3a791ab9c795af805a702ac08d27115ac124e1735149317" => :sierra
+    sha256 "ec0c1228880afe090faf8d3da1e9f6cfd1a7dbe49857e5f0e7d0b4ae2290e64c" => :x86_64_linux
   end
 
   depends_on "gettext"
