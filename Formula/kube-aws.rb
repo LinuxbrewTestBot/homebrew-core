@@ -8,10 +8,12 @@ class KubeAws < Formula
   head "https://github.com/kubernetes-incubator/kube-aws.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "8b48f5a9eca66bc64edd427152ce5667067c15af9a3bfe68b320a63e051991f0" => :mojave
     sha256 "60b857313b9c75c83919762032bd9385f892c0edba7ec4238dae4012da5f23e0" => :high_sierra
     sha256 "522d12599e718e86f272ac364f94d9e514a158073a6b95bb64adeada2a83c58b" => :sierra
+    sha256 "6729e25eb741ddf25385a7736d59dbdcf6c840b5a8d6c1404f2eb00274890c87" => :x86_64_linux
   end
 
   depends_on "go" => :build
