@@ -7,10 +7,12 @@ class Opam < Formula
   head "https://github.com/ocaml/opam.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "2cc668fd6a919b7bfa3b0e296d0593c94a309154c2533172a8fe745d4f93b168" => :mojave
     sha256 "36febb1c4215e029892bda1fee4ea0414f6694328d286b19faf4283e32905015" => :high_sierra
     sha256 "85f550a964e5dbd248bf3e7d74e5385a763bd9e3f8545c76b90c5d4c1f03ef78" => :sierra
+    sha256 "de2c79fe1fb21dbaa23751f1c46ba96be81c1317f84b22ad15c3da4dcbbad4fb" => :x86_64_linux
   end
 
   depends_on "ocaml" => [:build, :test]
