@@ -12,6 +12,7 @@ class Docker < Formula
     sha256 "26c2fedc3f61d75d16a1e411ec9594641755083c83917a798d8245bde14c149e" => :mojave
     sha256 "028f8f8f433fbe0bfff8275fdf9265692085fc83e1e9e1225280ccabaad70201" => :high_sierra
     sha256 "e9d59c1f1e54e388ac130818e9050cf1dc7e70849925f68b218d8a9fc3566aaa" => :sierra
+    sha256 "1a47148f35df90fe904efc7843da6c38a1ec716da975beef2f2a152748f186b4" => :x86_64_linux
   end
 
   depends_on "go" => :build
