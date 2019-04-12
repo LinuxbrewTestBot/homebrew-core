@@ -6,9 +6,11 @@ class Gdcm < Formula
   sha256 "a2da88b7b3cbf9e76a9df3e89d06d057cca9ce54fc62fb059e04f47bf056b727"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "2b35bf311cd1fc39e0fc1b73e7dfe665eb252a5dfc9e5c0c9895bfd62d852b80" => :mojave
     sha256 "1f87e9ab9d895d9d165aa3f50ee925ad122dffcc42d741ed9ebda4149b976bce" => :high_sierra
     sha256 "3b8d6d994433e18654c7d1ca23238b6f09f171da8ace355b0ee93902bcec37a5" => :sierra
+    sha256 "d616858085afcceae938170b033ca9dbc4297534e7f4c2427325260b3c6637b3" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
