@@ -10,10 +10,12 @@ class AzureCli < Formula
   head "https://github.com/Azure/azure-cli.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "1b1326454462ac9f971f1b26ad9418724b5fe6f52625eff762da530e842d41f0" => :mojave
     sha256 "22d34d5be65cbb046723e876fd6c006a04a384e148b620c9acaccd1b7df73874" => :high_sierra
     sha256 "4ab98650fcdde9147573c2d0fddf029c8549ee24989538e32cbc2c60a60d0acf" => :sierra
+    sha256 "87df5adc71c1dfabb6f2cf2b7b5fb2d8ecfe44f1dc7e1b7678b1c8deec35362e" => :x86_64_linux
   end
 
   depends_on "openssl"
