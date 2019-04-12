@@ -9,9 +9,11 @@ class Nginx < Formula
   head "https://hg.nginx.org/nginx/", :using => :hg
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "3f7180fcc57fb9e32bf8650f0bd79230717b55e9e341f8d7c3dff0f18866f630" => :mojave
     sha256 "3654e93805660f9eaef26ee986db315ba0d33ee7f0d7f72f913e5ae5cdb65a2d" => :high_sierra
     sha256 "51cfa0a1db431a239dff54e5a17bf1432971aa8c58ac5c7622ee6a4e644561e3" => :sierra
+    sha256 "4b81fdfbf0d93ad70da1d87887ecc8e6117909c84953f3c5be54047c713ecafc" => :x86_64_linux
   end
 
   depends_on "openssl"
