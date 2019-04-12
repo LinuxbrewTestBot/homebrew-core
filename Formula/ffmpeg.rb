@@ -7,9 +7,11 @@ class Ffmpeg < Formula
   head "https://github.com/FFmpeg/FFmpeg.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "14a4dc07d1ffb6d44d90adb72185434d6c0127cf26a8ebd05ca64fa2c4baca56" => :mojave
     sha256 "761b20937690043ced7797a18538e5adf32cda5d557810dca030ddd0cd4cd5ec" => :high_sierra
     sha256 "8bf6a1fda6bc5adcb6dc1b89e1886dbdb2a8730d146d7fdd7ed43f4dee07d663" => :sierra
+    sha256 "219d6320fa9eac709c8adc7144496ec3b86c44e4f9382707c857070e21805c12" => :x86_64_linux
   end
 
   depends_on "nasm" => :build
