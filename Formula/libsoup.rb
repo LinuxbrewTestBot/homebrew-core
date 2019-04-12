@@ -6,9 +6,11 @@ class Libsoup < Formula
   sha256 "4a2cb6c1174540af13661636035992c2b179dfcb39f4d3fa7bee3c7e355c43ff"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "b68fd7503d210b957a668cbb66d4135eb0def9549782f28bfba83880d8a861e8" => :mojave
     sha256 "97f1f5bea2a1f10215ec9dcea01bfc9e07b11877d23dd0d116bab301c0dcb795" => :high_sierra
     sha256 "f0936e609170f3c6c3b88110fdce8cc0e1c83557011de74724c1e73308d2ae75" => :sierra
+    sha256 "951cc25e320b6f95f38bd34a54bc3d127b9c9d6a30cfaff6a918ffb351d97f2b" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
