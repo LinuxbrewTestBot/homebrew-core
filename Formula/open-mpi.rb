@@ -6,9 +6,11 @@ class OpenMpi < Formula
   sha256 "cce7b6d20522849301727f81282201d609553103ac0b09162cf28d102efb9709"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "6d96c0b1c952dd49952f400c80568d33c5a0c2f720d28782e52b015363825729" => :mojave
     sha256 "7965178c3c6e0fdd1cb4df2a8c9db6b16029508e9cc4b5b6aa006d502fef4224" => :high_sierra
     sha256 "c4fd61bd3fd433804c02f5245a5e6cd3e3cbac66acbfdc11e5684b230a82ebc9" => :sierra
+    sha256 "b51877c34d8a10515a36ceef32eb8143c9a3deb3802bb85ea4119b820e716076" => :x86_64_linux
   end
 
   head do
