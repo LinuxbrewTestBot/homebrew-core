@@ -7,10 +7,12 @@ class Meson < Formula
   head "https://github.com/mesonbuild/meson.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "9192148d229035b4c6241d302aa612a14d8e875f567fad5e1579c68388fa6e24" => :mojave
     sha256 "9192148d229035b4c6241d302aa612a14d8e875f567fad5e1579c68388fa6e24" => :high_sierra
     sha256 "e3c2a08602674e703b622e2df8d8dc9a1444dc30d57ad8007c8d28564fc24a0d" => :sierra
+    sha256 "4a5b5fb8e254a90a90e19db5d57838b4f8d5047f2b1247ab21907014790534ea" => :x86_64_linux
   end
 
   depends_on "ninja"
