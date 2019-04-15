@@ -7,10 +7,12 @@ class Cfssl < Formula
   head "https://github.com/cloudflare/cfssl.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "d0913d189fa05fde1e7942d2ca4be72f920df10e6c1765ba8387be2f0cad3582" => :mojave
     sha256 "a91377d0a08ae3907b3a71985b0816216cce4d53173e3fd8a3b74b8a093f9d00" => :high_sierra
     sha256 "97a7646ac9a6435714d6fead6026ca4300292b6ab5f7c5cdf1aa213d072c19d1" => :sierra
+    sha256 "e0a4ab37449fdedd46d612ada0e524d78c8a575256f02d0ef1a8719bfb3cf9f6" => :x86_64_linux
   end
 
   depends_on "go" => :build
