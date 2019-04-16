@@ -5,10 +5,12 @@ class Stoken < Formula
   sha256 "aa2b481b058e4caf068f7e747a2dcf5772bcbf278a4f89bc9efcbf82bcc9ef5a"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     rebuild 1
     sha256 "8b558486eeb55f39205d26201a1613eaaadc9b6615d1e5f24b3487749acfb89b" => :mojave
     sha256 "2aeef625d9594a2fc26890500d1c8ff611e8c5c69df6f8ac905b6a72f179caf0" => :high_sierra
     sha256 "0896359e6966f067248616b2393e5e0f24a05639c4059c7f6bbd025acb867714" => :sierra
+    sha256 "7c4777e021d7a44a76cf442c90c62c5f59afed271f02ffd84d8cf74e4cbd54a7" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
