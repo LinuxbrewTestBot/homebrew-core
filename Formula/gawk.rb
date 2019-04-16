@@ -7,9 +7,11 @@ class Gawk < Formula
   sha256 "50f091ed0eb485ad87dbb620d773a3e2c31a27f75f5e008f7bf065055f024406"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "0eb61cf2dc448b97f4f27054db3a3580482aae8c77a9fa5008844361f4c591c8" => :mojave
     sha256 "8b935dbbfcc134e9f546399fc16ec87c446a30a3de59621e1b40dcefa78a97f8" => :high_sierra
     sha256 "e4cf8406600238bcf9c0cfecc98a7d82f96720ea7f13855fa5dd4efc43936356" => :sierra
+    sha256 "1c5f15830d793fb3735b9aaf18f3dbb3b14027ea2011cb4ca36dd28d52550a7d" => :x86_64_linux
   end
 
   depends_on "gettext"
