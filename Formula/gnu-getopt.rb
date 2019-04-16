@@ -11,6 +11,7 @@ class GnuGetopt < Formula
     sha256 "d6405423e6ba2ef844512f647a2a930ab6174b23d6b942a9b05e59ced88ed196" => :mojave
     sha256 "c968853e7b57cd0affcd0e02ae574a340ef9f1c9847feae498964e2e7e2c0ded" => :high_sierra
     sha256 "af870c9c13126e70d368a0506b52509cc9c7bbd82d4ebd3bcdbd068bf45864f6" => :sierra
+    sha256 "d8e0729b8baa9091dd58aa59b2a7e130a28d7dfcd749282e6fae66ad68f21780" => :x86_64_linux
   end
 
   keg_only (OS.mac? ? :provided_by_macos : "this formula conflicts with util-linux")
