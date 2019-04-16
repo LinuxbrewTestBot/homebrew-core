@@ -8,10 +8,12 @@ class Pgcli < Formula
   sha256 "3791a3c7734802fd14fefe9d18082a95687a02631f3287bd154cd27b4f12c05c"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "0242ec98d39e797aeb6ff7f51556061681bfc020d3959c8796284c9f4f0708f1" => :mojave
     sha256 "446f3d7abd88f379e457a4ae215880f512cdabc64eecbfc0ea5847cae66f950b" => :high_sierra
     sha256 "4e0dc013bccdff754f776433b28017330b7d48a36fba7ceb76a790b7b9105f7e" => :sierra
+    sha256 "ca0e7bfdf453f01ae361367d2bf1e2a0d09aea974d0e88dbe73ebae261d8438e" => :x86_64_linux
   end
 
   depends_on "libpq"
