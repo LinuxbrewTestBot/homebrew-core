@@ -6,10 +6,12 @@ class Tmux < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "67d13dac99a7db602d062eee405d5f1b7e2add16bb39d8a03a5c0de3504e5683" => :mojave
     sha256 "6b30c67549860286f549f7cbdc88612d9e00a294544ef80fe6c40d098c3805f4" => :high_sierra
     sha256 "52e1fe5132fad335968af1302ad0166247260368fed8b729e73acbead262fab3" => :sierra
+    sha256 "577b057244e4608ca39991d556389b1010cb0ef3bca0859dadb4bb899905202b" => :x86_64_linux
   end
 
   head do
