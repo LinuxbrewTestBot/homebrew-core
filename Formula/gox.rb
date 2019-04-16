@@ -7,10 +7,12 @@ class Gox < Formula
   head "https://github.com/mitchellh/gox.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "008ec56acef96c3ad3117bcde87f1998fcf4ef9c93f82ae363ed6ac39914a95d" => :mojave
     sha256 "c2d77e6fadb6c7585a5df89eb91aaf1f41f6b88829e1a647efb4ebbc70277b3b" => :high_sierra
     sha256 "1d48879bdbbd84d2406aeaf5f052c51ed2f0b8f9484508ad6085bf537be6f5f6" => :sierra
+    sha256 "bda9de3c8d267ae18fbcca0942784c4a4401b130b0bd83fdee7c4df8f199b50c" => :x86_64_linux
   end
 
   depends_on "go"
