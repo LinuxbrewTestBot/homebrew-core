@@ -16,9 +16,11 @@ class Go < Formula
   end
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "684660d496131c25d8b48449e26d9f32829843cd14cc930ed83bd5c3cb94a75c" => :mojave
     sha256 "9920e9264e80f0bac5098a0bbdbd1818c2c44eba37d3b9accd61c1236fcad5f2" => :high_sierra
     sha256 "411ed2f4329f727dcb1afea396899b839a31e3e8c1c3dc3d2a45565ddd626a34" => :sierra
+    sha256 "7abf65675339bdef8b97c3761eb0240be3dabb91413dd3736c7c63e6055da5a0" => :x86_64_linux
   end
 
   head do
