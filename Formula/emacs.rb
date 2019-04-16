@@ -7,9 +7,11 @@ class Emacs < Formula
   sha256 "151ce69dbe5b809d4492ffae4a4b153b2778459de6deb26f35691e1281a9c58e"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "dc49de7034346e692662d10ebacd75ea257d61ebba6f57699b855f158e4a7eda" => :mojave
     sha256 "de836e0766066201968c2dd0ef25ff4458ee532a61dc4ed9d7d8fb284b395b8d" => :high_sierra
     sha256 "6b07616447d66a8066c08591400dc8fed75d44bf51f81de2e1208635e03204c6" => :sierra
+    sha256 "6548ed1cbdf04ea73e9c088d13940199e8d3907836083dad5f571da4af00e5ca" => :x86_64_linux
   end
 
   head do
