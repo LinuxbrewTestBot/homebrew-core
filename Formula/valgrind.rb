@@ -12,8 +12,10 @@ class Valgrind < Formula
   end
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "7869473ca1009d871dfcb496cc4d08e0318315d18721854ef42960b76e2ef64d" => :high_sierra
     sha256 "5ac984d472025c7bbc081e3be88b31f709944cf924945ebe85427f00d7cca73e" => :sierra
+    sha256 "f572df0ef016c9292dfbd45b0b630b0f1f35589c48e77af5b397cc1a8181a283" => :x86_64_linux
   end
 
   head do
