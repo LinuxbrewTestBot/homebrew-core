@@ -6,10 +6,12 @@ class Cmark < Formula
   sha256 "2558ace3cbeff85610de3bda32858f722b359acdadf0c4691851865bb84924a6"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "8687e5aeca18f2c952c5f475569ad90f077d49c3e45477cad0babd68b040a6cb" => :mojave
     sha256 "81e1fe130cae57abb515a8916140b3b2718f4f9ae778fe059d454d51cc24e1b3" => :high_sierra
     sha256 "ffe7ff1b15e9d7283253129feb78db9d9ccd72f39388a33331fbe8d0fb7445a4" => :sierra
+    sha256 "813cdb776c5d2722b057918f915027b1f7726de613ce1a78753c5f78d541aefe" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
