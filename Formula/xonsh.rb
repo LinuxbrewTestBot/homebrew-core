@@ -9,10 +9,12 @@ class Xonsh < Formula
   head "https://github.com/xonsh/xonsh.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "0946b4172b6c6f927f17d9bd12ecb2fdf18f8f086abe0e7841c9dcb3b4c634dc" => :mojave
     sha256 "19efaf5ee095bdbfd58e8b32b3629e3f5bd58f3dc3d310e382520554873bfaf6" => :high_sierra
     sha256 "188f0659e92c741173d0d9fd14ecfd050abdbc7d82a350cb5e38faf931a65d35" => :sierra
+    sha256 "0075168a001bc77bac78c445e64049b2827625326a16c8caa576db490621382c" => :x86_64_linux
   end
 
   depends_on "python"
