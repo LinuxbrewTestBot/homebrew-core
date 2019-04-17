@@ -7,10 +7,12 @@ class Iamy < Formula
   head "https://github.com/99designs/iamy.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "ec31036a74b3e7fa56dc920b4dcb4f55dd525588a60e7e0306bccadb1101e11b" => :mojave
     sha256 "89e0a7f9d27d589ad0639f01160036e891cbbe811b28d45a5904e0a22aa66990" => :high_sierra
     sha256 "044aabaea888d7d318c8dc5f0319a33b9bbec6478ff45782ff5e1edec4eeb9dc" => :sierra
+    sha256 "32e87a118d1f1b115e57f87944c42e697d3438fd91e13d3e59e93425a260aad2" => :x86_64_linux
   end
 
   depends_on "go" => :build
