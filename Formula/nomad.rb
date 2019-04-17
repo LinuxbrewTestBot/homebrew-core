@@ -7,10 +7,12 @@ class Nomad < Formula
   head "https://github.com/hashicorp/nomad.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "9dea92611f1a36dee8dccb2ca5a82d161045f98d302dc8f7c4b6a6e9fc043bb5" => :mojave
     sha256 "9c0a1802e904edd47fba0501ec884d8a67a425cf6e275a9b1c864ccc5d10ff78" => :high_sierra
     sha256 "623884e34c258a8d2681cd1c781b60cfd28f4776c09c6fe0570603dabad7d9fb" => :sierra
+    sha256 "10fbdc476d8631b1a0123b7f1cb7450ceb8a8128e7c459c89a9ef4dd81feea6c" => :x86_64_linux
   end
 
   depends_on "go@1.10" => :build
