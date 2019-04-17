@@ -7,10 +7,12 @@ class Distcc < Formula
   head "https://github.com/distcc/distcc.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     rebuild 1
     sha256 "cc6733686bc22b48972455982fe93656bcc27f3f4fea1d202c42316a2baceb6a" => :mojave
     sha256 "e0e26dfa751cc3790a81de8ed8bda041a36ff487cbc9c18790e11a1d487893ae" => :high_sierra
     sha256 "5839cf82df4187c62f5035c26762f88ed84da15e472501ab2d9097d2c77a023e" => :sierra
+    sha256 "e452872248f05afcbadc22c277d9c8e3ad38cf48f75a92c6df696a8032df7cbd" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
