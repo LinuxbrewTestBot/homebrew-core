@@ -7,10 +7,12 @@ class N < Formula
   head "https://github.com/tj/n.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "431b4435b5ebd04f168e66df26afa77d3f5ccb0e29be3c0f9e5fd72d8a23e01c" => :mojave
     sha256 "431b4435b5ebd04f168e66df26afa77d3f5ccb0e29be3c0f9e5fd72d8a23e01c" => :high_sierra
     sha256 "b849fe0d7470425a8472267a1291cec524798e225be668b124cd31b23a9eaf6f" => :sierra
+    sha256 "6c6fe465eb72c09802b223d77bb029db669a9f349d7190ea9f58eee5592ff766" => :x86_64_linux
   end
 
   def install
