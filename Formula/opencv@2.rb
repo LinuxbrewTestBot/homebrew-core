@@ -7,10 +7,12 @@ class OpencvAT2 < Formula
   revision 3
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "58275354d07bd2721862f309460ba35dc40ae254398cbb547a9433d73f39c568" => :mojave
     sha256 "b3535abd6e68488da494dcfd012a0fafbd8efd11d6f7da079bc94cede0fe4780" => :high_sierra
     sha256 "0bf66ae256ba6541ab7c6387e1a07490785cd5bcb6b488b4b2a3aeacb61fc7df" => :sierra
+    sha256 "74f993d625d991c7e469b4e509ff2ea1b8109a1aa09e5ecb403dbffea23bd8bf" => :x86_64_linux
   end
 
   keg_only :versioned_formula
