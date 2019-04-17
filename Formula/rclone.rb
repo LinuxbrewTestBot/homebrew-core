@@ -7,10 +7,12 @@ class Rclone < Formula
   head "https://github.com/ncw/rclone.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "40ca2b3cdc267c8ac6db09b7257c15a1550d84d116e854ecdd4054c1c20a1ff9" => :mojave
     sha256 "88f0ebbdb9339ce644969e16b1f0054520dea1f5711647be7f6fdf8a914bbcf1" => :high_sierra
     sha256 "bccbad5a7006ebecffdb8c2c0a130095b723b85d425dfdac98491ba6564a3d59" => :sierra
+    sha256 "8a1b709d22f0883699273891cfca7c0e6278205d74d2a1d72d705f502af823a0" => :x86_64_linux
   end
 
   depends_on "go" => :build
