@@ -7,10 +7,12 @@ class Libssh < Formula
   head "https://git.libssh.org/projects/libssh.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "68027b65dae117340cbaa3b72f09850322b16a11609b4e334d0b2c9d6f4a64c3" => :mojave
     sha256 "c63546c5f5381f26d91e71ffb0c40f9b312534af3fc4548e1c170650be79c0e4" => :high_sierra
     sha256 "8b812b8b13bfee80ab5efbe5de89962138f7d40fa692cde93a3b22b834f34066" => :sierra
+    sha256 "aa3667a34ffbd1ef5ef9ca3642c12fd6c089d9b62763a342d218fa121d5a28bd" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
