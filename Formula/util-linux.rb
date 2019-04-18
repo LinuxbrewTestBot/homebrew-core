@@ -7,9 +7,11 @@ class UtilLinux < Formula
   sha256 "631be8eac6cf6230ba478de211941d526808dba3cd436380793334496013ce97"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "e3a2f8a25014834e994e1e1316c182d7980ffa2e701d838c3c4ad4a495034c70" => :mojave
     sha256 "3da928faa6d5dcd4aaaeff0a0c3f909d16dde253375bf7f5328924ff946006c1" => :high_sierra
     sha256 "02c15639cc3e40c7553dbcb23e94a5e679feeaad8881ed6ddce91c4cb0a015b2" => :sierra
+    sha256 "9f67a0d053f93c9cb75e62abbcf9e02a626475336c9995ddfd31b271700b6aea" => :x86_64_linux
   end
 
   unless OS.mac?
