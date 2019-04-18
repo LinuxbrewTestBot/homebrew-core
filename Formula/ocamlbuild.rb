@@ -7,9 +7,11 @@ class Ocamlbuild < Formula
   head "https://github.com/ocaml/ocamlbuild.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "5bc4b5c08dc6bb9b5ed2fedff2de70870ca2400ccaf1002ac8919ad26181a4ee" => :mojave
     sha256 "0b9fe3df0844b3c7f276e595b75b609611e55be4efa080dc2be10586630dea67" => :high_sierra
     sha256 "78f4e83ddb5c5727047f2ed027706c70a76ff16004e24a4c35efda6239175a99" => :sierra
+    sha256 "89befb7cec0b36d4855552eec5e3a0a9e3b22a11981fc16631ece3c3a6a17c55" => :x86_64_linux
   end
 
   depends_on "ocaml"
