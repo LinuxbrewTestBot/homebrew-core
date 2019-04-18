@@ -5,9 +5,11 @@ class Gupnp < Formula
   sha256 "fd74a2c236f3dbe6f403405cecfd0632a14c7888a0f6c679da5eefb8c2a62124"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "295cfce3c4ec93475d6ee8a1acde0dd3912b6ed260b7f43af2f99dba53f36b99" => :mojave
     sha256 "b6918c132d6c4a3343a82aa8985d62cea64ce0623498de0d90c8f3232f5cc403" => :high_sierra
     sha256 "e18535de152d6b26d5589eacddc4969a0f4ac7e09d51992b94f3494cccc4f1ba" => :sierra
+    sha256 "22866e355b3c148481d2ca0ddc6f885815cd7e396048624f7f253b55870299e7" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
