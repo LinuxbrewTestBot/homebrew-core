@@ -7,9 +7,11 @@ class Opencv < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "e480ec68ccb914da357f8c3b799552fdfbfe38e24a75a2c091b28382e1801f70" => :mojave
     sha256 "b1e6aa6491c192384f163505702dc227dbd182e00a21b370f50e3c5b74cea7de" => :high_sierra
     sha256 "e2b359e6062e5614e3a6758e51f9768cc99f5c034ab6d1ffa116765b10781f14" => :sierra
+    sha256 "a31df82fdf900fed97320fb31a0cea491cb1f45c3ec0fae589028475ebc4bf8c" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
