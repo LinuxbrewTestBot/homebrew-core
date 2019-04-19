@@ -7,10 +7,12 @@ class Libical < Formula
   revision 2
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "582d610a9cdff9f9e0ca7cf4462b9a455c38a5f1211e9fae155802cfa0b85d04" => :mojave
     sha256 "48159553d4b3e7119ad007d4cf35f2cfb10da5c29b188a9b6e847532f67af5c3" => :high_sierra
     sha256 "d29871503340b03b7f70e45c33c19f599287297e69cb1c6369f5c2f5bfd92c9c" => :sierra
+    sha256 "8e40021f040df302b42aac86b03e2b1b316b98d8b48b270e00d283f43fca0d25" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
