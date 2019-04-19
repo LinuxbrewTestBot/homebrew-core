@@ -6,10 +6,12 @@ class LibatomicOps < Formula
   sha256 "587edf60817f56daf1e1ab38a4b3c729b8e846ff67b4f62a6157183708f099af"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "b509d8669c5336775b0462c3e1464419d083bccc0bf43f8dab8fa3eb0ac44405" => :mojave
     sha256 "2e3053c22101fd8baf693ca404f258763b15e77372b5293e999f8bbc8b032522" => :high_sierra
     sha256 "d94aa0351ce2de312d0b31a64d48059473a170d9704968378cf121ad097d7d9b" => :sierra
+    sha256 "c859961b36b3330e7fa803c6f2c43449e41d024bbfb35cd4026404ccb7c4e44c" => :x86_64_linux
   end
 
   def install
