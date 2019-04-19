@@ -7,10 +7,12 @@ class Castxml < Formula
   head "https://github.com/CastXML/castxml.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "3a87a080247a21ab0f05db2dafb826664bb88426563507bb6a00d9c465d41e62" => :mojave
     sha256 "295056ef0feae25c6f00c1e7e669f7f017bc3242c4cbdb0d6c95b34568b31655" => :high_sierra
     sha256 "aaf5927a5f3dfcdc3c88a936a2aa6964ff8f304c48a0690087e6350ef75b0206" => :sierra
+    sha256 "0f14ed303f655d1bc0d57f4bdf4ec813a29c96bc08aea86e06298d3d6631f0b5" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
