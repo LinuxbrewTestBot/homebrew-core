@@ -6,12 +6,14 @@ class Libnfs < Formula
   sha256 "7ea6cd8fa6c461d01091e584d424d28e137d23ff4b65b95d01a3fd0ef95d120e"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "2c1af201f768c02dc8ae263c589d8971331a0e416f7a7e6024a4d1ba58837c69" => :mojave
     sha256 "fc0e19d4911047e263cd695f056bc38e50517558ac4dec663a9cee4326705989" => :high_sierra
     sha256 "fad6dded94a8ad815f99ce5df0116c30798ed30f3dd67272742c61183a15f6f1" => :sierra
     sha256 "507e2c7199d82a3c057f95f4ccb9210f04e00e43881b5807186d9641edfc9bd3" => :el_capitan
     sha256 "e83eac3ac327b5e4da5e6d7aa39668ce7067ee0fa8cab04023f268339977ee1e" => :yosemite
+    sha256 "6c64cadcd2e5f7d552775251b5a6d2ceb8b23a35777e38754ae3c2a7ef60adc5" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
