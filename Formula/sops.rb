@@ -7,10 +7,12 @@ class Sops < Formula
   head "https://github.com/mozilla/sops.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "b04a345c474c2fa04802d2b3330c5f2350e6eebec8c92e1159471c1475228eba" => :mojave
     sha256 "910754aae300a7e12474fc9787166228daeaf48a55fd9f77028bf224a6a2b1db" => :high_sierra
     sha256 "7a19e62b0d681550fc8416d4a51400c4dee0052b781f2897a78220f539989437" => :sierra
+    sha256 "6089a2f20ad525a8856132705153dc4cc8421eb3d35eae84bfedd788a107abfe" => :x86_64_linux
   end
 
   depends_on "go" => :build
