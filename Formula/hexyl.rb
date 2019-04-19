@@ -6,10 +6,12 @@ class Hexyl < Formula
   sha256 "6241a4cf3e3ec2f32164539ef158c84ad29c53511cd1e3c0148776b8ce5234d4"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "4662a02fa6c3e47e9d1376a177c74c7127dc16a7ee6939538d01ef425b2cbf3f" => :mojave
     sha256 "652e4e4a0a661d3dd97aaab96a4d33ffc8096a58773621e612e80f22a9df32f7" => :high_sierra
     sha256 "2b52aef13a792296811d7ec74719b56f0aec3e3302b19d48f82731ab952aeda4" => :sierra
+    sha256 "9cd80dbe4b23e5c828aac140edcad9e9a68f8e0a2331bcc2ec6572fe37d31aac" => :x86_64_linux
   end
 
   depends_on "rust" => :build
