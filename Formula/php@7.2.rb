@@ -7,9 +7,11 @@ class PhpAT72 < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "52d188b2390df1c32488258f7167acec65b50e4dd44a42131b7310d737d70752" => :mojave
     sha256 "5a2fea45a480f3c1f28659e5fc29f3d119c79ca3f3474b89a8ff1e52324f322b" => :high_sierra
     sha256 "88944550eeca0fdb71d440099ca37f2cc4210f36d511ec292fbfb02792e71338" => :sierra
+    sha256 "b0cfda1b1357f30c9f651d57a3a7331b8b8acb93dddb7bbcfe4001aae6525039" => :x86_64_linux
   end
 
   keg_only :versioned_formula
