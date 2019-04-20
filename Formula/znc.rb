@@ -7,9 +7,11 @@ class Znc < Formula
   revision 2
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "4ebcf80b5a6c2224597d16f4b3500645df250946a0ae989a1b7e28eebd150372" => :mojave
     sha256 "da5bd2ef4dccba1baa83a963059232956d808e17bb93ed68625b7c225eb5af4c" => :high_sierra
     sha256 "4fbe9ac08b9fe2d1ad85fd86a73c3cdd37b93ad2b1f673e786e0fc7089822adb" => :sierra
+    sha256 "829c72411a234ac8c47d243391c95c86ab746afc09f8e71bbab6670ce75e1971" => :x86_64_linux
   end
 
   head do
