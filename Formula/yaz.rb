@@ -7,10 +7,12 @@ class Yaz < Formula
   revision 2
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "7b44b490916fb2b697ccb22fa5bc0c39315662f18c0695b0368f71795011452f" => :mojave
     sha256 "184f4b43656683e32406816ffd0476b18906431f6f7c73ba63328350a80129c7" => :high_sierra
     sha256 "dec2393d36f09c69475a47ed19f1dccb80c2640ebfe7ec47650fa18b5fe49ca8" => :sierra
+    sha256 "609b377dcbd72fdcb64955a818a905cd6d6ca833f56b47a56f84a9257d42b7d0" => :x86_64_linux
   end
 
   head do
