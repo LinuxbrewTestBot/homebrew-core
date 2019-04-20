@@ -6,10 +6,12 @@ class Autojump < Formula
   head "https://github.com/wting/autojump.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "5576b3f2b9fcb2a236d6ac22b163af03994edb98b69c997ed5a88db85c8d0a15" => :mojave
     sha256 "5576b3f2b9fcb2a236d6ac22b163af03994edb98b69c997ed5a88db85c8d0a15" => :high_sierra
     sha256 "c95107719bd784e0e348be6dbfb3a780240d96f8d76710271c3642335babbd8f" => :sierra
+    sha256 "922ca87c1c1f1cb50bb7a8d68d06c0709ea5ed6e5aa71ecd5b72eb370fcc7449" => :x86_64_linux
   end
 
   depends_on "python@2" unless OS.mac?
