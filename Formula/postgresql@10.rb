@@ -7,9 +7,11 @@ class PostgresqlAT10 < Formula
   revision 2
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "5967e87fa3e33b7781e8dfa5bc9282eb0d16c32c90a07ff887433ea0da2aa6c1" => :mojave
     sha256 "8693516c57090705569392ce17c057ee405b3f2bcb3627790b6e8ae73b4242ae" => :high_sierra
     sha256 "e30ef18d7c638aa1efac6c526b5e90532b3ec5652160c374dda5289109227053" => :sierra
+    sha256 "74c2f0a432f91fe28e0090bab52fbbdb7253d830e2aed9c49fffa0f3ebfc7320" => :x86_64_linux
   end
 
   keg_only :versioned_formula
