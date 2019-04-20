@@ -7,10 +7,12 @@ class Tectonic < Formula
   revision 2
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "a862b7c4cbe355b1c3c86aa6601e757e50f51f4e205b29edece526428b09ebcd" => :mojave
     sha256 "8820a091d0bfcd31ad2bc5b8c8d9f0a29160a47497d00f03bc332e8c0bfe509c" => :high_sierra
     sha256 "76005a41861cee9fd834d46d84f33c2f8a09f887770e29e569d64b1bb8110d49" => :sierra
+    sha256 "e23fde15175709fbb1b779169cb66c9edadb0c67d8c708229637b4e342e3867d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
