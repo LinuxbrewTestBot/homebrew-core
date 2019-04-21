@@ -8,10 +8,12 @@ class Mypy < Formula
   head "https://github.com/python/mypy.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "fd31c472e936c229c76e270016fff0c0636af847bde90f20f4ab5c2f54d49796" => :mojave
     sha256 "f9d71d7e5360a7dbe5947d0938035940976bb0e0c7330b8d2774b4b72812a4e0" => :high_sierra
     sha256 "1d8cfeae606c3ae6548b45a43fbea0fc1e4b9068a028a7336c1a6322b686587a" => :sierra
+    sha256 "c1dfe2338b3330fb52f2a04d2fa498b5aa7410b11c391874739448435fd38e80" => :x86_64_linux
   end
 
   depends_on "sphinx-doc" => :build
