@@ -7,10 +7,12 @@ class Hydra < Formula
   head "https://github.com/vanhauser-thc/thc-hydra.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "c165bb2e4f0bfef32b3724a4099338b555db27c90d0122dce05a84b70c7842ff" => :mojave
     sha256 "fbfb0ff9667b01580fb9a8a5443ff743681e0af58ad166467ffdebee68962491" => :high_sierra
     sha256 "2529988ef9e2ba82b6fd3faadb9966cfc71b4b51aa4b328c688984dc24adb952" => :sierra
+    sha256 "f106b723af033b0855ae32cf9ed88ac6b30336f03a0cbfed477515545fd59ab6" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
