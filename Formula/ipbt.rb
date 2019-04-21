@@ -8,10 +8,12 @@ class Ipbt < Formula
   sha256 "8347b373252a4c7054d476a39933287a146bb0e0f9dbfe86cd23931cf9eabb5c"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "bd283b7c7c23687fe8d2805171c1abf50924e53d4072fe5bb3ca96e6fa16c206" => :mojave
     sha256 "8a353ed14fde241fdc9894083f36298f5374c06c264129b4f1468188633e2467" => :high_sierra
     sha256 "81dfccfb83c374d509ab37f7ad4cf8cc0d40bfb3b47e45d9d05ea3880e3d03aa" => :sierra
+    sha256 "afa03a7eb3907602141e1ac129aadaaf620ae0cf530ae90c56cb7821974e5be8" => :x86_64_linux
   end
 
   depends_on "ncurses" unless OS.mac?
