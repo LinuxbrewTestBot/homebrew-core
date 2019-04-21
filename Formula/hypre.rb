@@ -7,10 +7,12 @@ class Hypre < Formula
   head "https://github.com/hypre-space/hypre.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "f7300641b6af625482d20ce1b0689c3bb62994ba2af30c92fca68271a8ebaf92" => :mojave
     sha256 "cef93684119abac2fbd535ed125779877639e26b7e0304258d285ee39bbfb992" => :high_sierra
     sha256 "0ffe333f6b327977d2c91b192d31b0483b7d0fd7f8b08112874a853f8e591271" => :sierra
+    sha256 "8b55aa99ae0f3ad6775d9c530202cb49593b913783c0a6936120bfe45ac2d276" => :x86_64_linux
   end
 
   depends_on "gcc" # for gfortran
