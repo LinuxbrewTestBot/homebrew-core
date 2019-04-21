@@ -6,10 +6,12 @@ class HttpParser < Formula
   sha256 "5199500e352584852c95c13423edc5f0cb329297c81dd69c3c8f52a75496da08"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "1c6633009d218a0a991e42aa79ae824831a796b27ebe107166f718b169fb51d4" => :mojave
     sha256 "557d24ba21e7be4cc6dbc2e7c2da15338f45bf8b61dcc3791e6b2054b3498512" => :high_sierra
     sha256 "4337dc4318708e9342e0299c6cbc199ab58c15886a72b2dd1c9e6021effc386f" => :sierra
+    sha256 "1b224e9614400c503ed9eb594cec1b45cb60629319e6779afd569c67468033b5" => :x86_64_linux
   end
 
   depends_on "coreutils" => :build
