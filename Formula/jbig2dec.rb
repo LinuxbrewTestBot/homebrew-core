@@ -6,10 +6,12 @@ class Jbig2dec < Formula
   sha256 "a4f6bf15d217e7816aa61b92971597c801e81f0a63f9fe1daee60fb88e0f0602"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "4f3bb46fc8727b6aa1b6def6b9d6893078cf929d0ed37e432ea864810ad6ddf7" => :mojave
     sha256 "1b2684d8ba1e74ed1f5d8eaaee419859056aa5cbc85a6979fd16241d658c08d7" => :high_sierra
     sha256 "63c219877b391ee3198d8d60e7fbb4635d43af160b63ba1a2ef8309125c1ca50" => :sierra
+    sha256 "c26f191c79f04044f7c7cf48adf0c386bab0b66302d4e5d8268090d314fb5cdc" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
