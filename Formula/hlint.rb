@@ -11,9 +11,11 @@ class Hlint < Formula
   head "https://github.com/ndmitchell/hlint.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "caf49a8b1ef732affcd024be46b1759232c85bdd552a1740e751b0aa28b4f21f" => :mojave
     sha256 "ce751a897045abeb8bf35dbb90ca0f3133a681c62e17ba81ba72ef53fa0ee7d9" => :high_sierra
     sha256 "5aa6962f99a01d1578fd2d20f9709653c7db2bfa31835e819cd3c3388751300a" => :sierra
+    sha256 "a3781f92a75bf8f7b0641255ad7da618aa1298d976c88220d1759f575e975146" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
