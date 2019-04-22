@@ -8,10 +8,12 @@ class Khard < Formula
   sha256 "fc93d0b91f7e688a8f60896b4ff7b1968d6b4cb58d80fca9977232c3a68ed2d3"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "26563dd5d8fa44f38db40ca188b03559857bb833961a1ca09f91e5c28e9ddb25" => :mojave
     sha256 "f0bc10e7097d36e96ee44e60218000edaa4379fff88b5e7ca8023eb1c5c23793" => :high_sierra
     sha256 "d82e1771c63601ec2a91158c1c64c9789e2292a9918be84c8bc3f386edb5fd89" => :sierra
+    sha256 "7ee3766136591f8b3fa2ab624bcb5308f8dee0cefd4215928891628736060a94" => :x86_64_linux
   end
 
   depends_on "python"
