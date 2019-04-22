@@ -7,11 +7,13 @@ class Libmatio < Formula
   revision 3
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     rebuild 1
     sha256 "5d2703b87aee0b2c3204cb78b7689c650b076157a274c5d543aa5852bbd7febb" => :mojave
     sha256 "5ce978cdcbe04527d730b8fdb018304eba54328104afce7c8754dd71218b5bc8" => :high_sierra
     sha256 "3d5970022b653c12d7b1f1b2720d9ad87e6f478e7116175fc914a3d377a2c9e3" => :sierra
+    sha256 "09f4713e429eccd2771e9a07c289ee935b4a349646f34a421a18138371917fbf" => :x86_64_linux
   end
 
   depends_on "hdf5"
