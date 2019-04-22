@@ -6,9 +6,11 @@ class Httpd < Formula
   sha256 "b4ca9d05773aa59b54d66cd8f4744b945289f084d3be17d7981d1783a5decfa2"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "2e182ce40202f92a9666d92df65308cc2fccfc3e6a1d0c484dbba3b2cfdf3f15" => :mojave
     sha256 "4d3819edd023dd903adb6eaad54eba89b5986869dd04e334ee84f0784e9cf6da" => :high_sierra
     sha256 "de26e4d8409b24499366e6ed40d6085146d9aceeffbee91350c13a12e790f58d" => :sierra
+    sha256 "13c75f19dc18c902063870ef84bc48effb83cba97220889102b7f101b2cb7a75" => :x86_64_linux
   end
 
   depends_on "apr"
