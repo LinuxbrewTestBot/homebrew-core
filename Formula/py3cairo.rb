@@ -6,10 +6,12 @@ class Py3cairo < Formula
   sha256 "70172e58b6bad7572a3518c26729b074acdde15e6fee6cbab6d3528ad552b786"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "c3d966320ca66c24c01fa3dd2dd867329e9b6d817895fc5466b8280ea806d093" => :mojave
     sha256 "f285ea47d9693b403080decdc94c0ae60364ec554c44a61473480ca0f420ebc3" => :high_sierra
     sha256 "099809cc80cfd67838454bc57787ca647d2c1b52c6bdea17c317bc9797ac4cd6" => :sierra
+    sha256 "1519d38593706ee4fecb25e079f38884be6697bf55d969cd8a25d11bec5ac30d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
