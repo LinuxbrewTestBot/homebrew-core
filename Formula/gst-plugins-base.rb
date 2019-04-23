@@ -6,9 +6,11 @@ class GstPluginsBase < Formula
   sha256 "4093aa7b51e28fb24dfd603893fead8d1b7782f088b05ed0f22a21ef176fb5ae"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "68c2133ee6fbc1cf02b6cbe2cf2196c0fe0945809101a03d92b4402745ab4306" => :mojave
     sha256 "4e61e9185d605eea6fb7457467a9843d6585b47845ef1ee8e0b1a7b22bdaec20" => :high_sierra
     sha256 "e6ce6564ba2d19701e8fde02be409a67cd91bef2cc3c85f4ca39d379aa36c73a" => :sierra
+    sha256 "a65c7903ebf0e30815efaf6722e157d3a2cbd5ef8c9a6bb0818a462a54b4e38e" => :x86_64_linux
   end
 
   head do
