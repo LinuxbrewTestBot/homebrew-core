@@ -6,10 +6,12 @@ class Lego < Formula
   sha256 "f2665affc8e55ed95fcd6b24b826c7d3a343c24df8d91838d4beb87b770bcf3d"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "362557973f8a51e3cf586f3ea19753a6237a9d355567a206c369f9505db71e1f" => :mojave
     sha256 "42dd0fd5ee7a8ea1f370e55fdb77d0367d72ed32741a4a716851a6c90f6ec676" => :high_sierra
     sha256 "1a49544645a6a4dea652d56ece48e9ff7c8d152722985503638601322da80518" => :sierra
+    sha256 "1796068362aad2d7eee7b527867677335e5c3e6691f2e2328999787dae193e4c" => :x86_64_linux
   end
 
   depends_on "go" => :build
