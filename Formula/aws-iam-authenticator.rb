@@ -6,10 +6,12 @@ class AwsIamAuthenticator < Formula
   sha256 "d077ce973e5917fab7cbad46bc2d19264e8d0ae23321afd97b1bc481075a31fa"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "524c545b1b500aa81a578371f59c487a31f6b20463731051cc5f3e30551b8b63" => :mojave
     sha256 "7c773fefb0506db8b95ed918ff639ede96b58a4d0d2a51d2faf941f30a61ad84" => :high_sierra
     sha256 "d333ce7bf5e32215161a5f8ba82e86c47a425c9782d8281ab36d66a4bb7cd6f0" => :sierra
+    sha256 "be3fbddd3ec0f167d36515839fe1c31603c27da73f3f2951dc423df4edd4e5b8" => :x86_64_linux
   end
 
   depends_on "dep" => :build
