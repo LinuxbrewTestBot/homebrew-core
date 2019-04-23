@@ -5,10 +5,12 @@ class John < Formula
   sha256 "0b266adcfef8c11eed690187e71494baea539efbd632fe221181063ba09508df"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "3a5ccc4400712b8b3ceeb47ac563cc1fa3fa7b4bb60937d3c1d3218cf51f2e4a" => :mojave
     sha256 "7e7f9960b5594da1e110c16613c9271e428d035ca468c3ae48ec4231b45aa2f1" => :high_sierra
     sha256 "a92418e262ea3ca50d92e5677dd2755207d936a31c8042041955235a2907298d" => :sierra
+    sha256 "430b1df93c117f09bab285321968b00c1279183de5c0ddd197dd7a1c9ed5bbe0" => :x86_64_linux
   end
 
   conflicts_with "john-jumbo", :because => "both install the same binaries"
