@@ -9,9 +9,11 @@ class GstPluginsGood < Formula
   end
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "d1b38ed639a608b9bd95d5065615638edf196904fe4aab2f31be82c9bfadbb46" => :mojave
     sha256 "064ab6a3f080cc7d44da026c61ada1f1815d1f373ee77a4d97b56ae911d9798d" => :high_sierra
     sha256 "bc1d043642b09f449f86c611336f45c96f43421b116d341320c6cb3578dfe54e" => :sierra
+    sha256 "ad9454a5eca1b11e27b34a3bfd4fc954054ce11289eb7733cad452392fd65e82" => :x86_64_linux
   end
 
   head do
