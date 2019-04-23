@@ -6,9 +6,11 @@ class Gstreamer < Formula
   sha256 "0e8e2f7118be437cba879353970cf83c2acced825ecb9275ba05d9186ef07c00"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "156abcabde77a54e45942449f643191b60da4ebf2a3434126355f723f67db0dc" => :mojave
     sha256 "3694d158c391d341e4623f0f9e150b4d627b7ba08d3ffbd5351ed7e2d0cd8823" => :high_sierra
     sha256 "718fafb11b85509bcb2a9aa1f751b1e45a8410b9d6247f5542a023557d886777" => :sierra
+    sha256 "002c4fdb6f4953579390462b8d79820fd45694afcafb2e1cd6fd35abf200a47b" => :x86_64_linux
   end
 
   head do
