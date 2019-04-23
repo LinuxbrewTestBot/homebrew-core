@@ -6,9 +6,11 @@ class Pygobject3 < Formula
   sha256 "32c99def94b8dea5ce9e4bc99576ef87591ea779b4db77cfdca7af81b76d04d8"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "cf2738f0f61ac488ac4b2a67f10c2740b3249728e807b5169c531d14357f08de" => :mojave
     sha256 "ab1cde8cc940917da59401934c8f3a0b3f65c41efc8fdb02816a9bc3f668b91a" => :high_sierra
     sha256 "7b8c52ed0c05cefe12583337129192fa21aba265ad88bc16c8ef4316655cf713" => :sierra
+    sha256 "8bfef1197f4a7c113a2db8a1242b80e816386b312623272a3a6cca2556994b25" => :x86_64_linux
   end
 
   depends_on "meson" => :build
