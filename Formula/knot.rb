@@ -6,9 +6,11 @@ class Knot < Formula
   sha256 "b21bf03e5cb6804df4e0e8b3898446349e86ddae5bf110edaf240d0ad1e2a2c6"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "bb8eb25cd8f1519450e9818a9dc219930db35496b093e889f6a757b398290545" => :mojave
     sha256 "11f116128b5868110d2cb787d4c50b916694c3f2c014c62852dc9019e28410e6" => :high_sierra
     sha256 "983ff10d8a6caf5fde20c21df00fbbf20b27d5b51548f3a7c24693cef0dcea07" => :sierra
+    sha256 "a12530aab35ce30fac98116435ae11fea28927912c24b4e952760149777e46f3" => :x86_64_linux
   end
 
   head do
