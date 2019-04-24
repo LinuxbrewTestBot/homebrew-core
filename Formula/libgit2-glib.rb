@@ -7,9 +7,11 @@ class Libgit2Glib < Formula
   head "https://github.com/GNOME/libgit2-glib.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "2a8850fb76314cbb73134d4c2fc73a745fe4bb3b5ebc889d902ffb70e9b104b4" => :mojave
     sha256 "6ca7108fd8a692ba5a9ebc480f9bb49b33bc0a154057e595a40baa543690bade" => :high_sierra
     sha256 "0d44665ecaa51f237ed56445dd415833addc1be0b95b33f069d47b23fcd55cee" => :sierra
+    sha256 "64b273fd7288268b7cb69c5771dee025bc28505ed92cfa93622b11abad81322c" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
