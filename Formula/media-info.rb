@@ -7,10 +7,12 @@ class MediaInfo < Formula
   sha256 "fdd3de83d09e85d6b9ecb8b74e86f2fed31d424621adcd5f01b020a214bc7931"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "b8dd9d52888d0cd92da22fad6b896a757269961c4d94c7136e5c79b4aeea6f36" => :mojave
     sha256 "3dbda8ffbd8af33d17b6d7e290d40be1a8cb3e7c0088b4e4545ebfe7baa3dabe" => :high_sierra
     sha256 "05cf959783f2137cdb7e35df7135a71bb6eda02dec2dc6ac2b66b82f4e0cfd99" => :sierra
+    sha256 "4e97993fb98018e4d3b0d713a52a0d8aed445223e5de9427c7ec1f2f6e3ae135" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
