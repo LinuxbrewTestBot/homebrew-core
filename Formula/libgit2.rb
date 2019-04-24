@@ -6,10 +6,12 @@ class Libgit2 < Formula
   head "https://github.com/libgit2/libgit2.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "8c40517602d53a5e163caeb1859dd34d4cd039f9d1ca4e20fedc94e21acb030b" => :mojave
     sha256 "c88430caf41e2813605349e8600ebd3a04f61f1b0addea820f14f59ae237cf57" => :high_sierra
     sha256 "2daf457689e8a02eb75b71706e82f417a9ca1a73c58ac121b15e16712346b26c" => :sierra
+    sha256 "8de3b23491ea99985f060b657323a82a838aa7e009b08e165dedb84cc99c30ba" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
