@@ -9,10 +9,12 @@ class Dbus < Formula
   sha256 "9546f226011a1e5d9d77245fe5549ef25af4694053189d624d0d6ac127ecf5f8"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     rebuild 1
     sha256 "98e15e9e2fbce159fb558cc230d468b589d8102d7041985e28613419c994b374" => :mojave
     sha256 "40d0e329c206dd5a0022cf656c2a88242a45bc2a78d2bb6234091909e40d48fc" => :high_sierra
     sha256 "576a2fabe043a7d290b026574bf9acfccb4d925c2dea5bb953f20d9deb7157b0" => :sierra
+    sha256 "c7315fef8846308fcaae2ffd3e79950aa5441634d945c911f5eaeb4e1166c742" => :x86_64_linux
   end
 
   head do
