@@ -6,9 +6,11 @@ class Wget < Formula
   sha256 "31cccfc6630528db1c8e3a06f6decf2a370060b982841cfab2b8677400a5092e"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "cfe40dfe41b8da402e74e2ec6a0ca03ff2bd998824188af6e9eacd300d1cc226" => :mojave
     sha256 "fef738f888e306166489396a2aaf7f0d7cc3257eef97e0d18a62d75e6e6ae440" => :high_sierra
     sha256 "c2a5d0e2dd91659d491805c7c50723db552abf49e59f39e99eebe08656c858fe" => :sierra
+    sha256 "ec77107701cb1ffbc2da9fa19a3d706a03862d2109152dd8deea3fdfca24e62d" => :x86_64_linux
   end
 
   head do
