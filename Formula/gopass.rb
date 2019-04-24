@@ -7,10 +7,12 @@ class Gopass < Formula
   head "https://github.com/gopasspw/gopass.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "ab85e9c4a05a80e9aa2c1116785af178ff151db1abc11263854a67d4adbdf526" => :mojave
     sha256 "125f189b3b38a0a965c544b61b70bfb4117fbbd44e7e1ae132fe23a0a502ff41" => :high_sierra
     sha256 "4d2a940c2fc2ca2fb11739f814fc2b4e2b18c32382eddb4fccad6801431352a8" => :sierra
+    sha256 "4ee521a67c18f19ee6711ac8833862b2c2ccad7cab865331f35f09794a4012f9" => :x86_64_linux
   end
 
   depends_on "go" => :build
