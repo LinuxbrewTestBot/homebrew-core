@@ -12,6 +12,7 @@ class Lz4 < Formula
     sha256 "a898c71e6e254a98310ed55d54962685c2c08c181dee12ad5f705083e18c168d" => :mojave
     sha256 "a3e6eac647b6a34547606523e97d004f29cdf3866334d04238bf088340e29a14" => :high_sierra
     sha256 "5174837050d5f09eed1cff0b9afa224e02964f7e93f1309ac99cbf67dc1b2711" => :sierra
+    sha256 "0b8ca14a0f41e6b24b72819d9202f3c92eb60fc29406accc0106439971d76570" => :x86_64_linux
   end
 
   # Pull request submitted 24 Apr 2019 https://github.com/lz4/lz4/pull/694
