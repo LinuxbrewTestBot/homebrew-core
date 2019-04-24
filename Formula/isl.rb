@@ -13,10 +13,12 @@ class Isl < Formula
   sha256 "777058852a3db9500954361e294881214f6ecd4b594c00da5eee974cd6a54960"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "f9188b5d486b2a835cd865f219be1a9848ce3926e27089a1538ee989db65447d" => :mojave
     sha256 "d997d49958218e521bc4f73369414ff9fad040d28601d94012e4c68cd090ea93" => :high_sierra
     sha256 "d5dc353916cd98da04552a3d7cb86a3203612df422c4e9389e13e12f86945865" => :sierra
+    sha256 "a216d5632159d05752fef151344d1a292ab713852ceb5d1394bb712bdc24b672" => :x86_64_linux
   end
 
   head do
