@@ -11,6 +11,8 @@ class GccAT8 < Formula
 
   # gcc is designed to be portable.
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
+    sha256 "1b26207147f8aeac071f2a774da23452da7ab47ec7d6f63c7ab8ea61525db6da" => :x86_64_linux
   end
 
   # The bottles are built on systems with the CLT installed, and do not work
