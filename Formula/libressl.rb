@@ -7,9 +7,11 @@ class Libressl < Formula
   sha256 "39e4dd856694dc10d564201e4549c46d2431601a2b10f3422507e24ccc8f62f8"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "b6c6d02184488107d4136858c10657a8e22bf98f2f41385299109c07d86a5752" => :mojave
     sha256 "7fe9c6ca1170477fd417a55698aaa5ee8a78d5783001794de8894991a4b3a1bb" => :high_sierra
     sha256 "cb5802c84d9d6eca33238792aacb8b2ff2d9b5331f893b7be7a69463b348d6a5" => :sierra
+    sha256 "7d38a76e46ec94cf41f4a2de5ebc43e6c3a4cb2f1ceb394c6e88e9b94d6c236c" => :x86_64_linux
   end
 
   head do
