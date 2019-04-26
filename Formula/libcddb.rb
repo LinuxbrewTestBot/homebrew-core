@@ -7,10 +7,12 @@ class Libcddb < Formula
   revision 4
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "2eb96af074a3f8dc8babf689481d9be863c0e79445499a473f94c57773381983" => :mojave
     sha256 "f6f41c88a20822be86c07ce27b0f426d3c34d4d420c77d35ff457291c7ad3ada" => :high_sierra
     sha256 "bc93037789abf90bd060a9f6f27af23b2fabb7980c43f5d4a93835469442466a" => :sierra
+    sha256 "50d46bda4b40c2d43c8c4d8c3db80ee6df6c445a2044d4fc322be5c4ee0b96f7" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
