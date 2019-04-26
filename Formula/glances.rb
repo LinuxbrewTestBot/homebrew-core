@@ -6,10 +6,12 @@ class Glances < Formula
   sha256 "56e67aee5960ecb575a7277e87b06d305ec87d2108f65860d13d9111d320bdf5"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "c941b040718064941bf27dc9345b3d9c26480b5d1588ecdbc450cd9be5dc1c6b" => :mojave
     sha256 "b115bd28de608dc0c61b58eeb95e7ae319402f7d100d7794fd504f80b2770ab8" => :high_sierra
     sha256 "65abe69600074d65c68a517a397098201a407a7aa72ca1e0b4419675339550c5" => :sierra
+    sha256 "585c41b5f5ffac1679e3ca45a3163bff2eb04528af7770b48bd5daa3900af0b8" => :x86_64_linux
   end
 
   depends_on "python"
