@@ -7,10 +7,12 @@ class Laszip < Formula
   head "https://github.com/LASzip/LASzip.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "bb1b85c70f7efee68cac94ed831941fe1420530f36166587a8715ec5507330eb" => :mojave
     sha256 "a9396e0e7d10b57df846c73fcfe807d354a1aab80f5b0c85fb6a68b420db00aa" => :high_sierra
     sha256 "7148c262d7dd9e0d9889aebc5fb38f3b12954e74b716fa7b65cb5550350ee196" => :sierra
+    sha256 "86e2246d9d0fc06b728a9b0b63aa4419fa1cb03bae6a54694e58b48d4b6c825b" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
