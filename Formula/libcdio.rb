@@ -7,10 +7,12 @@ class Libcdio < Formula
   sha256 "8550e9589dbd594bfac93b81ecf129b1dc9d0d51e90f9696f1b2f9b2af32712b"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "55014a60373e44384aa7f797c613ccd5289c55d759c3521b7e5d6819ff54b2ac" => :mojave
     sha256 "32604fb219cc4e59e5eb1e0937b320edfacf31d97f04b9a5fbfcd4354a6a56d0" => :high_sierra
     sha256 "61095f7c4888b1c0e022ec9eb314fe389feae1eb030d65e7d91512515528e439" => :sierra
+    sha256 "76d8745c01ede5a4a11defd9001cf0d268c28c1f33fadef562a0a21679ee3586" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
