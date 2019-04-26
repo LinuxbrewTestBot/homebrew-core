@@ -6,10 +6,12 @@ class Libestr < Formula
   sha256 "46632b2785ff4a231dcf241eeb0dcb5fc0c7d4da8ee49cf5687722cdbe8b2024"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "543dcd541a69d52d5d1d21d51d0cf57c1617cc177f743c2dfea8ea3d548b93e8" => :mojave
     sha256 "7f17c5dbb6534afe6b37ae1d1f994d3387cd8527d6aaa768604837ac681eee59" => :high_sierra
     sha256 "5ff130cf6aa42842636dd90b7a8e7e60adbb289682bd915c98937b032c38fc54" => :sierra
+    sha256 "cd938799f312f00e4b1752e92b89dc31cfb30b680fea6e57c1ae7e74e9374d2d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
