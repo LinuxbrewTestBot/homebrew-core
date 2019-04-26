@@ -6,9 +6,11 @@ class Rsyslog < Formula
   sha256 "7098b459dfc3f8bfc35d5b114c56e7945614ba76efa4e513b1db9c38b0ff9c3d"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "c93d27bc72d47aaef94867e31a69f074884ce89d2c6daf37c38b0393577f789d" => :mojave
     sha256 "273f6dbbdb52f45c8ae89cbc16991c0d72b2fd0f6692d3d7c2832ff7e54af3fb" => :high_sierra
     sha256 "acf3962a074bead096f5bf44a254345e766a15c41c745126162b8163947bcca9" => :sierra
+    sha256 "a3b7180380b357f2e5f61992ea93fcd9974c548f2ae779cf0e3097a7900264b3" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
