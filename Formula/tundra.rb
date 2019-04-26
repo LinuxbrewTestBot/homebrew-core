@@ -6,10 +6,12 @@ class Tundra < Formula
   sha256 "bda600bd6e2f7f92696402164077099fafff9a91b9f3147e829119122f62b1b4"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "f6082037d65042151a6d44e720df2942593714174080c8150af99b91c37d938e" => :mojave
     sha256 "85b08f3a7618ad5fd8b2a79fbf2cedad810c3f7d74b73b09e2e50b38f174f399" => :high_sierra
     sha256 "35a166ef4629ba82ca3156f01f0e2aa34172730f4024076a0b6f6ff86c689374" => :sierra
+    sha256 "1a499e6b3653d88525854205e0dcd66f6b008d695524cb90a4dbd942c863333d" => :x86_64_linux
   end
 
   resource "gtest" do
