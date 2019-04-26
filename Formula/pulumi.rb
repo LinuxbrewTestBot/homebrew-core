@@ -12,6 +12,7 @@ class Pulumi < Formula
     sha256 "75d90f99467f272297a3e0352e10f6dc0f5dd5c8af6ca8f3ca0254c60f8dd0e4" => :mojave
     sha256 "efa215f3545e4f9909f715781651fbe93111808b822b8a83f124a76676f2ad85" => :high_sierra
     sha256 "2f231b043cbae5a4d369a5af3bd0debe618fb61d9774b8f37d856069f92a75ef" => :sierra
+    sha256 "0f078dae63ebee4bf8132eec6a593322bc977fa872d59c8d422386200750d030" => :x86_64_linux
   end
 
   depends_on "go" => :build
