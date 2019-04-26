@@ -6,9 +6,11 @@ class Libdap < Formula
   sha256 "29961922b53f62e9d4eb34d1d50ddc23a24100664f97b71f42561fa5588ccc58"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "d2f5c13913633acafe8c090b9ff94ad3f9eae5d7699be4707da57f15524fc530" => :mojave
     sha256 "15bf626100714d66c1691db44574295b5f257b1f0e3df025ac3f7c12c2526697" => :high_sierra
     sha256 "ccb2d18958ed0115c1e1294e1c13d1c4afed8090a88efd0a6c6ff023bb697093" => :sierra
+    sha256 "d3a311f7716b691274c631b2d3208a0e4fce62e267f9d2ec27d8ccf10d1b869e" => :x86_64_linux
   end
 
   head do
