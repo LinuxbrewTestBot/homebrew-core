@@ -6,10 +6,12 @@ class Gifsicle < Formula
   sha256 "5ab556c01d65fddf980749e3ccf50b7fd40de738b6df679999294cc5fabfce65"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "52be1cd49246909777199147dcbbeb6f490580558615138ae063b6149cfbe53c" => :mojave
     sha256 "a7cfb607906023c5bdb56a49f8a75ce0b3e2c76a971266bb530d04ed29be74f9" => :high_sierra
     sha256 "746d071f268950c6af18704590b981f5f965d35e2adf6c202aa3df0f13e943e9" => :sierra
+    sha256 "7de864ee8eb9008c77e9ab7dd28b5a1f64864e7aacb36a15eb00a0cddf3cf3cd" => :x86_64_linux
   end
 
   head do
