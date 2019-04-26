@@ -7,10 +7,12 @@ class Libfabric < Formula
   head "https://github.com/ofiwg/libfabric.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "958a3ebbe725be48354eb85c857defda862b62bcc091d6f4fc520e31db72fc14" => :mojave
     sha256 "684433ce8f87a62b80ae6599633ee90792787bf9f556b4dde314ff5333653ef8" => :high_sierra
     sha256 "769ee2d5d437a57b45b979c64e2a34528015648a9afc9c8c2db72d33ca819370" => :sierra
+    sha256 "20595a2532f11ff99cfe0787b98b499c7474bede0eb02d08a72a80991864eff9" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
