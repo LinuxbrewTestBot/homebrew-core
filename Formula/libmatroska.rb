@@ -8,10 +8,12 @@ class Libmatroska < Formula
   head "https://github.com/Matroska-Org/libmatroska.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "8e522f8965c8f799707c47173ef862cb4d06bcf805141e8d503302aec4a19bf8" => :mojave
     sha256 "b8873f42453f222d6ec1d9244a7a3dd2f9bd22eba07facfd51d07992546e52a2" => :high_sierra
     sha256 "995e5a5155da3a2dfed29e087b3fdf2cad2dae0875d9789b927dd11b15a9e25f" => :sierra
+    sha256 "e5d16105aa72028c4993adae8083a898a92c9dfc552489695a74bb8526e5f66c" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
