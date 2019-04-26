@@ -8,10 +8,12 @@ class Dfmt < Formula
   head "https://github.com/dlang-community/dfmt.git", :branch => "v0.x.x", :shallow => false
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "3f27ea93b418c2a4c163e94f03f7aa504b2116ebc3cffa88eadd30e2075c257d" => :mojave
     sha256 "e4e2fccd219314a3797ae105c8b2a766cd5fda0da0fee2bd492e506d53f48d7a" => :high_sierra
     sha256 "a350f2837fed66d00df684f75f224da6c409ab35c12d6b125631409b1d25d0ab" => :sierra
+    sha256 "5c4d3058f285632abd3edebb2e3fd38d5ed2874519e0dc79082dfd6ce807843f" => :x86_64_linux
   end
 
   depends_on "dmd" => :build
