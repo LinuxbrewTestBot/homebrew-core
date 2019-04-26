@@ -7,10 +7,12 @@ class Gauge < Formula
   head "https://github.com/getgauge/gauge.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "be3ce930d0b5da738def3f33a45dc08e56087a703b5d88cc30cae46a3851be66" => :mojave
     sha256 "c0e163247633803520521ff4766026fa453972cd16ff418076afd59e8b79d27d" => :high_sierra
     sha256 "c93467dc6f4602198f51bd9c6f5926fdf2a676eef36f832e5ab9f9f5b2189445" => :sierra
+    sha256 "20b776bba34b9f8563b7776ace1a0e115abdb7e84c8e0f89abef216f1b714c72" => :x86_64_linux
   end
 
   depends_on "go" => :build
