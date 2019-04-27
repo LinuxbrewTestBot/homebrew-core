@@ -6,10 +6,12 @@ class Opencv < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     rebuild 1
     sha256 "f38ff2dc34ec77854c9562d2b4a1b8becaa73366c336b249a3777d3da5897da2" => :mojave
     sha256 "6884934a2d66b95b64f0d88db584bff0f0038e3e176abd2defb0d00d4e9d927d" => :high_sierra
     sha256 "453bf221713f301a5f65125ea5e5133c12caba71b792c4988386e30769e6d305" => :sierra
+    sha256 "da34ce74a665b4f12a0bb8731284a0e9ed9a161b4a8ff937595e7353cb7ddadc" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
