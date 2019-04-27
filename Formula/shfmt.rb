@@ -7,10 +7,12 @@ class Shfmt < Formula
   head "https://github.com/mvdan/sh.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "15b43658df24bf448ab0d3373ee75ab6e6af1e101ae684019fd9830a169fc48c" => :mojave
     sha256 "c18cccddb9678d23261c99b8a9870bc8ac98c74a332f6263eff670561f620a7a" => :high_sierra
     sha256 "ab8acee13bd584683347201a04cbef8b652fad596bbbc3374d153fb315cd4d88" => :sierra
+    sha256 "96f3154e334a7a6d1797f412b98fd01a0385b789cd5cc19f18970d177fc5bf84" => :x86_64_linux
   end
 
   depends_on "go" => :build
