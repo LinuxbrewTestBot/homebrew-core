@@ -6,10 +6,12 @@ class BoostMpi < Formula
   head "https://github.com/boostorg/boost.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "11823e8ed799d8a7714d7d619bba5999fe6170535a4e572b83787b25afd7b29c" => :mojave
     sha256 "df0cb6020d06a01c45e5a278cf196de77da020d97e2e84732f8d75940e4eb9a7" => :high_sierra
     sha256 "24d06ffcf80ed94e60176aea55854d7f5bcc5b7cc8e81209ee13321fec32fad8" => :sierra
+    sha256 "03fe3ccfc8a3415a140b98a0f5a178dfb42c5b3cb5e61d093cb67c3121ce2885" => :x86_64_linux
   end
 
   depends_on "boost"
