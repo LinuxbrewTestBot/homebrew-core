@@ -7,10 +7,12 @@ class Flatbuffers < Formula
   head "https://github.com/google/flatbuffers.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "7d796ffd01ee8b81de0ffba7ef8dd6c5a85111d2007f2bf06096e461cb2f2210" => :mojave
     sha256 "96246b405f3804a2e0bec7ff4b214fcb009e086a65941018a602f24dfe098c37" => :high_sierra
     sha256 "1ed87e54f40fc6c1df22d379b7efed9517c4e660a457715ebc9397c3bfb5896a" => :sierra
+    sha256 "fe4e2d151953cdbaaa775a8d3d32a45eb4325c65895d06094182dbb527a4feba" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
