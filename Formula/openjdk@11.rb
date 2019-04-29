@@ -12,7 +12,9 @@ class OpenjdkAT11 < Formula
   end
 
   bottle do
-
+    root_url "https://linuxbrew.bintray.com/bottles"
+    cellar :any_skip_relocation
+    sha256 "39c7b1d000bb200742d52fdfe67e7ce03f53ae1152232a4b2a974e98f51331b5" => :x86_64_linux
   end
 
   depends_on :linux
