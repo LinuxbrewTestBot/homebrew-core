@@ -7,9 +7,11 @@ class Neovim < Formula
   head "https://github.com/neovim/neovim.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "d6ba900725be1093bc3c8fc4e871f3dbae05f54d9debc2c9600c879ab2590f37" => :mojave
     sha256 "40e61b0a7f03754296bba740a3f504dc47339200526b49945993d14d0bcc7ae8" => :high_sierra
     sha256 "2510eb4e6ab06f75a3982ed881419945104f2c1daa90f45fabb430cb3889ce80" => :sierra
+    sha256 "771782a2712cee034b7299e9cef93bdd7ce949b32f664bc1a313dfd9d23c274f" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
