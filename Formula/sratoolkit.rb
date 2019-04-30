@@ -6,9 +6,11 @@ class Sratoolkit < Formula
   head "https://github.com/ncbi/sra-tools.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "3f096fe6b0e114fa80664808855571f1f4b5a90791d0ff27344045541fabcc1f" => :mojave
     sha256 "eae0fff7e32f0c681c804686b5dc7dacbd8d051cc2538a3344b43c3e3c7c7b8d" => :high_sierra
     sha256 "0f6ea3b9f3138766a401fa0c892c888eeaeabc95409d26669985ce72aca3f123" => :sierra
+    sha256 "13c0f8de6c0ff485ce3942f9d96fcdfeaa1513c21e1896d69a03881af0917c3d" => :x86_64_linux
   end
 
   depends_on "hdf5"
