@@ -7,10 +7,12 @@ class Unp64 < Formula
   sha256 "55126d9cd6d3bb0d77aeba3c9bd5d9e16805b098c66de92b33f44814425c39e1"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "966cbf5ee30ed72e472df6fa40c80adc623a18c3ab9764e22185cb0b48da4e46" => :mojave
     sha256 "d84f3af986ace7e131687c719d399212ca7c8e5bb4fc5f7bc9d0910db4116132" => :high_sierra
     sha256 "60f32f5261a3a7cf7f0b7058a53163267a026fb03886875403c7ebae12eb0b34" => :sierra
+    sha256 "5469119680466e08d1aed239b1ef178fbf36be3b578bdc9bcb34d10bbb535066" => :x86_64_linux
   end
 
   def install
