@@ -6,9 +6,11 @@ class GlibNetworking < Formula
   sha256 "c022f3d10f55a5b7c31676fb001b4cb6401db8ab9f6e8418c69de00d0f268732"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "d9d4579a0057696619bbf0dbf816906715d280537668dd76374fdfccaf43964b" => :mojave
     sha256 "09acab76ae56b356896fca00d53858529d46456f48a9de6bbf98f5acb6ff89da" => :high_sierra
     sha256 "79fb32a2ffd0c0c18ff916783f452cc6edb15289b8836d706c5894e9415de646" => :sierra
+    sha256 "c6b5957f36d7d8c9873f7f5bf7725b5db821db86e4b26ecba6722c6f546c18da" => :x86_64_linux
   end
 
   depends_on "meson" => :build
