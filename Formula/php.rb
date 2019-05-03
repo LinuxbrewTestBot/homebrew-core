@@ -6,9 +6,11 @@ class Php < Formula
   sha256 "e1011838a46fd4a195c8453b333916622d7ff5bce4aca2d9d99afac142db2472"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "61026bf867135cd7bb78f5478227b6434f35bba8ceb514dd67ff7f5ac12b51c1" => :mojave
     sha256 "d3ba1ea5513e9319be1ca0d0fa0d8739c005cf88483f577b62b20d57e1be0a27" => :high_sierra
     sha256 "936e1e1af595306b161e8dd352fca4220a876d591f4f3f31c265801ab987c5d8" => :sierra
+    sha256 "46f4c0faee9225146a24b9849b38b8ff3ed6ff107d236d0855edd8db2182d6b6" => :x86_64_linux
   end
 
   depends_on "httpd" => [:build, :test]
