@@ -6,11 +6,13 @@ class Fftw < Formula
   sha256 "6113262f6e92c5bd474f2875fa1b01054c4ad5040f6b0da7c03c98821d9ae303"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     rebuild 2
     sha256 "759b2cd17b53caa4071279657cc79c93943f9b652eeb7334432178ac4921c670" => :mojave
     sha256 "0c9d6d53d26aea1c85a58ea3e3802f7af53d236e4f2360cc742113468afe7357" => :high_sierra
     sha256 "2c2e3dd55528741188da3027927d5ad4568338bfa7d2d1d38e3c7ce14d13fdf2" => :sierra
+    sha256 "35006ccac20707ac44c02bc93f29b37899af307ea18d2d52dcea86ac1f80730b" => :x86_64_linux
   end
 
   depends_on "gcc"
