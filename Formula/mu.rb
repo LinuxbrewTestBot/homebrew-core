@@ -8,9 +8,11 @@ class Mu < Formula
   sha256 "f634c7f244dc6844ff71dc3c3e1893e48e193caa9e0e747eba616309775f053a"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "f8695cbe6df5fcd53c97c2df27924dc5152ac169bdfff6d4332c000d36d818ee" => :mojave
     sha256 "9f902b4b826662224f717e17cac441d622a31a813aa69ecb55fb4bd58dc9194d" => :high_sierra
     sha256 "2c5f3e427d6527a3be3b9268cbfda0fef31f91c0c7702bab75c790f44ed035a3" => :sierra
+    sha256 "aeddee3974b30d9ae43b7a63ea1a342eb4c84a2b19a91a9c95d637a89e6adb21" => :x86_64_linux
   end
 
   head do
