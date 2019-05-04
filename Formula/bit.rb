@@ -9,10 +9,12 @@ class Bit < Formula
   head "https://github.com/teambit/bit.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "f889058e6d163c732bf6697f40f05dd2b2dd736e3ee9c32b9590bab37fd0edf9" => :mojave
     sha256 "7b5f8b38199dc166b680c2e482c135cc22d9f32af816e50c47d7bff2f6c7e443" => :high_sierra
     sha256 "49e6c7a5c40fcd6258915f9ef45bff6aed7d9679f0e722e290917b2fa3f01dae" => :sierra
+    sha256 "4b502ca204bdf28961a94d3b533185e8431999dd22e3cec0632b590d2589d04a" => :x86_64_linux
   end
 
   depends_on "node"
