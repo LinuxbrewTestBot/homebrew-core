@@ -5,9 +5,11 @@ class Pdnsrec < Formula
   sha256 "e41c0a9825915084794edd86e31bb9bde558a5efa8e178c168b82546fecdb0c8"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "5c4cc0a99b3219b428871573b70b1bbea73009020c1fb77258f7fb4d45aecf6f" => :mojave
     sha256 "15b220d44b8f2649718b83101515bd1652e000efd32a8a97541cca4b3a659008" => :high_sierra
     sha256 "815f1334d369a621e301d4305a30226f49a6a6c85499b8d9bf245464547fc173" => :sierra
+    sha256 "c77a6c0c675681985199b799ab8d5dfe451086792842847a5d0a9db25201d08c" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
