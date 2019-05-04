@@ -7,10 +7,12 @@ class Libedit < Formula
   sha256 "ac8f0f51c1cf65492e4d1e3ed2be360bda41e54633444666422fbf393bba1bae"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "c445caf1a4f1d47555f00505553b479c1638eb59e63ce7bcbd9cc03fd4b15e14" => :mojave
     sha256 "0b624516c27f8e3298eff0f2dbfd2e108bf6d428c6d7c057914665b26154b366" => :high_sierra
     sha256 "8ad985a00377f40928cb2653675da86542678baf2b625eb9861638b4c31878a8" => :sierra
+    sha256 "d102921a365c86aed691593980cf8ad7359b1cc9df6902b1ce9a816dfffcdaaa" => :x86_64_linux
   end
 
   keg_only :provided_by_macos
