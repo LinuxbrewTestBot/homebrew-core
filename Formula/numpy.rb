@@ -8,9 +8,11 @@ class Numpy < Formula
   head "https://github.com/numpy/numpy.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "d1a6b200ef06b691881d2dce01ba40f4b18be032bd8fb75fdec6b098440d7cf5" => :mojave
     sha256 "88c5beef3c5c539ba8991cd87625e5e9ae6608f6e0c67f0fbd7c39552d28fcd8" => :high_sierra
     sha256 "58e0581edfb56698159e2d85b774219a0157bff5b9d11a7e01f034537d0c3f6e" => :sierra
+    sha256 "b2de421646914dc8ae2bbed78c137d2b5314aa39d144f0264fa004196665f58a" => :x86_64_linux
   end
 
   depends_on "gcc" => :build # for gfortran
