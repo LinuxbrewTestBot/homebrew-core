@@ -7,10 +7,12 @@ class Openblas < Formula
   head "https://github.com/xianyi/OpenBLAS.git", :branch => "develop"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "c7717658d2801da03bfd1a6d83016bec1beacc62baa02ab3d321f566250b88a3" => :mojave
     sha256 "b9c3a1c6ac196fd5c254049a50f5762a8fd643a289e70514bb76bbbbcec947f2" => :high_sierra
     sha256 "0731e35071ceeed6a59570d1965a52ae0450445db6c461c8db3245ebbff5455a" => :sierra
+    sha256 "0af7f4686da64edf749bb3d486c1a3d4ff54b22892f88452675b61ed464d9fb5" => :x86_64_linux
   end
 
   keg_only :provided_by_macos,
