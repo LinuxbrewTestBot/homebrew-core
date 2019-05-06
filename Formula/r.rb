@@ -7,9 +7,11 @@ class R < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "cc0bcd96d5baf4e79e5e719f8378ee53336cd2d2e1d389e9d01ada6c75fb8f16" => :mojave
     sha256 "5bbacfd1b67f1e35a133fcdad48c6e4bb4d4ea2d52522e1cdd8538a0d37f17a7" => :high_sierra
     sha256 "df39c323a3e7a97758a2f4a606c2411abd9ceed108eddd88a8e86345fd1f9d26" => :sierra
+    sha256 "fdc8b5421eda7da17b0e79a5e8d0d2ae9d9e95c71bb7e5b4cf2f6f918dc352f3" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
