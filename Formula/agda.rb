@@ -20,9 +20,11 @@ class Agda < Formula
   end
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "33438627ea54c158323b499f5cff0acb0fcdb1498ed46709254182d3926c99a8" => :mojave
     sha256 "8e41acf29ecb3319d8ef00b77de952cfccafef87bf705bc32c1837073ce62acb" => :high_sierra
     sha256 "a49f81d7e0f49023a23067d0e496e2a387258d91820f23838f2ef804bea86714" => :sierra
+    sha256 "cf80a2f7ae8947c8c7ec362bea17b08d3ce211a6682912a39c66e88d3d1ef0f7" => :x86_64_linux
   end
 
   head do
