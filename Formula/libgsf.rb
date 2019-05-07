@@ -6,9 +6,11 @@ class Libgsf < Formula
   sha256 "ea36959b1421fc8e72caa222f30ec3234d0ed95990e2bf28943a85f33eadad2d"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "25109b3e2ea58c821bf66afea7eb83396c863575261252cc1a209439e5e7a69a" => :mojave
     sha256 "0c51ceb879565696a729f0f04154d3c0cbbe5ef58b0b2fd4c225f589db4e7631" => :high_sierra
     sha256 "10aa1ebe555e6976645075b059e50ee408311c40030fe5750ba6f7be9a23e9ab" => :sierra
+    sha256 "230fe5f17ccb317563059500d560ae14348985bc1cb1f98aa03057b984ccf7c4" => :x86_64_linux
   end
 
   head do
