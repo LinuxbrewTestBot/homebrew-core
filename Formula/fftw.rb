@@ -11,6 +11,7 @@ class Fftw < Formula
     sha256 "fafc0d1b43619cf3ac63946a4380782747903378dfb4f7b21387c40131ad2d59" => :mojave
     sha256 "da4329aec211bdc19e9404b35318517d8a3d029dde6e0e28dac646330a7554c4" => :high_sierra
     sha256 "eb140060084d40bc484f8e7048b516b7afe92902c6da04f9e283bfa83f271551" => :sierra
+    sha256 "f4d30e8d43d1d9e49c8d2c9a8d908be9d935c5b23ebbbfa28d8e79dc9c10ec0a" => :x86_64_linux
   end
 
   depends_on "gcc"
