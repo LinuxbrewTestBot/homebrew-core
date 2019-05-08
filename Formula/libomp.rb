@@ -6,10 +6,12 @@ class Libomp < Formula
   sha256 "f7b1705d2f16c4fc23d6531f67d2dd6fb78a077dd346b02fed64f4b8df65c9d5"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "6c8f66a6582efa00620593e16a41f3649018778a300cc772afbe79c711c2c396" => :mojave
     sha256 "4cc6fd69f1558f29165608c3e52aed88be6c56e3b0da10c9f6912ea3345daf3a" => :high_sierra
     sha256 "e5d63a6b2cfeb05ded546b5f8d381acc592a2a37767cbae20569981229c66ac8" => :sierra
+    sha256 "b908a9501c1ae79eed25f5dc296b87624d907679a5f3e4dc043b41dcb7dfd2f8" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
