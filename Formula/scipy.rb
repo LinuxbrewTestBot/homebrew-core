@@ -8,9 +8,11 @@ class Scipy < Formula
   head "https://github.com/scipy/scipy.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "dfcfbee2926f3f80211febfa6aac6d80194e463f4d7da594485a63ce96ab8959" => :mojave
     sha256 "ac747251d62895c89b3e0dedbfc1f6a75398e3ebf9d63cc41eae40b7ec360db5" => :high_sierra
     sha256 "b4f9df3bd0b71f4b4e3b8bcc3ee4ead53ad5de03b05cf8a0897a5c6a2f6b7e5f" => :sierra
+    sha256 "edae393aaa981a8b7178fbfc0351b3077d619bb5a90159500d8b152021f13e69" => :x86_64_linux
   end
 
   depends_on "swig" => :build
