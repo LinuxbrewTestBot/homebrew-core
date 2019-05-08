@@ -6,9 +6,11 @@ class Libdazzle < Formula
   sha256 "413f8dfb8706760e0c649e2994bd10524ac0736601dd03ad2036293bed3bf141"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "cddc05647c78fd117d9c105d2d1135dcb77d28a9262d36580cc0926955dca1b9" => :mojave
     sha256 "c6d8b5fd8c2821a02e01d8c29946275da8991ed45f0eb3e9d19184d745838bea" => :high_sierra
     sha256 "708803cf2a2e6a885b1eaf229cf2d0bf9f111720479aa262a20da4360a142d4e" => :sierra
+    sha256 "aedffa6074acff17c6e28b347e7a5fce164c975c4dc354d55f5931a496bc186b" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
