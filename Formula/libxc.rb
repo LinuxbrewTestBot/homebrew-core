@@ -7,10 +7,12 @@ class Libxc < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "368e272c4184fb951348a223f1c740020a76999b552d23c84c1c45aa88366902" => :mojave
     sha256 "7ee404c4bbd65309cdd25a992a9e92dfea57cf7af6372381852f76b82e3fdc30" => :high_sierra
     sha256 "fb1f4e04633838f4bd9301d3a33175842680d1c1301971edce5b0179e459043f" => :sierra
+    sha256 "bdff82bba809f899a879e8a5442b94de781b3ceed99516a163c1da33774e2c36" => :x86_64_linux
   end
 
   depends_on "gcc" # for gfortran
