@@ -7,10 +7,12 @@ class Netcdf < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "d798cbc16c2e6c312d921abf4cef0d74f094c9f6496114c06219baabaa962974" => :mojave
     sha256 "0307831230fe41037beb09e9434d587497dc246ad4c0eb083e603efa4d5fbbec" => :high_sierra
     sha256 "272ebe803e2c331d4839387d644261281315486413d581e460c1fef91455df6b" => :sierra
+    sha256 "8da9ba9cbbfc5693d28a41e353b497c805106fd88e5ebb39180e6b17727a381d" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
