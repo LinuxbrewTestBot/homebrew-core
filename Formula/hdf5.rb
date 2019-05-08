@@ -7,10 +7,12 @@ class Hdf5 < Formula
   revision 1
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "28ee1944f9b17a50bddbfbc1730d06373efaf2f188930fa1624370bb895626df" => :mojave
     sha256 "38fd7f6b101842d2fb103d45f3cbd927b7698795ec622495a9fc6052454eb011" => :high_sierra
     sha256 "211b460cc14787591fdcc90c4aed3d643b5bab780269a1f2c775adf4d1ed8399" => :sierra
+    sha256 "fc30f6ba242693da9663e66940cabca25a55a4e2f8f7e32c6ae18a2dd4ebebed" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
