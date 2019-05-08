@@ -7,10 +7,12 @@ class Qrupdate < Formula
   revision 9
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "16fc7829c3154593813d8087d222a8e081f78afc90a508521022b0835b954978" => :mojave
     sha256 "c0f02275cee5d373ef3462afdaa0798a38bdea058e5c23b6ea0f3e87f0d95fc7" => :high_sierra
     sha256 "0aeaf652b412ba913a8f98e37a32f90544185122ccc9b885ec1e6003c60f56ab" => :sierra
+    sha256 "c416807301e5bdabe9a76329ccf6561f307cb47d74aa186b9189f1b5fa8d9021" => :x86_64_linux
   end
 
   depends_on "gcc" # for gfortran
