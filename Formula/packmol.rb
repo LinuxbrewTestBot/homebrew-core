@@ -7,10 +7,12 @@ class Packmol < Formula
   head "https://github.com/leandromartinez98/packmol.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "cf9e09622c5693667366b71ac09c0a1dcde7a66994ec5fecaae93c4187032667" => :mojave
     sha256 "7dbe01c4cf358d1183fcb8ca26e8289c20f8abd6ce04f078471eb34c65a0b204" => :high_sierra
     sha256 "c4cd96908626a8f04e3f9e0858c15deec9baa1841c1239fdcb08bd582f5acad1" => :sierra
+    sha256 "827fb160722b61a3fe95bdf8d8a82fa2ceadd4f2a3aea4c624fb1d59f69867e5" => :x86_64_linux
   end
 
   depends_on "gcc" # for gfortran
