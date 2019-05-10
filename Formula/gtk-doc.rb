@@ -6,10 +6,12 @@ class GtkDoc < Formula
   sha256 "a4f6448eb838ccd30d76a33b1fd095f81aea361f03b12c7b23df181d21b7069e"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "5bfa35893a46bdeea964ce40df94ffd8e0ecd6a07087eed076de9c00a8a26bcf" => :mojave
     sha256 "5bfa35893a46bdeea964ce40df94ffd8e0ecd6a07087eed076de9c00a8a26bcf" => :high_sierra
     sha256 "7e165fbe563ec90947e6e6917344fd48f3109afe716eac72fdfe3b738a852c6b" => :sierra
+    sha256 "3d8e518e880c39e69ccd4519fa3be8b3e045c72a083fd676cebfa532b67cf479" => :x86_64_linux
   end
 
   depends_on "itstool" => :build
