@@ -7,10 +7,12 @@ class Ttyd < Formula
   head "https://github.com/tsl0922/ttyd.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "a4ff4b3815cfbeb102e2d072722a5283095b1b5387e76524bfcaf5e8827ad753" => :mojave
     sha256 "80feb44a31199cc5fc0508f27d629a91fc6d07fecb01405c2ba7cfea1f5cb094" => :high_sierra
     sha256 "c911748d585c7acb50e28d3e7ccb7f300f7bfb9e6c70471f7579d4fa40828458" => :sierra
+    sha256 "c657503084acc3fa9c69a4ce72db4d9f3bd5a25cecb2f11f42b413e7b2b1c8ad" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
