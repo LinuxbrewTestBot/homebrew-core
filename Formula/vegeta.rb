@@ -7,10 +7,12 @@ class Vegeta < Formula
       :revision => "e827e02858e8d5d581bac4d57b31fbd275da39c5"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "26cb57424a617a578f0e9d3e3c73df7cfdf949799ec2e55f44c7870ffd99a2ed" => :mojave
     sha256 "1999cb820385c33d3b7d24c68e37443302014f9ee1538c2c2a40fb9db555b4c1" => :high_sierra
     sha256 "b25663189727f425586cd5c97abba8dfd64ea6556f991dacd452654d1b82779b" => :sierra
+    sha256 "4e83de53afdd69d5f8f42b852cd8e3787df562fdec11b22cf0420aeab278bfbe" => :x86_64_linux
   end
 
   depends_on "dep" => :build
