@@ -11,6 +11,7 @@ class Utf8proc < Formula
     sha256 "5cbd1c95723915eda5c5bb0437f49c3aeb50d768cfec87e9ff09507912244589" => :mojave
     sha256 "b1bbbd93be674c8304888ff5843a63433a5e3b7ccd7d8c8d9ceb450ce71a9c88" => :high_sierra
     sha256 "447fe55565ddc9e411a78939b829d2a175f608ea0497eae069c86befef471d34" => :sierra
+    sha256 "f21c5d190ec1627e4eee59a488985e2704fc77131275bcf0d8c4cb439cf69b74" => :x86_64_linux
   end
 
   def install
