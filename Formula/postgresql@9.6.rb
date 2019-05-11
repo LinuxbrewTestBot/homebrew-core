@@ -6,9 +6,11 @@ class PostgresqlAT96 < Formula
   sha256 "ecbed20056296a65b6a4f5526c477e3ae5cc284cb01a15507785ddb23831e9a4"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "365bd57f7a88eb8d4087df9a6b0f15c78671e8dfb62aec3045fdd022c45607f3" => :mojave
     sha256 "e56aef2cdc0f8a1afd9bcb773024164a503700656be72622afb5b9dd9994425f" => :high_sierra
     sha256 "83142a5831ba38939322a1e0d6b29a8f26b5c346a559d7a48969192fd7751766" => :sierra
+    sha256 "9a24bfdda322916fca7c986623b14308b95dec4e018b2d3145bcf090ade7f321" => :x86_64_linux
   end
 
   keg_only :versioned_formula
