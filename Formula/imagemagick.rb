@@ -11,9 +11,11 @@ class Imagemagick < Formula
   head "https://github.com/ImageMagick/ImageMagick.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "fc95492e9fb3ec8a618a3535f29c97289ec07e03e47c0fbecc036ca1a9e70849" => :mojave
     sha256 "cf1645baf1084294dce6b1ec746a55cbe2c98617097fef743f509339ae242f6b" => :high_sierra
     sha256 "ccd7e949965aa5a8e4f0293efadb18a9c923b43090495d2727c3ed47508e3d53" => :sierra
+    sha256 "76836495c7ae62fde83ddad37d35df2fe2611ace738c4c395562ec6f0888bca8" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
