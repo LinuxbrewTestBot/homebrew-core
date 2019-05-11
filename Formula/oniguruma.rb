@@ -6,10 +6,12 @@ class Oniguruma < Formula
   sha256 "db7addb196ecb34e9f38d8f9c97b29a3e962c0e17ea9636127b3e3c42f24976a"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "c613befafe81da48913ebd1a7eb036a7d8a147516fae32e2fbf4278efdb34056" => :mojave
     sha256 "ea9b09c3567f1315153e44245ae033bb0d101b2c59cd6af304073c8b120e874c" => :high_sierra
     sha256 "417c389300b18a9e5ad94e80c7e8129d9cc68ec2eeb6c8e7b00e45f7c4e9e21b" => :sierra
+    sha256 "9f65143af874df225cde34e97846ef653fb5b324ec0ffde65776c1b7be33fea0" => :x86_64_linux
   end
 
   def install
