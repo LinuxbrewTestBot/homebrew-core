@@ -6,10 +6,12 @@ class Libnice < Formula
   sha256 "06b678066f94dde595a4291588ed27acd085ee73775b8c4e8399e28c01eeefdf"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "a6f40364eb17b24ca46d91403c6dddd7c9035a82fef8dcb4dd4d2699751a6507" => :mojave
     sha256 "aa5e65f90714052f77886dd5bcdf6996fc1fd469a8457225a9a236268bd1651e" => :high_sierra
     sha256 "05cd1daa6254aeefef36744fb141bbb41253046d1ccdba7ee81fcff48a4e029c" => :sierra
+    sha256 "5a5f47c3a8d6a7a3dcea9e4baf485c3e5fa02a347bd887e69d0f28621c8ab900" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
