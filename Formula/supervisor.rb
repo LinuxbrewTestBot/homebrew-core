@@ -8,10 +8,12 @@ class Supervisor < Formula
   sha256 "a9ea9e289f4d2ee1e83d0574284b8c8d05df98f5df395f7f803d3a14f18690c4"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "e8445ec810a595565d0368b0164a9fde720f650bfc9fe51dd1b2edb470c28062" => :mojave
     sha256 "dcc3f9818bad19f5fb72d9e57fc9c475180afea6cf0c02364c2c6e0a0548cd8f" => :high_sierra
     sha256 "f44a7a1551ed5a70be2eef7a8efa7bea716701a08a05f9493442f8fff08a8983" => :sierra
+    sha256 "8c9076821828f6b9f9e60705fa7195337c784f49f8e89a59621e067fc6eb8384" => :x86_64_linux
   end
 
   depends_on "python@2" # does not support Python 3
