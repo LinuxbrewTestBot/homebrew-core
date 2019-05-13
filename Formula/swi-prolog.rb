@@ -8,9 +8,11 @@ class SwiProlog < Formula
   head "https://github.com/SWI-Prolog/swipl-devel.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "3c2f9fd145c39173b04d1b90679079831e6d372e0c6e54d891f96b99dc2a4bf9" => :mojave
     sha256 "cdf03ec44361238c35cd12d71f409cd1b15dbe63ee53a66bd3e8049eee5dbb91" => :high_sierra
     sha256 "40c07a6edfc19c6180c5ea74424932c6845405199382e8fffedfeb300f493d10" => :sierra
+    sha256 "0f24cd93a3a089f883c355a66781915ec1e29a70681c652f3e113727e38e68b2" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
