@@ -6,9 +6,11 @@ class Gegl < Formula
   sha256 "0112df690301d9eb993cc48965fc71b7751c9021a4f4ee08fcae366c326b5e5a"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "94cd9f0bbf9fe96dc45d0ce86a71d3d4686cc86ee4ce6d66cf740e2daed886df" => :mojave
     sha256 "e12a685a7bee08d3c81938af63efa72d0dc12522f623aabab910e0087da3ac08" => :high_sierra
     sha256 "14f0b67c3a07e45240b296b6ad8426020b057af632e7818d0ab5e5ae5a0c4ffc" => :sierra
+    sha256 "259b0192fb221c804c0000309a7b2eb23b79d26caf651beb8a1c3a2fba311444" => :x86_64_linux
   end
 
   head do
