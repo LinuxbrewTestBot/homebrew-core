@@ -6,10 +6,12 @@ class Mdds < Formula
   sha256 "25ce3d5af9f6609e1de05bb22b2316e57b74a72a5b686fbb2da199da72349c81"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "5707c206606cdb5020ae0a2a096396e1bec98e569c7b6316cc8031877a3af038" => :mojave
     sha256 "5707c206606cdb5020ae0a2a096396e1bec98e569c7b6316cc8031877a3af038" => :high_sierra
     sha256 "97bf21c72c5c248112b363f8f95b908b8bafcf3b178fefa22652bfde440f82d5" => :sierra
+    sha256 "655a09c99ebafaadba6e2ef5fab063ab32b9f2b9adbdd0a4fc9612a098a7724f" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
