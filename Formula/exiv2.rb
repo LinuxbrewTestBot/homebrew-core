@@ -7,10 +7,12 @@ class Exiv2 < Formula
   head "https://github.com/Exiv2/exiv2.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "57031a4f2db1e2f493eaf70a3633335f568b22bd3a325791d90dc2aba2d89902" => :mojave
     sha256 "3bc7f852d91f4c88e4f23d3926f7097f912af373948fb565f4241605eaec6122" => :high_sierra
     sha256 "e1a838f4ce6aa87f914aac1153a45fcf5e66347f6d2b5f2e3072a3738866a8cf" => :sierra
+    sha256 "0b17bf2864275a78457aa494fc994e34139c338de684170689d36c6e2f5000df" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
