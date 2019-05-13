@@ -10,10 +10,12 @@ class Webpack < Formula
   head "https://github.com/webpack/webpack.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "28b3cbfdede0edfcf66e9f31e175c1b8e4911f9a233a0c7a8c77055812dc4189" => :mojave
     sha256 "1bae5ab8f938ba4788a9da1109f0a50efa4a9e63167d080b715c1199805e515e" => :high_sierra
     sha256 "647496a3771a81e01c367418a6bc4fbda05dfc8bf0651e7e15acdf144a39d06a" => :sierra
+    sha256 "46891b1cd90453b2a8ad1ec046d20343a7dcfd55fe3a5449cc82939e0c83459e" => :x86_64_linux
   end
 
   depends_on "node"
