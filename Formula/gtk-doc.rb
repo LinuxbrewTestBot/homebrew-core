@@ -12,6 +12,7 @@ class GtkDoc < Formula
     sha256 "b4c6a1d8576e0a796c9522b461e2485ffb98a3af35844401e8c5d3b862c20a69" => :mojave
     sha256 "b4c6a1d8576e0a796c9522b461e2485ffb98a3af35844401e8c5d3b862c20a69" => :high_sierra
     sha256 "661963cd595945cff961721ac28f0498a04b31dda962dc6e4a3734240db8a0c7" => :sierra
+    sha256 "5ffb734cca25544ff6557ef27b42ffc25a5fd7c4aa1ef0fd1ee94039c3a6f732" => :x86_64_linux
   end
 
   depends_on "itstool" => :build
