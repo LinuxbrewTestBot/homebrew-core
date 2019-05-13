@@ -7,10 +7,12 @@ class ErlangAT19 < Formula
   sha256 "11a914176a33068226644f4e999ecc6e965ab1c60a324d90020f164641631fae"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "98b7447b423b81ef4decf068032120dc5f1aab601b33067a1bc188ce33f8ce70" => :mojave
     sha256 "c6ebeeadc73c476dcc51267c3c8a3df12836b8f70be383464e67846f3dc2c5a2" => :high_sierra
     sha256 "f5169eda6db6ac847d7b0a225ebff7cf8df728b2a87ffc098eab7faf82791317" => :sierra
+    sha256 "6d4e78a211f89cf4cdd559851e7bd8e54716b40f550ebc7f81fa8983181cfb03" => :x86_64_linux
   end
 
   keg_only :versioned_formula
