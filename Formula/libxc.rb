@@ -11,6 +11,7 @@ class Libxc < Formula
     sha256 "f8b5f2dff116944721e2a0f3d9b8de233dd7ed5672a7a5e049be46d479be364f" => :mojave
     sha256 "c3e5f9d0fc66335ce0d246d2ed308b0d1ece555db9a2c877bcbb493813cff9ff" => :high_sierra
     sha256 "0022f8f1f5d6f4fb7a842b1aef84660c2cf39b081d0003c5a21c365f8e6a35d8" => :sierra
+    sha256 "2610d890e6307cda51cab0e5f1399bf9490606a933219ec2e4e80fa4cc1f266c" => :x86_64_linux
   end
 
   depends_on "gcc" # for gfortran
