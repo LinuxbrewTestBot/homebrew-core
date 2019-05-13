@@ -6,10 +6,12 @@ class Libpsl < Formula
   sha256 "41bd1c75a375b85c337b59783f5deb93dbb443fb0a52d257f403df7bd653ee12"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "4d425f864c29546393f0b6dd4d53cff8c3b4421822a1ad84b073c0cad665eea3" => :mojave
     sha256 "6c785199ea0e69a1e227ee3d82d302cc2f57d4e457105cd50adf54beb2574318" => :high_sierra
     sha256 "2e9e468c9c2fe6744250870be81f207d1133aa88299c76d920470f6c9102737e" => :sierra
+    sha256 "931cf52b364f3107667d4944adf07bd37a851b1e0891fb874164aeda9b8e9a53" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
