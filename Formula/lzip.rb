@@ -11,6 +11,7 @@ class Lzip < Formula
     sha256 "54716b72b43e41cb8d9912fe3f61aeef651f890bf42f8b92482adfd0f2c99798" => :mojave
     sha256 "bfe47a5379c4d793e15d1d71f5f6b12047a486e2531718f31f675683d54df595" => :high_sierra
     sha256 "aba0ea18470d9aa4f619c0f6c133a4f459d4b02327ff539a44a1f473a2112369" => :sierra
+    sha256 "b2ab63364c2a550a47a9fa22722576200af3c173707a46f828ba6d201642663f" => :x86_64_linux
   end
 
   def install
