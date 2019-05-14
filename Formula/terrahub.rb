@@ -7,10 +7,12 @@ class Terrahub < Formula
   sha256 "2cf927dbad6f326ba89dad2dd4b62eb3938fe18289a76f7252dc19c117359130"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "9f93672f3526a5595c65a6be492b7bddf4bc3b4848ee3a911d7c732f1b07ec1d" => :mojave
     sha256 "63f5818063a0f10aca8baa8d01b82cf95553a7f1fafc9ddcf6a3ca017493ada4" => :high_sierra
     sha256 "e7d2f7bd2a44a6265f9f0e86f6b45d957432a3f3e072b17f1e9ad2561ed6941f" => :sierra
+    sha256 "ba002bf5174bdc245a685ffee18c678a7f2f35d4c898f68d0de8898d42fdabd9" => :x86_64_linux
   end
 
   depends_on "node"
