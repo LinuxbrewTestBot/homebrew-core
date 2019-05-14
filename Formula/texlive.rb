@@ -7,7 +7,9 @@ class Texlive < Formula
   # tag "linuxbrew"
 
   bottle do
-    cellar :any
+    root_url "https://linuxbrew.bintray.com/bottles"
+    cellar :any_skip_relocation
+    sha256 "37b7d8a9c47f47d6de7d7fbfdb91a043a4a4567aa5ec31a6401986e961b21207" => :x86_64_linux
   end
 
   depends_on "wget" => :build
