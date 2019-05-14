@@ -14,6 +14,7 @@ class Fonttools < Formula
     sha256 "b76b3c8de188d61b93bd42e8d1f092793c2564c3e86d160edc54ad89283bc9f6" => :mojave
     sha256 "e86e9ec5b25e323fc86664d519aac6fbc44a22bf45a263553477e8470f4dab57" => :high_sierra
     sha256 "820d0e1920b397c6b040d0466dcfab96388f4b24b36148d0374f766307aeac21" => :sierra
+    sha256 "688b90ba7222cfc019a0fb6739fc5d08bd5383cd627d5e3652db7192a4c268f5" => :x86_64_linux
   end
 
   depends_on "python"
