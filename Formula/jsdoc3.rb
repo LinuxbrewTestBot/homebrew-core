@@ -14,6 +14,7 @@ class Jsdoc3 < Formula
     sha256 "a3dbe47d0b9c325e1688a7b96691119beee2f65c16a15eda674b7a4ee17251af" => :mojave
     sha256 "9c7edd88f94bbbb7f302cd0da115aed76ccca398ef374d09a446de678f005bec" => :high_sierra
     sha256 "4083d0193dd4fd7055e2232e14303751dec9f5b664dd543f7986c149c9eba8d5" => :sierra
+    sha256 "bd54fea63204afb46a4b2d3a7cf979a5eec185ab3e6c55c4b518e9ba97740b2a" => :x86_64_linux
   end
 
   depends_on "node"
