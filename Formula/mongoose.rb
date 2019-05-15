@@ -6,10 +6,12 @@ class Mongoose < Formula
   sha256 "f11d2fb23eec08ee5d95da600649177b9bdcf9eaa6be407d997b174e271e4d78"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "d26995b756965ae3b9e62dfe7cdef465d3b24a795c4c2a89dcd215c69adbab30" => :mojave
     sha256 "27987f00f07c5515c89aab7c38830ce3b0ea191215e065b1608e1db115ad4904" => :high_sierra
     sha256 "42d51c600cc16d6bceeb0dbd68310cf572b05c2bea83bc1eb42d50e7a3a561e9" => :sierra
+    sha256 "323bfe6fbcf6d425d7841a3f5f35c9e622ec33251235132a55750b85429cf1fb" => :x86_64_linux
   end
 
   depends_on "openssl"
