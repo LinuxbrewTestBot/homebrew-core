@@ -6,9 +6,11 @@ class Pari < Formula
   sha256 "4a6532b3c77350363fa618ead5cd794a172d7b7e5757a28f7788e658b5469339"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "a88f042d922a2293a48da12db2d31c0e85042e9bf16ced84cd71eff17139275c" => :mojave
     sha256 "5d81ced4deafdd19a9bed498f7a4258865b44bb155d347c038c3dc15c3ed8bd9" => :high_sierra
     sha256 "342bc9f70a5203b9c73657353b30b2873f3b4c369aeeb1cfb258b33bfec4cf4c" => :sierra
+    sha256 "d2a9a8c9d5d117f3145fa19d4ca03d3c412126945fdc6417b875c0a090a37f6f" => :x86_64_linux
   end
 
   depends_on "gmp"
