@@ -6,9 +6,11 @@ class Subversion < Formula
   sha256 "7fae7c73d8a007c107c0ae5eb372bc0bb013dbfe966fcd5c59cd5a195a5e2edf"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "9fd5dbe51db910462158ec335367ad051e808e8e09915a1dee090bab4483bd6e" => :mojave
     sha256 "d93fbb37e55fd694e79d049b544be3cf48e0c0a69199447377eb027496b66a54" => :high_sierra
     sha256 "9e905cca66cfca6706e0b0d06aef3c1515cbefd1b7e43f91d9c35d650cd8664b" => :sierra
+    sha256 "5e9c6844d540b71a0594227b5e92d01adb69b8b5ac712a5d39645015e419cf1b" => :x86_64_linux
   end
 
   head do
