@@ -6,9 +6,11 @@ class MariadbConnectorC < Formula
   sha256 "bd9aa1f137ead3dc68ed3165adc53541712076d08949800b6ccebd33da6d0ae8"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "6fc381aa27ac6aed4eca014b64da58ce6dd6abe172ee03c1471bd9ad2da6ee92" => :mojave
     sha256 "14003286a278b4c804806363755a6fafe0641100e9f9b5d90266d4267754a524" => :high_sierra
     sha256 "f2066ea91e1a39617ddde93ffc1421e5d7f4f8097146803455f9e69de7abcf96" => :sierra
+    sha256 "953adde3673792fa272889b660df6ac9e3c0e0277721087de18b2d17753ac244" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
