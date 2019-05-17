@@ -6,10 +6,12 @@ class Plzip < Formula
   sha256 "edafae3c15142ac0ebd84c2231ff81da4f68db58359a737e750f2780686c3612"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "3e266c42c66babd4fbdfe82645ab876fc7224846e94b26a39183c57404e17c35" => :mojave
     sha256 "0a5df85c11e9afb266709a907980424cd60f1d1fd3adda71e8b0f9939ddf72a7" => :high_sierra
     sha256 "c26a4b45c09173a4cb8ab2a56d2c5bb9018e16332e637d4d617bfcd75f90c0ad" => :sierra
+    sha256 "814604d1403c40b36e714199c236f910105e87f4baa2646ee5746531a1456afe" => :x86_64_linux
   end
 
   depends_on "lzlib"
