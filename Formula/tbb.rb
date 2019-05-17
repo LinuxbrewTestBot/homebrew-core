@@ -12,6 +12,7 @@ class Tbb < Formula
     sha256 "4bfdb3fba0523b5eeec1df616bcb441e91893655bfcadfe241dbdb2da8e8450c" => :mojave
     sha256 "2abca6dd5b5ca417bd3052240b55cea2c59ea27dae1d53453d9885079893912f" => :high_sierra
     sha256 "12d98641f85d39444e1f8ebcec06ce6202dc81381d652a5ae83f19daee280567" => :sierra
+    sha256 "87abf9869ba1cc4f1c85e91f1bc1b0112af6766376ce329d2c31e3d20eda1134" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
