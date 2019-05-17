@@ -11,6 +11,7 @@ class Stunnel < Formula
     sha256 "780ad13c8840c901bd55be4ba458b7d1b141fe85238d1a44630fc000784c1f62" => :mojave
     sha256 "f0fa1e2a4060ef934111f8df69e25a44d9c75da8ac4f23c1ee4e1dbf4ca0965f" => :high_sierra
     sha256 "9e7ba85c3523fd30535d698ba966de7efffc89007a973575cc88a03701d6483b" => :sierra
+    sha256 "a8e9e4ec218d1fc168b92c4fc7480b47578483af7dfdab7d02aa4384eeb3a182" => :x86_64_linux
   end
 
   depends_on "openssl"
