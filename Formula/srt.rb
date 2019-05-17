@@ -7,10 +7,12 @@ class Srt < Formula
   head "https://github.com/Haivision/srt.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "05c095fe08f26b93c8352c5b50f3af1a5b4d5c6922ec630af4da5b773f57f670" => :mojave
     sha256 "3fa85c4a24c41a81ec33987349b8b7280455229bbcbaf0be473aa39c4e54ecf5" => :high_sierra
     sha256 "d4650ec19ea87a3d1fbbb36cf1f4eb0c30e34444237ab63103754a11ecd2a013" => :sierra
+    sha256 "9fc435c35260294dd1ceccb36e34922d668c49e8e767a73b2fc09f7edec1374f" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
