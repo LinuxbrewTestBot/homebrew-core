@@ -5,10 +5,12 @@ class Cracklib < Formula
   sha256 "fe82098509e4d60377b998662facf058dc405864a8947956718857dbb4bc35e6"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "5ec5d327b820cae5b28440d88557669c83b6035adde41858c753a822df203bff" => :mojave
     sha256 "9e73ad02d623bc310e908ee1e4d29e44bfc6c0a0d83dbaf96486986361942262" => :high_sierra
     sha256 "2345643d79e6c5abdf7dffe54f2a04862cd396f948454b69270a511816274ea7" => :sierra
+    sha256 "9e2557a6126cc7b80114d7edffff546c2f34f5679ee32b2115e88976a824dbd4" => :x86_64_linux
   end
 
   depends_on "gettext"
