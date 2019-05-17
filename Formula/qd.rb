@@ -6,10 +6,12 @@ class Qd < Formula
   sha256 "30c1ffe46b95a0e9fa91085949ee5fca85f97ff7b41cd5fe79f79bab730206d3"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "219d016113bc23c78c0d41e5e8348bca0513a1c58aa3f3b3c589c60bb5543a5d" => :mojave
     sha256 "d5b003dd1d1fcfb17072ee7c7dcaea5509b9560c76fa9dd70a8777abf4c109db" => :high_sierra
     sha256 "ddf703320eaf12c61779886cdbb4aa6c1035528c6ae09f193bd2f6fcd8737a25" => :sierra
+    sha256 "34538974a2c4105a2ce4d5d07d64ce169181620d9343d71350a7ca16f749fc94" => :x86_64_linux
   end
 
   depends_on "gcc" # for gfortran
