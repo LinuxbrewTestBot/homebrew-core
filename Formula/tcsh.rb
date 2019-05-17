@@ -7,9 +7,11 @@ class Tcsh < Formula
   sha256 "c438325448371f59b12a4c93bfd3f6982e6f79f8c5aef4bc83aac8f62766e972"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "b5b22fe69189ad23daaba0da4997ee6ea17b21d63f2c7ef0a78f91f5a816ab16" => :mojave
     sha256 "a2497b4079f9ef60652e987b58e305627533491169a4ec348f7d967ab46787ca" => :high_sierra
     sha256 "88ee66c224517188212d05f1595c6ab3a0a16cefab8fce80f6b6a36488c274e1" => :sierra
+    sha256 "0ad3df1f53e6b210f6ebd0f2d47cfd8dc71607ac8aa460c432150cfb25ba7572" => :x86_64_linux
   end
 
   depends_on "ncurses" unless OS.mac?
