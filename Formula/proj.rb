@@ -5,9 +5,11 @@ class Proj < Formula
   sha256 "676165c54319d2f03da4349cbd7344eb430b225fe867a90191d848dc64788008"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     sha256 "63be7d4fa4555300a5b64fa243f1b22597ae0622b0eaa88397919dd102dc83e1" => :mojave
     sha256 "baa0d9bbe0f5a22baaa29c4dfff3cadfbd070bb3072fc401217f7f9bf130d95f" => :high_sierra
     sha256 "df7076eda0eb6e27a90ccd3db0746ca42072154e20e1a054301af66ae32d1a34" => :sierra
+    sha256 "ba6a63e14aed2a0871ddfa3f5023c47f2f3a65e5f4fdd22dbdd6e27be979d03b" => :x86_64_linux
   end
 
   head do
