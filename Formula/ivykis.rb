@@ -7,10 +7,12 @@ class Ivykis < Formula
   sha256 "b724516d6734f4d5c5f86ad80bde8fc7213c5a70ce2d46b9a2d86e8d150402b5"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "4e33d0afd4c85a7dda64e0ceef937572c97beb5cbf3ddc54491eaa312f390e7b" => :mojave
     sha256 "fb7ee29809095d025bb9c34b73c5a9922a03ca631af52e790e14332be284c5ad" => :high_sierra
     sha256 "2e9a9353e50a5cf3cc84a663d575e12a30d0d623212718e86dea0cec647496d7" => :sierra
+    sha256 "03a747d1a270d735ab6a6645fd73ea9bf4b87b00ab1d946c97a35d78dd95d97e" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
