@@ -9,10 +9,12 @@ class SSearch < Formula
   head "https://github.com/zquestz/s.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "04281fb66e28cf23c3ea1cd23ec6286432191fde31ac8c7b6c9c13bc6b365b0a" => :mojave
     sha256 "4a0c5595943e8b7b4892ff3caf4d03b29533405a411268a77e0a51272a3d7823" => :high_sierra
     sha256 "b9d547b1bcc45516396ed8398b624ac83a1c4ade7bf13f130b1b063b9aec1590" => :sierra
+    sha256 "570e25b19ec8da17b9d4691fa7ac311499cc8d8bcac2ad79748263d0a12ff972" => :x86_64_linux
   end
 
   depends_on "go" => :build
