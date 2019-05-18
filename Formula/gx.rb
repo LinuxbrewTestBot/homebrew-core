@@ -14,6 +14,7 @@ class Gx < Formula
     sha256 "684f06520e421a1bff37db9419bec73924826428953b4dc5227546f1c94819aa" => :mojave
     sha256 "c60a535b2e9de4688ba699f4012527d25912b74ef9be40ff59fe5d3e6222000f" => :high_sierra
     sha256 "9b9092d6ad1d055c601e555afb79b41c5eef4f6a7d0e70e1e57ba82580ac3bd4" => :sierra
+    sha256 "9df9d0e5c53a37dca40f71f1ca4346c70ab09dff316bea79f6e8d6d2a04c0d63" => :x86_64_linux
   end
 
   depends_on "go" => :build
