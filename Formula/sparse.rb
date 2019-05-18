@@ -7,10 +7,12 @@ class Sparse < Formula
   head "https://git.kernel.org/pub/scm/devel/sparse/sparse.git"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "a7bb9bba1767d4df2a5c07911fbe5a52e63a89ee61f59ac38b7abdf18f915050" => :mojave
     sha256 "a2e1769a7a40c5ed66ee727a6b07d7227a7cf5f8bfe1f0acf7af1b4549841ef5" => :high_sierra
     sha256 "e2e13c56e25ecd0f95558263931d2f4b31b533126e289b95e8ef8f5db4fa1e22" => :sierra
+    sha256 "4f915dd93fc8971cc229362072cb9be5919e33623bbd3c3ff389fa06e90bd996" => :x86_64_linux
   end
 
   def install
