@@ -11,6 +11,7 @@ class GdkPixbuf < Formula
     sha256 "d1bb6279efd838ab42c7091e9454ad4eef8414bd88a2f2666d8f5e926ed34dcf" => :mojave
     sha256 "6f87d84cd357f2cd7a85109da0b9edc070def6a15c7d77fe2093a1edae4a8379" => :high_sierra
     sha256 "6cd83ebb309b5c1367eaba1cd20aa17ecea18aefa1065c8d9771d6a3c4844810" => :sierra
+    sha256 "2ca8d023b4d850c74156259a1427186f80dc89ab3c23bfa2391f2d924edb0a47" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
