@@ -8,10 +8,12 @@ class GandiCli < Formula
   sha256 "a575be04fd373d4798ae16f6cbe03e8ed16255043788fb3de13bebfe7e621c84"
 
   bottle do
+    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "fd37e0329ef88f7b334ddb4d31128c7167f11c7f33334aca4cd8b954766b9bb9" => :mojave
     sha256 "9ab5c20d1af6e6083ebb211f1bc07dbeafa53a5ff5670452ef00fc26f68a843c" => :high_sierra
     sha256 "f63f0c8c8a4d924f12589b8eb1c85e57ccd86ad09ee96c6d570191b07816a2e8" => :sierra
+    sha256 "6e04c28419e08ceb34498f84ec2f599d23f8a64e3e95a5c50094cfe210e0d509" => :x86_64_linux
   end
 
   depends_on "python"
