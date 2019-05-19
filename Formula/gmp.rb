@@ -13,6 +13,7 @@ class Gmp < Formula
     sha256 "84f74594086bccc53bdb141f4d06d7847680374e255ebe016654da1e47db2dfc" => :mojave
     sha256 "a536c51149806b73b2e1178be94300832b6b151455006bc7f2a32b9dc493c7a3" => :high_sierra
     sha256 "ada22a8bbfe8532d71f2b565e00b1643beaf72bff6b36064cbad0cd7436e4948" => :sierra
+    sha256 "a21f68e8df094a2bccca845911eae1cf52bdefd19ca53cfd04aacf2a8112ece9" => :x86_64_linux
   end
 
   depends_on "m4" => :build unless OS.mac?
