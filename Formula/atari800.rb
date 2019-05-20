@@ -10,6 +10,7 @@ class Atari800 < Formula
     sha256 "b1d72401236140046396fb54e035816c5cc2ecc0883209cb3a7013b012c0c24f" => :mojave
     sha256 "ea68b68de889ad359bb747f5126f40bf1eb3238abd18d3fcd5c17fe571afbdb9" => :high_sierra
     sha256 "f055eb7567d37deb8b07ceaf7079fb73fca3e7c0ca0e703a5833cf76e1d8f8cb" => :sierra
+    sha256 "0bd306173e591741960a34c0b3c1d7bbc38876cad925af6f9c195d73fdafbca0" => :x86_64_linux
   end
 
   depends_on "libpng"
