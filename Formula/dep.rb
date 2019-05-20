@@ -13,6 +13,7 @@ class Dep < Formula
     sha256 "4708bad2967b388d3f828d555f43692ba767c45ee388263f5451317b98a6d7e6" => :mojave
     sha256 "939b4de062495a176b8b9fa16a415140f1c152c28cfa375ee6b09bc46fcc6b26" => :high_sierra
     sha256 "ef957bf4f72b37a5ce0355895781e50797cba663b200b02d18cd7b2c749b6712" => :sierra
+    sha256 "970ddada559d6d27f4065f6321954c7b7f6a282e4f951c7645ddd28e86ca12be" => :x86_64_linux
   end
 
   depends_on "go"
