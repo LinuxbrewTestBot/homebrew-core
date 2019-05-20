@@ -9,11 +9,11 @@ class Conan < Formula
   head "https://github.com/conan-io/conan.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "7327b43ff31e6e169c28f8c32d90f44e4596469d5fe918bd9918aa47776bcf11" => :mojave
     sha256 "4810f87051868a904169737985f66751968661b69a78103678bb8e2684e1a557" => :high_sierra
     sha256 "21c9b20f3b7741934dc9b0b2fdc67354466279164816b8afbdf6d1870948bd94" => :sierra
+    sha256 "241234a9d036f6b90f1146f43d42b17fb1a497d1b1a1112ae9daa5b8c9fdf6b7" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
