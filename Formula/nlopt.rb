@@ -11,6 +11,7 @@ class Nlopt < Formula
     sha256 "7a81f1b9a7f5f60d805ce298d1f97b974126a7db3be54bd7471e09de5256f248" => :mojave
     sha256 "232738c4999669c84b8c0c1414a5a89847329c6a9492d8f74f5940f0803688e9" => :high_sierra
     sha256 "00464736f9872cd6a67ee005ba85c1536219e973855c8fa81c46f1515e1409f9" => :sierra
+    sha256 "b0b1298200f27a4f67f743048b19f87000b2503ea95fdd07d005017eb0ff1045" => :x86_64_linux
   end
 
   depends_on "cmake" => [:build, :test]
