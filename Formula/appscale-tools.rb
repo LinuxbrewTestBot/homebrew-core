@@ -11,6 +11,7 @@ class AppscaleTools < Formula
     sha256 "09504e42c3fa49bef72caec812e751b662a64bc9c82b8e6489fee22eeda5f5f2" => :high_sierra
     sha256 "99ffa7564f5c791bff75392877e57c8ba513c95ab7ec98f18b3b68096faacf04" => :sierra
     sha256 "fb7096134ec7fd4172c3906190f123f21d8cf9c336729c07271f792e926997d3" => :el_capitan
+    sha256 "0a0e4770290006c26835133593b015c8543ecc9c24f485142ae979ae0fd796d6" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
