@@ -6,11 +6,11 @@ class Cglm < Formula
   sha256 "ad53eb98eb150d5d0142299ac14378a50f68f12023637ac04f3ef466e65b53ad"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "764a17390d412ba15ba263d6143a3f2e722e25ce1045ac061ae3bb4398153857" => :mojave
     sha256 "5d0c188bfaeddbe9e7233cd90c52b3d7cc9364a60b2d3773c88c6c03d5fe6c19" => :high_sierra
     sha256 "07c46eea64f6074f31ae21253363322ac0f01217a10998fa412cfcce56744c06" => :sierra
+    sha256 "8db75875dc2e69ff1f3986fa89851a426b2e74c1fbdbdde165e540cca3fc74b2" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
