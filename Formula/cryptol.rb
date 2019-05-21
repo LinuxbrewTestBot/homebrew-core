@@ -13,6 +13,7 @@ class Cryptol < Formula
     sha256 "c47c79277b44e3155acf83f2e9bbceeeaac0ffdf1faa511bf2468cf73b2ca441" => :mojave
     sha256 "106a4ca34518a4a19695b96b5966c2016b8616a6c17e2d6d1413a4549840ca69" => :high_sierra
     sha256 "b5966fba039bc47a91f7dd0aaea238dffae0e6417e34dbc8fa5ac517211b4487" => :sierra
+    sha256 "b8409f5cd81f401047da34d3320cd37efcba15d218a06537e5361dd73f00698f" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
