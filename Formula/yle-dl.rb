@@ -7,11 +7,11 @@ class YleDl < Formula
   head "https://github.com/aajanki/yle-dl.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "86fa4581508adbe2ba179c9dd62cb1852a87ea0540f537528702e1defa308499" => :mojave
     sha256 "f322f2b7c72711efbad514b3664689dfdf9e0ad1c6cdd79abcd5bab2f06ec151" => :high_sierra
     sha256 "ae25fd9f0377616af13d28be11cc0193a8507900c1c2a938b2f3c7005cb26bd3" => :sierra
+    sha256 "d824904d17ec7229071d40e610c01c1bad5da0de543c28ce6d8995b6a25eaab7" => :x86_64_linux
   end
 
   depends_on "python"
