@@ -6,11 +6,11 @@ class MklDnn < Formula
   sha256 "ba39da6adb263df05c4ca2a120295641fc97be75b588922e4274cb628dbe1dcd"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "60f06a95615496166e2948e72d935aa83e77808023b366952b540e3726ee382c" => :mojave
     sha256 "7cc748411471f6e987bc2fe58b8928c6c81ea624f10b8fd811f3714f57210f9c" => :high_sierra
     sha256 "087f5df39f8fb63ea637ca4a5e9451b7f90a5821e346a0e96c5e76d725ae0a52" => :sierra
+    sha256 "e8c52731946c9cac07cd4264f01bf6efef7c48f68782e6bbb76ec2b1e3b8d44e" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
