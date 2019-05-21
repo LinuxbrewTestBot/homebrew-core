@@ -8,11 +8,11 @@ class Metricbeat < Formula
   head "https://github.com/elastic/beats.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "3b933ac4fef009db6651b79b246a34c6474226cc53d4da940784193b862d3200" => :mojave
     sha256 "99820ecf1858cec9e58179d1a5f36ad1a9040a47eeede9931c92b5997985f31d" => :high_sierra
     sha256 "37e16d867eea98709e22bc297258a1345eb4fd6faabe99e99711bf2fa3ddedcc" => :sierra
+    sha256 "fa3b1b430f33fa687ce6a7aac572ef7df892ab722f008352a4eefe03ba04162f" => :x86_64_linux
   end
 
   depends_on "go" => :build
