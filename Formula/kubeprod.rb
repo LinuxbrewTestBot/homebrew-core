@@ -6,11 +6,11 @@ class Kubeprod < Formula
   sha256 "5866f91fb20298a5144502c5c3e2ca4d431ca4f32f6ad0f1d27b6effeaa096a8"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "21242ba2efa4d3deabd6795719d8e8ef46717bc9ef6b706dc163c9351a8129db" => :mojave
     sha256 "6399d65b8a65725ce805449ece2bf0a723e81a6462248602564d3bb5f4f79be4" => :high_sierra
     sha256 "7b15c0ec8c87f8dcb3f38e62b59c3be380754ee0beea01ee5f1005d9099d79d8" => :sierra
+    sha256 "fe5221c6d1fc96d5ff39b83d0ed658489fc7d30e0d5874d9781437aa8819ef36" => :x86_64_linux
   end
 
   depends_on "go" => :build
