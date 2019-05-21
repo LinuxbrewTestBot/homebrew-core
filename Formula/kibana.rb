@@ -8,11 +8,11 @@ class Kibana < Formula
   head "https://github.com/elastic/kibana.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "3fdff7a6902b5375ca284cefd35bf6a6457159a6029930094f5d17f432fe587e" => :mojave
     sha256 "cab66df34a0e03f581b55ea13df0da6953e3cddd02f38649f7469d8be5121d03" => :high_sierra
     sha256 "cc2a52019f0d73cb8f5f243ad75da3235643d1a5eb77108ff3b227bd08707944" => :sierra
+    sha256 "ace6472c5d362fcd87e732c76774ffe4cb09c825a2eec9cd3da81745e53c73aa" => :x86_64_linux
   end
 
   resource "node" do
