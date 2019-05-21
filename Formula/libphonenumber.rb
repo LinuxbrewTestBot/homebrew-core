@@ -6,11 +6,11 @@ class Libphonenumber < Formula
   sha256 "a8f88d72cef4d734c01279dd01bcee21aee317fc6a417080275cc882ccbe33f6"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "0c999e931b286380f2f8f3f7161ee19bf95e3c8436cc42b0bb7f854639d62725" => :mojave
     sha256 "722e4ce22a698534ea97877afc246370a8564ba35aae5db39dc94d9b5881403e" => :high_sierra
     sha256 "cc0387ea7012664a5ef203c4f2e582497d96e9457946781c4faf4e7298250384" => :sierra
+    sha256 "d171697746337c03b0efa2848f333df169204976c3e6fcdcadaf1b7cf7a71b5f" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
