@@ -7,11 +7,11 @@ class KitchenSync < Formula
   head "https://github.com/willbryant/kitchen_sync.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "1fbeec29bf84647ad9fe84bb7d076d9c431305693b1bdb7812fb0aa172108b30" => :mojave
     sha256 "a46b98302d26ec6351d46a091b3b6eea489172f0ad2d27855a442aa94a5c9ce6" => :high_sierra
     sha256 "ec7db6c3b9db72e581b37e6bf44130a201e0f608fbc4f1cf6c64443fa05a34cc" => :sierra
+    sha256 "a8dd04997afcc4f827254dee79daaf3a246d60510d1e5126c8e3cfc0ed38826c" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
