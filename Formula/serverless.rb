@@ -8,11 +8,11 @@ class Serverless < Formula
   sha256 "b9d48b42c80915ccdaf1a697346725a3cb1d093f21000e4bd4d0ce8f599a40ea"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "84fb38ebd731605e80c43f37f526366654b62b3114f73cff9428b6e3064e57e6" => :mojave
     sha256 "3627459f7889477ec5b81478ff92d15f18ac45271684eb209718f35bc47c0fb4" => :high_sierra
     sha256 "584f4790965dfc0ad943d1268691fc2c480fefc877cd4e2529b949eacfc12232" => :sierra
+    sha256 "d4babfcb534dd1edfa99e20c41ae99601a624d647bb51e6d74705113a03117cd" => :x86_64_linux
   end
 
   depends_on "node"
