@@ -12,6 +12,7 @@ class Hello < Formula
     sha256 "54ac46b692fcca2abe77aeeca41976172a2dc24a6762f84a47fabcaba336df89" => :el_capitan
     sha256 "f81a305402e8f8b6cf11a17dac81f604b6f48d940909886a6733cf4f6a64c05f" => :yosemite
     sha256 "c80495cb6d1ad8f2c3a64c22c9dcee9d0117ca25fa6426f20a6acca275cd6c56" => :mavericks
+    sha256 "0eeac54b2f707abd10eb705a3a301987c068364296029ef940ac78946e59367d" => :x86_64_linux
   end
 
   conflicts_with "camlistore", :because => "both install `hello` binaries"
