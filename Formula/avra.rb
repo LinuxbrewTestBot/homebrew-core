@@ -6,11 +6,11 @@ class Avra < Formula
   sha256 "0b92f3a2709d72b903fd95afee2c985ed3847440ad12cd651738afffa14ec69e"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "8d75188d31649e471e5851df65c723016924a08307b6560cfa855379a7169b1c" => :mojave
     sha256 "401635c4cf252ba0d19ed77866748d3d3deb05a6f024f3aa3c8bfbba69eba8f3" => :high_sierra
     sha256 "0c349d7192c3eb3b3ba63fc26efb3ea2ca58de6160747804da51ee85c7cc98b5" => :sierra
+    sha256 "f062c3f0f705f64e6faa8021eb2049ef1e19147cfffbfaff6ab0337fe0b2a38c" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
