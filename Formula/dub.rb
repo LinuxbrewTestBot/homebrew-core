@@ -8,11 +8,11 @@ class Dub < Formula
   head "https://github.com/dlang/dub.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "1eddccf9556c63b19f6997546ef23866493c688b9e50963675edb99ce3a44925" => :mojave
     sha256 "ad244aa4cee496a5aaabbe41e1cdfefa09893a0be68c56440cc1fc44f716fbb0" => :high_sierra
     sha256 "201b46005d942fe5b995a452eecd87b0032da24f7594fc838ade493261d26d5d" => :sierra
+    sha256 "0f1c4fd11ca1157b38c9cef286b12d867fa0986fb14dd8a886571172f26508a6" => :x86_64_linux
   end
 
   depends_on "dmd" => :build
