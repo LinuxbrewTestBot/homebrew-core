@@ -11,6 +11,7 @@ class ReconNg < Formula
     sha256 "18b3feb82b8eea90e49856c098ca66ea10f957eaaeae1ff7813eccbeb1265996" => :mojave
     sha256 "d23885588e18d5b47d7175f37d03de1aaef5818fb548d42c00e922339602b182" => :high_sierra
     sha256 "9cc593ac5d73a9b995a419bf37632ff375f206aab63a6415409f18ce151c36b9" => :sierra
+    sha256 "c3de76e15e8d918ed3a9986701aef2ee3b38fc2e936a7777bae8928dd8c833ab" => :x86_64_linux
   end
 
   # Dependency "mechanize" only support Python 2
