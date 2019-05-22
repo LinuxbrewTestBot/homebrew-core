@@ -7,11 +7,11 @@ class NatsStreamingServer < Formula
   head "https://github.com/nats-io/nats-streaming-server.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "5352267ea7dbed790a9ce2fadceecd3dcd1a101d63e7b6d816863c8a5ff90f49" => :mojave
     sha256 "09f5949b875dd85d3361cbe9eeee25ae16b8776083aa902070287b22dd49c4e8" => :high_sierra
     sha256 "99bbf085325ca5fde413da70f2b6a255b4fbd9eb71dc48056a363063dd88888e" => :sierra
+    sha256 "dadb9d3b975a2669a347ee19c6f8dd1062d24e907d2e9997c54d70cc8d68e0fc" => :x86_64_linux
   end
 
   depends_on "go" => :build
