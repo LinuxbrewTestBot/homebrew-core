@@ -7,11 +7,11 @@ class Node < Formula
   head "https://github.com/nodejs/node.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "ddeb9055b86a8a0ff6c60a13a7be22adf4e2d4df02b680ebe7c085d02c994b19" => :mojave
     sha256 "fc9c82bc8651fc05a60031351fcac6f4a3f8a3c71d840865f6c63bb0428d4cbc" => :high_sierra
     sha256 "5ee5008a82020d479276244199a0e43862398cafab83e56487f3e74282da0c84" => :sierra
+    sha256 "271da38cc78379b6bb6862ef20a4869eaaeb242dddda90ce87e0793e1e0c236d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
