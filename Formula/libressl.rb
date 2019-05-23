@@ -11,6 +11,7 @@ class Libressl < Formula
     sha256 "fb1abd7aa5daf4b8d4f9257feb30843e076b9022938fb747f32637e69df00358" => :mojave
     sha256 "6100634a6db7d8d2ae212aaaf4ba113a2685a7f390864be75959c50ec16a93a1" => :high_sierra
     sha256 "3bcf4c988213f7c5b8e0c37b0b4e5c5437f0fbc52abe96670d9d94fb466b3ef3" => :sierra
+    sha256 "6fbaf9d441afb8b1fb1fb0d74e53e5974c559e042c3953c1a4ce68a2e92cb898" => :x86_64_linux
   end
 
   head do
