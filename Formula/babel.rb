@@ -13,6 +13,7 @@ class Babel < Formula
     sha256 "10de68ed13d494a2750fdb4d75c3d3d63ec0e0b22d59bb86ed5a52da2f0fd0bc" => :mojave
     sha256 "c5e2502abb92627796ccba65fdb03127cd1936667d063fcde73b2143cc506aa5" => :high_sierra
     sha256 "bfb3aa84ac016e54ec4da94db862728a2e988781c637d6b98942184f17e31ae7" => :sierra
+    sha256 "4a9f3752a5c632be57a48fe7fbf69c5bad1d626ec7dc4797b23ea35f55ef74cf" => :x86_64_linux
   end
 
   depends_on "node"
