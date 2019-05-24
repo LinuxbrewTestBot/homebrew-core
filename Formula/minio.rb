@@ -8,11 +8,11 @@ class Minio < Formula
   version "20190523002934"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "3ca4080c0e1b384cbdc74af0f3a28742f620616bc4699c8e4aee183a8b521d47" => :mojave
     sha256 "6854df247ace64b661b394e599a1ae2f91cbfe103537ec21a99a50437b22f3d7" => :high_sierra
     sha256 "550090c606ac27c73efd8fcb624f489d7bd3dc951f247d8ccd6a8d6c2ed3b30d" => :sierra
+    sha256 "bda9260731f223786b295deec7d3a1d71d252b2d9e59b31058db9a1b9fa198f9" => :x86_64_linux
   end
 
   depends_on "go" => :build
