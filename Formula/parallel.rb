@@ -8,11 +8,11 @@ class Parallel < Formula
   head "https://git.savannah.gnu.org/git/parallel.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "db9c56f3e2d8603975441b7b45acea082919309b2a8d92e9eafbd96b03b8d13f" => :mojave
     sha256 "db9c56f3e2d8603975441b7b45acea082919309b2a8d92e9eafbd96b03b8d13f" => :high_sierra
     sha256 "f82c897d474f83defa00f9d47c3f02ee26bb8e662b8b29595313c2504134068d" => :sierra
+    sha256 "39f460e83d4288a876ee9b6420f68e3c00873daa3d3d885cf9eaa5bc9b7274f5" => :x86_64_linux
   end
 
   if Tab.for_name("moreutils").with?("parallel")
