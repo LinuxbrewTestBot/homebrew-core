@@ -8,11 +8,11 @@ class Skaffold < Formula
   head "https://github.com/GoogleContainerTools/skaffold.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "16f6bf431895a100d2ae410111eaebb19b6db5e48c426861dc283196435dbac3" => :mojave
     sha256 "6cbef1dda14f97e1649d9e75d8e6817b45bd0c52d974bac58ed11305b82f39fb" => :high_sierra
     sha256 "09a469dc9b5345c7b7d1b6e065bebe42d56c11885ec832c7168a8c73b50ecdde" => :sierra
+    sha256 "bc0452991aebd37a1b940875bb2f167721e78a222db14158d51fa8c96235d359" => :x86_64_linux
   end
 
   depends_on "go" => :build
