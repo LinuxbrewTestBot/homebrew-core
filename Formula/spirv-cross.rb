@@ -7,11 +7,11 @@ class SpirvCross < Formula
   sha256 "bc01afeacd77ff786a10755117a7aeb219c8d50e3db3931e59bf8f50f4cad55d"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "8a0631cdeb2dd788b597916ef29860b1ba5d987aaa7f5f7b2ffa0fd6e043ea78" => :mojave
     sha256 "a269f10b71778c73cd12898d0e43c35cab2fb3c13bb498084a5d7107e3ce6ff8" => :high_sierra
     sha256 "09ed1348576dcc976245bb022dd4e09007601548e5069e69286ea65c4e40bcba" => :sierra
+    sha256 "dee0cc26db3f10eb56d1294f1f53a94e2d5b39806e2838b4555b39bbcc37a605" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
