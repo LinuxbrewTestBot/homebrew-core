@@ -11,6 +11,7 @@ class GitCinnabar < Formula
     sha256 "b9c5be58e2f01142e7161b42274e9e71c3d11abb4bb51b55d30a3ed78abd71c8" => :mojave
     sha256 "850ccdd7ac691bcaeabeeb2095005086ff8328229ca55ac17fff018b895d5088" => :high_sierra
     sha256 "6d993a4b947aee4ce6770d4b0eebe2529ee112e5cc4bdbecf5e02a4b73956f01" => :sierra
+    sha256 "bf1990faaefcad03b04ecca6c5b635f54ce55d86ccd04eee48ac16752c21edf0" => :x86_64_linux
   end
 
   depends_on "mercurial"
