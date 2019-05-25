@@ -8,11 +8,11 @@ class Dscanner < Formula
   head "https://github.com/dlang-community/D-Scanner.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "9a5e5aba96d50908b8b869452915e8b048d420b9a9c625058b8709330804bf3c" => :mojave
     sha256 "0906b6577ffe7de76f44b63d8075c1aa5933e398641422ccb33ed34b68e2e968" => :high_sierra
     sha256 "35704e4cfa13e1cae87ef6204a1d96321474443a1ed25eb53474ede630e83029" => :sierra
+    sha256 "fa67414d2f6020dd495f48645f560ecd7534bc502f6aca31bfc5f9008666b6fd" => :x86_64_linux
   end
 
   depends_on "dmd" => :build
