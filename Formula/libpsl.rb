@@ -7,11 +7,11 @@ class Libpsl < Formula
   revision 1
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "762188236f81b927f3c86f4e1d42f9dd647534d6bf12f1bf724308a692e8948d" => :mojave
     sha256 "3d63876a24e0f165ce10cd7247d51e2d1520f2a4124f65a611a0f0cf0cfe5851" => :high_sierra
     sha256 "267c60bed429c9f7b0ccc79a936daaf1fae1ad0e3165915f08c0a1d5afbf7178" => :sierra
+    sha256 "1ad10f633ec78f6f3b4ad371d64fa513d7f65938a7ad488fe502d17372214d60" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
