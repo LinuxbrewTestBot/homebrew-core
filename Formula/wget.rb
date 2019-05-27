@@ -10,6 +10,7 @@ class Wget < Formula
     sha256 "96a58c26308afae033e6d6325e7af3f20618b4ca84f2d265ba3ca16a5eae7e65" => :mojave
     sha256 "8ec2c004992bc9b836a84b560b9c93fe2d46f13c27aac246ab3b72379dfe5c34" => :high_sierra
     sha256 "cb786d5bf247dc71c57081dfbdbb0762ea31e695954cdb02d75c3e34bc3d1188" => :sierra
+    sha256 "9ee18c4802148f0898174e3fcde7274d8ccc7ce3de76e1a8b6d7358d44376f1c" => :x86_64_linux
   end
 
   head do
