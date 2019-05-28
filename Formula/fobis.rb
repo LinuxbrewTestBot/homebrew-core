@@ -12,6 +12,7 @@ class Fobis < Formula
     sha256 "7bbf823ceabbd79717f3fe748771f64c6a81f6f9f3a3fbacfa5febad8374011a" => :mojave
     sha256 "6ea243c05063c86081b365812f719943838497f666849590276554ea2039fb31" => :high_sierra
     sha256 "5e40a0c3bef0e4ae83cbb4eb25f72aa0d98a6e54a5515897ca82ad25fd055892" => :sierra
+    sha256 "ac77a5d282d306c62b01693eabfd77d16843f4b495d0422d8cf4bcea40c1ebe2" => :x86_64_linux
   end
 
   depends_on "gcc" # for gfortran
