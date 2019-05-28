@@ -6,11 +6,11 @@ class Gecode < Formula
   sha256 "27d91721a690db1e96fa9bb97cec0d73a937e9dc8062c3327f8a4ccb08e951fd"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "525b7649d716a0ccb5f47f29e93a07f1677cbe531c9c978656b04826ad1cb678" => :mojave
     sha256 "763d0d5da64075f5f64c3b7aee49a604680c266b1b6e4eeb8ffcfdb9e0d9ca0d" => :high_sierra
     sha256 "1bb46e60636f1431cc5bf4b9aed1a2f038da1fef0eaeb1c3130a9252924efd54" => :sierra
+    sha256 "ef39c4958d2d599eb73e996cdc2a7a3f13fe1a884846c9903b39ec33f3cea49d" => :x86_64_linux
   end
 
   def install
