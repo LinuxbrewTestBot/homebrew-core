@@ -11,6 +11,7 @@ class Sslh < Formula
     sha256 "cee0f6398a940312dd3198dda55d949955aa1374cd15fb5841c0446c67508e4d" => :mojave
     sha256 "b1d1ea3c654defbd69cc850ecb9b5b97b09e3b8c991faf48cb22d4190e0791b6" => :high_sierra
     sha256 "8a4b0d4715358a714c8f3ef86496e91416bcfe70067f3d71db30f97616b71080" => :sierra
+    sha256 "aee3a46dc6d7969974987615808c9e20180651f68941c36a805c9fc801fe7b04" => :x86_64_linux
   end
 
   depends_on "libconfig"
