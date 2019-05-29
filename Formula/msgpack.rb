@@ -10,6 +10,7 @@ class Msgpack < Formula
     sha256 "ab771d78cc52a6cf537744a44277fdf669132fe14efa05c7772454657e0bf37d" => :mojave
     sha256 "a1e6e41dcc5e31bd3c68f1049f6a5bc9d39d2d602b913378b7c921a030e17e17" => :high_sierra
     sha256 "4381f2208ce63ef84869ce6f4f46e61cbc6cee9d39254af9006746d987e97759" => :sierra
+    sha256 "3e72246e4be38f2db485a170d2b9dae911239634e7922a6d2bba4122558a3a5a" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
