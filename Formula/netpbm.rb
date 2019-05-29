@@ -9,11 +9,11 @@ class Netpbm < Formula
   head "https://svn.code.sf.net/p/netpbm/code/trunk"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "469cb2a025a09badb8b1f8c8f591fe9e7970b1d3f31c3652081f56180ddb944a" => :mojave
     sha256 "98c91433c81c781fa85d6c43d48c8dedf8dc4136adec1c9d7ee7b94abc35eb89" => :high_sierra
     sha256 "24e357df064d03650ceb98903d09ee5c130effcdf76e78276595073756ce8722" => :sierra
+    sha256 "93240c9e73fd9167c4ceb2a3df55694c9f8344b87d97e23a28a88b7d2c1987d7" => :x86_64_linux
   end
 
   depends_on "jasper"
