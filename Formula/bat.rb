@@ -7,11 +7,11 @@ class Bat < Formula
   revision 1
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "1a71e9fb381211afc6f4b6abbf6444ac3966808b97a7c4a4dd884c0fbf615f28" => :mojave
     sha256 "1591c3cceb6dfb4849558a8cbedb2cbfb08e66a67f567e5f9285bc4273b43ca6" => :high_sierra
     sha256 "b7cda190b1d08d0482c612200c48a402993fd79d4c1c56037161799d4b982912" => :sierra
+    sha256 "47616d9c13e06641b94a3f73c227639e725af10dd974d5c23159c3bc45e93a12" => :x86_64_linux
   end
 
   depends_on "rust" => :build
