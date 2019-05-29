@@ -10,6 +10,7 @@ class Libevent < Formula
     sha256 "3f43999f92de5174fa646e00cb0998801af4865b0274ebf6c4de5d6df372c4be" => :mojave
     sha256 "50ee308d22d52de4f3b0ac5e5288f5a083cbca31cd59186cb05d9e293edada71" => :high_sierra
     sha256 "a3cf44a7ec1d8ea39853079a9a28a0acc4082c7beea02200dcba7e124ec6c9a4" => :sierra
+    sha256 "f3b3952f5b36e79445b432d175f02908aefad7b7f064b7d99914eaa16f2733c4" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
