@@ -6,11 +6,11 @@ class Topgrade < Formula
   sha256 "34f4f5a037b54470da5067bb7be085f042fc1987d196f40faf8707fc2d4f8051"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "fc2c823897ad0d8b1e8f0e8fa601df10d9f9694102c1955338c24b58d2c6e478" => :mojave
     sha256 "baa4b766fd436837473cac4d14fad3a1015fdf9648cd154c6e4a34155bff216c" => :high_sierra
     sha256 "dd538ed9507c5f1a2373b28a259d2a8006929724e4c3a0829c62df263df28f2e" => :sierra
+    sha256 "1cfb65778e7239126289a39c7eb8f4d11be9f4da19addb31bb35e819e84b34f6" => :x86_64_linux
   end
 
   depends_on "rust" => :build
