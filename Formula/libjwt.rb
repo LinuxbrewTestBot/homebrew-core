@@ -11,6 +11,7 @@ class Libjwt < Formula
     sha256 "e8cab6f4cfbd8208a3acf42e7d30962b3361bfec08d9d534750755106e8ef892" => :mojave
     sha256 "e9d9049b9927e7f35795270f6d0eb8fff04f81995c715428f99e00049601e680" => :high_sierra
     sha256 "0c77af65c6831d7ba809c63a8f4fbea92844f4fec0aadbaa753828383901088e" => :sierra
+    sha256 "c4f4d04377badfcb2cf6efb587a24070d039cc72f47322ae2972ae4840a41dd5" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
