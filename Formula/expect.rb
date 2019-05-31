@@ -11,6 +11,7 @@ class Expect < Formula
     sha256 "a0c6ffe797dc0bbe512b628819acee67a7a9b00573b6433fe0672285d41a9df1" => :high_sierra
     sha256 "fc9ad781caaf8d45f47a87d4303645faa2e600852c73fd5432f0be2e588e95f2" => :sierra
     sha256 "4fcb163b1b1e7e209b632c43ba03106ca1c4e4d6a745260b813d28a803581e58" => :el_capitan
+    sha256 "4a1ea3e8596eb22117974c366094466eeef973e6d2a55e13fa50ace7af19830b" => :x86_64_linux
   end
 
   # Autotools are introduced here to regenerate configure script. Remove
