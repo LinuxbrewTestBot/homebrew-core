@@ -9,11 +9,11 @@ class Typescript < Formula
   head "https://github.com/Microsoft/TypeScript.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "02329653aaa7b970e3fc5ee8d076e352c0b2f86cbd2d5dcaefa888e6dd6719f4" => :mojave
     sha256 "b9421a90aa30c5f04b086c33d37728542c2c6bb887b387887ba1eb133c40d886" => :high_sierra
     sha256 "e207323cb2dabe34a0291f3032af23ecf8c7088b0c2a1ed4ef460c2b66822d1f" => :sierra
+    sha256 "bcf37e2545d0fec93cd343c728dbbca5c1d9790078dfd1de8d9355c30ebef012" => :x86_64_linux
   end
 
   depends_on "node"
