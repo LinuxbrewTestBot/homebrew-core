@@ -10,6 +10,7 @@ class Websocketd < Formula
     sha256 "a0ad536184c0f12c3c65710be453e810eda0ffa3b0109a56f69b364c05439703" => :mojave
     sha256 "a2b5e17e00e1c74b52cf0d44ba802bc6e0eb450e950530cedd7cef38e83437ca" => :high_sierra
     sha256 "5200608539895835b8faa52b886fe9181c23e94c560c4ef9f2f6afe842de3626" => :sierra
+    sha256 "f769e4208c6174cf28f597053b805620895ec181fe4258a76d476afccd5d53c6" => :x86_64_linux
   end
 
   depends_on "go" => :build
