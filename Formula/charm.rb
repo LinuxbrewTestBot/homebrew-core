@@ -12,6 +12,7 @@ class Charm < Formula
     sha256 "8fceac06a83052ab1a67a5845ebc910438105e543677756c774c05b3a03a81c8" => :mojave
     sha256 "0b0552a903e6a0a29fbf38c1d2110263df22fd5a12599e36cd60b22bc1dab71e" => :high_sierra
     sha256 "1e3250586c714b629398dc02cd1b8168fe0cfe70a8a067d700b8b425f16d2ffa" => :sierra
+    sha256 "cf57aa362a823a2770abd4a2a0603ece0df3fe293e91fa3cb318e16a5b3b2b81" => :x86_64_linux
   end
 
   depends_on "bazaar" => :build
