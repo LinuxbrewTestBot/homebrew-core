@@ -7,11 +7,11 @@ class Micropython < Formula
       :revision => "6f75c4f3cd393131579db70cdf0b35d1fe5b95ab"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "186dd16c2fc9a965c56e5339f571489e99d9ccb29ca46769590fbd40c6c013f3" => :mojave
     sha256 "7934a26348e2fdcc1dd845e31ded1192b7556d0a8b76ba4733c7dacf0c7c755d" => :high_sierra
     sha256 "daabcc35c45501a1b431714f226dd5072ffe6b53b18ff7230904a3040c1c3c4e" => :sierra
+    sha256 "3a074b1f49c82d29888dce02b695e40f57bb3f2a25899e637d0b2cbd5ddfcbe2" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
