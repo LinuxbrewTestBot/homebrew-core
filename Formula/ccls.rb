@@ -9,6 +9,7 @@ class Ccls < Formula
   bottle do
     sha256 "50fd5ee04cb89736daeb88f132a83cee8805879d428e496fe6f85f4b967ff5a0" => :mojave
     sha256 "623056f2d98b201e6f73d876e5d7f6c342dc674e963a4be2f6625bb746349885" => :high_sierra
+    sha256 "b17d6a3f6ae0f1c36e6a2f06f6070facb3b3fe8a41db5289cc2af7f205a531f3" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
