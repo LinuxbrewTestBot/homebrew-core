@@ -10,6 +10,7 @@ class MonoLibgdiplus < Formula
     sha256 "a80e3d006e89a68dde0afd33baadcbceb926a13d0cb6e5ffd64e03b69e86e1cf" => :mojave
     sha256 "bae3c4daa8fcdb0be761bfc4a157a3c6a7772f6657bc306367bf7916330f8936" => :high_sierra
     sha256 "287b8373b94918f28d93f1177be7d6958650277108fd1a08b957c676c0a4f7a9" => :sierra
+    sha256 "1b87dbb37959d4bd2ad81dc97165e5b092fd1a1c63662152a136313503ac24a7" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
