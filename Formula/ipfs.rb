@@ -8,11 +8,11 @@ class Ipfs < Formula
   head "https://github.com/ipfs/go-ipfs.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "a9cb4206ba035a1c3c3c1305b322f9932130aeec51702b4f3022ad99fc3d81a2" => :mojave
     sha256 "e0f97b3f77a88b02d24a5af8290353e5bccbb669a3ce57cfd98f0e86cdeef075" => :high_sierra
     sha256 "3f7f02bca8ac1de69057ded24aa2b57459215aee91c0e47262a60f262dcb6353" => :sierra
+    sha256 "3d84cfbac67d6291c6b87191ec6b96624a70f066674b2f2c97b93b20d609090b" => :x86_64_linux
   end
 
   depends_on "go" => :build
