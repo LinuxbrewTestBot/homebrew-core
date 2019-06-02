@@ -7,11 +7,11 @@ class Doctl < Formula
   head "https://github.com/digitalocean/doctl.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "5552e77da3e7db37a2ef1813b4a07d74b59750bd684b772c789eebca19004faf" => :mojave
     sha256 "e55c179b216be42f2a483e1bf9eca2ec40b24667ac7035523e4aea79e926d37f" => :high_sierra
     sha256 "129dec172fd6f9c7d364426601da293b79d3f9e4c39b587f31d52e0105a7e558" => :sierra
+    sha256 "bc95ed12a427cb9204a63e7c4a401bad376ce3612139cdab7a1264f4655db19f" => :x86_64_linux
   end
 
   depends_on "go" => :build
