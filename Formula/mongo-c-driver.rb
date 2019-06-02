@@ -11,6 +11,7 @@ class MongoCDriver < Formula
     sha256 "e492f5639ad8ce4918e65ddc9e34e56d5969381ae90a9f96540d97d785c3a694" => :mojave
     sha256 "16a81d2bc7606573034cfdbbcc4772e877145c6a920f52781fd73e2af2f9033e" => :high_sierra
     sha256 "c30dd2e19f5b5b2ec6cfa93726658e9300dafab21725a12e1b1fea624790cf69" => :sierra
+    sha256 "fa258a89556244c12f6f7cfb5782bdb5c6d8428e12c4ee3716029225ec910587" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
