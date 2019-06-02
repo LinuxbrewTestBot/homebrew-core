@@ -12,6 +12,7 @@ class Libsass < Formula
     sha256 "d54516a44d87a999bfe3a357201c442085350de87aa4b49428858e74e3b317e7" => :mojave
     sha256 "ccb56cae0e927a75699b619c9f1ef8319f4a89ebdbb05877b02dc242344dd34c" => :high_sierra
     sha256 "f6d88e6f46bdfe214d3cb05e665a5f7bffe9abc80d97e708958efdffaf747cc5" => :sierra
+    sha256 "a54423af1e90fa11afc03873df0cb6a4a5e35fffc0d3b1c4a9b28704e6300273" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
