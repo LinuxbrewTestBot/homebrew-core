@@ -10,6 +10,7 @@ class Lwtools < Formula
     sha256 "3cfae9c3afc0a2fa0d8fdf48c88cb504056f35702f45a4afe5070ceb408d4919" => :mojave
     sha256 "8c0c67d34661986431d9fdb2fe5b6315a0da6b4ec9b4eac139868bfa1ee18069" => :high_sierra
     sha256 "d4f5b062ba3fbd7c7d3115c6f6451fdaa4daf331e0e7f0641580df19dc3c65e4" => :sierra
+    sha256 "5746cf00c29463f6b872914a3710c50523b9c84c2e7da4b150ced9e65744657b" => :x86_64_linux
   end
 
   def install
