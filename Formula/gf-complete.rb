@@ -13,6 +13,7 @@ class GfComplete < Formula
     sha256 "7a00f4c71d8f2173a4a21f1638010ee149d927dfb0f95a901036290f9b6529b5" => :el_capitan
     sha256 "fd9172068e361c01e87a7a696e2ad6e7cee18f473cdd878a249e7df99e6cdf4a" => :yosemite
     sha256 "9f82edf4ac3d0207b91075dbc7656ab21f6ab82b7df12053bdbcbf9886109cd3" => :mavericks
+    sha256 "ac444508581c82a6d1879deab09897c70015d724f5c0f12f4c24820195236665" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
