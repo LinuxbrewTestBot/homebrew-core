@@ -7,11 +7,11 @@ class Ponyc < Formula
   head "https://github.com/ponylang/ponyc.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "69c130ff292dbbd024ec5190161335d764ba59ad420c56f2fdbce19d7a7e7547" => :mojave
     sha256 "394688213f88f6f571148af03198a9ca6b6cfd75c15a5e1bc8bc352333575c68" => :high_sierra
     sha256 "6c4ddb7447560b2ab82ff0f0d1f680485a64923b3a47d37e6070037b3e795d4c" => :sierra
+    sha256 "3b7c39894cca5a64090915d841905d360a9e5185ce601a8838cab7078c39b054" => :x86_64_linux
   end
 
   # https://github.com/ponylang/ponyc/issues/1274
