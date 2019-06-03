@@ -8,11 +8,11 @@ class Re2 < Formula
   head "https://github.com/google/re2.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "24fcae96249fc8e14b8579d3d916b2c952fe6aea51dcf3a40854a40aca7116f0" => :mojave
     sha256 "c130ece87ddc37102cef26c47e01a4b7c412ae0bdb32d8347e8b073891f362ac" => :high_sierra
     sha256 "650b1a9e3f1da497ca1b0d3942edd26101aca8127f0083b64686a2db210a47ca" => :sierra
+    sha256 "fa4d9fb0a9b973192d89e168c1f688ee09750f4b690e897011e574e25b1fa3be" => :x86_64_linux
   end
 
   def install
