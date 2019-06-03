@@ -12,6 +12,7 @@ class Jerasure < Formula
     sha256 "8e63bf431836395466d91ef947126a39c8193b274ab22156cf421d6958508607" => :high_sierra
     sha256 "603646521f0255877f611df53e30ccbc071b07cba6e0f33025404332e9677ffa" => :sierra
     sha256 "1db6ef4631512bf3b155d614588689b2bacc911178cedf828db8f810d9e18d43" => :el_capitan
+    sha256 "790990c755e408f6ec7649fa6e2765666619a6122fb05ea6a57afbb1d289cc22" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
