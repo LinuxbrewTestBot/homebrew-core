@@ -6,11 +6,11 @@ class Harfbuzz < Formula
   sha256 "6d4834579abd5f7ab3861c085b4c55129f78b27fe47961fd96769d3704f6719e"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "7c1600969389cebd8b32c9f0331831f1df773b4d9caf585b6d15d48607e6f030" => :mojave
     sha256 "5e1084dfe9129112579b8bc1a986b9d4c9c6b28035986199284a7006a9b4ec8f" => :high_sierra
     sha256 "bab1351bf9135c79c36c7fc56ad633fe22d068364290a216de8312dfa47688ef" => :sierra
+    sha256 "05a74beb13bca31af5d4c734f619ecec3980fb148d85ce178828fd55decae970" => :x86_64_linux
   end
 
   head do
