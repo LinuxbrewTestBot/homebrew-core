@@ -7,11 +7,11 @@ class Teleport < Formula
   head "https://github.com/gravitational/teleport.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "a9b94b79f53eb6779abef771e04c306f58d537db2c1658106a0352ea82ad49ea" => :mojave
     sha256 "d2fc5f8c495d8207bc7f29caf7b38b8ae496b8a1eeb74d869cafe23cc61cb187" => :high_sierra
     sha256 "dcfc267bf0830801041de2acd04874591d2c6cadac35171278a642c5b8b58090" => :sierra
+    sha256 "5e486b021b2203a7d6e321b2dbdf8bb63189e11b0cbd9e78b111adce866e2dbc" => :x86_64_linux
   end
 
   depends_on "go" => :build
