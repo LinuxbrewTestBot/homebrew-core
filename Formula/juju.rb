@@ -6,11 +6,11 @@ class Juju < Formula
   sha256 "7a39c3126cd595607f18476af24c405bc6f4a28e84c290057b4574c3ac86fcbe"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "06796cdc6a32054d9fcc7781b551de2c056f37fb201891a8767051083ac37ebc" => :mojave
     sha256 "83109a243fefc25ef49bb432b0ef7ea308496717ac488aa701d99318e67883a3" => :high_sierra
     sha256 "ab2198cf22442ce4977528be56f1387097310025311773cb9ba14d1ac3a1ed21" => :sierra
+    sha256 "0727c6bbfbc7f532f698586d1b69da83e8ce5e70b87e95050bbab731ac6933cb" => :x86_64_linux
   end
 
   depends_on "go" => :build
