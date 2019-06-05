@@ -7,11 +7,11 @@ class Z3 < Formula
   head "https://github.com/Z3Prover/z3.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "67c0f04c418426399348b07a60523b56551fb379a82caa5e9b1645d4ac5dea65" => :mojave
     sha256 "0379fcfacb4a0ceafb670855924604609c056b3bedbc6c7191bd937898026ef7" => :high_sierra
     sha256 "6b58192eab08a5e4da344c2811f448ea0bb148d84dfdf3d3729df76bbc468825" => :sierra
+    sha256 "f71b5f50ec62a17d63de5a50471df6d0b4e4c430b41d70cac2e44b07c9b258c7" => :x86_64_linux
   end
 
   depends_on "python"
