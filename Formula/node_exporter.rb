@@ -6,11 +6,11 @@ class NodeExporter < Formula
   sha256 "9ddf187c462f2681ab4516410ada0e6f0f03097db6986686795559ea71a07694"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "ff7b019285ebd031d6985bb06e4300518c9e07f01536ebb5281e4970818cb8a3" => :mojave
     sha256 "1cce732622dee4be305a42090545dfb493513229bbe9dbbd203432d108b4594c" => :high_sierra
     sha256 "8dff90ccbad967c36b51e27e3c681deb8369f417fae3111765f92f847e3bc30b" => :sierra
+    sha256 "d0e7dcd6063c9ed22450ee51f5ab64ba666f38f96b57f6131629e3c6cd7f786b" => :x86_64_linux
   end
 
   depends_on "go" => :build
