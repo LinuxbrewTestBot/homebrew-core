@@ -6,11 +6,11 @@ class Fselect < Formula
   sha256 "cc0655057cc4a6ce771670ff72b52468adac27efc6bda1db08039a37866f2858"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "e71b0b664a8c9f930793b70ecdca8c6b7d38dcc703a3edecb9ecd2c75b56e35f" => :mojave
     sha256 "416e1e23f5013fb9e86f20544e5265128ea59a5bff0494a718ab056e6b174487" => :high_sierra
     sha256 "0c183449a465c10a834897b18acc822b4c503e0daa316a438e926418208bf21c" => :sierra
+    sha256 "5a77dc72cbaf533413c4dc5fb815a903ad2117331ee445ce6965ac76be11bbf2" => :x86_64_linux
   end
 
   depends_on "rust" => :build
