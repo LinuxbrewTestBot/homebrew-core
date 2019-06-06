@@ -7,11 +7,11 @@ class Rke < Formula
       :revision => "bdde78287c87b221b5023ad3debe8796ba18dbb2"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "097733d0591b9e3230b7a2702cd5cb0353eb6dfcd58dcaa083ea668fdda3370a" => :mojave
     sha256 "8292a17f4edfd11a3a499cb280c1d879af3af66420528f5a005774850faceb0d" => :high_sierra
     sha256 "540ad13f53e93d342d0a8c04fa9bc2e49071159ed1f39c435a9cf53acf0cc17e" => :sierra
+    sha256 "83ace34f6e84bc835aa0a4f17f31db251827b1db490c912cbb352fbc172385ff" => :x86_64_linux
   end
 
   depends_on "go" => :build
