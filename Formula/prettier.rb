@@ -9,11 +9,11 @@ class Prettier < Formula
   head "https://github.com/prettier/prettier.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "6c29820b3cb6196f65c6f53e87c7b44429bdcf221015d0313d700096bbac4efd" => :mojave
     sha256 "f02e70333a83a9cb8638ee52d9a1b1a7f45aa7b269a3217e1acb476e2834225d" => :high_sierra
     sha256 "aa218d17a5d42f21995cc88023aa932baa0650fb5b69ae08d3d379ea65e05547" => :sierra
+    sha256 "afc57a1b7283c0e75f0b02fc53c16336b2c4e2e9e382612f655a9d7d5f3c3f91" => :x86_64_linux
   end
 
   depends_on "node"
