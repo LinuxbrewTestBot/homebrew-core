@@ -8,11 +8,11 @@ class SphinxDoc < Formula
   sha256 "7a359a91fb04054ec77d68ff97cb8728f8cc322e25f22dc94299d67e0e6a7123"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "aa8158953529891232513fea2c7b4543f9ac93d545b9cc18f25230395011a946" => :mojave
     sha256 "8be060678456133418fc5b40e41e82055b6c001b051a5997148e2d05edec8da4" => :high_sierra
     sha256 "083b5a68c6637fac4dc4474fbbf56ce88626f511f67b87c43b37fdc8ab78e1a7" => :sierra
+    sha256 "cfa80fc8d127d401085f85a79a10b75765fd97382f6b84d7a6ce5235f1523c57" => :x86_64_linux
   end
 
   keg_only <<~EOS
