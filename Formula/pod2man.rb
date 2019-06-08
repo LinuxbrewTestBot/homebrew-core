@@ -10,6 +10,7 @@ class Pod2man < Formula
     sha256 "ed36edc4949a7487f04ee78b158c717e52201a697047285cc3ac3cb8f66688b6" => :mojave
     sha256 "7ec281093812bd9cfe65b774bed8831b615fcb309f04810e70b726321119e562" => :high_sierra
     sha256 "fd37f0663f60e32c126772b3c37f52ca101938b69c2ebd5182af61b64a18118b" => :sierra
+    sha256 "95c68468a910dd05b868fee42059d155637f2fb94cc4d0f01ec67959f8b5c8ce" => :x86_64_linux
   end
 
   keg_only :provided_by_macos
