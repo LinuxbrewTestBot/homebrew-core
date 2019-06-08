@@ -6,11 +6,11 @@ class Latex2html < Formula
   sha256 "a76066632ebe416c770a2ce345d670da846e9f3d89632d6acd6e57fa6b4e264a"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "f6dee60d59252f2f582eb9c7f44f8b69809c649a362014d73f228a5f7c450f81" => :mojave
     sha256 "5761ce11f487165b9ad54777b0702b88d8c8c18d2ac099f5ea8391102a055695" => :high_sierra
     sha256 "b6e2c087c2aec7650e4157c35b7e5e40b82b4bc606aa93a8e04031c99b1b144a" => :sierra
+    sha256 "9f9a04e42155f42f6af07e54802db1aac6c56a9a8b7bb9b2b8035b53abe54dd3" => :x86_64_linux
   end
 
   depends_on "ghostscript"
