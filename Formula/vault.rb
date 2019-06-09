@@ -11,11 +11,11 @@ class Vault < Formula
   head "https://github.com/hashicorp/vault.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "89667e6679393db472b4de1021735ae72787964900882d8162ee18c333b2701e" => :mojave
     sha256 "9bc72f431f456340614687692eb84c0eb41b1e2a84f87c3b42a7737b716727a2" => :high_sierra
     sha256 "4b699d271bd8432d264a8246fe25ca616def59df039814cdb2769d942293f8a7" => :sierra
+    sha256 "c3b2a81ddc349ecacdaabbc1914fc538a2c6ddba153b5709e2e861447c6929a7" => :x86_64_linux
   end
 
   depends_on "go" => :build
