@@ -11,6 +11,7 @@ class NatsServer < Formula
     sha256 "9f03f9cd44a2ad222781173546552cf2fece917a5dbbf1d40884360ecbf7bea6" => :mojave
     sha256 "97ec6ae67896cc263964b3040665a431da641051a5e6b1f51e992a639e01c4a4" => :high_sierra
     sha256 "128c352fb8fee5adb6f318130a7a63065f520eb78e46d26a58e58e5d0bb8fdc0" => :sierra
+    sha256 "591c2ae62b877b3b6f20bc7961d57169acf75975e0481a67ce0e89c3392f194a" => :x86_64_linux
   end
 
   depends_on "go" => :build
