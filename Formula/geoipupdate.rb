@@ -10,6 +10,7 @@ class Geoipupdate < Formula
     sha256 "9258106805ea114bbc7703b855b8cf08f765457ed2fe924d46b68e5c01a1baba" => :mojave
     sha256 "8aa639ac343793ac2eeca63302dff9bb8df629a6740ca1b4fbc54468196ffeac" => :high_sierra
     sha256 "4e75d3e839c3e89ef8cadb332c94c6710b109eca8e9be7a8f60f05f609a11b08" => :sierra
+    sha256 "5cc5f939eb8c5c16c4235ad1977e813757e67149dd21d9555e3fb191c3e27a29" => :x86_64_linux
   end
 
   depends_on "go" => :build
