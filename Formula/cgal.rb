@@ -7,11 +7,11 @@ class Cgal < Formula
   revision 1
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "b565fe6648ad045b90c9be41c536e77fcedccc3680062a29940181df78a061f2" => :mojave
     sha256 "a8349e42e0d2882724631abd62f95ae84b028ca2354e37f83dde2bbdcb64c1f1" => :high_sierra
     sha256 "0695534a43bc5be0234d0d4184dccadd79197ad442a2e72773a7bf4b08e0376f" => :sierra
+    sha256 "5b19641afe710ffbe5f4328f4bed7d7c6f68fcca6d719358841abdc470afca25" => :x86_64_linux
   end
 
   depends_on "cmake" => [:build, :test]
