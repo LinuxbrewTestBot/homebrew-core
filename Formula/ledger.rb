@@ -12,6 +12,7 @@ class Ledger < Formula
     sha256 "475f900dc75447cd051934b33eba933ffa4ad9a8d095600d3e39b3bbea0995eb" => :mojave
     sha256 "3f57545bdc6d73ec191f5f6cb34f9dd362b40f7c3217e15f3cb21149438745a6" => :high_sierra
     sha256 "5aa613f6b42bc0f158564b63691783664d3f3de6e7fdf44e06e1848879b7f4d1" => :sierra
+    sha256 "350d2d37bbaab8b68ff1379cd82224198038d59febb48fea7541798105d1978b" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
