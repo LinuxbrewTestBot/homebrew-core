@@ -9,6 +9,7 @@ class GlibNetworking < Formula
     sha256 "b34844abdf92db2676cc2970540da132317124b8f6b731da229ff977ab938131" => :mojave
     sha256 "d6881d37e95fd094528eca09c985a71fae6c5bf15a3c603ca5e90a6ba834ddac" => :high_sierra
     sha256 "deef0ffc928f9afc9ee81f4350f71edf683c36c01d95984eb50ed1b2759589f0" => :sierra
+    sha256 "fff89fd03d8176ba41365b11f908c727632bb46a8723f2c42a3bf4d441586bcb" => :x86_64_linux
   end
 
   depends_on "meson" => :build
