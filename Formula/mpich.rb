@@ -11,6 +11,7 @@ class Mpich < Formula
     sha256 "4483dc34e84b9aea1ed7ffbf84145a62d59dd3b319eefed12ed92fffbb559389" => :mojave
     sha256 "aba87dc0cbb581fc52cdb1462ed6a2b32c56cbebbd59a682da884a22f437b7b5" => :high_sierra
     sha256 "b64674c00c36b6bd9ba9f177f53f33c6f5f6d5c107f9069a7a5f558cfddb3499" => :sierra
+    sha256 "1e7d162de894a0c45b166db1269bc89b6f1c0e58e3280acc5fd26d251563b250" => :x86_64_linux
   end
 
   head do
