@@ -8,11 +8,11 @@ class BoostBuild < Formula
   head "https://github.com/boostorg/build.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "93420480adf7f1cf9841208e83b64e8922570615a05b660434e68518d05fab54" => :mojave
     sha256 "aa655c94582d43d4dcbe9f8262a9a268b90d602cd26c381fd8946c238c0a277a" => :high_sierra
     sha256 "6e152f2e37d06260b92c4d4d6c18ccbe8027df0397c4e0a524301ad6159c916b" => :sierra
+    sha256 "5c5fa58a23c833f241ba82cf91ceb6df94d43da75e6352f5c838f8342bcbc80c" => :x86_64_linux
   end
 
   conflicts_with "b2-tools", :because => "both install `b2` binaries"
