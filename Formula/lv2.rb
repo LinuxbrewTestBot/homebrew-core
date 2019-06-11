@@ -9,6 +9,7 @@ class Lv2 < Formula
     sha256 "5c5ae73974d83d50004207ad39161c5083d4246213c0140bded36d267a126a08" => :mojave
     sha256 "5c5ae73974d83d50004207ad39161c5083d4246213c0140bded36d267a126a08" => :high_sierra
     sha256 "b0f163fce66e26fefa0c1dc35db01662d5bacae2f96760e4e5b79b1ec383cfed" => :sierra
+    sha256 "07a10d9b20574de130c8ad619466950c367b0f7219065681c317866caa93d4c6" => :x86_64_linux
   end
 
   depends_on "python@2" => :build unless OS.mac?
