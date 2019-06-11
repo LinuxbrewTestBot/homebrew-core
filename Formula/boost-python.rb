@@ -7,11 +7,11 @@ class BoostPython < Formula
   head "https://github.com/boostorg/boost.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "bcbd397976693b28ef44efb7012dd4fdfe758f480630df98d7645349d1590260" => :mojave
     sha256 "7e990bb5bf4cc95ce30c5c99b7cfbbfb765434675dca94cbf3b42796c94bc865" => :high_sierra
     sha256 "6d2a7161aff7e404b815ba853dea4b30f2c4691b8181d997b384c7bc4f7ca5dd" => :sierra
+    sha256 "93270632fee3f080bd0b67f42a4643acb1a79ecfdecdb3cf60609f9056523d2b" => :x86_64_linux
   end
 
   depends_on "boost"
