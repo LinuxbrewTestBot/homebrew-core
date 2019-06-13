@@ -11,6 +11,7 @@ class SphinxDoc < Formula
     cellar :any_skip_relocation
     sha256 "de01a83ffdb687fd88d7eb6d52b982800cceb4e6c5de896dd546268ed9583647" => :high_sierra
     sha256 "aed449b6a8ccdfead0cf51f0251c725e7122305775155d582791811fef0034ea" => :sierra
+    sha256 "3a835c74bd000ecf415e015e8ab9a71b6a25f296d2154ba7bafcb8ce5abc9cc9" => :x86_64_linux
   end
 
   keg_only <<~EOS
