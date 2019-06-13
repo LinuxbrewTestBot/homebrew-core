@@ -14,6 +14,7 @@ class Pandoc < Formula
     sha256 "bb4246119de8f6f8769d4a7baf3127ed66df0edd69bb84c92b1bdeaa90064caf" => :mojave
     sha256 "afe8cc21378449f87f55d10a36282018038e8ad9240b2c10cae28586760ea2e1" => :high_sierra
     sha256 "3e738f0e5e5ea97b918c0f123de502119b8ca000654c4b67831e4af7998f394a" => :sierra
+    sha256 "bbb189318583139c46cc7f54d224dc5a477734e7faa9af61c13cfde3d975bb09" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
