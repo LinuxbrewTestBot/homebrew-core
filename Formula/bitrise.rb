@@ -6,11 +6,11 @@ class Bitrise < Formula
   sha256 "0a8d7a89929f40b03544fc74ce04c513667539225b6d10b2190dfba3446fc3f2"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "0601fb769c641558cf69955783b8af40f053b1915c8a2c790f301ddc1456df51" => :mojave
     sha256 "4cfcb752a890628a42f3a3ee6894dca6eb166e9229fdaa339bfea38c50b229a0" => :high_sierra
     sha256 "d39907759620f1405ccd2bd439f17738e7d6787583aa6857f8c996c12fc6917e" => :sierra
+    sha256 "cae5f14a1e73d9002c79edaa4db7e89667222b4bb3b5f1e5acd375a6ef21c791" => :x86_64_linux
   end
 
   depends_on "go" => :build
