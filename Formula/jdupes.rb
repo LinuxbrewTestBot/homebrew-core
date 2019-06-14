@@ -10,6 +10,7 @@ class Jdupes < Formula
     sha256 "ca9779c954693349118bf199c870c172a949ffda3b9089ff39de8acca91fa254" => :mojave
     sha256 "a43f89cbb3841755161ecc125d78f9d54a378536eeee8f81832ca29794ae3b2a" => :high_sierra
     sha256 "0f72269d74ce573b6ae1296f91f70450ffecd01ec640c4b8f7e3adb06bc4a8f1" => :sierra
+    sha256 "dcb375fb4bb33ab437b8c12ec022e2a43b0f7cc93f0a7b2cadd28886b59875db" => :x86_64_linux
   end
 
   def install
