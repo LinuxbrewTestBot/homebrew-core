@@ -8,11 +8,11 @@ class Jhipster < Formula
   sha256 "aed5edaa0e044bfbd74556383afbfd3d7146e66cd27f93dfed5f70825de74906"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "e86253e490894f9a4133d692ff678e0c43f9295aeb4ccf01722d5aad54c27bb6" => :mojave
     sha256 "bb53e8eeafe3167c0d067a29c6d182085d0608e7c068f51dcca08740aa1cbd26" => :high_sierra
     sha256 "5170693896299f4fe4fef038e7ce49a35f1a8d866bc6666cb15e9414bb888aba" => :sierra
+    sha256 "0d72072ff7ba6df019134d13b2e9bf73757697ec93efb6d263a0cc16ce623800" => :x86_64_linux
   end
 
   depends_on :java => "1.8+"
