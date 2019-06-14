@@ -10,6 +10,7 @@ class Libsigcxx < Formula
     sha256 "e969efb989c5ec1cd2d024bed7836a46f4edc0b517d11b8d9df4a1fb196eb901" => :mojave
     sha256 "3682ee57f364d08e9381c4dbb80438e3fb9194284defabf28f3d2eba8195f63c" => :high_sierra
     sha256 "e68c8c1b8406b34956d4918cfa1b6717ceb1201732da759be9a2601cc60230e4" => :sierra
+    sha256 "423d063863a8e0fd608f124dedff4ff8ee3aa6b110f133d1c8cd0b42197f38a8" => :x86_64_linux
   end
 
   depends_on "m4" => :build unless OS.mac?
