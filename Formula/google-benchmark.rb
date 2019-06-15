@@ -7,11 +7,11 @@ class GoogleBenchmark < Formula
   head "https://github.com/google/benchmark.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "e2acb14eb43b34f2ccb30ff82a0efd540c3ff0ee9a036a83a00187980457ab17" => :mojave
     sha256 "d9a78a0c14c161ca9c490605f2800328fc5899ffc98cec09af1bd0622338dcc5" => :high_sierra
     sha256 "27cfc3243938226aca675a93ec347bb1a15e482ccfb95b356352b2f1391ac4d1" => :sierra
+    sha256 "55d4182180df7164f8cde786393120f8b2a964c4b82a1235b206481e432e8910" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
