@@ -8,6 +8,7 @@ class SwigAT3 < Formula
     sha256 "28e5c0a5e8aac0c0d5f58e4dd69c590f57d3a450d92aa35b18aee037ab7d8b60" => :mojave
     sha256 "730bd728981cc1534664ef35d08d0b285e79756c286913d868af6afa43f60f4d" => :high_sierra
     sha256 "23275971784bb9272a734f44c9689dafecd5e6c4be917cd3d621064858cd76db" => :sierra
+    sha256 "0282f6b3b3302649850f86a3152619d086a736363103dc6cd464636c43ff4e71" => :x86_64_linux
   end
 
   keg_only :versioned_formula
