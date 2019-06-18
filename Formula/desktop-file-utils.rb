@@ -10,6 +10,7 @@ class DesktopFileUtils < Formula
     sha256 "c38944b2998cb74506a7cb10e621305db5b37d74d90aa7db51db146ccf378ca3" => :mojave
     sha256 "f3666dfcad0fda5049ef9b9a7ac85429b0fe5f4c81b12526694c18980b9a3708" => :high_sierra
     sha256 "67af40d090e09bfe3ce0f83d3f0cb910bd3762851131cc55ef9e434e85a11b11" => :sierra
+    sha256 "94376d6bab69900e9419d562667e5c54744cd67a6d07d86b710ed48c8b04429d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
