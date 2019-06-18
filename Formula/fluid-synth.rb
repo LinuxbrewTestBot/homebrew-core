@@ -8,11 +8,11 @@ class FluidSynth < Formula
   head "https://github.com/FluidSynth/fluidsynth.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "21518b88fb29ff104e4141cd7cd077c5573150ac3954bd3cd69e30e9e722d987" => :mojave
     sha256 "1d612e6f3de0f8d81b63c2997d0dc3abdf42610ff257572ebf750d74c84b0727" => :high_sierra
     sha256 "e0599de403e96630e1507674be7582a817f5e868bb023a4c35719afeb9411b53" => :sierra
+    sha256 "a6a517a1e399ea1b25e57abd531a4b9baa68cc9bd17054052afe47cd66850730" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
