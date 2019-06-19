@@ -11,6 +11,7 @@ class Gts < Formula
     sha256 "1f5d162ee2b4237538730e1eccbb1c93c672c90cbdd3f4573bec42a17527a589" => :mojave
     sha256 "2e3ee18b1ffbac383d231b84f2a1ca05a5e2f973b47c2f935cc61b5e401640f6" => :high_sierra
     sha256 "9f758e1d3ada0eb39655180b004a2f7d43ccae274ac5cb7c71ccd1e59b36edc0" => :sierra
+    sha256 "37dfc9c880bd1c627510029475b14126ccd6850d4e5f831e734877e1af1df886" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
