@@ -10,6 +10,7 @@ class Flex < Formula
     sha256 "2051ed8f0de322732b111f2cc82069e82f6dfd4d839e6d098bbebcd7f92220e6" => :mojave
     sha256 "9c224c27a3d40a53b6f778a6b825f8b4f14654080b144e50f1bec9cc608c757d" => :high_sierra
     sha256 "a958106ee0895b21c7577478b847ecdbc601ce6a723543c5da455bfe0eee5f8f" => :sierra
+    sha256 "d96d0062e78529ae5a0ff049eeaf1216df4a5e47f2fbda680473b48b15f59d1a" => :x86_64_linux
   end
 
   head do
