@@ -11,6 +11,7 @@ class Gstreamermm < Formula
     sha256 "2477c98837a5e26cf74c8482d847a8ccde8e0b3354d6941b87bf2fcd1911cd16" => :mojave
     sha256 "5c02f827f121ed130a8b5f4c83e2d2e611781d7d83fb7ed4df283e07fbd76920" => :high_sierra
     sha256 "29914feb073d9a28dfc89277ef46bec045eab722e690104139518284516cbbf0" => :sierra
+    sha256 "e543cb85ad43fe3f8933f6d39d3a0b6499ae829fbc9368477b05cacb8258df1d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
