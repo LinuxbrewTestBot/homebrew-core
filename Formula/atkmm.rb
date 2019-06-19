@@ -7,11 +7,11 @@ class Atkmm < Formula
   revision 1
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "cb510864d4610d00feec66434fac070cccb05e481c2febf41443837b4354c5ab" => :mojave
     sha256 "335e06a7302d80f5bb173073bc17bc9c85fdf40eaa68775ea4b9710d3a810d6c" => :high_sierra
     sha256 "18ddce51845358f8ac4535c05c16e1c5ad88986e214502e0a0400ecff01ddd11" => :sierra
+    sha256 "64818bef0e53cc6c074d8d10fd4ffb99d90250ca40ca073f244a59e19941d8cc" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
