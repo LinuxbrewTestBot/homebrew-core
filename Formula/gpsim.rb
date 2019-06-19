@@ -12,6 +12,7 @@ class Gpsim < Formula
     sha256 "b23f55ef987950a2ce33fa689285df2cb52c0c1a312be6444d2b1f85133c3592" => :mojave
     sha256 "88f1632b32bdf93cde134af323bd3fb6baf948d6d37cf85209faed9c32a39ab2" => :high_sierra
     sha256 "9a921c9394e0ed524f8f2fd8ec4a1433decce6fcf342a8da6d5e30c04885ffed" => :sierra
+    sha256 "2f61aba5be9e0d567d68e6a44cff1c701588fbe4a64e1e9e79e65f1705e46ece" => :x86_64_linux
   end
 
   depends_on "gputils" => :build
