@@ -11,6 +11,7 @@ class Openslide < Formula
     sha256 "d90e3ee5514064389cea2bdf1d4369cc2be4e1d965ac9d56f47e0c6e22f310af" => :mojave
     sha256 "1d70f22fad80e061bcfa5d4955d522d37bd077c51cad4697579a104759233ad2" => :high_sierra
     sha256 "de34071d033c87c731be7954d7c0ced87ddf086100c29fea07410d68621b9929" => :sierra
+    sha256 "421b9ef84c0d9ee17356a47208e6b8ad07f83d5c944855a4f3b6bb7fe2f64a40" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
