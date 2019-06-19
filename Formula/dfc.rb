@@ -11,6 +11,7 @@ class Dfc < Formula
     sha256 "1a313424cdf9c4eecd2f9c343f8218da48bec1cf1da3585038e0b0d7742d5247" => :mojave
     sha256 "6729cbd05c951477c251e240afc01f6a1cc4ab04441f653194388a6dcf048d13" => :high_sierra
     sha256 "158a1dc96381a8c13a38aa6682120c5f6985ee2a71bf511eba5b99c32d6ab9e4" => :sierra
+    sha256 "5ce0086df3e06d06cb47e5482012a456238b7c7b530c255a2d75cb21ace98f5f" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
