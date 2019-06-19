@@ -11,6 +11,7 @@ class Pango < Formula
     sha256 "00b769ae7c76db06f9828398023c60597b11f33410b9f5b7c3f321b34fb7e0a9" => :mojave
     sha256 "6d9f9ce407e6847a262eeea81f3bd93237f0ed4648d885a97c1409d95d26d892" => :high_sierra
     sha256 "d400c90576eebb989be229742fc0fbdeb91c27e14bd98af94c05a84d2bcd7ca9" => :sierra
+    sha256 "9b4db2dba163a3117ed057d03df136c40973c346e24990b406cbb0fc9cdf1bc5" => :x86_64_linux
   end
 
   head do
