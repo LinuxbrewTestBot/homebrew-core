@@ -10,6 +10,7 @@ class Mcabber < Formula
     sha256 "fe6ea0970c446bab941b3d4f0206e75673e112dff88c55b5ee429d18f0c9fd68" => :mojave
     sha256 "55b6b38bfe8d3b924f7eb9b707c3e72324e81d312dd589ec99e283aa567b7ba9" => :high_sierra
     sha256 "4be58f58cf92107259a4cc18cf17480dabbeeb130cfc6a182daca0bf76634ac5" => :sierra
+    sha256 "91b80f233dac0357360f3bf997fb8f4ed757b0ad0e19d41df5971ec33feaeac6" => :x86_64_linux
   end
 
   head do
