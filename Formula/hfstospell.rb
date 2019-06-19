@@ -7,11 +7,11 @@ class Hfstospell < Formula
   revision 5
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "3fc40f8552901ebf609c7ded5c7c167833b0cd6059f4bfb452ddc8f98a61aec3" => :mojave
     sha256 "9f21cd52687c76ef0d0a00f35b20856061e3b3885b6c78c84cd0dba5e1168d46" => :high_sierra
     sha256 "38f16780e69b8f322d73f1d3d5b200261bdc8f03cf821db6591ade42dca52a5a" => :sierra
+    sha256 "0d015f4bf8c083906cc1de489b48d7b9aeda95d122a6e80ee4eb172c86402e6d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
