@@ -10,6 +10,7 @@ class Libquicktime < Formula
     sha256 "56165e3b70f7e444bca93369b3fa4602eefb1aa4b9624ed1ecbaa4741eb7c245" => :mojave
     sha256 "df1b207f23b3edc587629a0fd700a446d4f8210e6a7de3bbfd3d5c122cef16f7" => :high_sierra
     sha256 "1770ac237a79cb0d9ae918e4bcd6d92bcca6a6695823f7a3fde6dde7d3077acb" => :sierra
+    sha256 "8cdd461b8aedea9a30ddd01b067cefbca629eef0030125583f33351ef3b5945f" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
