@@ -11,6 +11,7 @@ class GnuIndent < Formula
     sha256 "e960e3f35f6a77daef487f54158953522f58a27caf27e39e0c17702754718ee1" => :mojave
     sha256 "3280e6e9fc0c5cc895367291fc328dccae5f2e36606dd503b5721d449bc33eb8" => :high_sierra
     sha256 "98bcdee2e49d7e165a07ce6468d2c1a3030db7205472d015ba516e43f5a1e0fd" => :sierra
+    sha256 "e9298e04acf0130485f44dc103928bb5e1ea7db7413160fb99864232e98ec514" => :x86_64_linux
   end
 
   depends_on "gettext"
