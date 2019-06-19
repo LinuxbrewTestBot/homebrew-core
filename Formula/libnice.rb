@@ -7,11 +7,11 @@ class Libnice < Formula
   revision 1
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "a5ef1e08fe29a17e47670e854e946b15c7c4c62bab5638df797fd315863b5bdb" => :mojave
     sha256 "2c27b6b47ed04298c57ef98e1e639cd29ba98e634a7be954fc7d4ed06c96f82b" => :high_sierra
     sha256 "d0c005749a7f6c923e1e704a92229c40cae62d3f20ddc60c999557a3c5e09a5a" => :sierra
+    sha256 "e6e03ecd9703d73d79d31ba855457d148cc403023a1110a5bb1e6f0bbaa9b01a" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
