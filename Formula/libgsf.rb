@@ -10,6 +10,7 @@ class Libgsf < Formula
     sha256 "e4ce2838b44594d27c99dac9d17ad1f7d2752bd7cf33d514fce0a54e94542efe" => :mojave
     sha256 "8016acb38bd84a9d659a2c938b52e84128a242e54bf0c44236da9d875ae5de92" => :high_sierra
     sha256 "7534eb511218574e344d0c5ebc4ebdb110e6c476d6a2936277f9d584b88f765a" => :sierra
+    sha256 "5ff8fd587146b24eb8f54fbeed499b1bf82110e09d9592bf5858fa5f4379562a" => :x86_64_linux
   end
 
   head do
