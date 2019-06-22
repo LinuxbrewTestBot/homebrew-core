@@ -11,6 +11,7 @@ class Poppler < Formula
     sha256 "c18527dd5dec1a386acc633d24c68a88ead6e708a66107fccc53bda2aad1062c" => :mojave
     sha256 "835f39cd41d48fe0fac2292a4d44525cae789776aebfa089acb5efbfb4cb92d2" => :high_sierra
     sha256 "92b578669b08d3ad12080f153be2605e8cda373a59d2d66baff2cd26453611b8" => :sierra
+    sha256 "01e27514bbecc21aab1713486c73dde050ff871b10b31598bde5fe1081792a79" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
