@@ -11,6 +11,7 @@ class E2fsprogs < Formula
     sha256 "8bfa7f8116eabc2422696487b228493ddcc2991699a3158de30d6dba6c10ef73" => :mojave
     sha256 "f0850aaef4670664e086d9a30568f5a50b5da21bf27d03b8e26478d44b2436f7" => :high_sierra
     sha256 "70bfe479fd8e5769780ad9b408739653c8b4ef94d4752c9b65ebe134c2b03eb4" => :sierra
+    sha256 "6d7b3fd71982fa92e054ec395003ac023c3503c667531afb819809f7d9dee55f" => :x86_64_linux
   end
 
   keg_only "this installs several executables which shadow macOS system commands"
