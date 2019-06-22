@@ -10,6 +10,7 @@ class Babl < Formula
     sha256 "c31ce72d90cf85ffc1391edfe53cb7675c3b96de966d3e36ac02f435640dbf8d" => :mojave
     sha256 "e000115b46eb286890c56080b429cf80a04c25e6a3462f66863e4f011a163cd6" => :high_sierra
     sha256 "1e21ec92d5d7afc3d096929271a393b1d39fd68e6f582e004802afce6ba5f07b" => :sierra
+    sha256 "ad41986e4ac85b6b3b38f439eec8ece7825f962d747e0282335df7867e913608" => :x86_64_linux
   end
 
   head do
