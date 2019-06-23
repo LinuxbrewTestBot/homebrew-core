@@ -6,11 +6,11 @@ class Stunnel < Formula
   sha256 "90de69f41c58342549e74c82503555a6426961b29af3ed92f878192727074c62"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "623b9cdd613b09b6132fa71dff934ef6f10eaa8b6987dd888f1b812d93121dad" => :mojave
     sha256 "db28fd5e17bcfcdeae84001b8c095ce7855eda2df5067e4f50344eadc5197ed4" => :high_sierra
     sha256 "219126b7a64b1ea9042549aac7db5f621b78efbbcce5857e67472e77289ef4c8" => :sierra
+    sha256 "2b2f0e4b00e9129dcc58e8d5d4b42f9c8ea157314f9aa974a1bf844ff5b0caa5" => :x86_64_linux
   end
 
   depends_on "openssl"
