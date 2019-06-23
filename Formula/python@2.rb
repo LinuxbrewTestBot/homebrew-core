@@ -8,9 +8,7 @@ class PythonAT2 < Formula
 
   bottle do
     rebuild 3
-    sha256 "8c801a1685a9a58dc703cfa76930e5766ce54b78a1a405750b8a965c1d1f150e" => :mojave
-    sha256 "ac3953f9842743f8a837e017b0a1132789974e93906192fa1a3a8b6daf5d591a" => :high_sierra
-    sha256 "fd39e60a7cc578d0946818913a5f222f50b05964e7c9a4d504a26a3a1f831ad5" => :sierra
+    sha256 "df7b4c37f703122b0689808d7d66dc99dbf693d7bdcc1bc924a1a3b2053495eb" => :x86_64_linux
   end
 
   # setuptools remembers the build flags python is built with and uses them to
