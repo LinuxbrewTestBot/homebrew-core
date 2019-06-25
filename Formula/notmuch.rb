@@ -11,6 +11,7 @@ class Notmuch < Formula
     sha256 "1d456d008be57a9c621467edfa2ba9d7ce376f2ea26cd2892309c1fb127fe602" => :mojave
     sha256 "4d1b00b5f7751b2ecdd5b9d5db5c5638fcd3cd21ed03d18dd150f703c53b3392" => :high_sierra
     sha256 "7474e52c2648d5cb1499edb6980f3caa0d5e7274d2e32574512ab95ce7eb225e" => :sierra
+    sha256 "21ae8175a5c97d2711a6ce5eb8a1144e7fd81b24fbd525cf3cfb446f0d5586c6" => :x86_64_linux
   end
 
   depends_on "doxygen" => :build
