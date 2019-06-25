@@ -11,6 +11,7 @@ class GoAT19 < Formula
     sha256 "74df95ba98388a1617c604e3a439b61c785ac74dc653d2d06da8be2b88e77084" => :mojave
     sha256 "02584ef8cae5f91f3c4fda26a946c09de1635854782e1c1f1201f35b680df61b" => :high_sierra
     sha256 "2f837e2b6745a970e4d3bd9b3f5ea0ed1ebb827ade2cfa38793f0b9a5232ed9e" => :sierra
+    sha256 "073e733ede43f788a18f675299510fb9f3d85d1c76a8262d6a1ca4a3c80428ce" => :x86_64_linux
   end
 
   keg_only :versioned_formula
