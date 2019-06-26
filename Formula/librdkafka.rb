@@ -7,11 +7,11 @@ class Librdkafka < Formula
   head "https://github.com/edenhill/librdkafka.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "70d894cd4ec83c789df7697c333134dd4282d60a236b4fdc82dedf986860bb42" => :mojave
     sha256 "b4ef9db2570d96ccb2f7f78e1d5086370cc002b9834ad42d9c9b126ffcde3d7e" => :high_sierra
     sha256 "74aa62a9ae1e4193c7f12d732b0ecce9f636f0e6af80bfa8dd97e63ab9a934a7" => :sierra
+    sha256 "d94193a6c5450974fd56e635406dd152b44fd6dc784fa01fddbc3469911fc4fb" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
