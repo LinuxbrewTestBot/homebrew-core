@@ -9,6 +9,7 @@ class ManDb < Formula
     sha256 "d068d781ba8482dd4e00b14d514e8bbaa30600ed286f0c422e09524e3e8a4247" => :mojave
     sha256 "4ee0fb987e13ced600fdbc6159e75f5303510e937d94ed78ccd0610eb8eac601" => :high_sierra
     sha256 "6054a6367980207aad35a40f0147e389e8f4db1691f42056111448389c61f23b" => :sierra
+    sha256 "d9cb46053ac0c75057720cf69550037cf0ed4090e50555d2de0119fc4945c464" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
