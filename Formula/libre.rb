@@ -10,6 +10,7 @@ class Libre < Formula
     sha256 "ce0476d0d26515adbcf11f27d185cf503214a1efa95223d1eba02840f090af85" => :mojave
     sha256 "9679c767b3cd61b552b03bf7f6b9d97b9ae056076fa3aa84262ee086f606f481" => :high_sierra
     sha256 "290fdbf6dd3a1b2064d00badb610ee1af38d1c070f38a72a54ec5a02ba3b4b2f" => :sierra
+    sha256 "410d3da5a40c5d1c70741297172cb8da4c2bb0a902f0caad814aacfbd41f40f1" => :x86_64_linux
   end
 
   depends_on "openssl"
