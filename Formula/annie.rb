@@ -6,11 +6,11 @@ class Annie < Formula
   sha256 "0917116575104c104c9fd3950e73a24fd5f20e097d7eb1af4ee4e15df3016d63"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "f82d6002b276f26400cf5ed555d8762e1461bf8d706b0223023c74aca35e13be" => :mojave
     sha256 "8270f3cd4df02c56dd4adcd9c6b9c3d9333748c50cc6fbd4d0dca6b9b3e8fb4a" => :high_sierra
     sha256 "55d00a242822d3819fc63991bcfe8116a37a7e5c502e5131ba82a7144a2a85f6" => :sierra
+    sha256 "a74d25ae48a6dab5a73b0ee0734fd129c06681f6815a65fc08aa56d28c789ec7" => :x86_64_linux
   end
 
   depends_on "go" => :build
