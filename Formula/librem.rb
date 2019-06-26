@@ -10,6 +10,7 @@ class Librem < Formula
     sha256 "0303178e3833e6799d2863835cdd3a6c9e639b2fdcf5b3925bae1fb2690419f1" => :mojave
     sha256 "7b2cfbb41f81dd14636626f5d6e325d79cd7a69af540ddf722a7943a934c92ea" => :high_sierra
     sha256 "37e4fc160a28de520ac9ee23dafff09e8d6f733d022110782fd8aa2bda7245a4" => :sierra
+    sha256 "024733b8e8152f4f83e1d58c5aee5c6b44ee853b9e2f809043b6dc1c0c0ebd70" => :x86_64_linux
   end
 
   depends_on "libre"
