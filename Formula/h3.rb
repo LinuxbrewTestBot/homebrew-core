@@ -10,6 +10,7 @@ class H3 < Formula
     sha256 "e9b15fa66f8e00bccc736e16d8826d892b8f063a22b4f843d77e9a414ac59fa9" => :mojave
     sha256 "0ca81a5f775f7db015c8810f5ba41600ab750cce909dbb95a162fa66c75f6ce8" => :high_sierra
     sha256 "96b45bc089d9a784575659704c06fa38f5bef322dca3f7528e2afbc20c9120c9" => :sierra
+    sha256 "6f9d3de07586025f9e0857aa2f61e41d27010cff563ef02bf0a1aac1f28098ea" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
