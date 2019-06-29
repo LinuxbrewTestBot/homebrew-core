@@ -8,6 +8,7 @@ class Libbsd < Formula
   bottle do
     cellar :any_skip_relocation
     sha256 "0efc964be0372ef6082dce1b54a2ab515b7a2a62279a177c476d925da023c0d1" => :x86_64_linux # glibc 2.19
+    sha256 "f10cb5aa72f4b880447ae2eb88ac5b83985bd82f6e1a9c286b23b338acd9a507" => :x86_64_linux
   end
 
   def install
