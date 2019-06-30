@@ -9,6 +9,7 @@ class Liberasurecode < Formula
     sha256 "fba6eb4f5a66f164cb2938a5a2981d4879915a225edefb4ff857910170e52e7a" => :mojave
     sha256 "7d96611a687605c4856d139d6b1c6305ed686587ee67683c7f3068fa6e5332b0" => :high_sierra
     sha256 "d7a79bb75e8f7c5099a453ec3a4c2dca8d78d3823101158be68f005e068311fc" => :sierra
+    sha256 "4db5de4eb9b55c979008f7ddb865a322d31a9331d5043c344e27a5a988f30722" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
