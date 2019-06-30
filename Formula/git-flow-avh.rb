@@ -14,11 +14,11 @@ class GitFlowAvh < Formula
   end
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "945e9ba05a169b32c86f5bd347542e803625791cf9a4b50a4a42fafb5e0b9c85" => :mojave
     sha256 "945e9ba05a169b32c86f5bd347542e803625791cf9a4b50a4a42fafb5e0b9c85" => :high_sierra
     sha256 "0e68b196dd24d9d41f9b0c5545d115c9ca8327dd799facbed2e619f8ceea221b" => :sierra
+    sha256 "030e370e7cb1ef9df85712bfb1e2f13202727d0ddd29bc99a395f8d1f93768cb" => :x86_64_linux
   end
 
   head do
