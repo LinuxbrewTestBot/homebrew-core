@@ -10,6 +10,7 @@ class Cocoapods < Formula
     sha256 "2c454d3e7ae59e00988741ca308e072a689e7192116447ecace1ee3512fe2fab" => :mojave
     sha256 "550e75e6075d8d668424f9dfb68859f713548b7b807814b8083ce6cc6b396de1" => :high_sierra
     sha256 "e1769e0050aef6cc183547ff14406034536dd2885f64571dcfcc555926e83cd3" => :sierra
+    sha256 "14ed4aa8cdf1e3be3e39e1f5f311e391cce637b21baba6a0476b4b3b21e62e33" => :x86_64_linux
   end
 
   depends_on "ruby" if MacOS.version <= :sierra
