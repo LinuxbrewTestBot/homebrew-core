@@ -10,6 +10,7 @@ class Libuninameslist < Formula
     sha256 "e74e645c00f59f1e570f82516c537a2bbfa9c55817687bca5a71390f7ada12dd" => :mojave
     sha256 "52274b73bc63e0cf06e394b08595e644e5ac1d220da90e00e6fbde18c1459dc1" => :high_sierra
     sha256 "4a77333f42e0c1acff273a95a750ba5800a9376cf7d1954c2761b93b95901329" => :sierra
+    sha256 "852ff5686e9b9c88a0b50d35930e07b75e11132fdee37f9cf68bc1f7b3f1bf8e" => :x86_64_linux
   end
 
   head do
