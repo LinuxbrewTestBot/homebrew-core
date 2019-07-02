@@ -8,6 +8,7 @@ class Scrollkeeper < Formula
   bottle do
     sha256 "0d7cbee6e25a46848d7c387ba07c4ee110ae2256953d2e5addd26f68e21c645d" => :mojave
     sha256 "efa4637b9d1b3942192dca6fb4602ef72ec6b285ba424c087d290c8feb5e2c5b" => :high_sierra
+    sha256 "1a3a135d005b278f52c8586e2c79ea7fc02faa8ccd4100dbb66ebaf32bb14581" => :x86_64_linux
   end
 
   depends_on "docbook"
