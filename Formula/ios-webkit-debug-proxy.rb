@@ -7,11 +7,11 @@ class IosWebkitDebugProxy < Formula
   head "https://github.com/google/ios-webkit-debug-proxy.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "0a8516877b50c17ddffc7d9e80702f3221aa33ef88ca1cceb4eddeada198d37f" => :mojave
     sha256 "a84067180c1c839f8d17d1d530f46a7c4ea753b5acf96005960c0ecb147512dd" => :high_sierra
     sha256 "4d8d1545d4555b6787d42037e3cf84cf5d046dff82f52a850b85ba8cab955867" => :sierra
+    sha256 "43e8928f2ccfb8f922f9011bc7e1d07c846a44c8cc6967bbd86d7ed14e1e204b" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
