@@ -11,6 +11,7 @@ class Libev < Formula
     sha256 "4cfba6111b46c11b0dc714e3e6905c54f9724d84f364acce1525b7465ca4a83b" => :mojave
     sha256 "c789236eff8445d3de322a7361677519ef52fc453dc135c0d3b2dea493d126f4" => :high_sierra
     sha256 "c3c3d536d0cc1a07b4bffed95b48c958e562f0430c05e2c362fa1b96c95234ae" => :sierra
+    sha256 "4649219b74add036c4fd3c898348699119a4172db8cc703dc18424a2d0ea0d1f" => :x86_64_linux
   end
 
   def install
