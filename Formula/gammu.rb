@@ -11,6 +11,7 @@ class Gammu < Formula
     sha256 "2101eb2a42043451ccb30f7bb2626f5d4c653ad1d025e8778155c4e26099f1b5" => :mojave
     sha256 "b7592492869a4e30486465923ac75de80ececb472caaf11315a320b68aa30a74" => :high_sierra
     sha256 "7f3e7d721eadda817e77e463bccf34fdbf2574796eefc4da53e2d2cb5ef49839" => :sierra
+    sha256 "f6890e97cabd4814ebd7c8aafafe690e219c8ba799251ff0c637f1b658dccd57" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
