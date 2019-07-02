@@ -10,6 +10,7 @@ class Libshout < Formula
     sha256 "14144ef978dbceb4b858ebeb667be83721ba4b3742fd0e0743ab76a9b2f99095" => :mojave
     sha256 "f9fef02da35d628c601f24726fa2d748f350692d4bf4c196d28bd08b0f4786eb" => :high_sierra
     sha256 "1d246580781a0bf5240363da62a476499a16948935f1b0693d05660ccd5aa9de" => :sierra
+    sha256 "a6ae65939b12b0b5a800c2810fe531d0956a99a56a95955994d04db8a64df98b" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
