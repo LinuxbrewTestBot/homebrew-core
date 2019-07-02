@@ -13,6 +13,7 @@ class Libsvm < Formula
     sha256 "75d440e35a774490aea6cec6fd514779069d3ffa55febce89a3f1eb8bad45337" => :mojave
     sha256 "661d867329c2851e84d02e78d2debc78357c9aa0d576223a1011b4d5533a7391" => :high_sierra
     sha256 "e78ffd8fb5a4c430e206462619ef419cde99f48728d09baaf250dc1cbc121abc" => :sierra
+    sha256 "ab51e04e1c11a68ab5d77fa3ed63f54a6bbdf7a8f8b030201c0fa51cd85cd725" => :x86_64_linux
   end
 
   def install
