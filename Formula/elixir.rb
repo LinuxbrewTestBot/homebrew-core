@@ -7,11 +7,11 @@ class Elixir < Formula
   head "https://github.com/elixir-lang/elixir.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "467fcbfb7c28e7b40adab41729b5733bc8f61fe5aa9fea389c008d3e036d1047" => :mojave
     sha256 "e22afbaaf607ed36f09c9781af6d2a0681500f6f1f8a28b9d30074640f2ee9cc" => :high_sierra
     sha256 "da201f12e4f419afb3c3a617eee2a07fc57ba349fd70f881ce1cf7f0a7ff5c63" => :sierra
+    sha256 "33671567967d24e02c82b72683945502c03dfbaa910727525b740bcb04e77d14" => :x86_64_linux
   end
 
   depends_on "erlang"
