@@ -11,6 +11,7 @@ class Mikutter < Formula
     sha256 "ba043509638d263bd73ce2d20f015a5aed06987c408e1a5530004525b99bcd89" => :mojave
     sha256 "a68a249e92e639e9f60d454fad0f8923622757dd81f5e0cfabce9c4fa541ddad" => :high_sierra
     sha256 "cbbfdd36153ebb931f88dd2a531b6c28ec599b5fee6edf16ab0c92c3d2e97efd" => :sierra
+    sha256 "06a7cb85403f248b38c57e97e8c74a5d6a7091531a3ea535148f472debeeda45" => :x86_64_linux
   end
 
   depends_on "gobject-introspection"
