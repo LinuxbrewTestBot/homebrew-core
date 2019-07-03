@@ -11,6 +11,7 @@ class Libuv < Formula
     sha256 "a7c0a80eb3050913c1841fdc9da04e140965102e47550d43f46e8517e0ec4b08" => :mojave
     sha256 "fdce5416ab53843eed73712e05310f2d83da403fdef7bcfb56bfb43553779e8c" => :high_sierra
     sha256 "7e375b70ed5a1e418415fde22d4ada98dd4a8d8b35aadb75d3fe2248c8d6cc07" => :sierra
+    sha256 "f9f9b813e1d3d590c6272d68ed48dd8bdb7503f3365862b54ffd6314aad29eed" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
