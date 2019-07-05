@@ -13,6 +13,7 @@ class Libyubikey < Formula
     sha256 "2b1fbc1860932dd4a4c2b09928d838bc3646ff0b2a97bc5c538981befdc21760" => :el_capitan
     sha256 "7f5c7a55b9e5bf373f01f8f02a983d45ae11d801acc8110cd8f5e13edf0e2973" => :yosemite
     sha256 "efaf65ea86cb01821d8c3145ab0f0528f6bb9e8afa0090ffbf2c0818e093c357" => :mavericks
+    sha256 "47b0325d71e03da76b69b3eb8449b7ed0cb10cd7cfcff99adb0f3c70975551b3" => :x86_64_linux
   end
 
   def install
