@@ -12,6 +12,7 @@ class Snapcraft < Formula
     sha256 "7f2e7c11294808b0a40fb5bede00d5657659f26e81862180d0247ac007ea3555" => :mojave
     sha256 "931add50ea23ff3d8df90ebe4ff54aca44bef42639622986afe50381027339a9" => :high_sierra
     sha256 "84f7efc03691619546d0437086c96b12d9b1bcc95398b17a795844c91181f840" => :sierra
+    sha256 "7223f568e30cfcb9c6c30fb598d609cc421c60a67f002e7f96edd6416127be43" => :x86_64_linux
   end
 
   depends_on "libsodium"
