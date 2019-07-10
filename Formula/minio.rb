@@ -12,6 +12,7 @@ class Minio < Formula
     sha256 "60396adfe5c5994e522c24e9f11e9c5c5a375e0fcf9a0f401385bffde76d2e09" => :mojave
     sha256 "cc2cd45f786c0a32491c78dc5aa4a84163a1a6fd0882930bf583ff95d6059241" => :high_sierra
     sha256 "30adcff697b44d2e35b4e09e14887fcbb39a88d24bf72cf14c213e3791679eee" => :sierra
+    sha256 "0d995b9d9dce4465806d50a40576ae99a31ca7d2b97e97795ac1317d0fa88e5e" => :x86_64_linux
   end
 
   depends_on "go" => :build
