@@ -11,6 +11,7 @@ class Ponyc < Formula
     sha256 "a6da68edb5aad4cdb1e39bc5c6509e9636ed78d4faf432b4b825463efdea30e8" => :mojave
     sha256 "2d63624c18fb2409b260f954f66f48f55a43d8c33c5b522b69d6ddedfe726b35" => :high_sierra
     sha256 "21b9bd000ff7d3859b1e68d13dfff75a123df121ee1bc711ec538a02124c6a76" => :sierra
+    sha256 "85279a6dc9023636db97b4d9180ae7a469e6a717aa29e564fc47ac94e87fc6fa" => :x86_64_linux
   end
 
   # https://github.com/ponylang/ponyc/issues/1274
