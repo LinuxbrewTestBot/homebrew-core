@@ -10,6 +10,7 @@ class Zeromq < Formula
     sha256 "f128049b3857d2b3be7fe355441b2dae455ccc5dae2d64e9d7e9d3abd5f014d5" => :mojave
     sha256 "11b7d1bf3457a32c1c94716bef3f899106125e772939acb1ad6b0ae308dff863" => :high_sierra
     sha256 "3de5d5f7d5d686855aadee66616516590fe8b73b5250d259144a1575a95802e8" => :sierra
+    sha256 "048a69bd9199073d82e4f34c673450ccc99f809f618a0bba03e83001eea9afe5" => :x86_64_linux
   end
 
   head do
