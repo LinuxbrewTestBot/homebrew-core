@@ -20,6 +20,7 @@ class Qca < Formula
     sha256 "56923c31aaa91a00f6692f135e8f5889182b770d08800f90f0ae685a6edd5b4a" => :mojave
     sha256 "df6120a7a524c85100ff94912a364903d4eeae0529ab1a24a0e72aa66f52dfa7" => :high_sierra
     sha256 "1a498fc1f967cf8290d4d0748d7d003442047f5358bb368c4e41d49681799f5d" => :sierra
+    sha256 "d6eb194d8b287b145555e3109022b8878c01b8b5c7c5a64a6df2462f771bef7f" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
