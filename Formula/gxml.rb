@@ -9,6 +9,7 @@ class Gxml < Formula
     sha256 "b9bb621d776f10dc1c3a9bde25964bd26847bf49cdee49ada1c0407f5fb14dbb" => :mojave
     sha256 "4253e9a1bd9ce221e2287e5d53d39342c65fd06aa63028aa56effae2514854b4" => :high_sierra
     sha256 "47042a94c013db905170cc0c373b8f7000d77e9c75d2d17dbacad6cd658e6b56" => :sierra
+    sha256 "028ba6efc562f813b9bda5be0e812ff3f89a3d8dbb261c76d21e57f67b0eca46" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
