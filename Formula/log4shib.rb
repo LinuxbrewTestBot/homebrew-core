@@ -10,6 +10,7 @@ class Log4shib < Formula
     sha256 "db9aa2c4c1f5f562177d7ab8f772d3634af17ad321866da25da81986c2806941" => :mojave
     sha256 "6a84a5b1db0fa9fef6e23f906543bde2496e5400f498c8de6b64cab2b191eeda" => :high_sierra
     sha256 "79197ed691693493ffc4b44dd5450b60c9c6cc97919302ae058c9e9af5cd10f6" => :sierra
+    sha256 "3606b9db79151283adabb104731f2e0041b2d9f9fd86bdc85abf68a7015f03e4" => :x86_64_linux
   end
 
   def install
