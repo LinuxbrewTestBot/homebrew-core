@@ -10,6 +10,7 @@ class Logcheck < Formula
     sha256 "111520f51e26088aa012bd42dc772e0a00e41decec22011a2bcf71c2ee3e20cc" => :mojave
     sha256 "111520f51e26088aa012bd42dc772e0a00e41decec22011a2bcf71c2ee3e20cc" => :high_sierra
     sha256 "12caeda115373b2b964509c07c2101926ab2e67154176078bf72353f3aeab7a3" => :sierra
+    sha256 "4f9d14914f3c3398a3c56d0b200a57f59bc866abc70363a31ca187d52bcb2e90" => :x86_64_linux
   end
 
   def install
