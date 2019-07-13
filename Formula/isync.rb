@@ -10,6 +10,7 @@ class Isync < Formula
     sha256 "5a60a0829dd79fca912b684cdf4994559e064253f64021e5d9bc40a1aaf1d3c5" => :mojave
     sha256 "5c8d8dd87e072f15decb68c491f50c18450e3d7e8a55211a443b0f22126de115" => :high_sierra
     sha256 "e07239359fe1f1f6b62a1c86d4f38b56e0715195b1e881a292903be17895bf6d" => :sierra
+    sha256 "f65f5c9a710f707aa76158752bdd5f370eb74b28fc7b7abd286e7f9589ee8741" => :x86_64_linux
   end
 
   head do
