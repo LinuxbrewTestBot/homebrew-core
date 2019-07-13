@@ -8,11 +8,11 @@ class DockerCompose < Formula
   head "https://github.com/docker/compose.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "2f56cad8904c46f8f9825c9655d8941e8beb29a8ff189437f1c98c6e8a6eb58f" => :mojave
     sha256 "c154b2827f6fb36782917479977243bc6e7b324f988f199a7630486131db092e" => :high_sierra
     sha256 "7fb5e11ffc82fc335cf01975c4147402b193c05d19ecb7f17c000beb8304ada7" => :sierra
+    sha256 "42036e99b374bcecbf4b63bddd0465fb02a2b691c8509e70ae8fcdf7d719afc3" => :x86_64_linux
   end
 
   depends_on "libyaml"
