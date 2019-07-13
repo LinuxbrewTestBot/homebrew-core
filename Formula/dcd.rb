@@ -12,6 +12,7 @@ class Dcd < Formula
     sha256 "1db1c37fa9dd757c4a91439bb36c8bbfae7983b9cfcaaa82b7cefcb6dfc5237e" => :mojave
     sha256 "932bb7fa259d950135a91973e7385e3fba9690cf899f65f0e1ffeb5b01d274e6" => :high_sierra
     sha256 "92cc0dcf3830b9b5fe63abe6d54323f8c310147f280be907123fa69b1646d868" => :sierra
+    sha256 "f685c41c791bd02755b9f6748d36bee4abe36a8baa90ff35d16a64b6d4010c5a" => :x86_64_linux
   end
 
   depends_on "dmd" => :build
