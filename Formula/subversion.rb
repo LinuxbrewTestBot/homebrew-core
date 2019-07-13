@@ -11,6 +11,7 @@ class Subversion < Formula
     sha256 "f99b4392f0acebf4e61a5b8747d19fdae652add9b910f060ed1a8a95f9d0ad2c" => :mojave
     sha256 "dea97ac9eec8be1aa78cf4e8670c0c21db55fff756778e2b31021a508fb86707" => :high_sierra
     sha256 "ed8c961d325cba194b76059a6f498bbc1af89375f1b10e3e98117f2d0b43b1b4" => :sierra
+    sha256 "565835b218d9e3345743832e2837021a7f1077c9437015a50e208bccf30a10f4" => :x86_64_linux
   end
 
   head do
