@@ -1,3 +1,4 @@
+# kvazaar: Build a bottle for Linuxbrew
 class Kvazaar < Formula
   desc "Ultravideo HEVC encoder"
   homepage "https://github.com/ultravideo/kvazaar"
