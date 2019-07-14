@@ -11,6 +11,7 @@ class Kvazaar < Formula
     sha256 "bd3d6122ef8a4dcc079b1fb86a0fd5fac658ab39910a08e9aa07115d165fd5db" => :mojave
     sha256 "05a3d65ec220510434711ef1840a045661fba804cc9843d63c9d04f943ead15b" => :high_sierra
     sha256 "455b8355658cba100fafa8cd8f60c353a6b56da81fb0420171e04893f329d339" => :sierra
+    sha256 "7bcf7b47a96c0233009051121d7d40ee5d9e17c7553e11af08f33b90023192bd" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
