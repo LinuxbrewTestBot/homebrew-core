@@ -10,6 +10,7 @@ class Di < Formula
     sha256 "ac66afaf91adbe32a27b6f9f2642abe2f72f2be4e89cd135c0b24bf5d29363e5" => :mojave
     sha256 "d56258c488485a6d10789cd051687d94dd60974fce12d575af0766254588392d" => :high_sierra
     sha256 "4d351a2e919590ff239fad5871ce20001cf6246af03fac69a3f721bf89140a8d" => :sierra
+    sha256 "c0b483c21180665d0f80f951a50e34ad3b86cb07dcd358364a50ebb6fc6dd9c2" => :x86_64_linux
   end
 
   def install
