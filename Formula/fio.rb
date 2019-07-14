@@ -9,6 +9,7 @@ class Fio < Formula
     sha256 "1116adcef2bd9c6d6b34411204869d22a32d9b1345cc057d7bcddda25a5fcb95" => :mojave
     sha256 "4ef16a70bb44172f46b13b0238401b397514b612ab093049ca2160efd84973f1" => :high_sierra
     sha256 "d8deeeb178958d1811c15b1263553de705e14943c311aa673fb337bf8787c9b7" => :sierra
+    sha256 "fc9e51b66824877020479d323cc4bf490aabc5e4327a3c38d328706d04559c12" => :x86_64_linux
   end
 
   uses_from_macos "zlib"
