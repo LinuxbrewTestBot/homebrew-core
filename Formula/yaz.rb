@@ -6,11 +6,11 @@ class Yaz < Formula
   sha256 "2e3f0cd304f38b4ad315d70771b378d4efafab37e9a28d4d4d6cd634718c3025"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "aa9c87edc877f3ea95effc59017cf1a1dcd9d7eb9147c9a5181993a9a83dcdcd" => :mojave
     sha256 "7cbc2a6c15f594956043d8986351690d606aa26ef8026257304ced7419d6d4aa" => :high_sierra
     sha256 "89ea5a833cec87dfa71005748725fb5fe6e724ccceba6151d7894c56b66c7fe1" => :sierra
+    sha256 "aaf9b4a5bee802f42392d352d092c67ebd398327267476e19930b84983b444ea" => :x86_64_linux
   end
 
   head do
