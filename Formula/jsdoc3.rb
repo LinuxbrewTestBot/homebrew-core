@@ -9,11 +9,11 @@ class Jsdoc3 < Formula
   head "https://github.com/jsdoc3/jsdoc.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "85f149b9eb5f0e49bff30e9af4a465c9dd768500c27061198225bbdc42e47315" => :mojave
     sha256 "91a544105a3ab68142b455117c91276ab5632ad80daa6cca34aa80800093213e" => :high_sierra
     sha256 "3c7eac58fecbcfb14c9d3d1c0a89ba065fb8f773fff6953a9a925c8b453e6e63" => :sierra
+    sha256 "754f25b0d86ae4406546b947d114c423254fea176061a0126a5be636e11f7811" => :x86_64_linux
   end
 
   depends_on "node"
