@@ -7,11 +7,11 @@ class Sshguard < Formula
   version_scheme 1
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "63af5b9fe223253a1798e8500475af1675c8a36d987628b9e195a5da33bad252" => :mojave
     sha256 "54bb8831aaf7de0a2ba0ee3780e34a76dd67e90d3db8bcf5e3496ec78e4d5b56" => :high_sierra
     sha256 "94c8ecf69111d23d51cc2e61ecfc0438dd9006236340e659ed094b8d7e3fd699" => :sierra
+    sha256 "6e1c2d15ad2a53a7a144ade502ed6862d8113ecc1919f087f86f5769c66a78af" => :x86_64_linux
   end
 
   head do
