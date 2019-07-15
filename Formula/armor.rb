@@ -11,6 +11,7 @@ class Armor < Formula
     sha256 "b3fd4ee9a6827f911adfa84ef9ff3ad76a9519232dfcbdde1065af4928030a85" => :mojave
     sha256 "47d85443ebd54b3805b6a02ee9e2c872f0068ca6782bc343490cc12812b32236" => :high_sierra
     sha256 "d4f119fed6f576e3173e1229ad2849682026529afa1d88a1a58053406bc27e9f" => :sierra
+    sha256 "d3e8455afa67de18c5b8b715f0a2485bb4f4e214b8cf3dd65297d337a8b899a6" => :x86_64_linux
   end
 
   depends_on "go" => :build
