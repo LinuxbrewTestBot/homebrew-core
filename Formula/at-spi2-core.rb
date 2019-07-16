@@ -7,6 +7,7 @@ class AtSpi2Core < Formula
   # tag "linuxbrew"
 
   bottle do
+    sha256 "9044727242675687023cab0ef43808773c8bc00af7f3fe555eb980572fb0f35c" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
