@@ -10,6 +10,7 @@ class Wcslib < Formula
     sha256 "5e88e55e09a2bec804e8052ea6257abb899ee0a9e42995694634ca8a4fb3e662" => :mojave
     sha256 "56fd6ceb75754b0840d80af9c3d902e6188aa4b5eb5100ddaecd765219c9cd6a" => :high_sierra
     sha256 "e3c3a0f23f756f045cc9dbafeeed7a7df4d0b2c84c241f74ac6a8496921ab0f5" => :sierra
+    sha256 "27d5af10411970392c67879ab5f4b824afdf45743e20b8a889d5c36c322a1afe" => :x86_64_linux
   end
 
   depends_on "cfitsio"
