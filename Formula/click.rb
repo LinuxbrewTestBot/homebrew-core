@@ -11,6 +11,7 @@ class Click < Formula
     sha256 "b154b0c1375d2b0ce09ef9ee3b44dbc5a4b1387f6e341fceb7708177e2801208" => :mojave
     sha256 "287467bcb9ec9ef1adf4809e3a33ae64a26d17620e214fc833e979fb12c43e3c" => :high_sierra
     sha256 "c5690ca5166998c859d72b02ba9d44e4053fa9e3866626610fa332410571601f" => :sierra
+    sha256 "808fdba01671f90212b80f5314747e7960bf1d837bb1cc7fbd5bfbd716597cc8" => :x86_64_linux
   end
 
   depends_on "rust" => :build
