@@ -10,6 +10,7 @@ class GitAbsorb < Formula
     sha256 "4a8e3e6fa101306c8d99bf95634a7fbe08fcb80d46742161b972e9f5ab1031b5" => :mojave
     sha256 "6723320cdbcef35818dc58ce6e0fcd3be87606ae59fc355d9179e5690bc90540" => :high_sierra
     sha256 "d51c5da6ae0c17b416d0fb2bf1f043c7d0e3cb8535a47dc0afea56ef96a50f1f" => :sierra
+    sha256 "0fa5e3a0a6b61349b5ea678d34eb2f2b8df6821050f2eb3b7a7970c418d924ae" => :x86_64_linux
   end
 
   depends_on "rust" => :build
