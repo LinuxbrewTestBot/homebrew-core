@@ -10,6 +10,7 @@ class Xa < Formula
     sha256 "c158ac34c430221611c8fec3144c7b489ed65e99e459325a528e14a2cd727489" => :mojave
     sha256 "b9b214c757c86617774275ea57f8191e7ca46b21ce3f879387cce5e388eb285f" => :high_sierra
     sha256 "9a16e276c370a5afb7ae4379e10318660d15375a0baa86550c6f16e662559ee1" => :sierra
+    sha256 "fc8c4f82e5e1b5e1d85079f60a0b9955f6a4dbd1ce3e4e6a51736d1bcf54bfaa" => :x86_64_linux
   end
 
   def install
