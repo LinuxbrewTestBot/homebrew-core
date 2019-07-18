@@ -11,6 +11,7 @@ class Hidapi < Formula
     sha256 "8e4c1959c227e51e8bc8e45532838dff3fd5c58aff90a03eb1e19d9cd51f7160" => :mojave
     sha256 "0b972366a1dc78445d448b40892ef7885fb682eb2042e41723274d2e50388732" => :high_sierra
     sha256 "befada3ffe32de1d7363d0a958aec534b248d8cd45111c4f30a6f46bb0ac401b" => :sierra
+    sha256 "0bb8f5c921e50973382a869091c068dc973c5fe17510cf4a55bcea8ef0783428" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
