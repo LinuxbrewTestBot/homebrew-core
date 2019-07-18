@@ -10,6 +10,7 @@ class Scamper < Formula
     sha256 "af942b4eb24054c5d8dda62a1282f8c704d2e3b27c3d0ce4593dab06debce3df" => :mojave
     sha256 "382772d3cda9d7e0af62b0dc1567a55065db9c830aa7f2c3f2eaaea3e7687dea" => :high_sierra
     sha256 "d8f6a50e29fb475aa198250815a03aa8e27f6381cd185d72038ee2cff07c6f45" => :sierra
+    sha256 "f533ac4f89cd89a9aee808b50f83b8d7e8eff6e5f99ff6e09f3b93408948a841" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
