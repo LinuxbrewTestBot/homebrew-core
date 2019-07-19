@@ -11,6 +11,7 @@ class Lolcat < Formula
     sha256 "15cbe2be50b9d21d6876528e771a0d91dc66e5e970b1f128025f2a53fc134c56" => :mojave
     sha256 "a5dc24837ef3c7f374d8e005b1a0a152eecdb723289b64bc512fe7a9b081cfe9" => :high_sierra
     sha256 "bb74410996733b99dd265124e5a4868047650b68784024f78e23b73d4396b39c" => :sierra
+    sha256 "9edd981e322535389b1d1aadfb40fa975eb13c5f687819a4f725005ba324aed0" => :x86_64_linux
   end
 
   depends_on "ruby" if MacOS.version <= :sierra
