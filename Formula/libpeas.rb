@@ -10,6 +10,7 @@ class Libpeas < Formula
     sha256 "662d750a332d8737fc62da587cac4c65f252b3ab3cd3764137a29329f61ccec4" => :mojave
     sha256 "690949052e9d12486a79eb0a72c9966a26e56d209ca452fc0e9521b02de5557c" => :high_sierra
     sha256 "b1139f2529b45ee2b01eaa9d2b0d13734263507ec2939a2a8a79bc4baa75afd1" => :sierra
+    sha256 "f9c73e1ea4969a1b5896461e18c6229bc959604f599da653aa2748be6e537ed0" => :x86_64_linux
   end
 
   depends_on "gettext" => :build
