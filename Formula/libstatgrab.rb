@@ -11,6 +11,7 @@ class Libstatgrab < Formula
     sha256 "bb1778c08b1b91cff873016e3a6f314d3a97a55db378e0870354bb64337ea50b" => :mojave
     sha256 "d7d932298fe68980389bf5b2c8f1d6ef41a6037630b4951996139c2277fbf6f4" => :high_sierra
     sha256 "17efc663227f42859add13c81e0b5fac1f3f3a0418c3d15b83363ea90c0b4a91" => :sierra
+    sha256 "28562aed435bb94ea567771537d6ecebc5d7e0a29435c124e341a4946386cdce" => :x86_64_linux
   end
 
   def install
