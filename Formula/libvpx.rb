@@ -12,6 +12,7 @@ class Libvpx < Formula
     sha256 "0e1d5f53082f7718604f11a6df4ff9edd219892cd5eef4c4a7c5875dcf9876f2" => :mojave
     sha256 "b67db059b122aa25a17fff630cc04cba531a95b33b6032ac5ba78434325f0700" => :high_sierra
     sha256 "12c14d42a563fc9d2b94f6733b45816fb21e70f4fd3229c9398e115af49f9bc0" => :sierra
+    sha256 "fc45c3804b2b06494f8a34a1e1f73402e155c7ee6f83e2eb56ede1b4f026be23" => :x86_64_linux
   end
 
   depends_on "yasm" => :build
