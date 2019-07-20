@@ -10,6 +10,7 @@ class Stella < Formula
     sha256 "9356bf82472ace4d0c9fe325fba4239ff990cb7ae89ca47090512d79a07619b1" => :mojave
     sha256 "c8218d2bdb301dd5f4268c4b7fc16e88676740d69106b76729955ccd18a795da" => :high_sierra
     sha256 "68d9cc4bb6dd3ff15efb113824546c03c55c856927ba4fff9b36ec18246b820f" => :sierra
+    sha256 "45d723ea00d1e0f76849678187f3ffbafc4dd458be201b76aff87356368815b8" => :x86_64_linux
   end
 
   depends_on :xcode => :build if OS.mac?
