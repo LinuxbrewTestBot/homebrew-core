@@ -10,6 +10,7 @@ class GnuApl < Formula
     sha256 "9df4d2bfcfda74e10451b132d0c274265bb1e550a9d7829402913d7798a83c46" => :mojave
     sha256 "d1d035cef7cb23ecde90146a8eae564fbbeba3546228618dc250581d5611a4ab" => :high_sierra
     sha256 "cbb8043b314e3141b2a9e6e3121b7c797ca68298374d9c50f6d07447e5ea7ca5" => :sierra
+    sha256 "8695fcec7097d63deae5f3119b4f575ddc71dc454c4a34a1e684f0e8e123c1e9" => :x86_64_linux
   end
 
   head do
