@@ -10,6 +10,7 @@ class Zstd < Formula
     sha256 "4d57b86420c01afdb3b02a5838fa76bba0902dc26ca582f433278717f8637bda" => :mojave
     sha256 "c7d55e6cf66b8d697d8d9c93a03e0140a38560cde9dae6198af2deb557d4ce1e" => :high_sierra
     sha256 "18684a1e1bd85d165b4fd0c5d140512609253dbf757814580a8620bdf7e248e8" => :sierra
+    sha256 "6f5a729251fd993d9c850731aa7a4a5caf1b1dfd1a5efe1778a8b059247f2410" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
