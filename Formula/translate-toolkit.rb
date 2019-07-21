@@ -13,6 +13,7 @@ class TranslateToolkit < Formula
     sha256 "895d0f333b3aba84ff5fa8b39292e0f62d7c1c6e1102e9fb9bbbecdf3b0218e5" => :mojave
     sha256 "25748d80d983a92f58d888ffda612c5a4f5d63bb3c98b9043a5de5737db035fd" => :high_sierra
     sha256 "b22388e34bf4e0abdc73502967d6d6242f7c7d17e10f6b6cd55d3561ff696ee6" => :sierra
+    sha256 "b7390aa22fe64beb0fd43be8504ef0840938e5e0ee001b5cc0b4d136acbcb687" => :x86_64_linux
   end
 
   depends_on "python"
