@@ -11,6 +11,7 @@ class Geoip < Formula
     sha256 "311704d07adf7fa502e60bd0e462ba26f6830838c09461f8bbac38ccb5da77f1" => :mojave
     sha256 "17db912ce8ffcd831d775f22c1ea428faf55d7ecb4dd19cdba6ab3234874417c" => :high_sierra
     sha256 "166b2195350b830ddcaea41a24dbdbcea48b9d42f96673088dd3d51b8d5774d7" => :sierra
+    sha256 "07e5d2f3dd364b50dab82960a8192f2b6fe22774ff7ffcf2c377e723c09d4681" => :x86_64_linux
   end
 
   resource "database" do
