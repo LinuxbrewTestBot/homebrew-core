@@ -10,6 +10,7 @@ class GoAT111 < Formula
     sha256 "0d2c34a780571dc482b680f9a081306ffe23d62fb1eea46355953cd1e70d9b91" => :mojave
     sha256 "4dde34b89438e93c26c8ea2c191162ee3e000310d49443c3558b52d38a75909d" => :high_sierra
     sha256 "5bcc430e0d8f2dd79f9fa4325c099aa9fe63f48e58ddd6255587a854eade0f9f" => :sierra
+    sha256 "bb036c1f97e134434beb39a3dd31c7126ecb99a07f5f3d358e7afa6b8c9a9bbe" => :x86_64_linux
   end
 
   keg_only :versioned_formula
