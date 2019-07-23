@@ -10,6 +10,7 @@ class Pushpin < Formula
     sha256 "8de3e14c6b53e25337c263c946bda68cd61f0466ec166d997cc782f21a88d85b" => :mojave
     sha256 "998d327d1520aae34866538b66a058d969117dc9d169cbe57d4c805714a79d16" => :high_sierra
     sha256 "10247239b7dedac4dfd69dd6c5e69b7891b9ade75d4984d3cd52b0cf2e7d0790" => :sierra
+    sha256 "82b7a8e2fd674ae5f05ef4144c7cc1d201c155e729beb78b2ac0ab7568402f68" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
