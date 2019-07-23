@@ -10,6 +10,7 @@ class Xapian < Formula
     sha256 "4199eabb24c1d33ade627d57e343969a10bfc6be52725d36643ae63bf8f0de03" => :mojave
     sha256 "1554dd594922fa2a7bef9e85363db303d1bdef24b73c78e7e0734c71597b7481" => :high_sierra
     sha256 "f357ee9a8e6b2fab072d0c60e2544339931a9712200ed1ab40a972e82ea0b671" => :sierra
+    sha256 "bc2b9e644799bacb3b2d03de7ea5e29056cae822886a0350b4e261533491d094" => :x86_64_linux
   end
 
   unless OS.mac?
