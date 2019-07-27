@@ -6,11 +6,11 @@ class GitLfs < Formula
   sha256 "3347bbe6055b38902e4ef65d0f0aa00b3f100b2ad67a43aee6f340e4eb731535"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "1dfa249482bce6cdbfc46d6d34e88afd4fc7947dd98d4072b5c6c8909a31b03c" => :mojave
     sha256 "1ea60ee3dffe2ce7af00768361dbd4b2783d2159b7b269960d8504b0ab05c3a6" => :high_sierra
     sha256 "5f4a9d27c5d73aea0c8cb4ed403e15df4885d7aac44fec4d3fee1a82779c6a05" => :sierra
+    sha256 "8ea45405f13bca30f2e364681efc276933fd67e0488c2f4896c512f8b08535d9" => :x86_64_linux
   end
 
   depends_on "go" => :build
