@@ -9,6 +9,7 @@ class Sispmctl < Formula
     sha256 "a0e38f978bac7b89863fa074e677a98201de43873640ec84e75d79fe09d82d3e" => :mojave
     sha256 "8c6cd9f2630f34134abe1e2818a3c3d84562fcd08572b7657dd30cf47baadb2c" => :high_sierra
     sha256 "03fac970edbcefa83cd75573a1c82a8d4b1dbd9d531c56aa6ad5367f80057e21" => :sierra
+    sha256 "6ce6279e88fda6bfc4ccceee9d2901f766a44d9421d1162cf994d91619fd1d43" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
