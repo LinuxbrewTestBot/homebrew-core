@@ -12,6 +12,7 @@ class CashCli < Formula
     sha256 "a28d5d5256bf0edc64fcb828490563fbeeb305632301198a9519481d438de866" => :mojave
     sha256 "d4f5ac27528cbc05e6ae13f240d5d63780667eb5f94409fce8a93e9f9581dcb9" => :high_sierra
     sha256 "9db9b06dd134c170cd8466eb60a60fd76664b4252a813988afedaa2396a32217" => :sierra
+    sha256 "a850fc8e8cb6119541d9d74edeb15eda6cd3e2d100328e3829e5a1d630b19b5b" => :x86_64_linux
   end
 
   depends_on "node"
