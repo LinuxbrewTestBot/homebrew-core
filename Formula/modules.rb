@@ -10,6 +10,7 @@ class Modules < Formula
     sha256 "ca75f7d31f9698e69d0f89d7b99474dba36c73c67fc698f29e8af78a18d92cbb" => :mojave
     sha256 "8d3e5a0ebb734938a32fd734e49c8bc258c64a753327a312a1a5a8d78bc2f4b6" => :high_sierra
     sha256 "9b402a25481669f3d92d900249dc8741ef5bce5d6ad8b64a9e8efa342572e814" => :sierra
+    sha256 "a19c4dc7eb28bebbc3cfaf7a075364d0c02ef625bf2a2eddb6acfeb8c6ac9f60" => :x86_64_linux
   end
 
   unless OS.mac?
