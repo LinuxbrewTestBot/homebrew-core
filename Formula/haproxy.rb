@@ -6,11 +6,11 @@ class Haproxy < Formula
   sha256 "92cdc40d57557e902d32554e29c9132b4dabd61ce03ae7a3559167163f60d7f4"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "7cb60b6260f2d446c752b7dbbf0cce613adff6b5ed492b5f3d824f96122e0f91" => :mojave
     sha256 "fae979c8a9b0d1c5fa1634bbee88019aaf2d926ef0d5f342336d50b2a32266e5" => :high_sierra
     sha256 "9edbc8189aae3925c56ef4c93080e6643325e32c89bb0092bf5e3dfb61439396" => :sierra
+    sha256 "b60c93e18cb19c879f630fc44fe09a97e6476fc9e42379c0243bcb874909e1b7" => :x86_64_linux
   end
 
   depends_on "openssl"
