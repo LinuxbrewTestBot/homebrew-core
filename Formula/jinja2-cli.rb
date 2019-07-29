@@ -1,3 +1,4 @@
+# jinja2-cli: Build a bottle for Linuxbrew
 class Jinja2Cli < Formula
   include Language::Python::Virtualenv
 
