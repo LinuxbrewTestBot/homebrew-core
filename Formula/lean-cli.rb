@@ -7,11 +7,11 @@ class LeanCli < Formula
   head "https://github.com/leancloud/lean-cli.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "de13c20a85a6f638a4b6134a889fa52316916cac183d8fb5956710eea4e32453" => :mojave
     sha256 "977d34c18bac304b6e1a1ef3fe6d0d6a5be3204f3f6b6471204a78f5eedc1e14" => :high_sierra
     sha256 "e5f87605029c8558975decaa755cdf9566593adf08d0fe44669615e9869be25e" => :sierra
+    sha256 "380a9ce296a88cde2b2fd48bf7f93fa8578a3c3dc43fbf6c799352017bf50348" => :x86_64_linux
   end
 
   depends_on "go" => :build
