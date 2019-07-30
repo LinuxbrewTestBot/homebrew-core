@@ -7,11 +7,11 @@ class Liblcf < Formula
   head "https://github.com/EasyRPG/liblcf.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "af1b2189ec52ff85cd7bbf53aee54c988bf933bb36333194831ffeb873a2d514" => :mojave
     sha256 "400b4d459f287f0c935233a25298cbe3d4ca6b2d2a6f09bb75fd95b917fff811" => :high_sierra
     sha256 "c27dea64d039f5dc4ed3d57f17c85035b95a3426bbc687edf35aba2d03801bf1" => :sierra
+    sha256 "ff2cb6767159f92ab37e887fa507f730c3fc4377b57c3e0a0a923e892cae954e" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
