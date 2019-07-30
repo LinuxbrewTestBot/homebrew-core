@@ -6,11 +6,11 @@ class Spin < Formula
   sha256 "7bd764793621940b7e69eef8210c82c75ccee7745f24927f221d228260505333"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "92ea7a4b20e4d8409df68c717caddc537c0cfb578040f4eb6b48846e64aeef08" => :mojave
     sha256 "ab5249a0e58f7ee677defc10bd187c6ef5ee3ddc5eb5cf0ba4747b222ccb7ed8" => :high_sierra
     sha256 "82e328f8c23068ad8dc2f722cf6872e0dfab0e68eb1b10813f1aaa6d0c667caf" => :sierra
+    sha256 "1736bd1cd682dbb09388e4cd26611bf71a3551da3407e203c2cafec4ae39a557" => :x86_64_linux
   end
 
   depends_on "bison" => :build unless OS.mac?
