@@ -12,6 +12,7 @@ class Supervisor < Formula
     sha256 "7d53548c12b1ec06a6bbbd5f8cd8082bccd8c3c48364809c2970d67543f64f79" => :mojave
     sha256 "4e323805384ab0ccd6f3ef7d0e3c4329ae0f1edb9cd43d4ef45cbcec72b6a9fb" => :high_sierra
     sha256 "f9ed5aff67f1fd79b0ced09c5d85a546eb2451c1d621a704c624215f201e1650" => :sierra
+    sha256 "6c5c4707a165da23389c2906808845e5a47533640780f02642f753361b1b7dd4" => :x86_64_linux
   end
 
   depends_on "python"
