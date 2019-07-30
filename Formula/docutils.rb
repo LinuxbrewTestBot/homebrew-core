@@ -12,6 +12,7 @@ class Docutils < Formula
     sha256 "c655dd3f311370b4c6683236b6ead52d800397e050584124a54709effa556746" => :mojave
     sha256 "7fc8102f9f46d9f3bc4debe405fa6b533809aa73da074d0379652971a30fbd93" => :high_sierra
     sha256 "6393cc30ff4cef96e4309fc912267fd9649396fc31a471b15af6363eb1cedf95" => :sierra
+    sha256 "b78153a715eb15fffa96ac921752128ce0b2e48ff7a1b20df5325b8c84caf224" => :x86_64_linux
   end
 
   depends_on "python"
