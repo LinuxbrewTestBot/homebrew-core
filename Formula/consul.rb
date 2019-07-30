@@ -13,6 +13,7 @@ class Consul < Formula
     sha256 "3357dd8983458b7ecbc7fd27eecca64d83ea2e218b75806084b327c6bbc6ecbd" => :mojave
     sha256 "cb3faa4317818e96c6e9d01f0ab360e0d85d829bf564b9e1137350010b43e800" => :high_sierra
     sha256 "c5f31812596509cb85f38f44b95c1e58ee0bc94221b3c449bb631c5da55abdef" => :sierra
+    sha256 "727c3e3386d769806acfd7d67359a0a49a158e58f33ca44e6de827e21bdd83d3" => :x86_64_linux
   end
 
   depends_on "go" => :build
