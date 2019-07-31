@@ -14,6 +14,7 @@ class Caf < Formula
   end
 
   depends_on "cmake" => :build
+  depends_on "openssl" unless OS.mac?
 
   def install
     system "./configure", "--prefix=#{prefix}", "--no-examples",
