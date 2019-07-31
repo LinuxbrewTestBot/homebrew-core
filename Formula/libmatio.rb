@@ -6,11 +6,11 @@ class Libmatio < Formula
   sha256 "5e455527d370ab297c4abe5a2ab4d599c93ac7c1a0c85d841cc5c22f8221c400"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any
     sha256 "057efff5b22a8167a731ff318e4997bbe9d20b01996077f9722b12276f1bc563" => :mojave
     sha256 "a1032220f721a6c0a08ae9383dfd32831edcdc5c2ba1c2d6160126c3b5da63e6" => :high_sierra
     sha256 "2c33e35f47c74770bb81a75d344b8e50d1e5a758ff89f08ebb3f9e33b0995eba" => :sierra
+    sha256 "814aec62fa35923e0b89809cf87a47352e980551081c18d4572905ebb3433066" => :x86_64_linux
   end
 
   depends_on "hdf5"
