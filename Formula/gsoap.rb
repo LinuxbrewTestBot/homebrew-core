@@ -16,6 +16,7 @@ class Gsoap < Formula
     depends_on "bison"
     depends_on "flex"
   end
+  uses_from_macos "zlib"
 
   def install
     # Contacted upstream by email and been told this should be fixed by 2.8.37,
