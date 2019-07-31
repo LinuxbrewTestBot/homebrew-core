@@ -7,11 +7,11 @@ class Offlineimap < Formula
   head "https://github.com/OfflineIMAP/offlineimap.git"
 
   bottle do
-    root_url "https://linuxbrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "c9620b87d09719d7950203ec39e04b0ea4bb7a03cf169c3fa5596e0c53e7c177" => :mojave
     sha256 "c9620b87d09719d7950203ec39e04b0ea4bb7a03cf169c3fa5596e0c53e7c177" => :high_sierra
     sha256 "d56fbea8ca30549b4f5e3e5e294cae0dcf4363a08d7574d8b7e8abaa70f9ff17" => :sierra
+    sha256 "7c3b415b32cff51fb152b27f1b14093edd6172cc72d4dffb60188ccb5f4bc62f" => :x86_64_linux
   end
 
   depends_on "asciidoc" => :build
