@@ -11,6 +11,7 @@ class Pngquant < Formula
     sha256 "db0913702e59ad3c915048b4e61db30b78f09379832403f2803f3c260ad3302f" => :mojave
     sha256 "b250a11b048c83e1f03af42bfc2da26239765bb236647eef6fb588c2832b4d49" => :high_sierra
     sha256 "53ccff678414e2f8f8ae3f290e67e99679e94be4be27cffa8e1aab5344d8bd82" => :sierra
+    sha256 "f900f090feec5cd7b7a42c25d9b07ed77d28393985b96091569e7ccc2931d6d9" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
