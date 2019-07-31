@@ -14,6 +14,7 @@ class Shellcheck < Formula
     sha256 "be8e084d55379a4b5a8bfba78ad298f966f0888e6c3eb7e5202527d3938f3501" => :mojave
     sha256 "a4e12db223139c82649fdc16a2d04184cbaf5fc413c1135b0a1100a16e33290b" => :high_sierra
     sha256 "770a22a491ae6316f7b6e56d8039d30693d857336ccc608de865750798480899" => :sierra
+    sha256 "c8bc164e5989b6c3fd09a20cb86ff27b88899fafa216b4b8fabcb059bc911874" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
