@@ -10,6 +10,7 @@ class Libu2fHost < Formula
     sha256 "de1df148c237465d9211d31f885845c44332a797b577f96d231461e822da8194" => :mojave
     sha256 "29ed5c81b0310b148b65e377d5197311edbada65dfe84d6ab193b701fd982af4" => :high_sierra
     sha256 "5ee537e748bb3c59aa28c640c656acb25680d37c34933684453a256921ab3f51" => :sierra
+    sha256 "720d8365fb99d452fa977f95f938241d42ce2e0328cfe7ad1fe9e85d6fa43529" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
