@@ -40,6 +40,7 @@ class Emscripten < Formula
   depends_on "node"
   depends_on "python"
   depends_on "yuicompressor"
+  depends_on "python@2" => :test unless OS.mac?
 
   def install
     ENV.cxx11
