@@ -11,6 +11,7 @@ class Xrootd < Formula
     sha256 "c463897d0c849cc777661ea7dec042d8b10afffcdfc05bd11c12d41661d8e835" => :mojave
     sha256 "0a90dbb2c1c72dc991bbddbe3b2ccce0c6ba98e5a24708e96bd2f9b1b722cabf" => :high_sierra
     sha256 "0e4908491f16a3b7d02026f1bb09d8829830dccb4f0a3a7b83faaa6d1147d669" => :sierra
+    sha256 "ae1d4de3d4166319414601e81300bc5f5fe42915ac22802dd4789d60f29c11e9" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
