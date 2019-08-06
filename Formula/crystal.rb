@@ -17,6 +17,7 @@ class Crystal < Formula
     sha256 "5d7671dcca978752ac7ac98af0ae59bf83fc8e0a6c0f32b53237a6503ad838c3" => :mojave
     sha256 "d7b80a23bac412d1afe337333a2487f258466d8f53061becef6bedceccc49500" => :high_sierra
     sha256 "3fe13bbfbd2a5e50bd8ec536c0c263a25542923494344a6304f85febc90608f8" => :sierra
+    sha256 "dbd9ba4eac226204e12a9f0511e775b5c9b928a7a02ec94a67956e70a265bee7" => :x86_64_linux
   end
 
   head do
