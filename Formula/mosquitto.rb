@@ -10,6 +10,7 @@ class Mosquitto < Formula
     sha256 "ee7ebb0c2856e08df1db5c2455575fea84aa25710965676fe9e3e2c0e4777eef" => :mojave
     sha256 "f8dc15b6782c07b424c821226345b94301e389f393de0d57f12f7f4c546dc6a2" => :high_sierra
     sha256 "5daf8b4e735bcd9fbcd3e3455274c5319ebefaefc27e8ec68f18ff7164568539" => :sierra
+    sha256 "2e3cf552f38254ab11977a97d2b075f9f9dc663ada381be6fedfd9035eb3904c" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
