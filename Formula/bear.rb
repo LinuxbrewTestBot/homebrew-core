@@ -11,6 +11,7 @@ class Bear < Formula
     sha256 "b540bfb4df22cda3cec0e2c1b3eb688ac34d67ed4b051063f05d44ff0c1da351" => :mojave
     sha256 "19ffa59864de423dc7ae53767bb934f0355a77f3e5643cee73e5d4b84c073d8c" => :high_sierra
     sha256 "0adda8dd7614d65451b1ea7fe36e3fd378672fc9ff828fbeb6ec0fb182d8ede7" => :sierra
+    sha256 "93e669ef1b8ab6c7d23a8120d1f7a6675d8893a0675994c35974df0732a5cb75" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
