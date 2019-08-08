@@ -11,6 +11,7 @@ class Camlp5 < Formula
     sha256 "ab7a68890d905e84438bedd7f0e399392dea7cea97b6549e499b85b5ca92a9cf" => :mojave
     sha256 "b11b7b41528fbb84be0f599638eab661176d515dcecdff847e2b247f412d328e" => :high_sierra
     sha256 "cd076fd8bcdaee3fcf789915df1f98500ba2d703764426e63aa5dd6b2fa7dc70" => :sierra
+    sha256 "7c24a50aba17a50b210a031d7a8ea3335e35c52874f04076ca67fe3f28cef323" => :x86_64_linux
   end
 
   depends_on "ocaml"
