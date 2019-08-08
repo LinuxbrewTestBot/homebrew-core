@@ -11,6 +11,7 @@ class Xdot < Formula
     sha256 "dcd8c80b0d21b0d2791515138d38dbce56324daac9ffa64625368c17d63127e9" => :mojave
     sha256 "3d25f865fcd7ea38945d1b5fcdb6edebce950515c727ceee5804f4c90487fb1b" => :high_sierra
     sha256 "ecc75687bb7340438ea568f15197c16bed3bba0ba5c67e8499d22cada987473b" => :sierra
+    sha256 "39a8a4ed81f665b1013978a55349e7da2559875dfc688d109ff1e6db9d655f46" => :x86_64_linux
   end
 
   depends_on "adwaita-icon-theme"
