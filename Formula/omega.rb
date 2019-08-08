@@ -9,6 +9,7 @@ class Omega < Formula
     sha256 "bc76776c8d52a58350a36c3076f2aaa93d2d67f319d0a05dca46f1495a1adeb2" => :mojave
     sha256 "29ae06a6963243aa03b4a020d0ea6d75deeeb9e250f2e9af82ad597e80a9c02c" => :high_sierra
     sha256 "bd44602eb83fea9ea9b9b833ec376107b7c8eea0cb4e61c1e8b878829f264690" => :sierra
+    sha256 "4749f703ad28b88908c7c1644153a027915800be2bf50468c7ec8608f903bc47" => :x86_64_linux
   end
 
   depends_on "libmagic"
