@@ -7,9 +7,7 @@ class Libevent < Formula
 
   bottle do
     cellar :any
-    sha256 "0a8ab56e634a686654b83cfa5a94ea7a388bc19149372fceea54663cbad029f9" => :mojave
-    sha256 "44db0195483e874f8c8fc7ed4bb6e6f82bf31b17536859fdf2189dcedf70ca1e" => :high_sierra
-    sha256 "61c7fa8f31268fa382b5bdc99d37f5d463aa673e661db562458dc34d599be75c" => :sierra
+    sha256 "57dab27c837b477e2499618515bb751263e401380a6aaade702044eb9440ff0b" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
