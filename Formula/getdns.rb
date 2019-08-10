@@ -11,6 +11,7 @@ class Getdns < Formula
     sha256 "4d4138273c27f8be2715928e72c559a5c40c6de3045f28abad1dd87e8f9af637" => :mojave
     sha256 "a73163e93735b45448bc078724f14076e09515eb8f42a15c9b1dcee5decc50af" => :high_sierra
     sha256 "48dcd3e1681db297921dca750b03e56fd62d5f29c7d51239d1c1f250d8c59dac" => :sierra
+    sha256 "48aa5494a98766e847956e6fa6427aed4b44588b0654d0f3d8f6c53c71d6ca04" => :x86_64_linux
   end
 
   head do
