@@ -10,6 +10,7 @@ class Coturn < Formula
     sha256 "40ae9111624e581b825f1fb3a7701512f1b8bf86d26ca17c59e5e9d673cd3270" => :mojave
     sha256 "d332b25b9dadedce62e40bf10d10d82784bdfb049ca7936b9db2fc8ef6110e17" => :high_sierra
     sha256 "2b2ef532930f01cf3b5a2deb3d22e0f706e19febfb60dd8e5ef270f6a2000d12" => :sierra
+    sha256 "3e1a0be4223b648b160480588fb62eeb7e0fb25abafd6c7081e5fdfccb033d02" => :x86_64_linux
   end
 
   depends_on "libevent"
