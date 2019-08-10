@@ -11,6 +11,7 @@ class Nnn < Formula
     sha256 "2f98d4bf73cd267231733f78ab69aedfdfb73c0146d7e6dec2ca1318d27d839c" => :mojave
     sha256 "8caf9cc2426b567d3590af0727fd9ad36989d68c85a47d1001c9d25e53ab1c76" => :high_sierra
     sha256 "9fb3b67e58030caee39602773a3f857e8aed0b0a39020b5fc96d3afb2f46c5f9" => :sierra
+    sha256 "3c4e3e9fcd0e8d56f4df312384f18971f29c8731c9c7b848dba2f3cb6b74fbce" => :x86_64_linux
   end
 
   depends_on "readline"
