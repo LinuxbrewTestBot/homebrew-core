@@ -10,6 +10,7 @@ class Jemalloc < Formula
     sha256 "9fbc2052929cedb26b55bf21d0ac539d8ec153d138fde9dbd57e8bf9ed943b81" => :mojave
     sha256 "8da348f2bc2a3d90e55fb0121b75e3581212e776e5f088f67be1005164917b55" => :high_sierra
     sha256 "5bf32c065113e0b07db53b73a800516a4ad8ee655cbc50596a1016101c57ec14" => :sierra
+    sha256 "c7a9df9cdf13913017ff771b8db03f5a95c223109483c661e542216ad067cff8" => :x86_64_linux
   end
 
   head do
