@@ -11,6 +11,7 @@ class Tmux < Formula
     sha256 "a6c847ffc57c9e6d730b1dcfb3ca193588cfdb679a60f221a41690ac8ec202a7" => :mojave
     sha256 "c01b0af8cf9a266e4ced0aaa6c05bd9c83b69b22ea9c790f0ab38eec4d86fcbf" => :high_sierra
     sha256 "caeb4047951019c086ddbb8d0ace71b3f62e7266decd2b06c28f0213897292b4" => :sierra
+    sha256 "978e4cb473ec3570e04ba60df6218e3ba260c759a918055ae13de5fa1de021db" => :x86_64_linux
   end
 
   head do
