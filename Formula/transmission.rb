@@ -10,6 +10,7 @@ class Transmission < Formula
     sha256 "4b1441dce6e7d8b2e0ed37147a104ac5e4fe78f39584fd81d718f45e37561a23" => :mojave
     sha256 "780d8f750f27c3acd75c78206225348ec439b2fb5bbd95a15d59eace22aa7a4f" => :high_sierra
     sha256 "7f0f5f45070a6738560e58155acd4eec03a600c1a3123794119621067d920b51" => :sierra
+    sha256 "8e7214ed6ef8b03dbb7a0494a30cb75d42ccc1c8462b4e3031ec92d1596f0513" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
