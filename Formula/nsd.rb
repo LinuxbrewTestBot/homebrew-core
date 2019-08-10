@@ -10,6 +10,7 @@ class Nsd < Formula
     sha256 "15fe9de07dfa20af490932fcfa910401d77e46a8cf78fd1384ac20de5a4c36a6" => :mojave
     sha256 "4951265f0e3b760298eff2ad95985e2b8ad032b1c20c0518b94ada7c51c2cf0b" => :high_sierra
     sha256 "40bc10ebefa0738254133a168cdbe107dcddabcde42a6726a587bd1088dbacd7" => :sierra
+    sha256 "9a5f15b3cab8e00cfb6cb02f0ae343605a9d6715fba927e77e1e2b99473ac8fd" => :x86_64_linux
   end
 
   depends_on "libevent"
