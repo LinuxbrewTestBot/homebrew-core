@@ -11,6 +11,7 @@ class Sccache < Formula
     sha256 "31bdf1b96a50e026c7ba90e29f5db9a14d1525ed418326fa9630e541e26940a7" => :mojave
     sha256 "6ef70150d5639a61368df3b2a4a166a038cd26fe3194ffaeb335d5f995085fa8" => :high_sierra
     sha256 "a9caa5681b47b7adfd7e50e7754781b3e8a3eb7879b479dbf4c192c16d0b31e6" => :sierra
+    sha256 "7e75317ef22f094ba3b70491e1d46df007bd177695fba3bef81896f120fa84b2" => :x86_64_linux
   end
 
   depends_on "rust" => :build
