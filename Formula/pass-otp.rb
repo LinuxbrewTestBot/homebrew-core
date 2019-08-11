@@ -11,6 +11,7 @@ class PassOtp < Formula
     sha256 "4fd5893adc28693cf5b532d0ad1d469d58842e355d676cb3371c4832ed1e7a0c" => :mojave
     sha256 "4fd5893adc28693cf5b532d0ad1d469d58842e355d676cb3371c4832ed1e7a0c" => :high_sierra
     sha256 "bd30d129efb90973ffa102df943b0b3f07c47f28cb70027bec07a75d66bfd145" => :sierra
+    sha256 "2a79f071dfaf9e9594e7945717b7b42151708de40e4fc06f3296b0a65761b4e9" => :x86_64_linux
   end
 
   depends_on "gnupg" => :test
