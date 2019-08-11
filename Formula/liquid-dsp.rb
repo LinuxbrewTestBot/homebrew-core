@@ -10,6 +10,7 @@ class LiquidDsp < Formula
     sha256 "12702bbff57912c18a4f637df59da56054f8afcc11f96467341af3bd26ec0992" => :mojave
     sha256 "f0a6f6caba39b3e06a972aa89293161fa6d4d3759751709f40f2cc8d7ea3c913" => :high_sierra
     sha256 "10bca6603365aeefad410287fbf1657b6b2401544e2cc16f1f2ef6f9ffbe8bc9" => :sierra
+    sha256 "0033a8865cb445399359cbe2d1db8cd86017bbb2da24631e608fb826b41f6c98" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
