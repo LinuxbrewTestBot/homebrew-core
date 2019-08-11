@@ -14,6 +14,7 @@ class Imagemagick < Formula
     sha256 "59df9e69d1bc4f0a9bf6ea0796f1216c84aee67e9200140cb275a80200cceafd" => :mojave
     sha256 "ca83d9c16422ce120b7fb458c2aba146e1382d500c67feb48e81d09035e6e866" => :high_sierra
     sha256 "c02a40f5dc8856de8346df46d617dfd70045c152befc89ea704c43391847251d" => :sierra
+    sha256 "e57d0b4f0e365c821efe704a7e4b86d0f4700761306ed62d8bc1704f42db6fbd" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
