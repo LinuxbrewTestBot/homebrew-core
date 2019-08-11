@@ -11,6 +11,7 @@ class Libglade < Formula
     sha256 "3fdb8055e888e22f7054432b185aad35a20c0d48b3c07c97429cab2b7a0bd3cc" => :mojave
     sha256 "fd198334f49180de53d5bde9406e17aa4e3051ee5c421defdab9dbb0f3a1e681" => :high_sierra
     sha256 "019f499d6ca86f279d5bfec74bf71ffe11a89bb6bc70f6901b7074e14885132c" => :sierra
+    sha256 "cfb82e7236356cef6b6f19b65d57f65fb7865e4ed7ad6aa229d111e9213ec19e" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
