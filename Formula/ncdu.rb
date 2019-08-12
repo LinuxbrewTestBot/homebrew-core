@@ -10,6 +10,7 @@ class Ncdu < Formula
     sha256 "4affa4dad2978f22cb284a3efed3b63408e0e4d4d77ac851266df15386a02c30" => :mojave
     sha256 "9fcb90b8776c442b94d387f679cf8dfceb6c7f043f33212aa77ecc72db6a8ff8" => :high_sierra
     sha256 "874b76e2ff36b231358596581ed2e8536682bf17e65e5762ae5d5aa20e511a3a" => :sierra
+    sha256 "e959200e31e58256f8bd00159bc8fcd4c343db2669704a110dc28e93545ad4e2" => :x86_64_linux
   end
 
   head do
