@@ -10,6 +10,7 @@ class Gpgme < Formula
     sha256 "2a771556a334f9ad4603e83db53cbfacf53d80dc53420f244f0e3bd73afd576b" => :mojave
     sha256 "af1c3963c888a5ee9abfe38acc31039e3da2f2d2ceded165cc6d92374ec6a794" => :high_sierra
     sha256 "11c95397d0da8b17414876c65a8085cf0ea826939c202d7f677c93bc7efba20b" => :sierra
+    sha256 "c80c4cc886f29beff045c4d90846b4ec96476eac6395d3684b57743032b2b365" => :x86_64_linux
   end
 
   depends_on "python" => [:build, :test]
