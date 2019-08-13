@@ -10,6 +10,7 @@ class Mmark < Formula
     sha256 "f81c76050c205deaf9a2378d447ee2321ea22042ff4a0364d67af41d64c30e62" => :mojave
     sha256 "8f3d90d4b75894cf9a976c767ef6d6a729b9148ca6e2a86248edc0868c9bb5ae" => :high_sierra
     sha256 "0ef2e9b31ab20f16f85aebf91ede6d935db66966f4f2d20146cc918d7ef48188" => :sierra
+    sha256 "1b413f7eeb9975ede797b90118054e130bddabefbdbccb16b78649edf1df1e9b" => :x86_64_linux
   end
 
   depends_on "go" => :build
