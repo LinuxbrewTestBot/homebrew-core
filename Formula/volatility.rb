@@ -12,6 +12,7 @@ class Volatility < Formula
     sha256 "8c8cd1a96a5e582cbbf4f5288c1c554d844d1341668aa05e45796f2cf492339a" => :mojave
     sha256 "1e243e54e576589fde637011bb109fe7afc8e2e88b79429c4a26157c79f55b0c" => :high_sierra
     sha256 "31626e2c4f9761445d57b0b77580b0b10bff9b1d741156b027f4ba325a6d813b" => :sierra
+    sha256 "b74d4b4cf8dde4df4396fa2d5bc1b868bee64c52c36e4e436614aa4e2032d366" => :x86_64_linux
   end
 
   depends_on "freetype"
