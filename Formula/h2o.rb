@@ -9,6 +9,7 @@ class H2o < Formula
     sha256 "214df20969a0f0abd19a22cb946af49193cb86cada2d711ffa388a75d9d6d1dc" => :mojave
     sha256 "30e116e634addb2aaf210d1e48bd159dc969b4e296ba239cadc4db21fbfe63c2" => :high_sierra
     sha256 "10fd1e59a9d66102c44ae4239588efc0c4ffb3b5abd5feb434b768a3212de22d" => :sierra
+    sha256 "5da9192ca187833228bbc88ba26b4191744d8caabc39742c3eb9fba9bd658f95" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
