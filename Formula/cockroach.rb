@@ -11,6 +11,7 @@ class Cockroach < Formula
     sha256 "82d20462ca26fcdaad2c4639582bc3cbb10fee2ca9fb63d1944648dc9fdf461a" => :mojave
     sha256 "247cea9630fdc06c497c42ccf6290b601870eaac96a14ec91a993e87bbf5acb1" => :high_sierra
     sha256 "f55c8f203ff3c49312641f81d7a15c4f3bcc02c5a5585981574b11161eeda62d" => :sierra
+    sha256 "27e274099f06f04f2e332c8ea14c0c371e2d14562b3768ecee5cc4bbee195b5c" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
