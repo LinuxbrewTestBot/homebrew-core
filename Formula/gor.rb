@@ -11,6 +11,7 @@ class Gor < Formula
     sha256 "73d9b114ff0abf11cd8f0dcde83df1c2db1921c1db8519060c9e5aec722e4b00" => :mojave
     sha256 "7ac5b35b06c5121f377b5c2e22f4c171dc245932eff1813b89af96a00eb4b42d" => :high_sierra
     sha256 "829149868a0fb7862c1ebb2d6db864e6e4730e3d7e138e638577aa8753334116" => :sierra
+    sha256 "e3184c1c3c347c2e140a67780e0653f61560f974bd80325ff0045c41c90e0999" => :x86_64_linux
   end
 
   depends_on "go" => :build
