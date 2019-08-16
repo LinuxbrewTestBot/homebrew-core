@@ -11,6 +11,7 @@ class Libgit2 < Formula
     sha256 "0fba4d5f2cb883e1d51b59a8b3fd5751da5ba84f908e336c6836ba9758bdac17" => :mojave
     sha256 "369187dd0615fedd7748f681047d5d28cfe1bba7bcea4d5345b53524e64e03c5" => :high_sierra
     sha256 "ee851d8551c03dbe9d265adb57f1a0069bb6114534bfbcd128034e15f9fdf5a6" => :sierra
+    sha256 "66c9f7b658b488b80ca1f2815eb8453aee54fd0da55f7269f261fe4001ab03aa" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
