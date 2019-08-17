@@ -11,6 +11,7 @@ class Caf < Formula
     sha256 "f7be1c72c823ce556860f965b00717d80621ee1ff56eb76f1806787de971569b" => :mojave
     sha256 "4fc66248b1cec4d1ec8dea0f76242ca27fa4f1f035f631a8a37bd5a8a8992297" => :high_sierra
     sha256 "3bfced0c030f1437792b32afd7059c28ebfcbf1deeb55746af9728e799692503" => :sierra
+    sha256 "48b050764cf1e2791d936a8cea32679cde21e13cd0bca17d00050b9893169a16" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
