@@ -8,6 +8,7 @@ class Orbit < Formula
   bottle do
     sha256 "eac54e39ca245af7863d5cdc89bc0aace7043fe61673075452e559a680062043" => :mojave
     sha256 "c3157060c685ebb73cfdc51acf0ce3ab62f549302c976d220136aa5fa8123a0c" => :high_sierra
+    sha256 "9df95f584f4a48891535c20e688c628bc8e252d559a8e65864582331b81d0e64" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
