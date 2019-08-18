@@ -10,6 +10,7 @@ class Xxhash < Formula
     sha256 "be63f1db40715777ed72c20e5a75b0491e863dda33d7ba2ca825f256b3f80ef4" => :mojave
     sha256 "9b4aad450dcb6469088b53d53d305da3ad300245767f93d8709c9ccddc1e9e86" => :high_sierra
     sha256 "61ceabdb6921692f69f1f51d256ffde7c88b86b58283471ee005ac7806d2cf5f" => :sierra
+    sha256 "5263566c5a85d6fd9754b6a9a699369861d86a3d4157ee6ee2b49ec09e3060f9" => :x86_64_linux
   end
 
   def install
