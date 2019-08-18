@@ -1,3 +1,4 @@
+# iperf: Build a bottle for Linuxbrew
 class Iperf < Formula
   desc "Tool to measure maximum TCP and UDP bandwidth"
   homepage "https://sourceforge.net/projects/iperf2/"
