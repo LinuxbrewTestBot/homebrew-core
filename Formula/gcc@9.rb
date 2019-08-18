@@ -9,6 +9,7 @@ class GccAT9 < Formula
 
   # gcc is designed to be portable.
   bottle do
+    sha256 "80a5652b56f6e86aa6ffc1315800e5b287a9404075f994d451dc27cf8fd02045" => :x86_64_linux
   end
 
   # The bottles are built on systems with the CLT installed, and do not work
