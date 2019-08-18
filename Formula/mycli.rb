@@ -12,6 +12,7 @@ class Mycli < Formula
     sha256 "ae78954c0d800bee80081111223a79f7d11b8b3da85aad4eeda7943431c29174" => :mojave
     sha256 "8e47206d93d7c6fafc19c9870a8978558216fc735c5b81e1a299aae641ff2c0f" => :high_sierra
     sha256 "b6ce263663a9a5a9aed941ddc79933be27a1fd54759c2dcb22159b6bfec87353" => :sierra
+    sha256 "9c848f4bc7d5dcdf5c2ddf420cfde67a8f3678b2a5697dd9bcdd5b97e7ebad93" => :x86_64_linux
   end
 
   depends_on "openssl"
