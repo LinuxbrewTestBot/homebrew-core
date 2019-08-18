@@ -10,6 +10,7 @@ class Iperf < Formula
     sha256 "8c24a0392dcda9d134c1d1121671875da4b67905321eb6e67053d6e965f92bee" => :mojave
     sha256 "7cee5824d4c70a302b3830eaf6615f52e5a1b41fdcbfbcabb46c5dd3ee00ec2c" => :high_sierra
     sha256 "4b29283a8f69c773d307501a5f89af2a0f5804ce62874b7bd2e6ea89145cf73a" => :sierra
+    sha256 "228b5781dbba6a5d4f66d47c024b7d4ef6032be6a9b02dc08bf3b0dea2cdfa04" => :x86_64_linux
   end
 
   def install
