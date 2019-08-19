@@ -11,6 +11,7 @@ class Wxmaxima < Formula
     sha256 "e56fb2634376e8f5b0d210b3d35f41ebeb6efc721f798d9a037ac3fb82c98fcf" => :mojave
     sha256 "90206d0b1ae9ecd436f79b9a9a24f6c25ad34bd6bff8f083ccdbfcdbf93e3c0e" => :high_sierra
     sha256 "05afed0a5f13840a11eed5b9d6d3bc5564194631bf909b4dc9b5e218a0ec216a" => :sierra
+    sha256 "5ed7848b71b06b17a65e79c06864c2e3ec5bbb5ecffd09aa0118ab250d44cd0c" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
