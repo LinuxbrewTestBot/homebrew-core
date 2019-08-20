@@ -6,6 +6,8 @@ class Onedrive < Formula
   # tag "linuxbrew"
 
   bottle do
+    cellar :any_skip_relocation
+    sha256 "9fb98dfcff6c224d9bf38606bd861bad5a6ab12e95ff039da7f8ddc928310c00" => :x86_64_linux
   end
 
   depends_on "ldc" => :build
