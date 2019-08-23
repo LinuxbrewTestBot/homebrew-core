@@ -11,6 +11,7 @@ class Openblas < Formula
     sha256 "463a7d63d2f6e5f38b86f91925549424ac3c7ce07d9c29450534c949f422954b" => :mojave
     sha256 "532b75aa999f42dfdacab3458a3a6e473cc603476906d4a44dd2bf77394bc41c" => :high_sierra
     sha256 "eb7ee78a2cb04296541006294740a78c952ff969d26840c21a3e9eb0924d7d08" => :sierra
+    sha256 "c27b687ed5973c5178ab77bb2686d7a4945b88d3140d9d1a024df7423bc698fd" => :x86_64_linux
   end
 
   keg_only :provided_by_macos,
