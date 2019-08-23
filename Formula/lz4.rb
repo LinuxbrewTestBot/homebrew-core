@@ -11,6 +11,7 @@ class Lz4 < Formula
     sha256 "67ca428e60e2c2f6e524dd3de42629c1a616d28b2c743b66bf4cbdcc3b28ea46" => :mojave
     sha256 "7f60879b81a3a9ee52b3e9b87ed265c4934058b841e8f5320044f826b4660a92" => :high_sierra
     sha256 "00d3610cf09b0fcde34928890f5dac870ebcaffacd6eb51eaea05b754753e462" => :sierra
+    sha256 "b13aca8c01242c01969211ca5d0a0dd3f25fe230122a9645c742fa7b566106b4" => :x86_64_linux
   end
 
   def install
