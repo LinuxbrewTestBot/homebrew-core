@@ -13,6 +13,7 @@ class Ykman < Formula
     sha256 "0efe2f842020eb08f0eaedbe5ebf67bd053fb3a0add3b5117b58646f0cca3dc7" => :mojave
     sha256 "9d066df2483b432caf694b9494d5fb11cb901779d0ff8ffa647f4c102928f09b" => :high_sierra
     sha256 "949954699cc169e4d2347ca96c37caa54c9323bd3f554654e069b70649123acd" => :sierra
+    sha256 "4561e19251c07a8912c8eb4929424c5c6fdfca5d7df835b7106c16ea162858e8" => :x86_64_linux
   end
 
   depends_on "swig" => :build
