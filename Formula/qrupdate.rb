@@ -11,6 +11,7 @@ class Qrupdate < Formula
     sha256 "e509deee8107d09eaff0e02cbe38bbe27abfb5bed32b3766be83207fccc00320" => :mojave
     sha256 "743423a355fe7fcd2e43f3056829227d3d957f717b08d956d9cee1902bbbaafc" => :high_sierra
     sha256 "835f8dbf0f30b16079b35eba39ad788dfdb3834bf6ab9acdcc8d2083f9199b5c" => :sierra
+    sha256 "0a595d9f49c170c2f1bccbbf9daaf685cc791f8f86d9058f8b504babf3c0031a" => :x86_64_linux
   end
 
   depends_on "gcc" # for gfortran
