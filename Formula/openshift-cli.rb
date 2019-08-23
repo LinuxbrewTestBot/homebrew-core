@@ -14,6 +14,7 @@ class OpenshiftCli < Formula
     sha256 "e565ddf932f76f4638e2fcf6ae85a76b4c528d000df4dc8f8ae35ee77c860adb" => :mojave
     sha256 "4e8426318d66ff09d71200bbef8154d0ba965c7ae67a6f23b18a94bf59d05b3f" => :high_sierra
     sha256 "3fb7f73cdb5b933e3e05b5724ac09dddef5c6d133c7474900cb8e47321f225f6" => :sierra
+    sha256 "88e171c1805bcd33336be641e1046c78907f9655b794a72504ea5a4aa6fee2b3" => :x86_64_linux
   end
 
   depends_on "coreutils" => :build
