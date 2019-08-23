@@ -12,6 +12,7 @@ class Arpack < Formula
     sha256 "8d6eb8e363467ee3b8a40c875e789edc3c43e3a095b03a383e721495c6905de7" => :mojave
     sha256 "41856273d9f50a1738a26c290af692414ced685379eebd69c89db308e2cd48fb" => :high_sierra
     sha256 "2c2dfdc439824d04d14c863d22c75f4e70d5f191e3cba9c6a6e567dcd4e0c1a6" => :sierra
+    sha256 "8c9565c6f27fa5910905cd1c7bd4135bb3df761a9d60181abfa6a211e3608aa1" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
