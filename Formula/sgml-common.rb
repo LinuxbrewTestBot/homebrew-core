@@ -7,6 +7,7 @@ class SgmlCommon < Formula
 
   bottle do
     cellar :any_skip_relocation
+    sha256 "84c412f7c735c7d6d2696f452234c38fe186bfac6c03e42a7edc4d8bbe7c80c9" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
