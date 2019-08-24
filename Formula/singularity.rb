@@ -6,6 +6,8 @@ class Singularity < Formula
   # tag "linuxbrew"
 
   bottle do
+    cellar :any_skip_relocation
+    sha256 "d2191946bacd5ff5f095b835edda008cea994e9834e0744aacc43e7de8022295" => :x86_64_linux
   end
 
   depends_on "go" => :build
