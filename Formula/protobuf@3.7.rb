@@ -11,6 +11,7 @@ class ProtobufAT37 < Formula
     sha256 "1f70d592ce075a0df8d0dedb054d66cc52c0b943ffe37f8e098c582a493b67c0" => :mojave
     sha256 "71e32bb6962208745b80f93015e42d71529ec6dae4e0eecf3ab9ab4d03d143e7" => :high_sierra
     sha256 "50ffdb0ccc43278d4e93aa375bec8b6fa4aabcc9ece84ba85b605ff124f26650" => :sierra
+    sha256 "7e07e83b6fafcbb24174468bb921f8824f7c3a2e7b0936fd2a99cfd3861de2c3" => :x86_64_linux
   end
 
   keg_only :versioned_formula
