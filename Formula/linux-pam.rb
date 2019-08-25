@@ -7,6 +7,7 @@ class LinuxPam < Formula
   # tag "linuxbrew"
 
   bottle do
+    sha256 "4afeecba2eb7b7cac467cd648b3329edba7d3703c2f07e3df99ae698966f84cd" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
