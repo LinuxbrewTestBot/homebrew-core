@@ -7,6 +7,7 @@ class LmSensors < Formula
   # tag "linuxbrew"
 
   bottle do
+    sha256 "ac30eb43d5fc1691278882d6924bd20b00f1e66df6342601f30dfe926e94f00c" => :x86_64_linux
   end
 
   depends_on "bison" => :build
