@@ -14,21 +14,21 @@ class Cvs < Formula
   homepage "https://www.nongnu.org/cvs/"
   url "https://ftp.gnu.org/non-gnu/cvs/source/feature/1.12.13/cvs-1.12.13.tar.bz2"
   sha256 "78853613b9a6873a30e1cc2417f738c330e75f887afdaf7b3d0800cb19ca515e"
-  revision 1
+  revision OS.mac? ? 1 : 2
 
   bottle do
+    cellar :any_skip_relocation
     sha256 "6a2788027cadb1df5de3581f4e6c0a78e30a2b98dd8cbf26fc7ec030d9a8fc18" => :mojave
     sha256 "11b8be2fda1de3c8b77b20bdc283ceb12ba511826a0d3b79147dbfaeb83420db" => :high_sierra
     sha256 "01f9517d330037a248bc6d36c8127a4f99eb364a8a0d1cc5f8520cca261b7163" => :sierra
     sha256 "32dcf27cf028e270e826ba9850bde2f403f77c2c16a4b534d59cf68c0446e1fb" => :el_capitan
-    sha256 "59b24fcfcf5d40a1b8813bd878fdb05efb0fa0cf71a37e449bfd67c3f27244a5" => :x86_64_linux
   end
 
   unless OS.mac?
     depends_on VimRequirement unless ENV["CI"]
     depends_on "vim" unless which "vim"
+    depends_on "linux-pam"
     depends_on "zlib"
-    depends_on "linuxbrew/extra/linux-pam"
   end
 
   patch :p0 do
