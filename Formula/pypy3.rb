@@ -9,6 +9,7 @@ class Pypy3 < Formula
     sha256 "92de58cd59bee0061cb61c87b09d859df41f6daddf376573dba9f9d12d3ba2f1" => :mojave
     sha256 "9e366afcc36b9c8f5523ff1a57c349dff7827dcd43f989ee42a2b0559e5e9197" => :high_sierra
     sha256 "47236bd7a55b497bd75f183e59402802223b06f19fef7e246c3663461f072af0" => :sierra
+    sha256 "24dc94a977f55e4826d4d5928174fbb6531301c5100ee8e33af01d3e0f75cd7c" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
