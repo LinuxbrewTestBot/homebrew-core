@@ -8,6 +8,7 @@ class Iotop < Formula
 
   bottle do
     cellar :any_skip_relocation
+    sha256 "e04a07adf72ff53c32d91f9c982b615be8866181d018c03bddf9c47a8c00be53" => :x86_64_linux
   end
 
   depends_on "python@2"
