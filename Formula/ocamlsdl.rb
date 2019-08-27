@@ -11,6 +11,7 @@ class Ocamlsdl < Formula
     sha256 "d31de998e5cf5d9ced506dd831f21a5e26037fcb267cd8e28119704d4c73e778" => :mojave
     sha256 "c108a69107578704b2e161ac6002e8d7b51f9f6442d2de52046c1df33e20f50a" => :high_sierra
     sha256 "dd2959698fbdde6d1cd947dd1c3c7b872cebbff43bac5b8ef6c4770bb4e4584e" => :sierra
+    sha256 "faf7d1079ecc81fb140b507d329931d684d3d21672ac89f8b0e9d2f9d7727533" => :x86_64_linux
   end
 
   depends_on "ocaml"
