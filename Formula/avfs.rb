@@ -10,6 +10,7 @@ class Avfs < Formula
     sha256 "e9f048f1f3f156b62c0650d07b51e82020a896538a51fdffd2ae06bf2d661380" => :mojave
     sha256 "4ca7d845c2b2e3c066c2441490b7e9588ef727ab0815aee57c5321ad826435df" => :high_sierra
     sha256 "9dd4c35adcc1c1350b48f0a37130414370b38c63a886a0b1824838da34a16c97" => :sierra
+    sha256 "b3c7bf216075ce43a42a995fb3cb71239e598b671c48db93828668c146035a2d" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
