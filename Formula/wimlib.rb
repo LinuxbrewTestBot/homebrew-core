@@ -11,6 +11,7 @@ class Wimlib < Formula
     sha256 "7969f20ce9f26b7435b4242fb241c2527848581469be0cad09a3f5de77b11a05" => :mojave
     sha256 "33a3397f536e339ca4177d3639b55e223040883af9d5afbbb47cc3e9b1bb87e9" => :high_sierra
     sha256 "66a39e7eaa96a26f988a0c6eba0ad614ca449b0bb5688ebd70830f8863da5244" => :sierra
+    sha256 "61613be1a3dc76ae6eef007b1f491ad6872af83407100523b86682a1fc3548d3" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
