@@ -13,6 +13,7 @@ class Pyvim < Formula
     sha256 "db64f72516e0e11c230fab541f11d2707d9bb0d1069292a0435f462a54440bfc" => :mojave
     sha256 "cc567ddff18dbcf58edc1a7578bfe1ff9228d84f22dfbd231d0b8b2b92ae366d" => :high_sierra
     sha256 "b8626e91ddbbf8abaf02755765dc0228160e0a65faabb963a60352a03e9a6ac8" => :sierra
+    sha256 "0e8f75caab4863ce2006ee84d299abb3e5e06f795767f4ba8ad3cdffee804c9f" => :x86_64_linux
   end
 
   depends_on "python"
