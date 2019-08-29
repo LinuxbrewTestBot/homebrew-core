@@ -9,6 +9,7 @@ class TerraformAT011 < Formula
     sha256 "4460e332118c477f7389093d533e63752469973487275f1d656a80974d723888" => :mojave
     sha256 "a7b28af5ba3c9f06614eef3ca71653fbfacc3ff62abbaa75f4c187f996584af8" => :high_sierra
     sha256 "eb5d3500ed06ce55c984e79a317050b4483b25774bf6a77147dfdb2c3746fa25" => :sierra
+    sha256 "08c82d763499c2bfb2af815bedf79777c7591152bc5943f8911fa01681ba2e24" => :x86_64_linux
   end
 
   keg_only :versioned_formula
