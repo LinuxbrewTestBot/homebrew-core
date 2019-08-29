@@ -11,6 +11,7 @@ class Uftp < Formula
     sha256 "7a3fba8e55b2dc2eed95d3922ee849b158c97eb65b5bcd333d5b70bdaa198f51" => :mojave
     sha256 "2a9dca5eeafa7a9b3ecc2fbe989e107dcc88609529e298c903a1cbdfc4cfeb76" => :high_sierra
     sha256 "a8f42a5f05adb4566f7179c2798f2e93b46f937508fa70f1d91cb8d192096765" => :sierra
+    sha256 "36fe4be5c765b7f3980772cc4b6bff6e08e937bff6ecb045b0c938f372f8b285" => :x86_64_linux
   end
 
   depends_on "openssl@1.1"
