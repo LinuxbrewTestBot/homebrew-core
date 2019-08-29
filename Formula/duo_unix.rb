@@ -10,6 +10,7 @@ class DuoUnix < Formula
     sha256 "210721657888ee878f11a03497a9e5d8823410c4d0099b9aa33d03af4cce3b6e" => :mojave
     sha256 "bb736a12e115653d1eafb88221825101110cd9399e347241668027cf44b5ba44" => :high_sierra
     sha256 "dea30d4a4b5e20534aef3fca59001c58bed00dfd892adf458f9c417e73dee000" => :sierra
+    sha256 "d4bdec0a262d7dac63cf9d555f38cced4c1f65340dd8457d94cc33cddec0e2c0" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
