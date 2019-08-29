@@ -12,6 +12,7 @@ class HttpLoad < Formula
     sha256 "d0d672723564b758fc3ef0721239e108ec063a395e183db033071200d5d9ee48" => :mojave
     sha256 "22e21275c49121c174024104f9b99c5f55d37e032ff7cae42bba89746c26bd88" => :high_sierra
     sha256 "a949ed2040faf49c7cdb6bf0110dfbbff465641c811e78a035998a4160170a05" => :sierra
+    sha256 "30aacd4e7c9db8332f96f490a653b0955aaeaddfe35fcde7aa1218187c044803" => :x86_64_linux
   end
 
   depends_on "openssl@1.1"
