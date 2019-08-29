@@ -9,6 +9,7 @@ class Lftp < Formula
   bottle do
     sha256 "6861fecd8432bb8877144bf61df25f052509d1ffd692b9f72e2bb9d86b542750" => :mojave
     sha256 "b45767d676b23b29eab6b820057820adcac582304ea44ac7926060407c63d072" => :sierra
+    sha256 "ef7a38c92207b275c1b6077e97e81fbe83c8ab8a0d3092e57765b1e7b183fae3" => :x86_64_linux
   end
 
   depends_on "libidn"
