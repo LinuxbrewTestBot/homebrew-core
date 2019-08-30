@@ -10,6 +10,7 @@ class MysqlCluster < Formula
     sha256 "c674f96367eada920fa37cf53d8ed2ec599989c4962b224b71e43143d719ee2d" => :mojave
     sha256 "5aeccf907d65e780dcf4272a48f13556307713338cad5eb34394c5f688461889" => :high_sierra
     sha256 "64d695dea06e09721948a623c2891876c4f3ba49cec6ffc1f1a08739a513babe" => :sierra
+    sha256 "8fb8285458fb67c8270bae11b59feb37956c59cbcf673d16030f718790fc3065" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
