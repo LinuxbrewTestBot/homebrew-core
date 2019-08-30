@@ -10,6 +10,7 @@ class Icecast < Formula
     cellar :any
     sha256 "ac73db76265cce7244bf2e0c5b16de50c94a5161ce34e24062e3e135ccf8b1bb" => :mojave
     sha256 "8b1366feb5df71dd1702a6ebcf990e15b32c0b0220a23a8c8336cf0244c7dfac" => :high_sierra
+    sha256 "622ffe2fa9c3baff4ff5ba97e84d7bf098cd414b2b7f85ade989e6ce1c9cbeff" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
