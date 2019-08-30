@@ -12,6 +12,7 @@ class Nopoll < Formula
     sha256 "dcd358fc9a1f1e106aae15d59b1190956f0ac4e7f52673d24833edca3c1146cb" => :mojave
     sha256 "16bde638c91fd329d946b5854cd44291cbf516af2888e7880c5fa47dcb777936" => :high_sierra
     sha256 "dd12a792cc0cb95a56cce2037d22b4c1141b85da48d2c511f6495914351ce2f0" => :sierra
+    sha256 "1128029c6204cc31215dfc949fe819bb17a34cf16dddcf28020250d79f21ff18" => :x86_64_linux
   end
 
   depends_on "openssl@1.1"
