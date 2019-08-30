@@ -10,6 +10,7 @@ class Pdnsrec < Formula
     sha256 "700f8316d4b5770dd7764b2a60220a5c7ec239d044280f2436c97432a71d6327" => :mojave
     sha256 "a1cf1c5231fcea9c0a48f928e4479c60627d4823557db01b21c8c9c79be68240" => :high_sierra
     sha256 "531adab0998084f2e66923b2429c5b4c446970d222b6e1b38c71eadcbd5711b3" => :sierra
+    sha256 "d3b1abf824bb43c79c0782dd481d1f5d373a0a564e0d012b2cf16f7f64d83de1" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
