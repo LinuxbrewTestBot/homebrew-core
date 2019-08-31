@@ -9,6 +9,7 @@ class MitScheme < Formula
   bottle do
     sha256 "fdfd6d6c6565b5f5f34a50203ee9c661e2126eb23d181b228ef1caf32591d43a" => :mojave
     sha256 "272a286e40ee02cf625f41f25ba020b87ec07a2da277d1e8b6ca083266595aee" => :high_sierra
+    sha256 "615224425fbdffd71fdb82a14d8b76f20a5d219206be0d0e622fadcb86afddf9" => :x86_64_linux
   end
 
   # Has a hardcoded compile check for /Applications/Xcode.app
