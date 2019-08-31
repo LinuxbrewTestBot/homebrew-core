@@ -9,6 +9,7 @@ class Uptimed < Formula
     sha256 "ed7ff6b62654f5514d2657f07ed2dc83d5046a2219eb651b6423609fac961f28" => :mojave
     sha256 "128fb7d767fc12e12917cbc761a942158f0fd75a5a9e209508670287cb5d00ed" => :high_sierra
     sha256 "195a89c67e7e09ba690f1cfc8fd91ce07d0623ca9b5da4f2fc70dc7f1f81c9a7" => :sierra
+    sha256 "e2481a16a0e48999807492e3631591453bb0fa6b755cf766d2dbf692284ea07d" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
