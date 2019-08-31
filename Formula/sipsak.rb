@@ -11,6 +11,7 @@ class Sipsak < Formula
     sha256 "5da0bb6fc866723e423714b275cbc6c64ac1e57f171cfe112bda6f9779385ae3" => :mojave
     sha256 "6cc0007fe520e225bc0a6b9b646817468acbc1383cb6a4382ae8bf1243ae3e5b" => :high_sierra
     sha256 "0d074a6356f127485211b79741fd7f45e7ed9435e4d708e539088a9e9154daea" => :sierra
+    sha256 "3047d9be18d21a9c1e8c8236612d936b5d0bb22eb23ee9f7de56b0d918e912f4" => :x86_64_linux
   end
 
   depends_on "openssl@1.1"
