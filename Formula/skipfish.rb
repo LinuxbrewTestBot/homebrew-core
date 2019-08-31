@@ -11,6 +11,7 @@ class Skipfish < Formula
     sha256 "89109163ad7ff8d82869add5523737ea41704b330f3f4b0ddf9ee3f25ca562dd" => :mojave
     sha256 "b67e901534789b2e4438b4736dbcb7ca21d25e4aa3210869ff6e84eaca0f4c34" => :high_sierra
     sha256 "821c75cf8c8455482f47ae910bb867ceaac0546ca5af022efe9705e1d0c9830e" => :sierra
+    sha256 "ca4dded27133fa3ec5919691456ff0af69ffba0c215cbddc63a74e43dba67173" => :x86_64_linux
   end
 
   depends_on "libidn"
