@@ -10,6 +10,7 @@ class GlibOpenssl < Formula
     sha256 "171ff3da6a7005ed1ea4b7a91c4c5e9e40d2734f16fcb5f59a6e1e61121e0b96" => :mojave
     sha256 "d1e80772b47e7a091ec67ac2d109c38bffdb7ab3b1c7ca0e66b8d021174abdba" => :high_sierra
     sha256 "364b2a93210cae83e7b59798dbda1459ff35d26477e814ec5a9630b14b7340c7" => :sierra
+    sha256 "b1dbdf34fc934edc45b56996ab97d6a8823b751b7f1e1b46f3afb76c60f3188b" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
