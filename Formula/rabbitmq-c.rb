@@ -11,6 +11,7 @@ class RabbitmqC < Formula
     sha256 "93a530bf4844d0d3c653826359aa77bcb67691a0424b8ca1c6b20bec29733821" => :mojave
     sha256 "af732c62d886aa4ec4c2e73287d06e2ed422736de17637395c0a44474942fca1" => :high_sierra
     sha256 "2ed895d32e8a07f12b3583541f9fc8d59935e5aa767797f56711e67cdcfbd889" => :sierra
+    sha256 "491b3162d6378519b1c786a672d911292852689152e27bc0dfb72eeeb521225f" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
