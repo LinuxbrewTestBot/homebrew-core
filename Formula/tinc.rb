@@ -11,6 +11,7 @@ class Tinc < Formula
     sha256 "ebbeab098fdaa5cb99c82e3dfe070b9b937e3fcd0bc2bf359065baa3724a21cc" => :mojave
     sha256 "69cb1d5d79d864dcccf9780f155717149b543aad9fb20169dfb512444a2d58c0" => :high_sierra
     sha256 "ed42273ffbc0b26357b8f70fc5af4a9f089d19978ef0d391f2bdbba50aa97178" => :sierra
+    sha256 "c995e2c37ef5165d45d6bd0075b94fc54fe27b58c54af8203cfbe2e66c575e69" => :x86_64_linux
   end
 
   depends_on "lzo"
