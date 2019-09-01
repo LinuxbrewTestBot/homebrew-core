@@ -11,6 +11,7 @@ class Zbackup < Formula
     sha256 "d3d4de3c3d3ddd8f5f0b980a4892a513f92670f74d34cff90c080beaf0218e21" => :mojave
     sha256 "eaacc6e61e06422eda9ff4bb746d8ff4d9880f26913399b18b9d8b160fabe9bf" => :high_sierra
     sha256 "8b9db7d09db9811734968cd44985aa8bb48f0cafa3d118461a58bbb77f38a272" => :sierra
+    sha256 "80da4fc2b629588e11f3b4861f326631e74a2b219273666900b4a7ce5f57edb3" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
