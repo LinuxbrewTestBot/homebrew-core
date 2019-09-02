@@ -12,6 +12,7 @@ class Pkcs11Helper < Formula
     sha256 "c1f7cd0ecece3f42d6e26888f4bc2dadbf8276f5ddbbafc566515abb19494a9f" => :mojave
     sha256 "847249ed020552d1cd72935407e19b47d1b421e6d2c61761587af9598ac84afb" => :high_sierra
     sha256 "7e4e2e52985c686dbd0cde59940c59741129694adddfbd64308f5fccfc35e055" => :sierra
+    sha256 "4a211baaba6d94757d04cfa24a2ce015f6e07b6a1b2e3f3a51ef6b3c1d8505e1" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
