@@ -11,6 +11,7 @@ class Miniserve < Formula
     sha256 "0191163688b41dbe508ecd78334a7c07ca008a56dd593d4388a295721c56bdc9" => :mojave
     sha256 "8728bf2170cbc7f4c09800166c6017d6132ccabb59a3a7696d656852698acdb5" => :high_sierra
     sha256 "c5807a45746f591af319ac13b183ba674e98b8f4c8d0e8c9858c0cb88c4192f5" => :sierra
+    sha256 "186119c95fa794f4ff5d360ca92d9f46f5bc1f453f37482d85c18562f2245624" => :x86_64_linux
   end
 
   # Miniserve requires a known-good Rust nightly release to use.
