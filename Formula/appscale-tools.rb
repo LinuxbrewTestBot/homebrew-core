@@ -12,6 +12,7 @@ class AppscaleTools < Formula
     sha256 "152516bbbd74d6e356e70f2127f5856138291afcb2c5c8fb32356cf3827b2f5e" => :mojave
     sha256 "2f3af2aec3c7270aea877868f28f6a7a2c783e74b44261523d255b409047689a" => :high_sierra
     sha256 "e8eec8f0fef97aeb3cc2c6cf196712b44fd34d73c1292746aa3fa7ab75b8c0b8" => :sierra
+    sha256 "a3f82399369178a8f3427bea3adb6921fdf21100657a94850cd60b7ba3cb8d91" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
