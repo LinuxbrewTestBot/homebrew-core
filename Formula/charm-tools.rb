@@ -12,6 +12,7 @@ class CharmTools < Formula
     cellar :any
     sha256 "7ccf3c793d17f96c10f0d26163dfec3ad4f36412d928dae06bd7b6f05d27f1c9" => :mojave
     sha256 "f2bdd6b536bfc6fa805404118fa36a8f03e1fddd0e206adfe37e556f19f34e9b" => :high_sierra
+    sha256 "ff8167ea33987fa3ab80cd3ee85d1cf39a34ddbcbfdfd9696cd7c007fe04cc3e" => :x86_64_linux
   end
 
   depends_on "charm"
