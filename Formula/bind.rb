@@ -17,6 +17,7 @@ class Bind < Formula
     sha256 "80f38a4640db669967233f621c0ed90e334bc9d3a7a7d00b56370c87baaaaf3c" => :mojave
     sha256 "851e1bb2309c0cb022ecf0e3d44ddce3005d5d65085812278196a48354b1cad2" => :high_sierra
     sha256 "a4d170c0b37764735530403dae4a3f51ff9447366f965813049b9ec8dce2d66e" => :sierra
+    sha256 "1f23164ac94d313b5aa87dc9511e69838b64b874f3e644c3eb5d7d8089221079" => :x86_64_linux
   end
 
   depends_on "json-c"
