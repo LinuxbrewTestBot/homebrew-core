@@ -10,6 +10,7 @@ class PerlBuild < Formula
     sha256 "334d758431276eab85dedb6d85f49ba231cbf6f1403a924ee09bbe036c97778b" => :high_sierra
     sha256 "db1311750f48a2bd5cb8571f4dc7688c59b510855ca5481f65d57042cbdfc883" => :sierra
     sha256 "fd55b31409de788975a6118a73786b845a131e944edc8cf41877c5eea21044bf" => :el_capitan
+    sha256 "2cc8d528668315ba1e6b66caa69b43ed0ee9feaa41736421c24a328404f89b93" => :x86_64_linux
   end
 
   uses_from_macos "perl"
