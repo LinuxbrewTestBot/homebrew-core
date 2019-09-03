@@ -11,6 +11,7 @@ class Libu2fServer < Formula
     sha256 "732660807115af952d552524130daa4bf0e4314eebf2f94eade5e2b8229ad678" => :mojave
     sha256 "f947cf956060d05e1ccf80d21e5f8e0efcc26144cdc15998fb26235bde0b184c" => :high_sierra
     sha256 "e507b37b71477f7315eeae089473689bc6fbf05466a402ffd48df80c26985ddd" => :sierra
+    sha256 "97f6e3ee0c9d38767035587fc8980263cfa36f5101491aa85728a9bdf0be022b" => :x86_64_linux
   end
 
   depends_on "check" => :build
