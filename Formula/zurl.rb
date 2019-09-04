@@ -11,6 +11,7 @@ class Zurl < Formula
     sha256 "cd5e8df45b97733f790cf8cd37cbe40fc3cb35e7a69fbccdecce45bc04b21457" => :mojave
     sha256 "8155e4f50b2272c468d45a74447c78bdb7b2bb47b3b5ee59f7dde12996229011" => :high_sierra
     sha256 "6b1e4a67a6068160c0a0a20881679ae3e6498af925611bc26a0ff9b47bbf215f" => :sierra
+    sha256 "8c729bda42c5daf198699ed52b927636e7abf43d2d28db96c0da0bdca24d7478" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
