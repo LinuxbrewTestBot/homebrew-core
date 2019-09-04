@@ -11,6 +11,7 @@ class Gsl < Formula
     sha256 "6c88a066c85f76c93a20f6e3256fb9022d6e7db828d184be5b42fd0b322ca7b8" => :mojave
     sha256 "8213b1a73d038e499223ccae6d04afe6eb2d9455e327d9558351cf47a0431b84" => :high_sierra
     sha256 "8515f26e5a06a99097e87dc9b88ee79787b95448ab67f09b449aee4b0d67bdba" => :sierra
+    sha256 "afe8e13b6a156ffa43fa58c9f3a9187d5c7f4a1d8eff8c92a7112ff13ffc536d" => :x86_64_linux
   end
 
   def install
