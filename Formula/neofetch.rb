@@ -11,6 +11,7 @@ class Neofetch < Formula
     sha256 "28101b31f5b5c74332f425dc22819ea272f085b73a7d8aa892daa8c9f12c3baf" => :mojave
     sha256 "28101b31f5b5c74332f425dc22819ea272f085b73a7d8aa892daa8c9f12c3baf" => :high_sierra
     sha256 "4f9522500f193bb660a7a449706417e450a8a217e98b6439c1c7a9deab3e0970" => :sierra
+    sha256 "68021b543f587210bafd9045f881da4d2149e22b1f06de063c0fa9d84469f845" => :x86_64_linux
   end
 
   depends_on "imagemagick"
