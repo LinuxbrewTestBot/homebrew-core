@@ -9,6 +9,7 @@ class Proj < Formula
     sha256 "136f63801c76a4c288ed6f520ae42fede385c65767ae9d323671ab0f00805e9b" => :mojave
     sha256 "e18d22d518a9d7841815a87f29e1e56acf46d0aa3b9f1ee1740bff2537e38bb8" => :high_sierra
     sha256 "2ffd7fa1cbed257c42e4d81f7f5e75ebdd81d009a0cf2eab0f3136a68f3579c2" => :sierra
+    sha256 "2f0af9ee50f849f0ef12c4151f6083e38b6e562ea30776a85003c601cd61582a" => :x86_64_linux
   end
 
   head do
