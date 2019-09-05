@@ -9,6 +9,7 @@ class Freetds < Formula
     sha256 "abb170ce9f2ac43e53a6e32a1d282551e58f73c161353db26039644b01a8453d" => :mojave
     sha256 "89b2b1240de2034efb9dcd2990c29f2ffdc011efbfae9b09cf30ea9b7ed3ba4e" => :high_sierra
     sha256 "4594adea18d39ba88fc67474f49b131dacee8907290129f5b21319283e2cab61" => :sierra
+    sha256 "3da9fe1bf82098fdcba68941ae005be07047b08ebb494689984df5d526bee323" => :x86_64_linux
   end
 
   head do
