@@ -14,6 +14,7 @@ class ApmServer < Formula
     sha256 "270e7d9dc45e547f4a98e592286e93182eecc0fa0744cec167987bd37d5fbaf6" => :mojave
     sha256 "1bd89339bcdd9474d1baf7011dee653e23ed1e3cab4d164646fdd59acdc892d0" => :high_sierra
     sha256 "62bcad59f0b04ea4db8c180e4dae2166ec921561a978d726b8c2aba86fa55870" => :sierra
+    sha256 "cbe0b2628203b2f449048b537e8e32850bd4de3051a88aade21cc3468d422bc5" => :x86_64_linux
   end
 
   depends_on "go" => :build
