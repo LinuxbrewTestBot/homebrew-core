@@ -11,6 +11,7 @@ class BoostPython < Formula
     sha256 "007c36bd83c74a8337de124730544b5ea145ddaed5708451d1fb0e1f8dfa75cb" => :mojave
     sha256 "2851b897d46a0f84ad4561050804edc361b954c8987da71a0374aa3eab1c8966" => :high_sierra
     sha256 "bbfedf505fa8c0068acba3bd2b6d45910fc6fc21ce7975f06d19412621e3ea87" => :sierra
+    sha256 "93dcd3820c94a69f4a103d5492d96a161d0a6c12954f61c2c5a783255a55b3e6" => :x86_64_linux
   end
 
   depends_on "boost"
