@@ -8,6 +8,7 @@ class Libzdb < Formula
     cellar :any
     sha256 "ade5d3ec48bb114117821a89d26fb1e42b03b2dbf5684027dabefa7ccd4ec6bf" => :mojave
     sha256 "d93dcbf0ab557ec5194d4ecf6791ca2b2ec811154a608248690cecba8292a161" => :high_sierra
+    sha256 "ca839f658ceed01709fc4c6530f50aa02aaf55c3fb814441ac25927053831776" => :x86_64_linux
   end
 
   depends_on :macos => :high_sierra # C++ 17 is required
