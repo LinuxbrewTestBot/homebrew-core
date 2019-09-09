@@ -9,6 +9,7 @@ class Amtk < Formula
     sha256 "9f33a4487787d124aedc94f4c19e59558d97782383100aa385c628d8f2148b6e" => :mojave
     sha256 "7698d596007d0d86b4ad672915cff4d1b6ec1fd2abcd931e3f5b7f17f40e196c" => :high_sierra
     sha256 "e3780ab44f49105445ff6e5f3cbf048f1e7572c1327068d92ba5d81de62f7ecf" => :sierra
+    sha256 "8b4d0dbb4a7d7a04ed8c13ec5551450bb07fd14a78653db412f0ec6c4bd31458" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
