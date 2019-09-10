@@ -10,6 +10,7 @@ class MysqlConnectorCxx < Formula
     sha256 "5fdaa61ec06aad39c52b1638baf5c062a1ae9b1ae86726c3f3421c19ab1b9ef6" => :mojave
     sha256 "72940532ebac56878aed409ed1d9de49e581ce4f322610d29a24980ce1f0c45f" => :high_sierra
     sha256 "826e77eaf68079bcee9c6ad167276f0c8dcbca4bd488fca56ed84dc35029593f" => :sierra
+    sha256 "650fbc8a24584aa68b3089cf74bf378f9e895a9840a320ab0f34e5534f404d31" => :x86_64_linux
   end
 
   depends_on "boost" => :build
