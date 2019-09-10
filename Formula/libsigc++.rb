@@ -9,6 +9,7 @@ class Libsigcxx < Formula
     cellar :any
     sha256 "34d97436f679f9ed9d76a1878d87b29eab692b487cb24aa2b18ba34e6856ab25" => :mojave
     sha256 "ea4710c4dee791bf3109ed28b2cf1d17deb07811f334fc8ff462aafdcf222fc4" => :high_sierra
+    sha256 "b5441a1a27991d7653a56d49d9d198348dae821b578523f4965c2bf720246cf6" => :x86_64_linux
   end
 
   depends_on :macos => :high_sierra if OS.mac? # needs C++17
