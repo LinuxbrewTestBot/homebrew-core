@@ -13,6 +13,7 @@ class CharmTools < Formula
     rebuild 1
     sha256 "4dfbd895dfce317a0e03c0871fe5e1816c76468e36939ddbb664fd7d86bf0f0e" => :mojave
     sha256 "6f15e053e7c0f5f3f3c71e03615ffeb92e32de743a22899ddfc53c82f940faea" => :high_sierra
+    sha256 "ee63c3932c2b7538c0318c5e8cc698150aa2f28d1f1a50804cb8bbae09aa8188" => :x86_64_linux
   end
 
   depends_on "charm"
