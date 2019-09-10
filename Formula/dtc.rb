@@ -10,6 +10,7 @@ class Dtc < Formula
     sha256 "f81433bf0b0c539aa98320607475535cc095241a66eedb9706ab46057c5916a4" => :mojave
     sha256 "a9157293d39e028781397ad121a386d7c3fc61f217f95f0834326e5c0cd591eb" => :high_sierra
     sha256 "166f31f4093b82f486f74c752e2541e1bdd27399744cce5c0b4a65f36dd1a5de" => :sierra
+    sha256 "8a68490faac4121715eee0a179d27c25505e098e5fa63ee47a017e98e2d6517f" => :x86_64_linux
   end
 
   unless OS.mac?
