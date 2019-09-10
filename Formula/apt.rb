@@ -6,6 +6,7 @@ class Apt < Formula
   # tag "linuxbrew"
 
   bottle do
+    sha256 "3ee78dbad649cf2acedacbf8d049001118133d2bdcc94068875024a8b793b27b" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
