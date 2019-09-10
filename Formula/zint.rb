@@ -11,6 +11,7 @@ class Zint < Formula
     sha256 "cb5636c433b062d562207afac08d7200bea18e26aafc9840955df3ea7aae51b6" => :mojave
     sha256 "f74d7d1b72fe284fc2a980e1a2ccf5cc0559e004064d451eeae7147dcbe9256f" => :high_sierra
     sha256 "c9183fbd6c0f0cbe7b4fce3091608691b843e089411e072b053662af9f512905" => :sierra
+    sha256 "c8169548a099ff263d5b30607929d5471ccd689e1cef201cc59b85a73ca09873" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
