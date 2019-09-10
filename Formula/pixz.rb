@@ -11,6 +11,7 @@ class Pixz < Formula
     sha256 "1fba8335b8dd4b061f961ce2e5d03eafa550a7a92edc8b8a95b6129c55bd6b7b" => :mojave
     sha256 "4c971701c82c6444dec792341b49b8ce38e88b2d9e3d549c12433d2fef37cd0a" => :high_sierra
     sha256 "9d2f908cb1c21882c95f3c3284c9b4c1eea74c2b25d3ba6df9ad47fadbcc0813" => :sierra
+    sha256 "8d343e003b45b1048d2747c65d15c1242ac71ba58f890f3d365ac6024a740e14" => :x86_64_linux
   end
 
   depends_on "asciidoc" => :build
