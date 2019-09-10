@@ -10,6 +10,7 @@ class IcarusVerilog < Formula
     sha256 "0237851e478bcb76567111f14c1e42fe79161a8cd28ca04127295fc40db14113" => :mojave
     sha256 "96a15af23212d29f9410e073418c9388447955245fa8c38cf3b27ccf8fabd178" => :high_sierra
     sha256 "ded40d14a1cd74f2b764d9cf667d48ee8b6c010e77d88ca47afc99188ace1255" => :sierra
+    sha256 "7454e7de194a151cf86970f7ec401344eb023c5314221ebaabe728048a51ee79" => :x86_64_linux
   end
 
   head do
