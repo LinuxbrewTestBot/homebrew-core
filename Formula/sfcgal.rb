@@ -10,6 +10,7 @@ class Sfcgal < Formula
     sha256 "1fcacf1736448f1490a29abf188bb00499bef52f7dfe6d11adb7bb9f7d6b1730" => :mojave
     sha256 "be74e088dc8b81771e8ece9a79e3ba93f8338e764bb70b173ea045037d4b1790" => :high_sierra
     sha256 "49f796b256dd748214d8b2d8a954daa3b1f01c6ae3bd96bc1dff2a3364e57c63" => :sierra
+    sha256 "a0f413c7a9884052ccf6bb00e5b8dc62b166df0e62681665bd214ddbd00601d0" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
