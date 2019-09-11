@@ -9,6 +9,7 @@ class Graphene < Formula
     sha256 "3d50bdcd26cee560b210108fa71abbea9cc5e747ea733fa327d23835ed2f78fb" => :mojave
     sha256 "d5d25240fa183463100d935d5500a54a82a80d09c60b5066093ad5b34c9dd0b9" => :high_sierra
     sha256 "faedb0110f39db296ce897ee2b043ce10a24317e2a70f2c533b3cb33ca0c2f46" => :sierra
+    sha256 "76b1c6660b55f168ea3acb4e4f639c72aee5e9b577d9a8866a36cb284a40fc9f" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
