@@ -11,6 +11,7 @@ class Cairomm < Formula
     sha256 "2a77a830256c2da441f636fddbdc2bd4ad390e920fc223b4ea33821ec1265195" => :mojave
     sha256 "08a29b621ee8173cb17452f2e7a62adb83a60a65f0758cab545ddc0c53ecf681" => :high_sierra
     sha256 "1845ba3e5dd9364551980e16b446620e4088f1fe90517b5af7cd81435b60cc08" => :sierra
+    sha256 "008e269d93b7195ae23ad74ba46c4ade2370e758c2adf06b01ae1bcc6ef5c8b3" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
