@@ -11,6 +11,7 @@ class Thrift < Formula
     sha256 "ead278adf991ed6056b97806f5a7815f76340492d00b39801c863e907826a2ec" => :mojave
     sha256 "f2a1fcbee158d5478f786a1ff7667c65061e15f8a0ebecdbc69e748c184cc8ef" => :high_sierra
     sha256 "3b554722d5011a8aa1906046d4d65b3482a121baf36c737aca4de1d270171e42" => :sierra
+    sha256 "54aae1365f6c04d9d69e2e5e7e1940954ed1b8ae4706d46c2a43ca9472f4cd71" => :x86_64_linux
   end
 
   head do
