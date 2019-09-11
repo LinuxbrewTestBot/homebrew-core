@@ -10,6 +10,7 @@ class PhpAT72 < Formula
     sha256 "abbcd1c105f315daa497b36bf45c57aaa8d53ce1dcd6b9de5deaebdadcba7fa7" => :mojave
     sha256 "aefa6b2c2c330300df716fc601c36d7ad91f996a8b081f84e066071b3c263488" => :high_sierra
     sha256 "753f7296d0d490c10b27d3e9e200da22b6d316f02ec3b4807e8e1a0c665aaaf5" => :sierra
+    sha256 "78a1ad85de45c2f24c8f068c3327b742f1ca9833ca5e6704d7a6ca5b5c7328c3" => :x86_64_linux
   end
 
   keg_only :versioned_formula
