@@ -10,6 +10,7 @@ class Nghttp2 < Formula
     sha256 "e2c689aaea97495a120f6fd923484a061a016bfcaa9084689e4737f41d73c964" => :mojave
     sha256 "fd9f5886356495b019830d38e3d041e8bc524a80a92ba4ccc811badb3ee9b3ee" => :high_sierra
     sha256 "55ea2f944214fad0b946a194d0e43c256345290581670922c397d187a560ee13" => :sierra
+    sha256 "9bdfda247202b142ce64688ee381d2d6007d1f0e1bb0683e675f480f941ed96c" => :x86_64_linux
   end
 
   head do
