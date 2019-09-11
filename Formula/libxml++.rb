@@ -11,6 +11,7 @@ class Libxmlxx < Formula
     sha256 "720d42ff48194360d192e9166697a8e299268ac2722c5c8b599fc2898cbd1def" => :mojave
     sha256 "9f25cf8395b3a06dbfe5d7dc2ddc320e2491211bedbe95ddac53b748eca9a31e" => :high_sierra
     sha256 "074c4e2583789fd71bb88abbb230cee7a55d17bece2ff8630feeb895b0c5fddf" => :sierra
+    sha256 "df9a28ad52aa81b36ed20f1e2a860fc4661c486b0cbf779da80771f5494dff42" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
