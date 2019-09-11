@@ -11,6 +11,7 @@ class Spdylay < Formula
     sha256 "9906d0abfcd17c86df23c18b1ed112de0266ccbc7a50c24f741f78bffa552540" => :mojave
     sha256 "c89edde9d9229dbe524d28b661265349af72a2dac0b85f066751d4716effe1ab" => :high_sierra
     sha256 "2f24051eb854a2345e88a1e023aa76fa6c2cb7522ec0fd7644af15694b456f27" => :sierra
+    sha256 "25602239d3bbc9ff4bafe432e3f287379f4348270d460a2da32d4fc5a063cc56" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
