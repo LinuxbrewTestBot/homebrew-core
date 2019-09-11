@@ -11,6 +11,7 @@ class OathToolkit < Formula
     sha256 "2d8c7bdb74130c7cf5f429f4d53cdb4f777b64ebbb39b49e1c7aee5d672594cc" => :mojave
     sha256 "8734ee8d2b5d4766be9d67868244e41cc0c60a7f6c2b729803be226e989e8900" => :high_sierra
     sha256 "4b7b14d0370e4bdb2b05b6d3926adcb7a7c47f6fae9169f0d407237a81588d39" => :sierra
+    sha256 "d660e5b3c2cfddbbabe18cc1a67c51a32a870154bec1f1959fdc164bb0a923fa" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
