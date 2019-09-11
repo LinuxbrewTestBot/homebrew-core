@@ -11,6 +11,7 @@ class Hfstospell < Formula
     sha256 "9c6c69212f1e6784eba39c412fee40fc7f67e113f0ce905573d71dd1ea3e1c5e" => :mojave
     sha256 "2f9c344944d7e1ab33854b091421df503a9ae7b6d1ac052b3879616e85173086" => :high_sierra
     sha256 "75b751ea37a89444b7f815d3fb356c8fd8bbe6c60a07161f966bb32719431235" => :sierra
+    sha256 "b5dfabc4da450bd7fd029f1c8437eea9b116d1d995415971bd20944709d57428" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
