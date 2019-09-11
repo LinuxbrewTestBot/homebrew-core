@@ -10,6 +10,7 @@ class PostgresqlAT95 < Formula
     sha256 "b452721c1d4c4307da0531e4f21a20be3222c9e449f1f67ab3bf7a6203c1bf06" => :mojave
     sha256 "e165bf3d617cf38bb20a6319ae03d60f3a5b2ed73c06c9e9e75702462a515779" => :high_sierra
     sha256 "7e710fd52bedb37ffec44fa9b578da336b2d3ba59e13a4ab380c3a6f88cee645" => :sierra
+    sha256 "7ccb8fecf2c4c9f0d10681f0aabf0ea76238d6d1418555cc3248a9af9ee28b5c" => :x86_64_linux
   end
 
   keg_only :versioned_formula
