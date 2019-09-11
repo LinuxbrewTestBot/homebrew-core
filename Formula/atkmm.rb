@@ -11,6 +11,7 @@ class Atkmm < Formula
     sha256 "41fa55c1a359635acac27990de9ef7d4c84c6e45f43b54b4fecd0c85010d5ed0" => :mojave
     sha256 "cc4325eb5abdb8248ea4d4ec36f5ab37abfce03459034c700b92cfaa757392e8" => :high_sierra
     sha256 "918691593ee2144c7aae041f3f83a3f961af0408329b69907a893669f267f5b1" => :sierra
+    sha256 "453213dac2df1c2b58aed305208049d674e649753c78c72955e0467ba9f64275" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
