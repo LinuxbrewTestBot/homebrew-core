@@ -12,6 +12,7 @@ class MysqlClient < Formula
     sha256 "dc94d17faeea3a03f85299a8e93cd359dfff5fdff3576e50992506485f3029e2" => :mojave
     sha256 "cf37146a2e2144eef78e38f5893a6fdfddab2c95dd398666e0150a2621779645" => :high_sierra
     sha256 "663331c48538a961d42ea69a11555bc3f37f1f5b3e9a9e8f305ecbe490528b73" => :sierra
+    sha256 "c6450612ae28fe7fcb42db8f70862f5de23aded63593e103bd1fe5677e32b364" => :x86_64_linux
   end
 
   keg_only "conflicts with mysql"
