@@ -18,6 +18,7 @@ class Bind < Formula
     rebuild 2
     sha256 "4b9b04e5667cd34cdecca3798867b397a73edaa0cc67f668034e842591deffc4" => :mojave
     sha256 "3222145bb158462d295526bc9717bf87f607c36da0f2d4d7033d2e54014469e1" => :high_sierra
+    sha256 "4a8b29c3a0c4e238d54633f768794cab30f03d4f2ad5191b76c83c745ddb3d4c" => :x86_64_linux
   end
 
   depends_on "json-c"
