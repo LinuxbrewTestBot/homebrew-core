@@ -11,6 +11,7 @@ class Rpm < Formula
     sha256 "1a4da220ae37c016815055778b94e3395c9acb2a460c6c1df87b15e834ec0dfb" => :mojave
     sha256 "49be9aa93d8eb6e55a8b8e4e8214a70de9e4fe31bfbe68055ab7d19db1d3d467" => :high_sierra
     sha256 "dc328eff0beb50f5a08b1ac4f98153c4471c2f0a53b3e4db4c5eef380757ac53" => :sierra
+    sha256 "a052a538ae36790754f14493b89d995b27d63800c60c1a9283bfbb049ef87814" => :x86_64_linux
   end
 
   depends_on "berkeley-db"
