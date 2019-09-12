@@ -12,6 +12,7 @@ class Mercurial < Formula
     sha256 "5210f4a25ed713ea61c85dd969b3847cbfc39e5be6f69ecc2dae7b3f23272f10" => :mojave
     sha256 "3537d173dc7a976bcd980e9e0580261a32e40d080ee40a323b5ddc614ca764f6" => :high_sierra
     sha256 "ee5a63ff8d2d121bdb69c56bddf49c2ec9cb08ae0d04f1043aec010e647261e6" => :sierra
+    sha256 "1d0bdd3bf9bb70733b4fa872e0eafede5e80a7f98dd90476fd3a36f0be95112f" => :x86_64_linux
   end
 
   depends_on "python"
