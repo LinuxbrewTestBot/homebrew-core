@@ -12,6 +12,7 @@ class AwsSdkCpp < Formula
     sha256 "4d6c34f0e34624735de7234e30ce6b5a6e25e96aa01ac22d1490eeb48fe15f4b" => :mojave
     sha256 "2155469aff958aa07a2edfbfef851217d985eb50dbf57b7674dba5150fb2e294" => :high_sierra
     sha256 "5d8a2ec7c321103117c5d7f0c91fa70ccf53e2c063baca0a295a3a9bdcff7237" => :sierra
+    sha256 "b6c682b05a86c8e5594d9dc51ae50028bbd8f6c608cdcfc9da79171e05ea1a4f" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
