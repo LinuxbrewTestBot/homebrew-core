@@ -12,6 +12,7 @@ class Mercurial < Formula
     sha256 "e4fcf22b36669ca85e582121d7365e8d94f4504d7b48dfd518a93e4dbf659646" => :mojave
     sha256 "127344d5ead0a8fbd4cabbfafd7fca4dd4f85f45f260b76e500538c7fd0d05bc" => :high_sierra
     sha256 "9b9f8f096a65d37f2899e7133fb76d64a25be52100883ebd3b7805facc18a757" => :sierra
+    sha256 "266a8fee4da64120e4e91d531d251ecd1f7de4d2e04c649c8e4ae79828021c53" => :x86_64_linux
   end
 
   # See discussion at https://github.com/Homebrew/homebrew-core/pull/44095
