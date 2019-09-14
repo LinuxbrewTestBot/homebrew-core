@@ -10,6 +10,7 @@ class Squid < Formula
     sha256 "9a270ba2224d4a6a1980aadac4c9c8dee77a7bf228d08e5795d659e2fc7635d5" => :mojave
     sha256 "8de312f6d60ae2afefe1e16c3b90add226b66cf73ff32fed9960285daf5a834b" => :high_sierra
     sha256 "47a380fbb860aedd22f08ed93af9caeb0b8cd9e1fc3efa68e0e7a49b7c79478e" => :sierra
+    sha256 "14d2a39f26320d3102b77c3cd1b6dd3a3e4a25a0e023608de2c934ea1f965091" => :x86_64_linux
   end
 
   head do
