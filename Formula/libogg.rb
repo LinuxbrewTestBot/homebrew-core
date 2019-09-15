@@ -19,6 +19,7 @@ class Libogg < Formula
     sha256 "57278622c3550ef4cfe1a14aa885daacaac50e3571d4e8f2d6a6e5e9416b8e88" => :mojave
     sha256 "7883d41539869a4db165825e6f37c74dbd082fe0e839992aae8c2f9b09d55bea" => :high_sierra
     sha256 "ba70b9105ecf35ebc6df91306eb62708c7557c2aafdb1799fd7e7424b133c237" => :sierra
+    sha256 "a18cf90fe84e58c36d00010862e59fca46374743edf6950d89292660d4b20ed5" => :x86_64_linux
   end
 
   head do
