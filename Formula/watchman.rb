@@ -20,6 +20,7 @@ class Watchman < Formula
     sha256 "a9b3039561abdde021ba080ee1e37984f7f56184476a4ffee1db476561f92d83" => :mojave
     sha256 "158a3dcce76f01446c9264a6f623a1c6be339118760ce61d88a9d38e2676ad45" => :high_sierra
     sha256 "013faefc9001613c58680e5626b36fe943ca943649882054fbfbefccf4796415" => :sierra
+    sha256 "55bba7be2a94b7bc89a826fdcf52cfc477a0d3c47a353ccdd4c985c3ad72e76b" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
