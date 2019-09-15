@@ -11,6 +11,7 @@ class ShairportSync < Formula
     sha256 "a866ca2d84b4c21ab43bcef5a5fa96b56d92ff15530d4263bb05eef74ccb7202" => :mojave
     sha256 "ff2f3c05b3c94b0ae0d2f7a7cbabbfaa8171e7fd4f97cb0e7dd9c90aedc97a3d" => :high_sierra
     sha256 "10638bbb76575d535e8cce1aa1b57801baa576acf2e79d687c9aa244baac1b85" => :sierra
+    sha256 "b47b716e9e6b13116a9ce2a680b4360a8fbaefc1a700dbed54a2ec05555796fc" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
