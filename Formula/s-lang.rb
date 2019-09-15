@@ -10,6 +10,7 @@ class SLang < Formula
     sha256 "05a3437702d5793c9bcac94151e8614878ca36cb1074ab330708021e59845346" => :mojave
     sha256 "52884a38833f21110f2ed22960f8f96ed5e3878fda45def8b67450e643ccfc97" => :high_sierra
     sha256 "e317f0ed56871fe293943faedfa44e6c744afb5a0187b7c81e201ce6921b0634" => :sierra
+    sha256 "b440d65ffa05e9ae112260d3f99bc4f8b6a451785bd7943730ddedc8b1fec3c8" => :x86_64_linux
   end
 
   depends_on "libpng"
