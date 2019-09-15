@@ -11,6 +11,7 @@ class MediaInfo < Formula
     sha256 "cf1dcc291f844f0a96fc65e27ebb5e823f9d4323e41e7337c921df80bd7419f4" => :mojave
     sha256 "c0c5548d995ddd10c1bdcdb7cff42cb9993cdf013a7f43fd82748ba0e0303bad" => :high_sierra
     sha256 "cc25e2bc328d7bb23803dd05fce392f7eed7a1c9a7d8bfd48c29eb88a097db08" => :sierra
+    sha256 "ea091ec5e7503c49fca66e3fb4dc8b91f6a928107e16f6591b0ebbe8b9c0da20" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
