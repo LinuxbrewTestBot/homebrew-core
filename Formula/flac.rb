@@ -10,6 +10,7 @@ class Flac < Formula
     sha256 "ef7f0557e79c99a79814f4ed29120719eea153f12b774a207e19d9b61658660f" => :mojave
     sha256 "bd5a61be6c9f3b75f5012f56b2db4bf351d991675dd8f6ddb18c74e7c985d0fb" => :high_sierra
     sha256 "aa3dc4ddf9802576ea7f3ef73bf7276c54720de3378c7b4d0a708707644c2089" => :sierra
+    sha256 "12241010aafbc375ea04e8dffce18ab7fe010b64d0d14c6d7dcfcd0a264f8c89" => :x86_64_linux
   end
 
   head do
