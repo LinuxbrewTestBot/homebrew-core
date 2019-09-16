@@ -12,6 +12,7 @@ class Lazydocker < Formula
     sha256 "7e6904339596de03b73b9a7e9fd4fcb99bc3e17e7188de4305d0367af09094aa" => :mojave
     sha256 "41f35cdbf18a012b7160ec10164ce66d4aedba2d9601f34d3cf0e93afa569528" => :high_sierra
     sha256 "cc0ea7892e0615a0e6d8b02573334cb3759cafd9abf81c2cb55fbddb68979f44" => :sierra
+    sha256 "5e7eddc319d2d6bd6af501f235760e659fd8eda8522fe5ed15e36f5712308853" => :x86_64_linux
   end
 
   depends_on "go" => :build
