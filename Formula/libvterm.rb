@@ -11,6 +11,7 @@ class Libvterm < Formula
     sha256 "eca96b4e33236df8805d8fa53641e2a91e01ad49370bf492a9b2db327115f6bd" => :mojave
     sha256 "90ce34a766b2a67d2d7a47929e3bbcbac8645a7bee74ab33119e6db49b1ef903" => :high_sierra
     sha256 "6bd97ffe3d76adaa2f8b968af5201e8325b97b40d70ee4340c9606b6c8ff4e9e" => :sierra
+    sha256 "d5a080f49b1d32a0492a2488ec6d70c0bc80159a87c468c2318078234e2b5110" => :x86_64_linux
   end
 
   depends_on "libtool" => :build
