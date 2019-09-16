@@ -11,6 +11,7 @@ class Megacmd < Formula
     sha256 "e7612192a4ac2e79363d8441f7d0f007c319a5aafd8e4f56e805335cbfa72d21" => :mojave
     sha256 "02e75c7bbada7c3b3a230f3395448ec1dfb8598e7053ac6ad6a2b0b2f264d9ad" => :high_sierra
     sha256 "8f60fb2783c1481f086e401e7cbfb2ada3a6e82a35e6d2e1a24643a7c7d8453f" => :sierra
+    sha256 "b3587d78ef68d19e7897ce620da2a0622f94c3295347ae60c4584ff7e6af3aef" => :x86_64_linux
   end
 
   depends_on "go" => :build
