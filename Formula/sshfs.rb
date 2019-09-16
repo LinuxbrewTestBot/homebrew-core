@@ -11,6 +11,7 @@ class Sshfs < Formula
     sha256 "5f69267c0f1f2489989e108919d66210e058423d0d1f1661812c0194b164619c" => :mojave
     sha256 "58d222f37622b399352f16eaf823d3e564445d9e951629e965281ac31de5ef4a" => :high_sierra
     sha256 "dc4a7f24c2cbebd7c35891200b043d737ba6586a28992708ef849ffedff7bb01" => :sierra
+    sha256 "24e776a28e635c10a7be5e1d87711c844a3b96148acf80696d3ad4b0830b1491" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
