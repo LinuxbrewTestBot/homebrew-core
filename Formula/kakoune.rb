@@ -9,6 +9,7 @@ class Kakoune < Formula
     cellar :any
     sha256 "7cc097196707ad5f212b825b66f9de7f128240295fa7ccd097314c5a1145b358" => :mojave
     sha256 "755433189f53b8a410ea4659e8d9c20b26c657c4983ebd882d297118856428db" => :high_sierra
+    sha256 "b881a79fbbc26269a8638b519cb7e38de4a3b4805e2ab072948cc5fc30891ce1" => :x86_64_linux
   end
 
   depends_on "asciidoc" => :build
