@@ -12,6 +12,7 @@ class IosWebkitDebugProxy < Formula
     sha256 "1aadb8bdcb8d9f3026f20fdbae563d01d889964a94a46995ebbdf70446f3d4a7" => :mojave
     sha256 "b2ebcf8d4009ec190ca13f9fdf6dfc212b3db6cd2fe36cdc16b89054f25d1afa" => :high_sierra
     sha256 "a41fac7294b52cb9742d8cb04ed36a182b0bfabd41342529862b9896a3538a55" => :sierra
+    sha256 "9f1706338e0915046df62ab35b7c11f00a12cb94a14ac342e75cafae1a6fedd1" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
