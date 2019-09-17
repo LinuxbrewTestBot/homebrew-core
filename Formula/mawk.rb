@@ -10,6 +10,7 @@ class Mawk < Formula
     sha256 "990c18ba7b60182eca889c9765eaf3048d35e91b974b2cdfa8e614ae85435590" => :mojave
     sha256 "dd7af444d67e691a9c80fe4192aa8ec2ebfb61b768e4836ab848e5799b6bcef0" => :high_sierra
     sha256 "8cbc0e93a86f97c9227118cabdc7813e741e875d5e4841714504e0aeee22ee0a" => :sierra
+    sha256 "e299b529f0f97c9235af57d342a2a647b2a774dba5efd35ba9247a928124aaac" => :x86_64_linux
   end
 
   def install
