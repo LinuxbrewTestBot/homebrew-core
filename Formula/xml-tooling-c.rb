@@ -10,6 +10,7 @@ class XmlToolingC < Formula
     sha256 "8a554bf5c32b3849a28035aa3f67be30ed3eb638e154435d9d51d7bd051db1e5" => :mojave
     sha256 "2345b350f57a2c9042946060bcf3480db90daf6aac8f7f5a43c0cf5858e568a5" => :high_sierra
     sha256 "701c93021b159fafc19306bf52729820e93c23cb3b164f953595d1f4f59aa3fe" => :sierra
+    sha256 "8993caaa847b7fe53676da807b295381b61df996019412f79ba335211f827c49" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
