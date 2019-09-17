@@ -10,6 +10,7 @@ class Ghr < Formula
     sha256 "7890c5b66ae184b37fa958c49dbc83759eb392b1895c646f1ea7026ac0a3d266" => :mojave
     sha256 "4ddd6326018db9e44584c9d730999fbfa78dd075ebd9007cb24d026630e69006" => :high_sierra
     sha256 "3d96e05a7cc1bb89e910845db0f6ed80175f8f77c31adc0938a5716414296fad" => :sierra
+    sha256 "336673fcb38843b64ae50127e8314cc937a73b391311fa95743fa06c29fbb8d7" => :x86_64_linux
   end
 
   depends_on "dep" => :build
