@@ -26,6 +26,7 @@ class Libimobiledevice < Formula
     sha256 "99d1470015cf12ab07eeface014ca53393f6e45d9e3c08fb83f0bc8b46ecf62a" => :mojave
     sha256 "304bec377d90ced3021162970eb92e73e991c985a7cc62861423656c5d0a1174" => :high_sierra
     sha256 "7dbc19fb30bec28477e82ee91162ade399f3434c4c75637f7f3f7e6e8b02bf8b" => :sierra
+    sha256 "82d82da80eb7952bfb68ad8cf2706cf41d2bfc5e654a6b474609c5acdd92f5a8" => :x86_64_linux
   end
 
   head do
