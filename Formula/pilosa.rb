@@ -10,6 +10,7 @@ class Pilosa < Formula
     sha256 "b07bcd3693cdc789a45fdce1b3257b3ca85b018eb65f1cbb45234d41ff935902" => :mojave
     sha256 "245160b3bc6e7e6a4b27d3081580c0616e8004ea1b9420367801c2193417caea" => :high_sierra
     sha256 "6b9489e424aca469bafc5e7c7ec20470009c713ce1a843efc7ee6b884fb216da" => :sierra
+    sha256 "a742a277fe46d0c8767cce132f12fc3c88e8d3119b1788ae4158b899fd52c634" => :x86_64_linux
   end
 
   depends_on "go" => :build
