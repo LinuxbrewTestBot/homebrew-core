@@ -8,6 +8,7 @@ class Udunits < Formula
     sha256 "176548e1d698baf5187088bf16b273af3e3e585f5f765963c396187491ea5fe1" => :mojave
     sha256 "3c12f59317ded4bdc6f89c24a0eec9260a499371c9c92b2d5e34c1b1a9f50a2c" => :high_sierra
     sha256 "ad941124a4952ebc353f03601d3da5670155a1eb8271e290bc96b0a54ec87e9e" => :sierra
+    sha256 "4243dd63fc3decf1f529e86fd19897a2e4311f9d91ebfc812ceeec13cab9149a" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
