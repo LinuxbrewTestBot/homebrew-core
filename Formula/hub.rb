@@ -11,6 +11,7 @@ class Hub < Formula
     sha256 "38d6c2855230a34a2e3dc8f5994dfb23cb5d8996fefb637cca9cdf99d37818d1" => :mojave
     sha256 "2a16ffbae2ed1801aa76706776619d095efd6525a5ae0ec90b211bfcf792f26f" => :high_sierra
     sha256 "c795dc0c36bc999b250fa4faa1c0f0b25d9bbbfd65c8f61e58386909b9b07b7f" => :sierra
+    sha256 "5418f607722d784a74332ec5658b387999ca50f8e9b5e2b9456fbb86a853106d" => :x86_64_linux
   end
 
   depends_on "go" => :build
