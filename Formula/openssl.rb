@@ -14,6 +14,7 @@ class Openssl < Formula
     sha256 "9874b2baf00f845355b163cb63b5c98a94a5cf7c08cda1d19876899b11b585c6" => :mojave
     sha256 "20fa4d39cbc0ba091aed2ce72a4404e87c3bc323243ab3f92ccfd75c48cbe132" => :high_sierra
     sha256 "bdbc44c56f63f27ab4dc12583b7f46a6485500f2a583dc8c9b848c4063f58927" => :sierra
+    sha256 "d8b7bbc6ecf538611b4f21c7c69e13f7b5a0d098a1f307762c4254b807f89339" => :x86_64_linux
   end
 
   keg_only :provided_by_macos,
