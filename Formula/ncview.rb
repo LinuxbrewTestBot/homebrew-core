@@ -11,6 +11,7 @@ class Ncview < Formula
     sha256 "6fdf161cfd6faac506618bb965093c051611eacfe53e1af4fe40cf526328d08c" => :mojave
     sha256 "b9f8db64be40f663d9f3c4edef70bf6c8843347f4095ac06e5ead7126426020b" => :high_sierra
     sha256 "fbfa69cf9cde49fecf167b327a54e89f3d8be022957af39bda161ded33149201" => :sierra
+    sha256 "9c83c11fe8ffdbbce821e6a1a394b77c3ac3e56f58d6dbd4f2ca8160a3e84a2c" => :x86_64_linux
   end
 
   depends_on "libpng"
