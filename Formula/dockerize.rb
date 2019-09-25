@@ -10,6 +10,7 @@ class Dockerize < Formula
     sha256 "94d889365e9e7c502449a79a431e4731faec239a1d2b18f65bf204671890f285" => :mojave
     sha256 "3a88ca84f7279093a08fda378d2e502de8f3e255a9cd36480473b4c22972854e" => :high_sierra
     sha256 "94083315a1f3b4e812d0468603900c691ab28d8c16762574c87a922863628b29" => :sierra
+    sha256 "a406932ca332e1b86ab3740ca07bcdb5de47282624e0ec15dba4d71175b84139" => :x86_64_linux
   end
 
   depends_on "go" => :build
