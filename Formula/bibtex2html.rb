@@ -11,6 +11,7 @@ class Bibtex2html < Formula
     sha256 "25f6eb3f580bf87ffe7453a3d98fdd8040ac9e2845fcf1985ed5805f3eff98b8" => :mojave
     sha256 "ae155ef0c5f2d07f2559d0b4d661b1b0bf5f96546053f623dec074aee9415b71" => :high_sierra
     sha256 "269cbbac8dbae6a4e20e06df609d27fe60cc62ea176dd495eabeb2f9518fa736" => :sierra
+    sha256 "f3d84f4768fe0dd1c4ec8b41a1a9612e45ba95ccb33b08684a2f27cc6671f5ca" => :x86_64_linux
   end
 
   depends_on "ocaml" => :build
