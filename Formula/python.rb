@@ -7,6 +7,7 @@ class Python < Formula
   head "https://github.com/python/cpython.git"
 
   bottle do
+    sha256 "c9dccb88d25468206e3304730b1664eacc34a3528bf715651ba635e43aa1586b" => :x86_64_linux
   end
 
   # setuptools remembers the build flags python is built with and uses them to
