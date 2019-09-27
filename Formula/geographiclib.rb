@@ -9,6 +9,7 @@ class Geographiclib < Formula
     sha256 "5c7c3e1686f06107ea12cffeffae30e22c63a199b1b36ba5a68dcfad812277b9" => :mojave
     sha256 "65dd48aba3d3697283c608f46ec262cdf99bf1f08db2a599bb191962609dcd4b" => :high_sierra
     sha256 "cb19d70deee081b876d7c004f0bea3d903a54897f5bc56cb5d3009faafc05659" => :sierra
+    sha256 "f54654fe6c04d8c83e58b0438300f6b8dae65164133faf8f0c43f88a7059ecd3" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
