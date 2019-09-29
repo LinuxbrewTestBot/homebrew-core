@@ -10,6 +10,7 @@ class Wskdeploy < Formula
     sha256 "3628415e19ddfa9aa4c701f10bdecc2b60a595b8a88beff1fada7174b38517ed" => :catalina
     sha256 "fa27eb070527a3e4fff0ea62ed16e521b2c7f5482f4ca8c1bb934823e75c856b" => :mojave
     sha256 "9690c45ee52ba2c4bee9de7075136fd6743f05dcfca445c57f44df940b1fb3e7" => :high_sierra
+    sha256 "4294ee4df38330b2472c54f9439f9e6edee13a810a0f49ed130bc5ae0c73e324" => :x86_64_linux
   end
 
   depends_on "go" => :build
