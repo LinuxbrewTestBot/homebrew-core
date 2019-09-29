@@ -12,6 +12,7 @@ class Erlang < Formula
     cellar :any
     sha256 "8779938a70b0b3480d0e1ebfdcf7f7e8814d72e44fdced2390f8d57fedc51106" => :mojave
     sha256 "7d7edaa7cd5c1ca7e7aa7de1077ddd4c5762b05619e8f5fb3eafd6fd90f9d723" => :high_sierra
+    sha256 "5a3b4fad305a5d255ff0ea0b266bb55b652c301d129cc1e28df78b65fdf47bd3" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
