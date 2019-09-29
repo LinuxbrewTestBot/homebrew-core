@@ -11,6 +11,7 @@ class Popt < Formula
     rebuild 2
     sha256 "23f177b2638e756dd47d53b25ea1e55d3de5dff01c111287992634624501052d" => :catalina
     sha256 "8df86bf6b02122bdb415a4846974efdaf4a70d9a458d641b0272605950dfcfa9" => :high_sierra
+    sha256 "21a80cb9b4139ec39095067645bf7f928200a96533898fe432e9aa87bb157752" => :x86_64_linux
   end
 
   def install
