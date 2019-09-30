@@ -10,6 +10,7 @@ class Coinutils < Formula
     sha256 "f2218aa3a46657a4a41bf25bf05a4100faf99c3d96efb1662d7e30bdf2b1acc6" => :catalina
     sha256 "9558f2e26a1585b9a8c6bbd1942e204bc2e08806eb9771cb96e6de987c8fcec8" => :mojave
     sha256 "ac4abeaa19b49c6d566087a19e0f45a2c2c7be703e6013ca6d6a1a0f76505e07" => :high_sierra
+    sha256 "2a4eac88edb915804f0ac9368c21cda7a10125adaff00d3f8672e0f7c56ae1f2" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
