@@ -13,6 +13,7 @@ class Hlint < Formula
     sha256 "641b47cdbabb274249e13ae1cf696e212d27ab9586713fdbb8267da512d50833" => :catalina
     sha256 "b61782e0026194a598071a725a04b602a78bdfcd4855c041b2ae88d088369a1b" => :mojave
     sha256 "bd15904aa4ce157c2218de16b4093d9554cf105f3e7a5a95784d050a2c1403f6" => :high_sierra
+    sha256 "83907d623a812d9f8ab85ec3505bd1c0dd0045028e8f6b6d7c4f68bf66ed2779" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
