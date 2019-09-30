@@ -10,6 +10,7 @@ class Entr < Formula
     sha256 "c4b7c58cfb49d283b5e8abac6e42cadd35abbf839698a0768eb204fc93e7813e" => :catalina
     sha256 "aff4134c32a0a79f5717f9fc874230d4b896036550bceeab29507a6bf96b060b" => :mojave
     sha256 "0dc2105c02d0bd99bcb23e47ed0e59fe76781d230df9821fd5909ce949a2f075" => :high_sierra
+    sha256 "69565687e3da5b6d689d68359a585216c44b60b27f8bb0bc73203cc0a8fc0528" => :x86_64_linux
   end
 
   head do
