@@ -10,6 +10,7 @@ class Texi2html < Formula
     sha256 "10f6d76de400799fb21dc900a2344ef444d43658dd502f0c040ad7c0a4bf0fbb" => :catalina
     sha256 "10f6d76de400799fb21dc900a2344ef444d43658dd502f0c040ad7c0a4bf0fbb" => :mojave
     sha256 "10f6d76de400799fb21dc900a2344ef444d43658dd502f0c040ad7c0a4bf0fbb" => :high_sierra
+    sha256 "7f306764ce0a5c0d3db56c36806cf61b596bc762ba558108b568095329f0a1dd" => :x86_64_linux
   end
 
   depends_on "gettext"
