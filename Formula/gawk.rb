@@ -10,6 +10,7 @@ class Gawk < Formula
     rebuild 1
     sha256 "071ed9be337b30165c619cd6c5ef4204f047b81caaa860288a07d090c1a10d75" => :mojave
     sha256 "de2f0c453a79a87a9274b6ee71fa47c250783dad46573b168b5cbf71eb777d4f" => :high_sierra
+    sha256 "cfde9198ab29d42ada877cb7263610d0dc4bd9f7e2f9d94e6669795b98dd35f0" => :x86_64_linux
   end
 
   depends_on "gettext"
