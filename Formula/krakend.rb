@@ -10,6 +10,7 @@ class Krakend < Formula
     sha256 "2169f9552692bdf17a81705929f8d4fda02a61d409107d7a06820ed96c1b5315" => :catalina
     sha256 "f2af9a4f455794c0ed9ab63fb85da708b8f76f2aff154c6c6cdb204589ac80a0" => :mojave
     sha256 "431731a0c27ed6a2dc4b6ef0be3bb73c97153bfd8190d9c62a7cb4a88cf12cc2" => :high_sierra
+    sha256 "58752bcdc5e1015a2add6fb820bfd9294a4c80e3b618ba056dc68f005d9c61cc" => :x86_64_linux
   end
 
   depends_on "go" => :build
