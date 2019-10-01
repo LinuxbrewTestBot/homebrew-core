@@ -8,6 +8,7 @@ class Sbcl < Formula
   bottle do
     sha256 "03b4defdea7af26e6b1e78c61b1d77071f3b951c273d0c2fc35925ff9823de3b" => :mojave
     sha256 "e8c571577442bec73ca4ed1f91f88643219a93fc467177708ad22ca14df9496a" => :high_sierra
+    sha256 "a98924f8a7602294fc076e0116bdfc01fc8b3641d2cee759e973dc4f7c5cad5d" => :x86_64_linux
   end
 
   uses_from_macos "zlib"
