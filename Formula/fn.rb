@@ -10,6 +10,7 @@ class Fn < Formula
     sha256 "f2db1a901cefc4c0d30fc3c7c7bce08ac902dc2550bfbccd8e1a7c77498fff5c" => :catalina
     sha256 "98fb3a3d307bfff13f1e0c92b02e1ddc05fa5c33576cfd876465c2175f677381" => :mojave
     sha256 "775c187a1d3e74f9bde27b8cdc07491f97746aa10df5a4ed6d1b2a90810d1cca" => :high_sierra
+    sha256 "26a0cde25abce2ab895e9e085341424ee0dae747d6c411a46d23952c1a2d1ebb" => :x86_64_linux
   end
 
   depends_on "go" => :build
