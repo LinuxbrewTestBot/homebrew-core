@@ -12,6 +12,7 @@ class Aom < Formula
     sha256 "1c49d2f8eee438f057d689a3ac68af545e4462ebd2db2fdd9a749fb6a1842da7" => :catalina
     sha256 "f326a5ea77c38ea80d81c6302d6e2d314a7407d036f881bf4783cf3d757bb473" => :mojave
     sha256 "fedb7991299e8e84ed4ce94ad3cc161951aa10d3044fc9446009046d17eb1e2f" => :high_sierra
+    sha256 "7410cc63e9fb1228e334b509823a9a3d456a1dad04b4d37904ae6070ee260fca" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
