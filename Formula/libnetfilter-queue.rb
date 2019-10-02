@@ -7,6 +7,8 @@ class LibnetfilterQueue < Formula
   # tag "linuxbrew"
 
   bottle do
+    cellar :any_skip_relocation
+    sha256 "4d200baefd48b50001521721704ba2970bfba3aed152620e4baea747be5bc967" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
