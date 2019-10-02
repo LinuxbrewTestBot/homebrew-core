@@ -11,6 +11,7 @@ class Sops < Formula
     sha256 "184c2b79a276faa3efb6ec26c8ebb98d1e24b0cdd8bade41136943d787d6ee9c" => :catalina
     sha256 "ab29594d5eb30f6470adb2c9937b9288f024a233d961dbbb965e03f58355dff6" => :mojave
     sha256 "3f4baab5e9e5e53bec5f76eb1c7786db53c6e83f6dce1c20aabbd5bb180f486f" => :high_sierra
+    sha256 "1b9e54a24eadde3f9e1b46f319f0d8fecd2167525ff16f015a82ede36d6e16d2" => :x86_64_linux
   end
 
   depends_on "go@1.12" => :build
