@@ -11,6 +11,7 @@ class Dos2unix < Formula
     sha256 "e361c9877212a1666721d1b62348690d8dd24dadc94ef0f33b582c44b9650ab6" => :catalina
     sha256 "98ca83a3810ce6daa87546fbe821345859d943f7609389a52c2b59bf6cef03d3" => :mojave
     sha256 "24f1fc82e112c612641898b1e25d96c9f5b38442566041fce45c3b1aa998af09" => :high_sierra
+    sha256 "5ec981b42645d4a86d5f1d15242a5477d7c92a24aa748a17e18cdea57f456e20" => :x86_64_linux
   end
 
   def install
