@@ -9,6 +9,7 @@ class Pstoedit < Formula
     sha256 "08a1be5ab3a0b2782a0c4df3c14639f1d7da4a0b66af6eed1147a249b4b7b41f" => :mojave
     sha256 "d8fae40ce28f534dc2c2b90cbd4a9db4ae002c69273b9cf64695c6f7cbe3e653" => :high_sierra
     sha256 "029b9f2869ebcbf06c8f3cffda92b5bdb44577c38100c39524f9bbd5d5b4ccbc" => :sierra
+    sha256 "d24daaab1743ef6925f8586ebe1ac8e405a083aa4137d7714b4d3fee142461a4" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
