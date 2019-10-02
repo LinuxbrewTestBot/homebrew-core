@@ -7,6 +7,8 @@ class Libmnl < Formula
   # tag "linuxbrew"
 
   bottle do
+    cellar :any_skip_relocation
+    sha256 "b2ea8cee83f8849eb17544ebe72cd17316433cdbf18f9401dab2382bdcf41091" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
