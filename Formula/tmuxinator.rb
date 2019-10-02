@@ -11,6 +11,7 @@ class Tmuxinator < Formula
     sha256 "2d07c2e730941a0250ab3ecab73225d81a3fce27bcb31c92b22998fdb6443b76" => :catalina
     sha256 "17e16770c9ae8c9f284f7574091c5ed6470fc84b16ef8257cd4a2eb2473610f0" => :mojave
     sha256 "439c8f31e061cd4c321a270b575679ededb5fda8cbb28e23ceb24464d21894d5" => :high_sierra
+    sha256 "61a8fcd81f03dc6721bcef241000ab9f371a0b701ddce0085e1be11a1df36b61" => :x86_64_linux
   end
 
   depends_on "ruby"
