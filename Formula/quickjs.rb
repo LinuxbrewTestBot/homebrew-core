@@ -9,6 +9,7 @@ class Quickjs < Formula
     sha256 "c54904d3ef1234828336a25974be158e9749912a53b1fb5bb18f6d6313d0ae0b" => :catalina
     sha256 "a069333872b286a1b581c8149c79bf108c53c7497aed8593a4f04016ecc9291c" => :mojave
     sha256 "395d76691e37c5103a33ea9e028eb46bc15c8b0a1ed7f9dcfecbb65d32ce7003" => :high_sierra
+    sha256 "f7b2576d79e0acc5aa4a92e7f698274562c81fafd8188caa9bdf172f5a4c4748" => :x86_64_linux
   end
 
   def install
