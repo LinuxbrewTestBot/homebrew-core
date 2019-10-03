@@ -11,6 +11,7 @@ class DroneCli < Formula
     sha256 "cde21f2a1c918e095f138b6cccc9870c2a1a76bee8a9a8e3dbee33ab4c54bfbd" => :catalina
     sha256 "a059cdbe892dd4a7058636503d690da54ac8fab3eaeff7d1ae32e07229282b1a" => :mojave
     sha256 "5753b74f0c5ede30868d431cc877f934eb5e10a7bc59ede9da54d2f3b785fa8b" => :high_sierra
+    sha256 "343d772c1db21b5a9757f1024697963ae80e69b92a3803a7b82c1695e3f20ed6" => :x86_64_linux
   end
 
   depends_on "go" => :build
