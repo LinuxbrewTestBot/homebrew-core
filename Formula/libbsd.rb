@@ -7,6 +7,7 @@ class Libbsd < Formula
 
   bottle do
     cellar :any_skip_relocation
+    sha256 "68ac94cf2b7530dcb4b678402d37d7fce907cd628821d5b7549b644146947951" => :x86_64_linux
   end
 
   def install
