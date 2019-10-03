@@ -11,6 +11,7 @@ class Alp < Formula
     sha256 "9cfab017fc82194576c793c3fc429d9cff31cb04a72ab5741f89428f3caef547" => :catalina
     sha256 "cfbba643bf915f19598675cbb333674527fa64a41e36d1ad248c8f49c7754a9e" => :mojave
     sha256 "f102f90a4e05ea5c651d9cddc3ea987767bb792b4385a6669283f7678f5fdbbc" => :high_sierra
+    sha256 "5af60406f4102c48fdcbdcc25071af99e1e013a19715076a0011360235e089cf" => :x86_64_linux
   end
 
   depends_on "dep" => :build
