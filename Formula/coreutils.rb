@@ -10,6 +10,7 @@ class Coreutils < Formula
     sha256 "7262e4c76483ea796454db828c25955be1e6b2bc8e056ba1dd6e92bfe1118da5" => :catalina
     sha256 "05ae58c26a53c2dfa2d9d45943b9d21753eea59609f0a48caa59713d6f6392d7" => :mojave
     sha256 "5cba7394f1995fad0f6215a7618f65983dcf84b93b076af18d09354051320fb2" => :high_sierra
+    sha256 "24184898f91635ea03f1522cfd66f9f50d2b1acbd3b51153f1764ba473038897" => :x86_64_linux
   end
 
   head do
