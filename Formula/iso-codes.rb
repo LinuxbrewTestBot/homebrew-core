@@ -11,6 +11,7 @@ class IsoCodes < Formula
     sha256 "36f4fe5b5c79b4ca8fa0cbf3817fde2003a7ec3b33ce7aab6fc845352ec1ddaf" => :catalina
     sha256 "36f4fe5b5c79b4ca8fa0cbf3817fde2003a7ec3b33ce7aab6fc845352ec1ddaf" => :mojave
     sha256 "36f4fe5b5c79b4ca8fa0cbf3817fde2003a7ec3b33ce7aab6fc845352ec1ddaf" => :high_sierra
+    sha256 "e18c3f59de8c9cac1c7686f5d9343754b427bbf853963f7db22a3c1c48a6c5b8" => :x86_64_linux
   end
 
   depends_on "gettext" => :build
