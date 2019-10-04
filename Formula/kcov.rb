@@ -11,6 +11,7 @@ class Kcov < Formula
     sha256 "e3ef70ca7ef17beaf787f9c347571ad52b5113e5c33ad0f242f5c179ea2eecec" => :catalina
     sha256 "64374d7b480c44d68dbd4deb4f87751581d141f52c79f0380a6be4323d198f06" => :mojave
     sha256 "e7cfa825d48a187b94a9b22d6fe5b6382feaa7fa505c9d283d3405a1cd9d6936" => :high_sierra
+    sha256 "6550d086a7414e0ac3f9270d0c003e575cfffa4582e3e296d3f23be9e6424d3b" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
