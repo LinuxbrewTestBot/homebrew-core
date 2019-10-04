@@ -12,6 +12,7 @@ class Parallel < Formula
     sha256 "1a58adcb2e33406b57eb7bec48147e04dbe9300f84ae14a6290935669a5c5143" => :catalina
     sha256 "1a58adcb2e33406b57eb7bec48147e04dbe9300f84ae14a6290935669a5c5143" => :mojave
     sha256 "1a58adcb2e33406b57eb7bec48147e04dbe9300f84ae14a6290935669a5c5143" => :high_sierra
+    sha256 "ec4d823b2aa60038373d8624582841e58c8913241af2e6438371d7e6d31f488b" => :x86_64_linux
   end
 
   conflicts_with "moreutils",
