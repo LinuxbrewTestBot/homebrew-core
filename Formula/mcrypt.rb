@@ -9,6 +9,7 @@ class Mcrypt < Formula
     sha256 "c9d3313218375e8bca6e22b00fcb47f11550c386ae64422bb59869af161cf6eb" => :catalina
     sha256 "b79e4ba583c523e382d1cc08430c96252c8e048cc1661ab3a9bed90468c8b06c" => :mojave
     sha256 "e11c2a7a1caf26c2a1d3d171d3291888e065ba0328f6934882cffcaec72475cd" => :high_sierra
+    sha256 "a556f4e54cb7e198599081cf0abd3e42d0dd10c6af8abab80f4255ab90c3a77c" => :x86_64_linux
   end
 
   depends_on "mhash"
