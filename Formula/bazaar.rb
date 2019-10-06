@@ -12,6 +12,7 @@ class Bazaar < Formula
     sha256 "c9ab575e1e27fe8e550690c760464c37890ca5c1fa8ea111c74d0172d0fa1453" => :catalina
     sha256 "32411a9e28eb27b3637bc915150581524897a18ba223313e5bc2f776785aae9b" => :mojave
     sha256 "cb1c0c8b5f19abef4043195d8cbd19f363a78581596de1ddcc763621964335b3" => :high_sierra
+    sha256 "79b5e97e1039d9bc01f9aede661104531f9abcf8c12aace2aeeab3855b41d5a0" => :x86_64_linux
   end
 
   uses_from_macos "python@2"
