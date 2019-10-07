@@ -10,6 +10,7 @@ class Nnn < Formula
     sha256 "cf5f8858f95a2b09ead189bf89989a86e4f320a3d1892caf15cb98fd253d0ed4" => :catalina
     sha256 "312a3d50d38eda061638ea7e6b5c82f40e9f462eed882316c18bf20503c9bdae" => :mojave
     sha256 "f819fda84d7ba01e82d64549bd8846eb11299d63edc5a4a7bcbf2703a928ad7f" => :high_sierra
+    sha256 "bad97eaa8f65eb1389288b1befd27929efd7b6d97bd2dced978e4aec15f3041f" => :x86_64_linux
   end
 
   depends_on "readline"
