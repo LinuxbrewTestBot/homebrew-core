@@ -11,6 +11,7 @@ class Cmatrix < Formula
     sha256 "ef82e10a50d453e2c72dab3fe06dd932548606157bdf0ce5241ccb2dd8272cb1" => :catalina
     sha256 "f0234fbba18ba6a7d624192b3294ec52378c11a01e9e2ee58dd1cc062738dede" => :mojave
     sha256 "de744cafdaf5a208200e0a8fe13327d700396dae1162de3db6ffec67f4770808" => :high_sierra
+    sha256 "320c5ea6a146de48a6141d193a18b78df90e46bc6d0399e9bd108145aefb5140" => :x86_64_linux
   end
 
   depends_on "ncurses" unless OS.mac?
