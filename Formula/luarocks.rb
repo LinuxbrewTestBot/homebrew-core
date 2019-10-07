@@ -11,6 +11,7 @@ class Luarocks < Formula
     sha256 "29e2c931525520f224a780598fd2e2db874bec996deea7be48926ac388aee044" => :catalina
     sha256 "29e2c931525520f224a780598fd2e2db874bec996deea7be48926ac388aee044" => :mojave
     sha256 "29e2c931525520f224a780598fd2e2db874bec996deea7be48926ac388aee044" => :high_sierra
+    sha256 "43d73d72775b25c89fa2252bae9b0eee99015f719ca00bc66854473e074b08a9" => :x86_64_linux
   end
 
   depends_on "lua@5.1" => :test
