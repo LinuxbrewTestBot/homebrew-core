@@ -10,6 +10,7 @@ class Atasm < Formula
     sha256 "8f142806b05036e541ef3fec3009d481423f451cbcd99e6be68ae5095cfa205e" => :catalina
     sha256 "7a2437b5a0adf8047fc75a20fb669d2d80b15d261eab0ec0ad5c7d74b9123a2b" => :mojave
     sha256 "b9eb26201949590ab8fce80ee3feabe7f0be2f611e7c60b6b456c8d78480680c" => :high_sierra
+    sha256 "3fed5da64215e63255a1a33dfe370205e21c66e194c957e26610411da56517a2" => :x86_64_linux
   end
 
   depends_on "zlib" unless OS.mac?
