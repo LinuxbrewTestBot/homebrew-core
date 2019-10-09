@@ -12,6 +12,7 @@ class TelegramCli < Formula
     sha256 "d0b340d5b97c33bf19e0512f5f1dee74c997da91ff8acee80d6ed2155ff884c1" => :mojave
     sha256 "21aa9b3906474c5289550978a69baf952c8921b2442be6123cca140300d72f48" => :high_sierra
     sha256 "3efe4594a047854d3c618ec78ae38b00c1f7743b89ae4686b1f5be0137b49a64" => :sierra
+    sha256 "b0b985c4e7e6f4304529d163793a752f4ca4e508eabd6380dca2452ceadd8450" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
