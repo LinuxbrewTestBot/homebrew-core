@@ -11,6 +11,7 @@ class Screenfetch < Formula
     sha256 "4ebc2dbe3075fdb801971050cf9f5970142309c4473e72fa78c4f18de5db2933" => :catalina
     sha256 "4ebc2dbe3075fdb801971050cf9f5970142309c4473e72fa78c4f18de5db2933" => :mojave
     sha256 "4ebc2dbe3075fdb801971050cf9f5970142309c4473e72fa78c4f18de5db2933" => :high_sierra
+    sha256 "41d9eacff6727b9c62be990a6a36192885ceda3a8f1a510860ef126f553de421" => :x86_64_linux
   end
 
   def install
