@@ -10,6 +10,7 @@ class Zshdb < Formula
     sha256 "02c72baac9b416aef9b58d98d72b1e0dca18de16efd3ae9dfd43368b52fa88a7" => :catalina
     sha256 "02c72baac9b416aef9b58d98d72b1e0dca18de16efd3ae9dfd43368b52fa88a7" => :mojave
     sha256 "02c72baac9b416aef9b58d98d72b1e0dca18de16efd3ae9dfd43368b52fa88a7" => :high_sierra
+    sha256 "8025f2abfa41755da678f4a1c251b9a2b6f5b8ee573eaa174543a931a6871ec0" => :x86_64_linux
   end
 
   head do
