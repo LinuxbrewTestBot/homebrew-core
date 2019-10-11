@@ -10,6 +10,7 @@ class Procs < Formula
     sha256 "76a5194ddb96b77457970ba85a0b01473ddbf858ce5deade9cadd995b73fb6b8" => :catalina
     sha256 "ebb48586e4e7d7609828a748dde28e4428afc4328162c6169359003e4eec9e1f" => :mojave
     sha256 "d4f87479c8aa4c37abf06bcccda95addf5fe5f3bdc6f572dc38c3542edbd638e" => :high_sierra
+    sha256 "174b6eb99f5e83fa9175e367a4d2929cab6f2202fa17b0d2d3898c7ca0490c3b" => :x86_64_linux
   end
 
   depends_on "rust" => :build
