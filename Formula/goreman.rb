@@ -10,6 +10,7 @@ class Goreman < Formula
     sha256 "05f671ec06b1bdb69d7ae497026fb9e7d892ff30d176fbd85a7b1f96576f2938" => :catalina
     sha256 "896a22c18d18985195df7b47f655b759051856a12406f4de23e3a511630eadee" => :mojave
     sha256 "f3ea945f4596a6f2b218c1fea6ff2e9e7fc4420b07b1f32a22698c01e5a59424" => :high_sierra
+    sha256 "b574b0033e062187d9f657d38a920edaf3d8da2ce40b59871c954508bebac0b2" => :x86_64_linux
   end
 
   depends_on "go" => :build
