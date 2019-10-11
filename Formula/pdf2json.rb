@@ -10,6 +10,7 @@ class Pdf2json < Formula
     sha256 "ffcee90aedfc094b2339da1ea20d13533944e3cb504c83bf14c5a35e3c8fc6d3" => :catalina
     sha256 "43e67dfa77c38eb32a4ae1b079c565752e567598596d8adaaa7d4f464eee7696" => :mojave
     sha256 "82d6e789d9a698b1eca23ed91ef3ecc3a67db1faa4a1f530f2f1452484d8ca8b" => :high_sierra
+    sha256 "13e685fbf33a3648055234a3317aadf51b9d2cef1f2f72b27c85af173003fee3" => :x86_64_linux
   end
 
   def install
