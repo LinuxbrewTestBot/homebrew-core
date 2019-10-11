@@ -10,6 +10,7 @@ class Gocryptfs < Formula
     sha256 "4dc5577b1e78ef922d534275cd5024ec83365a412e9c766f46b5ee4aa6a3bf4c" => :catalina
     sha256 "c864ef84c22ddd708c54542fa2e52b2a85fb337717edf83e00e45f608ac5e736" => :mojave
     sha256 "92d21f9d17aa19aa59592549675857f103af7ffe211485ac7c7e900f09a32813" => :high_sierra
+    sha256 "bcb5d1bb7f68727468987dd78af236041ea65a8349d4b03f4db785424a70fffc" => :x86_64_linux
   end
 
   depends_on "go" => :build
