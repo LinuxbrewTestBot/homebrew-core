@@ -11,6 +11,7 @@ class Cmdshelf < Formula
     sha256 "65e3a0b17ed9e636069e00d9a824b4f7325120da6f31d861d5cec993e14994fd" => :catalina
     sha256 "c301f1669b28ecae813f8af356d24756bec61dc2f00a8afcaffea68f82e6c702" => :mojave
     sha256 "ca4befbca1874c7b17d53268ed650db694c4d7ec09497febd46024e3cc4719ad" => :high_sierra
+    sha256 "0b3edef0a1f4e625ca53ddffe9369c3f4707344687b79368af34e1651c3b0e1a" => :x86_64_linux
   end
 
   depends_on "rust" => :build
