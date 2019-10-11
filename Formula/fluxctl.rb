@@ -11,6 +11,7 @@ class Fluxctl < Formula
     sha256 "0b39b27c91aaa924086907a0249e3ae3ea4eac8b647f307e4f595db4d814c2ad" => :catalina
     sha256 "51eccf51bddeef263b3a3c75d80245fd222a24f1de63391b36f86d3b79fd112a" => :mojave
     sha256 "91e60598e6b67cde4ed3df3863112301bba60e830c85350769dd3820d60be6c9" => :high_sierra
+    sha256 "876d6034b406c6fb380e2ec9bedcc729025fba63d736e58d76cc2d3e4e571568" => :x86_64_linux
   end
 
   depends_on "go" => :build
