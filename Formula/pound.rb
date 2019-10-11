@@ -11,6 +11,7 @@ class Pound < Formula
     sha256 "100b5b65c465f22a925c77479d86206ea964b6b3db03ef3590635b2659626b61" => :catalina
     sha256 "9b2754f632d00c3467017b364d8797b901f648bf5ae482b0131a6792c2d65a19" => :mojave
     sha256 "a2edd6090ff8e6fc56d116b1208fc9d45be9a824c4900f9ea702358b3c843b9b" => :high_sierra
+    sha256 "6d378920fdcb062733d8f9bf6dd30c2f0802347e70efde6475c26ac63fdb6ba4" => :x86_64_linux
   end
 
   depends_on "gperftools"
