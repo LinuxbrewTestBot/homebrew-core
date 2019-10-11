@@ -10,6 +10,7 @@ class Foremost < Formula
     sha256 "3ce88077de06f1f58980822adeed92ca6db4b32bad5ed24aa3912dc8f0a1a47f" => :catalina
     sha256 "2255dbe5608916e081e46f1d332fcfc9b47265630827a472c4166daa061ea373" => :mojave
     sha256 "4411ec156c431a8715ba5d74f101c8f4e54793001424729dde2e305abf570558" => :high_sierra
+    sha256 "d53c33f12d60d6c5f3c193733f404a8ac4060da6ff8661ac1c536bda7b0d419e" => :x86_64_linux
   end
 
   def install
