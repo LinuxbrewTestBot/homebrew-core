@@ -11,6 +11,7 @@ class Ipmitool < Formula
     sha256 "3bf8d00d62c2e1dc781493d448062ad365ac8e7c73010ee37ba2040a48513c10" => :mojave
     sha256 "04462f0b4129d34cbf7e8e5c72591360e89dd6d6cef20008567015d57ab611c4" => :high_sierra
     sha256 "f08f0e5717ff8ccf031ca738eb4995b39db5d37b802800b6e0b6c154f6fed830" => :sierra
+    sha256 "b8262f186dbb9cab277c76f441aee44b6a488ca522b2768beb75f195ff28a73d" => :x86_64_linux
   end
 
   depends_on "openssl@1.1"
