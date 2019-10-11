@@ -9,6 +9,7 @@ class Pgformatter < Formula
     sha256 "0b23bf542e1da32dfd10dcf3879df51a45e78c623454b8b34542a8f520217682" => :catalina
     sha256 "0b23bf542e1da32dfd10dcf3879df51a45e78c623454b8b34542a8f520217682" => :mojave
     sha256 "bef33156d170aa02ac039710f44838c12c45ddb80f76b591561169e9db0e1f8d" => :high_sierra
+    sha256 "df36d3a21a9c865671bdfc55bc202d6af33fff57c00a0865bf9cd7d6190a0907" => :x86_64_linux
   end
 
   def install
