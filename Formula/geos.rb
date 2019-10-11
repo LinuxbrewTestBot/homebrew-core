@@ -10,6 +10,7 @@ class Geos < Formula
     sha256 "796dd5584ab4d12a520fc6b4425d2b85ad3979d114a14925b51d021e8379b263" => :catalina
     sha256 "dbc37cb1275dd952d81063c99a6850866b00872fafee3891dbb38626ed6a5cef" => :mojave
     sha256 "ddc40581ddb90eb111a4d745508aba760dfdae7adc533c517c1b27759009c4c0" => :high_sierra
+    sha256 "5c309b2cae410f1bb47a5775e47ec5871cbe5c21f1c5390a6bc870769336b1cb" => :x86_64_linux
   end
 
   depends_on "swig" => :build
