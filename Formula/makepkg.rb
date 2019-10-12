@@ -11,6 +11,7 @@ class Makepkg < Formula
     sha256 "d6609f75988babfe82d73c7dd85874092fcacfd24fae84bf6bfdec8262ab4279" => :mojave
     sha256 "b8c32c0be56ad6c19d8838c7f27aff105ccd03602bd9357206724efdc6f0c270" => :high_sierra
     sha256 "70ffabbc97bdd9dc1567bd18c7c39151870717835988e3d3fb4ffa7f46c564ca" => :sierra
+    sha256 "e7c77a0cf6ac20334d2b15482930b3af1d6e29cf6597c3f60873b8bed18ab3b5" => :x86_64_linux
   end
 
   depends_on "asciidoc" => :build
