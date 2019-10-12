@@ -11,6 +11,7 @@ class Wtfutil < Formula
     sha256 "ac07538f6d6aca1cdcba7af5fe5f5a788671566cdc4d173483e352db0f935b73" => :catalina
     sha256 "c0aca34e02f80f79d4b00fd65d01af6e84d7b6be616420f551be068e94495c11" => :mojave
     sha256 "44279429caa2cc05d6af048268ed471aefa67846e1a1fd47ef1f6dd70dfbff44" => :high_sierra
+    sha256 "a5fa5fde78b24fd8d76c8e60c253e941fc9bb079348d29c4f5acb1b6711c05bd" => :x86_64_linux
   end
 
   depends_on "go" => :build
