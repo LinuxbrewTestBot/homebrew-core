@@ -10,6 +10,7 @@ class Fakeroot < Formula
     sha256 "ec1b436ab733127e356e7b7f5c80ea4ef04817e13c6715f4321a46051f67ef12" => :high_sierra
     sha256 "7fc1ccead9bbcbd8f47d166830ce2ea0efcb6e60cd2fe69ae356a175028077a6" => :sierra
     sha256 "4e0afd9c97c78fa0bf2c16420d21d26e4320a0a3eac94ba381b132f701ea24dc" => :el_capitan
+    sha256 "f58656ea3963e17fe42b2055524fbe8e9235a66f4c7da0549bc93cd9d086c6f6" => :x86_64_linux
   end
 
   uses_from_macos "libcap"
