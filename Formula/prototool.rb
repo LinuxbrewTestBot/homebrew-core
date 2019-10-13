@@ -10,6 +10,7 @@ class Prototool < Formula
     sha256 "6f2bfe70e42f7ae8fb136a7a17ec0138240f23eb15eba1f150971f867bef097b" => :catalina
     sha256 "796c219902fcc8201d41c183efb470e97ef0251b70759826c4ef08dc06edd991" => :mojave
     sha256 "d6fb6d50f3ac98e96a39c2425196f043f995ddc2368be51d6ea3d4345cd29363" => :high_sierra
+    sha256 "6738c9de2dc8ecffdcf13532f298909a6bfc43bf3b4837a770d9ee39b6c3c1da" => :x86_64_linux
   end
 
   depends_on "go" => :build
