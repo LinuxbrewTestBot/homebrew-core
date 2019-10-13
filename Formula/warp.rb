@@ -12,6 +12,7 @@ class Warp < Formula
     sha256 "562aed9e482aa4423476a0a83e9ecb36822ac19968f4440362a3b273bdcaf4dc" => :sierra
     sha256 "cc33305d446538db611f039f585648afed84268b1c98fc9a0c5ded76185eee0e" => :el_capitan
     sha256 "7bad4e1c81ee20c9908e7317bf8d8b71c807df95355e1e232ac055769b56a9c4" => :yosemite
+    sha256 "d94be92141f8a930dccfb51378d380e8eef65d7d301a0a76edc64b7e1ef429b6" => :x86_64_linux
   end
 
   depends_on "go" => :build
