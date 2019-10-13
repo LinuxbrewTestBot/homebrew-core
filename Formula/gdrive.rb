@@ -13,6 +13,7 @@ class Gdrive < Formula
     sha256 "e26ef4bec660913f42aa735c28f58393912d2d0293bf98a351fa2b27a1baee01" => :mojave
     sha256 "8fc5917762cd0b7622d35053931b41315606be97ba38ae34c9a67bf7ff87a1d3" => :high_sierra
     sha256 "b03e82ba9bb723b7f6225607b3127b9d515f0d79271f76b375b74324aecfb057" => :sierra
+    sha256 "d5117e17733b88f11f7783f1417079a604f9d0a867018f1f6e13e95e7f7f4a64" => :x86_64_linux
   end
 
   depends_on "go" => :build
