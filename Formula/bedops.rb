@@ -10,6 +10,7 @@ class Bedops < Formula
     sha256 "cca7abf4f74c6d0a4ba34cd491a63364a0b1093b5ed7a290d3a8d8f554ce008d" => :catalina
     sha256 "cca7abf4f74c6d0a4ba34cd491a63364a0b1093b5ed7a290d3a8d8f554ce008d" => :mojave
     sha256 "004b816bfd02e79d59e8394dd566561f4638bbf2eb9ada57651bc290f070a163" => :high_sierra
+    sha256 "a6ba0efb7d4fc0dcf4a98f62b41b29481784d4eb088e48e6c74cecafaff018ca" => :x86_64_linux
   end
 
   def install
