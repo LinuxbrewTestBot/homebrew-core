@@ -10,6 +10,7 @@ class Stout < Formula
     sha256 "7d90dec0fbc23cfc58b56261957818a0fb1af5c77086b1979b77ea1196484a25" => :mojave
     sha256 "cfff658fcb5319cd6a5053c645a9679d3db94e9dff4fbe91ae488ca31658a1fc" => :high_sierra
     sha256 "26554af96b6044316abecb1a2142e81b1aab8315bff941cbdad9b39fe143b74e" => :sierra
+    sha256 "aa21db52532605409b01f2ec0f2bc821eecfb172ed2427cd9ef37b215ea22179" => :x86_64_linux
   end
 
   depends_on "go" => :build
