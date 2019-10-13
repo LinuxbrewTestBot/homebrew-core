@@ -10,6 +10,7 @@ class GitSizer < Formula
     sha256 "4d4e1b47018c1b5efe0ae71996e1dad3f7b0ec4f9616793121463b1c092b03af" => :mojave
     sha256 "add468f96d564f1046a0908cc1f553c73a2ac672973f3c7a7bca47c12fd72867" => :high_sierra
     sha256 "b0a6d0757c623e8e6b1f2ed6e9fb05496b29dd6f615df72e615a7a6a8fb45e3e" => :sierra
+    sha256 "7d68faabc6a09bd0d16db5f57f512bea68922dbcf91e021e15292b6170a03ff1" => :x86_64_linux
   end
 
   depends_on "go" => :build
