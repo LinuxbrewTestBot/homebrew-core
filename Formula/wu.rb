@@ -13,6 +13,7 @@ class Wu < Formula
     sha256 "5efc0cdf39ff0d7ce0cb70be665118459cea9f8523f9a01bf67a341e1330fb56" => :sierra
     sha256 "bd297452f33d081c7720190bc9ef17f1c8b247de5a27c64e78fede64bd871050" => :el_capitan
     sha256 "61b96421517b20e4d6090e37ffe3b52a93ee0934ecc06e8282fd06d0bb457883" => :yosemite
+    sha256 "cb6dc4a0fd605f427f666ca3536a2e79d4045aa08709ff8d9970156a4360230d" => :x86_64_linux
   end
 
   depends_on "go" => :build
