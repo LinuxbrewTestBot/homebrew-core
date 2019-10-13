@@ -8,6 +8,7 @@ class Vifm < Formula
     sha256 "0495acdf812f89f23c7fafcccef47589249477c5c38dd0e47049c3421edc712a" => :mojave
     sha256 "8371dea589590796e0f1c6b7b5ce263e18b9a1619551d5967deefd5035e512e0" => :high_sierra
     sha256 "ded145b46f48c79712b12e7f8d14ab8b219778fcd6d0b436d0c156dd0b15129d" => :sierra
+    sha256 "03b37512da7f4c19a7fd72c73f8e2d623404765d86303a56296d43ec6c44e0a3" => :x86_64_linux
   end
 
   depends_on "groff" => :build unless OS.mac?
