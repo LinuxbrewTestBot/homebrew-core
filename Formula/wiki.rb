@@ -14,6 +14,7 @@ class Wiki < Formula
     sha256 "0f3302cb5063486d6cb1beb1a25c771b50c03f0318f05e7d3520b1a2d05a445b" => :sierra
     sha256 "6e6d9036b7943ef08cbf92c5aec72b214599aa83bd0a038f4d7a0d19a90a70b0" => :el_capitan
     sha256 "b7f224cc011a63259a7ef24b2709a4fb3ba053b15f1861a6c3f03d29925251f8" => :yosemite
+    sha256 "64411b6203abf713d12e1db60b3674a0aeaa18eb057c01c7c355c6ce99c126f1" => :x86_64_linux
   end
 
   depends_on "go" => :build
