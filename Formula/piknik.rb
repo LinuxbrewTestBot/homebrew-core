@@ -14,6 +14,7 @@ class Piknik < Formula
     sha256 "fffe6c2329ae0840061a464162703ec7cd26649cd985d1ff4de37315059b9357" => :sierra
     sha256 "40b1bdb322e89f3c955519a3156f8ab9ed7aa3833f0887f1bb1ccf6224038de8" => :el_capitan
     sha256 "c1bb1b4632aca54d93490f53b9142f7f808abec1cd6761418df63f11abeb80fe" => :yosemite
+    sha256 "cb474ac511340da4da79451b9caad7d41f5ccf4025aebac349be1c6f7b1fdb55" => :x86_64_linux
   end
 
   depends_on "glide" => :build
