@@ -11,6 +11,7 @@ class Immortal < Formula
     sha256 "c0bd10c385ee390792fdc49b1cb6a57afbfe7ceac142a096cf44050dacf713c3" => :mojave
     sha256 "f476743082dea51f61f169fcbc34d11f886054f90a479602d85b641e784433ea" => :high_sierra
     sha256 "d9f076f1c3010e57e77bb583ba63855f1db92e8fb0cd432cfefe79ce0d26d9b5" => :sierra
+    sha256 "90ba0f1fe89e1138650316ab70fc377c059613587d1a50659b950a07aea39de4" => :x86_64_linux
   end
 
   depends_on "dep" => :build
