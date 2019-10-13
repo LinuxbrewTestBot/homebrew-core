@@ -11,6 +11,7 @@ class Dive < Formula
     sha256 "fcff37f6efea602e0909136a76cbdeef185f6097ae5d8c1362e42b2137648768" => :mojave
     sha256 "7c194d07ddf7f27bf792dddd5efebedd70e183c6680fe786e4a774e7d25c4e8d" => :high_sierra
     sha256 "1f8cbf97ea22b6ab7ee29dc31c1c2c54e0cb5ad22cc08ed8b4d108a81a4252ac" => :sierra
+    sha256 "508c86dc7c3381e36e82acf058c7e4b0050f776b5a14e4c59b582d77f90bd3fc" => :x86_64_linux
   end
 
   depends_on "go" => :build
