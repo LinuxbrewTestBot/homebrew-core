@@ -14,6 +14,7 @@ class Carina < Formula
     sha256 "ee6c8cdf2eddda983618f7de29bf3bcc7e81d8d9a7085a037d67cd7cdb25377a" => :sierra
     sha256 "34086f8b3418d96c3ee5c2f50ad5ffc7ee839fd26b36d0e8911c364a8c82586e" => :el_capitan
     sha256 "0706998cd1dc286030e20382ac69a96c744ec558784685f769aa4276966dcd12" => :yosemite
+    sha256 "1ee0aff79b4f66a658c25e412f0b59d92b2eee945b8cc8d4f7ea76d17faa448e" => :x86_64_linux
   end
 
   depends_on "go" => :build
