@@ -15,6 +15,7 @@ class Rack < Formula
     sha256 "9e77b25dce5ebddece476a84fa04b32d3c904f4a825db343b128a8b3b4a4f4fd" => :sierra
     sha256 "7a17ae415465e10b0b5674218d5fb127c03782b5f49e741d8a84f94cde7c658a" => :el_capitan
     sha256 "d49a8f87439a1584e1662a570c7a40611d6cf13064e37f3a66cb7e1feaaa5719" => :yosemite
+    sha256 "ebb560d0e20167643d01c265c22ae1b83791e20a6cf4de7e8a1c9509e9ec7003" => :x86_64_linux
   end
 
   depends_on "go" => :build
