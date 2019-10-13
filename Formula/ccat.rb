@@ -13,6 +13,7 @@ class Ccat < Formula
     sha256 "10eb7df98a05c968f006bbda2c6f690bd7d5053e4bb6d2c9c4a043616648a23b" => :el_capitan
     sha256 "063b4cab434b5d16e8884aad6eb7d18068c33f9ec884fabf5ada3ad821428897" => :yosemite
     sha256 "04342b5be5ffffaa696799b006b592cad530b0fcd510514ad9c72bc70c5865ba" => :mavericks
+    sha256 "367d83eed7e3770942329b8a196b93ecbcc66f12e4ccd207ba306bcb96be1d61" => :x86_64_linux
   end
 
   depends_on "go" => :build
