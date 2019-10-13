@@ -11,6 +11,7 @@ class SpaceinvadersGo < Formula
     sha256 "672db5956f42626d3e9fc18defe431c4f2c18cd647f8cd534f9f522c314a0c49" => :sierra
     sha256 "2ac0b623df41e8c9e9da05fc7f21e842bce1e71c0b9d4db52ef685cca9e040b0" => :el_capitan
     sha256 "99a7e2c353d5dbb310fa03e4a430d05e0092cb0aee1c19e38bd592492ae16487" => :yosemite
+    sha256 "720fe6d4f6871b7f1aa5de6024806d00c9dee67a65cbcbf60be8c184cf0e55c9" => :x86_64_linux
   end
 
   depends_on "go" => :build
