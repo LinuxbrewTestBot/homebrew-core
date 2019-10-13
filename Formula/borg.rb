@@ -14,6 +14,7 @@ class Borg < Formula
     sha256 "bd251596f570c3ec103d60ad04f78626c69a79cc20fe99f5bc483ffce12b695f" => :sierra
     sha256 "f88e6457bfdd91b124d18395f80c988ae0ef4020153f43028ccdfd4e5fdff0e8" => :el_capitan
     sha256 "4b4c4781a4b90104c1bda9243bb3d8f901eba9e57a3e2f2d923bf573e5065819" => :yosemite
+    sha256 "642e032543d24c8d75dd9392513b6a14a1a3da6af05ca9a189915181863a0aaa" => :x86_64_linux
   end
 
   depends_on "go" => :build
