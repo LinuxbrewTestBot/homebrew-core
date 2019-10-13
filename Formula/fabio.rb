@@ -11,6 +11,7 @@ class Fabio < Formula
     sha256 "b1e06ba1ad9f1d68370103e9f2aff5ae44ca54c05a5a91e8ebdcd3c6be5607b7" => :catalina
     sha256 "d5fe932d0ce8a776dd7b45b50b3da9560304b4d8e4a74c6beb01bf9583c341ad" => :mojave
     sha256 "691e164925ba1a77cfc178be569aa09c4b2ac5cb2f57fdf617670f09dbe5a7dc" => :high_sierra
+    sha256 "42c0e7ecd633907ecc4d8a093d440e889df4d5eeb8c7440df02826f38b100cba" => :x86_64_linux
   end
 
   depends_on "go" => :build
