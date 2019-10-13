@@ -11,6 +11,7 @@ class Acmetool < Formula
     sha256 "c4ff2b08c70560072307d64272f105bcd66c05983efbf1e278de9e5012047738" => :high_sierra
     sha256 "7c77a51f12ec154cd5a82f066d547c70f8970a4c5046adf2ab99c600c930a9d5" => :sierra
     sha256 "8f9a190bbda5a5cd209cf7f45bcdfff9c504a7e368458b435c78b1c25c8cb54b" => :el_capitan
+    sha256 "3d434116f592e590175a0d3ed6b4627486aaf598be4081850773c995109be316" => :x86_64_linux
   end
 
   depends_on "go" => :build
