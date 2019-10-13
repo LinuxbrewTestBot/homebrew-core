@@ -10,6 +10,7 @@ class Shellz < Formula
     sha256 "aa5043471c26fba80ba9db128f5ff3e8b60051bd76a8d26c3ad114b59b24c8b3" => :mojave
     sha256 "83b7e5e52243efe75e302853574243667a8e9cf9899d480c12c27886e77a9788" => :high_sierra
     sha256 "b659a90bd79e516d71679e68d36a35038937f23ee9d1de1dfee313fd11b0169e" => :sierra
+    sha256 "846d5d66e131e82db999e636a7a807a2a1116a5ae947630d15a9c59cc2aed966" => :x86_64_linux
   end
 
   depends_on "dep" => :build
