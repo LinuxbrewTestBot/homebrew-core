@@ -12,6 +12,7 @@ class GoMd2man < Formula
     sha256 "dabfcbfdc2279b78a9b7bc8eab1413d222d54d9b60baeed793bcbca0c73331ec" => :mojave
     sha256 "1b66811438c0517a8fccb6d7457d40273c77fa8bb11019ad2b1cc152aa3b4bd1" => :high_sierra
     sha256 "9e1e719e31ee0d563bf9d3a30ada49708d5978a015f86f9202bfb7bf3c881d20" => :sierra
+    sha256 "bf5c00cda32aa5f4c19f70ac4568ca125325ca560d2d5ffd5ff763e08f8629cd" => :x86_64_linux
   end
 
   depends_on "go" => :build
