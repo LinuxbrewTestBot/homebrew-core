@@ -16,6 +16,7 @@ class Wego < Formula
     sha256 "ccdba75878ffe9b62b49265f6f4b375da80f44e6c5b7c5a40294501fda8903b1" => :el_capitan
     sha256 "97e7c2edfa9b1a312a0f4f4bce9553b1c8e884409aca3f7acfed2dc99fcef05d" => :yosemite
     sha256 "6bc11cdcd939b5361704f1575f297a152da2e3de79e94392c33cf5e22ec40715" => :mavericks
+    sha256 "f1132563798055a2e83e87938e08e462710fe7cca934d65d1c3f417cdf539a20" => :x86_64_linux
   end
 
   depends_on "go" => :build
