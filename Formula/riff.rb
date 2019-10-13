@@ -13,6 +13,7 @@ class Riff < Formula
     sha256 "ebe82f4eb5de8ec1f5047f7f69514cb69296040006fd1730e1e0eb097655186e" => :mojave
     sha256 "fde0709788f1f8ee61d9a9cc9759029b4fd43b3a4d30bda206d36e54ef644750" => :high_sierra
     sha256 "51e7e1cbb9df115a3e169c7419ce1361b2050d3c2d4d564d69a177593fad3486" => :sierra
+    sha256 "cacc1290cd6337e636c7ba3416fd87a7a232be632f49160d69aafff5969cd836" => :x86_64_linux
   end
 
   depends_on "go" => :build
