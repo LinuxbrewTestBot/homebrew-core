@@ -12,6 +12,7 @@ class Volt < Formula
     sha256 "9db9e940c124e8e655cdd84b7d143f526535c588ebd6503acb3960143d08f905" => :mojave
     sha256 "7fd8887efcdc3a9816b2dea510c2e3ba218e0e719390841d3b0b416fde53378e" => :high_sierra
     sha256 "4edc3f1130757ddbf0a7b3c018825f68f2ecb24417f3afc3fd54b532e8c72c46" => :sierra
+    sha256 "4240f91c96fac27606cb8f538aa7c1d3d2db9eb94810dfdf149b1c1a97deaf6e" => :x86_64_linux
   end
 
   depends_on "go" => :build
