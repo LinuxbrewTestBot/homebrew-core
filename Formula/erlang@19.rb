@@ -12,6 +12,7 @@ class ErlangAT19 < Formula
     sha256 "dae832955a999db959054aaab0d869a4e1d84a0f0a600d10abbc7291c9a680dc" => :catalina
     sha256 "4a3ab8a6b4c0fc1fb78fafcd8abf83fc6b75b4633947dd56864976fcf56a4a00" => :mojave
     sha256 "1bc019822df1f0a923a5ca18a89f2738196dfb9b6777ea814c74d183e49a3694" => :high_sierra
+    sha256 "fef2d7f3f0e1e505a4e4b73ebd8c8037c718ce6ba4491018c3e7d7bdb5a46b86" => :x86_64_linux
   end
 
   keg_only :versioned_formula
