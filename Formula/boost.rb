@@ -12,6 +12,7 @@ class Boost < Formula
     sha256 "41a5d38f5a7c626a064f5c5a9f8d620b76e9b5f2cf7eda85a52998a86b33bc85" => :catalina
     sha256 "9e026db92f0a38c7c222227c39d54c350490046e7e86920668f300ba4a773a32" => :mojave
     sha256 "8bd88f7245f35545ea5b3091408660148e6e819effe29191161da4968f15800d" => :high_sierra
+    sha256 "1d9b8cf1bbac56ef29a9082a86cd6535cb09d1482d073e244a1dd5ab48d8d7d2" => :x86_64_linux
   end
 
   depends_on "icu4c" if OS.mac?
