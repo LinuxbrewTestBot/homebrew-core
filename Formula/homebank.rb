@@ -9,6 +9,7 @@ class Homebank < Formula
     sha256 "4db7d01578a8588f38d2f481830e662b11039bde595c9958e51839d5a4471360" => :catalina
     sha256 "f6f16efea946ceac7d430f3aef7177454c11b759cc64433ef140b3e209dbb8b7" => :mojave
     sha256 "4ea21bb9617242f762aee8f92d152b21408c8908a4a7f1e0c7a79fb83bfd6888" => :high_sierra
+    sha256 "4f4f7d692abf0e63ea0aed9c57f63d394cfdaefb0442bd12a6c05c10ee138572" => :x86_64_linux
   end
 
   depends_on "intltool" => :build
