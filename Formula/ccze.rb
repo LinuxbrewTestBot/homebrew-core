@@ -11,6 +11,7 @@ class Ccze < Formula
     sha256 "8db7bc8c44c05aa107468a5f0b6e3d56a7072f698d85337cb97efa537b20d424" => :catalina
     sha256 "22a65a5daecfba0918a535040b81a7ba75a01b9421742c6de80e28bc88721fc5" => :mojave
     sha256 "506875e8cc54203395a7aad87f8e1d4eebaa0ecc55095556e0f27c214b9fd23f" => :high_sierra
+    sha256 "0013108b0f4105f9076bd7283dcc64dcaecbc4f9527151d91273661b22dd31c1" => :x86_64_linux
   end
 
   depends_on "pcre"
