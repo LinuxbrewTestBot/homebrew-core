@@ -10,6 +10,7 @@ class Elinks < Formula
     sha256 "67ab168d9d6d5bb65791d4c432e7e1e0109a09076039d4d6b2addec9219bef43" => :catalina
     sha256 "c48e70700c0ad0c4b66a376e6634417cd84c84de064bad74d384469d8f7597ab" => :mojave
     sha256 "219f12e44db5b6e966e2f8999fc1d5553c834b58645531f5167e6031aaa6e89b" => :high_sierra
+    sha256 "ab4293cfda42f97571a458390345ec93be5d45e8af56e23999aabdce777b0cb8" => :x86_64_linux
   end
 
   head do
