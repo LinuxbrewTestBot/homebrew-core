@@ -10,6 +10,7 @@ class Ntl < Formula
     sha256 "0f45cad8f6ebe8fbadab18234e65f6314a5b2ed4c6849fc24ee368a90c250992" => :catalina
     sha256 "0c310592c48ec027fab85b05faa26d70f1e5353f43e92ef1ab8ee3ac71cff6bb" => :mojave
     sha256 "6fe920965e5de4a5a2c6fc702e5d5a8a4b9bb1123f10310416cf93680e3252cc" => :high_sierra
+    sha256 "76b7dcfb232aa7847ca1b6d1edcef7d697fbdcb6beb118be17cac15169f2c0dd" => :x86_64_linux
   end
 
   depends_on "gmp"
