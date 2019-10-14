@@ -7,7 +7,7 @@ class Qt < Formula
   mirror "https://qt.mirror.constant.com/archive/qt/5.13/5.13.1/single/qt-everywhere-src-5.13.1.tar.xz"
   mirror "https://ftp.osuosl.org/pub/blfs/conglomeration/qt5/qt-everywhere-src-5.13.1.tar.xz"
   sha256 "adf00266dc38352a166a9739f1a24a1e36f1be9c04bf72e16e142a256436974e"
-  revision 1 unless OS.mac?
+  revision 2 unless OS.mac?
 
   head "https://code.qt.io/qt/qt5.git", :branch => "dev", :shallow => false
 
@@ -17,17 +17,22 @@ class Qt < Formula
     sha256 "a58effe9b3aa460fcd6cc41aa4cef235b6e88d83fe1c863100a6423a37482f8b" => :mojave
     sha256 "eae71268c2333dd6429a704123021ccca05737a629f89d5f7efbf1b1b7c0250b" => :high_sierra
     sha256 "3af3d51d19936f6e46bab0f1dc6c3b1e650090796d74110a2b607b985006b0b1" => :sierra
-    sha256 "eddf9aa0c4a56e4a09762510f0dbeb85e817357a18c0b3eb384f67230d2f55b6" => :x86_64_linux
   end
 
   keg_only "Qt 5 has CMake issues when linked"
 
+  depends_on "make" => :build
   depends_on "pkg-config" => :build
   depends_on :xcode => :build if OS.mac?
   depends_on :macos => :sierra if OS.mac?
 
   unless OS.mac?
     depends_on "fontconfig"
+    depends_on "nss"
+    depends_on "openssl@1.1"
+    depends_on "snappy"
+    depends_on "libvpx"
+    depends_on "gtk+3"
     depends_on "glib"
     depends_on "icu4c"
     depends_on "libproxy"
@@ -51,9 +56,6 @@ class Qt < Formula
       -prefix #{prefix}
       -release
       -opensource -confirm-license
-      -qt-libpng
-      -qt-libjpeg
-      -qt-freetype
       -qt-pcre
       -nomake examples
       -nomake tests
@@ -65,13 +67,33 @@ class Qt < Formula
     if OS.mac?
       args << "-no-rpath"
       args << "-system-zlib"
+      args << "-qt-freetype"
+      args << "-qt-libpng"
+      args << "-qt-libjpeg"
     elsif OS.linux?
+      # Some options reference from Ubuntu:
+      # https://launchpadlibrarian.net/445165557/buildlog_ubuntu-eoan-amd64.qtbase-opensource-src_5.12.4+dfsg-4ubuntu1_BUILDING.txt.gz
+      args << "-platform"
+      args << "linux-g++"
       args << "-system-xcb"
-      args << "-R#{lib}"
-      # https://bugreports.qt.io/projects/QTBUG/issues/QTBUG-71564
-      args << "-no-avx2"
-      args << "-no-avx512"
+      args << "-system-libpng"
+      args << "-openssl"
+      args << "-qpa"
+      args << "xcb"
+      args << "-xcb"
+      args << "-glib"
+      args << "-dbus-linked"
+      args << "-no-directfb"
+      args << "-no-use-gold-linker"
+      args << "-accessibility"
+      args << "-opengl"
+      args << "desktop"
+      args << "-fontconfig"
+      args << "-feature-freetype"
+      args << "-system-freetype"
       args << "-qt-zlib"
+      # https://bugreports.qt.io/browse/QTBUG-71564
+      args << "-no-avx2"
     end
 
     system "./configure", *args
