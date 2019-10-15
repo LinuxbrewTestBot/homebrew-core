@@ -11,6 +11,7 @@ class Cayley < Formula
     sha256 "ef95f5188624ab0af351c03552e5e3b715e0747d9117fd3c235f5219e7347051" => :catalina
     sha256 "e647be34623b1a8d635df7508f09111dfd8eb6f368a6979f9c5619b016beda8c" => :mojave
     sha256 "4177fdcb60422d484f1377e5367844ebcc9be471fffc76e717d8ad90e49ee99c" => :high_sierra
+    sha256 "7cc50d6842b1a9a55915780540c0c21ab35a3863f766c1ce741877db5f5ffaf2" => :x86_64_linux
   end
 
   depends_on "bazaar" => :build
