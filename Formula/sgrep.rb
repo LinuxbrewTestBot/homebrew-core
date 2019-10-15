@@ -11,6 +11,7 @@ class Sgrep < Formula
     sha256 "29e528a52ae36131ded52bb08d9cf9b12b1455fbc715f7b7bbd3b97f637862e5" => :catalina
     sha256 "bfb1f484dd474727fec463b1b90ffe7250f5c82e0e65bec96903e38f6e0a8e48" => :mojave
     sha256 "a243589e79a4cde4f7bba21ec618e3c323c049589707bde6e2c20c4bf1014464" => :high_sierra
+    sha256 "ff024211da0c2b68e6f037a286c40c812d040aeb1c1bd1fda04791576d1f980e" => :x86_64_linux
   end
 
   uses_from_macos "m4"
