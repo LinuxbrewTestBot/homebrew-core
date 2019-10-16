@@ -11,6 +11,7 @@ class Xsv < Formula
     sha256 "8d155cc9c61f185849bfa30c52e697ed8544132a39c0f883be6073a7d8b07b12" => :catalina
     sha256 "d343b54fc05a8bf5fa01c7a0408e742bc145465a414466a6bcb5efb62252eb62" => :mojave
     sha256 "e38f68fb0141d59deaa25230ab201e05df63fc5d03ec1afdf2443c61943c4a2c" => :high_sierra
+    sha256 "9bf42e12371ae93bf280ac411c49e438f11bc0bd275b91dbfc161fa1d9ec3d0c" => :x86_64_linux
   end
 
   depends_on "rust" => :build
