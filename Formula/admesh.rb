@@ -10,6 +10,7 @@ class Admesh < Formula
     sha256 "d877dfc78d057e2124d06b4826e9044b2686f19de3e84fbab1cd19c07524e6df" => :catalina
     sha256 "86f1775a6dbca0e6309cdfed9fb83d068873f5e8183204f02cc871d013290f62" => :mojave
     sha256 "2f0fd4e6cda35b4e14f6c8ba627ad7d22ee93507875b6943ea5677c857c4ab36" => :high_sierra
+    sha256 "adcfcfdeb642ccaf66eb270751ba121b8dd8b3851aabe78accc76788ed737855" => :x86_64_linux
   end
 
   def install
