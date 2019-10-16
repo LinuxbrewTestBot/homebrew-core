@@ -30,6 +30,7 @@ class Zpython < Formula
     sha256 "96e60fde74aced3f604a886899bc6ae81a428626d7b98f27c38b15eada389a0e" => :catalina
     sha256 "0e46595052e37148376385290c0f0f9be7c6ee14bb958632fc264f830a9c8d74" => :mojave
     sha256 "28224b9114bfc72a79f739a3ca62327a25c22f78d68b8bd6faa46960d21640a0" => :high_sierra
+    sha256 "0b46e4d77bcdc7041a9aab66fb1d8efafb433d142e0c2c15709ac934a73c4970" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
