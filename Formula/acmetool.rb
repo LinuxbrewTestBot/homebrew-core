@@ -12,6 +12,7 @@ class Acmetool < Formula
     sha256 "859ddcc717399c6724283beece51c0a93497e00be685d3f1cfb7153506cbd9bb" => :catalina
     sha256 "fd6d5e67865a1038fef6f4b183c255e42e4eb6470d5847e804639197f226da6b" => :mojave
     sha256 "62ec2c87880494488a50d78c36104f75eb97bb160ddf316387ab116e51ace2fd" => :high_sierra
+    sha256 "ba229bae0e6e2e776ffafa7410ab56220375a55fa4ee2b0217866617038998ae" => :x86_64_linux
   end
 
   depends_on "go" => :build
