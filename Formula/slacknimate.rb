@@ -15,6 +15,7 @@ class Slacknimate < Formula
     sha256 "e07155d74980ed24bf07acce56c890a86668eb359aecae8dae6eb6973c38cfd8" => :el_capitan
     sha256 "f97ea26560c72c550780b81a124f8c69c8588c27e0f87eef65201676f2666672" => :yosemite
     sha256 "cf81016bb94d8d2369c98a529b575d3115a263139502294b528197e1ac293ae9" => :mavericks
+    sha256 "802008fbaa3b18149b681a2d5af7ea7785bb8d7b02c172024257db8e02211880" => :x86_64_linux
   end
 
   depends_on "go" => :build
