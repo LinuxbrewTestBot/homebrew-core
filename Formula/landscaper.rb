@@ -13,6 +13,7 @@ class Landscaper < Formula
     sha256 "d178824d2e212c303d702137ad51e9df746cd0b65d53e1e3c80aa69268965cb2" => :mojave
     sha256 "7394b4d8cef65cff64ad929b623a4eb8e0dc4eb7541e919d7eb128ec811b104b" => :high_sierra
     sha256 "c231a80ae46932dd67361637ffb2efb1a9906d6e11ff9cf73fae7ea855533649" => :sierra
+    sha256 "8f62cdb29ee0c843dbccd3bda959e32a2f76cd117f810a9a5a6f0aa63f34cb2a" => :x86_64_linux
   end
 
   depends_on "dep" => :build
