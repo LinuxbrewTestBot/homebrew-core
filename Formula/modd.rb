@@ -11,6 +11,7 @@ class Modd < Formula
     sha256 "d1b77821aff14d108379646434442ec9ca4869ec50867083c8e109c35dfb5095" => :mojave
     sha256 "9dab505f6322b00919c69a8b396b25efb04f38341d2113c0681e6d12181b13d0" => :high_sierra
     sha256 "165da808127db6197c4dd7e4b527118baf29aa74747d9c7ae84cad47d1bd8e79" => :sierra
+    sha256 "d69e6cffb1157283b4d975dc8c1b9ef1d3065ec4b7c513fc66a1d018e1dfc195" => :x86_64_linux
   end
 
   depends_on "go" => :build
