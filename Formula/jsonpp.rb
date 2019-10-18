@@ -13,6 +13,7 @@ class Jsonpp < Formula
     sha256 "d81995103192bb58f66d7089939eb6682f117a7044d3a84804db62b4c31a3c81" => :high_sierra
     sha256 "219f8a6bfdf1d0e8435fa1c1fdf0cc22b91cae8ec7d62581d312927fabcf9388" => :sierra
     sha256 "3161f55711eea589c5036078fbf3a5df47484767f025adda7c0692d4dda5f2b4" => :el_capitan
+    sha256 "f6b0ca281c47061e910fda6992e548196ec11e3e5147a80467b6da48479f4097" => :x86_64_linux
   end
 
   depends_on "go" => :build
