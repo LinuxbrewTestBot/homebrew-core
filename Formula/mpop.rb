@@ -9,6 +9,7 @@ class Mpop < Formula
     sha256 "ebee77370afb55e27e025b8b954334d70fc9c6d052033a30c3968be796eaa248" => :catalina
     sha256 "71b45b62a099afa9bb44aa958e2318771e1c1851efccb961aa558629b0e2229e" => :mojave
     sha256 "52f8ea2f987b39b13845c224d6704f6623f9448ab9cce699874ed657e5b19410" => :high_sierra
+    sha256 "5d3aa27eec361aaa756b8a8a355090519da73e02fe03f9ac7307418afff7899e" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
