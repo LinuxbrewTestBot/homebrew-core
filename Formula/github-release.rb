@@ -14,6 +14,7 @@ class GithubRelease < Formula
     sha256 "e94b764f5aaf43c51cbd03702d3a645ea572d797578f8ece2e1a582055782e9b" => :sierra
     sha256 "a8a9c18b04a892300a0594f96dbd79862915522ab7f23c4e125a3334a660d16b" => :el_capitan
     sha256 "4fa1eefc30b795cb2b49f7f15505d1d625aa2bbff9f2e06d39c9b8f2c29bd21a" => :yosemite
+    sha256 "d3efb64e9216d027570075a84df7e08c2fd64bef2d4ea26008cb9a49c71097f2" => :x86_64_linux
   end
 
   depends_on "go" => :build
