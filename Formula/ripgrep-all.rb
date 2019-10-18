@@ -11,6 +11,7 @@ class RipgrepAll < Formula
     sha256 "2e12ab8408a5477ade1faae0d4ff52feba1d62fa83c468d2013e3f4e3381f098" => :mojave
     sha256 "0647dbf099bec9e929e6dad6988a129116b784623c8da8caa1ebd7f284b62912" => :high_sierra
     sha256 "a705783f96e33d80f13fd67f53c4b11be3cce0ec1049cdadb53814941ac3035c" => :sierra
+    sha256 "b14875337dcf45b74db65bec1910589d82c53b19baeafff0e4854dbb1a512ed9" => :x86_64_linux
   end
 
   depends_on "rust" => :build
