@@ -11,6 +11,7 @@ class Diskus < Formula
     sha256 "09f3ecb398c323353ea7d32d54691504eeacca1b01c494cc232bbf33a2040c0c" => :mojave
     sha256 "ed4bce4e6350c6968696a27faa2271185739a546c1e402d76a8fcae50fbf4ea4" => :high_sierra
     sha256 "b995363af6e1952e299db83d007de1b03d07f288c650aecec04a34b56a83926b" => :sierra
+    sha256 "01435511373c9f322b5a3ca325e8a83c93f32eaa68d99d47a5d8ea4582d65cdc" => :x86_64_linux
   end
 
   depends_on "rust" => :build
