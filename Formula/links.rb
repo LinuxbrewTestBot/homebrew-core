@@ -10,6 +10,7 @@ class Links < Formula
     sha256 "0a3c7483bcee4795978c8db90bdf2f07a46baa09cb6258a620f7d89e4724a466" => :catalina
     sha256 "82b66ce4fc6e261197ad6d00110a6963620772b4e1e0b553c4c982e39c363fa5" => :mojave
     sha256 "8c04e068acff9290a354b2c244638ca27056a086b67b90fac90e6bbfc1a7215b" => :high_sierra
+    sha256 "97ae4aaad50108b0a4a87ba867b4677ad40b8d6a70dd6868314cbdac102895f6" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
