@@ -12,6 +12,7 @@ class Onioncat < Formula
     sha256 "8e5072dbf56e675d189d93820e6515b1b2b79f3db41720d148e6b4c4b96f9242" => :catalina
     sha256 "8e8db91685902f795fae00325d15a0599009cfb9aa7441328a86525a432d58cd" => :mojave
     sha256 "cfc80dc5e65d788e2433448a3b48d9705f3f1498b85ea8204de760765d371665" => :high_sierra
+    sha256 "a4c06622d5df0e06f813404e49e86e285e934f72ae199398384cc9300ce01a4d" => :x86_64_linux
   end
 
   depends_on "tor"
