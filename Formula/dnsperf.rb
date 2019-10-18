@@ -10,6 +10,7 @@ class Dnsperf < Formula
     sha256 "7c89a8d743a3a62653aebf2d0a6102991a88efa5fb0b8743d425745b2cc60e2a" => :catalina
     sha256 "8901054afed6de33bdbbe8eda68f9238f0ac3915acd5ee319c942acae741841a" => :mojave
     sha256 "f67934e4c9b06aafd7220815911a6fa27e430ef0add19b5fe8cfda3adb9dcae9" => :high_sierra
+    sha256 "124dc492204c13b056132330b9df2346f24fb6a575a4e43550549ce0564078c2" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
