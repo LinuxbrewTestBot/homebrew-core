@@ -11,6 +11,7 @@ class Dnscontrol < Formula
     sha256 "98e5230bf0b1ea268e30c79567231d9fdeb9ead2afab1d66d3a6a225dbaca365" => :mojave
     sha256 "fd72608a2ba25ded69086be111de8712ca2815252bc1706a4371b1c37e70cd54" => :high_sierra
     sha256 "0895b13b50fec182649a62617a29b9084d05aa38f8f6013b9847a76a174b4b48" => :sierra
+    sha256 "6f660eba2f4df45cf599c8d5e362ca9e1348132567681f81b95a9ae3f279b928" => :x86_64_linux
   end
 
   depends_on "go" => :build
