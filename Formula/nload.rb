@@ -10,6 +10,7 @@ class Nload < Formula
     sha256 "2e566035d80abd97c43955ac5fa05ba347b67dbbd10d0543faef3cf5cc7b0bfb" => :catalina
     sha256 "1dbf614f22611f66ee49efa6b1f5a1af29066be04e461d56e9766b84aeb68077" => :mojave
     sha256 "3bcdee6e4f2e404d0ec728620b025524de265f94fccc290b29fc81f04f85be36" => :high_sierra
+    sha256 "a142f2d9f70c0686669f5d744b986ee3244ee29274d30e8471ca176d4361317d" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
