@@ -12,6 +12,7 @@ class SourceToImage < Formula
     sha256 "7865eec2bd488c5b09844e7c13244e9d19912f75f04f13dbda6b0b393077703b" => :catalina
     sha256 "102e5173cec0a766173a5cafcf95ab35129c2906bfedad3155ab1fe78933ef2a" => :mojave
     sha256 "33822b820f7febe068dc2dfd1fafd5502c18e0aadc9b4b2e91b9f095c6febbfe" => :high_sierra
+    sha256 "7d6c6d2d36890757f7420d73b258cd9bc9ff7702554aa97ad25878343df041b2" => :x86_64_linux
   end
 
   depends_on "go" => :build
