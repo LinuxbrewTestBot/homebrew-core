@@ -11,6 +11,7 @@ class Libdvdnav < Formula
     sha256 "658ef3ec8dcc5a332385fc02ca253923bdd9ac3f528e6ab9f6d58f358e766dbe" => :catalina
     sha256 "7c4441a7ff5417d98f72e9b291988726348cce70d5888198b9064f46586128ee" => :mojave
     sha256 "945b05e00ba0dec00311b3084459e0f64a224b47fbafeabd5c3e2e346c4ce565" => :high_sierra
+    sha256 "ce3fba4d54efd92d2cf2c87424186876d1664deea39105a7c77c25750d7ccc33" => :x86_64_linux
   end
 
   head do
