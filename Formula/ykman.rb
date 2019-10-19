@@ -14,6 +14,7 @@ class Ykman < Formula
     sha256 "6167b5271e16ec0578c19e057d3640ef915078ea49283c33527e5eb1f8fb761c" => :catalina
     sha256 "c61168ce749d7c6642028a64d5be0e6a27de9f9e5ad7cc7e7d63e3e7f9f022de" => :mojave
     sha256 "b290e4341fd449971cb3b9d6459b28120b603cc96a2e2895473d6d3d5f12317b" => :high_sierra
+    sha256 "bae4a4178bfb2ae1781349763e80db96961c04015a84e7438fa6156a542717da" => :x86_64_linux
   end
 
   depends_on "swig" => :build
