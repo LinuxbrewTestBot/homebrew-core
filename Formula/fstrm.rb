@@ -10,6 +10,7 @@ class Fstrm < Formula
     sha256 "e84d0b8f2c27683c16e0d168a94b355cc2dcdfae2b118b943b3853579f85a829" => :catalina
     sha256 "d20520e5164f271d97214c4645186996ee926c3847d59e8236e6dd643edec13b" => :mojave
     sha256 "8a373443cef458c2384efa537867eba87a19f58a413f052dcf0ee4c6636a379b" => :high_sierra
+    sha256 "fb7c2b300e805d6f51999a6d76140e87bc8ea59821bdacd82bfc727a63ffa94a" => :x86_64_linux
   end
 
   head do
