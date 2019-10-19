@@ -11,6 +11,7 @@ class Ufraw < Formula
     sha256 "19a95667ecb2a9bab8a108e539ef229b945f727bca7e8651af80cca1d355a196" => :catalina
     sha256 "d880967d58bbbefb118148da4c959e38a3409a67504f21ae9b53560884da192f" => :mojave
     sha256 "e09fbf5a78f3b461637d21e13575330232de1c70dd3e63026ab0dcc5669905e3" => :high_sierra
+    sha256 "864af3889d66a1693abe22c5381ffe5c4e28584e22cb80dbf5cfa8239a7aaa80" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
