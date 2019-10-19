@@ -11,6 +11,7 @@ class Libspectre < Formula
     sha256 "d551192bf058b808f379b2d03bd4a94a47dca0b0301e12e994ec672141b370a2" => :catalina
     sha256 "60d21fc1ce243a3f9d715f620977125380ee3d3b123a36bedff450c777b9a439" => :mojave
     sha256 "8c62d8a24f6d20220811dd7eb9fed9e52963ffdba540e75f84f67f2757e559d7" => :high_sierra
+    sha256 "4302c8055f682626998c1c06bbede2a5dd56e538cc076a710162349aeda2d7b2" => :x86_64_linux
   end
 
   depends_on "ghostscript"
