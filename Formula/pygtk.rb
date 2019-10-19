@@ -12,6 +12,7 @@ class Pygtk < Formula
     sha256 "2ffdf82a5933f39049cda9f5a306dbabdf8f7070b02c571bdcde6caec51b8dbc" => :catalina
     sha256 "0dad18c49e05149d61679923675360c77d0ce78834a05b326729cdb8a4ba77b7" => :mojave
     sha256 "1013bf29a5b0e59f75d6a9e4ea85ce9e69fca6c52707eaf0ffaaa213394eb504" => :high_sierra
+    sha256 "f8bb5ee78400d615f9235919ad482a8d6e1056c2d6b7eeea1c7ec9af0191e694" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
