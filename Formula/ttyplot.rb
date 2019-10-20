@@ -10,6 +10,7 @@ class Ttyplot < Formula
     sha256 "760b571d2cc940c6a1ad14655f2e2c0cac4aa64dea8e63d37454528cf969d8b2" => :catalina
     sha256 "b31388536afde7ef669c334f520e73f95ceef82d0c9f73f5390a65d13d3235ef" => :mojave
     sha256 "6d01769af5216ac128e8cb9a0a55397959594fa8f20fafcf65780db4b66ac090" => :high_sierra
+    sha256 "b1eb4429c41791d5811e0f57dba784f6fd28dd4ba1f87643e2c7f9b120eed710" => :x86_64_linux
   end
 
   uses_from_macos "ncurses"
