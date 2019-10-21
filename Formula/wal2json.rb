@@ -9,6 +9,7 @@ class Wal2json < Formula
     sha256 "6cb12fd590ee07b9332a7773aab25e11383b1be025c88793f87c9ee14cfda2de" => :catalina
     sha256 "1d977057ae9d6ccd4591a971d955f6db12f14f5b0463e5769d133dbadda53192" => :mojave
     sha256 "151da57db18a026d55b652c2bc15859289b93fcb7e20ac38aa2745d4785fb857" => :high_sierra
+    sha256 "df8b7f8007445587e104d4af17074df3b48a74280e9da064a68734a5a6f10681" => :x86_64_linux
   end
 
   depends_on "postgresql"
