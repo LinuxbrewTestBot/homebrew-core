@@ -13,6 +13,7 @@ class Buku < Formula
     sha256 "507fdab1e9b0bb374131781c14a8ca7bf2317a52e25a2a23d14f646fefd433ba" => :catalina
     sha256 "63bba11125015a071ffb492ae9ab49e818f915c31c26d34f0cb34cbf7d266da8" => :mojave
     sha256 "225cba1f8dae1398e1b6f124dd7f7d0a486f006e56400f4c70cd1a5285891bd2" => :high_sierra
+    sha256 "f4bc52da40003f4d090fd2c0efbb86b6d351996a0972f3c20bcb969352b355ad" => :x86_64_linux
   end
 
   depends_on "openssl@1.1"
