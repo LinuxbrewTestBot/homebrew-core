@@ -9,6 +9,7 @@ class Glib < Formula
     sha256 "bce8a4978621ce0cabc64bda3542208b1e6c01536d58131b3a747865355f3977" => :catalina
     sha256 "76dd1095c8376fe635b517055f5f82e34838f1cdf05cd8440dea071d2c8a15f0" => :mojave
     sha256 "d77bb5858285d781ac6fd286a3c1ebca200c012fdd9631a59473099aec12936e" => :high_sierra
+    sha256 "f6a7854af30f407211ede702975c6b533f191d2fec4a84c20f1f1b0c658ab8ab" => :x86_64_linux
   end
 
   depends_on "meson" => :build
