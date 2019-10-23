@@ -10,6 +10,7 @@ class Unoconv < Formula
     sha256 "080b156c88fd409534a862fb82fb98813f5aa342c17b10897c30186b6014ad15" => :catalina
     sha256 "080b156c88fd409534a862fb82fb98813f5aa342c17b10897c30186b6014ad15" => :mojave
     sha256 "080b156c88fd409534a862fb82fb98813f5aa342c17b10897c30186b6014ad15" => :high_sierra
+    sha256 "549109927f5cd55f85da9e083dd37a624ed9f6e5d1d4ed8986cef568f72240b8" => :x86_64_linux
   end
 
   depends_on "python"
