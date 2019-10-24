@@ -10,6 +10,7 @@ class DcosCli < Formula
     sha256 "004913024b18bff15db109f677059b7978d8711998d6e676fd177e24f5f7e044" => :catalina
     sha256 "1564dcdc6371477863f0d3dc949b7251b143ba3f688c611b527f07c3a0a9b6e0" => :mojave
     sha256 "521a123affe226746d70186894209529be71e3186195e3122bf7fc2dc62e0433" => :high_sierra
+    sha256 "9af80e1c9eb9ef2a7979e3c5d40dc50a45a1082d52a9e50201e953a05a2ddc41" => :x86_64_linux
   end
 
   depends_on "go" => :build
