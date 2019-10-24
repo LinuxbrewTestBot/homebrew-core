@@ -12,6 +12,7 @@ class KubernetesHelm < Formula
     sha256 "f055d13d28b5f76e19718cb93bd5e64f34e27c1602de39fb6ade3449756153cc" => :catalina
     sha256 "245bdf17ac134d98f7e022ddd36678ae62c0aa02116d3a61229f5fc1c5de5665" => :mojave
     sha256 "859c2dd730bf2e6c593ca19bbc18a9e155470193770a7824ff1ad74f906ed7b9" => :high_sierra
+    sha256 "0feb1bfd51a191d439e7c7bed1c551e20da0597b7471ae9207ad3dd949cf3750" => :x86_64_linux
   end
 
   depends_on "glide" => :build
