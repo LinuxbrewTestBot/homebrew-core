@@ -10,6 +10,7 @@ class Calcurse < Formula
     sha256 "8e9e4538d02408549659f6eb7512a8f9fdd9d2c38369967bd5d9aba67519e7d9" => :catalina
     sha256 "2b88932ea815161ce2a1d9af1d8e56612aea158255e991246b0da92e1fe11365" => :mojave
     sha256 "9318cecc6785ff6ac34439793e88a904eebafd9c7fd84d543157ffb6a405cf18" => :high_sierra
+    sha256 "7902c90ef2429e3b690365033a290deb227f7b4ebf62e5938861a50ed0f2d418" => :x86_64_linux
   end
 
   depends_on "gettext"
