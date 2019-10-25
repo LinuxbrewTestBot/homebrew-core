@@ -10,6 +10,7 @@ class TwoLame < Formula
     sha256 "9ba9f3afb14f2ac2fa911046a83ee50ed6a93d747f0c305788a61b4138e5fe5a" => :catalina
     sha256 "77d5c37574ecdf0d857e09f47e9de5eda3049fe8cd1486942a6a62a4baae6f06" => :mojave
     sha256 "153c7085434a1bce73b0ce704f37997179d6e53614a7014546b9b4d3f80dec97" => :high_sierra
+    sha256 "72e2ef2dbcec532dda31f4eaf82f32ae7d74561b9659f62829c6fcafd40fc156" => :x86_64_linux
   end
 
   def install
