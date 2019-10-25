@@ -11,6 +11,7 @@ class Exercism < Formula
     sha256 "d90d9790c3afc60533cedf8e2fdafa9c74659b4f706326810aa2e556efabe9c7" => :catalina
     sha256 "f00c53d1ee4bc4cf935ad4c5039b665078b1e6d81687b55ae988a621fe2d93b8" => :mojave
     sha256 "04f72181da1a9cde08e87357cc1494252f0290d18646df0f3bffec7673c26e7e" => :high_sierra
+    sha256 "4dc0f59bee87498ddb8c28af80ef6696c22bc459a322ae5c476b01c499c75990" => :x86_64_linux
   end
 
   depends_on "go" => :build
