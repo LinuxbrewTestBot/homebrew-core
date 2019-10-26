@@ -3,12 +3,12 @@ class Php < Formula
   homepage "https://www.php.net/"
   url "https://www.php.net/distributions/php-7.3.11.tar.xz"
   sha256 "657cf6464bac28e9490c59c07a2cf7bb76c200f09cfadf6e44ea64e95fa01021"
+  revision 1
 
   bottle do
     sha256 "c09396d2fc055d74f0f915c475ded38e8f7afac70ca5cc05546629e42fc654f1" => :catalina
     sha256 "1278858c1b7ea78072aa855d2a2de19d6185d000b583787632fb364a4c37157a" => :mojave
     sha256 "98e546809812298562e7059cb2eb6b169672451f809fee53b4cd9cc53b3127ec" => :high_sierra
-    sha256 "35b9d9308f3b44afc10166ca50236ac3f51050d373ec52d732e8df1c79b75fca" => :x86_64_linux
   end
 
   depends_on "httpd" => [:build, :test]
@@ -35,7 +35,7 @@ class Php < Formula
   depends_on "libsodium"
   depends_on "libzip"
   depends_on "openldap"
-  depends_on "openssl@1.1"
+  depends_on "openssl"
   depends_on "sqlite"
   depends_on "tidy-html5"
   depends_on "unixodbc"
@@ -149,7 +149,7 @@ class Php < Formula
       --with-mhash#{headers_path}
       --with-mysql-sock=/tmp/mysql.sock
       --with-mysqli=mysqlnd
-      --with-openssl=#{Formula["openssl@1.1"].opt_prefix}
+      --with-openssl=#{Formula["openssl"].opt_prefix}
       --with-password-argon2=#{Formula["argon2"].opt_prefix}
       --with-pdo-dblib=#{Formula["freetds"].opt_prefix}
       --with-pdo-mysql=mysqlnd
@@ -203,9 +203,9 @@ class Php < Formula
 
     # Use OpenSSL cert bundle
     inreplace "php.ini-development", /; ?openssl\.cafile=/,
-      "openssl.cafile = \"#{etc}/openssl@1.1/cert.pem\""
+      "openssl.cafile = \"#{etc}/openssl/cert.pem\""
     inreplace "php.ini-development", /; ?openssl\.capath=/,
-      "openssl.capath = \"#{etc}/openssl@1.1/certs\""
+      "openssl.capath = \"#{etc}/openssl/certs\""
 
     # php 7.3 known bug
     # SO discussion: https://stackoverflow.com/a/53709484/791609
