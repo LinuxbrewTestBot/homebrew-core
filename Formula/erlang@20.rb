@@ -11,6 +11,7 @@ class ErlangAT20 < Formula
     sha256 "3b6c01716226369dd3501cf25c489ba9cf8a50f45e921cbcff12bf2bdfacb477" => :catalina
     sha256 "17588664535bc927ca750d992db576d1b720e7fb3f5f2145a1fbdc42c7bcca6b" => :mojave
     sha256 "69c18bae54cbd16a4a1b4e8077a5111d97643a355760ff3a5a4e37ec580a513f" => :high_sierra
+    sha256 "8dfd4a1443e4a494c900243aee534591ebca08a3f23ea7f40405acf033054961" => :x86_64_linux
   end
 
   keg_only :versioned_formula
