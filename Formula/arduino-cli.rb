@@ -11,6 +11,7 @@ class ArduinoCli < Formula
     cellar :any_skip_relocation
     sha256 "878a5c5b6b9c25e1e1a7d703876dda604cae63a3efee21039e6d3ba44f43eb43" => :mojave
     sha256 "d96cc41349e79283cc17ab01ef2643badb8f835c38a6e1d6873a0aa35ed97bfc" => :high_sierra
+    sha256 "a628e84ef4870a5cf6617fac4243f9de795af25865aab43caaf3fabb9cff3ca9" => :x86_64_linux
   end
 
   depends_on "go" => :build
