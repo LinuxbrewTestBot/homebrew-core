@@ -11,6 +11,7 @@ class Pastebinit < Formula
     sha256 "2557d85100d111cf43ac51892d6401096c4f353689e34d611342f5ddb4e7c9d2" => :catalina
     sha256 "2557d85100d111cf43ac51892d6401096c4f353689e34d611342f5ddb4e7c9d2" => :mojave
     sha256 "2557d85100d111cf43ac51892d6401096c4f353689e34d611342f5ddb4e7c9d2" => :high_sierra
+    sha256 "511dd360374b8bd26017af54dff57017c9c31f377e0767ce3ce4597484449fea" => :x86_64_linux
   end
 
   depends_on "docbook2x" => :build if OS.mac? # broken on linux
