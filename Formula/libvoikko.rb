@@ -11,6 +11,7 @@ class Libvoikko < Formula
     sha256 "747d8a98e45ed2d48b9b33c2246fcd2de7f7ef94766d82d87bceb6a591d28a8a" => :catalina
     sha256 "b53926f1e2a9ec5edd61f43790f607f458d0760288a7df1719d438f920e81a66" => :mojave
     sha256 "d1a273c51ed07deed7be74921f45875fb1debeea209500b1eb4031acc6fe0795" => :high_sierra
+    sha256 "600fb6cfeb010019bd3a815f39af702530c0a887ca4bd0adcfc2825acd52ba95" => :x86_64_linux
   end
 
   depends_on "foma" => :build
