@@ -12,6 +12,7 @@ class Borgmatic < Formula
     sha256 "6a6e8d0f620531b0dcd083ba2f1690664386943cc1d044efeb2eaacfe868f1ff" => :catalina
     sha256 "6e98e72bac5a94450873dccb9b1031b58dbb1e60a82d9264938abf0895829a3a" => :mojave
     sha256 "2643c86ef126eb87c08007bab0826be9a31812d6f2f2e340fc83353c7a6ece7b" => :high_sierra
+    sha256 "35daa5c6d34fe340a3bf3dfa2121833c3c022039a48f12121c7bc9981c6315e8" => :x86_64_linux
   end
 
   depends_on "libyaml"
