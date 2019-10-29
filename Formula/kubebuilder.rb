@@ -12,6 +12,7 @@ class Kubebuilder < Formula
     sha256 "b9ced42c41cc779728cf88a265d6ccc779593d4fadc54e09a7875045ddd8eefb" => :catalina
     sha256 "7d080cf062c71c123368de823d1be821b7cc2c7f6f1cd447a605ce56f0d8984f" => :mojave
     sha256 "7bb90a95808e0340b38f9af6ee2ed3a4db3fc0ea88bfd6b25f8e292b217e1928" => :high_sierra
+    sha256 "5b0ca72b35bf9bc4a7721cb223b32bb538b5192c2b46141de7ee99d8a1740335" => :x86_64_linux
   end
 
   depends_on "git-lfs" => :build
