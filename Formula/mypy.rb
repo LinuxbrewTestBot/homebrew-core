@@ -12,6 +12,7 @@ class Mypy < Formula
     sha256 "504cf32ce81ae794afe4404bebacb259234355d9948542d705075d16509c73aa" => :catalina
     sha256 "0cb7d398b33f3ae133669d84711fe027c365d363b13f6c925db52294b83bb052" => :mojave
     sha256 "3c23f16558f156d7f7c9850c684ce73cc504e5aa64612fa531b4fd1dff4614e1" => :high_sierra
+    sha256 "97c3f1b553b8f9b81e6798b61a71ce1c4c00dd7c573b7e94f52bc889d2c2eb89" => :x86_64_linux
   end
 
   depends_on "sphinx-doc" => :build
