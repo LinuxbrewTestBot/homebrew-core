@@ -9,6 +9,7 @@ class Simgrid < Formula
     sha256 "c62c2880d97b18feb11bcc8a7b9d3bb4c7c2ed2e40f80d8af1c21c30f3489009" => :catalina
     sha256 "240af507cf808f15e0fe97b484ad2d355345a528a86c7f9383281ab4e608c53a" => :mojave
     sha256 "f540615cee13268687c5ea3c3313f9eda95cc641efba5cad506f60fe2c09d321" => :high_sierra
+    sha256 "52f5b18b359c5815def4b74449a8ba43b4d0f335a5292052d70e1f34b86f5552" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
