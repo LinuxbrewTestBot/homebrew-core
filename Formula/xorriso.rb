@@ -11,6 +11,7 @@ class Xorriso < Formula
     sha256 "ba9353c38b3109630b543faf56f9f8431ec225db32e5f446495528879fcdc361" => :catalina
     sha256 "e85cf1dfeb93797ef41680738cbde8fdf02aecb8040681742c2c89c82659c871" => :mojave
     sha256 "341b85b60e1762c6ffca661940ce5e1958b1f2aab89f49da0865466ad1badc5a" => :high_sierra
+    sha256 "fd29c9fe1118c161535a17ff363f729fde502a8a4bff2418378d705684362092" => :x86_64_linux
   end
 
   uses_from_macos "zlib"
