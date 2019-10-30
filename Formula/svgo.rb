@@ -12,6 +12,7 @@ class Svgo < Formula
     sha256 "1e53fffd3bacf1f66295e8aa1fdf4316fcb6a4183d72da07d35084aa1d591b90" => :catalina
     sha256 "862d1f99485c687499445b72655ccc33cd0b0438f5f98e258bed6fb8a56b281a" => :mojave
     sha256 "6619af1d5bbe0b8a0100b105e8387d158c6d04c847feb03cc4dd05e7747b08da" => :high_sierra
+    sha256 "84f4006d8965138abf1debc124a9c45f6e4f6100c9ba0a8296dc3f67300cb0dc" => :x86_64_linux
   end
 
   depends_on "node"
