@@ -13,6 +13,7 @@ class Geckodriver < Formula
     sha256 "e22f2630bb243d2ff0129f1e1807a21d7564563b198f5dcb0f15f9cc2d352c21" => :catalina
     sha256 "dc64495740d253d396aa2be1442dbcab5ad82b95b37f28c65eb724394e302ea7" => :mojave
     sha256 "aa4813eced6f47bf448a0f19ff1f73abc109122613a92aef6b217237020eba01" => :high_sierra
+    sha256 "8243acba4b2af92f7582d3b9acc53a95c764b667e8efddfb72514936342885e8" => :x86_64_linux
   end
 
   depends_on "rust" => :build
