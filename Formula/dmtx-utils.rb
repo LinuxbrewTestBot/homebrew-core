@@ -11,6 +11,7 @@ class DmtxUtils < Formula
     sha256 "b769c72ede0c30f8d66fa831a0228e1896a59bee2c1edb833cc983ffad647ff3" => :catalina
     sha256 "2aa5a9010d8aa229b81b7b571739131420a33643814b93d23de55547ac7c0202" => :mojave
     sha256 "dc6b4de991219302c6cc12f6bfc4ef867469f76278f77e0b7bed41e07e27f598" => :high_sierra
+    sha256 "3026fcaa10b6b0d87e3614aa5fad4c1d6c870e8ee1818631e99aa7b826ddcc27" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
