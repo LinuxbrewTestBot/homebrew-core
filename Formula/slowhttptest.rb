@@ -11,6 +11,7 @@ class Slowhttptest < Formula
     sha256 "ae6bf1d79b73492cf552f1c070f66c8589596ca68cb1dfd0fbacb1aec703d77a" => :catalina
     sha256 "f9911a5ba4c428db816eed4e97a15f5163fecbb018e66fa6c95f45a0f61e8db2" => :mojave
     sha256 "9df930c2bcfc3b447cfde2b4f106e6ecb2adb7ddc33c73b484f997395bdb45f0" => :high_sierra
+    sha256 "f1c41c1e94ac89048e857f0aeb6dd97b578d527b4ee3f161d4332a821fdcfbdc" => :x86_64_linux
   end
 
   depends_on "openssl@1.1"
