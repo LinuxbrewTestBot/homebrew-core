@@ -72,6 +72,7 @@ class Llvm < Formula
     sha256 "2e24b1c53c61457264bb413eed57b5953105f15f674b9c1378c50c8ad62faf0e" => :catalina
     sha256 "38b3c05f35101dcfb5502a7212aa477fe0add93dc010ceb0f8b3c56bf1e3bfad" => :mojave
     sha256 "e16c1d5a25f5fe0fc9a10f785d36930862a07daf1115f838f7d2e62bb53ddf90" => :high_sierra
+    sha256 "700cd3e55adf0f3818b8b045b9a1d2f2b717afa9ad0d29ae758b05dd16befc2f" => :x86_64_linux
   end
 
   # Clang cannot find system headers if Xcode CLT is not installed
