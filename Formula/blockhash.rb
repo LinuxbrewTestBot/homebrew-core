@@ -12,6 +12,7 @@ class Blockhash < Formula
     sha256 "e5b78f0c14faf009da78d00c1b31700837bd14c42be49d5609cf2f584678006a" => :catalina
     sha256 "d9580b0bade98b0d083d3838b1b7078894b6d3d56e758628a050345a1ddf526b" => :mojave
     sha256 "fdba183a92f5cfea8db07f626ccf13993bc59dec11ee2e402b063133da33f2eb" => :high_sierra
+    sha256 "70ce9fc2106d1212a82e7bffdb856d5db873fb9a355bb32c8dff7100d84b2f99" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
