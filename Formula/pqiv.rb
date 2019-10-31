@@ -12,6 +12,7 @@ class Pqiv < Formula
     sha256 "6f1fac22db64a533a018f7a17969f7f1c860ae4c98353950a6aa9a60170b66c1" => :catalina
     sha256 "a9e56dbc25a1654cb12f1f4d1241008dbfcbac11d24105b50b382d3bc48e682e" => :mojave
     sha256 "556e01ad1e9c2bf9c3001fe2ed79c635a1395a2cc38e0c6525e94f6d6767e93f" => :high_sierra
+    sha256 "96aa60484081d3568c3741e5fae36187e102162849cdb9393457053ae820ea85" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
