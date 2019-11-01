@@ -11,6 +11,7 @@ class Cfssl < Formula
     sha256 "5ea762e6bb069bc75f27de5f6792922a1815f7f03dca506b2e53d8e4bbf85cc1" => :catalina
     sha256 "df8bd563a4dd4ca5db514c6db898d2253163903f5bf490cbf1ab300584222590" => :mojave
     sha256 "e0ab7384cefb5f374308610b3f388efc4af2ce9f524ee5e79143ccbe392f9582" => :high_sierra
+    sha256 "9349749b3c1c205f53ba457ce36f3f67b0cc1c7f8aae8860fe562741a0d4537b" => :x86_64_linux
   end
 
   depends_on "go" => :build
