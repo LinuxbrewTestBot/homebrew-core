@@ -18,6 +18,7 @@ class Zbar < Formula
     sha256 "c67f6e8064b2c29e707529c211d90499452391ab05739da4774d922f643dd1a3" => :catalina
     sha256 "17da6d6bbc5072ee46a84b3fed3259afcdc96eabb50988363aa1c13d6437ec4d" => :mojave
     sha256 "fdba8cdcefcf962f2da1d475bd6556d3bdc3b0f644e3684a0a46efb1dd778fe2" => :high_sierra
+    sha256 "e50ea29d04c958dd710bd9684bfc31b21214afc7078bf2d771e0ffc0ce760eaf" => :x86_64_linux
   end
 
   head do
