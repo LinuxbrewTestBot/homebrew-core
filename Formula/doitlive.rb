@@ -11,6 +11,7 @@ class Doitlive < Formula
     sha256 "6cfd719360efbc422871ac6a239da51cfe35609349821f2daef67430316fd8e0" => :catalina
     sha256 "99b40de1ae3aa4020d8d31c2fadd8aa59a423506957d173a4740bb4fdab418a9" => :mojave
     sha256 "895220860c7b8b6a2b27c2594a9c49394debcd93bb375d01d23a824e5f24dd60" => :high_sierra
+    sha256 "3d8e25888e5e4c6cbe88370eff1b59020c5481f1fd7c3d4891b6aacceebefd4b" => :x86_64_linux
   end
 
   depends_on "python"
