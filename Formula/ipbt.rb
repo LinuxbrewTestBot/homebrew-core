@@ -11,6 +11,7 @@ class Ipbt < Formula
     sha256 "367536bc0020cd8b4313936070ec9539bcfe56de061a40b6bfc4aa0533d82a5a" => :catalina
     sha256 "e68f7a1286319ca19382bef65cbf2d80fd1f15bc46dc623cbe9b8f73b5d9d848" => :mojave
     sha256 "9ae5d95807ead91cb2bd746fb2f3d4fee82cb39dba42f67bdea9eede792b7261" => :high_sierra
+    sha256 "820e67f114bb781e14022a48ee5bfe52142cf9480231520472b33e55221b6502" => :x86_64_linux
   end
 
   uses_from_macos "ncurses"
