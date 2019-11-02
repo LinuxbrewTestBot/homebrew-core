@@ -10,6 +10,7 @@ class Otf2bdf < Formula
     sha256 "200d4f317f5fda0c3c4a350ba773322af4a29af56a65f9e3de11b406ab517522" => :catalina
     sha256 "76e89f43b017f0bc2f90c3d49e70d75ac9da5260b9567d1078449f1b80af60bf" => :mojave
     sha256 "208ef317e3c51e88818c4f59ca0333a76d6efeed97b04affe66c3cd6b601bada" => :high_sierra
+    sha256 "c96f304a4625e22c659d1550e9964cec3c7b56a12afad282526eab110867c7db" => :x86_64_linux
   end
 
   depends_on "freetype"
