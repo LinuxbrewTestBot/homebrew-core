@@ -10,6 +10,7 @@ class Rtptools < Formula
     sha256 "62a46aec907b497ca92c8a07731cf56b3a2b986850acbcb203aa87e94e945abe" => :catalina
     sha256 "51fe1b7831b60ee5ca438c11f72094149dbee5f96209a965997209fd6ac95742" => :mojave
     sha256 "e96df17dfe878ecb9e87a938579a21d514e31dbf8e5e6b743264dac23e42501c" => :high_sierra
+    sha256 "d56bea9a8d89315a51b5c145148e3b296d5f0e6aa5a63c061eb44d777f4fb6ba" => :x86_64_linux
   end
 
   def install
