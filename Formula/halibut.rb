@@ -12,6 +12,7 @@ class Halibut < Formula
     sha256 "e9bd74c1ab130f4abc824906bf1f73f910032a4c7c0938798f7fbab2f1346020" => :catalina
     sha256 "05f0236c180aeab690979615812fb72642e7cdeaccb35ebb865a53aadb35e7c6" => :mojave
     sha256 "fe74b9670ae0d996a17de4a70a140365d057a83a643125dcbd16b33dacad9f6a" => :high_sierra
+    sha256 "c09ef61b23b831ec7cec22bef92cb0fba57267d2851e5ca0b72e64e61dc2521c" => :x86_64_linux
   end
 
   def install
