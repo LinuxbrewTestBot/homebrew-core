@@ -10,6 +10,7 @@ class Libmaxminddb < Formula
     sha256 "83d315f644e070379a6abe78b1a99b5506443c16ad7be27ffb968928786626d4" => :catalina
     sha256 "c14b830fdac131232a41abc5e8893738f797d245d33f1131c5a572283ec8745f" => :mojave
     sha256 "c6bb7bb5640648252c3928dbfe4dbfb260970d2b4eff78493374a39de5dc1e52" => :high_sierra
+    sha256 "3a97e5492cecac87aebec8028f8114ad624b6bdcdc141ee760cf4bfcbc9f5821" => :x86_64_linux
   end
 
   head do
