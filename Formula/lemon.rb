@@ -11,6 +11,7 @@ class Lemon < Formula
     sha256 "286af27372fde1ea7ea8e0eb910a3707b622e73cfc1e66f23e7fbe4bf7d3d59c" => :catalina
     sha256 "99d4d1999862af18af2c16f3b80564e2202e3fbb17012283f0c9bdf87ef403b3" => :mojave
     sha256 "239bfe217ab89f4e6ef9fbfcc0f82996c3d5ab835324c3b91e42314e1cb002d3" => :high_sierra
+    sha256 "66259006976c4d5df37d0c61804d3bcb338e870e2b1adbc69e89fc96dccdc921" => :x86_64_linux
   end
 
   def install
