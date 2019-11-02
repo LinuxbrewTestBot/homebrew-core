@@ -11,6 +11,7 @@ class X265 < Formula
     sha256 "1b0ba2cbc5a5776f28ca0e35e057dea92b3562f023e897c04eee202f8c6a5e41" => :catalina
     sha256 "69be6670b0f82f1229ebe281e635e2f588c0bf2c45aec9d8a6194a3700cb2563" => :mojave
     sha256 "4dcc40b0d54784a6f3c3a878bddc79f7cbd657a17e4fd6a1aef0ff7f259e4824" => :high_sierra
+    sha256 "3fdb07aedd7b769f8024575018452b0a18d65bdc41c5223ddd378f4622641be0" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
