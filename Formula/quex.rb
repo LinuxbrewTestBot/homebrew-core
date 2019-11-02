@@ -10,6 +10,7 @@ class Quex < Formula
     sha256 "f3d39a7468e8c529ce1c0d6ab5b2d028f50771304993e9f2e996490f846c4b6c" => :catalina
     sha256 "f3d39a7468e8c529ce1c0d6ab5b2d028f50771304993e9f2e996490f846c4b6c" => :mojave
     sha256 "f3d39a7468e8c529ce1c0d6ab5b2d028f50771304993e9f2e996490f846c4b6c" => :high_sierra
+    sha256 "c2d2cd8ecfbfa428ff8fafd861daced4e8efbad889d633c418b93ede709e9b29" => :x86_64_linux
   end
 
   uses_from_macos "python@2"
