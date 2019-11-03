@@ -11,6 +11,7 @@ class Hexyl < Formula
     sha256 "c3d573fa057aef06a57da5e5244c50d45e895b2a0ffe36f543efc04866074d6d" => :catalina
     sha256 "99a3133f73538f29f0dc2a603f122b2c2165fdd53de0f2141fc0ebab086c22f2" => :mojave
     sha256 "c1f885347631441fceeb3f0ed4d29dc4c259f36108da31ce862dc240c1884819" => :high_sierra
+    sha256 "d82624aac2201d7b2791e9272954a0835962d939f9ee299b5026c8ba6637aab9" => :x86_64_linux
   end
 
   depends_on "rust" => :build
