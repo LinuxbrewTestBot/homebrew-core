@@ -11,6 +11,7 @@ class Bat < Formula
     sha256 "dce7de3c210949e849e65e0167c343e7145bd664f90e85d0f0a7f024155e3409" => :catalina
     sha256 "b6e77c28390e81b73a02a1b6e10910a306b30ad5f099b9be91ad1f0252236b26" => :mojave
     sha256 "6c4eeef5809399549a7f8d5499eefe7b2686ed86ab003757b1cdd51df2297fa3" => :high_sierra
+    sha256 "6d91081c1fc5093900753799512f0ff0a6956620f0d915c0d3e2ad90bc6dcac2" => :x86_64_linux
   end
 
   depends_on "rust" => :build
