@@ -10,6 +10,7 @@ class Sn0int < Formula
     sha256 "010e3a11a2ef850f780d350e1f0da232dcbc032ef5c6b442d79dc2f950b804af" => :catalina
     sha256 "cf6005ad1e1ee1926b19e8a2d6d11dc2e8f84814cfd5ac785431645641f5ba1b" => :mojave
     sha256 "1cdb6d0437e56d58276e193a42e7b7256a9079f86711f5de3daf45edf8314a41" => :high_sierra
+    sha256 "f5011ec73d7bf907bbf4eb637283c25268981e79d11e0f9f6d8f3aca3c3b1611" => :x86_64_linux
   end
 
   depends_on "rust" => :build
