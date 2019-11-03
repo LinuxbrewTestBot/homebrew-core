@@ -12,6 +12,7 @@ class Boringtun < Formula
     sha256 "e092fc5870f6f58840da66d1e2a00b9768c2ccef9cb8a07d48d9fd3ee3c77160" => :catalina
     sha256 "9d4c270b1a0a5864fc45ebb5fcf0517546cb39b8dbe8ab5d85298fd4b2616090" => :mojave
     sha256 "9c069ca90fed17c4eba1731a1b5bd28b3a0c2736111dc522347d4ff64e48eda6" => :high_sierra
+    sha256 "e5d18428ede299123a832daa13fc17519bfbec5ba5fda50b37bbfdbef94c78a9" => :x86_64_linux
   end
 
   depends_on "rust" => :build
