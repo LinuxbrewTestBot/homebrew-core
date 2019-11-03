@@ -8,6 +8,7 @@ class Comby < Formula
     sha256 "ea3cbad9e3c7706bfe841c5bdc44a3e43514e8fa860a3097731aebe67a4f339a" => :catalina
     sha256 "6b8dc81e1c2c6fc901301b12935acd24584e36f4e14a265c3594fdbbb70a78d7" => :mojave
     sha256 "881acdce34bda5a69cafa4473240ff4b9d9533544fde801a19c09b0c176ab37e" => :high_sierra
+    sha256 "47820e0e9fbd2567037d52364e5616c28b66f2bcaeec8088f5b18e2f1eaa9834" => :x86_64_linux
   end
 
   depends_on "gmp" => :build
