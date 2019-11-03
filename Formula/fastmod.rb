@@ -11,6 +11,7 @@ class Fastmod < Formula
     sha256 "b8796ef40402ee2f3f1663186cf0c72a0b46e7870bdc38ed36b42797b1d8903e" => :catalina
     sha256 "3e63d95fed7192044cb1140179d6b0565f69c7187e82efb541b157c91cd27186" => :mojave
     sha256 "8047f087b7034a595a66daa17b6d5e7fb381ce8a50fe443747f5ce42714b323f" => :high_sierra
+    sha256 "cbfce8f08706e0529a581c335f417412d28f1856b59dc66ebd867b22d7290748" => :x86_64_linux
   end
 
   depends_on "rust" => :build
