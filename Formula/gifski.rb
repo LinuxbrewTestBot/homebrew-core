@@ -11,6 +11,7 @@ class Gifski < Formula
     sha256 "e827ecb693054dfbf0650fc8b0a34ab58f13e065a6de410130703d0850aacb08" => :catalina
     sha256 "46732beed14ac4265f06325e80bc5c7ade918418d371222a0f7171bbd6c5a189" => :mojave
     sha256 "42d6a2e0f41b73144e2126b0943093567095676a16615ebde7c07416cbb7d8de" => :high_sierra
+    sha256 "10c809375867078b8d917704e994771fd78b37f935f501d813b5e9c4dbe34ae7" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
