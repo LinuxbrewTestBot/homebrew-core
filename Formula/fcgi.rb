@@ -14,6 +14,7 @@ class Fcgi < Formula
     sha256 "54cfcdd18d640c947dca6c7d02eec6ef996ed6abd1cce93ec6d2265da7c56415" => :catalina
     sha256 "022ad3910de37e2713d9795bff3fc89d4562e4eeea218e9985023515478b980f" => :mojave
     sha256 "e3916280d172a68bd76bb57d6799e7557a5b0933949403cefd35ec722da89889" => :high_sierra
+    sha256 "252079a683b54fa08771bdcdc6a92e1c83f186361690e6e21674b4efdb9192b6" => :x86_64_linux
   end
 
   # Fixes "dyld: Symbol not found: _environ"
