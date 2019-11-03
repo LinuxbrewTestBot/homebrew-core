@@ -11,6 +11,7 @@ class Loc < Formula
     sha256 "2a8ac9341661cefa1221418aa2cb5cdd5207108ade6803ab5af34ca01d0aef13" => :catalina
     sha256 "008db46fed420d7ec698d46e059a4913368af4d8f0b2f4f8502a39ee392b830d" => :mojave
     sha256 "f4241a70db520e24c587649bf7b8db0f743afaf00b01ebee5934bee7e88ae42e" => :high_sierra
+    sha256 "fdf1e18b1c387df11367627c1b511297d0412f9b075e5e41b638ebed34bbc23f" => :x86_64_linux
   end
 
   depends_on "rust" => :build
