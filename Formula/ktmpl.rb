@@ -12,6 +12,7 @@ class Ktmpl < Formula
     sha256 "d8c1e6fd18fc96f615e119c64cd7df67940cb0a9b3113450e49f567b9875c9ee" => :catalina
     sha256 "7c91c4a9674effc29e0ef187fc05163500a81ac5a7c0502552b12098c72633dd" => :mojave
     sha256 "2cc0b69a68bbd12cfd02e17d079363f773006a7bd07b77588cf83d7207950b3f" => :high_sierra
+    sha256 "ba7f99adb316aeeb52fd3f13971b19a28e180bd110ba49cb72bb2cbc2e8ea5ff" => :x86_64_linux
   end
 
   depends_on "rust" => :build
