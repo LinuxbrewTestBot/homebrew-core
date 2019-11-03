@@ -11,6 +11,7 @@ class Genact < Formula
     sha256 "38ba680b756939cbf698a3bb4e135613663e5d7778f15cf03c8cd2fb19abdad7" => :catalina
     sha256 "da6e18f5cbe7a84c8ad3c4a3d079d7ca0deaded383d98ce72afed4f770a02aed" => :mojave
     sha256 "2c962de62551fce95f18b2e46cc9b1140256daa10fcd5555d5cfc2e3999df340" => :high_sierra
+    sha256 "146f2f9615674286beab74f5d9918a12e04720347c60b9d6c85e608d8f5c1c29" => :x86_64_linux
   end
 
   depends_on "rust" => :build
