@@ -11,6 +11,7 @@ class Rargs < Formula
     sha256 "247817d184e94dee19ec60a4455fb706677dac91b0da5ea9f945c00fbd8ef2e0" => :catalina
     sha256 "860dd78cd787ab1552139c71db5ae901851954a1567ecc41449cf26504e6e272" => :mojave
     sha256 "7c420943533b30aa0336ff220611a51efa7eb79657499562ee4a223c079ebc71" => :high_sierra
+    sha256 "76ba58c0a3292f21dc3a71dd740e7ddf6135643da700723553cc5fddaa9023f1" => :x86_64_linux
   end
 
   depends_on "rust" => :build
