@@ -10,6 +10,7 @@ class GoBindata < Formula
     sha256 "12f47339543ad1c551f99d79afc4425aeccab732cc0a83628c80181994173227" => :catalina
     sha256 "7374ce827060b1d880bca4fa07816ab8d883f9eb63a36e11460966bcb68247ec" => :mojave
     sha256 "b727c8b6f4d036316a4429064f1a19fbcbdb6f3f4fcbe60a7549267eb66d7ab4" => :high_sierra
+    sha256 "47f3d11b07233759e02b397aaad22fe43123daa4a21159f03bc4da9e831abcaf" => :x86_64_linux
   end
 
   depends_on "go"
