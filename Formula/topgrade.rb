@@ -11,6 +11,7 @@ class Topgrade < Formula
     sha256 "cf9bedbabe700a3e3569f3b8abd350d7580a09c71c14c6008179022536cda8b8" => :catalina
     sha256 "fe4edeba7017eeb5dd11abc43428b5a10a09fde684f053377d34756167294462" => :mojave
     sha256 "d5c5ddb284bd5b9525a04aeb095bdf921aa441233ae3b9418d8f152820e069f8" => :high_sierra
+    sha256 "adc72b9a754933448103aaefeb73d2964f018d8d888f0465225f122990e6cecd" => :x86_64_linux
   end
 
   depends_on "rust" => :build
