@@ -12,6 +12,7 @@ class Ripgrep < Formula
     sha256 "2807391bd15f5529d15c88357b6a54de405ea22272a81613bb53bcef0c40717d" => :catalina
     sha256 "e8916c30f1eea952b2429c1268a7f91aa19178e56c97106bc71f53778d2084aa" => :mojave
     sha256 "2e28d6ebf756c5bd0d952d885166b39d5f1f19a10421a66f722fc5a22ad206a9" => :high_sierra
+    sha256 "c687b9b47f632a4c61d42e7cf1fe6f6edee89ffce04e36f19b5931fd66a58b59" => :x86_64_linux
   end
 
   depends_on "asciidoc" => :build
