@@ -9,6 +9,7 @@ class Gdcm < Formula
     sha256 "5b92530d4439ac74e2062b585a460fc23848d785b88d4a989674a6a328fde3bc" => :catalina
     sha256 "207d41bd1d20bafb0a1f34b06154228421db2a5f47d0d45a93e1433c0a2cf735" => :mojave
     sha256 "2c2fc983a6177da77c736754762788c2b665a0c83b73b1e5e257398581279afe" => :high_sierra
+    sha256 "f92d94659478c8b3e6dcc718355dfad3d70796200965cf300658a6bdcc357af6" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
