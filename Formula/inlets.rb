@@ -11,6 +11,7 @@ class Inlets < Formula
     sha256 "ab879c3612195a1229a424c44fbc238239058b475da8795d618fce8176874bae" => :catalina
     sha256 "1f4fe93d4582e86f348ab9e1b52ed9fa90f799d73ae90e7bf79ea30d7617cd0c" => :mojave
     sha256 "0550e3d07c29db12fcc3de100273c582bb2cd7fe0f2e9b665021fa9e7572bdbe" => :high_sierra
+    sha256 "7aa505665af1c93789247ef837d0c2ce882e450dacb0f7bc028545a88a99808f" => :x86_64_linux
   end
 
   depends_on "go" => :build
