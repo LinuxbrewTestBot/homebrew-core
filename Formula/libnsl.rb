@@ -6,6 +6,8 @@ class Libnsl < Formula
   # tag "linuxbrew"
 
   bottle do
+    cellar :any_skip_relocation
+    sha256 "fd85dccde71cfaf515bbc24db70fe1c981617fbe10605a55b759cf655b684b06" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
