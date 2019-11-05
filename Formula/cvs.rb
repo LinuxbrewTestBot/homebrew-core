@@ -23,6 +23,7 @@ class Cvs < Formula
     sha256 "3768bdcd294e1bd9cd63d685da456d709a62aaf5e50a58baab0db0f35fbc9939" => :catalina
     sha256 "f5a626e218d0162c660297336bc98d52204cfdc75783bd8261745fbbf9e5d29d" => :mojave
     sha256 "64a31581ff4564b19ac27b551bd5ed5ee673fdeea5087b6476a51832665543e0" => :high_sierra
+    sha256 "19c3a0bc02c00e8702bd9e209af3e5c0f26b8bcc2c28d31456fbf894add00d69" => :x86_64_linux
   end
 
   unless OS.mac?
