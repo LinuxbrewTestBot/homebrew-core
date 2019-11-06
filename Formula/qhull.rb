@@ -11,6 +11,7 @@ class Qhull < Formula
     sha256 "2914810492c9ef6f46606237d8ab3adc84b4cdb5edfdab722dfa4adf58864504" => :catalina
     sha256 "fcee31c1350555f924e27fc7868c4244fe9e6f3be67dc9a91426c85f27e65306" => :mojave
     sha256 "9eab455f07e6bc666960235f23919cce155bf630a689cafdf346083dc88925df" => :high_sierra
+    sha256 "f11988dc10c758047763b80947b08a2b5cf5dd10743242d63705e29836d3fcf8" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
