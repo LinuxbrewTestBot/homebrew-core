@@ -11,6 +11,7 @@ class Libtommath < Formula
     sha256 "74f8fc0290933dde4d0d8c804707bc4dc421c9f88b09c91f8acb140aafd225a8" => :catalina
     sha256 "e827065d024c0699ca3672e1d806377833d46a7fde999666b097cfb7a31c625a" => :mojave
     sha256 "9affad0e48cc7801adcd196813c5d1271fcb2ba94a50169fa633d4ec7804eb2d" => :high_sierra
+    sha256 "5e661dd240ac74527eef32941b16b22a783f90608512e47468c4b938e49e6076" => :x86_64_linux
   end
 
   def install
