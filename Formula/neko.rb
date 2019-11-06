@@ -12,6 +12,7 @@ class Neko < Formula
     sha256 "aedc2d1e4ac68af356e4d3d6e1bde0553b737e5734a227dfe2134645d363b788" => :catalina
     sha256 "7a499e2421564e1b752f658ffd8af89cbd91dd4418fa6b68390a7f55652f7420" => :mojave
     sha256 "29be87f25d471ad2961b3bcd526eaccd618fa050cab5d3c6e29aaa2953df1178" => :high_sierra
+    sha256 "cb9bd66140c76edcba48df3960f000692c6b195efa1c1fd29dec12e9aabea6d0" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
