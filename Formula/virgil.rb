@@ -12,6 +12,7 @@ class Virgil < Formula
     sha256 "6d031ab150d2e143ce3e655ca8adda5fcff86fe784fb650535f5ffeb56ebb640" => :catalina
     sha256 "81ce76c5dabd29e3d5d06f65359e08caa11dbbf06191e79efd23315e0e90c9d5" => :mojave
     sha256 "152e84ec92c664b11d005ef2d4a8101546c70d2394f571ef63931f39efdaf38e" => :high_sierra
+    sha256 "020c416dc5808f4a2c05de457e7195ce2beb101e559ce71fccdc0d96f1e8f8ab" => :x86_64_linux
   end
 
   depends_on "dep" => :build
