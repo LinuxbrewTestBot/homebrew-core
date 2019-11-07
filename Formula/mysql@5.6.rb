@@ -10,6 +10,7 @@ class MysqlAT56 < Formula
     sha256 "a3145660591369afee1c641ddcf42826b77782547fd85e54974d894e0e23e72f" => :catalina
     sha256 "965f73063ddf89afb3baa3ff1d8bd22636cd39011207bb748d465b9d881dca93" => :mojave
     sha256 "b3b0ca8146a2d477c8c37b5b9f7b775ea316fbc424ae30b04f8abe95e8c1c1f1" => :high_sierra
+    sha256 "89ca5eaf5de20618bcc21cb88f509ef909247138b65ef8c2e0f00f8e41ac1f15" => :x86_64_linux
   end
 
   keg_only :versioned_formula
