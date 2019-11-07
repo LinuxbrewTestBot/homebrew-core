@@ -9,6 +9,7 @@ class Curl < Formula
     sha256 "d43bf6905beee288978104f8fa403fe8b5ded820256916f336d2897be5d9872e" => :catalina
     sha256 "3e1fa3e2435503c0d67b447a4f20294459f90bc9279890ac80590617fe23657b" => :mojave
     sha256 "d04cf2c4ca107d4a73e44d886727fbd06f988c120eae06e5b9e8d6ab1f61cf59" => :high_sierra
+    sha256 "9851520b1149d7db9b22b89c6364e0af6a975a1850aedf7a9758360b3abacb6f" => :x86_64_linux
   end
 
   pour_bottle? do
