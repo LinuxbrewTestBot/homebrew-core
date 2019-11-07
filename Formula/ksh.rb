@@ -10,6 +10,7 @@ class Ksh < Formula
     sha256 "ea7be886a6acee55713ca673ce1578a1303389fb2a964734c38137d3610d7f2b" => :catalina
     sha256 "3bc3469d43fba904b3045722d43bb52444f88c2e6745af977bae9b52d1f0090e" => :mojave
     sha256 "733e1c6bdd05054bf8d0097a6ae9ea2ca21e74b4676df7b424d4b9f43078afd4" => :high_sierra
+    sha256 "40dbdf54a5608442ad7970087afac20704744893e10c391acc9fdb1b81039fd3" => :x86_64_linux
   end
 
   depends_on "meson" => :build
