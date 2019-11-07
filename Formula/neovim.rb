@@ -9,6 +9,7 @@ class Neovim < Formula
     sha256 "389ab254794ea04df8a106bf281c227c4fdee27c609d52951f32b9a0239031d6" => :catalina
     sha256 "fb6cc38c45be4650a4a750a314cec27f6f7643dc7c22a1f5abae347e1b39b388" => :mojave
     sha256 "b2f7450e005f4eb22bfaf650fe7741fa8629393a947b4dd48c9f91e7fc258113" => :high_sierra
+    sha256 "b9c56a15b38b68b6d1b569ac8d4805bfb32817232d198654834932c9fb9db24b" => :x86_64_linux
   end
 
   head do
