@@ -9,6 +9,7 @@ class Tweak < Formula
     sha256 "a38441e05b3953b324cee772161ebb1ccf12bf2262c476af921fee963fdee413" => :catalina
     sha256 "82ec40f5ceaee7630a9bba6652c350388176c38908681fe4389a37d2e9605009" => :mojave
     sha256 "e36456b9e78dafa97c7c972a9c26bc274cc30dff8f50c2a736d2aaca8068dfa8" => :high_sierra
+    sha256 "3d83d6aa06b9b9c130d0e69a95a37e830cf677bb96c93a101ab83996c55a75c5" => :x86_64_linux
   end
 
   uses_from_macos "ncurses"
