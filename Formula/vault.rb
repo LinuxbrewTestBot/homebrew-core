@@ -15,6 +15,7 @@ class Vault < Formula
     sha256 "85c55dbc7851cecf723a23b23907fb5874f72254cf8e9b039f811f31d94cec6d" => :catalina
     sha256 "520b0924b40384d5149aa71533982c4f1c91b4063296641f32af652a5c65dbea" => :mojave
     sha256 "323c61e661e4f55f7a5387877fd5c3537650cfaa1fe71b1150d2d8943a83c8e2" => :high_sierra
+    sha256 "700236f9edb0b02b8721378ef0ef5d41fde79245237847578380593262eae5d4" => :x86_64_linux
   end
 
   depends_on "go" => :build
