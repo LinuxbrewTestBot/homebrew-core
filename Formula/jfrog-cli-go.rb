@@ -10,6 +10,7 @@ class JfrogCliGo < Formula
     sha256 "a19879c71928a5e252043c64d7d7159e16bc3f46375131e886ff01dc587f767b" => :catalina
     sha256 "cd45747c94a09239b5d11bc818f66ffa3584ea492cbf69a03f5189c4cf86baf1" => :mojave
     sha256 "463fa611350a9da1a2b0ad274c56e0791cf8e5b4e03ace0b8c82577e804800c8" => :high_sierra
+    sha256 "977be5ef3c59e87fa6db4faedb4f53f58915bc2210525ab2ea697d5a166d5046" => :x86_64_linux
   end
 
   depends_on "go" => :build
