@@ -11,6 +11,7 @@ class Devspace < Formula
     sha256 "fb09ffd1ba226619d72be35ea7a69684d0027c26b0a16722c5e09972c594827b" => :catalina
     sha256 "1b6391f2bfbf7c5a06b1d20a681c2923a666209c51335923ca9df2366c66274b" => :mojave
     sha256 "354ce494485d05b2a270f53faebcf04cb20315577e519be882c5408b1de364f3" => :high_sierra
+    sha256 "ead87a6c253330f1df0be1341ebb5df49d4b914c3815ba55e917ffed5c78e852" => :x86_64_linux
   end
 
   depends_on "go" => :build
