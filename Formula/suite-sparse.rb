@@ -8,6 +8,7 @@ class SuiteSparse < Formula
     sha256 "8eb58bbbd72d6ccc7a4aba9b2809a6dbd644fa885ff4928c1e407d468312b1a3" => :catalina
     sha256 "d120874fd9475e4b65f2314da7db2cad5b20e2ece303c58a6cbd6dd36f8e47cf" => :mojave
     sha256 "d578edbc2eb5813a86a85b7e2af8083bfcf3dc6aa265263b9c1c87feeb2cbd4a" => :high_sierra
+    sha256 "4e11ef48e049d94ed3b5f429c7d3270301c6c9bf9e9e8cb28312fc7e83998f5a" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
