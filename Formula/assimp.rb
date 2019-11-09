@@ -11,6 +11,7 @@ class Assimp < Formula
     sha256 "fe46160da97212c37c91e5798d70c8d0ff25bb551034919f54bfca92eb740eb3" => :catalina
     sha256 "de688cc4a769519596543c4fcb6c6da9811dc98bd9fe068d358337361d7ad558" => :mojave
     sha256 "05192d6a70b625792264ceca37da758e1a3ffeab95551968a4df53635eb0d1a3" => :high_sierra
+    sha256 "06429c589a3cbffcd3392ab8ffcc2717cb7d00e72a6fafad1267373dcd27de13" => :x86_64_linux
   end
 
   depends_on "boost" => :build
