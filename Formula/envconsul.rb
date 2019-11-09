@@ -11,6 +11,7 @@ class Envconsul < Formula
     sha256 "ecd28f505c550a1c56a91214f267c218245a9464c5d7c6d3e32c024b030ce794" => :catalina
     sha256 "20be4db18a8e4845bd225bb240a72e811bc20eb8762923ac7d83c64ccc690a0c" => :mojave
     sha256 "352bbbfaa6595b119d2c40ef9f010b2bfb45eb74184c0db487c384459a7fa980" => :high_sierra
+    sha256 "f5dc28fa16a90be5ad986dd3ad394c77a38a722ae25787256ec7e060b30d6ed3" => :x86_64_linux
   end
 
   depends_on "go" => :build
