@@ -14,6 +14,7 @@ class HttpServer < Formula
     sha256 "665fb079e61a54404b0cca165221606a3e4eaea7e0e8dbb3d09868402d67d1b5" => :catalina
     sha256 "73f8bae1002efba8e3799e5f0394831dd79b53b264e0581cfac6f8ab8ee58002" => :mojave
     sha256 "346263e7a818fbaeeb2dfc7dee4e57b908bb2eafcc407609ce3ca336b47132ba" => :high_sierra
+    sha256 "50bb096f5f65143bc30d0e85e52f01bab35abbb481bf7850f2deebbc6c92497c" => :x86_64_linux
   end
 
   depends_on "node"
