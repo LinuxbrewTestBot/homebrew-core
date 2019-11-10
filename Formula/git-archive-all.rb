@@ -10,6 +10,7 @@ class GitArchiveAll < Formula
     sha256 "f19b26ad5f84a0049ff16c4b0a2e5080eb06ba3d5925c4622b09b2dec80d3be9" => :catalina
     sha256 "f19b26ad5f84a0049ff16c4b0a2e5080eb06ba3d5925c4622b09b2dec80d3be9" => :mojave
     sha256 "f19b26ad5f84a0049ff16c4b0a2e5080eb06ba3d5925c4622b09b2dec80d3be9" => :high_sierra
+    sha256 "b5875eff33f4f00df2105242caa910df81d69dfd6a6f61582795bbdd59045acb" => :x86_64_linux
   end
 
   depends_on "python@2" unless OS.mac?
