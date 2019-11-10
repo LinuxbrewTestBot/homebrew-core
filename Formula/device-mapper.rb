@@ -8,6 +8,8 @@ class DeviceMapper < Formula
   # tag "linuxbrew"
 
   bottle do
+    cellar :any_skip_relocation
+    sha256 "b9a0ecca9c06b7f9ac4483406452aa241f1429667a1ee41948426b8a5347eb74" => :x86_64_linux
   end
 
   depends_on "libaio"
