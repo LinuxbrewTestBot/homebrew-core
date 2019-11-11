@@ -12,6 +12,7 @@ class Hackrf < Formula
     sha256 "430173362cc05912520a38f41ce465a0966f1c8d849fd492f0b40074425c3f88" => :high_sierra
     sha256 "f33bc6bde41e6522d587bc574c01e1402ccbde6759dec5e9d1a1e5f593e189b3" => :sierra
     sha256 "909a5a9aca6f81cbab08bb7c063f3ee0e666bb5b44af86ebbec62cbdaf3e3b33" => :el_capitan
+    sha256 "424592f91e9c431fe5580e9051d1ce9f9d56af2185b6ae928be83553e936833d" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
