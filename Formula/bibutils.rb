@@ -10,6 +10,7 @@ class Bibutils < Formula
     sha256 "dac93b43ca23378a2479b3940ba06711ee75ec20448b8157f9c86e7793fa903e" => :catalina
     sha256 "581d652841aeef6824b5dbec7bd4d5d7ee6cb8681125d7588d23ebd28ed311df" => :mojave
     sha256 "6d10e1fe5b235d6b6027512eed4cb196c5a64db785f5df8dd4535a641d1010d8" => :high_sierra
+    sha256 "0658e1db288c7979760d9705ff5e6de8f2bd188006e139a1d98ec50e1f271b59" => :x86_64_linux
   end
 
   def install
