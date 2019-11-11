@@ -10,6 +10,7 @@ class Libplist < Formula
     sha256 "9fb68734857c12ee645d64f86a425dd7f8e17049df1cbb12a539ab5a7d191b55" => :catalina
     sha256 "7c7e9cf1ba11adf0541545649d9d8e127db56c8946dc15496feed5e701440779" => :mojave
     sha256 "ce277c3c0700c1a34f47f3769dfda47c30acd8763eda9d12aaa718d456cb1b5d" => :high_sierra
+    sha256 "754a5ed83a0c1dcd467f3c5654111b3978fca803d70dc0fab68cddc21b5cfd60" => :x86_64_linux
   end
 
   head do
