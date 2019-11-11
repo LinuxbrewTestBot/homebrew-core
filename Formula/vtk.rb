@@ -9,6 +9,7 @@ class Vtk < Formula
 
   bottle do
     sha256 "2d84235141105e2917cdb596c101c71144003d290c94f4a8b3247c4d9670228e" => :high_sierra
+    sha256 "57db11b871037fba2f7926e1457f0637611c91cc51be1c448366d3330c180656" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
