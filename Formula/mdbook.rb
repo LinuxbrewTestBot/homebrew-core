@@ -10,6 +10,7 @@ class Mdbook < Formula
     sha256 "0f164851ce201f257d69d4d55e50fa7707cea1ab268a5b239266a4662845beef" => :catalina
     sha256 "1a2b15f790541dc456294475b42927a152ea614857dfb49ca5f1a00aec1e9509" => :mojave
     sha256 "b2305bde8f2f620393c813fc208e9364e0681eff43d6535e7202841fc832ec9c" => :high_sierra
+    sha256 "a0f680f2b072ca31d28aa12841a44a88cc858421692c7c1d5434b9d76765015e" => :x86_64_linux
   end
 
   depends_on "rust" => :build
