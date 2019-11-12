@@ -10,6 +10,7 @@ class Abcmidi < Formula
     sha256 "05fdfa7b164403194454f8acc1ea7cb6dc2641471d1a2b2f3e46eee3bd93fb96" => :catalina
     sha256 "b4bfd68f32338c189cbd0d803579d58bcb6ca13fef320c94322c6f2c05213a77" => :mojave
     sha256 "d804aed2ba5e35b8a208ab6a82c700464394f728e8b0251badca45ffa2a6166b" => :high_sierra
+    sha256 "97409adfa7e474a765cf3c9cc85e7e451a8fb24c918e0e0510df5f04c02abd5c" => :x86_64_linux
   end
 
   def install
