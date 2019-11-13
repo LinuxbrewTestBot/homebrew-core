@@ -10,6 +10,7 @@ class Tokei < Formula
     sha256 "72ed8f9825cff756c7429639d7edf6e5d488c7d5500e24f915c1f41d976b39bb" => :catalina
     sha256 "1f634d13729b8474d6c9358006b229971d8c3537ff4ce49a710101b728fdc054" => :mojave
     sha256 "88fb44377bcb212c5f9c7886f2779ffa3561ba521efbb68603477a0a97540304" => :high_sierra
+    sha256 "1c1744a2ec18a25e55bf79a90fa7501a1ec65395f0e18c11b43f493d921f8f9e" => :x86_64_linux
   end
 
   depends_on "rust" => :build
