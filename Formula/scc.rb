@@ -10,6 +10,7 @@ class Scc < Formula
     sha256 "c84250a5d2de756215dfda44f51b8c41c733120b0faea9a486fe575b8334c4d2" => :catalina
     sha256 "f20385f625dac231aa4b35e516740d7859761d66c42e7afbb3ff32a9919553c7" => :mojave
     sha256 "aad78487cd872af15c5379d3b7c54aa16fa37c5d009b6392db1b7fa23268e5b4" => :high_sierra
+    sha256 "133e803049039268c7e8e9b6bc4887370e4b7f3a432bddabb1e230959eeda67d" => :x86_64_linux
   end
 
   depends_on "go" => :build
