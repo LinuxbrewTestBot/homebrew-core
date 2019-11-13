@@ -10,6 +10,7 @@ class Mysql < Formula
     sha256 "dd0af1f15dd8906db5842329531548c4dc46b587e36647807b663162a8d83d7c" => :catalina
     sha256 "2bdaae4c7b08d11e04c21eca651dfeb0d87d2e199d371a0fa6cd145dc1170fdd" => :mojave
     sha256 "9f12ab1f836c59d2630a4916ec69dd6dd99175b702ef6762f34f5d3f51642018" => :high_sierra
+    sha256 "5b6cef84ad8b848a948eb59fd1e30189f2aedd5d632a46850f64a08fd65e2eeb" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
