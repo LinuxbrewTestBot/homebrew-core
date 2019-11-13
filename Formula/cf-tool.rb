@@ -10,6 +10,7 @@ class CfTool < Formula
     sha256 "8c28ad65369bed1bc74105242097fca990c3b4ca875cca731eed928f547df1b4" => :catalina
     sha256 "ea7a5befc573b9c55cb4ce6f5f65b33141737c767548ad98fc50689b8a8c7747" => :mojave
     sha256 "9e0ab03bf2a895310eea7a6bc73221ffeb490416be1fb3bf9a77eda439e17159" => :high_sierra
+    sha256 "08ef22293d364868d93c2f810b29bb3778ef69d38d54e6f2cfac356b9a4804b0" => :x86_64_linux
   end
 
   depends_on "go" => :build
