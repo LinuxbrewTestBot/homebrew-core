@@ -10,6 +10,7 @@ class Bro < Formula
     sha256 "419e0702059d7ee0170735650a189d6a556f7fe9c3666b2f49bd2045412679dd" => :catalina
     sha256 "a39e2533cbb05e69cf93e984a1a7c17ba009590c57d9251fe07a21a6c435ce9e" => :mojave
     sha256 "8e477f1ed235aee0449950b6492d103fe722cb48f4c66fe394dc129b88150ef8" => :high_sierra
+    sha256 "89eea16f3af80b96d5b334b4022ea3e030c731d021d5cc47d77f6e3738742816" => :x86_64_linux
   end
 
   depends_on "bison" => :build
