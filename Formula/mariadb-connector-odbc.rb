@@ -8,6 +8,7 @@ class MariadbConnectorOdbc < Formula
     sha256 "d5345b3a38f7fc8d7828981e498615a2d57a9901d281c1df118c3884e85108de" => :catalina
     sha256 "b960e6ea642b098ef7cbe7b834d132ac8a5710cc81e8caa2b7223ce3436cabe2" => :mojave
     sha256 "b07194158ff198b5386768679975367af20a32b01ad87c90302e1c959eb4d374" => :high_sierra
+    sha256 "0b8987c5b2823b1c1d4d8e2238f16cb4a1b6a59667bcbf7a31368cdfe9652915" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
