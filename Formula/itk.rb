@@ -11,6 +11,7 @@ class Itk < Formula
     sha256 "ba127cfed370c5a6eb3347d8d1757de7056912b8cc9b0fbd6962fcdcccd9c84e" => :catalina
     sha256 "a35ea39ac9e64e205e66eff865d8b1cfb82b0ad1e9e6a910bbd06902d2c4b054" => :mojave
     sha256 "df8231f2b9768c986d3c446f643a1c03eacb5de3d1fb08c4d4e8a2c860edd349" => :high_sierra
+    sha256 "c130545a13105b348b2e75962e71e0fc6a3169d0d5266e921920fd1e98627d76" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
