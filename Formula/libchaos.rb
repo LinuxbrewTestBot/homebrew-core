@@ -10,6 +10,7 @@ class Libchaos < Formula
     sha256 "8cd295f6ccf1c6a09ab87bef06331424da21b0b44da8f4440a11f4fccaf1370a" => :catalina
     sha256 "3add0509ec493248105ad81354c4ffccef85f37c0cc445db24f115b0b8fb3576" => :mojave
     sha256 "8d1f167a096fae20de66286d9f33a7b93e03fcfccaecd5b15611e3fcd7c4b09c" => :high_sierra
+    sha256 "4f34dcc0398bd4de3702ca092ddaaf2dff104b9e41b1984d20158d821ba11cc2" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
