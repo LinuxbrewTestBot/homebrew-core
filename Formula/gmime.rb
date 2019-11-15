@@ -10,6 +10,7 @@ class Gmime < Formula
     sha256 "78965c37b7935797f7f28dc683e99a01262731916bcc36743b5da1a77c2c2af3" => :catalina
     sha256 "de7743e5f141d1408446fbb5dcb6a91525e7ac5d703aca16fc128c2ba63afe11" => :mojave
     sha256 "8bf88977ccf85ea5a2d5471f698c8a7954b07caca75c39ccbfa773976e4caccd" => :high_sierra
+    sha256 "83cecc0fe5b214b7163a86d60fd5d13e6e870af0b5ac400785276cdd6177f68a" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
