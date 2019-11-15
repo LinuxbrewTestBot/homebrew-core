@@ -10,6 +10,7 @@ class Tunnel < Formula
     sha256 "0781ad8426f33718cb8887d2ad61a8a5e5c71576f983f0b696c7be249728f33e" => :catalina
     sha256 "79dadacebd7c332387285c918538ea368721271d142aa78f144db7dfc23c60d1" => :mojave
     sha256 "9c55bf544787f37678ce9ab0e3708282a913926df7cd75cefaf660de7aa0d399" => :high_sierra
+    sha256 "c3646a09203e5e6e9d80b2d61498e16dfd00838b1b7e6dcd660195cdffe7e588" => :x86_64_linux
   end
 
   depends_on "go" => :build
