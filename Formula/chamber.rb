@@ -11,6 +11,7 @@ class Chamber < Formula
     sha256 "335df38f4c238f4a5d2a16fecb69939ed6713ed8dd8d973982ca24f39360c472" => :catalina
     sha256 "5dd2e5805853221f8cbe79083c7fdf13d85f16c70885d8cc78bacef7e641ee82" => :mojave
     sha256 "5dd41982896b1d61207d658897e415e7bd9cbadf6c81c6362d592d9c50006bf7" => :high_sierra
+    sha256 "88b6aa2ef740ec5b8e388dc0b2069bcd0f4a9d4440c63d184bf52ef3d5e1711d" => :x86_64_linux
   end
 
   depends_on "go" => :build
