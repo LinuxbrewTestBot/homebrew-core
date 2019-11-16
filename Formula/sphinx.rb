@@ -12,6 +12,7 @@ class Sphinx < Formula
     sha256 "f3d89ffcd2926373af5a35bb7ae6f16e59074699eeacfb4d358a0dc5742729cc" => :catalina
     sha256 "61f1ae14e253c8c84f0e8a9f3a26833ca4a1da887d97c0df8ecebb6096222546" => :mojave
     sha256 "3daf6e565c7c12803c13b6439a872e61335b3b27c06719ca6f8cec93dcd2176e" => :high_sierra
+    sha256 "231d104e3a780a5228da3109c40b42af91c2f57c3e1504aafc5c28c0804a9a20" => :x86_64_linux
   end
 
   depends_on "mysql@5.7"
