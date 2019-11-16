@@ -11,6 +11,7 @@ class Sparkey < Formula
     sha256 "b7e64101995d257df010edb67bafcd60745f09c7b0ebb9650c817eb7343f1899" => :catalina
     sha256 "438c323c343b7aade2da46316d24bcc4d5c7a95910a43914d70125af14a17636" => :mojave
     sha256 "4acbb473ce3be942b808af45789ccb7ede8199c728f7c381cd0dda1a105c8a9e" => :high_sierra
+    sha256 "dc7ea6fc5b34d26e5f5c1bdbbd610143aa6327a0af210fc495ad556f22b19efa" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
