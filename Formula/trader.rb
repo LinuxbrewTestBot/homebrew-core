@@ -9,6 +9,7 @@ class Trader < Formula
     sha256 "f0265ff875601e4d5f9ecc1a4a8bdb903f7399b8cd93a137a17b0f9c78f052ec" => :catalina
     sha256 "656ff27724a844d0059f37977628b5828768ad86a557ae7442365005cbaf535f" => :mojave
     sha256 "6312d15659ff81b39cc0c03a3aff850ea94e112086d6b39a02287f1bf49ad46b" => :high_sierra
+    sha256 "da2b64c530c432d357280442306d70e0c0e320cdb1f177863c9a08d6fc5a5994" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
