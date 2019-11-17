@@ -12,6 +12,7 @@ class Luajit < Formula
     sha256 "f9d5d32257e39ebcc39e727fb1d9b973315b2c58a6669cdd4248bd33859f01d0" => :catalina
     sha256 "859148159c69b09e70d2c46b40c63f86341d309d8ed73d67b41666a8444d0b39" => :mojave
     sha256 "3ee1eeeca03770a402bc429aef0a09467f5b2efcdcb47c9a7d55355af0815c99" => :high_sierra
+    sha256 "ba0ecd42eaf9946dfea1653cccbfdd8a2ac6c8304804f277bdb6cdf8cd9001bd" => :x86_64_linux
   end
 
   def install
