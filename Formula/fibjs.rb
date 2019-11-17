@@ -9,6 +9,7 @@ class Fibjs < Formula
     cellar :any_skip_relocation
     sha256 "f733b3255e882d70e948c855e32105c639e64daa52778568e8e85bb0aabc31f8" => :mojave
     sha256 "ea138f4c4158377036469a8e783d0baeaf28cf8c960baacfc017e5455d9a27b6" => :high_sierra
+    sha256 "7f338a5c24524d2cb9439a7b76ee269057c0c0f17129aa7e48cec58893fd7332" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
