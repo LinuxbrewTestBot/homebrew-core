@@ -10,6 +10,7 @@ class Gitleaks < Formula
     sha256 "18e8902a1de1cebbbfeeeb182a63d5923365f9e0d60359d84ab91e39424709d8" => :catalina
     sha256 "01193c6401631b8588f3a7a0437a68d1d85c59fb1407b645aa334ab35b2962d9" => :mojave
     sha256 "a1bc8b21076c57defe04d2ba392df88420adc02074fe6a35f3561d1c2b8fac9a" => :high_sierra
+    sha256 "f2fb7fe6c73242a29f08e319d231249d26454c5e406ad217e5be28d329012b08" => :x86_64_linux
   end
 
   depends_on "go" => :build
