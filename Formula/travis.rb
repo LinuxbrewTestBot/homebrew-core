@@ -10,6 +10,7 @@ class Travis < Formula
     rebuild 1
     sha256 "58794172ef335a7a15c7969257debbb6bb64a35364dbb10293af1a70cc78e5e7" => :catalina
     sha256 "5f49254c2ad3a135a20299f7c25df27cb1ccb7c9ab7d093b207e5e52c91f6c3a" => :high_sierra
+    sha256 "1cdbad50cc55667151995169ae850029faf749de4b48865466b5ccfdf93f6795" => :x86_64_linux
   end
 
   depends_on "ruby" if !OS.mac? || MacOS.version <= :sierra
