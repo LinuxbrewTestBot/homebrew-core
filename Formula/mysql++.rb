@@ -11,6 +11,7 @@ class Mysqlxx < Formula
     sha256 "657ebf2f50f14f877b6892bbee2c5e92aef47093a22918a9d14b871769d76a30" => :catalina
     sha256 "0e2b71648130ccac76a5d861e609538ffc697e629db9c352b0f69b513df4aa4e" => :mojave
     sha256 "a8bb0d5cdc09c45b28b15e6e3de0b20260b8f11f395fb968d1f6a4c931d9a292" => :high_sierra
+    sha256 "b25af7f9049375e1cfeef0759d5e1c367d36ef8a878440b8254c9394c2e61eb6" => :x86_64_linux
   end
 
   depends_on "mysql-client"
