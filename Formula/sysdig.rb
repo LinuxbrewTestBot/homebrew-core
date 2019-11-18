@@ -9,6 +9,7 @@ class Sysdig < Formula
     sha256 "45af3ff3c080f5cbc94d5c018064b5e8e211bf66e95fb819b90810391d82c7be" => :catalina
     sha256 "a8a752b94739d3a67b7fe2261f133fd5ad11921090c5e09b6b2954f68cf60a29" => :mojave
     sha256 "280f3c0cb293d38549ef40d87a2d7e9c37ca2b08dfb65aad9ac3b52da84fd28a" => :high_sierra
+    sha256 "e3b2cd5614d57ca1a6e5cc444663016b6e88a5334bc677d4983e6c0326324f12" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
