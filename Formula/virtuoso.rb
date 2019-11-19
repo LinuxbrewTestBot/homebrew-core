@@ -14,6 +14,7 @@ class Virtuoso < Formula
     sha256 "c4904ae739141d51638c3f33064c85498c20d32169053daa61203ff6706c1fa8" => :catalina
     sha256 "3a2375ce75d34e6fa2568aeb4bc3ac0239a4052c811eb3afeb7536166b05e67b" => :mojave
     sha256 "3abcc2f1444324d675af9014ac20555124c875d7e9a4ba9b021fd1ad7c570845" => :high_sierra
+    sha256 "f03a0ddc47b6b550c2057e4bd5f17f1eac0844d49a2e228c13767c9b2f889011" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
