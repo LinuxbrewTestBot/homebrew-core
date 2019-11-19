@@ -11,6 +11,7 @@ class GatsbyCli < Formula
     sha256 "9aca92a5495ba5a6487cff3d58638ebd24d58fa39bb51a0c269fbeaa514b1c10" => :catalina
     sha256 "549708d7c6b38c600d7b272a0c90966f04b3e633180c7e188df9a468ee1b16ab" => :mojave
     sha256 "82f493d40e86cc412871c7b9b9fb8faf521d1ef958cecc941f5ffcdbaa06f848" => :high_sierra
+    sha256 "60885e07af1bc3a60cb4d117487881915e8abed1d2791ea77ebdf2e0523116aa" => :x86_64_linux
   end
 
   depends_on "node"
