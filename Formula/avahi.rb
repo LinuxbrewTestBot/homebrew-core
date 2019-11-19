@@ -6,6 +6,7 @@ class Avahi < Formula
   # tag "linux"
 
   bottle do
+    sha256 "48295b3c720629ae91ce5f6c663b49497d6e55fde9d2e605c9c0e9bbb38a6b4c" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
