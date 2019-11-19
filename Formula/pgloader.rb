@@ -11,6 +11,7 @@ class Pgloader < Formula
     sha256 "51a494f1f8730502568e3cecb0182c479ccf7a56276d073245a905eea877844d" => :catalina
     sha256 "f6fae178dc49b4151102a2132a62ee24191b3090a6854a1fcd1d3e78425fd72e" => :mojave
     sha256 "46b847486646d3ab813a4624fe2868670757ea2315a04e090a42e3bb71693fd2" => :high_sierra
+    sha256 "80c6b7cd1d4ee90bd440eb9d399663584738e975a74b40dfacc34836a01397a8" => :x86_64_linux
   end
 
   depends_on "buildapp" => :build
