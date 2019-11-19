@@ -7,10 +7,10 @@ class Curl < Formula
   revision 1 unless OS.mac?
 
   bottle do
-    # cellar :any
     sha256 "d43bf6905beee288978104f8fa403fe8b5ded820256916f336d2897be5d9872e" => :catalina
     sha256 "3e1fa3e2435503c0d67b447a4f20294459f90bc9279890ac80590617fe23657b" => :mojave
     sha256 "d04cf2c4ca107d4a73e44d886727fbd06f988c120eae06e5b9e8d6ab1f61cf59" => :high_sierra
+    sha256 "3da35b009e93e8355751149a12dca1bd2f9564b6d0e174bdbc56125e7f6d1a94" => :x86_64_linux
   end
 
   pour_bottle? do
