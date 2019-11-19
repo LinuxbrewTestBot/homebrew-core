@@ -6,6 +6,7 @@ class Libsasl2 < Formula
   # tag "linux"
 
   bottle do
+    sha256 "fea25c321868478ed2bab0788a188e87d00d90bf423f7c4c11161bcca9eda3b5" => :x86_64_linux
   end
 
   depends_on "openssl@1.1"
