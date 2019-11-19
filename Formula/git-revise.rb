@@ -13,6 +13,7 @@ class GitRevise < Formula
     sha256 "d25746db926cb4a9e136b74acf2fd8df47610b25a0f437eed3b82259982749d6" => :catalina
     sha256 "cb63eb946034bd4f4351b9726ee8649282a1ebe1a7a28910a470344719a96fdf" => :mojave
     sha256 "5659d2d32986473c77135b28f52da15cd2a09a4dfdb8d959b640be765c9a5460" => :high_sierra
+    sha256 "debf70bb6d0ccfc0e7ec13fd8f37ac442c179f9d561a235cbaabef0edcd983a3" => :x86_64_linux
   end
 
   depends_on "python"
