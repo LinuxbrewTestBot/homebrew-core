@@ -11,6 +11,7 @@ class Tmate < Formula
     sha256 "a278bcb401068bed2434ec48bfb059a86d793a6daa4877574ac0ed7168cb1ebc" => :catalina
     sha256 "7e5158460b898422b4c6e84390d0e8446e2ad52789a30f9942288c5c32acc8a1" => :mojave
     sha256 "0f4f06d0ab7715adc7f6d33cf7d3c08fd057e7f038a666b360ac4ad6a3449ad9" => :high_sierra
+    sha256 "3e401e67d62d19c1e11fc1859a8d0331bf6b1e42e426d8a7fd93350d41ca5dd0" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
