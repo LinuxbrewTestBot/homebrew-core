@@ -12,6 +12,7 @@ class Libdnet < Formula
     sha256 "540ccb96d3647a0d71f563e06d08e410d14b7d09c23f6348bc91fd22251e5ff2" => :mojave
     sha256 "ece250e6792f542e5546ac5e8e5144fe07c76ce3ddb94216181e85092d530e81" => :high_sierra
     sha256 "bb550ef762ca5d65f87b65575758557afcf8e6b93855be32638cab265540ba6b" => :sierra
+    sha256 "0cf37dc7a772804f79245843b8e82ff009b24463d7b136b38d0ec0acc33ca005" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
