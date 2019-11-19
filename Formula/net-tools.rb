@@ -8,6 +8,8 @@ class NetTools < Formula
   # tag "linux"
 
   bottle do
+    cellar :any_skip_relocation
+    sha256 "d3356573f08d651305f57af733130adabf68f5f13e92ff4db5cdc0c069a94f73" => :x86_64_linux
   end
 
   depends_on "gettext" => :build
