@@ -10,6 +10,7 @@ class Ccache < Formula
     sha256 "3adbcce85eb17728cd913be9f53b1c9da01ad1e4ba5d2a646c7cea9b74877153" => :catalina
     sha256 "349361984428110dd2ad23b3e25b564ca0d38edcf1d005ecc79835d5d5385231" => :mojave
     sha256 "c54accd2400689df8a8debf9252fe6817db9da8450e026924b898983fcc871f0" => :high_sierra
+    sha256 "52a77ec1af132583cf43ec55fea8bd7d04b28067446ac06b227019ead6dacf3d" => :x86_64_linux
   end
 
   uses_from_macos "zlib"
