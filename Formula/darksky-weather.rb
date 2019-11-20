@@ -10,6 +10,7 @@ class DarkskyWeather < Formula
     sha256 "64aac1bb9c9f6fc856fdb6e818b11d715addb17c6f35480abf0a337c1dcaa311" => :catalina
     sha256 "ae72f00275774f08c66fb8f90697545b97701c4fb819416fb6215779ec775cab" => :mojave
     sha256 "b621c14d94f6e0e1c350e0bc78c0269bed889b065d811acb8da39d137de5ac4f" => :high_sierra
+    sha256 "9cb0f60666bf5eb88aec5d15f07fc60965b78eb72e36f3dfed5a7c5aa1a68614" => :x86_64_linux
   end
 
   depends_on "go" => :build
