@@ -12,6 +12,7 @@ class CfnLint < Formula
     sha256 "054291dd9ee8f53dc8c189fff7ca59f9dd22299a808af9002f6b7e2613009344" => :catalina
     sha256 "d6315ab25005bb072e9a2afb65286323d5064ed91cc165aabfc525fbd559a5db" => :mojave
     sha256 "f63d3b03af28b5ae19699985bdbbf06d39da442443f9751ee43ff7ecd263e2d0" => :high_sierra
+    sha256 "d01d0970876e5a03a672889e294a52a8813996b2f179d6d3cd54cd6c0cf35ac3" => :x86_64_linux
   end
 
   depends_on "python"
