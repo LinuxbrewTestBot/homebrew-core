@@ -37,7 +37,7 @@ class Folly < Formula
         -DFOLLY_USE_JEMALLOC=OFF
       ]
 
-      system "cmake", "..", *args, "-DBUILD_SHARED_LIBS=ON"
+      system "cmake", "..", *args, "-DBUILD_SHARED_LIBS=ON", "-DCMAKE_POSITION_INDEPENDENT_CODE=ON"
       system "make"
       system "make", "install"
 
