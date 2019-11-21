@@ -4,6 +4,7 @@ class DoubleConversion < Formula
   url "https://github.com/google/double-conversion/archive/v3.1.5.tar.gz"
   sha256 "a63ecb93182134ba4293fd5f22d6e08ca417caafa244afaa751cbfddf6415b13"
   head "https://github.com/google/double-conversion.git"
+  revision 1 unless OS.mac?
 
   bottle do
     cellar :any_skip_relocation
@@ -11,15 +12,22 @@ class DoubleConversion < Formula
     sha256 "faa661750aeda3faf356d445d3d293fa52021c93a08fea35fd6666251b44203b" => :mojave
     sha256 "c948a1b31bc508f9218b6373e5ac3cc92838aa033e15f777aa046675921c3369" => :high_sierra
     sha256 "6fad17756240370dffc053a66fdfff4f17b02669c9456546a591349c3ea0e959" => :sierra
-    sha256 "4ae85649c591969d1131a97cfad7b779ae7b1f2cc2c45215098f32e845b15e0a" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
 
   def install
     mkdir "dc-build" do
-      system "cmake", "..", *std_cmake_args
+      system "cmake", "..", "-DBUILD_SHARED_LIBS=ON", *std_cmake_args
       system "make", "install"
+    end
+
+    # Move lib64/* to lib/ on Linuxbrew
+    lib64 = Pathname.new "#{lib}64"
+    if lib64.directory?
+      system "mkdir -p #{lib}"
+      system "mv #{lib64}/* #{lib}/"
+      rmdir lib64
     end
   end
 
