@@ -4,6 +4,7 @@ class Glog < Formula
   url "https://github.com/google/glog/archive/v0.4.0.tar.gz"
   sha256 "f28359aeba12f30d73d9e4711ef356dc842886968112162bc73002645139c39c"
   head "https://github.com/google/glog.git"
+  revision 1 unless OS.mac?
 
   bottle do
     cellar :any
@@ -11,7 +12,6 @@ class Glog < Formula
     sha256 "034a4d2272b48fd7655b467b92c78eebfb11efb33cc6cd31f7b13ee085b7169b" => :mojave
     sha256 "bbe6c4138b5fe8cd58d269a39644176f640fa62e694ffac36337f87661cacc69" => :high_sierra
     sha256 "08408127c37122614811eae2d925d940912c2cb29eb0fb300116ee4813d50095" => :sierra
-    sha256 "d2e577f5e9b5ecce6470c053cdda74539a6eeaccae6e8629fbd7879fd1f1f5c5" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
@@ -21,6 +21,14 @@ class Glog < Formula
     mkdir "cmake-build" do
       system "cmake", "..", "-DBUILD_SHARED_LIBS=ON", *std_cmake_args
       system "make", "install"
+
+      # Move lib64/* to lib/ on Linuxbrew
+      lib64 = Pathname.new "#{lib}64"
+      if lib64.directory?
+        system "mkdir -p #{lib}"
+        system "mv #{lib64}/* #{lib}/"
+        rmdir lib64
+      end
     end
 
     # Upstream PR from 30 Aug 2017 "Produce pkg-config file under cmake"
