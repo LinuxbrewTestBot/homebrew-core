@@ -12,6 +12,7 @@ class Cminpack < Formula
     sha256 "f01181d9cd0882df08500e79b24c98a0d101579592684fe151fac5efa4e34835" => :catalina
     sha256 "4ee55e748a0b20cf6450c88beaf821fd962e78c81c640a569720c0831b653ac0" => :mojave
     sha256 "07714bb85b22bf0a9408337520ec68ac1ebbf4141070319e26975b641b936cd2" => :high_sierra
+    sha256 "99a68c3718eb9c5c7352aa2d8c7928ba853137e9fa9f70c6ec27ea659834a91d" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
