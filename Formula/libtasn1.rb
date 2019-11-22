@@ -11,6 +11,7 @@ class Libtasn1 < Formula
     sha256 "f1988371a72d252ecf69f2c39d61a8ad01cb49dd84ea716f00e38a2a74ff5ee0" => :catalina
     sha256 "2e13d55178c6a4c057dbef42599700d06d7ef4192500b9254ff5cd99d5a07167" => :mojave
     sha256 "1cf05b98fcb012d92efad23aaf68ba67e9edd7e15813f2b8826878d15b1ba189" => :high_sierra
+    sha256 "2fd0fd0fc3076fe38ce168ac0c3e8a8c31f7af02a8f7e85ef36c56fcd404772c" => :x86_64_linux
   end
 
   def install
