@@ -9,6 +9,7 @@ class Badtouch < Formula
     sha256 "f6294a3dc8e19096623409df112ed32d30005d7ea9539529b39d374b21c6d4ac" => :catalina
     sha256 "4ac7d4d570c30b3f024a276f50aa39429350a852efd5c29e4941d66dbe7227f6" => :mojave
     sha256 "e4f2eb394ebc2c5f2b674d577ef2263b6580927d1b0eb15ee38384fbfb6565f4" => :high_sierra
+    sha256 "ed071347875c49d01f88be056b885ce87b8ecc2e04ae731f12463c8fbf8b9645" => :x86_64_linux
   end
 
   depends_on "rust" => :build
