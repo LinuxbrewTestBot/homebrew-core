@@ -10,6 +10,7 @@ class Cln < Formula
     sha256 "ff06531dfcb6dfd280f878a737422ac31efd895123e3f965c1f0e3b9047e9e7b" => :catalina
     sha256 "39ece0072467407beb6c03a51a12d58ea3d544740e49e13a07424df6a65c09ac" => :mojave
     sha256 "7ebe1b7e5d3f5b4b11125a62933914a4a5abbc8d2d6d43aa9e247b2717ec0c36" => :high_sierra
+    sha256 "4b070edc6df664e0958ab284cf1c5144d49a7cc8935596e1534f9076a31ae7ed" => :x86_64_linux
   end
 
   depends_on "gmp"
