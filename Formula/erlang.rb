@@ -13,6 +13,7 @@ class Erlang < Formula
     sha256 "f7c9b0d93f30d0f0ee2b311b7dacd3967c6065ebd2a3eea9b6ae31dc894ab9b6" => :catalina
     sha256 "bed8be359fa328bf86d1813c036d82d2665844ebb6425b3bd0335c349a3368a5" => :mojave
     sha256 "0e3a573fe84527305a0859a812236eaae6b32aa6ff1c863a9425bd246efee794" => :high_sierra
+    sha256 "f2459799c4c704ff2d48f9192877df03937465cbd2c1108b116de91b632d7941" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
