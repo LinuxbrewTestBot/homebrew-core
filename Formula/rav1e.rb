@@ -10,6 +10,7 @@ class Rav1e < Formula
     sha256 "1367e1ee122f6c24213d78e7ec5c26545ebc5a901ffb5b129013282e06175bc8" => :catalina
     sha256 "f2e114c452d5abca2e1ec3635add73036520092f25db8285a5d35b7125483098" => :mojave
     sha256 "d7677873a6ddb3c9818aadc04324727bd7d402ec930609dbbffff47cb931337a" => :high_sierra
+    sha256 "b89b22589862ee16685a1d007874d30c39f2d9be664f60d10e1e4907ca96a96c" => :x86_64_linux
   end
 
   depends_on "nasm" => :build
