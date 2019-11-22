@@ -11,6 +11,7 @@ class Pcre2 < Formula
     sha256 "af3bf030a455daf0a560f8d9e433f7a803d7150933895699f311d661c33b9729" => :catalina
     sha256 "9bc0815c6c4c584ef16e93e5ecf37aa786303d88f9321274a29b4f60876d583f" => :mojave
     sha256 "494acfae91394df3c48b2bdb13d46b5a540e401c54be9f7c10234e6001fba678" => :high_sierra
+    sha256 "497ae0c6e7f7e8bb9dd7555cf8a6aec0dd6a84b052751741fe8fb55ec70799db" => :x86_64_linux
   end
 
   unless OS.mac?
