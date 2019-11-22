@@ -12,6 +12,7 @@ class CabalInstall < Formula
     sha256 "5605a9a7cef6e7615126345ba43b690f16c80aa853c31cc394b0376c847f6def" => :catalina
     sha256 "07896a69965d55253b30aa20470090245ab523a6ee22efe6b10d3b0ffb4a16e4" => :mojave
     sha256 "72616fee2252d33d00e79ecd1778f0f8abffd71e339482dda5927c10d2574746" => :high_sierra
+    sha256 "7345fb4b6f012e92bc1a2157a66a13cbc43352a852ee0a2c0b81d9b61f6c8145" => :x86_64_linux
   end
 
   # Temporarily depend on older GHC for building cabal-install itself, due to
