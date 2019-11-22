@@ -11,6 +11,7 @@ class Pijul < Formula
     sha256 "c5cc98c1979e4e782685774e3e5ff449f6968123f6e79ff68ecf8c4cf8656266" => :catalina
     sha256 "73bf314aa865452f0f7104430a64be1922f31553c2b41e36e8fc0ba8657ca7b2" => :mojave
     sha256 "b5dbbecb1823507658c535c4d60d8374a0924169a1994bf68d0210a62f42ea17" => :high_sierra
+    sha256 "b06c621f11d72bf7d2d7b65b91393247950d6bbb0d18b7cf45f7eba4741e4b51" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
