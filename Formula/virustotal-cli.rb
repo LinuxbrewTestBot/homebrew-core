@@ -10,6 +10,7 @@ class VirustotalCli < Formula
     sha256 "36fcf039fa5264b8841ba3ba954816031cb1b6ac42aacd26b1e5791b643fae30" => :catalina
     sha256 "be3fd19af1b5004ccf95ef0996fa387b88e7bfa30ca651dd69b94700fb92dcec" => :mojave
     sha256 "118eaafec3d20e709091266c786d5121b27e0d1c8d8ded2f5c21c77046b571d5" => :high_sierra
+    sha256 "02960c7ed31733109d7650880d563b9b9b610ac6ec68d3fb5859e6ba911d32b3" => :x86_64_linux
   end
 
   depends_on "dep" => :build
