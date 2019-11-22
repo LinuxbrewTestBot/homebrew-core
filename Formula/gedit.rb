@@ -8,6 +8,7 @@ class Gedit < Formula
     sha256 "be10a5f9c19532b6989c3c7855c450d9ce64527ea6e42b01d22928e09d4f47fa" => :catalina
     sha256 "fef39bc1e61bfd3d1bb26b66fafdece9be765e87ad9e8a83b59a60c661e69d6a" => :mojave
     sha256 "e2e0f82401cea741c126b60862a7e7066578019c06eb28f319c17361dda99c5b" => :high_sierra
+    sha256 "db9975734a0f4b316177ee07ad507ce589f1687229e37ffa4123423fe39ef117" => :x86_64_linux
   end
 
   depends_on "itstool" => :build
