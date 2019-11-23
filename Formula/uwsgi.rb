@@ -20,6 +20,7 @@ class Uwsgi < Formula
     sha256 "a918ea316ed8408dae9257ee12ad3df6db84996be08a2e657efab291a688d702" => :catalina
     sha256 "d7d6455c84e3a0f02ba2843f2a0c05a8433ce12042b54024048fb30457f24035" => :mojave
     sha256 "5064635530307154b9d08a912ed246b1c0049f9a8bcf1e7e9b9994160be09069" => :high_sierra
+    sha256 "d4f37baa159e1d821230a7effd76711f2d440d134f04dcb9e3d7e1fa87b4a6c6" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
