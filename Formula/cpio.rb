@@ -7,6 +7,7 @@ class Cpio < Formula
   # tag "linux"
 
   bottle do
+    sha256 "024d4a95f66e7d87cff9103bf8ba0e96218be046c2ee8ef4cd30b3f530116cc6" => :x86_64_linux
   end
 
   def install
