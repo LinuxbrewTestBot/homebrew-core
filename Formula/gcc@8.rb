@@ -13,6 +13,7 @@ class GccAT8 < Formula
   bottle do
     sha256 "6157934cbc4f7d4200ae2e3dd99d4e553f39b202991f7111aff07b68c1954a3d" => :mojave
     sha256 "43c0d8a28d1fb8c4a4f70c7cf1d33039983b8d0177566ea54bcc2bed4ffe6c8c" => :high_sierra
+    sha256 "6dec4c591266aa7705ff5331310acad4b0a9fb5eaf7b31b7cfd0b43b0c6c2bf7" => :x86_64_linux
   end
 
   # The bottles are built on systems with the CLT installed, and do not work
