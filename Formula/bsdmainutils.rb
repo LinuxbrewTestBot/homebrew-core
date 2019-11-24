@@ -6,6 +6,8 @@ class Bsdmainutils < Formula
   # tag "linux"
 
   bottle do
+    cellar :any_skip_relocation
+    sha256 "1d97c44ab6e2decc460d0950e77a3ff5ea6edff38a55aa4b8a5d8182d997461f" => :x86_64_linux
   end
 
   unless OS.mac?
