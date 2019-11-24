@@ -6,6 +6,7 @@ class Elfutils < Formula
   # tag "linux"
 
   bottle do
+    sha256 "8297b1cab94e012e52507b9b733a53599c5d5f928aa6cbe866de9dfb3e5e5e64" => :x86_64_linux
   end
 
   depends_on "m4" => :build
