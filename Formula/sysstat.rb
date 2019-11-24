@@ -7,6 +7,7 @@ class Sysstat < Formula
   # tag "linux"
 
   bottle do
+    sha256 "8748787763eb4a6601ef3ba439c9d33ddec179328afaf042e4369cbba8a5d39d" => :x86_64_linux
   end
 
   def install
