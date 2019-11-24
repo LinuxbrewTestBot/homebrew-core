@@ -7,6 +7,7 @@ class Libcap < Formula
 
   bottle do
     cellar :any_skip_relocation
+    sha256 "ceb5ceec04cc07d29ac5c2d8a37db74a491d5177ef92c4e1c172b9eb2a6dc6e4" => :x86_64_linux
   end
 
   def install
