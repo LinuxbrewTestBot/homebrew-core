@@ -6,6 +6,7 @@ class AlsaLib < Formula
   # tag "linux"
 
   bottle do
+    sha256 "e34ed1fe2d15292da93c911bb70a204019c223fc475ded583b3dfa477479c797" => :x86_64_linux
   end
 
   def install
