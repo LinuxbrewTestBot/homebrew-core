@@ -138,7 +138,7 @@ class Salt < Formula
     # Remove when fixed
     inreplace "salt/utils/rsax931.py",
               "lib = find_library('crypto')",
-              "lib = '#{Formula["openssl@1.1"].opt_lib}/libcrypto.dylib'"
+              "lib = '#{Formula["openssl@1.1"].opt_lib}/libcrypto.#{OS.mac? ? "dylib" : "so"}'"
 
     # Fix building of M2Crypto on High Sierra https://github.com/Homebrew/homebrew-core/pull/45895
     ENV.delete("HOMEBREW_SDKROOT") if MacOS.version == :high_sierra
