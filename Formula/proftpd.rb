@@ -11,6 +11,7 @@ class Proftpd < Formula
     sha256 "deb508061dfb34bf77c92a5435cdb42bbb8a9b3084098ba39dcbfc53f013b56b" => :catalina
     sha256 "9abb9e0ec3f51055f7c2becadc0ba6bc911b886f32228a04c8564c51d36fc055" => :mojave
     sha256 "82ddf96573296e08144d4418b7aa85dfd1540150fa6c5f732a928c4147099dba" => :high_sierra
+    sha256 "efb03d0a33fea1b396aef99a8ddd4fea5105221fb4c5fb80e111e60130ecc8fc" => :x86_64_linux
   end
 
   def install
