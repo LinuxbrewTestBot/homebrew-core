@@ -10,6 +10,7 @@ class TransmissionCli < Formula
     sha256 "9b8fbc3736ab6996736d0d53622f4e05399db8f53d3f8323c8d203d84886e753" => :catalina
     sha256 "2bba4f2cf7ffde53a658897f3855100ae0e3b795f231ed33a06eb9941b90793b" => :mojave
     sha256 "2e81c3beb940cf1d8ffe15fcfea9361109ba2538fb176f91a4f51da8824bf24c" => :high_sierra
+    sha256 "a4157ee397f005b4154b42fe8fa940a17fc966f1e3d750b3a77612fbacda9c27" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
