@@ -6,6 +6,7 @@ class Attr < Formula
   # tag "linux"
 
   bottle do
+    sha256 "3b9b66637bfe43449338f3c00e2cd44d597f8cc2f94d439fb2d61845096cc1ba" => :x86_64_linux
   end
 
   depends_on "gettext" => :build
