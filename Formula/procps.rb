@@ -7,6 +7,7 @@ class Procps < Formula
   # tag "linux"
 
   bottle do
+    sha256 "fcb52e1e1c7be62ca3b4978361bbbc2634a9edcdc5f61867ceaadebd9982c3ea" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
