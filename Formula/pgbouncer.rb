@@ -10,6 +10,7 @@ class Pgbouncer < Formula
     sha256 "e01f2d531e6ef62c29614c8eb435d311733e44206d7da4e78e6853ddb339bb07" => :catalina
     sha256 "1c9de5a71cf7c54d92802adefe2ce68ef0db48bc6619b06e2cf2741164330927" => :mojave
     sha256 "387cf0cf1819be2442ed9b3acd89815b4c5b3bc6a3386641568a70eaa62c6100" => :high_sierra
+    sha256 "aaf65ca7eb2cc3496c77eb81953d392d148f720d2afdbc0b6f06f15507eb3e34" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
