@@ -10,6 +10,7 @@ class Jmeter < Formula
     sha256 "be9973637adf70706a9e596b6d8098e3cb6d99757177d07c81a502da8ae6c719" => :catalina
     sha256 "be9973637adf70706a9e596b6d8098e3cb6d99757177d07c81a502da8ae6c719" => :mojave
     sha256 "be9973637adf70706a9e596b6d8098e3cb6d99757177d07c81a502da8ae6c719" => :high_sierra
+    sha256 "a790159688a9689a449bffcfb452a15a44001d2f5bcdf65f928065598ead327d" => :x86_64_linux
   end
 
   resource "jmeterplugins-standard" do
