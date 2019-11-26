@@ -10,6 +10,7 @@ class I386ElfBinutils < Formula
     sha256 "d079ddd99730c921a818fcc4a81066170dd22f23896e218d84b4491362b30032" => :catalina
     sha256 "e510d350f717f7bd32523f51d7f3c5860ce501f029882515c8c7c7e530b7325f" => :mojave
     sha256 "101befd59a8c93c45213df8f2b8166f3804dc10fa16af7f79d6af3892028fc05" => :high_sierra
+    sha256 "96d98fcccc99ff709efd275161dfa0156d33b2375cf8bfdfbc18138f225f9023" => :x86_64_linux
   end
 
   def install
