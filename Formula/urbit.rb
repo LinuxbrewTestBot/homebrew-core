@@ -11,6 +11,7 @@ class Urbit < Formula
     sha256 "8e790fe588afb0958e3bb42031700c1038162b7ee0014d9e01295d43b8fa6a69" => :catalina
     sha256 "8fadd8b147391223943436af1be232d605c357229ab6fcf490774329a36301b2" => :mojave
     sha256 "ce88690545c072ceeb4653faaa1527041029daac7101aeb8de55d44e55e88a39" => :high_sierra
+    sha256 "2ffce1e981d1c6aab74cfb4822a56413039f30aadf158f685416bb2b7da5794a" => :x86_64_linux
   end
 
   depends_on "meson" => :build
