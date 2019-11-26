@@ -10,6 +10,7 @@ class Ethereum < Formula
     cellar :any_skip_relocation
     sha256 "e854e6bfc70d68e5ac67002fd05ddad597025d3babd04a81084950a2e6e4cb7c" => :mojave
     sha256 "44586e6b11ba6d17bedcb902172f9efcb238484cd6975096154b7571bb1c0145" => :high_sierra
+    sha256 "522c9e98b92c6eee928dac08dcdb732130ac5f0a881abacc1674d4f1413400b8" => :x86_64_linux
   end
 
   depends_on "go" => :build
