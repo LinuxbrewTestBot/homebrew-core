@@ -8,6 +8,7 @@ class IncludeWhatYouUse < Formula
     sha256 "94a1fa82e1a198f0e7548cb7b4895303b52432eb83836ce84896cc5af6bd3340" => :catalina
     sha256 "0f91606b7d834d1969dea394674eafdd87c6ecbffb327a77c0d63c16574e89af" => :mojave
     sha256 "b7dbc7e9f3504f1902b9f63de1c802812729c2ae395c4d85b0dab5a10835bd60" => :high_sierra
+    sha256 "7035186ff6884f4966322d02e1a1f07ff99a6dc0134159499593264f8feb1486" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
