@@ -10,6 +10,7 @@ class ArpScan < Formula
     sha256 "763b615392ea20ab1900bbc4a21fb0a9a978bbf50d3bbd8d5ff490437defc6f8" => :catalina
     sha256 "178196ab4312319611ad02c8e086e56fec2217981f9d91d9e7df8cddfeacda4e" => :mojave
     sha256 "f72f46496eecff4c1a86dbdbf3a295e195310827ef50cdc0b007bd7b6311495d" => :high_sierra
+    sha256 "37a5e80f04e95b2a555318142289245fdde6c2ccb9433fd5c6f92cbff56ad9ad" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
