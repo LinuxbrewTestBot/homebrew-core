@@ -10,6 +10,7 @@ class StressNg < Formula
     sha256 "05b4ed30ef511ae912fbf7f5e43907bf7fa064604ee5e2da3ed7d68265222d1d" => :catalina
     sha256 "4f45108da1cd056c9340441db433a595fd4ce632a34670c8dfb68bae06053e47" => :mojave
     sha256 "fcd8788e53246cc9134bdd5a8bb90a63ac2cf26fedb57fa1b355ec1814b896e8" => :high_sierra
+    sha256 "8240630b9f8d1a16385f9f4977e656145e2de60f077f7b42c6df7ace2d04ed19" => :x86_64_linux
   end
 
   depends_on :macos => :sierra if OS.mac?
