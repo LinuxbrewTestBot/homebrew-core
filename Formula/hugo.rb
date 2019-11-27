@@ -11,6 +11,7 @@ class Hugo < Formula
     sha256 "891bfede22375b71d2f2bf97608154773657fee30ced2b8a5037a39083edbc04" => :catalina
     sha256 "42c2d442620f09272f0342d46020cdd1f3be4277095440e7e9690845bd3e9926" => :mojave
     sha256 "f3b0d12c08e768ba981c14d25805f7bfd0ff1018f8d80c4158a52912210abcc3" => :high_sierra
+    sha256 "d7c2c23da793b2eaf915c5c80fe79d7dd37380b0829b94eed648a20b9ec14e7b" => :x86_64_linux
   end
 
   depends_on "go" => :build
