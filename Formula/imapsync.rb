@@ -11,6 +11,7 @@ class Imapsync < Formula
     sha256 "790bd48d5b6108a257e9453aa3a2c60474805457b40b9794ff7ef97999a59b20" => :catalina
     sha256 "82488e74500a8fc45342246ce67b65b386e82118a10848409c9baa1058f01210" => :mojave
     sha256 "ecabb7fc517a6f3b558fba82711c3c00334cebdc2aa120fd634fe46f07f0fe00" => :high_sierra
+    sha256 "73c890466d5945e4b8bdec0589ab601bb3e77621f1834699587f77a53747c07c" => :x86_64_linux
   end
 
   uses_from_macos "perl"
