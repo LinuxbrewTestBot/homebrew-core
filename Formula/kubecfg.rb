@@ -10,6 +10,7 @@ class Kubecfg < Formula
     sha256 "a30297ba6bc068055f803d06ac74d008ca5b5f8011d9ee153df531f9cd3d38f1" => :catalina
     sha256 "945b67fb4fa66d374a644b02463ddd2eca86ee16cd3adfca27b2d720e9c0415f" => :mojave
     sha256 "c8cf438c0380015e59bda5b71ab99a2a6fac88bbb114d07735a92cb7f946ba0b" => :high_sierra
+    sha256 "db227fce096f5edf6bb7a9079af559d7c6565000efcc721af2e6e5f3c8380ca2" => :x86_64_linux
   end
 
   depends_on "go" => :build
