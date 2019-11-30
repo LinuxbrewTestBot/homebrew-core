@@ -11,6 +11,7 @@ class Timewarrior < Formula
     sha256 "8bf48d94c71fabbd3ded0432500495c330374693e8c4960f1dc5f0a90dd6c3b0" => :catalina
     sha256 "708b85bb339ff690ab4cc6b58bb4b97f90494c5f117980c2bc9290887c3d76e6" => :mojave
     sha256 "18ee4385567276d5e73e63bc197954473a7cb1aaccbdf52325b1118c719c5914" => :high_sierra
+    sha256 "2234a3fd5f59f6a9ff48f2754b77d7e77c2778df6ca2aed3debb27132bec0a5e" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
