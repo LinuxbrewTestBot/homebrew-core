@@ -10,6 +10,7 @@ class Singular < Formula
     sha256 "f24e67d674d8f21008582d9c030930ec386cca36f23845e5a0c33f27a59ce207" => :catalina
     sha256 "811ab9b4b292ffc378d8bca7f1c341e7284eb5b42457198cf94e75a20282722b" => :mojave
     sha256 "451a9411c65ce2079c3cc88d5064255696fc2a81cd0213ae96e82f69dc5863ec" => :high_sierra
+    sha256 "80a9cc4d7dc455cb63f9b4e47b77cea93d38a561254ef26c7ef618a9eeb7797f" => :x86_64_linux
   end
 
   head do
