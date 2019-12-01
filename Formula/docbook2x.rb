@@ -14,6 +14,7 @@ class Docbook2x < Formula
     sha256 "acfdd1c80cb523b213dea0125819b1b6fc783d6d740cc8fc0047f44756b57889" => :el_capitan
     sha256 "e3efe4afe190e126174c6e3bec0a9feb4ad37ddd0ecaef778b1e8df8a60e8717" => :yosemite
     sha256 "4b4750b139d7a262735e33ee0e314c7a589b6ada2d72e336aabaf334789a411d" => :mavericks
+    sha256 "6126b20affa23fe0188587c074546cf73b49a0b9e28217ac07a23e415d28f096" => :x86_64_linux
   end
 
   depends_on "docbook"
