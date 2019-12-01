@@ -12,6 +12,7 @@ class Kubeseal < Formula
     sha256 "0d59c9c63adbf23a420782bf0b3619c8eed1436ecc5219596428802a49ca87c3" => :catalina
     sha256 "88285e09848c4c25667f93a22350e6f2dbbc541a90c908b5d902b1c1ffe438f8" => :mojave
     sha256 "951987ec408bebddd17893f2be25614915bebe7aa592d4fd6c33359bbac79d2e" => :high_sierra
+    sha256 "7d9a33095eab9f788922a5a063ece4d315b46b9da1220a1a6a96b936b551ea21" => :x86_64_linux
   end
 
   depends_on "go" => :build
