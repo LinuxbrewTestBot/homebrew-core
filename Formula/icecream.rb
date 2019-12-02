@@ -9,6 +9,7 @@ class Icecream < Formula
     sha256 "4695f1db7d16476613f6778408167c67a8e22adb9a5506a4eab61b84e3105ad9" => :catalina
     sha256 "e462d0c5ce28511fdf6186dcbcc292462fb3084c97831d07a6b430c1306fd946" => :mojave
     sha256 "b7799dfc83e7cca7616eaa82afea0218f6c733b609e6a8850e111b1c62426f27" => :high_sierra
+    sha256 "9c44f8512e95dedd3ec29dbd031c83803803206973b8862063179af3c5d0bd57" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
