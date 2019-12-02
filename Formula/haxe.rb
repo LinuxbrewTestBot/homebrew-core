@@ -12,6 +12,7 @@ class Haxe < Formula
     sha256 "ddabbf9479d7c3044c8ebaaba12efb14459b48afc3fcd6081c8a0388e4f5ba1d" => :catalina
     sha256 "bb2b28201aebdd74360639a492a70dee82591949a9554818488c1cf8d4519d09" => :mojave
     sha256 "342b165e5295a089106a9dbe6c7674cb6981bae0778e53f4a8256323d587aaf1" => :high_sierra
+    sha256 "029dc237419cd34f043f9db319d57270ba80e48cc9a9fc3be9c12b72a51744d9" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
