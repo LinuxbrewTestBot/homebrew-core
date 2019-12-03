@@ -10,6 +10,7 @@ class Csvq < Formula
     sha256 "b3695aca3750d43b55e34bf5104928053a1723e8826d3437c79bcd1c89bf4507" => :catalina
     sha256 "fad9089f3112a11feff1c525a965af98d0336ec63bd4c33b3956fbbbf3c3786e" => :mojave
     sha256 "776c35f8d30a8e4f48aac93cb02a5ae837875f7c0d0dadcc023ed32c7c978ecf" => :high_sierra
+    sha256 "546f498baa0169260f3492e026ffd54da9122daa4561d126b5ae16c8ebb51dd3" => :x86_64_linux
   end
 
   depends_on "go" => :build
