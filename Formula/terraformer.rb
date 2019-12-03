@@ -11,6 +11,7 @@ class Terraformer < Formula
     sha256 "178deb67ec04ce1956e505ef2c03a8c443bb8bdeed698a7858f487b3a7a53e3b" => :catalina
     sha256 "74d985028d26d8994debb214dbc17e0a7b51236daaaece0e5d23e2b4eac6c260" => :mojave
     sha256 "e7b809c07e1c53f565cd686533c06a08db5e4c74cf938fd5bd9322ee89cd7403" => :high_sierra
+    sha256 "a517fb08b348f514c3adf789eece5cd02faff14eb6e0f9e0f3f9a31e2ec515c6" => :x86_64_linux
   end
 
   depends_on "go" => :build
