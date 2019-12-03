@@ -14,6 +14,7 @@ class Liblouis < Formula
     sha256 "90c614058cf9c41fff51ad7b37077b21719657eb516fefe5aa25903ca318fbe1" => :catalina
     sha256 "cc17c437f3250401f16dfe0c3121202fb38aea0db899ba1cef0fe08138a962a8" => :mojave
     sha256 "9cc3903c672c3939d50363093c4db8e64ccbab88b03f689c154dfaabc94ae161" => :high_sierra
+    sha256 "546e56c2897f3f893c72195b944a2fe793f2c78a8160b9fc1d5dedc5c8c64871" => :x86_64_linux
   end
 
   head do
