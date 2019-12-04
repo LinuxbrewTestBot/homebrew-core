@@ -9,6 +9,7 @@ class Eccodes < Formula
     sha256 "4fc6f61a8964aeb44d1ef5797d3f4504039ddd718567965c000dc2ee49f58b3c" => :catalina
     sha256 "747cf33b6f49ed3a7a703bb6c9037724025d9c468c49d3e3fbd4e34324f6f4c7" => :mojave
     sha256 "0edcf85b1d1e660005dcdd00e627d462f221a300257bc4bda581888467175169" => :high_sierra
+    sha256 "cf45bc28d11e6443168a60294c79913ac8f47418ad04b21e024bdc488f449e8d" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
