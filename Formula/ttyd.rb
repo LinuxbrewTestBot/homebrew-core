@@ -11,6 +11,7 @@ class Ttyd < Formula
     sha256 "c91b3fe23a0aeb86888b8ad9e2990f0a0f43ee15cb58122c12b23d4e7309c284" => :catalina
     sha256 "0ed2b2b2c3bd4767d7d05e0ff104a2556bf52d8015dc4e1b629641d81e4b7e71" => :mojave
     sha256 "08ae9dbd7cd921f15031fb15c373cc64bd05c67ad9b7a13125b41aa735aef263" => :high_sierra
+    sha256 "8c0f0dffde21ef3b6ac68e18cd0ac02e5f7c8642bf68df645c5b9854e3a16fdf" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
