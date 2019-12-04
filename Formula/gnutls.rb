@@ -10,6 +10,7 @@ class Gnutls < Formula
     sha256 "00b17bc3c4c3a74318a582cc45068042b8bd74ea96fac02116e71772a2355dc1" => :catalina
     sha256 "ee8df35a8efcb0595f454d980da7d46da5420d32b99c76f29d70c3f43bfb3c2d" => :mojave
     sha256 "bff8a1931f8a8fc192a3f2e2b37c6fb2dd45657769cb3ee373520ddd9bf3c515" => :high_sierra
+    sha256 "fe96a0937c740cc4d01aed7273ee69c62cd068f866cbcb7647b4651638110bda" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
