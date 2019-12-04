@@ -10,6 +10,7 @@ class Orc < Formula
     sha256 "c4a11fbf1e2d645b0bbcbabc467c6f7fe604282833ece90264b063806a1e4909" => :catalina
     sha256 "b9c58730d763ca611867504ff7005245e95ca435b027d85ff7f7471dc7431b59" => :mojave
     sha256 "b732bc9e7fa9825222b0dda3dfdbe7f38cf45aeb46c239f432fc646d98079e76" => :high_sierra
+    sha256 "a69874c451d86fd31ada1aaf8ca5a961de6cfb42944b18da8eadbb371375de70" => :x86_64_linux
   end
 
   depends_on "meson" => :build
