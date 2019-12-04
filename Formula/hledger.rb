@@ -14,6 +14,7 @@ class Hledger < Formula
     sha256 "7632ee3eba6efc1421a1423b608d3d9594f2ea95fe5e48ecd6aa74f4f23a2fcf" => :catalina
     sha256 "729176606235e133a78cb114eb445adbb6845156d52bf58cccbf59cace19e1cf" => :mojave
     sha256 "8f64c97525829e500a89d9533d21b13413c96f8575730f4354d2a6b98ab1bf2f" => :high_sierra
+    sha256 "05f42810a65169282be87526ee21791a5861c2b1d0037dab9ce709161fdc6fd2" => :x86_64_linux
   end
 
   depends_on "cabal-install" => :build
