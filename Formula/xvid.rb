@@ -11,6 +11,7 @@ class Xvid < Formula
     sha256 "7512de9c603f43159e8336358b52285ee74aa545f5dd7822cacdfa9158507b3a" => :catalina
     sha256 "aaa30d8e5033d88082da91d780699df848d095dafff39ee5c5cfa1f6a46c86ff" => :mojave
     sha256 "000de46bb386497c9d11a005825606e813034f8b819adaa09de12f15761de742" => :high_sierra
+    sha256 "01e5acc666374c76088d5caeb4286faba1b06020532035b552041dd561015d97" => :x86_64_linux
   end
 
   def install
