@@ -9,6 +9,7 @@ class GstPluginsBase < Formula
     sha256 "64e4395ec1d40677cfc8b21eaf6815296f44660aab0b4a125735f266552dad95" => :catalina
     sha256 "5a4245b5251ec3c8ef12a8278101c84c4db8a8892114a53e6a3304569571caba" => :mojave
     sha256 "d9144e2a0c20e479c341167a8aa9ecc87e65a9c7c9515a62a855785cb1d42252" => :high_sierra
+    sha256 "3d8e05d1aa81b7fd22580ff65344d1bc1f5eee7d9ee2fc4f0f097cf41bc5e820" => :x86_64_linux
   end
 
   head do
