@@ -11,6 +11,7 @@ class Cassandra < Formula
     sha256 "e9f5422b20f44c82dc3399f34da97e314cb0047c9b99c7325b1c1a91ad3063f5" => :catalina
     sha256 "75d3a49ace9a7596bbd41106955464d5db48239a2fc6e481d92c0fa18a0e37e6" => :mojave
     sha256 "69d5dc8380290293b5a5dd138dfde2b2dc33577b8e08d057154e2703cb1a841d" => :high_sierra
+    sha256 "de1bcd37328723d9bc83333b3254759ef125d33c0bd41ca96a71a9394cc545b7" => :x86_64_linux
   end
 
   depends_on "cython" => :build
