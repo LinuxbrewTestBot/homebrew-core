@@ -10,6 +10,7 @@ class Spin < Formula
     sha256 "aac939af6d78428b1a1bfcfddc2be77d93e566f1e6cce56b4ce5d102c22b6454" => :catalina
     sha256 "f189251ba154016bfc17dbc62f28499e29a62a9cc9ffc8339671bb7038f5754c" => :mojave
     sha256 "4069015b154f32290ae3e5ba29c1b520319e04c43977622ca836111c18d74bb1" => :high_sierra
+    sha256 "6717a28cf0de756d2e598d5869b227e82b7acd0dbd82729144ddd6392481e4af" => :x86_64_linux
   end
 
   depends_on "bison" => :build unless OS.mac?
