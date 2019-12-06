@@ -11,6 +11,7 @@ class Nomad < Formula
     sha256 "7244771c69e62a57d75f869a7c560611cddc99465212960a6f2feb8fb5d512f7" => :catalina
     sha256 "3a9fec957a987015448f7f072d4e814b9d68fbd4cb0f2c84d1102a0802b21da4" => :mojave
     sha256 "2a87bda37005f2fcefa793120675d4bd5965e0a88239fb051b04ef324104c9a9" => :high_sierra
+    sha256 "b9a59bf2774eab17188511814c993b324beb6f01d86b3e7d9f9eac3f4bce4059" => :x86_64_linux
   end
 
   depends_on "go" => :build
