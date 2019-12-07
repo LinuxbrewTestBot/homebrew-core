@@ -12,6 +12,7 @@ class AwsElasticbeanstalk < Formula
     sha256 "2d4d98bbd6eeb580c6f1ffdbb54f673d37a1d0c36f88308af4b53ff0a1cf9c02" => :catalina
     sha256 "1fec8cfb32ed35dc64a4178c3f89ad5269e8cb323924cc2074c2d864c1644b40" => :mojave
     sha256 "31abd014c69a88ecf601a2afe0716de3e56c07f89709793bfa2d5b6ea21fdb1f" => :high_sierra
+    sha256 "de70babc0ed50b4c86d3397d2fef5101ea19c4a4c35fae3347b16c29392d9e61" => :x86_64_linux
   end
 
   depends_on "python"
