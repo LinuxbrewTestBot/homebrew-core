@@ -12,6 +12,7 @@ class Glooctl < Formula
     sha256 "e9be1cfbc345cdd55f79c5f19f2cb1e77ba8f4368ae68c98621174a3bc109d26" => :catalina
     sha256 "771df28f2a079280135cf4623957089e6fc5f462d4a3502414caec251f9f192e" => :mojave
     sha256 "3719ae9a441bfe658dda6e8e724fc7dd2ab5a5af7197631b990f3a1c352dff84" => :high_sierra
+    sha256 "f595d3d233a0d3bb32c402c1f86d4ed831e50a2b7f5cfff422b723a7cf188c69" => :x86_64_linux
   end
 
   depends_on "dep" => :build
