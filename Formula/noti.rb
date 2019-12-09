@@ -10,6 +10,7 @@ class Noti < Formula
     sha256 "2c1a4a0b6f970c9cccabcb119b9ec8c43494eba00c14fb2fc851ac4063cb88dc" => :catalina
     sha256 "013130b6505c40b91c091663726343f92d401727d4b02e84c5268a2a64a22f62" => :mojave
     sha256 "ed27cb9b0e02a8cd9ef880a95036ffa2159880fff334786ee594fef3677f97d1" => :high_sierra
+    sha256 "26e50df337b44374b69b14023d6f20156f66de101314e7fed9741dd5bdb4a8a0" => :x86_64_linux
   end
 
   depends_on "go" => :build
