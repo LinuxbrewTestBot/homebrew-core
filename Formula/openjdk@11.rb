@@ -10,6 +10,7 @@ class OpenjdkAT11 < Formula
     sha256 "e7c029f0e2802754a2367b6635cc79255e687fdcf8610e4fc3b8a9d8c5cd7de0" => :catalina
     sha256 "5458efd7a104c7969e17984f61f254402dce0f654c6f67172d71bcda284f5706" => :mojave
     sha256 "12f9a799d3087f88dd3ba060b00e92152e7556d7ee03004502a1e6dff2968bfa" => :high_sierra
+    sha256 "56b74b9dd4ae248e533f16c03941e31425c8a0a9461b2f6bf82752897168dc2a" => :x86_64_linux
   end
 
   keg_only :versioned_formula
