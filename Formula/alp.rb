@@ -12,6 +12,7 @@ class Alp < Formula
     sha256 "490aef4ecbd2150797258cd243da08323f3ac7fca4fb140fba7dd1dc4c0e9226" => :catalina
     sha256 "d1ce608565f0fa3995de0f21b3b3aa5cc90b8c6678704ffe8bf23f56feb9706b" => :mojave
     sha256 "8c560595fc185ffa578e527f3736b0429d35fce177ce86ab20d25f7f1d0a791e" => :high_sierra
+    sha256 "632ef323d84a13454e79c56fdc635582a0f7c6b1708268a4fe958bf3d894c4ec" => :x86_64_linux
   end
 
   depends_on "go" => :build
