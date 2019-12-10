@@ -10,6 +10,7 @@ class OcamlNum < Formula
     sha256 "9767a628e3b326207c0800fbc84a6cb061d487d1de215073672c263674a4f37e" => :catalina
     sha256 "db56cb0607b94417b31c5e0479631ae0b2e712786140a204bc990d247ab843c3" => :mojave
     sha256 "6034f0ae346d64a651e72ea1da790f6d49869eb319bc447b53bde54cc93f1345" => :high_sierra
+    sha256 "a0ff127240adb231463c09398a26379e891f09442197c8ff538693b357a43d06" => :x86_64_linux
   end
 
   depends_on "ocaml-findlib" => :build
