@@ -10,6 +10,7 @@ class Detekt < Formula
     sha256 "e3788d2fa44d85703fac30c55da318c3f772a9c6dc8274c631c69f8b25872f6e" => :catalina
     sha256 "e3788d2fa44d85703fac30c55da318c3f772a9c6dc8274c631c69f8b25872f6e" => :mojave
     sha256 "e3788d2fa44d85703fac30c55da318c3f772a9c6dc8274c631c69f8b25872f6e" => :high_sierra
+    sha256 "979858ff216697125683684e9ef74446bc3558d0c804e9c17e4d310bad8424c1" => :x86_64_linux
   end
 
   depends_on :java => "1.8+"
