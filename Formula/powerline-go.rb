@@ -10,6 +10,7 @@ class PowerlineGo < Formula
     sha256 "a9b6be73fc466b480d6f4fdeb318dec5ce57e5a9d693a57674ca5aa5cd04a7fb" => :catalina
     sha256 "cd2f20c1bd8504a5eb449c482b9d34ada5a5d59c1ffb17173e18c7afbebb3be8" => :mojave
     sha256 "d67e92a591c74edc03a01158672801a8844256c3a078de7c93c317fadcd16d39" => :high_sierra
+    sha256 "0a4ad1a6aee23b5a54b7cfe52a6c5fe07f5d88a1a5488d91701ad97a93ccb6fa" => :x86_64_linux
   end
 
   depends_on "go" => :build
