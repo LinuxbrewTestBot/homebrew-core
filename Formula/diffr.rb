@@ -10,6 +10,7 @@ class Diffr < Formula
     sha256 "7e01bf74ad7621aabeb9b3aaeb24d8482bc50919537378c43484f8cc86a80ffb" => :catalina
     sha256 "3f491387e259786609728ae103154e3d04ba31756bd142f8a088b17530343a23" => :mojave
     sha256 "4a9dc80b940b8f312b116509cbb79810e7ea829187669b4cc2e13e26d2cc98c1" => :high_sierra
+    sha256 "e9d26f19626a576119dea7337451378dd44373b061346bd34602fe1ca9c1aa55" => :x86_64_linux
   end
 
   depends_on "rust" => :build
