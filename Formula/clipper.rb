@@ -11,6 +11,7 @@ class Clipper < Formula
     sha256 "6e16549f9930f652364f727cf42ea04608d92f172e7916c85900c3b6feb98df0" => :catalina
     sha256 "2216327dbb3a341f14db9d2da767749d00e460917bcf1098665948e24eeb2e8b" => :mojave
     sha256 "a2230d8cb54b244b82ea5f5c47cebabe2f63a6b9dc1b98d47cd4a0fcd4eb743f" => :high_sierra
+    sha256 "70dd1d495cc9cdaec37e7b85ba98c3cde949bed5d18ca00ff4e6390e713d3409" => :x86_64_linux
   end
 
   depends_on "go" => :build
