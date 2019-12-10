@@ -10,6 +10,7 @@ class Skymaker < Formula
     sha256 "af78e7af9c84517e8f7db071ef3718a34eafc39d6eac3357d77ee183d4fe2cdf" => :catalina
     sha256 "ef2182885eb6952289057ce2756ac56ec9a88397e746b694529a937eaa28b943" => :mojave
     sha256 "6e7aa4c817624d5631293d0421b25eec132e41bfe3d75f9044a85dd02f73de4a" => :high_sierra
+    sha256 "4a641bb5bd1b089282393e43d6458ef8a2955c0833ddb6262bb14a4b17431b6a" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
