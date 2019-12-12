@@ -10,6 +10,7 @@ class Sysbench < Formula
     sha256 "6b71a2ae66e021e31ac79c3924fffeec0dffa9f3aeeea073cc47005bd1ef2c4f" => :catalina
     sha256 "ae9b590957ecca03a87614dfb0cf8ba70d0645d2b105cd259955b5353858ab45" => :mojave
     sha256 "793f35c8eb8db96af5f54d8fdda7590cfb6c592b0d3f2cd384e74ff75c5f4fdc" => :high_sierra
+    sha256 "2568a277e9b0857a6c02be6aca4caffafbaac5ab2dd83630b482ff0d216de637" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
