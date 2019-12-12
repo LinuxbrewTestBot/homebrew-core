@@ -12,6 +12,7 @@ class Bup < Formula
     sha256 "adbfc42873e138509a8aea5f79dd9a983d6436965f72768778e257885b45efd0" => :catalina
     sha256 "cdf1d01a823625ebbf364e5c40570dfa710a457824a17a6cf661fa85331f2e63" => :mojave
     sha256 "38422b58cf36f8769783612149f2aef56ca11cc80fb368086b07fecc9959b6a7" => :high_sierra
+    sha256 "e2986e9fb102aed935d76b8e75d181ef44611f245ad8ebf4a46b7f43e2e2436b" => :x86_64_linux
   end
 
   depends_on "pandoc" => :build
