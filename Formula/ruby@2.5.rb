@@ -11,6 +11,7 @@ class RubyAT25 < Formula
     sha256 "6dd94a282abc4f72881be6ff47f5d31bc2e124d0a49635bb9219ea0755b67cfc" => :mojave
     sha256 "0dcec628a71f19d52c82b3097d347e341003e241076958dff0a7b19fef007248" => :high_sierra
     sha256 "c36de0e091c626debd7bfefc6b69e1b8a18533231ad740e638c8a138ee8c259c" => :sierra
+    sha256 "d70be7c13b8e877b1a08ffa22b31c6ea6dd626dda5870cf34206221600c96fb4" => :x86_64_linux
   end
 
   keg_only :versioned_formula
