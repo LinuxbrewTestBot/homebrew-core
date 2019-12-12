@@ -11,6 +11,7 @@ class Libssh < Formula
     sha256 "b4cff56528c3a0a8c960f57539b402173c360451d9786aee5dfb42880dfea721" => :catalina
     sha256 "09b06812c37f7e2213224e92a0d579e0e9bf56bc4d1cd3f017f1877b22eb757f" => :mojave
     sha256 "db8b47069aadc848fec558351e684464d1d9f3ddc1b6105e6720dddffde30823" => :high_sierra
+    sha256 "1d155d0fcd90ad1ac84de13ecffa70b1a1fb7209ec1cc150985c855f59d1ccc6" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
