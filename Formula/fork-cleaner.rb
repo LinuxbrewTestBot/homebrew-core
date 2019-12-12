@@ -11,6 +11,7 @@ class ForkCleaner < Formula
     sha256 "23a1b55f97bbac97d9db5ae0f75cbcc7fc117fb54fc692e3123cfaccfee335d6" => :catalina
     sha256 "9d5c53422feafdd72a1aeabec54c4a0c7ed07a01b774d24b1feabe81041e511f" => :mojave
     sha256 "120ffcc07d412fc8d73b29b62400d315e8dea71401cc0b7b6dc227573ed4fc77" => :high_sierra
+    sha256 "df0242795873240e9e3cd2362c1c897803b8558736cffb71f6b9f820e35946ee" => :x86_64_linux
   end
 
   depends_on "go" => :build
