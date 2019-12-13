@@ -9,6 +9,7 @@ class Faust < Formula
     sha256 "48f36d87c5d99c94dd5480fd24aacf1d12f7a1e0910c7c51d1486d00c732ead7" => :catalina
     sha256 "1e1c7d96ce8b9aae9742fa9933e3b9f400a0396fb37f1acc493b7af99cee53fe" => :mojave
     sha256 "a304cdfea4858109db24f99a54f16b95ad451804fd569d1b601bb4ba01921452" => :high_sierra
+    sha256 "619e69eb5469a228aa4d674dfc833955e790d8c8e7fa620c4fab37c8c88810c8" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
