@@ -11,6 +11,7 @@ class Ghr < Formula
     sha256 "7fd9ae651a7adbedd46e266e04260fa221c84cf1595c04e644f3e720f8f76a48" => :catalina
     sha256 "322df199f2e51c91d348638c3d7baed79c8e542755fe51634cc2c06ea99150a9" => :mojave
     sha256 "941dce22c70f320d75f5e961c3cfc33f837f6ee113a5a06c445e57cbdcfa34fb" => :high_sierra
+    sha256 "59ed3caeab4e63c4934a8ee8b5cd01705ad76f288b2f63ba04ae088c000535df" => :x86_64_linux
   end
 
   depends_on "go" => :build
