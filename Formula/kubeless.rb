@@ -11,6 +11,7 @@ class Kubeless < Formula
     sha256 "ed81401f5b4031e28ab1fe472b9d9a2deddc879eef6959234d087ba76c572882" => :catalina
     sha256 "b75024000765c7c616d99e5893c34e3413965a7b26e1c89b49d478d49cf73f3e" => :mojave
     sha256 "762ad7bb6a7ee337f9449591b2efafe9572614286ce3c9d15b47b3fdc30f44eb" => :high_sierra
+    sha256 "b85d4bef837886745b12604fba09e6abe8b5e281d75dc127d640b2a1323cbff9" => :x86_64_linux
   end
 
   depends_on "go" => :build
