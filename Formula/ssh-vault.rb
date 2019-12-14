@@ -12,6 +12,7 @@ class SshVault < Formula
     sha256 "12e3e14671d317e1e337a81348962dd1abcad4994eb36d3d088f367cba4174b9" => :catalina
     sha256 "a77d9ec9d764fec99d165746b07282934357081d313be6dd43f85de40534299a" => :mojave
     sha256 "8670837a09a5eb5fccef4f7f6393b25ef208fcb332fcde26ecbe0fee66f04e5b" => :high_sierra
+    sha256 "e22d8fbfde41b9f87722cedda4811132b6656d99faffb4f3e41808ff7171266c" => :x86_64_linux
   end
 
   depends_on "dep" => :build
