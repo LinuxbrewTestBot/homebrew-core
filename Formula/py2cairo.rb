@@ -11,6 +11,7 @@ class Py2cairo < Formula
     sha256 "78ab70984d612ac9feba4d673615e3918110aebc4aa0b360a854e81fc7ac0ea7" => :catalina
     sha256 "f01c39e8f71339cdec156309fb7358f5bb3e292fb0a84a071c3a935b58234120" => :mojave
     sha256 "76dbdbbd42c2a59cae7e9ddc05ad26d331194c8a132e24e7316ceb551a40272b" => :high_sierra
+    sha256 "dfca1292bde3d42aac68bedc45e6feafa890222cec5d4483f8e109974401a0b4" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
