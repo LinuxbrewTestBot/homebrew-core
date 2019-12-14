@@ -11,6 +11,7 @@ class OpenalSoft < Formula
     sha256 "c4015ea65c1201e6aceae1cab1adb1eaf383d5fd814d5a752e2c0d5370ea8049" => :catalina
     sha256 "cdcc313243d0469df2d0742c70abfbcb7b3473f15c9cacb33e131baa241b6e71" => :mojave
     sha256 "8172415cd85b7341b8316b55465cafd06e29d1edf7d9c91b58ca761520e06d64" => :high_sierra
+    sha256 "d3e152275254a586ae43109c8236e67c97cd56fa99b4fdd615e5e9a9b2dc7b67" => :x86_64_linux
   end
 
   keg_only :provided_by_macos, "macOS provides OpenAL.framework"
