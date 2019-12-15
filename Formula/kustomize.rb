@@ -11,6 +11,7 @@ class Kustomize < Formula
     cellar :any_skip_relocation
     sha256 "c96d401ee6dd4aeeccfe1556e36628d0658579a6356564098106d10209f085a2" => :mojave
     sha256 "33e40b1c9baddae54e108cf2c5e3e9707dcc45b9abd3e137ac7c3daa7d16ffc2" => :high_sierra
+    sha256 "fca75d59f4c86df2e190d552b591e9ffeb1bd4a650f55fda0e0d6b6d8707a2e8" => :x86_64_linux
   end
 
   depends_on "go" => :build
