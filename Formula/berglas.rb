@@ -10,6 +10,7 @@ class Berglas < Formula
     sha256 "305e848eb3a7b671b10996b7b145ee8a41d46165c825450399497a920a92e759" => :catalina
     sha256 "f7df64d6b12b4fe6fa458aa9d9b5d979589c5e0da9a0cf0e545c59d732734806" => :mojave
     sha256 "e86deac6d0854b9dcdac69df25b5ce838c0ec9adf918c5855c457ff6a9975e95" => :high_sierra
+    sha256 "9c47c48a35b047d8bdf75d7840d7ec7dc3c7f648bf56db18533216a3c9a072a7" => :x86_64_linux
   end
 
   depends_on "go" => :build
