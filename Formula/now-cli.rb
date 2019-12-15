@@ -12,6 +12,7 @@ class NowCli < Formula
     sha256 "5341de321390c435512eca186c7d0fecdc245913b8cc950d1ddb7f58f74d15fb" => :catalina
     sha256 "5ea77cc2f2a51e8547b29118a1490e06f884a5130846b5f7b90311d2cdf83227" => :mojave
     sha256 "905283ffb3f177c0711c8b057c683c5b0011a344d79489dfb22f749cbcc3bfbd" => :high_sierra
+    sha256 "cf777c93413e935eae103ca9f90f225db0c856826ae98fee309bcc076e5b0555" => :x86_64_linux
   end
 
   depends_on "node"
