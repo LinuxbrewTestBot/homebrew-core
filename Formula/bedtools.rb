@@ -10,6 +10,7 @@ class Bedtools < Formula
     sha256 "d511d1636d496882cbc1ac78089f08d549329a6226b0b7cfc31812b72d3dff17" => :catalina
     sha256 "c0279bb1c7687541472e1bba4a171ce411a0fafab538dcb3c72be426f7bb0adb" => :mojave
     sha256 "dd16efe379fb9774292621a47fa26b9281b524a9c5bdc6adcf0d753452259fd4" => :high_sierra
+    sha256 "ad87bc448d1a875a60e1b3ef3f979e71f15682caf46b0653595aa3031b724f61" => :x86_64_linux
   end
 
   depends_on "xz"
