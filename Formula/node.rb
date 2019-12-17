@@ -12,6 +12,7 @@ class Node < Formula
     sha256 "5760f35a867db8b1cff7714210b8420ac9d829e3bf8d7b0f45ac21e217166362" => :catalina
     sha256 "1231a09d313ce3f3e6e7d0ac647f56e9d4377c752004941ddf366662e00401ed" => :mojave
     sha256 "34560ff8ff3b553b531bc6cf9a2805cfeaeed2cc7dce6eaa439c0158ab6b78dd" => :high_sierra
+    sha256 "335128dfc5a85228c797eb38b12b91b266d98a7c85d9d257a2607e6962aa74b7" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
