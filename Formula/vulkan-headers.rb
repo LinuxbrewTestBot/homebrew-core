@@ -10,6 +10,7 @@ class VulkanHeaders < Formula
     sha256 "ef367ba95ca48295e6aa324f9a1a9c54062f47f372c0985c35c0162c4ad5a1ae" => :catalina
     sha256 "ef367ba95ca48295e6aa324f9a1a9c54062f47f372c0985c35c0162c4ad5a1ae" => :mojave
     sha256 "ef367ba95ca48295e6aa324f9a1a9c54062f47f372c0985c35c0162c4ad5a1ae" => :high_sierra
+    sha256 "373e1b3345cd418857a5a187ef6e0cf097f5722f31b5e195e13540d69f879562" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
