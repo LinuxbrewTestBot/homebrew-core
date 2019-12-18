@@ -9,6 +9,7 @@ class Php < Formula
     sha256 "74a6bd1f08e2d15bd1fb68d49f41b245329cf14f88eafea1f56d7be02f09495c" => :catalina
     sha256 "81fd2df36274b74df5a34ecded65f94a0cb48231c97ff08490c90e70f81126c5" => :mojave
     sha256 "55c9d4cbf83dfacfca20d0296861577d3e9349966e0328b7c8bd22d9e440222f" => :high_sierra
+    sha256 "4dc6c4e0b034a34b04f2b7c0c9971ac9de5b1b2df6e8e14778858fcda3a395a6" => :x86_64_linux
   end
 
   depends_on "httpd" => [:build, :test]
