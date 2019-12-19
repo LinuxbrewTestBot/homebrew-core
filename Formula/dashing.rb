@@ -10,6 +10,7 @@ class Dashing < Formula
     sha256 "625182262193e91eea994e43c6f7b6568a29473f920d82c4ede06f007c3d62ed" => :catalina
     sha256 "1cf3f2332b9ed58fe688a1a3bd69c21641c370a9338f9f0661526434997b852e" => :mojave
     sha256 "f1a3f3bdd8a8709c8ad5abac6da916455eb957680973131925378d7ceedad2c0" => :high_sierra
+    sha256 "eca674e24eb682abff56b77848339d4699523a076cef5453f2a613d5ea7c2889" => :x86_64_linux
   end
 
   depends_on "go" => :build
