@@ -10,6 +10,7 @@ class CassandraAT21 < Formula
     sha256 "ba43927921cfc8c4540736eec7472dcb5fb78efbd0fb7e948df64cedc243d2b5" => :catalina
     sha256 "cbe96bf658b154f84a1ad7188ca3ea667f3f3201e46452f2e95f8d4a1c946af8" => :mojave
     sha256 "7a0183c65df7ad2f04c6d53f781150af2540d52a80d4f349e59087d35c418399" => :high_sierra
+    sha256 "08675aa418fb7762b8cdf0ab92f995917c6642651c578d16edaa041ead24f0ba" => :x86_64_linux
   end
 
   keg_only :versioned_formula
