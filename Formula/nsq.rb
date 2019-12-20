@@ -12,6 +12,7 @@ class Nsq < Formula
     sha256 "2aae6c19e55ebd926426301fa85dd5716bce20a04bfbc11a5519dbada6a67368" => :catalina
     sha256 "bffff40b52e50eb181b9a02c8650b51924e45e8d650a5ed17051b8b1c0ce46cc" => :mojave
     sha256 "96ead21ddbb8f6f004141aac2e7c5a23d8740eaa5d4730eb4b0d6d94a0b63683" => :high_sierra
+    sha256 "aeaa97b951eaa61bdadb391041f48e325b541ce632d20c24fb2927c0dd9c1762" => :x86_64_linux
   end
 
   depends_on "go" => :build
