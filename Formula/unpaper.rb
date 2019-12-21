@@ -16,6 +16,7 @@ class Unpaper < Formula
     sha256 "064acb1292a5a948eb3963be07c400d8fe0e7fa008afec78bfdd659392e45871" => :high_sierra
     sha256 "f35014bc991ee89bc5af4a4f25034bf525220a13a8925518424a5a423273a1cc" => :sierra
     sha256 "743399859c237fb673ee9dec339d660215d92db2383f31c3208f726116adeb1d" => :el_capitan
+    sha256 "ab715a00ec675ca3431c0fb71283b7abc11fd2a16b6a7bca74a0a97bc2a0d2b1" => :x86_64_linux
   end
 
   head do
