@@ -12,6 +12,7 @@ class NodeExporter < Formula
     sha256 "ff1a0c237371d710a60ae7692eb08fa96259840e7565f6345ed50821db2d27aa" => :catalina
     sha256 "9ab6e123c1862749886247564ea64dede482a6cb9efb19c611e2a5a5b4595237" => :mojave
     sha256 "5de4df63394055e449580b4b583f4411237f84096042eef63d3423b39f75ff2e" => :high_sierra
+    sha256 "d5f213494404b08c8b6c9c18239dfba61006d3b9847999c354f5f6eee0a479a9" => :x86_64_linux
   end
 
   depends_on "go" => :build
