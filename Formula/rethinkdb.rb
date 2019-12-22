@@ -11,6 +11,7 @@ class Rethinkdb < Formula
     sha256 "ce3f886f880a43649c486fcc6c467e3ca44f526f06c4abeb7509e949b43b600e" => :catalina
     sha256 "7ecafe14d01b8289df21dae7cc8f6d6313bd2adb0e690be386d3bb09cf0efae8" => :mojave
     sha256 "fcec71e74c936790031c212773b91aea4c62fb80c0e25207c1162c3a486bf2da" => :high_sierra
+    sha256 "28cc039c31b7c360f5032048a725ca9067b4c7c16feb1a40c282ca2fbe729cea" => :x86_64_linux
   end
 
   depends_on "boost" => :build
