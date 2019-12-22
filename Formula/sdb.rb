@@ -11,6 +11,7 @@ class Sdb < Formula
     sha256 "1f661b4f93a7161a941cb3db5477d95453f7a6b789d4eb8c8d20b5a1a86b91ee" => :catalina
     sha256 "5e36426a73fca9c8b127af893a9d50bc571ecc2b4dd38517260e0555bdea49b3" => :mojave
     sha256 "aeb8d25f8c7552334e9dbb33a4bcb250b9b867fc1af0864a2e805a63b412ba8f" => :high_sierra
+    sha256 "4032059601b48f50480245a5ba66309073426fc150d74fc7660f4be71c572162" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
