@@ -9,6 +9,7 @@ class Gloox < Formula
     sha256 "ae614fa73c886d568e4bb6916438affd3b081bccfc4904fef4a4110417f41e9d" => :catalina
     sha256 "eea355a755180f72c719f06d0eae5c7b03223c35f39aae6379a007f0a6333ffe" => :mojave
     sha256 "730858e264fc531556d60fd93f971614e9ce22ee1db1391f651a8fba2b257198" => :high_sierra
+    sha256 "f84625906d2eb5acfb3fe33436807eca8844970fc28d36a4bb01901a7fbb652e" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
