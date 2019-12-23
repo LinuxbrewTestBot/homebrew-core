@@ -14,15 +14,17 @@ class Root < Formula
     sha256 "f6571b5dac4a3e27c71faf4d93ef8c177db6215d3d4df3570127902e02b654b2" => :high_sierra
   end
 
-  # https://github.com/Homebrew/homebrew-core/issues/30726
-  # strings libCling.so | grep Xcode:
-  #  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1
-  #  /Applications/Xcode.app/Contents/Developer
-  pour_bottle? do
-    reason "The bottle hardcodes locations inside Xcode.app"
-    satisfy do
-      MacOS::Xcode.installed? &&
-        MacOS::Xcode.prefix.to_s.include?("/Applications/Xcode.app/")
+  if OS.mac?
+    # https://github.com/Homebrew/homebrew-core/issues/30726
+    # strings libCling.so | grep Xcode:
+    #  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1
+    #  /Applications/Xcode.app/Contents/Developer
+    pour_bottle? do
+      reason "The bottle hardcodes locations inside Xcode.app"
+      satisfy do
+        MacOS::Xcode.installed? &&
+          MacOS::Xcode.prefix.to_s.include?("/Applications/Xcode.app/")
+      end
     end
   end
 
@@ -44,6 +46,12 @@ class Root < Formula
   depends_on "tbb"
   depends_on "xrootd"
   depends_on "xz" # for LZMA
+  unless OS.mac?
+    depends_on "linuxbrew/xorg/libx11"
+    depends_on "linuxbrew/xorg/libxext"
+    depends_on "linuxbrew/xorg/libxft"
+    depends_on "linuxbrew/xorg/libxpm"
+  end
 
   skip_clean "bin"
 
@@ -62,13 +70,12 @@ class Root < Formula
     py_exe = Utils.popen_read("which python3").strip
     py_prefix = Utils.popen_read("python3 -c 'import sys;print(sys.prefix)'").chomp
     py_inc = Utils.popen_read("python3 -c 'from distutils import sysconfig;print(sysconfig.get_python_inc(True))'").chomp
+    py_lib = Utils.popen_read("python3 -c 'from distutils import sysconfig;print(sysconfig.get_config_var(\"LDLIBRARY\"))'").chomp
 
     args = std_cmake_args + %W[
-      -DCLING_CXX_PATH=clang++
       -DCMAKE_INSTALL_ELISPDIR=#{elisp}
       -DPYTHON_EXECUTABLE=#{py_exe}
       -DPYTHON_INCLUDE_DIR=#{py_inc}
-      -DPYTHON_LIBRARY=#{py_prefix}/Python
       -Dbuiltin_cfitsio=OFF
       -Dbuiltin_freetype=ON
       -Ddavix=ON
@@ -89,6 +96,17 @@ class Root < Formula
       -Dxrootd=ON
     ]
 
+    if OS.mac?
+      args += %W[
+        -DCLING_CXX_PATH=clang++
+        -DPYTHON_LIBRARY=#{py_prefix}/Python
+      ]
+    else
+      args += %W[
+        -DPYTHON_LIBRARY=#{py_prefix}/lib/#{py_lib}
+      ]
+    end
+
     cxx_version = (MacOS.version < :mojave) ? 14 : 17
     args << "-DCMAKE_CXX_STANDARD=#{cxx_version}"
 
@@ -98,7 +116,7 @@ class Root < Formula
       # Work around superenv stripping out isysroot leading to errors with
       # libsystem_symptoms.dylib (only available on >= 10.12) and
       # libsystem_darwin.dylib (only available on >= 10.13)
-      if MacOS.version < :high_sierra
+      if OS.mac? && MacOS.version < :high_sierra
         system "xcrun", "make", "install"
       else
         system "make", "install"
@@ -135,6 +153,7 @@ class Root < Formula
     EOS
 
     # Test ROOT command line mode
+    ENV.prepend_path "LD_LIBRARY_PATH", lib/"root" unless OS.mac?
     system "#{bin}/root", "-b", "-l", "-q", "-e", "gSystem->LoadAllLibraries(); 0"
 
     # Test ROOT executable
