@@ -8,6 +8,7 @@ class Libmagic < Formula
     sha256 "b62d63057eeb729667d6155b5d79da97742d5656d9995359f6d945b6109ce2ef" => :catalina
     sha256 "0b6136c04b93fbec36326c88f7443e66d9faa209dedab7346f2b6ba015cd1ffe" => :mojave
     sha256 "8bf0dd3733907457d0102dd8e6e28ddaea304cd7eb59e5e559145f50046dd784" => :high_sierra
+    sha256 "69376399a1774dedad27d9133ec3dd2dd33e6764246bb56b09d57fe368ce5c0b" => :x86_64_linux
   end
 
   uses_from_macos "zlib"
