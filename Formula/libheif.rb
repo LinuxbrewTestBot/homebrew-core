@@ -10,6 +10,7 @@ class Libheif < Formula
     sha256 "c3872b30052b5560b79a5ab41960314b5f4f9a6ee7e2db740b70ef4ffd6ffe83" => :catalina
     sha256 "e3d14d604ca91f9bf3265d6dba3d66d098ba0339b91b3db7395f6e550298c4e4" => :mojave
     sha256 "076d461c72ca0651dd30f2a2ab7e701d4e39fbe2eebd895193eed785de37a9d3" => :high_sierra
+    sha256 "d8cc2586b142342054f862ed105ec2cefd13c130408862ad4e692764e84acdef" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
