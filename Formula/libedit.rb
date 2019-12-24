@@ -11,6 +11,7 @@ class Libedit < Formula
     sha256 "e73aa0d478d8f71fdf002c5adf8fc5e9ab656831aff648443f286a45ac453c42" => :catalina
     sha256 "4b6728253c28771f62018bbfd585e4c2850f8590c1084677478983783b278caa" => :mojave
     sha256 "f6b94869543ffcacaf9206dab037c6d2c64903cba213999aa67a6db2a170fc7c" => :high_sierra
+    sha256 "3042d01b6030511b3629f62331885b0082238c08979c88a880642a2ecbc508fb" => :x86_64_linux
   end
 
   keg_only :provided_by_macos
