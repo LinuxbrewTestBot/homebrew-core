@@ -11,6 +11,7 @@ class Stolon < Formula
     sha256 "4cfeccb9b2cc1387e19a41bc6f9888fec1c5c8fc6bf13a0d4b2b49d4befb029a" => :catalina
     sha256 "f513c9ae627ca6d085cbe1e2cd4c69703a63b3f2c8e444dbe33945b8d27140e4" => :mojave
     sha256 "129c66c2ada6dd97ece169a06f1a018ff5c0205df86f83f2edf1dc775e5093c1" => :high_sierra
+    sha256 "a3778e87ffb2ec9a909cbe86336e70c1a88760043b19cc84c2d368ac78002099" => :x86_64_linux
   end
 
   depends_on "go" => :build
