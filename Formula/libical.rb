@@ -10,6 +10,7 @@ class Libical < Formula
     sha256 "07655cf921ae272e80acde10ad0d0669ed445954ead4804be29edaaa11a04706" => :catalina
     sha256 "2e2bc2c5ba396ca27aed526c8463ef3078cb5d238b1a0165de977468dd2d6467" => :mojave
     sha256 "7a3afd92474988902635c2c69c86c46e4273c000e6ac34f62b74a6c77a576332" => :high_sierra
+    sha256 "76a95217e609def7110dac0f57627f10d1d1ae96e83ab9ce4db09a5326c7013e" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
