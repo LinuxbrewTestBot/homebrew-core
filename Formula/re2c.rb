@@ -9,6 +9,7 @@ class Re2c < Formula
     sha256 "374376ae451fe0e6ca93f17634e6353e8503cffa16018fbe44007997b865965d" => :catalina
     sha256 "3cb716f9bcb81ad81cafc6e2e5a5be444caa297cec939213bcf2e805fb65f778" => :mojave
     sha256 "7d9b2456469379900fc2abddc732710b822241a8a7bd2f734766a18b47b704a9" => :high_sierra
+    sha256 "70ac947468a7a44c4045fc12af4e22723da2254ee61ee67e02434cd8c0d9b403" => :x86_64_linux
   end
 
   def install
