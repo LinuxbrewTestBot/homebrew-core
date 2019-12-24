@@ -10,6 +10,7 @@ class Newsboat < Formula
     sha256 "3ebdaac8a35ae290af7adffe737bec71f1ca4d96d58acc352a6d926eab3dc1ed" => :catalina
     sha256 "3b5461262a95b3c29cd7fce17c0c7db2116dccdcbb9bdd4e9e912b5890279737" => :mojave
     sha256 "9e3ce4ad4a7230aa6356651c7dca731d56366bba7ba42e73eeb8d3dfdbf8ca45" => :high_sierra
+    sha256 "902ec6b7332fdcf02a28f87e8a148f651aedbc3fa6b7f8a086b27451180da584" => :x86_64_linux
   end
 
   depends_on "asciidoc" => :build
