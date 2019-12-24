@@ -10,6 +10,7 @@ class Libde265 < Formula
     sha256 "00c0149398c1b2a0a8bf0890f436ef4c96decbfc1a82139bd0cdabe6d2c277f4" => :catalina
     sha256 "dd0457e307b44dc0c0f2334551c683d266e41172a5a9484de39c2f9a91138fbb" => :mojave
     sha256 "e712786bd62fbf41567a66d76a263caf00d54fc1e83f5a9c9749ec16c303dda0" => :high_sierra
+    sha256 "eb98da9b544df64b2ca396c6ac6e763da007c83840bbcc9f15f04efcf71947d3" => :x86_64_linux
   end
 
   def install
