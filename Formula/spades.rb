@@ -10,6 +10,7 @@ class Spades < Formula
     cellar :any
     sha256 "4761b8cfbaca36fdc4fac08b8122f5519415d86668355224a67c52a5191ae7c5" => :catalina
     sha256 "f3e29120ab665892ba68d2d7c7522b1fea866a2d405f59547071d8c6c31318c8" => :high_sierra
+    sha256 "1eaedf87e51707e0d6d4fe3d7b4a0b9caa7acd038aa7cd848e68941a74796b4f" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
