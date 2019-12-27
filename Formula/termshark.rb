@@ -10,6 +10,7 @@ class Termshark < Formula
     sha256 "7b8b0fe96ff5a914f1de2545f9381465c1a8a6bff877e4c016ed54c6975c9825" => :catalina
     sha256 "71a09e2a4e0af93d8e0dc4b57596dd66410db6c4846a53ab558920b22df0b451" => :mojave
     sha256 "1feaeff8adfee9e3722bcb6c5d0da6dd26be45758423910338cafb504542f683" => :high_sierra
+    sha256 "fadf233900c10a223a28c06098b5199d94e1798f3370936f0c24b023251bbca9" => :x86_64_linux
   end
 
   depends_on "go" => :build
