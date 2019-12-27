@@ -10,6 +10,7 @@ class Ccls < Formula
     sha256 "5f5f3e9a71c2b2ba7362ea9f6d725f0a86385ed76faefabe2ce1e8060f40d949" => :catalina
     sha256 "cd9e2218ba5994b9c8d8a03f53f48e4060f5f521edd7c692ff07907deef6fec3" => :mojave
     sha256 "5dfe79e4ec483f78779750ac47405d53e75215d60bb9b326ce0397e14723f048" => :high_sierra
+    sha256 "164c14021c5985b055227a0893403e7b3f6398dc676b7b8fdf88db87121e899c" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
