@@ -10,6 +10,7 @@ class Samurai < Formula
     sha256 "6a997a0a4b6ccb973e67437051da34f472e94b44a7a92ca4bb0ce118b8c6b16a" => :catalina
     sha256 "7ad83e96a4948e1f70db355263278685739241bc2dfd2aa4bb653f4375d4d6ee" => :mojave
     sha256 "2844980fc09ec69501ef2868b2805ad411abd559bd30e9e998b08a94cb5d415c" => :high_sierra
+    sha256 "dc504e9326219379b903772baabbdfe3a33227f9d28add9344578f2c9f096c37" => :x86_64_linux
   end
 
   def install
