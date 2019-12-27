@@ -13,6 +13,7 @@ class Statik < Formula
     sha256 "114195665f574c4c4a9b56ca1071610423c252b0d3e222034575f51206059ed0" => :catalina
     sha256 "d1e258882ca6b3b5bb4a84e9786639fc8281919d3167f06d98d190a6104b3c6e" => :mojave
     sha256 "7fb8a4394f54916bd6d9f9770be85a9da4a6f9c35ffb1c692fa4306a430062b1" => :high_sierra
+    sha256 "2aeb06a85e92132988f400a9aad71017dfa56927b1f02b052ac120c36d205b4a" => :x86_64_linux
   end
 
   depends_on "python"
