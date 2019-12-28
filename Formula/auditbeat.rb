@@ -11,6 +11,7 @@ class Auditbeat < Formula
   bottle do
     cellar :any_skip_relocation
     sha256 "64d12715a86af5b2bd27bc6463776a0768cec87c5f50c555e88337b8bc749ff7" => :catalina
+    sha256 "3e1adc2c4cf33071a71b199058f6d201ae56776c93527efc3e0b205608c99c72" => :x86_64_linux
   end
 
   depends_on "go" => :build
