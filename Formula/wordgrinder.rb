@@ -10,6 +10,7 @@ class Wordgrinder < Formula
     sha256 "05750b2dadc537994d4701005d565782d2afdecfbe1bf1f118f76290255a3946" => :catalina
     sha256 "572bd029f459c15af9a2d27a471e31594d1d9c2387b6ec66f9a890df1db13e55" => :mojave
     sha256 "19855507ccd289049c30aad466a66de742b9d58a98247b9f9d223e140a81ff69" => :high_sierra
+    sha256 "25bb17042b0295e478ba8cc16c1f0c2446ab84d5dcbdc05a2f73e064a699ab03" => :x86_64_linux
   end
 
   depends_on "ninja" => :build
