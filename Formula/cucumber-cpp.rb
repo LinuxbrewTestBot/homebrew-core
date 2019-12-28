@@ -11,6 +11,7 @@ class CucumberCpp < Formula
     sha256 "647928a1ca3316d5d7c46f1022b616f88c21fa9fab3ca147e8944a92377e2d67" => :catalina
     sha256 "1913b19a2c3c876ae0ec6cf46bed0ea144cb97ab025b769472d9371c267e3764" => :mojave
     sha256 "8d325d95cdd4a3dabcee3f9fe3184585dc5ddbae623033d157847a4ceca2bd45" => :high_sierra
+    sha256 "771d87f6d002fcf7256b4ad7c4af1e0a10c381c0d20c7635873cb844034113bd" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
