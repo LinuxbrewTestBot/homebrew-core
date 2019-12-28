@@ -10,6 +10,7 @@ class Perltidy < Formula
     sha256 "05a1114d7b8f4aaee26b81970da067c80bd774554eca35d62388a19d7e190961" => :catalina
     sha256 "2bccd9c57ade5e50754a418a512fa1f31b9625b2437db0f530aca4260f1b1622" => :mojave
     sha256 "78412fec8de42607432153744cd9a6d8345b4d749fca9ec1ac1ff51b6c96209b" => :high_sierra
+    sha256 "28912edbfcc00c5b901f161f44ed2015b0cb92e01f630602cf4d12362187d26d" => :x86_64_linux
   end
 
   def install
