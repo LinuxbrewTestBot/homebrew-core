@@ -12,6 +12,7 @@ class BoostBuild < Formula
     sha256 "5b6a968f112d3cd808c4ed9186e4ee7f45fbf1adf19c188d65d782976c4f7bd0" => :catalina
     sha256 "60041cac36e864d8c0296101f5ed5137f2c09413c0f054b87ed5c9ed1ad3e65e" => :mojave
     sha256 "ea884fe791ba6b1b336d4bffdbba02414dbb746199c2748f0aefee845b7fbcd7" => :high_sierra
+    sha256 "8c8bb8f4b6e1ab80e8fb7e09edc9c1d108ca8501ff1d53035f024c9bd9107bc7" => :x86_64_linux
   end
 
   conflicts_with "b2-tools", :because => "both install `b2` binaries"
