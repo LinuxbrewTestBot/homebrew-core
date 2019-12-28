@@ -11,6 +11,7 @@ class WireguardTools < Formula
     sha256 "d5444429edc37a7e1847d99dbc7aa1539e1ea2860d9daf28b61501299768c7ac" => :catalina
     sha256 "bb6f8cd868a9025cc9b3d36374beadea601045a2d3b21b30d552f3cdb670d390" => :mojave
     sha256 "2fb7b18d533908079819505d32ff8c1e5ddf26c4c3d5a999e9e9d9c0b64617da" => :high_sierra
+    sha256 "70e13d0397146cdfd913db20c409ab3f03413ff4a2e3ab85bed0ade557e39a2d" => :x86_64_linux
   end
 
   depends_on "bash"
