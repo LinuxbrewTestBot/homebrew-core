@@ -10,6 +10,7 @@ class Wavpack < Formula
     sha256 "ff3ac4375bca41b6a6a683cfe3ca24e36d50682c64dfb1a6cb75841fbac49613" => :catalina
     sha256 "6c1a4ebbd4173c86d2256366be6b09bf7306e9f063d396e02c5230a73312d14e" => :mojave
     sha256 "4d278399b30ee9b7739f13d0da8c1daef781bdb91d2aebe8c2eea0fa3702f456" => :high_sierra
+    sha256 "e0b1fb6ddc3bc7ce5de65004418ea38aabfb2cdd7494ea9ecb7eba419a80ce3b" => :x86_64_linux
   end
 
   head do
