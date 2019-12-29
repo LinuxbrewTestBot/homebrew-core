@@ -14,6 +14,7 @@ class Legit < Formula
     sha256 "e7f856fc9b5006de204b039de012c60154d4393b17fe6a16942f9a2f2fe1547d" => :catalina
     sha256 "5c64d0307fdf5efe81b5ad0795e67a9674b8725e99407716d7073bb71f60cbc0" => :mojave
     sha256 "2c34a9958b93118ccf0190ab9450689a9983de54556d6eb58fd24db1b2b74faf" => :high_sierra
+    sha256 "86ccb72ef0e0dcffc49cbc82c5a8ad94994372f0a67a4c2c028aba6d5598c693" => :x86_64_linux
   end
 
   depends_on "python@3.8"
