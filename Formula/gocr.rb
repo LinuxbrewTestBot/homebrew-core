@@ -11,6 +11,7 @@ class Gocr < Formula
     sha256 "d0408f223b941c6d81c0edd843ab5916475a4ea4b94892b548da6403e4c3af2a" => :catalina
     sha256 "d173d60e8d8f139b4e7e310b84d1bfc56e406eb026c51beba9d4b2facaac3ae1" => :mojave
     sha256 "2a5cfa5a815706b2ecb11658ad9132bba21de5304e4541118d8d061a5bb7779a" => :high_sierra
+    sha256 "a272a1edb6c30560b8b4ed0ce44968f1d01c3f66615bce816c9f4ae598f25803" => :x86_64_linux
   end
 
   depends_on "jpeg"
