@@ -11,6 +11,7 @@ class Urh < Formula
     sha256 "116fedda97ddfa84af56562ae1d001e6eb7e94219ac978dfacb5162a65e5aa52" => :catalina
     sha256 "3d956092640037f5c4bf2be1438018bb996ab0c6ee1a1edff178122dbece4034" => :mojave
     sha256 "d6faaab5d831c2c8d557cbf5e0dc0ec794869b6eb0e60b098e381711047466da" => :high_sierra
+    sha256 "c13808f8eb9e0b24840b5911744b8a492d6aa5bd8bd3e3e696a3c063697be38e" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
