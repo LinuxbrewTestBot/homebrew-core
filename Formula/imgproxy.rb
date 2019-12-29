@@ -11,6 +11,7 @@ class Imgproxy < Formula
     sha256 "710cdc91a8839ffc147dc32ed46b606ad69a1aa4f2270f8c74542e8d2668a034" => :catalina
     sha256 "4e6860e5c8cd0f3322a39f1e9566780ba1f4aa0763b55f63e7137348038d5b04" => :mojave
     sha256 "59c41dbd0cd2c7b4acc50ea328e13423778739ab8697818d29a1048dcb606999" => :high_sierra
+    sha256 "5a8d92106bb1fcb23054d6df063c109c2b926ccce83f690a1fa7cbb6e1c4d65e" => :x86_64_linux
   end
 
   depends_on "go" => :build
