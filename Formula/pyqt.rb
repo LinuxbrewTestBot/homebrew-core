@@ -10,6 +10,7 @@ class Pyqt < Formula
     sha256 "e2abbfd19a3b2e9c52f2c1c4fb84cc752f832b616a89c1138ab74cad96d95584" => :catalina
     sha256 "5026dd96d99bb8866d2a2b3bf1bc55d66f9ddbd39e9180ee7c921481b49f39b9" => :mojave
     sha256 "32f1de6e98558bbf79e31771cfa6bce4206bac12108f384324006c1a18209dfc" => :high_sierra
+    sha256 "9c8f6436e6566abe179cad1337ebcfbeec74dd4cc92d9a9998258cb87ba12a73" => :x86_64_linux
   end
 
   depends_on "python"
