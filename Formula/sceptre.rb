@@ -13,6 +13,7 @@ class Sceptre < Formula
     sha256 "610a8004f3c4239f6e38fde562ebd96caec34a1f582f0420d75516750f08ae86" => :catalina
     sha256 "abe14b4eb1021c936cc5d1c25a8c9fa820b5fd5d8ddcc53b4811302721a2ac34" => :mojave
     sha256 "6685a772d3fc7b653586065bbe996f68f2b9a7a177affa18a86190cd742439e7" => :high_sierra
+    sha256 "668b39969632882323f9b9e3129cbbd181ef64b718fa94b67f81ae34fafce27e" => :x86_64_linux
   end
 
   depends_on "python@3.8"
