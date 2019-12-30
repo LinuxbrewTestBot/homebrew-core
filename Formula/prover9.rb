@@ -10,6 +10,7 @@ class Prover9 < Formula
     sha256 "1f637c295f07ddf31eedf6bcc73b957584da4d55cb92c7bfea3264d6c3780d1b" => :catalina
     sha256 "5ae1f642fa781841fc843a548b5327cf1dfb8d8c4fbe5ea83ddffef004282d57" => :mojave
     sha256 "055cf6646dd19effa87d7b9fa8e820c24710a023bcefc98c35604205530ab2c3" => :high_sierra
+    sha256 "53992499680447c0b9c964b08b1df4af419832f4473de27e1966f9bbd052ee36" => :x86_64_linux
   end
 
   # Order of parameters passed to gcc matters
