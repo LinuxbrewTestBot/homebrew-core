@@ -10,6 +10,7 @@ class Libxc < Formula
     sha256 "072df8c5f3e00bf045f4e062993ecb08e324872daf3503b8f2bacef866a3de14" => :catalina
     sha256 "7727321091982306464ad87e055074b2675d83ee3c8416cf6b0681a4db31bc85" => :mojave
     sha256 "c8f820ca8dce64220c8c1e60002a13c4ed21d5decfd6b1189b6d286ca5c47ab4" => :high_sierra
+    sha256 "0fe93e7ecc908da080122a987132e0f944701a10555f5e3fdd5cb85e2ae77a2a" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
