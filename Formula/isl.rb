@@ -17,6 +17,7 @@ class Isl < Formula
     sha256 "3908e18211bb5e4a76cac2a9ebb9c83dbf3c8cd8138f0e74970ede9802d614fb" => :catalina
     sha256 "02f2d0a55d47fe5e548b7169e4bbed902dd1869200e4b65422ec7dc0de2f02c8" => :mojave
     sha256 "e9e611d53b38b536b214e1431eb50b4550cb2b20bfc987267ebfe2db087a6fcc" => :high_sierra
+    sha256 "07df0023ff3c6b9f545258564ac58066b4bc9f5370c83d66ba3e2c95f5149fd5" => :x86_64_linux
   end
 
   head do
