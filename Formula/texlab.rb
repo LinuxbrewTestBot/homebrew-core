@@ -1,3 +1,4 @@
+# texlab: Build a bottle for Linux
 class Texlab < Formula
   desc "Implementation of the Language Server Protocol for LaTeX"
   homepage "https://texlab.netlify.com/"
