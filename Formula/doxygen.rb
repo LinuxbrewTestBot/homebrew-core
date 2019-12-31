@@ -11,6 +11,7 @@ class Doxygen < Formula
     cellar :any_skip_relocation
     sha256 "93006f901963b40b8f5a2732c6955e8c21a4ef1146d6ee65848037ecf2d39178" => :mojave
     sha256 "512227291d4a0edcd18f183762fcc100b6d4c3960e55abe2ece5ab011f463316" => :high_sierra
+    sha256 "b125b4549413b31064ffe599f50db5543c7e499e3bf77922515a1e7edfb720e8" => :x86_64_linux
   end
 
   depends_on "bison" => :build
