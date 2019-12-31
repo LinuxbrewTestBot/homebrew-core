@@ -1,3 +1,4 @@
+# qtfaststart: Build a bottle for Linux
 class Qtfaststart < Formula
   desc "Utility for Quicktime files"
   homepage "https://libav.org/"
