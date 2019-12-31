@@ -13,6 +13,7 @@ class Molecule < Formula
     sha256 "879e48bce381671cf7a72e88f4cfa8b9f837b1306333a889d4ef0e68ed2b24d9" => :catalina
     sha256 "b366b86278aef1b3864693715251a703b7c147f199d66a44b91f87a96796d3de" => :mojave
     sha256 "8cca9a1a17d59754c5bd9796b171029199beb0681d2eb9816d421cf59f937e96" => :high_sierra
+    sha256 "54bfc9aae617b94ef5f5abd3526fd36104b931b56dd9ecef2b1a916195a0c2f8" => :x86_64_linux
   end
 
   depends_on "openssl@1.1"
