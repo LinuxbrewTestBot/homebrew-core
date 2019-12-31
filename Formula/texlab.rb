@@ -11,6 +11,7 @@ class Texlab < Formula
     sha256 "00873c7c9f05c736f8f8f449311d50951e88b846f3ef1f73f351546bfda67aa1" => :catalina
     sha256 "be27218a856605bb68c949314388de8cd4d41e7bad34d6e937ac2dfcdfd83465" => :mojave
     sha256 "113a8623c118bf0d370f8a49640a01dd6f4e82c9edc956a38097ce9fd63c0b95" => :high_sierra
+    sha256 "75509d6a53127f206546c14b2b7b1d0981389607c39333157f84993f4321d538" => :x86_64_linux
   end
 
   depends_on "rust" => :build
