@@ -1,3 +1,4 @@
+# libngspice: Build a bottle for Linux
 class Libngspice < Formula
   desc "Spice circuit simulator as shared library"
   homepage "https://ngspice.sourceforge.io/"
