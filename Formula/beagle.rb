@@ -11,6 +11,7 @@ class Beagle < Formula
     sha256 "e3a8d1dae20da88139fceb606df94812e293024b8108222f762867ea6a64aafe" => :catalina
     sha256 "9ee0e3619b1aa655a6a6daf9ee2fa3d7b37098eacfb6e50214062b8c1989420b" => :mojave
     sha256 "2fa7d02be8cf19fa4b0344e2d4c920ec49981c39c7a60938a5c124ce601080e6" => :high_sierra
+    sha256 "98af4ebe40296fd6f908988c83c71ba9c8239f16e9bc43e4f60a6630274c0ab0" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
