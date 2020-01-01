@@ -12,6 +12,7 @@ class Securefs < Formula
     sha256 "62611abe101f437d98e59c4b2311abd5645c32c15b57f22f195bc01c7df1d586" => :catalina
     sha256 "7c9b57a3442b581e1a359035058e348fd51305e4c64113a16fb180c7932f96d9" => :mojave
     sha256 "ea14d7b4f0ba48c4bdea31f42b0eabfe727a8e54eee923ee570698b5e1d3779f" => :high_sierra
+    sha256 "1225ce16aa76987636e11f50454f2aa49801adef963ad501d777ed802053f236" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
