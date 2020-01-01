@@ -12,6 +12,7 @@ class Yamllint < Formula
     sha256 "d03777300040daa938d7ade2ba7fc9b6af93ac2cf62f649d58ce69d81d519cdd" => :catalina
     sha256 "8b531f80bcba7853d6f2e7cd4d420719cbaa0e7f3fcb0b56ccbb889c7da28856" => :mojave
     sha256 "5432b3844222b9f6f65af13496c19219aed05fdd60958c063ed3e99824d696ae" => :high_sierra
+    sha256 "f1b57eff03d4193b9843c088a21d7fd8e744d3091e90dc344cd793b2231b9995" => :x86_64_linux
   end
 
   depends_on "libyaml"
