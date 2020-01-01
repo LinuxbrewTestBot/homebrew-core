@@ -11,6 +11,7 @@ class Libtomcrypt < Formula
     sha256 "2ecaaf5a2d64b92c58498482c3aec69c84c7772ffa5f213ad43010199cd7dec8" => :catalina
     sha256 "fbc00f6bcb941ab719a45ca7a52192b6bda774de1e8997c070fbf025bc031f1a" => :mojave
     sha256 "7dda8583b31d847e69406c4eebda576e6de8fd6a3a5461a73c890bcce3162c05" => :high_sierra
+    sha256 "a17141661941d0d72cbb17ef37c10e21f53766064be87f87b9a5abf802e551ea" => :x86_64_linux
   end
 
   def install
