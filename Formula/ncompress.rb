@@ -11,6 +11,7 @@ class Ncompress < Formula
     sha256 "cc232677371ee83d7af62598553c028e11071e309d8620818965b94d2a43b9a4" => :catalina
     sha256 "c5d28fad3558616e2347c16a3aa8a353c7c5b0317c175a1b99e5d6e0f6bae736" => :mojave
     sha256 "b1fa7c42647c420dd48849ad9fb0f05da911ef3bec9459f9ba3892de2d05a58b" => :high_sierra
+    sha256 "7614c9b5fdd47233a4d5a7a9c1c89f998f88d7a8fcfeeb22e3cf35bba61ef178" => :x86_64_linux
   end
 
   keg_only :provided_by_macos
