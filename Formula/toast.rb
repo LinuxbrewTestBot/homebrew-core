@@ -10,6 +10,7 @@ class Toast < Formula
     sha256 "f46a065bf8537af0afb8a38659db2caabc76a0aa8efbaa05fce46c96d6b87b7f" => :catalina
     sha256 "468e2416718f0cf2340ac5ceec225499fbda20d5ee3bb0f9097426f8d4da0ca2" => :mojave
     sha256 "5676a564359d95160f81166ce541ff43971fa628d9e44c5745d37fc51a0bf3d2" => :high_sierra
+    sha256 "e88b407b77f793029a0e36ae05e2aee2805c8826b56c6cac587c2e116b5a701c" => :x86_64_linux
   end
 
   depends_on "rust" => :build
