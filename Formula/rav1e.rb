@@ -10,6 +10,7 @@ class Rav1e < Formula
     sha256 "c84e220a523e8d535a1b3b5313b6a0afd843f5ebc8c023d0bdadd04f1d6a51dd" => :catalina
     sha256 "a031e37a5b91a4f5524b030332c1104c617cc8dcd65c55ae3f2336fbec5b3542" => :mojave
     sha256 "ff04ff708d7a1719609d5e1f5474405eb465ca602cef7437c4fc7f35206ed96e" => :high_sierra
+    sha256 "50f4cad1d12d10d08d8f9a5ebcf010c9be31a8109ec62d1562034f3c6845d9e8" => :x86_64_linux
   end
 
   depends_on "cargo-c" => :build
