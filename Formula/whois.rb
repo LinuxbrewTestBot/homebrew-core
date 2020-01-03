@@ -11,6 +11,7 @@ class Whois < Formula
     sha256 "2496636025f7d389e2fe9820f8e100526b7ceba3c6ec6d692e9ff12d1fa88fba" => :catalina
     sha256 "73e5083c6a4d0307d634bbf21ce5ceafb2f8f691af37242ac3f82218637fcd1c" => :mojave
     sha256 "a41565ba5b0ec4acd8f8c8e676cd83e3191649cf42aaeccc09ff55ef5f3f4e3a" => :high_sierra
+    sha256 "22ab8d36e1088b7255157c63b2d3949a47d44e05f80060febfa4467dcdd86fcd" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
