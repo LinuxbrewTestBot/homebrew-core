@@ -11,6 +11,7 @@ class Singular < Formula
     sha256 "c2be380c490ffaa24b1c01d787c58b32e0e65752fcd17952f0da2905efe8e400" => :catalina
     sha256 "ba4db9eb480106a1268a94cc73c3fdfcce098328d32df9bfd18189776e99b333" => :mojave
     sha256 "f610bd3eb0a16d1c09ab1be979bf9ca9e839262a1cdcab7bec4b825b977313c5" => :high_sierra
+    sha256 "2e02bdd690bef3fe1bc361f481edad27a7e0826ce399100207e711ba86d58f95" => :x86_64_linux
   end
 
   head do
