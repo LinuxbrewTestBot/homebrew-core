@@ -9,6 +9,7 @@ class GitLfs < Formula
     cellar :any_skip_relocation
     sha256 "584207acb926949f5c093d87d06e3e9deda2c78640041120d431f17bb5dad4c3" => :mojave
     sha256 "b24483f15a987597f2b905b40882f3f89c69e478c01c434310d16c1145b161dd" => :high_sierra
+    sha256 "4883b377abb43d6dc8d9feeb13dfbc9ea6114d63a34bc1ca4ebc0b4fa770769c" => :x86_64_linux
   end
 
   depends_on "go" => :build
