@@ -12,6 +12,7 @@ class Watch < Formula
     sha256 "011e48363fe62c7a4ba0dec746d5964ee25545bde7855a31db0cb411420df190" => :catalina
     sha256 "d17aba6f80c530e6b91b30e088df60aab3dc84b2f57ca7499928322438b9f0d2" => :mojave
     sha256 "13d63ebc419965182d98f10b25cc99961679e1ba5ce6118e66b7037eb4e78de8" => :high_sierra
+    sha256 "5e354a0971729694c7d641fcde59ae6f63788e004b1557a13dd5db8f204788de" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
