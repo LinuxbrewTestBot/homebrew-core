@@ -11,6 +11,7 @@ class Ctop < Formula
     sha256 "de0de48522c65a299d7d2a01b217eb0bfb591dd2606b3bccaa1ad3f8b8cbc485" => :catalina
     sha256 "07b42bcc8980f46bcca3808292b44cf5175fa6ba22ae5af2426b93e882d63f4e" => :mojave
     sha256 "d53ec344099ab1428ecbf13da5e970d0ea9567a4bfd355cc82c12047aba62de8" => :high_sierra
+    sha256 "c2029db72f6c005cb99d47bd543fcdabc6bface9e6a0878059e192d261ec8f23" => :x86_64_linux
   end
 
   depends_on "go" => :build
