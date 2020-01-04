@@ -1,3 +1,4 @@
+# cgns: Build a bottle for Linux
 class Cgns < Formula
   desc "CFD General Notation System"
   homepage "http://cgns.org/"
