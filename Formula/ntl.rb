@@ -1,3 +1,4 @@
+# ntl: Build a bottle for Linux
 class Ntl < Formula
   desc "C++ number theory library"
   homepage "https://www.shoup.net/ntl"
