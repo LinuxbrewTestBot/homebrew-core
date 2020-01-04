@@ -11,6 +11,7 @@ class Deno < Formula
     sha256 "1fa3af6f918ede4bb5c7f222c9f1c880aa8a57bddedfde9976b4dbce2d9459c6" => :catalina
     sha256 "e07e86107e97d6bf051c433b9b80a547fdf3a32373467fbbfe93095a5ceb7ae7" => :mojave
     sha256 "3a4e86ba8b0c7f6e8a763459c7e4a3eb8f01b89870fd8417eb45fc4d8e27765d" => :high_sierra
+    sha256 "d14805e5eb6f2f2eb3e2db3769942325536fe91fab9c175b2e0e654b7b2858d1" => :x86_64_linux
   end
 
   depends_on "llvm" => :build if OS.linux? || DevelopmentTools.clang_build_version < 1100
