@@ -10,6 +10,7 @@ class Remake < Formula
     sha256 "722bdd9f9f0326a73ac69e56efd7a5a9a15d71db1a7e3076ececa33d27f0a1d7" => :catalina
     sha256 "1c2ca8baa2d831524bc2abb0639d3ad91dd6b96de32863e99f8bba33174b98d1" => :mojave
     sha256 "ad4182037734bbaa6f4627598ba1358fb904d0fdcdebccb73e0dfdc8d2b6c780" => :high_sierra
+    sha256 "401d17a938db2e6eb1ebe6aa3cd7a7ce1761ba1e7565cc7c5952e7157a37516e" => :x86_64_linux
   end
 
   depends_on "readline" unless OS.mac?
