@@ -11,6 +11,7 @@ class Orbit < Formula
     sha256 "a604838d3a9e9690eceefb5f798aa5c02a6d46b5e1f1cbb50bbc5cc95df451e9" => :catalina
     sha256 "367cb438ac5ee8c44cd932d259f82b43458af90df8df28803e2248ad75952800" => :mojave
     sha256 "50487080b7e4614d077b4cbb818a726a7bae7a7a281fc85fabd6ff88ed848016" => :high_sierra
+    sha256 "181d8758639395d40411e04c7d2ce03c0530f285f1af96942407eec86f0c422a" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
