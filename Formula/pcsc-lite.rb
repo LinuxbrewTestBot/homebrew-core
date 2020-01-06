@@ -10,6 +10,7 @@ class PcscLite < Formula
     sha256 "91abf052e57e7318c312280b2d7561f7086d2b408182d05040181b61ad76ab82" => :catalina
     sha256 "0ee727a04ea8be3f4997d7fbb3d6f904136ab1430b468ee0ca237f82f13db338" => :mojave
     sha256 "60fc7ec0222710dc894afb838e7c63942c5106a88d812dfaac19c112de9e6b0f" => :high_sierra
+    sha256 "d0d64233bb4499e14f46822412247f322df6594a982691dede07ee9242af7686" => :x86_64_linux
   end
 
   keg_only :provided_by_macos,
