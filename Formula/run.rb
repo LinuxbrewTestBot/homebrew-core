@@ -10,6 +10,7 @@ class Run < Formula
     sha256 "f4a0ef6fe43ee3a9af1d526ddb07f977b257d6ba6ac544efdc789c4f50dc213c" => :catalina
     sha256 "f4a0ef6fe43ee3a9af1d526ddb07f977b257d6ba6ac544efdc789c4f50dc213c" => :mojave
     sha256 "f4a0ef6fe43ee3a9af1d526ddb07f977b257d6ba6ac544efdc789c4f50dc213c" => :high_sierra
+    sha256 "36e576f7d98bf6daabb7253fb4414cd24ddbd672dfa4095ea5078a151da180f5" => :x86_64_linux
   end
 
   depends_on "go" => :build
