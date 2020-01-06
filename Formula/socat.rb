@@ -1,3 +1,4 @@
+# socat: Build a bottle for Linux
 class Socat < Formula
   desc "SOcket CAT: netcat on steroids"
   homepage "http://www.dest-unreach.org/socat/"
