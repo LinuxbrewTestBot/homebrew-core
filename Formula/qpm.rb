@@ -1,3 +1,4 @@
+# qpm: Build a bottle for Linux
 class Qpm < Formula
   desc "Package manager for Qt applications"
   homepage "https://www.qpm.io"
