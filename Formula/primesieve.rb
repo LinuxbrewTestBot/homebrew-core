@@ -10,6 +10,7 @@ class Primesieve < Formula
     sha256 "93a49e499f6cca69e9bc62e64e3bbf51fd9c8ab3c51e6ba15b6a1ab3feb4d2e8" => :catalina
     sha256 "7070ec9a601335d1844820e722c346b9d7003ce80af4450f631521a023c291bc" => :mojave
     sha256 "46185fc5980d6e411f4073ea330735498d918bb25dc65cb90909bb41749e8756" => :high_sierra
+    sha256 "22225df25a7edd0472168ddcdef2ffbf16a8f8c225964898909be1d98cac67c5" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
