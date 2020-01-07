@@ -9,6 +9,7 @@ class Rex < Formula
     sha256 "cb8de66e60b0f0e35ecab6053b2332109c0ab22d4eb0b43d15ea5d518098faef" => :catalina
     sha256 "38443e6785c43eec7c076253d61e7b9cd7877fed0d788944b022e4d1e1a7722b" => :mojave
     sha256 "f0c67ad2a82c2fb63f8f73c6be85cb12f0ee0937c3b24b9ecad13b98f3515929" => :high_sierra
+    sha256 "c1d06857301a879411a98df84539e6d98e2157367ee4a078ba4a685d795917c9" => :x86_64_linux
   end
 
   depends_on "perl" unless OS.mac?
