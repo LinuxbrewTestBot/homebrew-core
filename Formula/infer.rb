@@ -10,6 +10,7 @@ class Infer < Formula
     sha256 "b6e5941d9be1c640b2dd0430801be1b59eb91ddc56c9e8e454c45af01c812476" => :catalina
     sha256 "166a3baf77f343a2bdd43fb772b93bd3610d6baf4f1e39e8fc6aa83e46029ef8" => :mojave
     sha256 "c7bb9d37a9d77fbc2019ffd6f80ce7e7a3992c4ac0a95235c335ce61f43993e9" => :high_sierra
+    sha256 "bd11c69b3a2500c89d678ce36e42cfa4f887ae13f98bd07ce56ddbe3b327b117" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
