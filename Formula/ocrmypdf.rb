@@ -1,3 +1,4 @@
+# ocrmypdf: Build a bottle for Linux
 class Ocrmypdf < Formula
   include Language::Python::Virtualenv
 
