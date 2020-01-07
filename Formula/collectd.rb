@@ -9,6 +9,7 @@ class Collectd < Formula
     sha256 "e4e99e92982ca679cfdb4c01db692f0961ec1fb1f7cccc0101943df30184cf14" => :catalina
     sha256 "da20e601f3f5249a92d3ac31ae9a7024c37fb55c4b7281ad36b1b86414b320d2" => :mojave
     sha256 "48947ba55bbfb0ef454c00098b60e3410edeae569a44752e409462792d5fd927" => :high_sierra
+    sha256 "072336808f92834bb7f23c4765e78fa22d5f3d7029986e6ce742100abc45b945" => :x86_64_linux
   end
 
   head do
