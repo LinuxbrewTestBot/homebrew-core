@@ -10,6 +10,7 @@ class Libb64 < Formula
     sha256 "ee788cea9a073c456398f86661ea27e092c3d327ea8b0792643ed7d38bd402d0" => :catalina
     sha256 "7a53661bc0fe2bea875f0a14cc66b6352694f1e797e4506ad2c8ef35dfcc2169" => :mojave
     sha256 "3b5266e99b78c81ae7ec00c19aa7e9d3fad7f47611fc1332710bd8e03f48da55" => :high_sierra
+    sha256 "cc45ac83cf14a2508543bdb66e5beaba8df7d12cf6ef16e9c0897a9d879a9104" => :x86_64_linux
   end
 
   def install
