@@ -10,6 +10,7 @@ class Log4cplus < Formula
     sha256 "1559e20cf8d6a6cbf66545ef391ab2979bbebd2cafdf4b71ab547d8daa472e01" => :catalina
     sha256 "1b671e5605cdee4defa7f6e5693ddf1e6d902710e8fecdd541429a8444df5e15" => :mojave
     sha256 "aaa4f419cf19b836d767066d505a7b4ca9addaa6392231b8f3dfd5ea2b103517" => :high_sierra
+    sha256 "51385755682cba5386c93d4f2a76085953c7e34e1387af6f10b83759e308c272" => :x86_64_linux
   end
 
   def install
