@@ -11,6 +11,7 @@ class Dub < Formula
     cellar :any_skip_relocation
     sha256 "cebf3a1f606c69d667c5c4214fcadb9b64e2222bb83cfff946c4e8df81e8f0e2" => :mojave
     sha256 "48fe0094c432bbf312f12c3fbf4d73214a41b4a0cdaff8ef7c140d67bf20c133" => :high_sierra
+    sha256 "8b33093b650e802f93f68c617bcc1fc8f498fc553ff689c4f60623e3696590cc" => :x86_64_linux
   end
 
   depends_on "dmd" => :build
