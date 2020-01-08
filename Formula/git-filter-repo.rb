@@ -10,6 +10,7 @@ class GitFilterRepo < Formula
     sha256 "c47ad881f6c545f5ef1ba71b0c847f5a3575a8ff626b76412362813c0fc503a5" => :catalina
     sha256 "336c9a9cf76ad1f46f47f74ad4015a905f8690612e2e02072db2300790e89895" => :mojave
     sha256 "336c9a9cf76ad1f46f47f74ad4015a905f8690612e2e02072db2300790e89895" => :high_sierra
+    sha256 "a9e0aeec78f9517e402cf54dc6e14fec2af24e6a546b9e6e992a89c9ac2eaa10" => :x86_64_linux
   end
 
   # ignore git dependency audit:
