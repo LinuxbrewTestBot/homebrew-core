@@ -10,6 +10,7 @@ class Pgweb < Formula
     sha256 "6c2b16bfbaf05d845ee3fed44040940fda9c7e6ac715c77b822ef5e5cc46bd24" => :catalina
     sha256 "94d27f7b82dc0cd81b8f396bfdc5f60aaaff808b5958ae869b5e7708394c0cc9" => :mojave
     sha256 "226cc86baf7f47f8c38688157e11d70d79a305cd1632f9c638e5936759f59f10" => :high_sierra
+    sha256 "6535903b46990390f5049698c9fb90d6c3835fefd5f38efb3b1a485255fe3958" => :x86_64_linux
   end
 
   depends_on "go" => :build
