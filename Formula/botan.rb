@@ -9,6 +9,7 @@ class Botan < Formula
     sha256 "287dfed529e8e3318f53f8b7c15bb28d824ce7d37cc9d0efc31359758b816b34" => :catalina
     sha256 "39b24feecd714f011916d659770f5fbc11cb652b530d6828c066112a4a58283b" => :mojave
     sha256 "a21833781daf9b3c2f227dd71975b787e6e4047756d24adbe897360a40dc3c87" => :high_sierra
+    sha256 "49d6f4b6fadc9529190352b7e6b7b72dfe5b3d4a677d29978835c65c360aad11" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
