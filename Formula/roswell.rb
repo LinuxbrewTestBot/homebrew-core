@@ -10,6 +10,7 @@ class Roswell < Formula
     sha256 "f6987b7b0d0570fbd3ff47ba08d73d4c4c94b1673b07fe207ac0920fd0c36584" => :catalina
     sha256 "bafa194c7c9b4c15459360fb6f4e8b98288144841a988af90cdca1ff3c17841e" => :mojave
     sha256 "c2f9daad6c90d52c45eae23c3dc2f15501d2ecab2767565b4a07d7cc1462929e" => :high_sierra
+    sha256 "117206a4ed09079812f4e9ce4404e798a7a493bd73364750c61fc0ac2b3fec90" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
