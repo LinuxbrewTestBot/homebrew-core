@@ -26,6 +26,7 @@ class Dmd < Formula
   bottle do
     sha256 "12a52d3553afe09f3a12a2e40c4f27bb2910eacdf6003d9866527550187c9857" => :mojave
     sha256 "6f9f0daa60dd0e44bd5d6cc47dbf4ea96487f5e51338177447691d151db7775c" => :high_sierra
+    sha256 "80e8eaaa3931f7cbb56b467e16c09e447b3da7be29cbb2a133120937e8fdc998" => :x86_64_linux
   end
 
   head do
