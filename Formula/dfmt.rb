@@ -11,6 +11,7 @@ class Dfmt < Formula
     cellar :any_skip_relocation
     sha256 "3c7b6cfb884f469d8086cc4ca929a045f5e8cfc8643fb1a31d8d7e34ab26ddfa" => :mojave
     sha256 "248024a211f1df215b055df24d37545f71fb79af7d8283b523939b2ae4d2f37e" => :high_sierra
+    sha256 "376540ecfacaddd0b40f2084a094e1e439d3aeff7da335be4d6524a823460860" => :x86_64_linux
   end
 
   depends_on "dmd" => :build
