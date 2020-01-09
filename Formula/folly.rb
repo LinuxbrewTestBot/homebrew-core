@@ -11,6 +11,7 @@ class Folly < Formula
     sha256 "281d35a3634d5a84cc7fcc924c4ac98faf086e1fa47fff1e5898574400a7c146" => :catalina
     sha256 "14f2e203ee7d7027492a376c37f2fdbfe8ed5e7f7e731aaabf1d3e6c6f652a6d" => :mojave
     sha256 "d5bb3c7ad3ebb00abc3e11e33cf64c83b4e7b6722e151d2e74353baf5b107d86" => :high_sierra
+    sha256 "4780d7b24a702a21ad555ba1450861d14fccf0dd7088ac99e2c0492d85098bb1" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
