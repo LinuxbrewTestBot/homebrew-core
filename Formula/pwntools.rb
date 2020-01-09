@@ -11,6 +11,7 @@ class Pwntools < Formula
     sha256 "f0102d596ed9aa3247e38c0f0c5e3c110a2c0a742d3d2c85b4386c215724fc7a" => :catalina
     sha256 "e815e89ba708e975275b36a48b6d353ab446e54ee405ac0bea90d5789b4e829e" => :mojave
     sha256 "3aae80b957393eba426ca3c3d164fca42b25919e788f28b8cbd4f2411fbbf3d8" => :high_sierra
+    sha256 "1ca128b590e98b795770a3ec945cdde1e1ddbb56697cd4ade739a7232ba77bcf" => :x86_64_linux
   end
 
   depends_on "openssl@1.1"
