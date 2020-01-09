@@ -9,6 +9,7 @@ class Vips < Formula
     sha256 "f047299393fc25223296dfea2a2119de83bcaeee12407ca901477a575c2b1058" => :catalina
     sha256 "1f61d78abaee8214946aec3149268684de06de1fcdd8eb1e6d1405ed29ab90b7" => :mojave
     sha256 "a47c7a76cff8c45f4623ce35f408b40a82df73e4daf573bb49189a4757c35d19" => :high_sierra
+    sha256 "b1d9085b826063fcc5f8d759d28bc8f4563ecc6b6ca20c28dc5487759acdabee" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
