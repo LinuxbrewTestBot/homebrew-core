@@ -8,6 +8,7 @@ class Silk < Formula
     sha256 "1e9d81c01f87a3f0edc251a1623f44f64aaa6bccda5ed3ea6291d163519e7600" => :catalina
     sha256 "a4b52045add179910361637d4c5b69f67f8587579a0f48b8b7b2f5df9b820579" => :mojave
     sha256 "f454d82c526c74756a99b67b8b4354bd45ad3196d3b626877bb14f70b4404df6" => :high_sierra
+    sha256 "80ebfdf1e456723d079332c8e1c42d6ee50d6d37bedacaeb0302fd48edcba379" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
