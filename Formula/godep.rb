@@ -12,6 +12,7 @@ class Godep < Formula
     sha256 "f1d4861174e8a6b0913b199179ce3d4ecdb0d2cb567c8ff828f4de514d51571d" => :catalina
     sha256 "3a08c765cf4eb0ccdb07fa26a774b95d5f248b8d52c21039c4ceb70bb5408d4e" => :mojave
     sha256 "3eb6ac96f1206eb11ad5a9b105b872e4c8127e1b8b73456102d0eea492abe6a4" => :high_sierra
+    sha256 "bf11bb3c443c7e4005c1ae0b9eabe300c76669776de73043c4815df6e5eae110" => :x86_64_linux
   end
 
   depends_on "go"
