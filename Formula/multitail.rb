@@ -10,6 +10,7 @@ class Multitail < Formula
     sha256 "6d0d74b45d02adc52fa6a5f666484c62941457da3cb10e50d65f5d772cc59c02" => :catalina
     sha256 "933801e9ec5999742cfcea6cc59580f69fc966ad82858326c2a90f68868de60f" => :mojave
     sha256 "57526de43035b0d5d2520d54b252d29c20a4efb146c019ac044ad5067be5351a" => :high_sierra
+    sha256 "6496c1392f9856eefa03fc864094e55553d4b478149b592a287c946aa141f271" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
