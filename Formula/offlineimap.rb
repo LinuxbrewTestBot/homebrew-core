@@ -11,6 +11,7 @@ class Offlineimap < Formula
     sha256 "a9f7c26d77e5b5f117847fb068a5bdd9c4d691c73fa8c94aae12bec425953816" => :catalina
     sha256 "843997b39d0b652700a5c6ccb2ce1a7efe76c32577018d792e25690c4166bb12" => :mojave
     sha256 "843997b39d0b652700a5c6ccb2ce1a7efe76c32577018d792e25690c4166bb12" => :high_sierra
+    sha256 "12da747f2a7d79220e67de7978daafe4092a23bcfe84a48f3abd9bde2387ffdf" => :x86_64_linux
   end
 
   depends_on "asciidoc" => :build
