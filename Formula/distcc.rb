@@ -11,6 +11,7 @@ class Distcc < Formula
     sha256 "396eca7aa3ec899e2eff031b2cdcd7169939996efd98dafee94cfb9f2e658a68" => :catalina
     sha256 "4a4f365ee6991e812eb3aba1aa8bab9ae2f780e49793efe12b6b2bcb5e792fcf" => :mojave
     sha256 "f759768f1363120b7bd6b3ee7717ef75d2c703082c697f0bfc607809cf6c32f6" => :high_sierra
+    sha256 "39005d749961edd8cd3cffc26d3ed01a17ae986fd8d0144d3b84b084a1898862" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
