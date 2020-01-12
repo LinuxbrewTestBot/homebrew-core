@@ -11,6 +11,7 @@ class PythonYq < Formula
     sha256 "7a1d00a6c2df1f69d52ba4e5514897cb8499214555e707112f03dd4544d9ab6f" => :catalina
     sha256 "7a1d00a6c2df1f69d52ba4e5514897cb8499214555e707112f03dd4544d9ab6f" => :mojave
     sha256 "7a1d00a6c2df1f69d52ba4e5514897cb8499214555e707112f03dd4544d9ab6f" => :high_sierra
+    sha256 "1437d7c70612155ea2791c9d77e0a1f77a2b18325c2f5b66b466b373494b2c61" => :x86_64_linux
   end
 
   depends_on "jq"
