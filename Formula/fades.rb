@@ -12,6 +12,7 @@ class Fades < Formula
     sha256 "7e7aed83413c92da56871c2b790dd5d7282cf6a5c1b0a868a6f97c6e692f72ff" => :catalina
     sha256 "7e7aed83413c92da56871c2b790dd5d7282cf6a5c1b0a868a6f97c6e692f72ff" => :mojave
     sha256 "7e7aed83413c92da56871c2b790dd5d7282cf6a5c1b0a868a6f97c6e692f72ff" => :high_sierra
+    sha256 "f9befb638f4738a2afbe3c26ec631418ebcdc40a50f97947cf19a995547b9067" => :x86_64_linux
   end
 
   depends_on "python@3.8"
