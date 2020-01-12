@@ -13,6 +13,7 @@ class FirebaseCli < Formula
     sha256 "01b7f27e0f7b41b7dc8e7dc3534ab7dc87c4629bea6f40efbab35f1776264a0a" => :catalina
     sha256 "90f918937ff6aaccc230f6104b917313f68766e18fb652740148a4d0e4b628a7" => :mojave
     sha256 "fd00b5ac62c2dfbe66b4725d12e56988b74f4025b378b5fa0bea58644cc4c943" => :high_sierra
+    sha256 "13a94430efb1b1c51e54551b1855ac633519b2601614412942104fc6ceedb970" => :x86_64_linux
   end
 
   depends_on "node"
