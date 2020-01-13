@@ -10,6 +10,7 @@ class Dsvpn < Formula
     sha256 "a08464eca0167991c580594ecd9f1893a7be6d1cb522ceb385ff1883dca507c3" => :catalina
     sha256 "31a8359d756b673788aad04e1b776c0e1d5b6331f7e64494d3c6680280ea11ec" => :mojave
     sha256 "d34ff5d83b0b259c5051de2e2e8cf4599679d1d7e61dd282065afb0516fe62b1" => :high_sierra
+    sha256 "2a5b30492c82d2d600cc3415292215407dff9af8e98516dd4d95a6143d1ad024" => :x86_64_linux
   end
 
   def install
