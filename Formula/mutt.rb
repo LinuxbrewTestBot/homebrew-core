@@ -18,6 +18,7 @@ class Mutt < Formula
     sha256 "82980339fe8eb7d78fd12cdb2655cecb79b5457214db986447fc700f51de9245" => :catalina
     sha256 "2c4e5e1dc40d70985a3cad659fce0aa6d3f23f0cd5fb5a92a5a24f1cc78c64e5" => :mojave
     sha256 "f517c62b5ab322595cc4ffb6d9be7aca121d37bd0a2db5e43883a803ff22e0de" => :high_sierra
+    sha256 "53f154ec7314886c8b8783dbcde7d9ed366c628165c147c00da0b25bb584aa18" => :x86_64_linux
   end
 
   head do
