@@ -9,6 +9,7 @@ class Jo < Formula
     sha256 "7bbe7df2da77374b644e9909da0bbd356a8e8b2bbc49addf5593c2ee783c69e6" => :catalina
     sha256 "3003ca4f6f3650f6f67be5e4debadfb50d9e55ba41f792b9c37eaeb78a6241ab" => :mojave
     sha256 "ca189874bb16f024bc804fb167da2a8cfd0839fddd415aae964ee27ac112ba43" => :high_sierra
+    sha256 "5e70a48b2a6637157f8227317158ed2fcb53e1a91646108a4678b0dbbdcf7a03" => :x86_64_linux
   end
 
   head do
