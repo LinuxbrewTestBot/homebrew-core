@@ -10,6 +10,7 @@ class Cppunit < Formula
     sha256 "3e194b84577c733e5641f305a1cb5cc76355f13037898afc56c3096f98bb78fe" => :catalina
     sha256 "1c107efb84d656dd5327aa8cf13e6cbce8db7542aacba98ae98a2b05940b16ff" => :mojave
     sha256 "08a339bc38db169bce2f5eb0fc0b940bc82562c37274aa770668f681aeca4386" => :high_sierra
+    sha256 "4a7ea94b2d798f84044519d25ed5655e364629b67fd509a86c1ff9ff216a5ee8" => :x86_64_linux
   end
 
   def install
