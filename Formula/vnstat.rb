@@ -9,6 +9,7 @@ class Vnstat < Formula
     sha256 "20c5f324f3ace6755f5f98bb54af26d774557e61783802c1f1b7bb3c3b1b5938" => :catalina
     sha256 "7e01be903cffd9278f118921a12af52135990ef07a7170676e3966e7d2c920f7" => :mojave
     sha256 "6b09ffb239d221379702ccbe866033d80eca38efe4148ef5fbba82c53060c973" => :high_sierra
+    sha256 "8bc16a799319942f864d85466192efa717898ac244844c22700d619464ba74a8" => :x86_64_linux
   end
 
   depends_on "gd"
