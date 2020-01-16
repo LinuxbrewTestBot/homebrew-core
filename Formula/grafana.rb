@@ -10,6 +10,7 @@ class Grafana < Formula
     sha256 "b39e377373803ceabe32329552c201e7589e3451161971e3896282b8ed820ef8" => :catalina
     sha256 "d67a70546873312aaa6d16b8a3642f1f44788c4c863fcae9f78a29e4cfa7e4ad" => :mojave
     sha256 "1ec1f14aa6c8da125b35c26100eb1c7a5d7b3c95185a96d709941d96a540aac9" => :high_sierra
+    sha256 "b744a0022ad25f68b2155d1ec7b529d39dfc741f08d670d06a3b401cf39c5082" => :x86_64_linux
   end
 
   depends_on "go" => :build
