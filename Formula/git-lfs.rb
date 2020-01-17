@@ -11,6 +11,7 @@ class GitLfs < Formula
     sha256 "2c6e5fac4c30b021c7b193e4e324df245e67caff2f6f8eaf59b7170475e95825" => :catalina
     sha256 "dc6d138b8add71ea2cc9b6dc18401fac9e832afcaf4d267b7494615bc52e59fe" => :mojave
     sha256 "ef1874b898390008d6eb1b257d3d04d54ce5c89b9431e25b036a83588ed01fd5" => :high_sierra
+    sha256 "c79ce332dee5a2ffd901ecf9cb5ff2f5879b95e5f86fff93eed13d47bed8050d" => :x86_64_linux
   end
 
   depends_on "go" => :build
