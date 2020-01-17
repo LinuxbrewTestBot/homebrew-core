@@ -7,6 +7,7 @@ class Strace < Formula
 
   bottle do
     cellar :any_skip_relocation
+    sha256 "2ae590529c1b6b471cdfac864b523d23825ef4ddb41df9d5351ead74bf14500a" => :x86_64_linux
   end
 
   head do
