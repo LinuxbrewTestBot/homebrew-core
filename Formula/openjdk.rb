@@ -11,6 +11,7 @@ class Openjdk < Formula
     sha256 "8fc66526646d9787cf6f08dd978fbca7ec59b51846199568e5845fbddb9610c6" => :catalina
     sha256 "38f353fd52a84f5890dda7fd20b76e79f6280cbd427495254be356ee8730fb92" => :mojave
     sha256 "447fd4616e32bba4fc8a8de5865df15795da1c5f6b5d233f8f3aeb771f522f3c" => :high_sierra
+    sha256 "98964b0f817b8aac482023a088ca9055b01ddd652f7d4631aa7bfc94727851e3" => :x86_64_linux
   end
 
   keg_only :provided_by_macos
