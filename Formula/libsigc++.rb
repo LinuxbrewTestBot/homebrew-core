@@ -29,6 +29,7 @@ class Libsigcxx < Formula
     system "make", "install"
   end
   test do
+    ENV["CXX"] = Formula["gcc@7"].opt_bin/"g++-#{Formula["gcc@7"].version_suffix}" unless OS.mac?
     (testpath/"test.cpp").write <<~EOS
       #include <iostream>
       #include <string>
