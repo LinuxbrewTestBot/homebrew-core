@@ -9,6 +9,7 @@ class Gssdp < Formula
     sha256 "a034241f5bf93797110bbad30222dcce724c7c93db341e2196bf21c89e941db9" => :catalina
     sha256 "09d7829d9e394bc02fded8018460470750221d195d06b636f095e0474a33ec62" => :mojave
     sha256 "578aa551636198f669c67902cc37ddee65bc1d295f477e95bf8a49f1413b5894" => :high_sierra
+    sha256 "c3e8dcd3df8fe131c93fa41d1ef03bb53bbf86ffc297196c82e92cecd2cc32af" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
