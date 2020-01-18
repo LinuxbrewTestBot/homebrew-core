@@ -9,6 +9,7 @@ class Gupnp < Formula
     sha256 "8af437527ff0740e1746f470e197231927e0f6c9873ac61c5e3edf6be4758952" => :catalina
     sha256 "5d949c4b677089f4aff00e47b25b89edb623aeb9e54f79968573c29eddbd92fb" => :mojave
     sha256 "90bedfbb94cade43ff9a0ed9a26ded2070d19f4dabb83bc4d635a6236480626f" => :high_sierra
+    sha256 "c06c8c24fad3cdf8fea7b71858d86ccb2b7541b8ee52996a3bdf438ded4c054d" => :x86_64_linux
   end
 
   depends_on "gobject-introspection" => :build
