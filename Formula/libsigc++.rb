@@ -9,6 +9,7 @@ class Libsigcxx < Formula
     sha256 "793bb22cf3d7566a5ee346dd110fd2eba97b1ac91c16a9846ffb54af59cc43aa" => :catalina
     sha256 "02ea0ed1876ad347cdc1a4b0223066f6fb5ced0dd955373834aa2da68404aad7" => :mojave
     sha256 "ab541bdf6cb5d8c223213796054db86e8896c11fe3a68c79a2a179d85b019751" => :high_sierra
+    sha256 "a1526051fec27934095b8667a02267c11561f0b88c0059c86f34b53e566c1ba1" => :x86_64_linux
   end
 
   depends_on :macos => :high_sierra if OS.mac? # needs C++17
