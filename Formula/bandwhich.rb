@@ -10,6 +10,7 @@ class Bandwhich < Formula
     sha256 "be61a88fcc4db486997852567b8f3f63519ca3e496e6bd3c70d14f839b992b6c" => :catalina
     sha256 "b25bc4e540777cae90d8101afe6bd3c888cb3e87126cb5ac38bd467cccdaa97e" => :mojave
     sha256 "67ae6ace43332da1fd0ed1dcc7ce4c4643cffc9d517ebe2469c6518b8ad08074" => :high_sierra
+    sha256 "ac3099481acf804b5de88e2539c815c9e28b9b5d0e108542e6f5056fdbe252f2" => :x86_64_linux
   end
 
   depends_on "rust" => :build
