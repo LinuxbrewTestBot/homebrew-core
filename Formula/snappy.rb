@@ -11,6 +11,7 @@ class Snappy < Formula
     sha256 "b15a258346dc93bd5c6900a405ccb2e9e02ebfeb5b16607b340cc6a5a021eba3" => :catalina
     sha256 "e996c3b0dfac02c8cdd06d849db47e853800389ff7d18fa66526d7d51d305589" => :mojave
     sha256 "77276307037cc20bf44c86fef60b1745c1d8f84d6f963332535b34868f5fc2b4" => :high_sierra
+    sha256 "974fd12573f3a9e37740b62938ac2c62e03fd1030340dc007db88abdc2e8e2c3" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
