@@ -11,6 +11,7 @@ class Hey < Formula
     sha256 "833f09f5322dd41cc3438f9880d557941652073d02acc2971181aa1c5b4f6a7d" => :catalina
     sha256 "902d975f8dbc7f27890d56eed1a377bd880225b6860e2e7db6fed4f03e58c077" => :mojave
     sha256 "2111023b9742683d7beb4c1383f59daff60fe019ffcf5fbc91d9e3f68386dc5f" => :high_sierra
+    sha256 "bf990ec4a12d1d422967561409f41f0bd1fec17ff3e4474ae7f315b6cd1d9b79" => :x86_64_linux
   end
 
   depends_on "go" => :build
