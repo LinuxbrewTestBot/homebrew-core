@@ -10,6 +10,7 @@ class MkConfigure < Formula
     sha256 "faa0d51e2b96f31bf2562ef9a85f8306f666f9e246c8bfed69e2203b5d232545" => :catalina
     sha256 "faa0d51e2b96f31bf2562ef9a85f8306f666f9e246c8bfed69e2203b5d232545" => :mojave
     sha256 "faa0d51e2b96f31bf2562ef9a85f8306f666f9e246c8bfed69e2203b5d232545" => :high_sierra
+    sha256 "bf9ee9082cd21efe60ea0b132ce2c19f59b0308418583f0c52b447a71439fc32" => :x86_64_linux
   end
 
   depends_on "bmake"
