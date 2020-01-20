@@ -11,6 +11,7 @@ class Cheat < Formula
     sha256 "e3d39eb160b8a837d7bd05f6dbd06bfb5ee6588e5021f6ff020be1633bc1f0bf" => :catalina
     sha256 "77dc6e0148693bf8b217892f319dbcf14b4bf494d01b0c6360b8d5821e0c8501" => :mojave
     sha256 "d57f38d8efe1950378ae7b3e02ad4d7e6075a5147266f64e3f2f375a179563c4" => :high_sierra
+    sha256 "2e6a3e67bce202c63f481ae1ebc2a1ff1a40b4b2809564e959dac87089e5ce13" => :x86_64_linux
   end
 
   depends_on "go" => :build
