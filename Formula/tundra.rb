@@ -10,6 +10,7 @@ class Tundra < Formula
     sha256 "1fc64ded68e72f075e17af506b659e1845ed7f44e84353e02551748b7f0ee315" => :catalina
     sha256 "28503f4c9c034763e826103dfb687803ebb68a243d6762975d588fdfd19325b1" => :mojave
     sha256 "a4397eba195c1753ecc9839c367b91c0baf3404361e646f2b78728bcf6eeea0d" => :high_sierra
+    sha256 "8be58ad25f89c22c531d84dbcdd97ae25ad8f8b68b7cdfd6bb880fdf3782c54a" => :x86_64_linux
   end
 
   resource "gtest" do
