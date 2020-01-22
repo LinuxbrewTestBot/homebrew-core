@@ -10,6 +10,7 @@ class Govc < Formula
     sha256 "31a1fc203332ce6512244d40cfa8660fe28f803e8c9b2139c3da8ed1fa397892" => :catalina
     sha256 "479a3fdf5ca45736b0e25f1cacba96108d819f76223c53a5db188323c7e20bd6" => :mojave
     sha256 "479a0568abad5b752460fa15ffe10006ef7ea7ddd5b0b8c1c47d29459ee20ca5" => :high_sierra
+    sha256 "25c8dfbd5d46bd4c4593151e157648b06b7155ba5d2b4ffc16d5091f417618a1" => :x86_64_linux
   end
 
   depends_on "go" => :build
