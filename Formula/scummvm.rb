@@ -10,6 +10,7 @@ class Scummvm < Formula
     sha256 "1766f48033c6e9e7623651f41dc5a90ca1dc66ad45b002c35d9e509ef094102f" => :catalina
     sha256 "3ebe35adc3b622ab979c9fc57d82ca1706803df8ee658cfc478dc9f4079a0f67" => :mojave
     sha256 "c1fe0968af5a27e3dffdbf7829e953c1fc3f677c01b324d48db5436177cb0f5d" => :high_sierra
+    sha256 "d641e842c9a6009e7a74ec18333fd2c0f1fa55aa81116c2ccf588c753e44c839" => :x86_64_linux
   end
 
   depends_on "a52dec"
