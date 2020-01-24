@@ -9,6 +9,7 @@ class P11Kit < Formula
     sha256 "8cb6adb07849a57acc64fa88ed13951b91c1fb7e4386a28e653733e5f238bc4e" => :catalina
     sha256 "fc997181dd3e2f0e7d406e48eee6c324ee280972baa240d4f0887ba441ae7083" => :mojave
     sha256 "7e2249bc81ba4f4eef9b7a996cafbfce79d99504e149c5d350830af5c12da9be" => :high_sierra
+    sha256 "c8a5223be1325a653744aab148c965284bc19a63b1adbd60772d8374b6b4a7b0" => :x86_64_linux
   end
 
   head do
