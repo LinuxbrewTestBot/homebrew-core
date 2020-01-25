@@ -10,6 +10,7 @@ class Akamai < Formula
     sha256 "a986f3bfc261227cd44447d5ff9cdfb461c50c002118d36caed068f5859432e1" => :catalina
     sha256 "ce3ea6b8dba89d48bfec3be3bbf5701e7b1dcdde7a2f76a97dd668752b1e95fb" => :mojave
     sha256 "2b6d07c4926858e1be33bef070a925a6746f396fa27566aaa313d5a2673cb25f" => :high_sierra
+    sha256 "748751d8976fcaaa48a7921168a25794a81ca3bbd978471f1757e7346854783d" => :x86_64_linux
   end
 
   depends_on "dep" => :build
