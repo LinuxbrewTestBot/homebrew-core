@@ -12,6 +12,7 @@ class Octant < Formula
     sha256 "4112688a8ed55afab44eae20e07f78018211ce28f37a8009618c588447d2d861" => :catalina
     sha256 "0e9211251838203cd6ecdf3c9eee79ab54c6097939ab2b152e33326455aeddb5" => :mojave
     sha256 "e6f0bec2f6469cf42c6b274b6d91d5ecc6d99f137eb16aedb913b15367de6f20" => :high_sierra
+    sha256 "4fcf91f5254ba565bfa32e111ee619c6667f0c3d10be18cd64aa64ed572303cc" => :x86_64_linux
   end
 
   depends_on "go" => :build
