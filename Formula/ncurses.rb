@@ -11,6 +11,7 @@ class Ncurses < Formula
     sha256 "4776644ae1dde76e4f1afa169278cd8a8f1b38a845866db57a542829b9c9e60c" => :catalina
     sha256 "9ae7d52a9fdc8941884b4cf606555f939450e68f3eb90fa2c8cd1d3e432727b6" => :mojave
     sha256 "7c02ea1f682af10b1ec7e98da52bb408d5f6fdb6668bdd0170b0707e6ec74e94" => :high_sierra
+    sha256 "80656683e86ab066b0d0f21eb644fa89a96d825c81f1653f0a6f5447ad72c0c7" => :x86_64_linux
   end
 
   keg_only :provided_by_macos
