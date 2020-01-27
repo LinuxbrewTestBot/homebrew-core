@@ -10,6 +10,7 @@ class Mpv < Formula
     sha256 "dd0fe84dea1268524e18d210595e31b295906e334ae8114124b94a94d130de60" => :catalina
     sha256 "22c3aa2fb8ec77b5125c836badf0ad7889b512280f54f310c5a6ab8e77099fa6" => :mojave
     sha256 "0477b20f9a166d746d84c2a7d0b191159c6825512fe66c38ddf9ca6c43403d97" => :high_sierra
+    sha256 "41a811990283f63ce8d2132715ee2ada8b15fd29b11df5427d5ae0b40e947816" => :x86_64_linux
   end
 
   depends_on "docutils" => :build
