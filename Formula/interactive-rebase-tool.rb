@@ -10,6 +10,7 @@ class InteractiveRebaseTool < Formula
     sha256 "2a8d8d62c2b236884b25b0c43bfda93365501a80f807cabb071c7a682a2ea86b" => :catalina
     sha256 "5be78d2011eb211939a6d4632f279477315c0bffd321c1aa303910756e966a48" => :mojave
     sha256 "d28ef2f9af69ce2374eae1ad39591a575b5bc743e208b2cb023b8b432a4a231c" => :high_sierra
+    sha256 "9eb4236fb434284e1d85d7f05cb68d8ffe052a05ce4963f7e5f81127e6e2bd72" => :x86_64_linux
   end
 
   depends_on "rust" => :build
