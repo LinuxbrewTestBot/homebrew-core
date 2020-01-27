@@ -12,6 +12,7 @@ class Healpix < Formula
     sha256 "15b3b3d37de957c018e56ccfdc87c5d44cbb658b3d197f90b660b194f44d7b54" => :catalina
     sha256 "2c255d6791ca868a7a6568f609bcf7d9e52350dafa615ecabad0adb924863c34" => :mojave
     sha256 "5a1d7d01df7445395df8475a2cb2c2e7d5200c73a3702f57109566a7f8698fa3" => :high_sierra
+    sha256 "fc9570e5da955b5aa5f592b9b1ab27b5a28f04fdec6cb62a8c6dcd5e4162531a" => :x86_64_linux
   end
 
   depends_on "autoconf" => :build
