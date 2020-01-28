@@ -11,6 +11,7 @@ class Ninja < Formula
     sha256 "b536415ef20ab14e808ef3fe558bbcd4c86de048d7e47cc86906fed4e1507fdc" => :catalina
     sha256 "07c7d5eab06643969950a168b7a4ce34a39d236869e909942294eb136dfe3063" => :mojave
     sha256 "e413c88eed509424d118a0b61b7b3c63535fc7c8c92cd336322db7a8af9cf6e0" => :high_sierra
+    sha256 "dc944c762e5b4e52c014d24d6d43c7696696607c251347acd2fe2f88d0a45610" => :x86_64_linux
   end
 
   uses_from_macos "python@2"
