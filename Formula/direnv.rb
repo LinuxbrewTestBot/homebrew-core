@@ -11,6 +11,7 @@ class Direnv < Formula
     sha256 "31a7b6b1f16dd3e881ec693cb83e07757500f8d4810a5ebad3ab5986f7a6ef28" => :catalina
     sha256 "6a79378f41555b964e95c093c4a693fd2252c873bae453ebb309ec148eaeac7b" => :mojave
     sha256 "e490c0f7a242c35343e2f4d108b069380a9f73b2c7656d23db1c8940e549920b" => :high_sierra
+    sha256 "b72948a6abebfa853d2a6640c50604a84d6f407ba3f011aff5e67673cbbc1058" => :x86_64_linux
   end
 
   depends_on "go" => :build
