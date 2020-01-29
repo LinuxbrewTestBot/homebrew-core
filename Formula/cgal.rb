@@ -9,6 +9,7 @@ class Cgal < Formula
     sha256 "91b1ca6db31e4132b36c2bf2ef6b1ff812daa78d750fe83664f63b1d8713ce77" => :catalina
     sha256 "91b1ca6db31e4132b36c2bf2ef6b1ff812daa78d750fe83664f63b1d8713ce77" => :mojave
     sha256 "91b1ca6db31e4132b36c2bf2ef6b1ff812daa78d750fe83664f63b1d8713ce77" => :high_sierra
+    sha256 "6c8b061703ad470ef0bc2f710f63119d1ef057100d32ce7eecb0e1a1b7342c83" => :x86_64_linux
   end
 
   depends_on "cmake" => [:build, :test]
