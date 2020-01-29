@@ -10,6 +10,7 @@ class Memcached < Formula
     sha256 "e51087b5f555e07edfaec6ea6c7d6f9391cc3e7db70c9a2c0d94c7b1a20ebb51" => :catalina
     sha256 "f74f56c7e1e8c358694a0cb4842d4c8e002a4bc7c7249b4cea64997195c0a781" => :mojave
     sha256 "851b26d026604f265cb237f53aaa3d47fde7ceaad564c9eb3ab6b946897a0c9f" => :high_sierra
+    sha256 "cc3cd63b13a9f23202b5e736c3b12d81f0d367609515e855cb31fed1f0eed828" => :x86_64_linux
   end
 
   depends_on "libevent"
