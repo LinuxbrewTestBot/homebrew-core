@@ -12,6 +12,7 @@ class Cloc < Formula
     sha256 "efc3757be2925b654cc317cc7f28dd3b8a7af83898cba21ce2dd48e47a3d642b" => :catalina
     sha256 "d3ef73f5832515c2b6500815826e1f5ac172a62c2079e503dd9fee92433b236d" => :mojave
     sha256 "0eedafaa2a69493f39b0ea619ecbb5193a55a3519a0c5c914fc75700510b2394" => :high_sierra
+    sha256 "23f263d3782e0290d59a215c6d4ef58d7df4d75a67be98e8d0c2144ce0dcb6a3" => :x86_64_linux
   end
 
   unless OS.mac?
