@@ -10,6 +10,7 @@ class Check < Formula
     sha256 "c6adc313137a97331bebce862758d1235f590c37bfc855920f953edf858c8d85" => :catalina
     sha256 "244b4b72dfed2d2950e3f3183e8d3a1207fef62470643097402dbf34b5223303" => :mojave
     sha256 "b61bb914f053c31a8dcb86394d10d3e3b77b2d71ebe2c4f21585f05f15594d8e" => :high_sierra
+    sha256 "a70d4cd0cb5ce7dfa792fc10109cf64211fe0cc61853a2861eb7c8ccf69b73b4" => :x86_64_linux
   end
 
   uses_from_macos "gawk"
