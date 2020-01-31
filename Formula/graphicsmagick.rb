@@ -10,6 +10,7 @@ class Graphicsmagick < Formula
     sha256 "686a3023fc83847fa578847847101333c5fd9589b6144765aa5207633765166b" => :catalina
     sha256 "30f308ab208513337eb0ec08a618259a0c4dd090f7a13c6edda27cd3ab82a999" => :mojave
     sha256 "badf698c7e0667cb41b62945655edcce10c0cf12260babd6b53b4947bb1771c1" => :high_sierra
+    sha256 "31017084994413328e0ce8992eacce18d633001f4f7425b871b33a9118739a0e" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
